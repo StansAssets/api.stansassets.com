@@ -7,7 +7,7 @@
           "src":"../../Plugins/Assets/Plugins/StansAssets/"
         }
       ],
-      "dest": "ios-nativei"
+      "dest": "ios-native"
     },
     {
       "src": [
@@ -16,7 +16,7 @@
           "src":"../../Plugins/Assets/Plugins/StansAssets/"
         }
       ],
-      "dest": "android-nativei"
+      "dest": "android-native"
     },
      {
       "src": [
@@ -25,7 +25,7 @@
           "src":"../../Plugins/Assets/Plugins/StansAssets/"
         }
       ],
-      "dest": "ultimate-mobilei"
+      "dest": "ultimate-mobile"
     }
   ],
   "build": {
@@ -72,7 +72,7 @@
         ]
       }
     ],
-    "dest": "../doc",
+    "dest": "../docs",
     "template": ["default", "templates/unity"]
   }
 }
