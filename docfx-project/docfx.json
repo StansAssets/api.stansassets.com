@@ -3,8 +3,8 @@
     {
       "src": [
         {
-          "files":"NativePlugins/IOSNativePro/**.cs",
-          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+          "files":["Editor/**.cs", "Runtime/**.cs"],
+          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/IOSNativePro"
         }
       ],
       "dest": "ios-native"
@@ -12,8 +12,8 @@
     {
       "src": [
         {
-          "files":"NativePlugins/AndroidNativePro/**.cs",
-          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+          "files":["Editor/**.cs", "Runtime/**.cs"],
+          "src":"../../Plugins/Assets/Plugins/StansAssets/NativePlugins/AndroidNativePro"
         }
       ],
       "dest": "android-native"
