@@ -1,0 +1,787 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.StringExtensions
+  commentId: T:StansAssets.Foundation.StringExtensions
+  id: StringExtensions
+  parent: StansAssets.Foundation
+  children:
+  - StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  - StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  - StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+  - StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+  - StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+  - StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+  - StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringExtensions
+  nameWithType: StringExtensions
+  fullName: StansAssets.Foundation.StringExtensions
+  type: Class
+  source:
+    id: StringExtensions
+    path: ''
+    startLine: 487
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: public static class StringExtensions
+    content.vb: Public Module StringExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+  id: GetLast(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLast(String, Int32)
+  nameWithType: StringExtensions.GetLast(String, Int32)
+  fullName: StansAssets.Foundation.StringExtensions.GetLast(System.String, System.Int32)
+  type: Method
+  source:
+    id: GetLast
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRetrieves specified symbols amount from the end of the string.\n"
+  example: []
+  syntax:
+    content: public static string GetLast(this string source, int count)
+    parameters:
+    - id: source
+      type: System.String
+      description: Source string.
+    - id: count
+      type: System.Int32
+      description: Amount of symbols
+    return:
+      type: System.String
+      description: Specified symbols amount from the end of the string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLast(source As String, count As Integer) As String
+  overload: StansAssets.Foundation.StringExtensions.GetLast*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+  id: RemoveLast(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: RemoveLast(String, Int32)
+  nameWithType: StringExtensions.RemoveLast(String, Int32)
+  fullName: StansAssets.Foundation.StringExtensions.RemoveLast(System.String, System.Int32)
+  type: Method
+  source:
+    id: RemoveLast
+    path: ''
+    startLine: 506
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRemoves specified symbols amount from the end of the string.\n"
+  example: []
+  syntax:
+    content: public static string RemoveLast(this string source, int count)
+    parameters:
+    - id: source
+      type: System.String
+      description: Source string.
+    - id: count
+      type: System.Int32
+      description: Amount of symbols
+    return:
+      type: System.String
+      description: Modified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RemoveLast(source As String, count As Integer) As String
+  overload: StansAssets.Foundation.StringExtensions.RemoveLast*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+  id: GetFirst(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetFirst(String, Int32)
+  nameWithType: StringExtensions.GetFirst(String, Int32)
+  fullName: StansAssets.Foundation.StringExtensions.GetFirst(System.String, System.Int32)
+  type: Method
+  source:
+    id: GetFirst
+    path: ''
+    startLine: 517
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRetrieves specified symbols amount from the beginning of the string.\n"
+  example: []
+  syntax:
+    content: public static string GetFirst(this string source, int count)
+    parameters:
+    - id: source
+      type: System.String
+      description: Source string.
+    - id: count
+      type: System.Int32
+      description: Amount of symbols
+    return:
+      type: System.String
+      description: Specified symbols amount from the beginning of the string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFirst(source As String, count As Integer) As String
+  overload: StansAssets.Foundation.StringExtensions.GetFirst*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  commentId: M:StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  id: AllIndexesOf(System.String,System.String,StringComparison)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: AllIndexesOf(String, String, StringComparison)
+  nameWithType: StringExtensions.AllIndexesOf(String, String, StringComparison)
+  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String, System.String, StringComparison)
+  type: Method
+  source:
+    id: AllIndexesOf
+    path: ''
+    startLine: 530
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nMethod will return all the indexes for a matched string.\n"
+  example: []
+  syntax:
+    content: public static List<int> AllIndexesOf(this string source, string value, StringComparison comparisonType)
+    parameters:
+    - id: source
+      type: System.String
+      description: Source string.
+    - id: value
+      type: System.String
+      description: String Value to look for.
+    - id: comparisonType
+      type: StringComparison
+      description: Comparison Type.
+    return:
+      type: List{System.Int32}
+      description: Indexes for a matched string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AllIndexesOf(source As String, value As String, comparisonType As StringComparison) As List(Of Integer)
+  overload: StansAssets.Foundation.StringExtensions.AllIndexesOf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  commentId: M:StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  id: CopyToClipboard(System.String)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: CopyToClipboard(String)
+  nameWithType: StringExtensions.CopyToClipboard(String)
+  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  type: Method
+  source:
+    id: CopyToClipboard
+    path: ''
+    startLine: 549
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nCopy specified string to the system copy buffer.\n"
+  example: []
+  syntax:
+    content: public static void CopyToClipboard(this string source)
+    parameters:
+    - id: source
+      type: System.String
+      description: '>Source string.'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CopyToClipboard(source As String)
+  overload: StansAssets.Foundation.StringExtensions.CopyToClipboard*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  commentId: M:StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  id: TrimStart(System.String,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TrimStart(String, String)
+  nameWithType: StringExtensions.TrimStart(String, String)
+  fullName: StansAssets.Foundation.StringExtensions.TrimStart(System.String, System.String)
+  type: Method
+  source:
+    id: TrimStart
+    path: ''
+    startLine: 562
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRemoves all the leading occurrences of specified string from the current string.\n"
+  example: []
+  syntax:
+    content: public static string TrimStart(this string target, string trimString)
+    parameters:
+    - id: target
+      type: System.String
+      description: Current string.
+    - id: trimString
+      type: System.String
+      description: A string to remove.
+    return:
+      type: System.String
+      description: The string that remains after all occurrences of trimString parameter are removed from the start of the current string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TrimStart(target As String, trimString As String) As String
+  overload: StansAssets.Foundation.StringExtensions.TrimStart*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+  commentId: M:StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+  id: TrimEnd(System.String,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.StringExtensions
+  langs:
+  - csharp
+  - vb
+  name: TrimEnd(String, String)
+  nameWithType: StringExtensions.TrimEnd(String, String)
+  fullName: StansAssets.Foundation.StringExtensions.TrimEnd(System.String, System.String)
+  type: Method
+  source:
+    id: TrimEnd
+    path: ''
+    startLine: 581
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRemoves all the trailing occurrences of specified string from the current string.\n"
+  example: []
+  syntax:
+    content: public static string TrimEnd(this string target, string trimString)
+    parameters:
+    - id: target
+      type: System.String
+      description: Current string
+    - id: trimString
+      type: System.String
+      description: A string to remove.
+    return:
+      type: System.String
+      description: The string that remains after all occurrences of trimString parameter are removed from the end of the current string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TrimEnd(target As String, trimString As String) As String
+  overload: StansAssets.Foundation.StringExtensions.TrimEnd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.StringExtensions.GetLast*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.GetLast
+  name: GetLast
+  nameWithType: StringExtensions.GetLast
+  fullName: StansAssets.Foundation.StringExtensions.GetLast
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StansAssets.Foundation.StringExtensions.RemoveLast*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.RemoveLast
+  name: RemoveLast
+  nameWithType: StringExtensions.RemoveLast
+  fullName: StansAssets.Foundation.StringExtensions.RemoveLast
+- uid: StansAssets.Foundation.StringExtensions.GetFirst*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.GetFirst
+  name: GetFirst
+  nameWithType: StringExtensions.GetFirst
+  fullName: StansAssets.Foundation.StringExtensions.GetFirst
+- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.AllIndexesOf
+  name: AllIndexesOf
+  nameWithType: StringExtensions.AllIndexesOf
+  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf
+- uid: StringComparison
+  commentId: '!:StringComparison'
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: StringComparison
+- uid: List{System.Int32}
+  commentId: '!:List{System.Int32}'
+  definition: List`1
+  name: List<Int32>
+  nameWithType: List<Int32>
+  fullName: List<System.Int32>
+  nameWithType.vb: List(Of Int32)
+  fullName.vb: List(Of System.Int32)
+  name.vb: List(Of Int32)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.CopyToClipboard
+  name: CopyToClipboard
+  nameWithType: StringExtensions.CopyToClipboard
+  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard
+- uid: StansAssets.Foundation.StringExtensions.TrimStart*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimStart
+  name: TrimStart
+  nameWithType: StringExtensions.TrimStart
+  fullName: StansAssets.Foundation.StringExtensions.TrimStart
+- uid: StansAssets.Foundation.StringExtensions.TrimEnd*
+  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimEnd
+  name: TrimEnd
+  nameWithType: StringExtensions.TrimEnd
+  fullName: StansAssets.Foundation.StringExtensions.TrimEnd

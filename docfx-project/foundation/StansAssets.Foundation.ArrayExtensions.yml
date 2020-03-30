@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.ArrayExtensions
+  commentId: T:StansAssets.Foundation.ArrayExtensions
+  id: ArrayExtensions
+  parent: StansAssets.Foundation
+  children:
+  - StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
+  - StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ArrayExtensions
+  nameWithType: ArrayExtensions
+  fullName: StansAssets.Foundation.ArrayExtensions
+  type: Class
+  source:
+    id: ArrayExtensions
+    path: ''
+    startLine: 450
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nCSharp Array extension methods.\n"
+  example: []
+  syntax:
+    content: public static class ArrayExtensions
+    content.vb: Public Module ArrayExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
+  commentId: M:StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
+  id: SubArray``1(``0[],System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.ArrayExtensions
+  langs:
+  - csharp
+  - vb
+  name: SubArray<T>(T[], Int32, Int32)
+  nameWithType: ArrayExtensions.SubArray<T>(T[], Int32, Int32)
+  fullName: StansAssets.Foundation.ArrayExtensions.SubArray<T>(T[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SubArray
+    path: ''
+    startLine: 459
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nReturns a shallow copy of a portion of an current array as a new array object.\n"
+  example: []
+  syntax:
+    content: public static T[] SubArray<T>(this T[] data, int index, int length)
+    parameters:
+    - id: data
+      type: '{T}[]'
+      description: A current array.
+    - id: index
+      type: System.Int32
+      description: The index of the first copied element.
+    - id: length
+      type: System.Int32
+      description: The number of elements to copy.
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}[]'
+      description: A new array containing the current array&apos;s elements that fall within the limits specified by index and length.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SubArray(Of T)(data As T(), index As Integer, length As Integer) As T()
+  overload: StansAssets.Foundation.ArrayExtensions.SubArray*
+  nameWithType.vb: ArrayExtensions.SubArray(Of T)(T(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.ArrayExtensions.SubArray(Of T)(T(), System.Int32, System.Int32)
+  name.vb: SubArray(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  commentId: M:StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  id: SwapElements``1(``0[],System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.ArrayExtensions
+  langs:
+  - csharp
+  - vb
+  name: SwapElements<T>(T[], Int32, Int32)
+  nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
+  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements<T>(T[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: SwapElements
+    path: ''
+    startLine: 472
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nSwaps two elements in the current array.\n"
+  example: []
+  syntax:
+    content: public static void SwapElements<T>(this T[] data, int index0, int index1)
+    parameters:
+    - id: data
+      type: '{T}[]'
+      description: A current array.
+    - id: index0
+      type: System.Int32
+      description: The index of the first element to swap.
+    - id: index1
+      type: System.Int32
+      description: The index of the second element to swap.
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SwapElements(Of T)(data As T(), index0 As Integer, index1 As Integer)
+  overload: StansAssets.Foundation.ArrayExtensions.SwapElements*
+  nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
+  name.vb: SwapElements(Of T)(T(), Int32, Int32)
+references:
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.ArrayExtensions.SubArray*
+  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SubArray
+  name: SubArray
+  nameWithType: ArrayExtensions.SubArray
+  fullName: StansAssets.Foundation.ArrayExtensions.SubArray
+- uid: '{T}[]'
+  isExternal: true
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StansAssets.Foundation.ArrayExtensions.SwapElements*
+  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SwapElements
+  name: SwapElements
+  nameWithType: ArrayExtensions.SwapElements
+  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements

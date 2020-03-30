@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Editor.EnumUtility
+  commentId: T:StansAssets.Foundation.Editor.EnumUtility
+  id: EnumUtility
+  parent: StansAssets.Foundation.Editor
+  children:
+  - StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum``1(System.String)
+  - StansAssets.Foundation.Editor.EnumUtility.ParseEnum``1(System.String)
+  - StansAssets.Foundation.Editor.EnumUtility.TryParseEnum``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: EnumUtility
+  nameWithType: EnumUtility
+  fullName: StansAssets.Foundation.Editor.EnumUtility
+  type: Class
+  source:
+    id: EnumUtility
+    path: ''
+    startLine: 722
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nEnum Utility Methods.\n"
+  example: []
+  syntax:
+    content: public static class EnumUtility
+    content.vb: Public Module EnumUtility
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum``1(System.String)
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum``1(System.String)
+  id: CanBeParsedToEnum``1(System.String)
+  parent: StansAssets.Foundation.Editor.EnumUtility
+  langs:
+  - csharp
+  - vb
+  name: CanBeParsedToEnum<T>(String)
+  nameWithType: EnumUtility.CanBeParsedToEnum<T>(String)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum<T>(System.String)
+  type: Method
+  source:
+    id: CanBeParsedToEnum
+    path: ''
+    startLine: 728
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nCheck&apos;s if a given string can be parsed to a specified enum type.\n"
+  example: []
+  syntax:
+    content: public static bool CanBeParsedToEnum<T>(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: String enum value.
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function CanBeParsedToEnum(Of T)(value As String) As Boolean
+  overload: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum*
+  nameWithType.vb: EnumUtility.CanBeParsedToEnum(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum(Of T)(System.String)
+  name.vb: CanBeParsedToEnum(Of T)(String)
+- uid: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum``1(System.String,``0@)
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.TryParseEnum``1(System.String,``0@)
+  id: TryParseEnum``1(System.String,``0@)
+  parent: StansAssets.Foundation.Editor.EnumUtility
+  langs:
+  - csharp
+  - vb
+  name: TryParseEnum<T>(String, out T)
+  nameWithType: EnumUtility.TryParseEnum<T>(String, out T)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum<T>(System.String, out T)
+  type: Method
+  source:
+    id: TryParseEnum
+    path: ''
+    startLine: 746
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nTries to parse string value to a specified enum type.\n"
+  example: []
+  syntax:
+    content: public static bool TryParseEnum<T>(string value, out T result)
+    parameters:
+    - id: value
+      type: System.String
+      description: String enum value.
+    - id: result
+      type: '{T}'
+      description: Enum result.
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryParseEnum(Of T)(value As String, ByRef result As T) As Boolean
+  overload: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum*
+  nameWithType.vb: EnumUtility.TryParseEnum(Of T)(String, ByRef T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum(Of T)(System.String, ByRef T)
+  name.vb: TryParseEnum(Of T)(String, ByRef T)
+- uid: StansAssets.Foundation.Editor.EnumUtility.ParseEnum``1(System.String)
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.ParseEnum``1(System.String)
+  id: ParseEnum``1(System.String)
+  parent: StansAssets.Foundation.Editor.EnumUtility
+  langs:
+  - csharp
+  - vb
+  name: ParseEnum<T>(String)
+  nameWithType: EnumUtility.ParseEnum<T>(String)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.ParseEnum<T>(System.String)
+  type: Method
+  source:
+    id: ParseEnum
+    path: ''
+    startLine: 765
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nTries to parse string value to a specified enum type.\nWill print a warning in case of failure, and return default value for a given Enum type.\n"
+  example: []
+  syntax:
+    content: public static T ParseEnum<T>(string value)
+    parameters:
+    - id: value
+      type: System.String
+      description: String enum value.
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ParseEnum(Of T)(value As String) As T
+  overload: StansAssets.Foundation.Editor.EnumUtility.ParseEnum*
+  nameWithType.vb: EnumUtility.ParseEnum(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.ParseEnum(Of T)(System.String)
+  name.vb: ParseEnum(Of T)(String)
+references:
+- uid: StansAssets.Foundation.Editor
+  commentId: N:StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum*
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum
+  name: CanBeParsedToEnum
+  nameWithType: EnumUtility.CanBeParsedToEnum
+  fullName: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum*
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.TryParseEnum
+  name: TryParseEnum
+  nameWithType: EnumUtility.TryParseEnum
+  fullName: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StansAssets.Foundation.Editor.EnumUtility.ParseEnum*
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.ParseEnum
+  name: ParseEnum
+  nameWithType: EnumUtility.ParseEnum
+  fullName: StansAssets.Foundation.Editor.EnumUtility.ParseEnum

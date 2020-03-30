@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.UIElements
+  commentId: N:StansAssets.Foundation.UIElements
+  id: StansAssets.Foundation.UIElements
+  children:
+  - StansAssets.Foundation.UIElements.ButtonStrip
+  - StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  - StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  - StansAssets.Foundation.UIElements.UIElementsUtility
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.Foundation.UIElements
+  nameWithType: StansAssets.Foundation.UIElements
+  fullName: StansAssets.Foundation.UIElements
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.Foundation.UIElements.UIElementsUtility
+  commentId: T:StansAssets.Foundation.UIElements.UIElementsUtility
+  name: UIElementsUtility
+  nameWithType: UIElementsUtility
+  fullName: StansAssets.Foundation.UIElements.UIElementsUtility
+- uid: StansAssets.Foundation.UIElements.ButtonStrip
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip
+  name: ButtonStrip
+  nameWithType: ButtonStrip
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  name: ButtonStrip.UxmlFactory
+  nameWithType: ButtonStrip.UxmlFactory
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  name: ButtonStrip.UxmlTraits
+  nameWithType: ButtonStrip.UxmlTraits
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits

@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Editor
+  commentId: N:StansAssets.Foundation.Editor
+  id: StansAssets.Foundation.Editor
+  children:
+  - StansAssets.Foundation.Editor.AssetDatabaseUtility
+  - StansAssets.Foundation.Editor.BaseTab
+  - StansAssets.Foundation.Editor.EnumUtility
+  - StansAssets.Foundation.Editor.FoundationPackage
+  - StansAssets.Foundation.Editor.IdFactory
+  - StansAssets.Foundation.Editor.PackageManagerUtility
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  - StansAssets.Foundation.Editor.ReflectionUtility
+  - StansAssets.Foundation.Editor.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.Foundation.Editor.UnixTime
+  commentId: T:StansAssets.Foundation.Editor.UnixTime
+  name: UnixTime
+  nameWithType: UnixTime
+  fullName: StansAssets.Foundation.Editor.UnixTime
+- uid: StansAssets.Foundation.Editor.IdFactory
+  commentId: T:StansAssets.Foundation.Editor.IdFactory
+  name: IdFactory
+  nameWithType: IdFactory
+  fullName: StansAssets.Foundation.Editor.IdFactory
+- uid: StansAssets.Foundation.Editor.ReflectionUtility
+  commentId: T:StansAssets.Foundation.Editor.ReflectionUtility
+  name: ReflectionUtility
+  nameWithType: ReflectionUtility
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility
+- uid: StansAssets.Foundation.Editor.EnumUtility
+  commentId: T:StansAssets.Foundation.Editor.EnumUtility
+  name: EnumUtility
+  nameWithType: EnumUtility
+  fullName: StansAssets.Foundation.Editor.EnumUtility
+- uid: StansAssets.Foundation.Editor.FoundationPackage
+  commentId: T:StansAssets.Foundation.Editor.FoundationPackage
+  name: FoundationPackage
+  nameWithType: FoundationPackage
+  fullName: StansAssets.Foundation.Editor.FoundationPackage
+- uid: StansAssets.Foundation.Editor.BaseTab
+  commentId: T:StansAssets.Foundation.Editor.BaseTab
+  name: BaseTab
+  nameWithType: BaseTab
+  fullName: StansAssets.Foundation.Editor.BaseTab
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  commentId: T:StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  name: PackageSettingsWindow<TWindow>
+  nameWithType: PackageSettingsWindow<TWindow>
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>
+  nameWithType.vb: PackageSettingsWindow(Of TWindow)
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow)
+  name.vb: PackageSettingsWindow(Of TWindow)
+  spec.csharp:
+  - uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+    name: PackageSettingsWindow
+    nameWithType: PackageSettingsWindow
+    fullName: StansAssets.Foundation.Editor.PackageSettingsWindow
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TWindow
+    nameWithType: TWindow
+    fullName: TWindow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+    name: PackageSettingsWindow
+    nameWithType: PackageSettingsWindow
+    fullName: StansAssets.Foundation.Editor.PackageSettingsWindow
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TWindow
+    nameWithType: TWindow
+    fullName: TWindow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility
+  commentId: T:StansAssets.Foundation.Editor.PackageManagerUtility
+  name: PackageManagerUtility
+  nameWithType: PackageManagerUtility
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility
+  commentId: T:StansAssets.Foundation.Editor.AssetDatabaseUtility
+  name: AssetDatabaseUtility
+  nameWithType: AssetDatabaseUtility
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility

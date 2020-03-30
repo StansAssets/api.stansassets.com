@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: SA.Foundation.Editor.EditorDefines
+  commentId: T:SA.Foundation.Editor.EditorDefines
+  id: EditorDefines
+  parent: SA.Foundation.Editor
+  children:
+  - SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  - SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  - SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  - SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  - SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  langs:
+  - csharp
+  - vb
+  name: EditorDefines
+  nameWithType: EditorDefines
+  fullName: SA.Foundation.Editor.EditorDefines
+  type: Class
+  source:
+    id: EditorDefines
+    path: ''
+    startLine: 998
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nProvides method for managing the <see cref=\"!:PlayerSettings\"></see> script defines\n"
+  example: []
+  syntax:
+    content: public static class EditorDefines
+    content.vb: Public Module EditorDefines
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  commentId: M:SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  id: AddCompileDefine(System.String,BuildTarget[])
+  parent: SA.Foundation.Editor.EditorDefines
+  langs:
+  - csharp
+  - vb
+  name: AddCompileDefine(String, BuildTarget[])
+  nameWithType: EditorDefines.AddCompileDefine(String, BuildTarget[])
+  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget[])
+  type: Method
+  source:
+    id: AddCompileDefine
+    path: ''
+    startLine: 1005
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nAttempts to add a new #define constant to the Player Settings\n"
+  example: []
+  syntax:
+    content: public static void AddCompileDefine(string newDefineCompileConstant, params BuildTarget[] targets)
+    parameters:
+    - id: newDefineCompileConstant
+      type: System.String
+      description: constant to attempt to define
+    - id: targets
+      type: BuildTarget[]
+      description: platforms to add this for (default will add to all platforms)
+    content.vb: Public Shared Sub AddCompileDefine(newDefineCompileConstant As String, ParamArray targets As BuildTarget())
+  overload: SA.Foundation.Editor.EditorDefines.AddCompileDefine*
+  nameWithType.vb: EditorDefines.AddCompileDefine(String, BuildTarget())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget())
+  name.vb: AddCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  commentId: M:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  id: RemoveCompileDefine(System.String,BuildTarget[])
+  parent: SA.Foundation.Editor.EditorDefines
+  langs:
+  - csharp
+  - vb
+  name: RemoveCompileDefine(String, BuildTarget[])
+  nameWithType: EditorDefines.RemoveCompileDefine(String, BuildTarget[])
+  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget[])
+  type: Method
+  source:
+    id: RemoveCompileDefine
+    path: ''
+    startLine: 1036
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nAttempts to remove a #define constant from the Player Settings\n"
+  example: []
+  syntax:
+    content: public static void RemoveCompileDefine(string defineCompileConstant, params BuildTarget[] targetGroups)
+    parameters:
+    - id: defineCompileConstant
+      type: System.String
+      description: define constant
+    - id: targetGroups
+      type: BuildTarget[]
+      description: platforms to add this for (default will add to all platforms)
+    content.vb: Public Shared Sub RemoveCompileDefine(defineCompileConstant As String, ParamArray targetGroups As BuildTarget())
+  overload: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine*
+  nameWithType.vb: EditorDefines.RemoveCompileDefine(String, BuildTarget())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget())
+  name.vb: RemoveCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  commentId: M:SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  id: HasCompileDefine(System.String,BuildTarget[])
+  parent: SA.Foundation.Editor.EditorDefines
+  langs:
+  - csharp
+  - vb
+  name: HasCompileDefine(String, BuildTarget[])
+  nameWithType: EditorDefines.HasCompileDefine(String, BuildTarget[])
+  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget[])
+  type: Method
+  source:
+    id: HasCompileDefine
+    path: ''
+    startLine: 1071
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nCheck if define exists\n"
+  example: []
+  syntax:
+    content: public static bool HasCompileDefine(string defineCompileConstant, params BuildTarget[] targets)
+    parameters:
+    - id: defineCompileConstant
+      type: System.String
+      description: constant to attempt to define
+    - id: targets
+      type: BuildTarget[]
+      description: platforms to add this for (default will add to all platforms)
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasCompileDefine(defineCompileConstant As String, ParamArray targets As BuildTarget()) As Boolean
+  overload: SA.Foundation.Editor.EditorDefines.HasCompileDefine*
+  nameWithType.vb: EditorDefines.HasCompileDefine(String, BuildTarget())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget())
+  name.vb: HasCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  id: GetScriptingDefines
+  parent: SA.Foundation.Editor.EditorDefines
+  langs:
+  - csharp
+  - vb
+  name: GetScriptingDefines()
+  nameWithType: EditorDefines.GetScriptingDefines()
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines()
+  type: Method
+  source:
+    id: GetScriptingDefines
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nGet user-specified symbols for script compilation for the current build target group\n"
+  example: []
+  syntax:
+    content: public static string[] GetScriptingDefines()
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetScriptingDefines As String()
+  overload: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  id: GetScriptingDefines(BuildTargetGroup)
+  parent: SA.Foundation.Editor.EditorDefines
+  langs:
+  - csharp
+  - vb
+  name: GetScriptingDefines(BuildTargetGroup)
+  nameWithType: EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  type: Method
+  source:
+    id: GetScriptingDefines
+    path: ''
+    startLine: 1107
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Editor
+  summary: "\nGet user-specified symbols for script compilation for the given build target group\n"
+  example: []
+  syntax:
+    content: public static string[] GetScriptingDefines(BuildTargetGroup targetGroup)
+    parameters:
+    - id: targetGroup
+      type: BuildTargetGroup
+      description: build target group
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function GetScriptingDefines(targetGroup As BuildTargetGroup) As String()
+  overload: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SA.Foundation.Editor
+  commentId: N:SA.Foundation.Editor
+  name: SA.Foundation.Editor
+  nameWithType: SA.Foundation.Editor
+  fullName: SA.Foundation.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine*
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.AddCompileDefine
+  name: AddCompileDefine
+  nameWithType: EditorDefines.AddCompileDefine
+  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BuildTarget[]
+  isExternal: true
+  name: BuildTarget[]
+  nameWithType: BuildTarget[]
+  fullName: BuildTarget[]
+  nameWithType.vb: BuildTarget()
+  fullName.vb: BuildTarget()
+  name.vb: BuildTarget()
+  spec.csharp:
+  - uid: BuildTarget
+    name: BuildTarget
+    nameWithType: BuildTarget
+    fullName: BuildTarget
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BuildTarget
+    name: BuildTarget
+    nameWithType: BuildTarget
+    fullName: BuildTarget
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine*
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
+  name: RemoveCompileDefine
+  nameWithType: EditorDefines.RemoveCompileDefine
+  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
+- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine*
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.HasCompileDefine
+  name: HasCompileDefine
+  nameWithType: EditorDefines.HasCompileDefine
+  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  name: GetScriptingDefines
+  nameWithType: EditorDefines.GetScriptingDefines
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BuildTargetGroup
+  commentId: '!:BuildTargetGroup'
+  isExternal: true
+  name: BuildTargetGroup
+  nameWithType: BuildTargetGroup
+  fullName: BuildTargetGroup

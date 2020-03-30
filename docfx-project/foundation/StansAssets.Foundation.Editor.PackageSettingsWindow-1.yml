@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  commentId: T:StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  id: PackageSettingsWindow`1
+  parent: StansAssets.Foundation.Editor
+  children:
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab(System.String,VisualElement)
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_Tabs
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_TabsButtons
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_WindowRoot
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable(VisualElement)
+  - StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
+  langs:
+  - csharp
+  - vb
+  name: PackageSettingsWindow<TWindow>
+  nameWithType: PackageSettingsWindow<TWindow>
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>
+  type: Class
+  source:
+    id: PackageSettingsWindow
+    path: ''
+    startLine: 1169
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nBase class for Plugin Settings Window\n"
+  example: []
+  syntax:
+    content: 'public abstract class PackageSettingsWindow<TWindow> : EditorWindow where TWindow : EditorWindow'
+    typeParameters:
+    - id: TWindow
+      description: ''
+    content.vb: >-
+      Public MustInherit Class PackageSettingsWindow(Of TWindow As EditorWindow)
+
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  nameWithType.vb: PackageSettingsWindow(Of TWindow)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow)
+  name.vb: PackageSettingsWindow(Of TWindow)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  id: GetPackageInfo
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: GetPackageInfo()
+  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo()
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.GetPackageInfo()
+  type: Method
+  source:
+    id: GetPackageInfo
+    path: ''
+    startLine: 1171
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected abstract PackageInfo GetPackageInfo()
+    return:
+      type: PackageInfo
+    content.vb: Protected MustOverride Function GetPackageInfo As PackageInfo
+  overload: StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo*
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).GetPackageInfo()
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable(VisualElement)
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable(VisualElement)
+  id: OnWindowEnable(VisualElement)
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: OnWindowEnable(VisualElement)
+  nameWithType: PackageSettingsWindow<TWindow>.OnWindowEnable(VisualElement)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnWindowEnable(VisualElement)
+  type: Method
+  source:
+    id: OnWindowEnable
+    path: ''
+    startLine: 1172
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected abstract void OnWindowEnable(VisualElement root)
+    parameters:
+    - id: root
+      type: VisualElement
+    content.vb: Protected MustOverride Sub OnWindowEnable(root As VisualElement)
+  overload: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable*
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnWindowEnable(VisualElement)
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnWindowEnable(VisualElement)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_TabsButtons
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_TabsButtons
+  id: m_TabsButtons
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: m_TabsButtons
+  nameWithType: PackageSettingsWindow<TWindow>.m_TabsButtons
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_TabsButtons
+  type: Field
+  source:
+    id: m_TabsButtons
+    path: ''
+    startLine: 1173
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected ButtonStrip m_TabsButtons
+    return:
+      type: ButtonStrip
+    content.vb: Protected m_TabsButtons As ButtonStrip
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_TabsButtons
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_TabsButtons
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_WindowRoot
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_WindowRoot
+  id: m_WindowRoot
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: m_WindowRoot
+  nameWithType: PackageSettingsWindow<TWindow>.m_WindowRoot
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_WindowRoot
+  type: Field
+  source:
+    id: m_WindowRoot
+    path: ''
+    startLine: 1175
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected VisualElement m_WindowRoot
+    return:
+      type: VisualElement
+    content.vb: Protected m_WindowRoot As VisualElement
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_WindowRoot
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_WindowRoot
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_Tabs
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_Tabs
+  id: m_Tabs
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: m_Tabs
+  nameWithType: PackageSettingsWindow<TWindow>.m_Tabs
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_Tabs
+  type: Field
+  source:
+    id: m_Tabs
+    path: ''
+    startLine: 1176
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected readonly Dictionary<string, VisualElement> m_Tabs
+    return:
+      type: Dictionary{System.String,VisualElement}
+    content.vb: Protected ReadOnly m_Tabs As Dictionary(Of String, VisualElement)
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_Tabs
+  modifiers.csharp:
+  - protected
+  - readonly
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_Tabs
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  id: OnEnable
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: PackageSettingsWindow<TWindow>.OnEnable()
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 1178
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: public void OnEnable()
+    content.vb: Public Sub OnEnable
+  overload: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable*
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnEnable()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnEnable()
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab(System.String,VisualElement)
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab(System.String,VisualElement)
+  id: AddTab(System.String,VisualElement)
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: AddTab(String, VisualElement)
+  nameWithType: PackageSettingsWindow<TWindow>.AddTab(String, VisualElement)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.AddTab(System.String, VisualElement)
+  type: Method
+  source:
+    id: AddTab
+    path: ''
+    startLine: 1210
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected void AddTab(string label, VisualElement content)
+    parameters:
+    - id: label
+      type: System.String
+    - id: content
+      type: VisualElement
+    content.vb: Protected Sub AddTab(label As String, content As VisualElement)
+  overload: StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab*
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).AddTab(String, VisualElement)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).AddTab(System.String, VisualElement)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
+  id: ShowTowardsInspector(System.String,Texture)
+  parent: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  langs:
+  - csharp
+  - vb
+  name: ShowTowardsInspector(String, Texture)
+  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector(String, Texture)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.ShowTowardsInspector(System.String, Texture)
+  type: Method
+  source:
+    id: ShowTowardsInspector
+    path: ''
+    startLine: 1232
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  summary: "\nMethod will show and doc window next to the Inspector Window.\n"
+  example: []
+  syntax:
+    content: public static TWindow ShowTowardsInspector(string windowTitle, Texture icon)
+    parameters:
+    - id: windowTitle
+      type: System.String
+      description: Window Title.
+    - id: icon
+      type: Texture
+      description: Window Icon.
+    return:
+      type: '{TWindow}'
+      description: "\nReturns the first EditorWindow which is currently on the screen.\nIf there is none, creates and shows new window and returns the instance of it.\n"
+    content.vb: Public Shared Function ShowTowardsInspector(windowTitle As String, icon As Texture) As TWindow
+  overload: StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector*
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector(String, Texture)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).ShowTowardsInspector(System.String, Texture)
+references:
+- uid: StansAssets.Foundation.Editor
+  commentId: N:StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo*
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  name: GetPackageInfo
+  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.GetPackageInfo
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).GetPackageInfo
+- uid: PackageInfo
+  isExternal: true
+  name: PackageInfo
+  nameWithType: PackageInfo
+  fullName: PackageInfo
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable*
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable
+  name: OnWindowEnable
+  nameWithType: PackageSettingsWindow<TWindow>.OnWindowEnable
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnWindowEnable
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnWindowEnable
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnWindowEnable
+- uid: VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement
+- uid: ButtonStrip
+  commentId: '!:ButtonStrip'
+  isExternal: true
+  name: ButtonStrip
+  nameWithType: ButtonStrip
+  fullName: ButtonStrip
+- uid: Dictionary{System.String,VisualElement}
+  commentId: '!:Dictionary{System.String,VisualElement}'
+  definition: Dictionary`2
+  name: Dictionary<String, VisualElement>
+  nameWithType: Dictionary<String, VisualElement>
+  fullName: Dictionary<System.String, VisualElement>
+  nameWithType.vb: Dictionary(Of String, VisualElement)
+  fullName.vb: Dictionary(Of System.String, VisualElement)
+  name.vb: Dictionary(Of String, VisualElement)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: VisualElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: VisualElement
+    name: VisualElement
+    nameWithType: VisualElement
+    fullName: VisualElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  commentId: '!:Dictionary`2'
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable*
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  name: OnEnable
+  nameWithType: PackageSettingsWindow<TWindow>.OnEnable
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnEnable
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnEnable
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnEnable
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab*
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab
+  name: AddTab
+  nameWithType: PackageSettingsWindow<TWindow>.AddTab
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.AddTab
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).AddTab
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).AddTab
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector*
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector
+  name: ShowTowardsInspector
+  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.ShowTowardsInspector
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).ShowTowardsInspector
+- uid: Texture
+  commentId: '!:Texture'
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: Texture
+- uid: '{TWindow}'
+  commentId: '!:TWindow'
+  definition: TWindow
+  name: TWindow
+  nameWithType: TWindow
+  fullName: TWindow
+- uid: TWindow
+  commentId: '!:TWindow'
+  name: TWindow
+  nameWithType: TWindow
+  fullName: TWindow

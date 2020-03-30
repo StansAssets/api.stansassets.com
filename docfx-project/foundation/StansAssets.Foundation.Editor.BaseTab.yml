@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Editor.BaseTab
+  commentId: T:StansAssets.Foundation.Editor.BaseTab
+  id: BaseTab
+  parent: StansAssets.Foundation.Editor
+  children:
+  - StansAssets.Foundation.Editor.BaseTab.#ctor(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BaseTab
+  nameWithType: BaseTab
+  fullName: StansAssets.Foundation.Editor.BaseTab
+  type: Class
+  source:
+    id: BaseTab
+    path: ''
+    startLine: 1144
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: 'public abstract class BaseTab : VisualElement'
+    content.vb: >-
+      Public MustInherit Class BaseTab
+
+          Inherits VisualElement
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: StansAssets.Foundation.Editor.BaseTab.#ctor(System.String)
+  commentId: M:StansAssets.Foundation.Editor.BaseTab.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: StansAssets.Foundation.Editor.BaseTab
+  langs:
+  - csharp
+  - vb
+  name: BaseTab(String)
+  nameWithType: BaseTab.BaseTab(String)
+  fullName: StansAssets.Foundation.Editor.BaseTab.BaseTab(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1146
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Editor
+  syntax:
+    content: protected BaseTab(string uxmlPath)
+    parameters:
+    - id: uxmlPath
+      type: System.String
+    content.vb: Protected Sub New(uxmlPath As String)
+  overload: StansAssets.Foundation.Editor.BaseTab.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: StansAssets.Foundation.Editor
+  commentId: N:StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.Editor.BaseTab.#ctor*
+  commentId: Overload:StansAssets.Foundation.Editor.BaseTab.#ctor
+  name: BaseTab
+  nameWithType: BaseTab.BaseTab
+  fullName: StansAssets.Foundation.Editor.BaseTab.BaseTab
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.ScriptableSettings
+  commentId: T:StansAssets.Foundation.ScriptableSettings
+  id: ScriptableSettings
+  parent: StansAssets.Foundation
+  children:
+  - StansAssets.Foundation.ScriptableSettings.BasePath
+  - StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  - StansAssets.Foundation.ScriptableSettings.PluginName
+  - StansAssets.Foundation.ScriptableSettings.VersionCode
+  langs:
+  - csharp
+  - vb
+  name: ScriptableSettings
+  nameWithType: ScriptableSettings
+  fullName: StansAssets.Foundation.ScriptableSettings
+  type: Class
+  source:
+    id: ScriptableSettings
+    path: ''
+    startLine: 208
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: 'public abstract class ScriptableSettings : ScriptableObject'
+    content.vb: >-
+      Public MustInherit Class ScriptableSettings
+
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - StansAssets.Foundation.ScriptableSettingsSingleton`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: StansAssets.Foundation.ScriptableSettings.VersionCode
+  commentId: F:StansAssets.Foundation.ScriptableSettings.VersionCode
+  id: VersionCode
+  parent: StansAssets.Foundation.ScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: VersionCode
+  nameWithType: ScriptableSettings.VersionCode
+  fullName: StansAssets.Foundation.ScriptableSettings.VersionCode
+  type: Field
+  source:
+    id: VersionCode
+    path: ''
+    startLine: 210
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: public string VersionCode
+    return:
+      type: System.String
+    content.vb: Public VersionCode As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Foundation.ScriptableSettings.BasePath
+  commentId: P:StansAssets.Foundation.ScriptableSettings.BasePath
+  id: BasePath
+  parent: StansAssets.Foundation.ScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: BasePath
+  nameWithType: ScriptableSettings.BasePath
+  fullName: StansAssets.Foundation.ScriptableSettings.BasePath
+  type: Property
+  source:
+    id: BasePath
+    path: ''
+    startLine: 212
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: public abstract string BasePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property BasePath As String
+  overload: StansAssets.Foundation.ScriptableSettings.BasePath*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: StansAssets.Foundation.ScriptableSettings.PluginName
+  commentId: P:StansAssets.Foundation.ScriptableSettings.PluginName
+  id: PluginName
+  parent: StansAssets.Foundation.ScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: PluginName
+  nameWithType: ScriptableSettings.PluginName
+  fullName: StansAssets.Foundation.ScriptableSettings.PluginName
+  type: Property
+  source:
+    id: PluginName
+    path: ''
+    startLine: 213
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: public abstract string PluginName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property PluginName As String
+  overload: StansAssets.Foundation.ScriptableSettings.PluginName*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  commentId: P:StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  id: DocumentationUrl
+  parent: StansAssets.Foundation.ScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: DocumentationUrl
+  nameWithType: ScriptableSettings.DocumentationUrl
+  fullName: StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  type: Property
+  source:
+    id: DocumentationUrl
+    path: ''
+    startLine: 214
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: public abstract string DocumentationUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property DocumentationUrl As String
+  overload: StansAssets.Foundation.ScriptableSettings.DocumentationUrl*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+references:
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Foundation.ScriptableSettings.BasePath*
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.BasePath
+  name: BasePath
+  nameWithType: ScriptableSettings.BasePath
+  fullName: StansAssets.Foundation.ScriptableSettings.BasePath
+- uid: StansAssets.Foundation.ScriptableSettings.PluginName*
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.PluginName
+  name: PluginName
+  nameWithType: ScriptableSettings.PluginName
+  fullName: StansAssets.Foundation.ScriptableSettings.PluginName
+- uid: StansAssets.Foundation.ScriptableSettings.DocumentationUrl*
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  name: DocumentationUrl
+  nameWithType: ScriptableSettings.DocumentationUrl
+  fullName: StansAssets.Foundation.ScriptableSettings.DocumentationUrl

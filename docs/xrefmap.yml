@@ -15365,25 +15365,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_AdvertisementService.GetClient
   nameWithType: UM_AdvertisementService.GetClient
-- uid: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI
-  name: UM_AdvertisementUnityAdsUI
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.html
-  commentId: T:SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI
-  fullName: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI
-  nameWithType: UM_AdvertisementUnityAdsUI
-- uid: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI
-  name: OnGUI()
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.html#SA_CrossPlatform_Advertisement_UM_AdvertisementUnityAdsUI_OnGUI
-  commentId: M:SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI
-  fullName: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI()
-  nameWithType: UM_AdvertisementUnityAdsUI.OnGUI()
-- uid: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI*
-  name: OnGUI
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.html#SA_CrossPlatform_Advertisement_UM_AdvertisementUnityAdsUI_OnGUI_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_AdvertisementUnityAdsUI.OnGUI
-  nameWithType: UM_AdvertisementUnityAdsUI.OnGUI
 - uid: SA.CrossPlatform.Advertisement.UM_iAdsClient
   name: UM_iAdsClient
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html
@@ -16459,53 +16440,12 @@ references:
   commentId: N:SA.CrossPlatform.GameServices
   fullName: SA.CrossPlatform.GameServices
   nameWithType: SA.CrossPlatform.GameServices
-- uid: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient
-  name: UM_AbstractSavedGamesClient
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.html
-  commentId: T:SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient
-  fullName: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient
-  nameWithType: UM_AbstractSavedGamesClient
-- uid: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave(System.String,SA_Result)
-  name: ReportGameSave(String, SA_Result)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_AbstractSavedGamesClient_ReportGameSave_System_String_SA_Result_
-  commentId: M:SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave(System.String,SA_Result)
-  fullName: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave(System.String, SA_Result)
-  nameWithType: UM_AbstractSavedGamesClient.ReportGameSave(String, SA_Result)
-- uid: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave*
-  name: ReportGameSave
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_AbstractSavedGamesClient_ReportGameSave_
-  commentId: Overload:SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave
-  isSpec: "True"
-  fullName: SA.CrossPlatform.GameServices.UM_AbstractSavedGamesClient.ReportGameSave
-  nameWithType: UM_AbstractSavedGamesClient.ReportGameSave
 - uid: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult
   name: UM_AchievementsLoadResult
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html
   commentId: T:SA.CrossPlatform.GameServices.UM_AchievementsLoadResult
   fullName: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult
   nameWithType: UM_AchievementsLoadResult
-- uid: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor(List{SA.CrossPlatform.GameServices.UM_iAchievement})
-  name: UM_AchievementsLoadResult(List<UM_iAchievement>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html#SA_CrossPlatform_GameServices_UM_AchievementsLoadResult__ctor_List_SA_CrossPlatform_GameServices_UM_iAchievement__
-  commentId: M:SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor(List{SA.CrossPlatform.GameServices.UM_iAchievement})
-  name.vb: UM_AchievementsLoadResult(List(Of UM_iAchievement))
-  fullName: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.UM_AchievementsLoadResult(List<SA.CrossPlatform.GameServices.UM_iAchievement>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.UM_AchievementsLoadResult(List(Of SA.CrossPlatform.GameServices.UM_iAchievement))
-  nameWithType: UM_AchievementsLoadResult.UM_AchievementsLoadResult(List<UM_iAchievement>)
-  nameWithType.vb: UM_AchievementsLoadResult.UM_AchievementsLoadResult(List(Of UM_iAchievement))
-- uid: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor(SA_Error)
-  name: UM_AchievementsLoadResult(SA_Error)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html#SA_CrossPlatform_GameServices_UM_AchievementsLoadResult__ctor_SA_Error_
-  commentId: M:SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor(SA_Error)
-  fullName: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.UM_AchievementsLoadResult(SA_Error)
-  nameWithType: UM_AchievementsLoadResult.UM_AchievementsLoadResult(SA_Error)
-- uid: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor*
-  name: UM_AchievementsLoadResult
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html#SA_CrossPlatform_GameServices_UM_AchievementsLoadResult__ctor_
-  commentId: Overload:SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.#ctor
-  isSpec: "True"
-  fullName: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.UM_AchievementsLoadResult
-  nameWithType: UM_AchievementsLoadResult.UM_AchievementsLoadResult
 - uid: SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.Achievements
   name: Achievements
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html#SA_CrossPlatform_GameServices_UM_AchievementsLoadResult_Achievements
@@ -18733,338 +18673,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Notifications.UM_TimeIntervalNotificationTrigger.SerRepeating
   nameWithType: UM_TimeIntervalNotificationTrigger.SerRepeating
-- uid: SA.CrossPlatform.Samples
-  name: SA.CrossPlatform.Samples
-  href: ultimate-mobile/SA.CrossPlatform.Samples.html
-  commentId: N:SA.CrossPlatform.Samples
-  fullName: SA.CrossPlatform.Samples
-  nameWithType: SA.CrossPlatform.Samples
-- uid: SA.CrossPlatform.Samples.UM_AchievmentsMetaView
-  name: UM_AchievmentsMetaView
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_AchievmentsMetaView.html
-  commentId: T:SA.CrossPlatform.Samples.UM_AchievmentsMetaView
-  fullName: SA.CrossPlatform.Samples.UM_AchievmentsMetaView
-  nameWithType: UM_AchievmentsMetaView
-- uid: SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle(System.String)
-  name: SetTitle(String)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_AchievmentsMetaView.html#SA_CrossPlatform_Samples_UM_AchievmentsMetaView_SetTitle_System_String_
-  commentId: M:SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle(System.String)
-  fullName: SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle(System.String)
-  nameWithType: UM_AchievmentsMetaView.SetTitle(String)
-- uid: SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle*
-  name: SetTitle
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_AchievmentsMetaView.html#SA_CrossPlatform_Samples_UM_AchievmentsMetaView_SetTitle_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_AchievmentsMetaView.SetTitle
-  nameWithType: UM_AchievmentsMetaView.SetTitle
-- uid: SA.CrossPlatform.Samples.UM_ContactsSample
-  name: UM_ContactsSample
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_ContactsSample.html
-  commentId: T:SA.CrossPlatform.Samples.UM_ContactsSample
-  fullName: SA.CrossPlatform.Samples.UM_ContactsSample
-  nameWithType: UM_ContactsSample
-- uid: SA.CrossPlatform.Samples.UM_GameServiceAchievmentsExample
-  name: UM_GameServiceAchievmentsExample
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameServiceAchievmentsExample.html
-  commentId: T:SA.CrossPlatform.Samples.UM_GameServiceAchievmentsExample
-  fullName: SA.CrossPlatform.Samples.UM_GameServiceAchievmentsExample
-  nameWithType: UM_GameServiceAchievmentsExample
-- uid: SA.CrossPlatform.Samples.UM_GameServiceLeaderboardsExample
-  name: UM_GameServiceLeaderboardsExample
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameServiceLeaderboardsExample.html
-  commentId: T:SA.CrossPlatform.Samples.UM_GameServiceLeaderboardsExample
-  fullName: SA.CrossPlatform.Samples.UM_GameServiceLeaderboardsExample
-  nameWithType: UM_GameServiceLeaderboardsExample
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample
-  name: UM_GameserviceMultiplayerSample
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html
-  commentId: T:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample
-  nameWithType: UM_GameserviceMultiplayerSample
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom(AN_Room)
-  name: OnConnectedToRoom(AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnConnectedToRoom_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom(AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom(AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnConnectedToRoom(AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom*
-  name: OnConnectedToRoom
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnConnectedToRoom_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnConnectedToRoom
-  nameWithType: UM_GameserviceMultiplayerSample.OnConnectedToRoom
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom(AN_Room)
-  name: OnDisconnectedFromRoom(AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnDisconnectedFromRoom_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom(AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom(AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom(AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom*
-  name: OnDisconnectedFromRoom
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnDisconnectedFromRoom_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom
-  nameWithType: UM_GameserviceMultiplayerSample.OnDisconnectedFromRoom
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom(System.Int32,AN_Room)
-  name: OnJoinedRoom(Int32, AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnJoinedRoom_System_Int32_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom(System.Int32,AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom(System.Int32, AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnJoinedRoom(Int32, AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnJoinedRoom_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnJoinedRoom
-  nameWithType: UM_GameserviceMultiplayerSample.OnJoinedRoom
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom(System.Int32,System.String)
-  name: OnLeftRoom(Int32, String)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnLeftRoom_System_Int32_System_String_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom(System.Int32,System.String)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom(System.Int32, System.String)
-  nameWithType: UM_GameserviceMultiplayerSample.OnLeftRoom(Int32, String)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom*
-  name: OnLeftRoom
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnLeftRoom_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnLeftRoom
-  nameWithType: UM_GameserviceMultiplayerSample.OnLeftRoom
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected(System.String)
-  name: OnP2PConnected(String)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnP2PConnected_System_String_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected(System.String)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected(System.String)
-  nameWithType: UM_GameserviceMultiplayerSample.OnP2PConnected(String)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected*
-  name: OnP2PConnected
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnP2PConnected_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PConnected
-  nameWithType: UM_GameserviceMultiplayerSample.OnP2PConnected
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected(System.String)
-  name: OnP2PDisconnected(String)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnP2PDisconnected_System_String_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected(System.String)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected(System.String)
-  nameWithType: UM_GameserviceMultiplayerSample.OnP2PDisconnected(String)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected*
-  name: OnP2PDisconnected
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnP2PDisconnected_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnP2PDisconnected
-  nameWithType: UM_GameserviceMultiplayerSample.OnP2PDisconnected
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room,List{System.String})
-  name: OnPeerDeclined(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerDeclined_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room,List{System.String})
-  name.vb: OnPeerDeclined(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeerDeclined(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined*
-  name: OnPeerDeclined
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerDeclined_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerDeclined
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerDeclined
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room,List{System.String})
-  name: OnPeerInvitedToRoom(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerInvitedToRoom_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room,List{System.String})
-  name.vb: OnPeerInvitedToRoom(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom*
-  name: OnPeerInvitedToRoom
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerInvitedToRoom_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerInvitedToRoom
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room,List{System.String})
-  name: OnPeerJoined(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerJoined_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room,List{System.String})
-  name.vb: OnPeerJoined(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeerJoined(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined*
-  name: OnPeerJoined
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerJoined_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerJoined
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerJoined
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room,List{System.String})
-  name: OnPeerLeft(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerLeft_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room,List{System.String})
-  name.vb: OnPeerLeft(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeerLeft(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft*
-  name: OnPeerLeft
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeerLeft_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeerLeft
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeerLeft
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room,List{System.String})
-  name: OnPeersConnected(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeersConnected_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room,List{System.String})
-  name.vb: OnPeersConnected(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeersConnected(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected*
-  name: OnPeersConnected
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeersConnected_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersConnected
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeersConnected
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room,List{System.String})
-  name: OnPeersDisconnected(AN_Room, List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeersDisconnected_AN_Room_List_System_String__
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room,List{System.String})
-  name.vb: OnPeersDisconnected(AN_Room, List(Of String))
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room, List<System.String>)
-  fullName.vb: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room, List(Of System.String))
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room, List<String>)
-  nameWithType.vb: UM_GameserviceMultiplayerSample.OnPeersDisconnected(AN_Room, List(Of String))
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected*
-  name: OnPeersDisconnected
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnPeersDisconnected_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnPeersDisconnected
-  nameWithType: UM_GameserviceMultiplayerSample.OnPeersDisconnected
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived(AN_RealTimeMessage)
-  name: OnRealTimeMessageReceived(AN_RealTimeMessage)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRealTimeMessageReceived_AN_RealTimeMessage_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived(AN_RealTimeMessage)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived(AN_RealTimeMessage)
-  nameWithType: UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived(AN_RealTimeMessage)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived*
-  name: OnRealTimeMessageReceived
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRealTimeMessageReceived_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived
-  nameWithType: UM_GameserviceMultiplayerSample.OnRealTimeMessageReceived
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching(AN_Room)
-  name: OnRoomAutoMatching(AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomAutoMatching_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching(AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching(AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomAutoMatching(AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching*
-  name: OnRoomAutoMatching
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomAutoMatching_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomAutoMatching
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomAutoMatching
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected(System.Int32,AN_Room)
-  name: OnRoomConnected(Int32, AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomConnected_System_Int32_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected(System.Int32,AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected(System.Int32, AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomConnected(Int32, AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected*
-  name: OnRoomConnected
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomConnected_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnected
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomConnected
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting(AN_Room)
-  name: OnRoomConnecting(AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomConnecting_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting(AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting(AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomConnecting(AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting*
-  name: OnRoomConnecting
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomConnecting_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomConnecting
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomConnecting
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated(System.Int32,AN_Room)
-  name: OnRoomCreated(Int32, AN_Room)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomCreated_System_Int32_AN_Room_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated(System.Int32,AN_Room)
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated(System.Int32, AN_Room)
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomCreated(Int32, AN_Room)
-- uid: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated*
-  name: OnRoomCreated
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.html#SA_CrossPlatform_Samples_UM_GameserviceMultiplayerSample_OnRoomCreated_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameserviceMultiplayerSample.OnRoomCreated
-  nameWithType: UM_GameserviceMultiplayerSample.OnRoomCreated
-- uid: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample
-  name: UM_GameServiceSavedGamesExample
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.html
-  commentId: T:SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample
-  fullName: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample
-  nameWithType: UM_GameServiceSavedGamesExample
-- uid: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData(UM_iSavedGameMetadata)
-  name: LoadData(UM_iSavedGameMetadata)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.html#SA_CrossPlatform_Samples_UM_GameServiceSavedGamesExample_LoadData_UM_iSavedGameMetadata_
-  commentId: M:SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData(UM_iSavedGameMetadata)
-  fullName: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData(UM_iSavedGameMetadata)
-  nameWithType: UM_GameServiceSavedGamesExample.LoadData(UM_iSavedGameMetadata)
-- uid: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData*
-  name: LoadData
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.html#SA_CrossPlatform_Samples_UM_GameServiceSavedGamesExample_LoadData_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_GameServiceSavedGamesExample.LoadData
-  nameWithType: UM_GameServiceSavedGamesExample.LoadData
-- uid: SA.CrossPlatform.Samples.UM_LeaderboardMetaView
-  name: UM_LeaderboardMetaView
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_LeaderboardMetaView.html
-  commentId: T:SA.CrossPlatform.Samples.UM_LeaderboardMetaView
-  fullName: SA.CrossPlatform.Samples.UM_LeaderboardMetaView
-  nameWithType: UM_LeaderboardMetaView
-- uid: SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle(System.String)
-  name: SetTitle(String)
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_LeaderboardMetaView.html#SA_CrossPlatform_Samples_UM_LeaderboardMetaView_SetTitle_System_String_
-  commentId: M:SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle(System.String)
-  fullName: SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle(System.String)
-  nameWithType: UM_LeaderboardMetaView.SetTitle(String)
-- uid: SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle*
-  name: SetTitle
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_LeaderboardMetaView.html#SA_CrossPlatform_Samples_UM_LeaderboardMetaView_SetTitle_
-  commentId: Overload:SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Samples.UM_LeaderboardMetaView.SetTitle
-  nameWithType: UM_LeaderboardMetaView.SetTitle
-- uid: SA.CrossPlatform.Samples.UM_WelcomeController
-  name: UM_WelcomeController
-  href: ultimate-mobile/SA.CrossPlatform.Samples.UM_WelcomeController.html
-  commentId: T:SA.CrossPlatform.Samples.UM_WelcomeController
-  fullName: SA.CrossPlatform.Samples.UM_WelcomeController
-  nameWithType: UM_WelcomeController
 - uid: SA.CrossPlatform.Social
   name: SA.CrossPlatform.Social
   href: ultimate-mobile/SA.CrossPlatform.Social.html
@@ -20308,12 +19916,6 @@ references:
   isSpec: "True"
   fullName: SA.Facebook.SA_FB_Analytics.LogPurchase
   nameWithType: SA_FB_Analytics.LogPurchase
-- uid: SA.Facebook.SA_FB_AssetPostprocessor
-  name: SA_FB_AssetPostprocessor
-  href: ultimate-mobile/SA.Facebook.SA_FB_AssetPostprocessor.html
-  commentId: T:SA.Facebook.SA_FB_AssetPostprocessor
-  fullName: SA.Facebook.SA_FB_AssetPostprocessor
-  nameWithType: SA_FB_AssetPostprocessor
 - uid: SA.Facebook.SA_FB_Cursor
   name: SA_FB_Cursor
   href: ultimate-mobile/SA.Facebook.SA_FB_Cursor.html
@@ -20377,44 +19979,6 @@ references:
   commentId: F:SA.Facebook.SA_FB_CursorType.before
   fullName: SA.Facebook.SA_FB_CursorType.before
   nameWithType: SA_FB_CursorType.before
-- uid: SA.Facebook.SA_FB_EditorMenu
-  name: SA_FB_EditorMenu
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorMenu.html
-  commentId: T:SA.Facebook.SA_FB_EditorMenu
-  fullName: SA.Facebook.SA_FB_EditorMenu
-  nameWithType: SA_FB_EditorMenu
-- uid: SA.Facebook.SA_FB_EditorMenu.EditSettings
-  name: EditSettings()
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorMenu.html#SA_Facebook_SA_FB_EditorMenu_EditSettings
-  commentId: M:SA.Facebook.SA_FB_EditorMenu.EditSettings
-  fullName: SA.Facebook.SA_FB_EditorMenu.EditSettings()
-  nameWithType: SA_FB_EditorMenu.EditSettings()
-- uid: SA.Facebook.SA_FB_EditorMenu.EditSettings*
-  name: EditSettings
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorMenu.html#SA_Facebook_SA_FB_EditorMenu_EditSettings_
-  commentId: Overload:SA.Facebook.SA_FB_EditorMenu.EditSettings
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_EditorMenu.EditSettings
-  nameWithType: SA_FB_EditorMenu.EditSettings
-- uid: SA.Facebook.SA_FB_EditorWindow
-  name: SA_FB_EditorWindow
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorWindow.html
-  commentId: T:SA.Facebook.SA_FB_EditorWindow
-  fullName: SA.Facebook.SA_FB_EditorWindow
-  nameWithType: SA_FB_EditorWindow
-- uid: SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI
-  name: DrawSettingsUI()
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorWindow.html#SA_Facebook_SA_FB_EditorWindow_DrawSettingsUI
-  commentId: M:SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI
-  fullName: SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI()
-  nameWithType: SA_FB_EditorWindow.DrawSettingsUI()
-- uid: SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI*
-  name: DrawSettingsUI
-  href: ultimate-mobile/SA.Facebook.SA_FB_EditorWindow.html#SA_Facebook_SA_FB_EditorWindow_DrawSettingsUI_
-  commentId: Overload:SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_EditorWindow.DrawSettingsUI
-  nameWithType: SA_FB_EditorWindow.DrawSettingsUI
 - uid: SA.Facebook.SA_FB_ErrorCode
   name: SA_FB_ErrorCode
   href: ultimate-mobile/SA.Facebook.SA_FB_ErrorCode.html
@@ -20842,64 +20406,6 @@ references:
   isSpec: "True"
   fullName: SA.Facebook.SA_FB_GraphResult.Previous
   nameWithType: SA_FB_GraphResult.Previous
-- uid: SA.Facebook.SA_FB_InstallationProcessing
-  name: SA_FB_InstallationProcessing
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html
-  commentId: T:SA.Facebook.SA_FB_InstallationProcessing
-  fullName: SA.Facebook.SA_FB_InstallationProcessing
-  nameWithType: SA_FB_InstallationProcessing
-- uid: SA.Facebook.SA_FB_InstallationProcessing.OnInstall
-  name: OnInstall()
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_OnInstall
-  commentId: M:SA.Facebook.SA_FB_InstallationProcessing.OnInstall
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.OnInstall()
-  nameWithType: SA_FB_InstallationProcessing.OnInstall()
-- uid: SA.Facebook.SA_FB_InstallationProcessing.OnInstall*
-  name: OnInstall
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_OnInstall_
-  commentId: Overload:SA.Facebook.SA_FB_InstallationProcessing.OnInstall
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.OnInstall
-  nameWithType: SA_FB_InstallationProcessing.OnInstall
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete(System.String)
-  name: ProcessAssetDelete(String)
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssetDelete_System_String_
-  commentId: M:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete(System.String)
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete(System.String)
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssetDelete(String)
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete*
-  name: ProcessAssetDelete
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssetDelete_
-  commentId: Overload:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetDelete
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssetDelete
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport(System.String)
-  name: ProcessAssetImport(String)
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssetImport_System_String_
-  commentId: M:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport(System.String)
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport(System.String)
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssetImport(String)
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport*
-  name: ProcessAssetImport
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssetImport_
-  commentId: Overload:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssetImport
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssetImport
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets
-  name: ProcessAssets()
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssets
-  commentId: M:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets()
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssets()
-- uid: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets*
-  name: ProcessAssets
-  href: ultimate-mobile/SA.Facebook.SA_FB_InstallationProcessing.html#SA_Facebook_SA_FB_InstallationProcessing_ProcessAssets_
-  commentId: Overload:SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets
-  isSpec: "True"
-  fullName: SA.Facebook.SA_FB_InstallationProcessing.ProcessAssets
-  nameWithType: SA_FB_InstallationProcessing.ProcessAssets
 - uid: SA.Facebook.SA_FB_LoginResult
   name: SA_FB_LoginResult
   href: ultimate-mobile/SA.Facebook.SA_FB_LoginResult.html
@@ -21729,6 +21235,85 @@ references:
   commentId: F:SA.Facebook.SA_FBGraphFirendsListResult.m_users
   fullName: SA.Facebook.SA_FBGraphFirendsListResult.m_users
   nameWithType: SA_FBGraphFirendsListResult.m_users
+- uid: SA.Foundation.Editor
+  name: SA.Foundation.Editor
+  href: foundation/SA.Foundation.Editor.html
+  commentId: N:SA.Foundation.Editor
+  fullName: SA.Foundation.Editor
+  nameWithType: SA.Foundation.Editor
+- uid: SA.Foundation.Editor.EditorDefines
+  name: EditorDefines
+  href: foundation/SA.Foundation.Editor.EditorDefines.html
+  commentId: T:SA.Foundation.Editor.EditorDefines
+  fullName: SA.Foundation.Editor.EditorDefines
+  nameWithType: EditorDefines
+- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  name: AddCompileDefine(String, BuildTarget[])
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_AddCompileDefine_System_String_BuildTarget___
+  commentId: M:SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  name.vb: AddCompileDefine(String, BuildTarget())
+  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget[])
+  fullName.vb: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefines.AddCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefines.AddCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine*
+  name: AddCompileDefine
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_AddCompileDefine_
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.AddCompileDefine
+  isSpec: "True"
+  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine
+  nameWithType: EditorDefines.AddCompileDefine
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  name: GetScriptingDefines()
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_GetScriptingDefines
+  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines()
+  nameWithType: EditorDefines.GetScriptingDefines()
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  name: GetScriptingDefines(BuildTargetGroup)
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_GetScriptingDefines_BuildTargetGroup_
+  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  nameWithType: EditorDefines.GetScriptingDefines(BuildTargetGroup)
+- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  name: GetScriptingDefines
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_GetScriptingDefines_
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  isSpec: "True"
+  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  nameWithType: EditorDefines.GetScriptingDefines
+- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  name: HasCompileDefine(String, BuildTarget[])
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_HasCompileDefine_System_String_BuildTarget___
+  commentId: M:SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  name.vb: HasCompileDefine(String, BuildTarget())
+  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget[])
+  fullName.vb: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefines.HasCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefines.HasCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine*
+  name: HasCompileDefine
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_HasCompileDefine_
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.HasCompileDefine
+  isSpec: "True"
+  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine
+  nameWithType: EditorDefines.HasCompileDefine
+- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  name: RemoveCompileDefine(String, BuildTarget[])
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_RemoveCompileDefine_System_String_BuildTarget___
+  commentId: M:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  name.vb: RemoveCompileDefine(String, BuildTarget())
+  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget[])
+  fullName.vb: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefines.RemoveCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefines.RemoveCompileDefine(String, BuildTarget())
+- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine*
+  name: RemoveCompileDefine
+  href: foundation/SA.Foundation.Editor.EditorDefines.html#SA_Foundation_Editor_EditorDefines_RemoveCompileDefine_
+  commentId: Overload:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
+  isSpec: "True"
+  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
+  nameWithType: EditorDefines.RemoveCompileDefine
 - uid: SA.GIF
   name: SA.GIF
   href: ultimate-mobile/SA.GIF.html
@@ -33845,3 +33430,1181 @@ references:
   isSpec: "True"
   fullName: SA.iOS.Utilities.ISN_NativeObject.NativeHashCode
   nameWithType: ISN_NativeObject.NativeHashCode
+- uid: StansAssets.Foundation
+  name: StansAssets.Foundation
+  href: foundation/StansAssets.Foundation.html
+  commentId: N:StansAssets.Foundation
+  fullName: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+- uid: StansAssets.Foundation.ArrayExtensions
+  name: ArrayExtensions
+  href: foundation/StansAssets.Foundation.ArrayExtensions.html
+  commentId: T:StansAssets.Foundation.ArrayExtensions
+  fullName: StansAssets.Foundation.ArrayExtensions
+  nameWithType: ArrayExtensions
+- uid: StansAssets.Foundation.ArrayExtensions.SubArray*
+  name: SubArray
+  href: foundation/StansAssets.Foundation.ArrayExtensions.html#StansAssets_Foundation_ArrayExtensions_SubArray_
+  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SubArray
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ArrayExtensions.SubArray
+  nameWithType: ArrayExtensions.SubArray
+- uid: StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
+  name: SubArray<T>(T[], Int32, Int32)
+  href: foundation/StansAssets.Foundation.ArrayExtensions.html#StansAssets_Foundation_ArrayExtensions_SubArray__1___0___System_Int32_System_Int32_
+  commentId: M:StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
+  name.vb: SubArray(Of T)(T(), Int32, Int32)
+  fullName: StansAssets.Foundation.ArrayExtensions.SubArray<T>(T[], System.Int32, System.Int32)
+  fullName.vb: StansAssets.Foundation.ArrayExtensions.SubArray(Of T)(T(), System.Int32, System.Int32)
+  nameWithType: ArrayExtensions.SubArray<T>(T[], Int32, Int32)
+  nameWithType.vb: ArrayExtensions.SubArray(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.ArrayExtensions.SwapElements*
+  name: SwapElements
+  href: foundation/StansAssets.Foundation.ArrayExtensions.html#StansAssets_Foundation_ArrayExtensions_SwapElements_
+  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SwapElements
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements
+  nameWithType: ArrayExtensions.SwapElements
+- uid: StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  name: SwapElements<T>(T[], Int32, Int32)
+  href: foundation/StansAssets.Foundation.ArrayExtensions.html#StansAssets_Foundation_ArrayExtensions_SwapElements__1___0___System_Int32_System_Int32_
+  commentId: M:StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  name.vb: SwapElements(Of T)(T(), Int32, Int32)
+  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements<T>(T[], System.Int32, System.Int32)
+  fullName.vb: StansAssets.Foundation.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
+  nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
+  nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  href: foundation/StansAssets.Foundation.Editor.html
+  commentId: N:StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility
+  name: AssetDatabaseUtility
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html
+  commentId: T:StansAssets.Foundation.Editor.AssetDatabaseUtility
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility
+  nameWithType: AssetDatabaseUtility
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+  name: GetLocalIdentifierInFile(Object)
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetLocalIdentifierInFile_Object_
+  commentId: M:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+  nameWithType: AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile*
+  name: GetLocalIdentifierInFile
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetLocalIdentifierInFile_
+  commentId: Overload:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile
+  nameWithType: AssetDatabaseUtility.GetLocalIdentifierInFile
+- uid: StansAssets.Foundation.Editor.BaseTab
+  name: BaseTab
+  href: foundation/StansAssets.Foundation.Editor.BaseTab.html
+  commentId: T:StansAssets.Foundation.Editor.BaseTab
+  fullName: StansAssets.Foundation.Editor.BaseTab
+  nameWithType: BaseTab
+- uid: StansAssets.Foundation.Editor.BaseTab.#ctor(System.String)
+  name: BaseTab(String)
+  href: foundation/StansAssets.Foundation.Editor.BaseTab.html#StansAssets_Foundation_Editor_BaseTab__ctor_System_String_
+  commentId: M:StansAssets.Foundation.Editor.BaseTab.#ctor(System.String)
+  fullName: StansAssets.Foundation.Editor.BaseTab.BaseTab(System.String)
+  nameWithType: BaseTab.BaseTab(String)
+- uid: StansAssets.Foundation.Editor.BaseTab.#ctor*
+  name: BaseTab
+  href: foundation/StansAssets.Foundation.Editor.BaseTab.html#StansAssets_Foundation_Editor_BaseTab__ctor_
+  commentId: Overload:StansAssets.Foundation.Editor.BaseTab.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.BaseTab.BaseTab
+  nameWithType: BaseTab.BaseTab
+- uid: StansAssets.Foundation.Editor.EnumUtility
+  name: EnumUtility
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html
+  commentId: T:StansAssets.Foundation.Editor.EnumUtility
+  fullName: StansAssets.Foundation.Editor.EnumUtility
+  nameWithType: EnumUtility
+- uid: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum*
+  name: CanBeParsedToEnum
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_CanBeParsedToEnum_
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum
+  nameWithType: EnumUtility.CanBeParsedToEnum
+- uid: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum``1(System.String)
+  name: CanBeParsedToEnum<T>(String)
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_CanBeParsedToEnum__1_System_String_
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum``1(System.String)
+  name.vb: CanBeParsedToEnum(Of T)(String)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum<T>(System.String)
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.CanBeParsedToEnum(Of T)(System.String)
+  nameWithType: EnumUtility.CanBeParsedToEnum<T>(String)
+  nameWithType.vb: EnumUtility.CanBeParsedToEnum(Of T)(String)
+- uid: StansAssets.Foundation.Editor.EnumUtility.ParseEnum*
+  name: ParseEnum
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_ParseEnum_
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.ParseEnum
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EnumUtility.ParseEnum
+  nameWithType: EnumUtility.ParseEnum
+- uid: StansAssets.Foundation.Editor.EnumUtility.ParseEnum``1(System.String)
+  name: ParseEnum<T>(String)
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_ParseEnum__1_System_String_
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.ParseEnum``1(System.String)
+  name.vb: ParseEnum(Of T)(String)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.ParseEnum<T>(System.String)
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.ParseEnum(Of T)(System.String)
+  nameWithType: EnumUtility.ParseEnum<T>(String)
+  nameWithType.vb: EnumUtility.ParseEnum(Of T)(String)
+- uid: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum*
+  name: TryParseEnum
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_TryParseEnum_
+  commentId: Overload:StansAssets.Foundation.Editor.EnumUtility.TryParseEnum
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum
+  nameWithType: EnumUtility.TryParseEnum
+- uid: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum``1(System.String,``0@)
+  name: TryParseEnum<T>(String, out T)
+  href: foundation/StansAssets.Foundation.Editor.EnumUtility.html#StansAssets_Foundation_Editor_EnumUtility_TryParseEnum__1_System_String___0__
+  commentId: M:StansAssets.Foundation.Editor.EnumUtility.TryParseEnum``1(System.String,``0@)
+  name.vb: TryParseEnum(Of T)(String, ByRef T)
+  fullName: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum<T>(System.String, out T)
+  fullName.vb: StansAssets.Foundation.Editor.EnumUtility.TryParseEnum(Of T)(System.String, ByRef T)
+  nameWithType: EnumUtility.TryParseEnum<T>(String, out T)
+  nameWithType.vb: EnumUtility.TryParseEnum(Of T)(String, ByRef T)
+- uid: StansAssets.Foundation.Editor.FoundationPackage
+  name: FoundationPackage
+  href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html
+  commentId: T:StansAssets.Foundation.Editor.FoundationPackage
+  fullName: StansAssets.Foundation.Editor.FoundationPackage
+  nameWithType: FoundationPackage
+- uid: StansAssets.Foundation.Editor.FoundationPackage.Info
+  name: Info
+  href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html#StansAssets_Foundation_Editor_FoundationPackage_Info
+  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.Info
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.Info
+  nameWithType: FoundationPackage.Info
+- uid: StansAssets.Foundation.Editor.FoundationPackage.Name
+  name: Name
+  href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html#StansAssets_Foundation_Editor_FoundationPackage_Name
+  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.Name
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.Name
+  nameWithType: FoundationPackage.Name
+- uid: StansAssets.Foundation.Editor.FoundationPackage.RootPath
+  name: RootPath
+  href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html#StansAssets_Foundation_Editor_FoundationPackage_RootPath
+  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.RootPath
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.RootPath
+  nameWithType: FoundationPackage.RootPath
+- uid: StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
+  name: SettingsWindowPath
+  href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html#StansAssets_Foundation_Editor_FoundationPackage_SettingsWindowPath
+  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
+  nameWithType: FoundationPackage.SettingsWindowPath
+- uid: StansAssets.Foundation.Editor.IdFactory
+  name: IdFactory
+  href: foundation/StansAssets.Foundation.Editor.IdFactory.html
+  commentId: T:StansAssets.Foundation.Editor.IdFactory
+  fullName: StansAssets.Foundation.Editor.IdFactory
+  nameWithType: IdFactory
+- uid: StansAssets.Foundation.Editor.IdFactory.NextId
+  name: NextId
+  href: foundation/StansAssets.Foundation.Editor.IdFactory.html#StansAssets_Foundation_Editor_IdFactory_NextId
+  commentId: P:StansAssets.Foundation.Editor.IdFactory.NextId
+  fullName: StansAssets.Foundation.Editor.IdFactory.NextId
+  nameWithType: IdFactory.NextId
+- uid: StansAssets.Foundation.Editor.IdFactory.NextId*
+  name: NextId
+  href: foundation/StansAssets.Foundation.Editor.IdFactory.html#StansAssets_Foundation_Editor_IdFactory_NextId_
+  commentId: Overload:StansAssets.Foundation.Editor.IdFactory.NextId
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.IdFactory.NextId
+  nameWithType: IdFactory.NextId
+- uid: StansAssets.Foundation.Editor.IdFactory.RandomString
+  name: RandomString
+  href: foundation/StansAssets.Foundation.Editor.IdFactory.html#StansAssets_Foundation_Editor_IdFactory_RandomString
+  commentId: P:StansAssets.Foundation.Editor.IdFactory.RandomString
+  fullName: StansAssets.Foundation.Editor.IdFactory.RandomString
+  nameWithType: IdFactory.RandomString
+- uid: StansAssets.Foundation.Editor.IdFactory.RandomString*
+  name: RandomString
+  href: foundation/StansAssets.Foundation.Editor.IdFactory.html#StansAssets_Foundation_Editor_IdFactory_RandomString_
+  commentId: Overload:StansAssets.Foundation.Editor.IdFactory.RandomString
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.IdFactory.RandomString
+  nameWithType: IdFactory.RandomString
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility
+  name: PackageManagerUtility
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html
+  commentId: T:StansAssets.Foundation.Editor.PackageManagerUtility
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility
+  nameWithType: PackageManagerUtility
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages
+  name: GetAllProjectPackages()
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetAllProjectPackages
+  commentId: M:StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages()
+  nameWithType: PackageManagerUtility.GetAllProjectPackages()
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages*
+  name: GetAllProjectPackages
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetAllProjectPackages_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages
+  nameWithType: PackageManagerUtility.GetAllProjectPackages
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo(System.String)
+  name: GetPackageInfo(String)
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageInfo_System_String_
+  commentId: M:StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo(System.String)
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo(System.String)
+  nameWithType: PackageManagerUtility.GetPackageInfo(String)
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo*
+  name: GetPackageInfo
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageInfo_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo
+  nameWithType: PackageManagerUtility.GetPackageInfo
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath(System.String)
+  name: GetPackageRootPath(String)
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageRootPath_System_String_
+  commentId: M:StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath(System.String)
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath(System.String)
+  nameWithType: PackageManagerUtility.GetPackageRootPath(String)
+- uid: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath*
+  name: GetPackageRootPath
+  href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html#StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageRootPath_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath
+  nameWithType: PackageManagerUtility.GetPackageRootPath
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  name: PackageSettingsWindow<TWindow>
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html
+  commentId: T:StansAssets.Foundation.Editor.PackageSettingsWindow`1
+  name.vb: PackageSettingsWindow(Of TWindow)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow)
+  nameWithType: PackageSettingsWindow<TWindow>
+  nameWithType.vb: PackageSettingsWindow(Of TWindow)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab(System.String,VisualElement)
+  name: AddTab(String, VisualElement)
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_AddTab_System_String_VisualElement_
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab(System.String,VisualElement)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.AddTab(System.String, VisualElement)
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).AddTab(System.String, VisualElement)
+  nameWithType: PackageSettingsWindow<TWindow>.AddTab(String, VisualElement)
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).AddTab(String, VisualElement)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab*
+  name: AddTab
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_AddTab_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.AddTab
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.AddTab
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).AddTab
+  nameWithType: PackageSettingsWindow<TWindow>.AddTab
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).AddTab
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  name: GetPackageInfo()
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_GetPackageInfo
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.GetPackageInfo()
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).GetPackageInfo()
+  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo()
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo()
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo*
+  name: GetPackageInfo
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_GetPackageInfo_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.GetPackageInfo
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.GetPackageInfo
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).GetPackageInfo
+  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_Tabs
+  name: m_Tabs
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_m_Tabs
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_Tabs
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_Tabs
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_Tabs
+  nameWithType: PackageSettingsWindow<TWindow>.m_Tabs
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_Tabs
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_TabsButtons
+  name: m_TabsButtons
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_m_TabsButtons
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_TabsButtons
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_TabsButtons
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_TabsButtons
+  nameWithType: PackageSettingsWindow<TWindow>.m_TabsButtons
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_TabsButtons
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_WindowRoot
+  name: m_WindowRoot
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_m_WindowRoot
+  commentId: F:StansAssets.Foundation.Editor.PackageSettingsWindow`1.m_WindowRoot
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.m_WindowRoot
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).m_WindowRoot
+  nameWithType: PackageSettingsWindow<TWindow>.m_WindowRoot
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).m_WindowRoot
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  name: OnEnable()
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_OnEnable
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnEnable()
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnEnable()
+  nameWithType: PackageSettingsWindow<TWindow>.OnEnable()
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnEnable()
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable*
+  name: OnEnable
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_OnEnable_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnEnable
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnEnable
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnEnable
+  nameWithType: PackageSettingsWindow<TWindow>.OnEnable
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnEnable
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable(VisualElement)
+  name: OnWindowEnable(VisualElement)
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_OnWindowEnable_VisualElement_
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable(VisualElement)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnWindowEnable(VisualElement)
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnWindowEnable(VisualElement)
+  nameWithType: PackageSettingsWindow<TWindow>.OnWindowEnable(VisualElement)
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnWindowEnable(VisualElement)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable*
+  name: OnWindowEnable
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_OnWindowEnable_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.OnWindowEnable
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.OnWindowEnable
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).OnWindowEnable
+  nameWithType: PackageSettingsWindow<TWindow>.OnWindowEnable
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).OnWindowEnable
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
+  name: ShowTowardsInspector(String, Texture)
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_ShowTowardsInspector_System_String_Texture_
+  commentId: M:StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.ShowTowardsInspector(System.String, Texture)
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).ShowTowardsInspector(System.String, Texture)
+  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector(String, Texture)
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector(String, Texture)
+- uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector*
+  name: ShowTowardsInspector
+  href: foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_PackageSettingsWindow_1_ShowTowardsInspector_
+  commentId: Overload:StansAssets.Foundation.Editor.PackageSettingsWindow`1.ShowTowardsInspector
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.PackageSettingsWindow<TWindow>.ShowTowardsInspector
+  fullName.vb: StansAssets.Foundation.Editor.PackageSettingsWindow(Of TWindow).ShowTowardsInspector
+  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector
+  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector
+- uid: StansAssets.Foundation.Editor.ReflectionUtility
+  name: ReflectionUtility
+  href: foundation/StansAssets.Foundation.Editor.ReflectionUtility.html
+  commentId: T:StansAssets.Foundation.Editor.ReflectionUtility
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility
+  nameWithType: ReflectionUtility
+- uid: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
+  name: CreateInstance(String)
+  href: foundation/StansAssets.Foundation.Editor.ReflectionUtility.html#StansAssets_Foundation_Editor_ReflectionUtility_CreateInstance_System_String_
+  commentId: M:StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
+  nameWithType: ReflectionUtility.CreateInstance(String)
+- uid: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance*
+  name: CreateInstance
+  href: foundation/StansAssets.Foundation.Editor.ReflectionUtility.html#StansAssets_Foundation_Editor_ReflectionUtility_CreateInstance_
+  commentId: Overload:StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance
+  nameWithType: ReflectionUtility.CreateInstance
+- uid: StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+  name: FindType(String)
+  href: foundation/StansAssets.Foundation.Editor.ReflectionUtility.html#StansAssets_Foundation_Editor_ReflectionUtility_FindType_System_String_
+  commentId: M:StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+  nameWithType: ReflectionUtility.FindType(String)
+- uid: StansAssets.Foundation.Editor.ReflectionUtility.FindType*
+  name: FindType
+  href: foundation/StansAssets.Foundation.Editor.ReflectionUtility.html#StansAssets_Foundation_Editor_ReflectionUtility_FindType_
+  commentId: Overload:StansAssets.Foundation.Editor.ReflectionUtility.FindType
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.ReflectionUtility.FindType
+  nameWithType: ReflectionUtility.FindType
+- uid: StansAssets.Foundation.Editor.UnixTime
+  name: UnixTime
+  href: foundation/StansAssets.Foundation.Editor.UnixTime.html
+  commentId: T:StansAssets.Foundation.Editor.UnixTime
+  fullName: StansAssets.Foundation.Editor.UnixTime
+  nameWithType: UnixTime
+- uid: StansAssets.Foundation.Editor.UnixTime.ToDateTime(System.Int64)
+  name: ToDateTime(Int64)
+  href: foundation/StansAssets.Foundation.Editor.UnixTime.html#StansAssets_Foundation_Editor_UnixTime_ToDateTime_System_Int64_
+  commentId: M:StansAssets.Foundation.Editor.UnixTime.ToDateTime(System.Int64)
+  fullName: StansAssets.Foundation.Editor.UnixTime.ToDateTime(System.Int64)
+  nameWithType: UnixTime.ToDateTime(Int64)
+- uid: StansAssets.Foundation.Editor.UnixTime.ToDateTime*
+  name: ToDateTime
+  href: foundation/StansAssets.Foundation.Editor.UnixTime.html#StansAssets_Foundation_Editor_UnixTime_ToDateTime_
+  commentId: Overload:StansAssets.Foundation.Editor.UnixTime.ToDateTime
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.UnixTime.ToDateTime
+  nameWithType: UnixTime.ToDateTime
+- uid: StansAssets.Foundation.Editor.UnixTime.ToUnixTime(DateTime)
+  name: ToUnixTime(DateTime)
+  href: foundation/StansAssets.Foundation.Editor.UnixTime.html#StansAssets_Foundation_Editor_UnixTime_ToUnixTime_DateTime_
+  commentId: M:StansAssets.Foundation.Editor.UnixTime.ToUnixTime(DateTime)
+  fullName: StansAssets.Foundation.Editor.UnixTime.ToUnixTime(DateTime)
+  nameWithType: UnixTime.ToUnixTime(DateTime)
+- uid: StansAssets.Foundation.Editor.UnixTime.ToUnixTime*
+  name: ToUnixTime
+  href: foundation/StansAssets.Foundation.Editor.UnixTime.html#StansAssets_Foundation_Editor_UnixTime_ToUnixTime_
+  commentId: Overload:StansAssets.Foundation.Editor.UnixTime.ToUnixTime
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.UnixTime.ToUnixTime
+  nameWithType: UnixTime.ToUnixTime
+- uid: StansAssets.Foundation.MonoSingleton`1
+  name: MonoSingleton<T>
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html
+  commentId: T:StansAssets.Foundation.MonoSingleton`1
+  name.vb: MonoSingleton(Of T)
+  fullName: StansAssets.Foundation.MonoSingleton<T>
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T)
+  nameWithType: MonoSingleton<T>
+  nameWithType.vb: MonoSingleton(Of T)
+- uid: StansAssets.Foundation.MonoSingleton`1.Awake
+  name: Awake()
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Awake
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.Awake
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Awake()
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Awake()
+  nameWithType: MonoSingleton<T>.Awake()
+  nameWithType.vb: MonoSingleton(Of T).Awake()
+- uid: StansAssets.Foundation.MonoSingleton`1.Awake*
+  name: Awake
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Awake_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Awake
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Awake
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Awake
+  nameWithType: MonoSingleton<T>.Awake
+  nameWithType.vb: MonoSingleton(Of T).Awake
+- uid: StansAssets.Foundation.MonoSingleton`1.HasInstance
+  name: HasInstance
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_HasInstance
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.HasInstance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.HasInstance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).HasInstance
+  nameWithType: MonoSingleton<T>.HasInstance
+  nameWithType.vb: MonoSingleton(Of T).HasInstance
+- uid: StansAssets.Foundation.MonoSingleton`1.HasInstance*
+  name: HasInstance
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_HasInstance_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.HasInstance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.HasInstance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).HasInstance
+  nameWithType: MonoSingleton<T>.HasInstance
+  nameWithType.vb: MonoSingleton(Of T).HasInstance
+- uid: StansAssets.Foundation.MonoSingleton`1.Instance
+  name: Instance
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Instance
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.Instance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: StansAssets.Foundation.MonoSingleton`1.Instance*
+  name: Instance
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Instance_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Instance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instance
+  nameWithType: MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+- uid: StansAssets.Foundation.MonoSingleton`1.Instantiate
+  name: Instantiate()
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Instantiate
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.Instantiate
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instantiate()
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instantiate()
+  nameWithType: MonoSingleton<T>.Instantiate()
+  nameWithType.vb: MonoSingleton(Of T).Instantiate()
+- uid: StansAssets.Foundation.MonoSingleton`1.Instantiate*
+  name: Instantiate
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_Instantiate_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Instantiate
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instantiate
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instantiate
+  nameWithType: MonoSingleton<T>.Instantiate
+  nameWithType.vb: MonoSingleton(Of T).Instantiate
+- uid: StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  name: IsDestroyed
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_IsDestroyed
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  fullName: StansAssets.Foundation.MonoSingleton<T>.IsDestroyed
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).IsDestroyed
+  nameWithType: MonoSingleton<T>.IsDestroyed
+  nameWithType.vb: MonoSingleton(Of T).IsDestroyed
+- uid: StansAssets.Foundation.MonoSingleton`1.IsDestroyed*
+  name: IsDestroyed
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_IsDestroyed_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.IsDestroyed
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).IsDestroyed
+  nameWithType: MonoSingleton<T>.IsDestroyed
+  nameWithType.vb: MonoSingleton(Of T).IsDestroyed
+- uid: StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_OnApplicationQuit
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnApplicationQuit()
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnApplicationQuit()
+  nameWithType: MonoSingleton<T>.OnApplicationQuit()
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit()
+- uid: StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_OnApplicationQuit_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnApplicationQuit
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnApplicationQuit
+  nameWithType: MonoSingleton<T>.OnApplicationQuit
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit
+- uid: StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  name: OnDestroy()
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_OnDestroy
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnDestroy()
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnDestroy()
+  nameWithType: MonoSingleton<T>.OnDestroy()
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
+- uid: StansAssets.Foundation.MonoSingleton`1.OnDestroy*
+  name: OnDestroy
+  href: foundation/StansAssets.Foundation.MonoSingleton-1.html#StansAssets_Foundation_MonoSingleton_1_OnDestroy_
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  isSpec: "True"
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnDestroy
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnDestroy
+  nameWithType: MonoSingleton<T>.OnDestroy
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy
+- uid: StansAssets.Foundation.ObjectExtensions
+  name: ObjectExtensions
+  href: foundation/StansAssets.Foundation.ObjectExtensions.html
+  commentId: T:StansAssets.Foundation.ObjectExtensions
+  fullName: StansAssets.Foundation.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: StansAssets.Foundation.ObjectExtensions.IsNotNull(Object)
+  name: IsNotNull(Object)
+  href: foundation/StansAssets.Foundation.ObjectExtensions.html#StansAssets_Foundation_ObjectExtensions_IsNotNull_Object_
+  commentId: M:StansAssets.Foundation.ObjectExtensions.IsNotNull(Object)
+  fullName: StansAssets.Foundation.ObjectExtensions.IsNotNull(Object)
+  nameWithType: ObjectExtensions.IsNotNull(Object)
+- uid: StansAssets.Foundation.ObjectExtensions.IsNotNull*
+  name: IsNotNull
+  href: foundation/StansAssets.Foundation.ObjectExtensions.html#StansAssets_Foundation_ObjectExtensions_IsNotNull_
+  commentId: Overload:StansAssets.Foundation.ObjectExtensions.IsNotNull
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ObjectExtensions.IsNotNull
+  nameWithType: ObjectExtensions.IsNotNull
+- uid: StansAssets.Foundation.ObjectExtensions.IsNull(Object)
+  name: IsNull(Object)
+  href: foundation/StansAssets.Foundation.ObjectExtensions.html#StansAssets_Foundation_ObjectExtensions_IsNull_Object_
+  commentId: M:StansAssets.Foundation.ObjectExtensions.IsNull(Object)
+  fullName: StansAssets.Foundation.ObjectExtensions.IsNull(Object)
+  nameWithType: ObjectExtensions.IsNull(Object)
+- uid: StansAssets.Foundation.ObjectExtensions.IsNull*
+  name: IsNull
+  href: foundation/StansAssets.Foundation.ObjectExtensions.html#StansAssets_Foundation_ObjectExtensions_IsNull_
+  commentId: Overload:StansAssets.Foundation.ObjectExtensions.IsNull
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ObjectExtensions.IsNull
+  nameWithType: ObjectExtensions.IsNull
+- uid: StansAssets.Foundation.PackageScriptableSettings
+  name: PackageScriptableSettings
+  href: foundation/StansAssets.Foundation.PackageScriptableSettings.html
+  commentId: T:StansAssets.Foundation.PackageScriptableSettings
+  fullName: StansAssets.Foundation.PackageScriptableSettings
+  nameWithType: PackageScriptableSettings
+- uid: StansAssets.Foundation.PackageScriptableSettings.PackageName
+  name: PackageName
+  href: foundation/StansAssets.Foundation.PackageScriptableSettings.html#StansAssets_Foundation_PackageScriptableSettings_PackageName
+  commentId: P:StansAssets.Foundation.PackageScriptableSettings.PackageName
+  fullName: StansAssets.Foundation.PackageScriptableSettings.PackageName
+  nameWithType: PackageScriptableSettings.PackageName
+- uid: StansAssets.Foundation.PackageScriptableSettings.PackageName*
+  name: PackageName
+  href: foundation/StansAssets.Foundation.PackageScriptableSettings.html#StansAssets_Foundation_PackageScriptableSettings_PackageName_
+  commentId: Overload:StansAssets.Foundation.PackageScriptableSettings.PackageName
+  isSpec: "True"
+  fullName: StansAssets.Foundation.PackageScriptableSettings.PackageName
+  nameWithType: PackageScriptableSettings.PackageName
+- uid: StansAssets.Foundation.PackageScriptableSettings.SettingsLocations
+  name: SettingsLocations
+  href: foundation/StansAssets.Foundation.PackageScriptableSettings.html#StansAssets_Foundation_PackageScriptableSettings_SettingsLocations
+  commentId: P:StansAssets.Foundation.PackageScriptableSettings.SettingsLocations
+  fullName: StansAssets.Foundation.PackageScriptableSettings.SettingsLocations
+  nameWithType: PackageScriptableSettings.SettingsLocations
+- uid: StansAssets.Foundation.PackageScriptableSettings.SettingsLocations*
+  name: SettingsLocations
+  href: foundation/StansAssets.Foundation.PackageScriptableSettings.html#StansAssets_Foundation_PackageScriptableSettings_SettingsLocations_
+  commentId: Overload:StansAssets.Foundation.PackageScriptableSettings.SettingsLocations
+  isSpec: "True"
+  fullName: StansAssets.Foundation.PackageScriptableSettings.SettingsLocations
+  nameWithType: PackageScriptableSettings.SettingsLocations
+- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1
+  name: PackageScriptableSettingsSingleton<T>
+  href: foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html
+  commentId: T:StansAssets.Foundation.PackageScriptableSettingsSingleton`1
+  name.vb: PackageScriptableSettingsSingleton(Of T)
+  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>
+  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T)
+  nameWithType: PackageScriptableSettingsSingleton<T>
+  nameWithType.vb: PackageScriptableSettingsSingleton(Of T)
+- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Instance
+  name: Instance
+  href: foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_PackageScriptableSettingsSingleton_1_Instance
+  commentId: P:StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Instance
+  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T).Instance
+  nameWithType: PackageScriptableSettingsSingleton<T>.Instance
+  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Instance
+- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Instance*
+  name: Instance
+  href: foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_PackageScriptableSettingsSingleton_1_Instance_
+  commentId: Overload:StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Instance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T).Instance
+  nameWithType: PackageScriptableSettingsSingleton<T>.Instance
+  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Instance
+- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Save
+  name: Save()
+  href: foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_PackageScriptableSettingsSingleton_1_Save
+  commentId: M:StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Save
+  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>.Save()
+  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T).Save()
+  nameWithType: PackageScriptableSettingsSingleton<T>.Save()
+  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Save()
+- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Save*
+  name: Save
+  href: foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_PackageScriptableSettingsSingleton_1_Save_
+  commentId: Overload:StansAssets.Foundation.PackageScriptableSettingsSingleton`1.Save
+  isSpec: "True"
+  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>.Save
+  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T).Save
+  nameWithType: PackageScriptableSettingsSingleton<T>.Save
+  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Save
+- uid: StansAssets.Foundation.ScriptableSettings
+  name: ScriptableSettings
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html
+  commentId: T:StansAssets.Foundation.ScriptableSettings
+  fullName: StansAssets.Foundation.ScriptableSettings
+  nameWithType: ScriptableSettings
+- uid: StansAssets.Foundation.ScriptableSettings.BasePath
+  name: BasePath
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_BasePath
+  commentId: P:StansAssets.Foundation.ScriptableSettings.BasePath
+  fullName: StansAssets.Foundation.ScriptableSettings.BasePath
+  nameWithType: ScriptableSettings.BasePath
+- uid: StansAssets.Foundation.ScriptableSettings.BasePath*
+  name: BasePath
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_BasePath_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.BasePath
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettings.BasePath
+  nameWithType: ScriptableSettings.BasePath
+- uid: StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  name: DocumentationUrl
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_DocumentationUrl
+  commentId: P:StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  fullName: StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  nameWithType: ScriptableSettings.DocumentationUrl
+- uid: StansAssets.Foundation.ScriptableSettings.DocumentationUrl*
+  name: DocumentationUrl
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_DocumentationUrl_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettings.DocumentationUrl
+  nameWithType: ScriptableSettings.DocumentationUrl
+- uid: StansAssets.Foundation.ScriptableSettings.PluginName
+  name: PluginName
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_PluginName
+  commentId: P:StansAssets.Foundation.ScriptableSettings.PluginName
+  fullName: StansAssets.Foundation.ScriptableSettings.PluginName
+  nameWithType: ScriptableSettings.PluginName
+- uid: StansAssets.Foundation.ScriptableSettings.PluginName*
+  name: PluginName
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_PluginName_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettings.PluginName
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettings.PluginName
+  nameWithType: ScriptableSettings.PluginName
+- uid: StansAssets.Foundation.ScriptableSettings.VersionCode
+  name: VersionCode
+  href: foundation/StansAssets.Foundation.ScriptableSettings.html#StansAssets_Foundation_ScriptableSettings_VersionCode
+  commentId: F:StansAssets.Foundation.ScriptableSettings.VersionCode
+  fullName: StansAssets.Foundation.ScriptableSettings.VersionCode
+  nameWithType: ScriptableSettings.VersionCode
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1
+  name: ScriptableSettingsSingleton<T>
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html
+  commentId: T:StansAssets.Foundation.ScriptableSettingsSingleton`1
+  name.vb: ScriptableSettingsSingleton(Of T)
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T)
+  nameWithType: ScriptableSettingsSingleton<T>
+  nameWithType.vb: ScriptableSettingsSingleton(Of T)
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Instance
+  name: Instance
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Instance
+  commentId: P:StansAssets.Foundation.ScriptableSettingsSingleton`1.Instance
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Instance
+  nameWithType: ScriptableSettingsSingleton<T>.Instance
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Instance
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Instance*
+  name: Instance
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Instance_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettingsSingleton`1.Instance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Instance
+  nameWithType: ScriptableSettingsSingleton<T>.Instance
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Instance
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Save
+  name: Save()
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Save
+  commentId: M:StansAssets.Foundation.ScriptableSettingsSingleton`1.Save
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Save()
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Save()
+  nameWithType: ScriptableSettingsSingleton<T>.Save()
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Save()
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Save*
+  name: Save
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Save_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettingsSingleton`1.Save
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Save
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Save
+  nameWithType: ScriptableSettingsSingleton<T>.Save
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Save
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.UpdateVersion(System.String)
+  name: UpdateVersion(String)
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_UpdateVersion_System_String_
+  commentId: M:StansAssets.Foundation.ScriptableSettingsSingleton`1.UpdateVersion(System.String)
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.UpdateVersion(System.String)
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).UpdateVersion(System.String)
+  nameWithType: ScriptableSettingsSingleton<T>.UpdateVersion(String)
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).UpdateVersion(String)
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.UpdateVersion*
+  name: UpdateVersion
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_UpdateVersion_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettingsSingleton`1.UpdateVersion
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.UpdateVersion
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).UpdateVersion
+  nameWithType: ScriptableSettingsSingleton<T>.UpdateVersion
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).UpdateVersion
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Version
+  name: Version
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Version
+  commentId: P:StansAssets.Foundation.ScriptableSettingsSingleton`1.Version
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Version
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Version
+  nameWithType: ScriptableSettingsSingleton<T>.Version
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Version
+- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1.Version*
+  name: Version
+  href: foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html#StansAssets_Foundation_ScriptableSettingsSingleton_1_Version_
+  commentId: Overload:StansAssets.Foundation.ScriptableSettingsSingleton`1.Version
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>.Version
+  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T).Version
+  nameWithType: ScriptableSettingsSingleton<T>.Version
+  nameWithType.vb: ScriptableSettingsSingleton(Of T).Version
+- uid: StansAssets.Foundation.Singleton`1
+  name: Singleton<T>
+  href: foundation/StansAssets.Foundation.Singleton-1.html
+  commentId: T:StansAssets.Foundation.Singleton`1
+  name.vb: Singleton(Of T)
+  fullName: StansAssets.Foundation.Singleton<T>
+  fullName.vb: StansAssets.Foundation.Singleton(Of T)
+  nameWithType: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+- uid: StansAssets.Foundation.Singleton`1.Instance
+  name: Instance
+  href: foundation/StansAssets.Foundation.Singleton-1.html#StansAssets_Foundation_Singleton_1_Instance
+  commentId: P:StansAssets.Foundation.Singleton`1.Instance
+  fullName: StansAssets.Foundation.Singleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: StansAssets.Foundation.Singleton`1.Instance*
+  name: Instance
+  href: foundation/StansAssets.Foundation.Singleton-1.html#StansAssets_Foundation_Singleton_1_Instance_
+  commentId: Overload:StansAssets.Foundation.Singleton`1.Instance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Singleton<T>.Instance
+  fullName.vb: StansAssets.Foundation.Singleton(Of T).Instance
+  nameWithType: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+- uid: StansAssets.Foundation.StringExtensions
+  name: StringExtensions
+  href: foundation/StansAssets.Foundation.StringExtensions.html
+  commentId: T:StansAssets.Foundation.StringExtensions
+  fullName: StansAssets.Foundation.StringExtensions
+  nameWithType: StringExtensions
+- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  name: AllIndexesOf(String, String, StringComparison)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_AllIndexesOf_System_String_System_String_StringComparison_
+  commentId: M:StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String, System.String, StringComparison)
+  nameWithType: StringExtensions.AllIndexesOf(String, String, StringComparison)
+- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf*
+  name: AllIndexesOf
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_AllIndexesOf_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.AllIndexesOf
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf
+  nameWithType: StringExtensions.AllIndexesOf
+- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  name: CopyToClipboard(String)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_CopyToClipboard_System_String_
+  commentId: M:StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  nameWithType: StringExtensions.CopyToClipboard(String)
+- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard*
+  name: CopyToClipboard
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_CopyToClipboard_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.CopyToClipboard
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard
+  nameWithType: StringExtensions.CopyToClipboard
+- uid: StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+  name: GetFirst(String, Int32)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_GetFirst_System_String_System_Int32_
+  commentId: M:StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+  fullName: StansAssets.Foundation.StringExtensions.GetFirst(System.String, System.Int32)
+  nameWithType: StringExtensions.GetFirst(String, Int32)
+- uid: StansAssets.Foundation.StringExtensions.GetFirst*
+  name: GetFirst
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_GetFirst_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.GetFirst
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.GetFirst
+  nameWithType: StringExtensions.GetFirst
+- uid: StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+  name: GetLast(String, Int32)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_GetLast_System_String_System_Int32_
+  commentId: M:StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+  fullName: StansAssets.Foundation.StringExtensions.GetLast(System.String, System.Int32)
+  nameWithType: StringExtensions.GetLast(String, Int32)
+- uid: StansAssets.Foundation.StringExtensions.GetLast*
+  name: GetLast
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_GetLast_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.GetLast
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.GetLast
+  nameWithType: StringExtensions.GetLast
+- uid: StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+  name: RemoveLast(String, Int32)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_RemoveLast_System_String_System_Int32_
+  commentId: M:StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+  fullName: StansAssets.Foundation.StringExtensions.RemoveLast(System.String, System.Int32)
+  nameWithType: StringExtensions.RemoveLast(String, Int32)
+- uid: StansAssets.Foundation.StringExtensions.RemoveLast*
+  name: RemoveLast
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_RemoveLast_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.RemoveLast
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.RemoveLast
+  nameWithType: StringExtensions.RemoveLast
+- uid: StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+  name: TrimEnd(String, String)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_TrimEnd_System_String_System_String_
+  commentId: M:StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+  fullName: StansAssets.Foundation.StringExtensions.TrimEnd(System.String, System.String)
+  nameWithType: StringExtensions.TrimEnd(String, String)
+- uid: StansAssets.Foundation.StringExtensions.TrimEnd*
+  name: TrimEnd
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_TrimEnd_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimEnd
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.TrimEnd
+  nameWithType: StringExtensions.TrimEnd
+- uid: StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  name: TrimStart(String, String)
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_TrimStart_System_String_System_String_
+  commentId: M:StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  fullName: StansAssets.Foundation.StringExtensions.TrimStart(System.String, System.String)
+  nameWithType: StringExtensions.TrimStart(String, String)
+- uid: StansAssets.Foundation.StringExtensions.TrimStart*
+  name: TrimStart
+  href: foundation/StansAssets.Foundation.StringExtensions.html#StansAssets_Foundation_StringExtensions_TrimStart_
+  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimStart
+  isSpec: "True"
+  fullName: StansAssets.Foundation.StringExtensions.TrimStart
+  nameWithType: StringExtensions.TrimStart
+- uid: StansAssets.Foundation.TransformExtensions
+  name: TransformExtensions
+  href: foundation/StansAssets.Foundation.TransformExtensions.html
+  commentId: T:StansAssets.Foundation.TransformExtensions
+  fullName: StansAssets.Foundation.TransformExtensions
+  nameWithType: TransformExtensions
+- uid: StansAssets.Foundation.TransformExtensions.Clear(Transform,System.Boolean)
+  name: Clear(Transform, Boolean)
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_Clear_Transform_System_Boolean_
+  commentId: M:StansAssets.Foundation.TransformExtensions.Clear(Transform,System.Boolean)
+  fullName: StansAssets.Foundation.TransformExtensions.Clear(Transform, System.Boolean)
+  nameWithType: TransformExtensions.Clear(Transform, Boolean)
+- uid: StansAssets.Foundation.TransformExtensions.Clear*
+  name: Clear
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_Clear_
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.Clear
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TransformExtensions.Clear
+  nameWithType: TransformExtensions.Clear
+- uid: StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  name: FindOrCreateChild(Transform, String)
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_FindOrCreateChild_Transform_System_String_
+  commentId: M:StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  fullName: StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform, System.String)
+  nameWithType: TransformExtensions.FindOrCreateChild(Transform, String)
+- uid: StansAssets.Foundation.TransformExtensions.FindOrCreateChild*
+  name: FindOrCreateChild
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_FindOrCreateChild_
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.FindOrCreateChild
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TransformExtensions.FindOrCreateChild
+  nameWithType: TransformExtensions.FindOrCreateChild
+- uid: StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  name: Reset(Transform)
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_Reset_Transform_
+  commentId: M:StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  fullName: StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  nameWithType: TransformExtensions.Reset(Transform)
+- uid: StansAssets.Foundation.TransformExtensions.Reset*
+  name: Reset
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_Reset_
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.Reset
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TransformExtensions.Reset
+  nameWithType: TransformExtensions.Reset
+- uid: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  name: SetLossyScaleScale(Transform, Vector3)
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_SetLossyScaleScale_Transform_Vector3_
+  commentId: M:StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  fullName: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+  nameWithType: TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+- uid: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale*
+  name: SetLossyScaleScale
+  href: foundation/StansAssets.Foundation.TransformExtensions.html#StansAssets_Foundation_TransformExtensions_SetLossyScaleScale_
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.SetLossyScaleScale
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale
+  nameWithType: TransformExtensions.SetLossyScaleScale
+- uid: StansAssets.Foundation.UIElements
+  name: StansAssets.Foundation.UIElements
+  href: foundation/StansAssets.Foundation.UIElements.html
+  commentId: N:StansAssets.Foundation.UIElements
+  fullName: StansAssets.Foundation.UIElements
+  nameWithType: StansAssets.Foundation.UIElements
+- uid: StansAssets.Foundation.UIElements.ButtonStrip
+  name: ButtonStrip
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip
+  nameWithType: ButtonStrip
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.#ctor
+  name: ButtonStrip()
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip__ctor
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.#ctor
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.ButtonStrip()
+  nameWithType: ButtonStrip.ButtonStrip()
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.#ctor(IEnumerable{System.String})
+  name: ButtonStrip(IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip__ctor_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.#ctor(IEnumerable{System.String})
+  name.vb: ButtonStrip(IEnumerable(Of String))
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.ButtonStrip(IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.UIElements.ButtonStrip.ButtonStrip(IEnumerable(Of System.String))
+  nameWithType: ButtonStrip.ButtonStrip(IEnumerable<String>)
+  nameWithType.vb: ButtonStrip.ButtonStrip(IEnumerable(Of String))
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.#ctor*
+  name: ButtonStrip
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip__ctor_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.ButtonStrip
+  nameWithType: ButtonStrip.ButtonStrip
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.AddChoice(System.String,System.String)
+  name: AddChoice(String, String)
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_AddChoice_System_String_System_String_
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.AddChoice(System.String,System.String)
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.AddChoice(System.String, System.String)
+  nameWithType: ButtonStrip.AddChoice(String, String)
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.AddChoice*
+  name: AddChoice
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_AddChoice_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.AddChoice
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.AddChoice
+  nameWithType: ButtonStrip.AddChoice
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  name: Choices
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Choices
+  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  nameWithType: ButtonStrip.Choices
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Choices*
+  name: Choices
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Choices_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  nameWithType: ButtonStrip.Choices
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.CleanUp
+  name: CleanUp()
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_CleanUp
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.CleanUp
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.CleanUp()
+  nameWithType: ButtonStrip.CleanUp()
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.CleanUp*
+  name: CleanUp
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_CleanUp_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.CleanUp
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.CleanUp
+  nameWithType: ButtonStrip.CleanUp
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Labels
+  name: Labels
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Labels
+  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.Labels
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Labels
+  nameWithType: ButtonStrip.Labels
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Labels*
+  name: Labels
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Labels_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.Labels
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Labels
+  nameWithType: ButtonStrip.Labels
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  name: OnButtonClick
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_OnButtonClick
+  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  nameWithType: ButtonStrip.OnButtonClick
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick*
+  name: OnButtonClick
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_OnButtonClick_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  nameWithType: ButtonStrip.OnButtonClick
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.SetValue(System.String)
+  name: SetValue(String)
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_SetValue_System_String_
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.SetValue(System.String)
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.SetValue(System.String)
+  nameWithType: ButtonStrip.SetValue(String)
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.SetValue*
+  name: SetValue
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_SetValue_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.SetValue
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.SetValue
+  nameWithType: ButtonStrip.SetValue
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify(System.String)
+  name: SetValueWithoutNotify(String)
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_SetValueWithoutNotify_System_String_
+  commentId: M:StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify(System.String)
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify(System.String)
+  nameWithType: ButtonStrip.SetValueWithoutNotify(String)
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify*
+  name: SetValueWithoutNotify
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_SetValueWithoutNotify_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify
+  nameWithType: ButtonStrip.SetValueWithoutNotify
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UssClassName
+  name: UssClassName
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_UssClassName
+  commentId: F:StansAssets.Foundation.UIElements.ButtonStrip.UssClassName
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UssClassName
+  nameWithType: ButtonStrip.UssClassName
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  name: ButtonStrip.UxmlFactory
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory.html
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  nameWithType: ButtonStrip.UxmlFactory
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  name: ButtonStrip.UxmlTraits
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits.html
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+  nameWithType: ButtonStrip.UxmlTraits
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Value
+  name: Value
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Value
+  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.Value
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Value
+  nameWithType: ButtonStrip.Value
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Value*
+  name: Value
+  href: foundation/StansAssets.Foundation.UIElements.ButtonStrip.html#StansAssets_Foundation_UIElements_ButtonStrip_Value_
+  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.Value
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.Value
+  nameWithType: ButtonStrip.Value
+- uid: StansAssets.Foundation.UIElements.UIElementsUtility
+  name: UIElementsUtility
+  href: foundation/StansAssets.Foundation.UIElements.UIElementsUtility.html
+  commentId: T:StansAssets.Foundation.UIElements.UIElementsUtility
+  fullName: StansAssets.Foundation.UIElements.UIElementsUtility
+  nameWithType: UIElementsUtility
+- uid: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event)
+  name: CreateEvent(Event)
+  href: foundation/StansAssets.Foundation.UIElements.UIElementsUtility.html#StansAssets_Foundation_UIElements_UIElementsUtility_CreateEvent_Event_
+  commentId: M:StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event)
+  fullName: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event)
+  nameWithType: UIElementsUtility.CreateEvent(Event)
+- uid: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event,EventType)
+  name: CreateEvent(Event, EventType)
+  href: foundation/StansAssets.Foundation.UIElements.UIElementsUtility.html#StansAssets_Foundation_UIElements_UIElementsUtility_CreateEvent_Event_EventType_
+  commentId: M:StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event,EventType)
+  fullName: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent(Event, EventType)
+  nameWithType: UIElementsUtility.CreateEvent(Event, EventType)
+- uid: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent*
+  name: CreateEvent
+  href: foundation/StansAssets.Foundation.UIElements.UIElementsUtility.html#StansAssets_Foundation_UIElements_UIElementsUtility_CreateEvent_
+  commentId: Overload:StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent
+  nameWithType: UIElementsUtility.CreateEvent
+- uid: StansAssets.Foundation.Vector3Extensions
+  name: Vector3Extensions
+  href: foundation/StansAssets.Foundation.Vector3Extensions.html
+  commentId: T:StansAssets.Foundation.Vector3Extensions
+  fullName: StansAssets.Foundation.Vector3Extensions
+  nameWithType: Vector3Extensions
+- uid: StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
+  name: SqrDistance(Vector3, Vector3)
+  href: foundation/StansAssets.Foundation.Vector3Extensions.html#StansAssets_Foundation_Vector3Extensions_SqrDistance_Vector3__Vector3__
+  commentId: M:StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
+  name.vb: SqrDistance(ByRef Vector3, ByRef Vector3)
+  fullName: StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3, Vector3)
+  fullName.vb: StansAssets.Foundation.Vector3Extensions.SqrDistance(ByRef Vector3, ByRef Vector3)
+  nameWithType: Vector3Extensions.SqrDistance(Vector3, Vector3)
+  nameWithType.vb: Vector3Extensions.SqrDistance(ByRef Vector3, ByRef Vector3)
+- uid: StansAssets.Foundation.Vector3Extensions.SqrDistance*
+  name: SqrDistance
+  href: foundation/StansAssets.Foundation.Vector3Extensions.html#StansAssets_Foundation_Vector3Extensions_SqrDistance_
+  commentId: Overload:StansAssets.Foundation.Vector3Extensions.SqrDistance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Vector3Extensions.SqrDistance
+  nameWithType: Vector3Extensions.SqrDistance

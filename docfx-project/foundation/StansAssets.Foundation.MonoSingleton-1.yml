@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.MonoSingleton`1
+  commentId: T:StansAssets.Foundation.MonoSingleton`1
+  id: MonoSingleton`1
+  parent: StansAssets.Foundation
+  children:
+  - StansAssets.Foundation.MonoSingleton`1.Awake
+  - StansAssets.Foundation.MonoSingleton`1.HasInstance
+  - StansAssets.Foundation.MonoSingleton`1.Instance
+  - StansAssets.Foundation.MonoSingleton`1.Instantiate
+  - StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  - StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  - StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  langs:
+  - csharp
+  - vb
+  name: MonoSingleton<T>
+  nameWithType: MonoSingleton<T>
+  fullName: StansAssets.Foundation.MonoSingleton<T>
+  type: Class
+  source:
+    id: MonoSingleton
+    path: ''
+    startLine: 9
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nSingleton pattern implementation.\nCan be used with classes extended from a MonoBehaviour.\nOnce instance is found or created, game object will be marked as DontDestroyOnLoad\n"
+  example: []
+  syntax:
+    content: 'public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class MonoSingleton(Of T As MonoBehaviour)
+
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  nameWithType.vb: MonoSingleton(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T)
+  name.vb: MonoSingleton(Of T)
+- uid: StansAssets.Foundation.MonoSingleton`1.Awake
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.Awake
+  id: Awake
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MonoSingleton<T>.Awake()
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 14
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: StansAssets.Foundation.MonoSingleton`1.Awake*
+  nameWithType.vb: MonoSingleton(Of T).Awake()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Awake()
+- uid: StansAssets.Foundation.MonoSingleton`1.Instance
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.Instance
+  id: Instance
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: MonoSingleton<T>.Instance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instance
+  type: Property
+  source:
+    id: Instance
+    path: ''
+    startLine: 25
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nReturns a singleton class instance\nIf current instance is not assigned it will try to find an object of the instance type,\nin case instance already exists on a scene. If not, new instance will be created\n"
+  example: []
+  syntax:
+    content: public static T Instance { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared ReadOnly Property Instance As T
+  overload: StansAssets.Foundation.MonoSingleton`1.Instance*
+  nameWithType.vb: MonoSingleton(Of T).Instance
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instance
+- uid: StansAssets.Foundation.MonoSingleton`1.Instantiate
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.Instantiate
+  id: Instantiate
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: Instantiate()
+  nameWithType: MonoSingleton<T>.Instantiate()
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instantiate()
+  type: Method
+  source:
+    id: Instantiate
+    path: ''
+    startLine: 52
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nMethods will create new object Instantiate\nNormally method is called automatically when you referring to and Instance getter\nfor a first time.\nBut it may be useful if you want manually control when the instance is created,\neven if you do not this specific instance at the moment\n"
+  example: []
+  syntax:
+    content: public static void Instantiate()
+    content.vb: Public Shared Sub Instantiate
+  overload: StansAssets.Foundation.MonoSingleton`1.Instantiate*
+  nameWithType.vb: MonoSingleton(Of T).Instantiate()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instantiate()
+- uid: StansAssets.Foundation.MonoSingleton`1.HasInstance
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.HasInstance
+  id: HasInstance
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: HasInstance
+  nameWithType: MonoSingleton<T>.HasInstance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.HasInstance
+  type: Property
+  source:
+    id: HasInstance
+    path: ''
+    startLine: 61
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nTrue if Singleton Instance exists\n"
+  example: []
+  syntax:
+    content: public static bool HasInstance { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property HasInstance As Boolean
+  overload: StansAssets.Foundation.MonoSingleton`1.HasInstance*
+  nameWithType.vb: MonoSingleton(Of T).HasInstance
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).HasInstance
+- uid: StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  commentId: P:StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  id: IsDestroyed
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: IsDestroyed
+  nameWithType: MonoSingleton<T>.IsDestroyed
+  fullName: StansAssets.Foundation.MonoSingleton<T>.IsDestroyed
+  type: Property
+  source:
+    id: IsDestroyed
+    path: ''
+    startLine: 66
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nTrue if Singleton Instance doesn&apos;t exist\n"
+  example: []
+  syntax:
+    content: public static bool IsDestroyed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsDestroyed As Boolean
+  overload: StansAssets.Foundation.MonoSingleton`1.IsDestroyed*
+  nameWithType.vb: MonoSingleton(Of T).IsDestroyed
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).IsDestroyed
+- uid: StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  id: OnDestroy
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: MonoSingleton<T>.OnDestroy()
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnDestroy()
+  type: Method
+  source:
+    id: OnDestroy
+    path: ''
+    startLine: 76
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nWhen Unity quits, it destroys objects in a random order.\nIn principle, a Singleton is only destroyed when application quits.\nIf any script calls Instance after it have been destroyed,\nit will create a buggy ghost object that will stay on the Editor scene\neven after stopping playing the Application. Really bad!\nSo, this was made to be sure we&apos;re not creating that buggy ghost object.\n"
+  example: []
+  syntax:
+    content: protected virtual void OnDestroy()
+    content.vb: Protected Overridable Sub OnDestroy
+  overload: StansAssets.Foundation.MonoSingleton`1.OnDestroy*
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnDestroy()
+- uid: StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  commentId: M:StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  id: OnApplicationQuit
+  parent: StansAssets.Foundation.MonoSingleton`1
+  langs:
+  - csharp
+  - vb
+  name: OnApplicationQuit()
+  nameWithType: MonoSingleton<T>.OnApplicationQuit()
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnApplicationQuit()
+  type: Method
+  source:
+    id: OnApplicationQuit
+    path: ''
+    startLine: 82
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  syntax:
+    content: protected virtual void OnApplicationQuit()
+    content.vb: Protected Overridable Sub OnApplicationQuit
+  overload: StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit*
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnApplicationQuit()
+references:
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.MonoSingleton`1.Awake*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Awake
+  name: Awake
+  nameWithType: MonoSingleton<T>.Awake
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Awake
+  nameWithType.vb: MonoSingleton(Of T).Awake
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Awake
+- uid: StansAssets.Foundation.MonoSingleton`1.Instance*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Instance
+  name: Instance
+  nameWithType: MonoSingleton<T>.Instance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instance
+  nameWithType.vb: MonoSingleton(Of T).Instance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instance
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StansAssets.Foundation.MonoSingleton`1.Instantiate*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.Instantiate
+  name: Instantiate
+  nameWithType: MonoSingleton<T>.Instantiate
+  fullName: StansAssets.Foundation.MonoSingleton<T>.Instantiate
+  nameWithType.vb: MonoSingleton(Of T).Instantiate
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).Instantiate
+- uid: StansAssets.Foundation.MonoSingleton`1.HasInstance*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.HasInstance
+  name: HasInstance
+  nameWithType: MonoSingleton<T>.HasInstance
+  fullName: StansAssets.Foundation.MonoSingleton<T>.HasInstance
+  nameWithType.vb: MonoSingleton(Of T).HasInstance
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).HasInstance
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Foundation.MonoSingleton`1.IsDestroyed*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.IsDestroyed
+  name: IsDestroyed
+  nameWithType: MonoSingleton<T>.IsDestroyed
+  fullName: StansAssets.Foundation.MonoSingleton<T>.IsDestroyed
+  nameWithType.vb: MonoSingleton(Of T).IsDestroyed
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).IsDestroyed
+- uid: StansAssets.Foundation.MonoSingleton`1.OnDestroy*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.OnDestroy
+  name: OnDestroy
+  nameWithType: MonoSingleton<T>.OnDestroy
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnDestroy
+  nameWithType.vb: MonoSingleton(Of T).OnDestroy
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnDestroy
+- uid: StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit*
+  commentId: Overload:StansAssets.Foundation.MonoSingleton`1.OnApplicationQuit
+  name: OnApplicationQuit
+  nameWithType: MonoSingleton<T>.OnApplicationQuit
+  fullName: StansAssets.Foundation.MonoSingleton<T>.OnApplicationQuit
+  nameWithType.vb: MonoSingleton(Of T).OnApplicationQuit
+  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T).OnApplicationQuit

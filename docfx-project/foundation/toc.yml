@@ -1,0 +1,68 @@
+### YamlMime:TableOfContent
+- uid: SA.Foundation.Editor
+  name: SA.Foundation.Editor
+  items:
+  - uid: SA.Foundation.Editor.EditorDefines
+    name: EditorDefines
+- uid: StansAssets.Foundation
+  name: StansAssets.Foundation
+  items:
+  - uid: StansAssets.Foundation.ArrayExtensions
+    name: ArrayExtensions
+  - uid: StansAssets.Foundation.MonoSingleton`1
+    name: MonoSingleton<T>
+    name.vb: MonoSingleton(Of T)
+  - uid: StansAssets.Foundation.ObjectExtensions
+    name: ObjectExtensions
+  - uid: StansAssets.Foundation.PackageScriptableSettings
+    name: PackageScriptableSettings
+  - uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1
+    name: PackageScriptableSettingsSingleton<T>
+    name.vb: PackageScriptableSettingsSingleton(Of T)
+  - uid: StansAssets.Foundation.ScriptableSettings
+    name: ScriptableSettings
+  - uid: StansAssets.Foundation.ScriptableSettingsSingleton`1
+    name: ScriptableSettingsSingleton<T>
+    name.vb: ScriptableSettingsSingleton(Of T)
+  - uid: StansAssets.Foundation.Singleton`1
+    name: Singleton<T>
+    name.vb: Singleton(Of T)
+  - uid: StansAssets.Foundation.StringExtensions
+    name: StringExtensions
+  - uid: StansAssets.Foundation.TransformExtensions
+    name: TransformExtensions
+  - uid: StansAssets.Foundation.Vector3Extensions
+    name: Vector3Extensions
+- uid: StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  items:
+  - uid: StansAssets.Foundation.Editor.AssetDatabaseUtility
+    name: AssetDatabaseUtility
+  - uid: StansAssets.Foundation.Editor.BaseTab
+    name: BaseTab
+  - uid: StansAssets.Foundation.Editor.EnumUtility
+    name: EnumUtility
+  - uid: StansAssets.Foundation.Editor.FoundationPackage
+    name: FoundationPackage
+  - uid: StansAssets.Foundation.Editor.IdFactory
+    name: IdFactory
+  - uid: StansAssets.Foundation.Editor.PackageManagerUtility
+    name: PackageManagerUtility
+  - uid: StansAssets.Foundation.Editor.PackageSettingsWindow`1
+    name: PackageSettingsWindow<TWindow>
+    name.vb: PackageSettingsWindow(Of TWindow)
+  - uid: StansAssets.Foundation.Editor.ReflectionUtility
+    name: ReflectionUtility
+  - uid: StansAssets.Foundation.Editor.UnixTime
+    name: UnixTime
+- uid: StansAssets.Foundation.UIElements
+  name: StansAssets.Foundation.UIElements
+  items:
+  - uid: StansAssets.Foundation.UIElements.ButtonStrip
+    name: ButtonStrip
+  - uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+    name: ButtonStrip.UxmlFactory
+  - uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits
+    name: ButtonStrip.UxmlTraits
+  - uid: StansAssets.Foundation.UIElements.UIElementsUtility
+    name: UIElementsUtility

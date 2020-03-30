@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.TransformExtensions
+  commentId: T:StansAssets.Foundation.TransformExtensions
+  id: TransformExtensions
+  parent: StansAssets.Foundation
+  children:
+  - StansAssets.Foundation.TransformExtensions.Clear(Transform,System.Boolean)
+  - StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  - StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  - StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  langs:
+  - csharp
+  - vb
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: StansAssets.Foundation.TransformExtensions
+  type: Class
+  source:
+    id: TransformExtensions
+    path: ''
+    startLine: 323
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nUnity <see cref=\"!:Transform\"></see> extension methods.\n"
+  example: []
+  syntax:
+    content: public static class TransformExtensions
+    content.vb: Public Module TransformExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  commentId: M:StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  id: SetLossyScaleScale(Transform,Vector3)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLossyScaleScale(Transform, Vector3)
+  nameWithType: TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+  fullName: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+  type: Method
+  source:
+    id: SetLossyScaleScale
+    path: ''
+    startLine: 330
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nSets <see cref=\"!:Transform.lossyScale\"></see> value.\n"
+  example: []
+  syntax:
+    content: public static void SetLossyScaleScale(this Transform transform, Vector3 lossyScale)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: lossyScale
+      type: Vector3
+      description: New lossyScale value.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLossyScaleScale(transform As Transform, lossyScale As Vector3)
+  overload: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  commentId: M:StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  id: Reset(Transform)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Reset(Transform)
+  nameWithType: TransformExtensions.Reset(Transform)
+  fullName: StansAssets.Foundation.TransformExtensions.Reset(Transform)
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 341
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nReset <see cref=\"!:Transform\"></see> component position, scale and rotation.\n"
+  example: []
+  syntax:
+    content: public static void Reset(this Transform transform)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Reset(transform As Transform)
+  overload: StansAssets.Foundation.TransformExtensions.Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.TransformExtensions.Clear(Transform,System.Boolean)
+  commentId: M:StansAssets.Foundation.TransformExtensions.Clear(Transform,System.Boolean)
+  id: Clear(Transform,System.Boolean)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clear(Transform, Boolean)
+  nameWithType: TransformExtensions.Clear(Transform, Boolean)
+  fullName: StansAssets.Foundation.TransformExtensions.Clear(Transform, System.Boolean)
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nRemoves all transform children.\n"
+  example: []
+  syntax:
+    content: public static Transform Clear(this Transform transform, bool activeOnly = false)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: activeOnly
+      type: System.Boolean
+      description: 'Will ignore disabled game-objects when set to <code>true</code>. '
+    return:
+      type: Transform
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clear(transform As Transform, activeOnly As Boolean = False) As Transform
+  overload: StansAssets.Foundation.TransformExtensions.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  commentId: M:StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  id: FindOrCreateChild(Transform,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindOrCreateChild(Transform, String)
+  nameWithType: TransformExtensions.FindOrCreateChild(Transform, String)
+  fullName: StansAssets.Foundation.TransformExtensions.FindOrCreateChild(Transform, System.String)
+  type: Method
+  source:
+    id: FindOrCreateChild
+    path: ''
+    startLine: 377
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nFind or create child with name.\n"
+  example: []
+  syntax:
+    content: public static Transform FindOrCreateChild(this Transform transform, string name)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: name
+      type: System.String
+      description: Child name.
+    return:
+      type: Transform
+      description: Child <see cref="!:Transform"></see> component instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindOrCreateChild(transform As Transform, name As String) As Transform
+  overload: StansAssets.Foundation.TransformExtensions.FindOrCreateChild*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale*
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.SetLossyScaleScale
+  name: SetLossyScaleScale
+  nameWithType: TransformExtensions.SetLossyScaleScale
+  fullName: StansAssets.Foundation.TransformExtensions.SetLossyScaleScale
+- uid: Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: StansAssets.Foundation.TransformExtensions.Reset*
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.Reset
+  name: Reset
+  nameWithType: TransformExtensions.Reset
+  fullName: StansAssets.Foundation.TransformExtensions.Reset
+- uid: StansAssets.Foundation.TransformExtensions.Clear*
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.Clear
+  name: Clear
+  nameWithType: TransformExtensions.Clear
+  fullName: StansAssets.Foundation.TransformExtensions.Clear
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Foundation.TransformExtensions.FindOrCreateChild*
+  commentId: Overload:StansAssets.Foundation.TransformExtensions.FindOrCreateChild
+  name: FindOrCreateChild
+  nameWithType: TransformExtensions.FindOrCreateChild
+  fullName: StansAssets.Foundation.TransformExtensions.FindOrCreateChild
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

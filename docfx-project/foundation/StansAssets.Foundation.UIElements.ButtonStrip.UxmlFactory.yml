@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  commentId: T:StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  id: ButtonStrip.UxmlFactory
+  parent: StansAssets.Foundation.UIElements
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ButtonStrip.UxmlFactory
+  nameWithType: ButtonStrip.UxmlFactory
+  fullName: StansAssets.Foundation.UIElements.ButtonStrip.UxmlFactory
+  type: Class
+  source:
+    id: UxmlFactory
+    path: ''
+    startLine: 838
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.UIElements
+  syntax:
+    content: 'public class UxmlFactory : ButtonStrip.UxmlFactory<ButtonStrip, ButtonStrip.UxmlTraits>'
+    content.vb: >-
+      Public Class UxmlFactory
+
+          Inherits ButtonStrip.UxmlFactory(Of ButtonStrip, ButtonStrip.UxmlTraits)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: StansAssets.Foundation.UIElements
+  commentId: N:StansAssets.Foundation.UIElements
+  name: StansAssets.Foundation.UIElements
+  nameWithType: StansAssets.Foundation.UIElements
+  fullName: StansAssets.Foundation.UIElements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
