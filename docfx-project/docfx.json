@@ -1,0 +1,78 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files":"NativePlugins/IOSNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+        }
+      ],
+      "dest": "ios-nativei"
+    },
+    {
+      "src": [
+        {
+          "files":"NativePlugins/AndroidNativePro/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+        }
+      ],
+      "dest": "android-nativei"
+    },
+     {
+      "src": [
+        {
+          "files":"CrossPlatform/**.cs",
+          "src":"../../Plugins/Assets/Plugins/StansAssets/"
+        }
+      ],
+      "dest": "ultimate-mobilei"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "ios-native/**.yml",
+          "android-native/**.yml",
+          "ultimate-mobile/**.yml"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "**/bin/**",
+          "**/obj/**"
+        ]
+      }
+    ],
+    "dest": "../doc",
+    "template": ["default", "templates/unity"]
+  }
+}
