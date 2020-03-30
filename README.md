@@ -5,6 +5,7 @@ This project is used to maintent the docfx project for the [Web Stan's Assets AP
 * Webiste is located under the `docs` folder.
 * Make sure docfx is installed. (for example if you are using  mac [Homebrew](https://formulae.brew.sh/formula/docfx) run `brew install docfx`). Or cehcek **DocFX** section for more details.
 * To regenerate the website content, remove files under the `docs` folder, run `docfx docfx-project/docfx.json` 
+* If you want to preview created site locally, run `docfx docfx-project/docfx.json -t statictoc`
 * Make sure you have the following repos on the smae level
 * * Plugins
 * * com.stansassets.foundation
