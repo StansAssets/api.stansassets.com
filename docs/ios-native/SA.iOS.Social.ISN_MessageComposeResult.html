@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ISN_IASAuthorizationAppleIDRequest
+    <title>Enum ISN_MessageComposeResult
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ISN_IASAuthorizationAppleIDRequest
+    <meta name="title" content="Enum ISN_MessageComposeResult
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -68,34 +68,52 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SA.iOS.AuthenticationServices.ISN_IASAuthorizationAppleIDRequest">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.Social.ISN_MessageComposeResult">
   
   
-  <h1 id="SA_iOS_AuthenticationServices_ISN_IASAuthorizationAppleIDRequest" data-uid="SA.iOS.AuthenticationServices.ISN_IASAuthorizationAppleIDRequest" class="text-break">Class ISN_IASAuthorizationAppleIDRequest
+  <h1 id="SA_iOS_Social_ISN_MessageComposeResult" data-uid="SA.iOS.Social.ISN_MessageComposeResult" class="text-break">Enum ISN_MessageComposeResult
   </h1>
-  <div class="markdown level0 summary"><p>An OpenID authorization request that relies on the user’s Apple ID.</p>
+  <div class="markdown level0 summary"><p>These constants describe the result of the message-composition interface.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationRequest.html">ISN_ASAuthorizationRequest</a></div>
-    <div class="level2"><a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationOpenIDRequest.html">ISN_ASAuthorizationOpenIDRequest</a></div>
-    <div class="level3"><span class="xref">ISN_IASAuthorizationAppleIDRequest</span></div>
-      <div class="level4"><a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationSingleSignOnRequest.html">ISN_ASAuthorizationSingleSignOnRequest</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationOpenIDRequest.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationOpenIDRequest_SetRequestedScopes_IEnumerable_SA_iOS_AuthenticationServices_ISN_ASAuthorizationScope__">ISN_ASAuthorizationOpenIDRequest.SetRequestedScopes(IEnumerable&lt;ISN_ASAuthorizationScope&gt;)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.AuthenticationServices.html">SA.iOS.AuthenticationServices</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.Social.html">SA.iOS.Social</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="SA_iOS_AuthenticationServices_ISN_IASAuthorizationAppleIDRequest_syntax">Syntax</h5>
+  <h5 id="SA_iOS_Social_ISN_MessageComposeResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ISN_IASAuthorizationAppleIDRequest : ISN_ASAuthorizationOpenIDRequest</code></pre>
+    <pre><code class="lang-csharp hljs">public enum ISN_MessageComposeResult</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    <thead>
+    <tbody>
+      <tr>
+        <td id="SA_iOS_Social_ISN_MessageComposeResult_Cancelled">Cancelled</td>
+        <td><p>The user canceled the composition.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_iOS_Social_ISN_MessageComposeResult_Failed">Failed</td>
+        <td><p>The user’s attempt to save or send the message was unsuccessful.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_iOS_Social_ISN_MessageComposeResult_NotSupportedByDevice">NotSupportedByDevice</td>
+        <td><p>API is not supported by the current device.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="SA_iOS_Social_ISN_MessageComposeResult_Sent">Sent</td>
+        <td><p>The user successfully queued or sent the message.</p>
+</td>
+      </tr>
+    </tbody>
+  </thead></thead></table>
 </article>
           </div>
           

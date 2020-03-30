@@ -74,10 +74,10 @@
   <h1 id="SA_iOS_GameKit_ISN_GKLocalPlayer" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer" class="text-break">Class ISN_GKLocalPlayer
   </h1>
   <div class="markdown level0 summary"><p>An object representing the authenticated Game Center player on a device.</p>
-<p>At any given time, only one player may be authenticated on the device; 
-this player must log out before another player can log in. 
+<p>At any given time, only one player may be authenticated on the device;
+this player must log out before another player can log in.
 Your game must authenticate the local player before using any Game Center features.
-Authenticating the player ensures that the player has created an account and is connected to Game Center. </p>
+Authenticating the player ensures that the player has created an account and is connected to Game Center.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -188,7 +188,7 @@ You never directly create a local player object. Instead, you retrieve the Singl
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_Underage_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Underage*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_Underage" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Underage">Underage</h4>
   <div class="markdown level1 summary"><p>A Boolean value that declares whether the local player is underage.
-Some Game Center features are disabled if the local player is underage. 
+Some Game Center features are disabled if the local player is underage.
 Your game can also test this property if it wants to disable some of its own features based on the player’s age.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -218,13 +218,13 @@ Your game can also test this property if it wants to disable some of its own fea
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticate_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticate*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_Authenticate_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.Authenticate(Action{SA_Result})">Authenticate(Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Authenticate GK Local Player</p>
-<p>Your game should authenticate the player as early as possible after launching, 
-ideally as soon as you can present a user interface to the player. 
-For example, your game may be launched because the player accepted an invitation to join a match 
-or to take a turn in a turn-based match, 
-so you want your game to authenticate the player 
-and process the match invitation as quickly as possible. 
-After you set a handler, authentication begins automatically 
+<p>Your game should authenticate the player as early as possible after launching,
+ideally as soon as you can present a user interface to the player.
+For example, your game may be launched because the player accepted an invitation to join a match
+or to take a turn in a turn-based match,
+so you want your game to authenticate the player
+and process the match invitation as quickly as possible.
+After you set a handler, authentication begins automatically
 and is repeated when your game moves to the background and then back to the foreground.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -315,9 +315,9 @@ and is repeated when your game moves to the background and then back to the fore
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_GenerateIdentityVerificationSignatureWithCompletionHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_GenerateIdentityVerificationSignatureWithCompletionHandler_Action_SA_iOS_GameKit_ISN_GKIdentityVerificationSignatureResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler(Action{SA.iOS.GameKit.ISN_GKIdentityVerificationSignatureResult})">GenerateIdentityVerificationSignatureWithCompletionHandler(Action&lt;ISN_GKIdentityVerificationSignatureResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Generates a signature that allows a third party server to authenticate the local player.</p>
-<p>When this method is called, it creates a new background task to handle the request. 
-The method then returns control to your game. 
-Later, when the task is complete, Game Kit calls your completion callback. 
+<p>When this method is called, it creates a new background task to handle the request.
+The method then returns control to your game.
+Later, when the task is complete, Game Kit calls your completion callback.
 The completion handler is always called on the main thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -457,13 +457,13 @@ The completion handler is always called on the main thread.</p>
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler(Action{SA_Result})">setAuthenticateHandler(Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>A handler called to process an authentication-related event.</p>
-<p>Your game should authenticate the player as early as possible after launching, 
-ideally as soon as you can present a user interface to the player. 
-For example, your game may be launched because the player accepted an invitation to join a match 
-or to take a turn in a turn-based match, 
-so you want your game to authenticate the player 
-and process the match invitation as quickly as possible. 
-After you set a handler, authentication begins automatically 
+<p>Your game should authenticate the player as early as possible after launching,
+ideally as soon as you can present a user interface to the player.
+For example, your game may be launched because the player accepted an invitation to join a match
+or to take a turn in a turn-based match,
+so you want your game to authenticate the player
+and process the match invitation as quickly as possible.
+After you set a handler, authentication begins automatically
 and is repeated when your game moves to the background and then back to the foreground.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

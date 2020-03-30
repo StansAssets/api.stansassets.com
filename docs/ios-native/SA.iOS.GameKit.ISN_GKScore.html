@@ -74,7 +74,7 @@
   <h1 id="SA_iOS_GameKit_ISN_GKScore" data-uid="SA.iOS.GameKit.ISN_GKScore" class="text-break">Class ISN_GKScore
   </h1>
   <div class="markdown level0 summary"><p>An object containing information for a score that was earned by the player.</p>
-<p>Your game creates GKScore objects to post scores to a leaderboard on Game Center. 
+<p>Your game creates GKScore objects to post scores to a leaderboard on Game Center.
 When your game retrieves score information from a leaderboard, those scores are returned as GKScore objects.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -149,14 +149,14 @@ When your game retrieves score information from a leaderboard, those scores are 
   <a id="SA_iOS_GameKit_ISN_GKScore_Context_" data-uid="SA.iOS.GameKit.ISN_GKScore.Context*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_Context" data-uid="SA.iOS.GameKit.ISN_GKScore.Context">Context</h4>
   <div class="markdown level1 summary"><p>An integer value used by your game.</p>
-<p>The <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Context">Context</a> property is stored and returned to your game, 
-but is otherwise ignored by Game Center. 
-It allows your game to associate an arbitrary 64-bit unsigned integer value 
-with the score data reported to Game Center. 
-You decide how this integer value is interpreted by your game. 
-For example, you might use the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Context">Context</a> property 
-to store flags that provide game-specific details about a player’s score, 
-or you might use the context as a key to other data stored on the device or on your own server. 
+<p>The <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Context">Context</a> property is stored and returned to your game,
+but is otherwise ignored by Game Center.
+It allows your game to associate an arbitrary 64-bit unsigned integer value
+with the score data reported to Game Center.
+You decide how this integer value is interpreted by your game.
+For example, you might use the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Context">Context</a> property
+to store flags that provide game-specific details about a player’s score,
+or you might use the context as a key to other data stored on the device or on your own server.
 The context is most useful when your game displays a custom leaderboard user interface.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -237,13 +237,13 @@ The context is most useful when your game displays a custom leaderboard user int
   <a id="SA_iOS_GameKit_ISN_GKScore_FormattedValue_" data-uid="SA.iOS.GameKit.ISN_GKScore.FormattedValue*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_FormattedValue" data-uid="SA.iOS.GameKit.ISN_GKScore.FormattedValue">FormattedValue</h4>
   <div class="markdown level1 summary"><p>Returns the player’s score as a localized string</p>
-<p>This property is invalid on a newly initialized score object. 
-On a score returned from GameKit, it contains a formatted string based on the player’s score. 
+<p>This property is invalid on a newly initialized score object.
+On a score returned from GameKit, it contains a formatted string based on the player’s score.
 You determine how a score is formatted when you define the leaderboard on iTunes Connect.</p>
 <p>Never convert the value property into a string directly; always use this method to receive the formatted string.</p>
 <p><code>Important</code>
-You may be tempted to write your own formatting code rather than using the formattedValue property. 
-Do not do this. Using the built-in support makes it easy to localize the score value into other languages, 
+You may be tempted to write your own formatting code rather than using the formattedValue property.
+Do not do this. Using the built-in support makes it easy to localize the score value into other languages,
 and provides a string that is consistent with the presentation of your scores in the Game Center app.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -297,9 +297,9 @@ and provides a string that is consistent with the presentation of your scores in
   <a id="SA_iOS_GameKit_ISN_GKScore_Player_" data-uid="SA.iOS.GameKit.ISN_GKScore.Player*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_Player" data-uid="SA.iOS.GameKit.ISN_GKScore.Player">Player</h4>
   <div class="markdown level1 summary"><p>The player identifier for the player that earned the score.</p>
-<p>When you initialize a new score object, the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Player">Player</a> property 
-is set to the identifier for the local player. 
-If the score object was returned to your game by loading scores from Game Center, 
+<p>When you initialize a new score object, the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Player">Player</a> property
+is set to the identifier for the local player.
+If the score object was returned to your game by loading scores from Game Center,
 the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKScore_Player">Player</a> property identifies the player who recorded that score.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -327,7 +327,7 @@ the <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html#SA_iOS_GameKit_ISN_GKS
   <a id="SA_iOS_GameKit_ISN_GKScore_Rank_" data-uid="SA.iOS.GameKit.ISN_GKScore.Rank*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_Rank" data-uid="SA.iOS.GameKit.ISN_GKScore.Rank">Rank</h4>
   <div class="markdown level1 summary"><p>The position of the score in the results of a leaderboard search.</p>
-<p>The value of this property is only valid on score objects returned from Game Center. 
+<p>The value of this property is only valid on score objects returned from Game Center.
 The rank property represents the position of the score in the returned results, with 1 being the best score, 2 being the second best, and so on.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -355,7 +355,7 @@ The rank property represents the position of the score in the returned results, 
   <a id="SA_iOS_GameKit_ISN_GKScore_Value_" data-uid="SA.iOS.GameKit.ISN_GKScore.Value*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_Value" data-uid="SA.iOS.GameKit.ISN_GKScore.Value">Value</h4>
   <div class="markdown level1 summary"><p>The score earned by the player.</p>
-<p>You can use any algorithm you want to calculate scores in your game. 
+<p>You can use any algorithm you want to calculate scores in your game.
 Your game must set the value property before reporting a score, otherwise an error is returned.</p>
 <p>The value provided by a score object is interpreted by Game Center only when formatted for display.
 You determine how your scores are formatted when you define the leaderboard on iTunes Connect.</p>
@@ -418,13 +418,13 @@ Use this class method whenever you need to submit scores to Game Center.</p>
   <a id="SA_iOS_GameKit_ISN_GKScore_ReportScores_" data-uid="SA.iOS.GameKit.ISN_GKScore.ReportScores*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKScore_ReportScores_List_SA_iOS_GameKit_ISN_GKScore__Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKScore.ReportScores(List{SA.iOS.GameKit.ISN_GKScore},Action{SA_Result})">ReportScores(List&lt;ISN_GKScore&gt;, Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Reports a list of scores to Game Center</p>
-<p>Use this class method whenever you need to submit scores to Game Center, 
-whether you are reporting a single score or multiple scores. 
+<p>Use this class method whenever you need to submit scores to Game Center,
+whether you are reporting a single score or multiple scores.
 The method runs through the array of GKScore objects, submitting scores one at a time.</p>
-<p>Method provides a sample method to report a score. 
-The <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html">ISN_GKScore</a> object is initialized with the leaderboard ID 
-for the leaderboard it reports its score to and then the value and context for the score are assigned. 
-The leaderboard ID must be the identifier for a leaderboard you configured in iTunes Connect. 
+<p>Method provides a sample method to report a score.
+The <a class="xref" href="SA.iOS.GameKit.ISN_GKScore.html">ISN_GKScore</a> object is initialized with the leaderboard ID
+for the leaderboard it reports its score to and then the value and context for the score are assigned.
+The leaderboard ID must be the identifier for a leaderboard you configured in iTunes Connect.
 Scores are always reported for the current local player and never for friends.</p>
 </div>
   <div class="markdown level1 conceptual"></div>

@@ -73,7 +73,8 @@
   
   <h1 id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons" data-uid="SA.iOS.Foundation.ISN_NSUbiquitousKeyValueStoreChangeReasons" class="text-break">Enum ISN_NSUbiquitousKeyValueStoreChangeReasons
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Possible values associated with the <a class="xref" href="SA.iOS.Foundation.ISN_NSStoreDidChangeExternallyNotification.html#SA_iOS_Foundation_ISN_NSStoreDidChangeExternallyNotification_Reason">Reason</a> property.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.Foundation.html">SA.iOS.Foundation</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -93,23 +94,35 @@
     <tbody>
       <tr>
         <td id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons_AccountChange">AccountChange</td>
-        <td></td>
+        <td><p>The user has changed the primary iCloud account.
+The keys and values in the local key-value store have been replaced with those from the new account,
+regardless of the relative timestamps.</p>
+</td>
       </tr>
       <tr>
         <td id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons_InitialSyncChange">InitialSyncChange</td>
-        <td></td>
+        <td><p>Your attempt to write to key-value storage was discarded because an initial download from iCloud has not yet happened.
+That is, before you can first write key-value data, the system must ensure that your app’s local, o
+n-disk cache matches the truth in iCloud.</p>
+<p>Initial downloads happen the first time a device is connected to an iCloud account,
+and when a user switches their primary iCloud account.</p>
+</td>
       </tr>
       <tr>
         <td id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons_None">None</td>
-        <td></td>
+        <td><p>Empty value.</p>
+</td>
       </tr>
       <tr>
         <td id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons_QuotaViolationChange">QuotaViolationChange</td>
-        <td></td>
+        <td><p>Your app’s key-value store has exceeded its space quota on the iCloud server.</p>
+</td>
       </tr>
       <tr>
         <td id="SA_iOS_Foundation_ISN_NSUbiquitousKeyValueStoreChangeReasons_ServerChange">ServerChange</td>
-        <td></td>
+        <td><p>A value changed in iCloud.
+This occurs when another device, running another instance of your app and attached to the same iCloud account, uploads a new value.</p>
+</td>
       </tr>
     </tbody>
   </thead></thead></table>

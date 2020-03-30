@@ -73,7 +73,8 @@
   
   <h1 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver" class="text-break">Interface ISN_iSKPaymentTransactionObserver
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A set of methods that process transactions, unlock purchased functionality, and continue promoted in-app purchases.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.StoreKit.html">SA.iOS.StoreKit</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -99,7 +100,7 @@
   <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnRestoreTransactionsComplete_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnRestoreTransactionsComplete*"></a>
   <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnRestoreTransactionsComplete_SA_Result_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnRestoreTransactionsComplete(SA_Result)">OnRestoreTransactionsComplete(SA_Result)</h4>
   <div class="markdown level1 summary"><p>Tells the observer that the payment queue has finished sending restored transactions.</p>
-<p>This method is called after all restartable transactions have been processed by the payment queue. 
+<p>This method is called after all restartable transactions have been processed by the payment queue.
 Your application is not required to do anything in this method.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -175,7 +176,8 @@ If you return false, you can continue the transaction later using requetsed <a c
   <a id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionRemoved_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionRemoved*"></a>
   <h4 id="SA_iOS_StoreKit_ISN_iSKPaymentTransactionObserver_OnTransactionRemoved_SA_iOS_StoreKit_ISN_iSKPaymentTransaction_" data-uid="SA.iOS.StoreKit.ISN_iSKPaymentTransactionObserver.OnTransactionRemoved(SA.iOS.StoreKit.ISN_iSKPaymentTransaction)">OnTransactionRemoved(ISN_iSKPaymentTransaction)</h4>
   <div class="markdown level1 summary"><p>Tells an observer that one or more transactions have been removed from the queue.</p>
-<p>Your application does not typically need to anything on this event,<br>but it may be used to update user interface to reflect that a transaction has been completed.</p>
+<p>Your application does not typically need to anything on this event,
+but it may be used to update user interface to reflect that a transaction has been completed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

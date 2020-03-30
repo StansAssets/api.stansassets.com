@@ -73,7 +73,7 @@
   
   <h1 id="SA_iOS_GameKit_ISN_GKAchievement" data-uid="SA.iOS.GameKit.ISN_GKAchievement" class="text-break">Class ISN_GKAchievement
   </h1>
-  <div class="markdown level0 summary"><p>An object that communicates with Game Center 
+  <div class="markdown level0 summary"><p>An object that communicates with Game Center
 about the local player’s progress toward completing an achievement.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -148,7 +148,7 @@ about the local player’s progress toward completing an achievement.</p>
   <a id="SA_iOS_GameKit_ISN_GKAchievement_Completed_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.Completed*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_Completed" data-uid="SA.iOS.GameKit.ISN_GKAchievement.Completed">Completed</h4>
   <div class="markdown level1 summary"><p>A Boolean value that states whether the player has completed the achievement.</p>
-<p>The value of this property is <code>true</code> if the percentComplete property is equal to 100.0; 
+<p>The value of this property is <code>true</code> if the percentComplete property is equal to 100.0;
 otherwise, it is <code>false</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -176,7 +176,7 @@ otherwise, it is <code>false</code>.</p>
   <a id="SA_iOS_GameKit_ISN_GKAchievement_Identifier_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.Identifier*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_Identifier" data-uid="SA.iOS.GameKit.ISN_GKAchievement.Identifier">Identifier</h4>
   <div class="markdown level1 summary"><p>A string used to uniquely identify the specific achievement the object refers to.
-The identifier property must match the identifier string 
+The identifier property must match the identifier string
 for an achievement you created for your game on iTunes Connect.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -258,13 +258,13 @@ On a newly initialized achievement object, this property holds the current date.
   <a id="SA_iOS_GameKit_ISN_GKAchievement_PercentComplete_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.PercentComplete*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_PercentComplete" data-uid="SA.iOS.GameKit.ISN_GKAchievement.PercentComplete">PercentComplete</h4>
   <div class="markdown level1 summary"><p>A percentage value that states how far the player has progressed on this achievement.</p>
-<p>The default value for a newly initialized achievement object is 0.0. 
-The range of legal values is between 0.0 and 100.0, inclusive. 
-You decide how that percentage is calculated and when it changes. 
-For example, if the player earns an achievement simply for discovering a location in your game, 
-then you would simply report the achievement as 100 percent complete 
-the first time you report progress to Game Center. 
-On the other hand, for an achievement like “Capture 10 pirates”, 
+<p>The default value for a newly initialized achievement object is 0.0.
+The range of legal values is between 0.0 and 100.0, inclusive.
+You decide how that percentage is calculated and when it changes.
+For example, if the player earns an achievement simply for discovering a location in your game,
+then you would simply report the achievement as 100 percent complete
+the first time you report progress to Game Center.
+On the other hand, for an achievement like “Capture 10 pirates”,
 your reporting mechanism increments by 10 percent each time the player captures a pirate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -320,9 +320,9 @@ your reporting mechanism increments by 10 percent each time the player captures 
   <a id="SA_iOS_GameKit_ISN_GKAchievement_LoadAchievements_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.LoadAchievements*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_LoadAchievements_Action_SA_iOS_GameKit_ISN_GKAchievementsResult__" data-uid="SA.iOS.GameKit.ISN_GKAchievement.LoadAchievements(Action{SA.iOS.GameKit.ISN_GKAchievementsResult})">LoadAchievements(Action&lt;ISN_GKAchievementsResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Loads previously submitted achievement progress for the local player from Game Center.
-When this method is called, it creates a new background task to handle the request. 
-The method then returns control to your game. 
-Later, when the task is complete, Game Kit calls your completion handler. 
+When this method is called, it creates a new background task to handle the request.
+The method then returns control to your game.
+Later, when the task is complete, Game Kit calls your completion handler.
 The completion handler is always called on the main thread. Listing 1 shows an example of how to load the local player’s achievements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -344,9 +344,9 @@ The completion handler is always called on the main thread. Listing 1 shows an e
         <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKAchievementsResult.html">ISN_GKAchievementsResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>A block to be called when the download is completed.
-An array of <a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html">ISN_GKAchievement</a> objects that 
-represents all progress reported to Game Center for the local player. 
-If an error occurred, this parameter may be non-nil, 
+An array of <a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html">ISN_GKAchievement</a> objects that
+represents all progress reported to Game Center for the local player.
+If an error occurred, this parameter may be non-nil,
 in which case the array holds whatever achievement information Game Kit was able to fetch.</p>
 </td>
       </tr>
@@ -387,9 +387,9 @@ Conisder using <a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html#SA_iO
   <a id="SA_iOS_GameKit_ISN_GKAchievement_ReportAchievements_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.ReportAchievements*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_ReportAchievements_List_SA_iOS_GameKit_ISN_GKAchievement__Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKAchievement.ReportAchievements(List{SA.iOS.GameKit.ISN_GKAchievement},Action{SA_Result})">ReportAchievements(List&lt;ISN_GKAchievement&gt;, Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Reports progress on an array of achievements.</p>
-<p>Use this class method whenever you need to submit one or more achievement updates at the same time. 
-Calling this method reports each of the achievements in the array. 
-Processing multiple achievements at once allows the entire operation to be processed more efficiently 
+<p>Use this class method whenever you need to submit one or more achievement updates at the same time.
+Calling this method reports each of the achievements in the array.
+Processing multiple achievements at once allows the entire operation to be processed more efficiently
 using this method as the callback handler is only called once.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -410,7 +410,7 @@ using this method as the callback handler is only called once.</p>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html">ISN_GKAchievement</a>&gt;</td>
         <td><span class="parametername">achievements</span></td>
-        <td><p>An array of <a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html">ISN_GKAchievement</a> objects 
+        <td><p>An array of <a class="xref" href="SA.iOS.GameKit.ISN_GKAchievement.html">ISN_GKAchievement</a> objects
 that contains the achievements whose progress is being updated.</p>
 </td>
       </tr>
@@ -427,7 +427,7 @@ that contains the achievements whose progress is being updated.</p>
   <a id="SA_iOS_GameKit_ISN_GKAchievement_ResetAchievements_" data-uid="SA.iOS.GameKit.ISN_GKAchievement.ResetAchievements*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKAchievement_ResetAchievements_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKAchievement.ResetAchievements(Action{SA_Result})">ResetAchievements(Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Resets all achievement progress for the local player.</p>
-<p>Calling this class method deletes all progress towards achievements previously reported for the local player. 
+<p>Calling this class method deletes all progress towards achievements previously reported for the local player.
 Hidden achievements that were previously visible are now hidden again.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
