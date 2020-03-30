@@ -1,29 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.Editor.IdFactory
-  commentId: T:StansAssets.Foundation.Editor.IdFactory
-  id: IdFactory
-  parent: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation.Extensions.TransformExtensions
+  commentId: T:StansAssets.Foundation.Extensions.TransformExtensions
+  id: TransformExtensions
+  parent: StansAssets.Foundation.Extensions
   children:
-  - StansAssets.Foundation.Editor.IdFactory.NextId
-  - StansAssets.Foundation.Editor.IdFactory.RandomString
+  - StansAssets.Foundation.Extensions.TransformExtensions.Clear(Transform,System.Boolean)
+  - StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  - StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
+  - StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
   langs:
   - csharp
   - vb
-  name: IdFactory
-  nameWithType: IdFactory
-  fullName: StansAssets.Foundation.Editor.IdFactory
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions
   type: Class
   source:
-    id: IdFactory
+    id: TransformExtensions
     path: ''
-    startLine: 632
+    startLine: 227
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nUnity <see cref=\"!:Transform\"></see> extension methods.\n"
+  example: []
   syntax:
-    content: public static class IdFactory
-    content.vb: Public Module IdFactory
+    content: public static class TransformExtensions
+    content.vb: Public Module TransformExtensions
   inheritance:
   - System.Object
   inheritedMembers:
@@ -41,82 +45,179 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.Editor.IdFactory.NextId
-  commentId: P:StansAssets.Foundation.Editor.IdFactory.NextId
-  id: NextId
-  parent: StansAssets.Foundation.Editor.IdFactory
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
+  id: SetLossyScaleScale(Transform,Vector3)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.TransformExtensions
   langs:
   - csharp
   - vb
-  name: NextId
-  nameWithType: IdFactory.NextId
-  fullName: StansAssets.Foundation.Editor.IdFactory.NextId
-  type: Property
+  name: SetLossyScaleScale(Transform, Vector3)
+  nameWithType: TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform, Vector3)
+  type: Method
   source:
-    id: NextId
+    id: SetLossyScaleScale
     path: ''
-    startLine: 640
+    startLine: 234
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nGenerates unique <see cref=\"!:PlayerPrefs\"></see> based incremental Id.\n<see cref=\"!:PlayerPrefs\"></see> is used to store previous id.\n"
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nSets <see cref=\"!:Transform.lossyScale\"></see> value.\n"
   example: []
   syntax:
-    content: public static int NextId { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public Shared ReadOnly Property NextId As Integer
-  overload: StansAssets.Foundation.Editor.IdFactory.NextId*
+    content: public static void SetLossyScaleScale(this Transform transform, Vector3 lossyScale)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: lossyScale
+      type: Vector3
+      description: New lossyScale value.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLossyScaleScale(transform As Transform, lossyScale As Vector3)
+  overload: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale*
   modifiers.csharp:
   - public
   - static
-  - get
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
-- uid: StansAssets.Foundation.Editor.IdFactory.RandomString
-  commentId: P:StansAssets.Foundation.Editor.IdFactory.RandomString
-  id: RandomString
-  parent: StansAssets.Foundation.Editor.IdFactory
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
+  id: Reset(Transform)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.TransformExtensions
   langs:
   - csharp
   - vb
-  name: RandomString
-  nameWithType: IdFactory.RandomString
-  fullName: StansAssets.Foundation.Editor.IdFactory.RandomString
-  type: Property
+  name: Reset(Transform)
+  nameWithType: TransformExtensions.Reset(Transform)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
+  type: Method
   source:
-    id: RandomString
+    id: Reset
     path: ''
-    startLine: 659
+    startLine: 245
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nGenerates a random string.\n"
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nReset <see cref=\"!:Transform\"></see> component position, scale and rotation.\n"
   example: []
   syntax:
-    content: public static string RandomString { get; }
-    parameters: []
+    content: public static void Reset(this Transform transform)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Reset(transform As Transform)
+  overload: StansAssets.Foundation.Extensions.TransformExtensions.Reset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.Clear(Transform,System.Boolean)
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.Clear(Transform,System.Boolean)
+  id: Clear(Transform,System.Boolean)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Clear(Transform, Boolean)
+  nameWithType: TransformExtensions.Clear(Transform, Boolean)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Clear(Transform, System.Boolean)
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 258
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nRemoves all transform children.\n"
+  example: []
+  syntax:
+    content: public static Transform Clear(this Transform transform, bool activeOnly = false)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: activeOnly
+      type: System.Boolean
+      description: 'Will ignore disabled game-objects when set to <code>true</code>. '
     return:
+      type: Transform
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clear(transform As Transform, activeOnly As Boolean = False) As Transform
+  overload: StansAssets.Foundation.Extensions.TransformExtensions.Clear*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform,System.String)
+  id: FindOrCreateChild(Transform,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: FindOrCreateChild(Transform, String)
+  nameWithType: TransformExtensions.FindOrCreateChild(Transform, String)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform, System.String)
+  type: Method
+  source:
+    id: FindOrCreateChild
+    path: ''
+    startLine: 281
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nFind or create child with name.\n"
+  example: []
+  syntax:
+    content: public static Transform FindOrCreateChild(this Transform transform, string name)
+    parameters:
+    - id: transform
+      type: Transform
+      description: Transform component.
+    - id: name
       type: System.String
-    content.vb: Public Shared ReadOnly Property RandomString As String
-  overload: StansAssets.Foundation.Editor.IdFactory.RandomString*
+      description: Child name.
+    return:
+      type: Transform
+      description: Child <see cref="!:Transform"></see> component instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FindOrCreateChild(transform As Transform, name As String) As Transform
+  overload: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild*
   modifiers.csharp:
   - public
   - static
-  - get
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
 references:
-- uid: StansAssets.Foundation.Editor
-  commentId: N:StansAssets.Foundation.Editor
-  name: StansAssets.Foundation.Editor
-  nameWithType: StansAssets.Foundation.Editor
-  fullName: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation.Extensions
+  commentId: N:StansAssets.Foundation.Extensions
+  name: StansAssets.Foundation.Extensions
+  nameWithType: StansAssets.Foundation.Extensions
+  fullName: StansAssets.Foundation.Extensions
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -409,23 +510,43 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Foundation.Editor.IdFactory.NextId*
-  commentId: Overload:StansAssets.Foundation.Editor.IdFactory.NextId
-  name: NextId
-  nameWithType: IdFactory.NextId
-  fullName: StansAssets.Foundation.Editor.IdFactory.NextId
-- uid: System.Int32
-  commentId: T:System.Int32
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale*
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale
+  name: SetLossyScaleScale
+  nameWithType: TransformExtensions.SetLossyScaleScale
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale
+- uid: Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.Reset*
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.Reset
+  name: Reset
+  nameWithType: TransformExtensions.Reset
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Reset
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.Clear*
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.Clear
+  name: Clear
+  nameWithType: TransformExtensions.Clear
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Clear
+- uid: System.Boolean
+  commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: StansAssets.Foundation.Editor.IdFactory.RandomString*
-  commentId: Overload:StansAssets.Foundation.Editor.IdFactory.RandomString
-  name: RandomString
-  nameWithType: IdFactory.RandomString
-  fullName: StansAssets.Foundation.Editor.IdFactory.RandomString
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild*
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild
+  name: FindOrCreateChild
+  nameWithType: TransformExtensions.FindOrCreateChild
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild
 - uid: System.String
   commentId: T:System.String
   parent: System

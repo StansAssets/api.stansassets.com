@@ -4,17 +4,10 @@ items:
   commentId: N:StansAssets.Foundation
   id: StansAssets.Foundation
   children:
-  - StansAssets.Foundation.ArrayExtensions
-  - StansAssets.Foundation.MonoSingleton`1
-  - StansAssets.Foundation.ObjectExtensions
-  - StansAssets.Foundation.PackageScriptableSettings
-  - StansAssets.Foundation.PackageScriptableSettingsSingleton`1
-  - StansAssets.Foundation.ScriptableSettings
-  - StansAssets.Foundation.ScriptableSettingsSingleton`1
-  - StansAssets.Foundation.Singleton`1
-  - StansAssets.Foundation.StringExtensions
-  - StansAssets.Foundation.TransformExtensions
-  - StansAssets.Foundation.Vector3Extensions
+  - StansAssets.Foundation.EnumUtility
+  - StansAssets.Foundation.IdFactory
+  - StansAssets.Foundation.ReflectionUtility
+  - StansAssets.Foundation.UnixTime
   langs:
   - csharp
   - vb
@@ -25,189 +18,23 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: StansAssets.Foundation.MonoSingleton`1
-  commentId: T:StansAssets.Foundation.MonoSingleton`1
-  name: MonoSingleton<T>
-  nameWithType: MonoSingleton<T>
-  fullName: StansAssets.Foundation.MonoSingleton<T>
-  nameWithType.vb: MonoSingleton(Of T)
-  fullName.vb: StansAssets.Foundation.MonoSingleton(Of T)
-  name.vb: MonoSingleton(Of T)
-  spec.csharp:
-  - uid: StansAssets.Foundation.MonoSingleton`1
-    name: MonoSingleton
-    nameWithType: MonoSingleton
-    fullName: StansAssets.Foundation.MonoSingleton
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: StansAssets.Foundation.MonoSingleton`1
-    name: MonoSingleton
-    nameWithType: MonoSingleton
-    fullName: StansAssets.Foundation.MonoSingleton
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: StansAssets.Foundation.ScriptableSettingsSingleton`1
-  commentId: T:StansAssets.Foundation.ScriptableSettingsSingleton`1
-  name: ScriptableSettingsSingleton<T>
-  nameWithType: ScriptableSettingsSingleton<T>
-  fullName: StansAssets.Foundation.ScriptableSettingsSingleton<T>
-  nameWithType.vb: ScriptableSettingsSingleton(Of T)
-  fullName.vb: StansAssets.Foundation.ScriptableSettingsSingleton(Of T)
-  name.vb: ScriptableSettingsSingleton(Of T)
-  spec.csharp:
-  - uid: StansAssets.Foundation.ScriptableSettingsSingleton`1
-    name: ScriptableSettingsSingleton
-    nameWithType: ScriptableSettingsSingleton
-    fullName: StansAssets.Foundation.ScriptableSettingsSingleton
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: StansAssets.Foundation.ScriptableSettingsSingleton`1
-    name: ScriptableSettingsSingleton
-    nameWithType: ScriptableSettingsSingleton
-    fullName: StansAssets.Foundation.ScriptableSettingsSingleton
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: StansAssets.Foundation.ScriptableSettings
-  commentId: T:StansAssets.Foundation.ScriptableSettings
-  parent: StansAssets.Foundation
-  name: ScriptableSettings
-  nameWithType: ScriptableSettings
-  fullName: StansAssets.Foundation.ScriptableSettings
-- uid: StansAssets.Foundation.PackageScriptableSettings
-  commentId: T:StansAssets.Foundation.PackageScriptableSettings
-  parent: StansAssets.Foundation
-  name: PackageScriptableSettings
-  nameWithType: PackageScriptableSettings
-  fullName: StansAssets.Foundation.PackageScriptableSettings
-- uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1
-  commentId: T:StansAssets.Foundation.PackageScriptableSettingsSingleton`1
-  name: PackageScriptableSettingsSingleton<T>
-  nameWithType: PackageScriptableSettingsSingleton<T>
-  fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton<T>
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T)
-  fullName.vb: StansAssets.Foundation.PackageScriptableSettingsSingleton(Of T)
-  name.vb: PackageScriptableSettingsSingleton(Of T)
-  spec.csharp:
-  - uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1
-    name: PackageScriptableSettingsSingleton
-    nameWithType: PackageScriptableSettingsSingleton
-    fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: StansAssets.Foundation.PackageScriptableSettingsSingleton`1
-    name: PackageScriptableSettingsSingleton
-    nameWithType: PackageScriptableSettingsSingleton
-    fullName: StansAssets.Foundation.PackageScriptableSettingsSingleton
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: StansAssets.Foundation.Singleton`1
-  commentId: T:StansAssets.Foundation.Singleton`1
-  name: Singleton<T>
-  nameWithType: Singleton<T>
-  fullName: StansAssets.Foundation.Singleton<T>
-  nameWithType.vb: Singleton(Of T)
-  fullName.vb: StansAssets.Foundation.Singleton(Of T)
-  name.vb: Singleton(Of T)
-  spec.csharp:
-  - uid: StansAssets.Foundation.Singleton`1
-    name: Singleton
-    nameWithType: Singleton
-    fullName: StansAssets.Foundation.Singleton
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: StansAssets.Foundation.Singleton`1
-    name: Singleton
-    nameWithType: Singleton
-    fullName: StansAssets.Foundation.Singleton
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: StansAssets.Foundation.TransformExtensions
-  commentId: T:StansAssets.Foundation.TransformExtensions
-  name: TransformExtensions
-  nameWithType: TransformExtensions
-  fullName: StansAssets.Foundation.TransformExtensions
-- uid: StansAssets.Foundation.ObjectExtensions
-  commentId: T:StansAssets.Foundation.ObjectExtensions
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: StansAssets.Foundation.ObjectExtensions
-- uid: StansAssets.Foundation.Vector3Extensions
-  commentId: T:StansAssets.Foundation.Vector3Extensions
-  name: Vector3Extensions
-  nameWithType: Vector3Extensions
-  fullName: StansAssets.Foundation.Vector3Extensions
-- uid: StansAssets.Foundation.ArrayExtensions
-  commentId: T:StansAssets.Foundation.ArrayExtensions
-  name: ArrayExtensions
-  nameWithType: ArrayExtensions
-  fullName: StansAssets.Foundation.ArrayExtensions
-- uid: StansAssets.Foundation.StringExtensions
-  commentId: T:StansAssets.Foundation.StringExtensions
-  name: StringExtensions
-  nameWithType: StringExtensions
-  fullName: StansAssets.Foundation.StringExtensions
-- uid: StansAssets.Foundation
-  commentId: N:StansAssets.Foundation
-  name: StansAssets.Foundation
-  nameWithType: StansAssets.Foundation
-  fullName: StansAssets.Foundation
+- uid: StansAssets.Foundation.UnixTime
+  commentId: T:StansAssets.Foundation.UnixTime
+  name: UnixTime
+  nameWithType: UnixTime
+  fullName: StansAssets.Foundation.UnixTime
+- uid: StansAssets.Foundation.IdFactory
+  commentId: T:StansAssets.Foundation.IdFactory
+  name: IdFactory
+  nameWithType: IdFactory
+  fullName: StansAssets.Foundation.IdFactory
+- uid: StansAssets.Foundation.ReflectionUtility
+  commentId: T:StansAssets.Foundation.ReflectionUtility
+  name: ReflectionUtility
+  nameWithType: ReflectionUtility
+  fullName: StansAssets.Foundation.ReflectionUtility
+- uid: StansAssets.Foundation.EnumUtility
+  commentId: T:StansAssets.Foundation.EnumUtility
+  name: EnumUtility
+  nameWithType: EnumUtility
+  fullName: StansAssets.Foundation.EnumUtility

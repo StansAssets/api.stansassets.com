@@ -1,29 +1,29 @@
 ### YamlMime:ManagedReference
 items:
-- uid: SA.Foundation.Editor.EditorDefines
-  commentId: T:SA.Foundation.Editor.EditorDefines
+- uid: StansAssets.Foundation.Editor.EditorDefines
+  commentId: T:StansAssets.Foundation.Editor.EditorDefines
   id: EditorDefines
-  parent: SA.Foundation.Editor
+  parent: StansAssets.Foundation.Editor
   children:
-  - SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
-  - SA.Foundation.Editor.EditorDefines.GetScriptingDefines
-  - SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
-  - SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
-  - SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  - StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  - StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines
+  - StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  - StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  - StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
   langs:
   - csharp
   - vb
   name: EditorDefines
   nameWithType: EditorDefines
-  fullName: SA.Foundation.Editor.EditorDefines
+  fullName: StansAssets.Foundation.Editor.EditorDefines
   type: Class
   source:
     id: EditorDefines
     path: ''
-    startLine: 998
+    startLine: 957
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nProvides method for managing the <see cref=\"!:PlayerSettings\"></see> script defines\n"
   example: []
   syntax:
@@ -46,24 +46,24 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
-  commentId: M:SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+- uid: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
+  commentId: M:StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine(System.String,BuildTarget[])
   id: AddCompileDefine(System.String,BuildTarget[])
-  parent: SA.Foundation.Editor.EditorDefines
+  parent: StansAssets.Foundation.Editor.EditorDefines
   langs:
   - csharp
   - vb
   name: AddCompileDefine(String, BuildTarget[])
   nameWithType: EditorDefines.AddCompileDefine(String, BuildTarget[])
-  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget[])
+  fullName: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget[])
   type: Method
   source:
     id: AddCompileDefine
     path: ''
-    startLine: 1005
+    startLine: 964
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nAttempts to add a new #define constant to the Player Settings\n"
   example: []
   syntax:
@@ -76,7 +76,7 @@ items:
       type: BuildTarget[]
       description: platforms to add this for (default will add to all platforms)
     content.vb: Public Shared Sub AddCompileDefine(newDefineCompileConstant As String, ParamArray targets As BuildTarget())
-  overload: SA.Foundation.Editor.EditorDefines.AddCompileDefine*
+  overload: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine*
   nameWithType.vb: EditorDefines.AddCompileDefine(String, BuildTarget())
   modifiers.csharp:
   - public
@@ -84,26 +84,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SA.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget())
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine(System.String, BuildTarget())
   name.vb: AddCompileDefine(String, BuildTarget())
-- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
-  commentId: M:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+- uid: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
+  commentId: M:StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])
   id: RemoveCompileDefine(System.String,BuildTarget[])
-  parent: SA.Foundation.Editor.EditorDefines
+  parent: StansAssets.Foundation.Editor.EditorDefines
   langs:
   - csharp
   - vb
   name: RemoveCompileDefine(String, BuildTarget[])
   nameWithType: EditorDefines.RemoveCompileDefine(String, BuildTarget[])
-  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget[])
+  fullName: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget[])
   type: Method
   source:
     id: RemoveCompileDefine
     path: ''
-    startLine: 1036
+    startLine: 995
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nAttempts to remove a #define constant from the Player Settings\n"
   example: []
   syntax:
@@ -116,7 +116,7 @@ items:
       type: BuildTarget[]
       description: platforms to add this for (default will add to all platforms)
     content.vb: Public Shared Sub RemoveCompileDefine(defineCompileConstant As String, ParamArray targetGroups As BuildTarget())
-  overload: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine*
+  overload: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine*
   nameWithType.vb: EditorDefines.RemoveCompileDefine(String, BuildTarget())
   modifiers.csharp:
   - public
@@ -124,26 +124,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget())
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String, BuildTarget())
   name.vb: RemoveCompileDefine(String, BuildTarget())
-- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
-  commentId: M:SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+- uid: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
+  commentId: M:StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])
   id: HasCompileDefine(System.String,BuildTarget[])
-  parent: SA.Foundation.Editor.EditorDefines
+  parent: StansAssets.Foundation.Editor.EditorDefines
   langs:
   - csharp
   - vb
   name: HasCompileDefine(String, BuildTarget[])
   nameWithType: EditorDefines.HasCompileDefine(String, BuildTarget[])
-  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget[])
+  fullName: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget[])
   type: Method
   source:
     id: HasCompileDefine
     path: ''
-    startLine: 1071
+    startLine: 1030
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nCheck if define exists\n"
   example: []
   syntax:
@@ -158,7 +158,7 @@ items:
     return:
       type: System.Boolean
     content.vb: Public Shared Function HasCompileDefine(defineCompileConstant As String, ParamArray targets As BuildTarget()) As Boolean
-  overload: SA.Foundation.Editor.EditorDefines.HasCompileDefine*
+  overload: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine*
   nameWithType.vb: EditorDefines.HasCompileDefine(String, BuildTarget())
   modifiers.csharp:
   - public
@@ -166,26 +166,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: SA.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget())
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String, BuildTarget())
   name.vb: HasCompileDefine(String, BuildTarget())
-- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
-  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+- uid: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines
+  commentId: M:StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines
   id: GetScriptingDefines
-  parent: SA.Foundation.Editor.EditorDefines
+  parent: StansAssets.Foundation.Editor.EditorDefines
   langs:
   - csharp
   - vb
   name: GetScriptingDefines()
   nameWithType: EditorDefines.GetScriptingDefines()
-  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines()
+  fullName: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines()
   type: Method
   source:
     id: GetScriptingDefines
     path: ''
-    startLine: 1095
+    startLine: 1054
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nGet user-specified symbols for script compilation for the current build target group\n"
   example: []
   syntax:
@@ -193,31 +193,31 @@ items:
     return:
       type: System.String[]
     content.vb: Public Shared Function GetScriptingDefines As String()
-  overload: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  overload: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
-  commentId: M:SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+- uid: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  commentId: M:StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
   id: GetScriptingDefines(BuildTargetGroup)
-  parent: SA.Foundation.Editor.EditorDefines
+  parent: StansAssets.Foundation.Editor.EditorDefines
   langs:
   - csharp
   - vb
   name: GetScriptingDefines(BuildTargetGroup)
   nameWithType: EditorDefines.GetScriptingDefines(BuildTargetGroup)
-  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
+  fullName: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines(BuildTargetGroup)
   type: Method
   source:
     id: GetScriptingDefines
     path: ''
-    startLine: 1107
+    startLine: 1066
   assemblies:
   - cs.temp.dll
-  namespace: SA.Foundation.Editor
+  namespace: StansAssets.Foundation.Editor
   summary: "\nGet user-specified symbols for script compilation for the given build target group\n"
   example: []
   syntax:
@@ -229,7 +229,7 @@ items:
     return:
       type: System.String[]
     content.vb: Public Shared Function GetScriptingDefines(targetGroup As BuildTargetGroup) As String()
-  overload: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  overload: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines*
   modifiers.csharp:
   - public
   - static
@@ -237,11 +237,11 @@ items:
   - Public
   - Shared
 references:
-- uid: SA.Foundation.Editor
-  commentId: N:SA.Foundation.Editor
-  name: SA.Foundation.Editor
-  nameWithType: SA.Foundation.Editor
-  fullName: SA.Foundation.Editor
+- uid: StansAssets.Foundation.Editor
+  commentId: N:StansAssets.Foundation.Editor
+  name: StansAssets.Foundation.Editor
+  nameWithType: StansAssets.Foundation.Editor
+  fullName: StansAssets.Foundation.Editor
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -534,11 +534,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SA.Foundation.Editor.EditorDefines.AddCompileDefine*
-  commentId: Overload:SA.Foundation.Editor.EditorDefines.AddCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine*
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine
   name: AddCompileDefine
   nameWithType: EditorDefines.AddCompileDefine
-  fullName: SA.Foundation.Editor.EditorDefines.AddCompileDefine
+  fullName: StansAssets.Foundation.Editor.EditorDefines.AddCompileDefine
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -572,16 +572,16 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
-- uid: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine*
-  commentId: Overload:SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine*
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine
   name: RemoveCompileDefine
   nameWithType: EditorDefines.RemoveCompileDefine
-  fullName: SA.Foundation.Editor.EditorDefines.RemoveCompileDefine
-- uid: SA.Foundation.Editor.EditorDefines.HasCompileDefine*
-  commentId: Overload:SA.Foundation.Editor.EditorDefines.HasCompileDefine
+  fullName: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine*
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine
   name: HasCompileDefine
   nameWithType: EditorDefines.HasCompileDefine
-  fullName: SA.Foundation.Editor.EditorDefines.HasCompileDefine
+  fullName: StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
@@ -589,11 +589,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: SA.Foundation.Editor.EditorDefines.GetScriptingDefines*
-  commentId: Overload:SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+- uid: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines*
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines
   name: GetScriptingDefines
   nameWithType: EditorDefines.GetScriptingDefines
-  fullName: SA.Foundation.Editor.EditorDefines.GetScriptingDefines
+  fullName: StansAssets.Foundation.Editor.EditorDefines.GetScriptingDefines
 - uid: System.String[]
   isExternal: true
   name: String[]

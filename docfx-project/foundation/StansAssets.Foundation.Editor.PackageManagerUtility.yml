@@ -18,7 +18,7 @@ items:
   source:
     id: PackageManagerUtility
     path: ''
-    startLine: 1256
+    startLine: 1243
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
@@ -58,7 +58,7 @@ items:
   source:
     id: GetPackageInfo
     path: ''
-    startLine: 1263
+    startLine: 1250
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
@@ -95,7 +95,7 @@ items:
   source:
     id: GetAllProjectPackages
     path: ''
-    startLine: 1272
+    startLine: 1259
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
@@ -128,7 +128,7 @@ items:
   source:
     id: GetPackageRootPath
     path: ''
-    startLine: 1285
+    startLine: 1272
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor

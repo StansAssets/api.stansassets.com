@@ -8,7 +8,6 @@ items:
   - StansAssets.Foundation.Editor.FoundationPackage.Info
   - StansAssets.Foundation.Editor.FoundationPackage.Name
   - StansAssets.Foundation.Editor.FoundationPackage.RootPath
-  - StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
   langs:
   - csharp
   - vb
@@ -19,10 +18,12 @@ items:
   source:
     id: FoundationPackage
     path: ''
-    startLine: 1129
+    startLine: 1091
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
+  summary: "\nFoundation Package Static info.\n"
+  example: []
   syntax:
     content: public static class FoundationPackage
     content.vb: Public Module FoundationPackage
@@ -57,10 +58,12 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1131
+    startLine: 1096
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
+  summary: "\nPackage full name.\n"
+  example: []
   syntax:
     content: public const string Name = "com.stansassets.foundation"
     return:
@@ -86,10 +89,12 @@ items:
   source:
     id: RootPath
     path: ''
-    startLine: 1132
+    startLine: 1101
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
+  summary: "\nPackage root path.\n"
+  example: []
   syntax:
     content: public static readonly string RootPath
     return:
@@ -117,46 +122,17 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 1133
+    startLine: 1106
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
+  summary: "\nPackage info.\n"
+  example: []
   syntax:
     content: public static readonly PackageInfo Info
     return:
       type: PackageInfo
     content.vb: Public Shared ReadOnly Info As PackageInfo
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
-  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
-  id: SettingsWindowPath
-  parent: StansAssets.Foundation.Editor.FoundationPackage
-  langs:
-  - csharp
-  - vb
-  name: SettingsWindowPath
-  nameWithType: FoundationPackage.SettingsWindowPath
-  fullName: StansAssets.Foundation.Editor.FoundationPackage.SettingsWindowPath
-  type: Field
-  source:
-    id: SettingsWindowPath
-    path: ''
-    startLine: 1135
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  syntax:
-    content: public static readonly string SettingsWindowPath
-    return:
-      type: System.String
-    content.vb: Public Shared ReadOnly SettingsWindowPath As String
   modifiers.csharp:
   - public
   - static

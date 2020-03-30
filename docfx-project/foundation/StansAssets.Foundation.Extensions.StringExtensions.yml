@@ -1,31 +1,33 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.StringExtensions
-  commentId: T:StansAssets.Foundation.StringExtensions
+- uid: StansAssets.Foundation.Extensions.StringExtensions
+  commentId: T:StansAssets.Foundation.Extensions.StringExtensions
   id: StringExtensions
-  parent: StansAssets.Foundation
+  parent: StansAssets.Foundation.Extensions
   children:
-  - StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
-  - StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
-  - StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
-  - StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
-  - StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
-  - StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
-  - StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+  - StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  - StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard(System.String)
+  - StansAssets.Foundation.Extensions.StringExtensions.GetFirst(System.String,System.Int32)
+  - StansAssets.Foundation.Extensions.StringExtensions.GetLast(System.String,System.Int32)
+  - StansAssets.Foundation.Extensions.StringExtensions.RemoveLast(System.String,System.Int32)
+  - StansAssets.Foundation.Extensions.StringExtensions.TrimEnd(System.String,System.String)
+  - StansAssets.Foundation.Extensions.StringExtensions.TrimStart(System.String,System.String)
   langs:
   - csharp
   - vb
   name: StringExtensions
   nameWithType: StringExtensions
-  fullName: StansAssets.Foundation.StringExtensions
+  fullName: StansAssets.Foundation.Extensions.StringExtensions
   type: Class
   source:
     id: StringExtensions
     path: ''
-    startLine: 487
+    startLine: 394
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nString extension methods.\n"
+  example: []
   syntax:
     content: public static class StringExtensions
     content.vb: Public Module StringExtensions
@@ -46,25 +48,25 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
-  commentId: M:StansAssets.Foundation.StringExtensions.GetLast(System.String,System.Int32)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.GetLast(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.GetLast(System.String,System.Int32)
   id: GetLast(System.String,System.Int32)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: GetLast(String, Int32)
   nameWithType: StringExtensions.GetLast(String, Int32)
-  fullName: StansAssets.Foundation.StringExtensions.GetLast(System.String, System.Int32)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.GetLast(System.String, System.Int32)
   type: Method
   source:
     id: GetLast
     path: ''
-    startLine: 495
+    startLine: 402
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nRetrieves specified symbols amount from the end of the string.\n"
   example: []
   syntax:
@@ -83,32 +85,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function GetLast(source As String, count As Integer) As String
-  overload: StansAssets.Foundation.StringExtensions.GetLast*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.GetLast*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
-  commentId: M:StansAssets.Foundation.StringExtensions.RemoveLast(System.String,System.Int32)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.RemoveLast(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.RemoveLast(System.String,System.Int32)
   id: RemoveLast(System.String,System.Int32)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: RemoveLast(String, Int32)
   nameWithType: StringExtensions.RemoveLast(String, Int32)
-  fullName: StansAssets.Foundation.StringExtensions.RemoveLast(System.String, System.Int32)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.RemoveLast(System.String, System.Int32)
   type: Method
   source:
     id: RemoveLast
     path: ''
-    startLine: 506
+    startLine: 413
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nRemoves specified symbols amount from the end of the string.\n"
   example: []
   syntax:
@@ -127,32 +129,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function RemoveLast(source As String, count As Integer) As String
-  overload: StansAssets.Foundation.StringExtensions.RemoveLast*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.RemoveLast*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
-  commentId: M:StansAssets.Foundation.StringExtensions.GetFirst(System.String,System.Int32)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.GetFirst(System.String,System.Int32)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.GetFirst(System.String,System.Int32)
   id: GetFirst(System.String,System.Int32)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: GetFirst(String, Int32)
   nameWithType: StringExtensions.GetFirst(String, Int32)
-  fullName: StansAssets.Foundation.StringExtensions.GetFirst(System.String, System.Int32)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.GetFirst(System.String, System.Int32)
   type: Method
   source:
     id: GetFirst
     path: ''
-    startLine: 517
+    startLine: 424
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nRetrieves specified symbols amount from the beginning of the string.\n"
   example: []
   syntax:
@@ -171,32 +173,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function GetFirst(source As String, count As Integer) As String
-  overload: StansAssets.Foundation.StringExtensions.GetFirst*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.GetFirst*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
-  commentId: M:StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
   id: AllIndexesOf(System.String,System.String,StringComparison)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: AllIndexesOf(String, String, StringComparison)
   nameWithType: StringExtensions.AllIndexesOf(String, String, StringComparison)
-  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf(System.String, System.String, StringComparison)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String, System.String, StringComparison)
   type: Method
   source:
     id: AllIndexesOf
     path: ''
-    startLine: 530
+    startLine: 437
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nMethod will return all the indexes for a matched string.\n"
   example: []
   syntax:
@@ -218,32 +220,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function AllIndexesOf(source As String, value As String, comparisonType As StringComparison) As List(Of Integer)
-  overload: StansAssets.Foundation.StringExtensions.AllIndexesOf*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
-  commentId: M:StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard(System.String)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard(System.String)
   id: CopyToClipboard(System.String)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: CopyToClipboard(String)
   nameWithType: StringExtensions.CopyToClipboard(String)
-  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard(System.String)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard(System.String)
   type: Method
   source:
     id: CopyToClipboard
     path: ''
-    startLine: 549
+    startLine: 456
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nCopy specified string to the system copy buffer.\n"
   example: []
   syntax:
@@ -256,32 +258,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Sub CopyToClipboard(source As String)
-  overload: StansAssets.Foundation.StringExtensions.CopyToClipboard*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
-  commentId: M:StansAssets.Foundation.StringExtensions.TrimStart(System.String,System.String)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.TrimStart(System.String,System.String)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.TrimStart(System.String,System.String)
   id: TrimStart(System.String,System.String)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: TrimStart(String, String)
   nameWithType: StringExtensions.TrimStart(String, String)
-  fullName: StansAssets.Foundation.StringExtensions.TrimStart(System.String, System.String)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.TrimStart(System.String, System.String)
   type: Method
   source:
     id: TrimStart
     path: ''
-    startLine: 562
+    startLine: 469
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nRemoves all the leading occurrences of specified string from the current string.\n"
   example: []
   syntax:
@@ -300,32 +302,32 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function TrimStart(target As String, trimString As String) As String
-  overload: StansAssets.Foundation.StringExtensions.TrimStart*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.TrimStart*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
-  commentId: M:StansAssets.Foundation.StringExtensions.TrimEnd(System.String,System.String)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.TrimEnd(System.String,System.String)
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.TrimEnd(System.String,System.String)
   id: TrimEnd(System.String,System.String)
   isExtensionMethod: true
-  parent: StansAssets.Foundation.StringExtensions
+  parent: StansAssets.Foundation.Extensions.StringExtensions
   langs:
   - csharp
   - vb
   name: TrimEnd(String, String)
   nameWithType: StringExtensions.TrimEnd(String, String)
-  fullName: StansAssets.Foundation.StringExtensions.TrimEnd(System.String, System.String)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.TrimEnd(System.String, System.String)
   type: Method
   source:
     id: TrimEnd
     path: ''
-    startLine: 581
+    startLine: 488
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation
+  namespace: StansAssets.Foundation.Extensions
   summary: "\nRemoves all the trailing occurrences of specified string from the current string.\n"
   example: []
   syntax:
@@ -344,7 +346,7 @@ items:
       <ExtensionAttribute>
 
       Public Shared Function TrimEnd(target As String, trimString As String) As String
-  overload: StansAssets.Foundation.StringExtensions.TrimEnd*
+  overload: StansAssets.Foundation.Extensions.StringExtensions.TrimEnd*
   modifiers.csharp:
   - public
   - static
@@ -352,11 +354,11 @@ items:
   - Public
   - Shared
 references:
-- uid: StansAssets.Foundation
-  commentId: N:StansAssets.Foundation
-  name: StansAssets.Foundation
-  nameWithType: StansAssets.Foundation
-  fullName: StansAssets.Foundation
+- uid: StansAssets.Foundation.Extensions
+  commentId: N:StansAssets.Foundation.Extensions
+  name: StansAssets.Foundation.Extensions
+  nameWithType: StansAssets.Foundation.Extensions
+  fullName: StansAssets.Foundation.Extensions
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -649,11 +651,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Foundation.StringExtensions.GetLast*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.GetLast
+- uid: StansAssets.Foundation.Extensions.StringExtensions.GetLast*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.GetLast
   name: GetLast
   nameWithType: StringExtensions.GetLast
-  fullName: StansAssets.Foundation.StringExtensions.GetLast
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.GetLast
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -668,21 +670,21 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: StansAssets.Foundation.StringExtensions.RemoveLast*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.RemoveLast
+- uid: StansAssets.Foundation.Extensions.StringExtensions.RemoveLast*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.RemoveLast
   name: RemoveLast
   nameWithType: StringExtensions.RemoveLast
-  fullName: StansAssets.Foundation.StringExtensions.RemoveLast
-- uid: StansAssets.Foundation.StringExtensions.GetFirst*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.GetFirst
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.RemoveLast
+- uid: StansAssets.Foundation.Extensions.StringExtensions.GetFirst*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.GetFirst
   name: GetFirst
   nameWithType: StringExtensions.GetFirst
-  fullName: StansAssets.Foundation.StringExtensions.GetFirst
-- uid: StansAssets.Foundation.StringExtensions.AllIndexesOf*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.AllIndexesOf
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.GetFirst
+- uid: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf
   name: AllIndexesOf
   nameWithType: StringExtensions.AllIndexesOf
-  fullName: StansAssets.Foundation.StringExtensions.AllIndexesOf
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf
 - uid: StringComparison
   commentId: '!:StringComparison'
   isExternal: true
@@ -770,18 +772,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: StansAssets.Foundation.StringExtensions.CopyToClipboard*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.CopyToClipboard
+- uid: StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard
   name: CopyToClipboard
   nameWithType: StringExtensions.CopyToClipboard
-  fullName: StansAssets.Foundation.StringExtensions.CopyToClipboard
-- uid: StansAssets.Foundation.StringExtensions.TrimStart*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimStart
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard
+- uid: StansAssets.Foundation.Extensions.StringExtensions.TrimStart*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.TrimStart
   name: TrimStart
   nameWithType: StringExtensions.TrimStart
-  fullName: StansAssets.Foundation.StringExtensions.TrimStart
-- uid: StansAssets.Foundation.StringExtensions.TrimEnd*
-  commentId: Overload:StansAssets.Foundation.StringExtensions.TrimEnd
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.TrimStart
+- uid: StansAssets.Foundation.Extensions.StringExtensions.TrimEnd*
+  commentId: Overload:StansAssets.Foundation.Extensions.StringExtensions.TrimEnd
   name: TrimEnd
   nameWithType: StringExtensions.TrimEnd
-  fullName: StansAssets.Foundation.StringExtensions.TrimEnd
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.TrimEnd

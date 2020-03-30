@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings
+  commentId: T:StansAssets.Foundation.Patterns.PackageScriptableSettings
+  id: PackageScriptableSettings
+  parent: StansAssets.Foundation.Patterns
+  children:
+  - StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+  - StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
+  langs:
+  - csharp
+  - vb
+  name: PackageScriptableSettings
+  nameWithType: PackageScriptableSettings
+  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings
+  type: Class
+  source:
+    id: PackageScriptableSettings
+    path: ''
+    startLine: 119
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Patterns
+  summary: "\nBase class for the plugin settings.\n"
+  example: []
+  syntax:
+    content: 'public abstract class PackageScriptableSettings : ScriptableObject'
+    content.vb: >-
+      Public MustInherit Class PackageScriptableSettings
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+  commentId: P:StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+  id: PackageName
+  parent: StansAssets.Foundation.Patterns.PackageScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: PackageName
+  nameWithType: PackageScriptableSettings.PackageName
+  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+  type: Property
+  source:
+    id: PackageName
+    path: ''
+    startLine: 124
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Patterns
+  summary: "\nPlugin package name.\n"
+  example: []
+  syntax:
+    content: public abstract string PackageName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property PackageName As String
+  overload: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
+  commentId: P:StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
+  id: SettingsLocations
+  parent: StansAssets.Foundation.Patterns.PackageScriptableSettings
+  langs:
+  - csharp
+  - vb
+  name: SettingsLocations
+  nameWithType: PackageScriptableSettings.SettingsLocations
+  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
+  type: Property
+  source:
+    id: SettingsLocations
+    path: ''
+    startLine: 129
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Patterns
+  summary: "\nPlugin settings location folder.\n"
+  example: []
+  syntax:
+    content: public virtual string SettingsLocations { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable ReadOnly Property SettingsLocations As String
+  overload: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  modifiers.vb:
+  - Public
+  - Overridable
+  - ReadOnly
+references:
+- uid: StansAssets.Foundation.Patterns
+  commentId: N:StansAssets.Foundation.Patterns
+  name: StansAssets.Foundation.Patterns
+  nameWithType: StansAssets.Foundation.Patterns
+  fullName: StansAssets.Foundation.Patterns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName*
+  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+  name: PackageName
+  nameWithType: PackageScriptableSettings.PackageName
+  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations*
+  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
+  name: SettingsLocations
+  nameWithType: PackageScriptableSettings.SettingsLocations
+  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations

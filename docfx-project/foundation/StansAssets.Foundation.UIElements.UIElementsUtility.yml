@@ -17,7 +17,7 @@ items:
   source:
     id: UIElementsUtility
     path: ''
-    startLine: 790
+    startLine: 699
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -57,7 +57,7 @@ items:
   source:
     id: CreateEvent
     path: ''
-    startLine: 797
+    startLine: 706
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -94,7 +94,7 @@ items:
   source:
     id: CreateEvent
     path: ''
-    startLine: 808
+    startLine: 717
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements

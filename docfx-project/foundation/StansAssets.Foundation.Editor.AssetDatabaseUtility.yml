@@ -16,7 +16,7 @@ items:
   source:
     id: AssetDatabaseUtility
     path: ''
-    startLine: 1299
+    startLine: 1286
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
@@ -56,7 +56,7 @@ items:
   source:
     id: GetLocalIdentifierInFile
     path: ''
-    startLine: 1306
+    startLine: 1293
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor

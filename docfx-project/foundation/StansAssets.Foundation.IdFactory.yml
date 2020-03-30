@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.ArrayExtensions
-  commentId: T:StansAssets.Foundation.ArrayExtensions
-  id: ArrayExtensions
+- uid: StansAssets.Foundation.IdFactory
+  commentId: T:StansAssets.Foundation.IdFactory
+  id: IdFactory
   parent: StansAssets.Foundation
   children:
-  - StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
-  - StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
+  - StansAssets.Foundation.IdFactory.NextId
+  - StansAssets.Foundation.IdFactory.RandomString
   langs:
   - csharp
   - vb
-  name: ArrayExtensions
-  nameWithType: ArrayExtensions
-  fullName: StansAssets.Foundation.ArrayExtensions
+  name: IdFactory
+  nameWithType: IdFactory
+  fullName: StansAssets.Foundation.IdFactory
   type: Class
   source:
-    id: ArrayExtensions
+    id: IdFactory
     path: ''
-    startLine: 450
+    startLine: 542
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
-  summary: "\nCSharp Array extension methods.\n"
+  summary: "\nIdFactory is the static class with the helper methods to generate unique Ids.\n"
   example: []
   syntax:
-    content: public static class ArrayExtensions
-    content.vb: Public Module ArrayExtensions
+    content: public static class IdFactory
+    content.vb: Public Module IdFactory
   inheritance:
   - System.Object
   inheritedMembers:
@@ -43,107 +43,76 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
-  commentId: M:StansAssets.Foundation.ArrayExtensions.SubArray``1(``0[],System.Int32,System.Int32)
-  id: SubArray``1(``0[],System.Int32,System.Int32)
-  isExtensionMethod: true
-  parent: StansAssets.Foundation.ArrayExtensions
+- uid: StansAssets.Foundation.IdFactory.NextId
+  commentId: P:StansAssets.Foundation.IdFactory.NextId
+  id: NextId
+  parent: StansAssets.Foundation.IdFactory
   langs:
   - csharp
   - vb
-  name: SubArray<T>(T[], Int32, Int32)
-  nameWithType: ArrayExtensions.SubArray<T>(T[], Int32, Int32)
-  fullName: StansAssets.Foundation.ArrayExtensions.SubArray<T>(T[], System.Int32, System.Int32)
-  type: Method
+  name: NextId
+  nameWithType: IdFactory.NextId
+  fullName: StansAssets.Foundation.IdFactory.NextId
+  type: Property
   source:
-    id: SubArray
+    id: NextId
     path: ''
-    startLine: 459
+    startLine: 550
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
-  summary: "\nReturns a shallow copy of a portion of an current array as a new array object.\n"
+  summary: "\nGenerates unique <see cref=\"!:PlayerPrefs\"></see> based incremental Id.\n<see cref=\"!:PlayerPrefs\"></see> is used to store previous id.\n"
   example: []
   syntax:
-    content: public static T[] SubArray<T>(this T[] data, int index, int length)
-    parameters:
-    - id: data
-      type: '{T}[]'
-      description: A current array.
-    - id: index
-      type: System.Int32
-      description: The index of the first copied element.
-    - id: length
-      type: System.Int32
-      description: The number of elements to copy.
-    typeParameters:
-    - id: T
+    content: public static int NextId { get; }
+    parameters: []
     return:
-      type: '{T}[]'
-      description: A new array containing the current array&apos;s elements that fall within the limits specified by index and length.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function SubArray(Of T)(data As T(), index As Integer, length As Integer) As T()
-  overload: StansAssets.Foundation.ArrayExtensions.SubArray*
-  nameWithType.vb: ArrayExtensions.SubArray(Of T)(T(), Int32, Int32)
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property NextId As Integer
+  overload: StansAssets.Foundation.IdFactory.NextId*
   modifiers.csharp:
   - public
   - static
+  - get
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Foundation.ArrayExtensions.SubArray(Of T)(T(), System.Int32, System.Int32)
-  name.vb: SubArray(Of T)(T(), Int32, Int32)
-- uid: StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
-  commentId: M:StansAssets.Foundation.ArrayExtensions.SwapElements``1(``0[],System.Int32,System.Int32)
-  id: SwapElements``1(``0[],System.Int32,System.Int32)
-  isExtensionMethod: true
-  parent: StansAssets.Foundation.ArrayExtensions
+  - ReadOnly
+- uid: StansAssets.Foundation.IdFactory.RandomString
+  commentId: P:StansAssets.Foundation.IdFactory.RandomString
+  id: RandomString
+  parent: StansAssets.Foundation.IdFactory
   langs:
   - csharp
   - vb
-  name: SwapElements<T>(T[], Int32, Int32)
-  nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
-  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements<T>(T[], System.Int32, System.Int32)
-  type: Method
+  name: RandomString
+  nameWithType: IdFactory.RandomString
+  fullName: StansAssets.Foundation.IdFactory.RandomString
+  type: Property
   source:
-    id: SwapElements
+    id: RandomString
     path: ''
-    startLine: 472
+    startLine: 569
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
-  summary: "\nSwaps two elements in the current array.\n"
+  summary: "\nGenerates a random string.\n"
   example: []
   syntax:
-    content: public static void SwapElements<T>(this T[] data, int index0, int index1)
-    parameters:
-    - id: data
-      type: '{T}[]'
-      description: A current array.
-    - id: index0
-      type: System.Int32
-      description: The index of the first element to swap.
-    - id: index1
-      type: System.Int32
-      description: The index of the second element to swap.
-    typeParameters:
-    - id: T
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub SwapElements(Of T)(data As T(), index0 As Integer, index1 As Integer)
-  overload: StansAssets.Foundation.ArrayExtensions.SwapElements*
-  nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+    content: public static string RandomString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property RandomString As String
+  overload: StansAssets.Foundation.IdFactory.RandomString*
   modifiers.csharp:
   - public
   - static
+  - get
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Foundation.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
-  name.vb: SwapElements(Of T)(T(), Int32, Int32)
+  - ReadOnly
 references:
 - uid: StansAssets.Foundation
   commentId: N:StansAssets.Foundation
@@ -442,33 +411,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Foundation.ArrayExtensions.SubArray*
-  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SubArray
-  name: SubArray
-  nameWithType: ArrayExtensions.SubArray
-  fullName: StansAssets.Foundation.ArrayExtensions.SubArray
-- uid: '{T}[]'
-  isExternal: true
-  name: T[]
-  nameWithType: T[]
-  fullName: T[]
-  nameWithType.vb: T()
-  fullName.vb: T()
-  name.vb: T()
-  spec.csharp:
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: ()
-    nameWithType: ()
-    fullName: ()
+- uid: StansAssets.Foundation.IdFactory.NextId*
+  commentId: Overload:StansAssets.Foundation.IdFactory.NextId
+  name: NextId
+  nameWithType: IdFactory.NextId
+  fullName: StansAssets.Foundation.IdFactory.NextId
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -476,8 +423,15 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: StansAssets.Foundation.ArrayExtensions.SwapElements*
-  commentId: Overload:StansAssets.Foundation.ArrayExtensions.SwapElements
-  name: SwapElements
-  nameWithType: ArrayExtensions.SwapElements
-  fullName: StansAssets.Foundation.ArrayExtensions.SwapElements
+- uid: StansAssets.Foundation.IdFactory.RandomString*
+  commentId: Overload:StansAssets.Foundation.IdFactory.RandomString
+  name: RandomString
+  nameWithType: IdFactory.RandomString
+  fullName: StansAssets.Foundation.IdFactory.RandomString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

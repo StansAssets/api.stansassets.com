@@ -1,26 +1,26 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.Editor.ReflectionUtility
-  commentId: T:StansAssets.Foundation.Editor.ReflectionUtility
+- uid: StansAssets.Foundation.ReflectionUtility
+  commentId: T:StansAssets.Foundation.ReflectionUtility
   id: ReflectionUtility
-  parent: StansAssets.Foundation.Editor
+  parent: StansAssets.Foundation
   children:
-  - StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
-  - StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+  - StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)
+  - StansAssets.Foundation.ReflectionUtility.FindType(System.String)
   langs:
   - csharp
   - vb
   name: ReflectionUtility
   nameWithType: ReflectionUtility
-  fullName: StansAssets.Foundation.Editor.ReflectionUtility
+  fullName: StansAssets.Foundation.ReflectionUtility
   type: Class
   source:
     id: ReflectionUtility
     path: ''
-    startLine: 684
+    startLine: 594
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
+  namespace: StansAssets.Foundation
   summary: "\nReflection Utility Methods.\n"
   example: []
   syntax:
@@ -43,24 +43,24 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
-  commentId: M:StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
+- uid: StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)
+  commentId: M:StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)
   id: CreateInstance(System.String)
-  parent: StansAssets.Foundation.Editor.ReflectionUtility
+  parent: StansAssets.Foundation.ReflectionUtility
   langs:
   - csharp
   - vb
   name: CreateInstance(String)
   nameWithType: ReflectionUtility.CreateInstance(String)
-  fullName: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance(System.String)
+  fullName: StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)
   type: Method
   source:
     id: CreateInstance
     path: ''
-    startLine: 693
+    startLine: 603
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
+  namespace: StansAssets.Foundation
   summary: "\nMethods will iterate all the project Assemblies.\nIf typeFullName will match new object instance of that type will be created\nand returned as the result.\n"
   example: []
   syntax:
@@ -73,31 +73,31 @@ items:
       type: System.Object
       description: New type instance.
     content.vb: Public Shared Function CreateInstance(typeFullName As String) As Object
-  overload: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance*
+  overload: StansAssets.Foundation.ReflectionUtility.CreateInstance*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
-  commentId: M:StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+- uid: StansAssets.Foundation.ReflectionUtility.FindType(System.String)
+  commentId: M:StansAssets.Foundation.ReflectionUtility.FindType(System.String)
   id: FindType(System.String)
-  parent: StansAssets.Foundation.Editor.ReflectionUtility
+  parent: StansAssets.Foundation.ReflectionUtility
   langs:
   - csharp
   - vb
   name: FindType(String)
   nameWithType: ReflectionUtility.FindType(String)
-  fullName: StansAssets.Foundation.Editor.ReflectionUtility.FindType(System.String)
+  fullName: StansAssets.Foundation.ReflectionUtility.FindType(System.String)
   type: Method
   source:
     id: FindType
     path: ''
-    startLine: 704
+    startLine: 614
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
+  namespace: StansAssets.Foundation
   summary: "\nMethods will iterate all the project to find a type that matches sissified full type name.\n"
   example: []
   syntax:
@@ -110,7 +110,7 @@ items:
       type: Type
       description: Type object.
     content.vb: Public Shared Function FindType(typeFullName As String) As Type
-  overload: StansAssets.Foundation.Editor.ReflectionUtility.FindType*
+  overload: StansAssets.Foundation.ReflectionUtility.FindType*
   modifiers.csharp:
   - public
   - static
@@ -118,11 +118,11 @@ items:
   - Public
   - Shared
 references:
-- uid: StansAssets.Foundation.Editor
-  commentId: N:StansAssets.Foundation.Editor
-  name: StansAssets.Foundation.Editor
-  nameWithType: StansAssets.Foundation.Editor
-  fullName: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation
+  commentId: N:StansAssets.Foundation
+  name: StansAssets.Foundation
+  nameWithType: StansAssets.Foundation
+  fullName: StansAssets.Foundation
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -415,11 +415,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance*
-  commentId: Overload:StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance
+- uid: StansAssets.Foundation.ReflectionUtility.CreateInstance*
+  commentId: Overload:StansAssets.Foundation.ReflectionUtility.CreateInstance
   name: CreateInstance
   nameWithType: ReflectionUtility.CreateInstance
-  fullName: StansAssets.Foundation.Editor.ReflectionUtility.CreateInstance
+  fullName: StansAssets.Foundation.ReflectionUtility.CreateInstance
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -427,11 +427,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: StansAssets.Foundation.Editor.ReflectionUtility.FindType*
-  commentId: Overload:StansAssets.Foundation.Editor.ReflectionUtility.FindType
+- uid: StansAssets.Foundation.ReflectionUtility.FindType*
+  commentId: Overload:StansAssets.Foundation.ReflectionUtility.FindType
   name: FindType
   nameWithType: ReflectionUtility.FindType
-  fullName: StansAssets.Foundation.Editor.ReflectionUtility.FindType
+  fullName: StansAssets.Foundation.ReflectionUtility.FindType
 - uid: Type
   commentId: '!:Type'
   isExternal: true

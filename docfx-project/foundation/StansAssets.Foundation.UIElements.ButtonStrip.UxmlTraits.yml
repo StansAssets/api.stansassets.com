@@ -15,15 +15,16 @@ items:
   source:
     id: UxmlTraits
     path: ''
-    startLine: 840
+    startLine: 759
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\n<exclude></exclude>\n"
+  example: []
   syntax:
     content: 'public class UxmlTraits : BindableElement.UxmlTraits'
     content.vb: >-
       Public Class UxmlTraits
-
           Inherits BindableElement.UxmlTraits
   inheritance:
   - System.Object

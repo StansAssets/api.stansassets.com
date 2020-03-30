@@ -26,15 +26,16 @@ items:
   source:
     id: ButtonStrip
     path: ''
-    startLine: 836
+    startLine: 750
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nThe button strip component let&apos;s you place buttons group with the labels or images.\nFirst and last buttons are styled to have round corners.\nComponent is made to replace IMGUI Toolbar: <a href=\"https://docs.unity3d.com/ScriptReference/GUILayout.Toolbar.html\">https://docs.unity3d.com/ScriptReference/GUILayout.Toolbar.html</a>\n"
+  example: []
   syntax:
     content: 'public sealed class ButtonStrip : VisualElement'
     content.vb: >-
       Public NotInheritable Class ButtonStrip
-
           Inherits VisualElement
   inheritance:
   - System.Object
@@ -60,10 +61,12 @@ items:
   source:
     id: UssClassName
     path: ''
-    startLine: 842
+    startLine: 764
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nButtonStrip control Uss class name\n"
+  example: []
   syntax:
     content: public const string UssClassName = "stansassets-button-strip"
     return:
@@ -89,10 +92,12 @@ items:
   source:
     id: Choices
     path: ''
-    startLine: 855
+    startLine: 780
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nAvailable Choices.\n"
+  example: []
   syntax:
     content: public IEnumerable<string> Choices { get; }
     parameters: []
@@ -120,10 +125,12 @@ items:
   source:
     id: Labels
     path: ''
-    startLine: 856
+    startLine: 785
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nAvailable Labels.\n"
+  example: []
   syntax:
     content: public IEnumerable<string> Labels { get; }
     parameters: []
@@ -151,10 +158,12 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 860
+    startLine: 792
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nCurrent value. Should be one of the available <xref href=\"StansAssets.Foundation.UIElements.ButtonStrip.Choices\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
   syntax:
     content: public string Value { get; set; }
     parameters: []
@@ -169,7 +178,7 @@ items:
   modifiers.vb:
   - Public
 - uid: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
-  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  commentId: E:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
   id: OnButtonClick
   parent: StansAssets.Foundation.UIElements.ButtonStrip
   langs:
@@ -178,25 +187,23 @@ items:
   name: OnButtonClick
   nameWithType: ButtonStrip.OnButtonClick
   fullName: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
-  type: Property
+  type: Event
   source:
     id: OnButtonClick
     path: ''
-    startLine: 861
+    startLine: 797
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nAction is called when one of the buttons clicked.\n"
+  example: []
   syntax:
-    content: public Action OnButtonClick { get; set; }
-    parameters: []
+    content: public event Action OnButtonClick
     return:
       type: Action
-    content.vb: Public Property OnButtonClick As Action
-  overload: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick*
+    content.vb: Public Event OnButtonClick As Action
   modifiers.csharp:
   - public
-  - get
-  - set
   modifiers.vb:
   - Public
 - uid: StansAssets.Foundation.UIElements.ButtonStrip.#ctor
@@ -213,10 +220,12 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 863
+    startLine: 802
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nCreates ButtonStrip control with default choices.\n"
+  example: []
   syntax:
     content: public ButtonStrip()
     content.vb: Public Sub New
@@ -239,15 +248,18 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 868
+    startLine: 811
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nCreates ButtonStrip control with choices.\n"
+  example: []
   syntax:
     content: public ButtonStrip(IEnumerable<string> choices)
     parameters:
     - id: choices
       type: IEnumerable{System.String}
+      description: Available chaises.
     content.vb: Public Sub New(choices As IEnumerable(Of String))
   overload: StansAssets.Foundation.UIElements.ButtonStrip.#ctor*
   nameWithType.vb: ButtonStrip.ButtonStrip(IEnumerable(Of String))
@@ -271,15 +283,18 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 889
+    startLine: 836
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nSet current value.\n"
+  example: []
   syntax:
     content: public void SetValue(string value)
     parameters:
     - id: value
       type: System.String
+      description: Value to set.
     content.vb: Public Sub SetValue(value As String)
   overload: StansAssets.Foundation.UIElements.ButtonStrip.SetValue*
   modifiers.csharp:
@@ -300,15 +315,18 @@ items:
   source:
     id: SetValueWithoutNotify
     path: ''
-    startLine: 895
+    startLine: 846
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nSet current value without triggering the <xref href=\"StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick\" data-throw-if-not-resolved=\"false\"></xref> event.\n"
+  example: []
   syntax:
     content: public void SetValueWithoutNotify(string value)
     parameters:
     - id: value
       type: System.String
+      description: ''
     content.vb: Public Sub SetValueWithoutNotify(value As String)
   overload: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify*
   modifiers.csharp:
@@ -329,17 +347,21 @@ items:
   source:
     id: AddChoice
     path: ''
-    startLine: 906
+    startLine: 862
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nAdd choice to the strip.\n"
+  example: []
   syntax:
     content: public void AddChoice(string choice, string label)
     parameters:
     - id: choice
       type: System.String
+      description: Choice value.
     - id: label
       type: System.String
+      description: Choice label.
     content.vb: Public Sub AddChoice(choice As String, label As String)
   overload: StansAssets.Foundation.UIElements.ButtonStrip.AddChoice*
   modifiers.csharp:
@@ -360,10 +382,12 @@ items:
   source:
     id: CleanUp
     path: ''
-    startLine: 916
+    startLine: 875
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
+  summary: "\nRemove all the buttons.\n"
+  example: []
   syntax:
     content: public void CleanUp()
     content.vb: Public Sub CleanUp
@@ -489,16 +513,14 @@ references:
   name: Labels
   nameWithType: ButtonStrip.Labels
   fullName: StansAssets.Foundation.UIElements.ButtonStrip.Labels
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  commentId: P:StansAssets.Foundation.UIElements.ButtonStrip.Choices
+  isExternal: true
 - uid: StansAssets.Foundation.UIElements.ButtonStrip.Value*
   commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.Value
   name: Value
   nameWithType: ButtonStrip.Value
   fullName: StansAssets.Foundation.UIElements.ButtonStrip.Value
-- uid: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick*
-  commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
-  name: OnButtonClick
-  nameWithType: ButtonStrip.OnButtonClick
-  fullName: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
 - uid: Action
   commentId: '!:Action'
   isExternal: true
@@ -515,6 +537,9 @@ references:
   name: SetValue
   nameWithType: ButtonStrip.SetValue
   fullName: StansAssets.Foundation.UIElements.ButtonStrip.SetValue
+- uid: StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  commentId: E:StansAssets.Foundation.UIElements.ButtonStrip.OnButtonClick
+  isExternal: true
 - uid: StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify*
   commentId: Overload:StansAssets.Foundation.UIElements.ButtonStrip.SetValueWithoutNotify
   name: SetValueWithoutNotify

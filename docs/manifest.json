@@ -2909,42 +2909,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/SA.Foundation.Editor.EditorDefines.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/SA.Foundation.Editor.EditorDefines.html",
-          "hash": "EGdmJZa+DcujBqdt/NJPvw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/SA.Foundation.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/SA.Foundation.Editor.html",
-          "hash": "ZP+BNf0gc/6V3wXL6Gi3ng=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.ArrayExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.ArrayExtensions.html",
-          "hash": "cHqDaVUudO2mwcDEt9P32g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.yml",
       "output": {
         ".html": {
@@ -2952,31 +2916,19 @@
           "hash": "zwo53av2Lzaj5Za0ECdGpg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.BaseTab.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.EditorDefines.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.BaseTab.html",
-          "hash": "sE6sN9GO7aybcvF3+kstZA=="
+          "relative_path": "foundation/StansAssets.Foundation.Editor.EditorDefines.html",
+          "hash": "N+UXxNZsQd3JFaxgY6QScg=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.EnumUtility.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.EnumUtility.html",
-          "hash": "h5BG/tCn9yMuQNdAjgcVKA=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2985,22 +2937,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.FoundationPackage.html",
-          "hash": "yq8xHCam5CqVNV2clyXl0Q=="
+          "hash": "KKhGgBKqV2LYRV/PbThe1g=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.IdFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.IdFactory.html",
-          "hash": "Vz1Y2AGT93mWG0NrRGmLrw=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3012,43 +2952,43 @@
           "hash": "RQgwe/IJI+Jx8bhq1u/NVA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.BaseTab.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.PackageSettingsWindow-1.html",
-          "hash": "FDtcTExwb6Q8+Ieov0zA4A=="
+          "relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.BaseTab.html",
+          "hash": "0/nv5l4f6bkU4N6ij1kIow=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.ReflectionUtility.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.ReflectionUtility.html",
-          "hash": "ZeZO4wTWcN/lw5KRt1gq4A=="
+          "relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html",
+          "hash": "wpjf35rABQMGgMGU6Ue0qA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Editor.UnixTime.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Editor.UnixTime.html",
-          "hash": "Qxfzo9JKtSDVtTXTOfTyrA=="
+          "relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.html",
+          "hash": "C4B8MNBZS6n07D4ohzkdpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3057,118 +2997,178 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.html",
-          "hash": "L820ut4g7qBEEFLS4cV8IA=="
+          "hash": "bT+i3Ywu/3f97TI8W3AeEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.MonoSingleton-1.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.EnumUtility.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.MonoSingleton-1.html",
-          "hash": "2nTidK+ShkPEsDKbpwR6Vw=="
+          "relative_path": "foundation/StansAssets.Foundation.EnumUtility.html",
+          "hash": "sqlSj5NrSaTeNj4IToEz7w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.ObjectExtensions.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ArrayExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.ObjectExtensions.html",
-          "hash": "8MQIEo9itKX5M136Xuwpkw=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.ArrayExtensions.html",
+          "hash": "B9B3aRyJ5XsezAHCxdz8Iw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.PackageScriptableSettings.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ObjectExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.PackageScriptableSettings.html",
-          "hash": "9mmTHQe+cTIBKwu16fQgVQ=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html",
+          "hash": "rD6DErE8AexiemXTfWKq2Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.StringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.PackageScriptableSettingsSingleton-1.html",
-          "hash": "5+FnpmsRNKEzc9S7lrilIg=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.StringExtensions.html",
+          "hash": "pElxBuUw9jnVjdxis1EFSw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.ScriptableSettings.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.TransformExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.ScriptableSettings.html",
-          "hash": "sadR80IhUxtm1W3EYyvMnQ=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.TransformExtensions.html",
+          "hash": "diDvwNe+jUYIuerRBcd1Yw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.Vector3Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.ScriptableSettingsSingleton-1.html",
-          "hash": "AcqnFM+NOoPcsalpZcnrxQ=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html",
+          "hash": "UoCfvBRouyaPrKHYqf38ug=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Singleton-1.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Singleton-1.html",
-          "hash": "Wo4c2HiHzHtWUijYjcgVVg=="
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
+          "hash": "KL6rCBbgSEHIc1unOLQxeg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.StringExtensions.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.IdFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.StringExtensions.html",
-          "hash": "VGt8RWlBMTtG6rVr/QnCJQ=="
+          "relative_path": "foundation/StansAssets.Foundation.IdFactory.html",
+          "hash": "CFqBwQMUwQkdu6TmeRNtHQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.TransformExtensions.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.MonoSingleton-1.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.TransformExtensions.html",
-          "hash": "634dfgy+Vp10AP7lkst4bg=="
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.MonoSingleton-1.html",
+          "hash": "69JdoTPFXpGR4N8TKSCr3g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html",
+          "hash": "JJmGaAH8bC2TxZpdG39ZcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html",
+          "hash": "ME4rst7RSyofhOYOqZgYxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.Singleton-1.html",
+          "hash": "65Qxstewu29J6tfs+vNMcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.html",
+          "hash": "OhPapa/UnFIFVfrsVnGtMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.ReflectionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.ReflectionUtility.html",
+          "hash": "sCKM+KXoECRDUF2yVsduKg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3180,7 +3180,7 @@
           "hash": "e9kWyNFz/9uzp11AhXQKJw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3189,10 +3189,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.ButtonStrip.UxmlTraits.html",
-          "hash": "UZwdpPpGBYhyYDZLtw3FTg=="
+          "hash": "9W9vUP4xuYTJqQPd/09rtQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3201,10 +3201,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.ButtonStrip.html",
-          "hash": "Px9+hCVDgVP2svVtOaMDgg=="
+          "hash": "YRiw1sNNyH/oL99GcPeUkA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3216,7 +3216,7 @@
           "hash": "S6eMI+vsx7NGRKRBtp6s3Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3225,22 +3225,22 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.html",
-          "hash": "OIKRI3+pk/7o4t6WXBQSuQ=="
+          "hash": "/c+USC1aT8kktG4Fgz/ibQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Vector3Extensions.yml",
+      "source_relative_path": "foundation/StansAssets.Foundation.UnixTime.yml",
       "output": {
         ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Vector3Extensions.html",
-          "hash": "PnLtKlEkY77DpbAN0IDW9w=="
+          "relative_path": "foundation/StansAssets.Foundation.UnixTime.html",
+          "hash": "1wpUrYDxBrq01iz2+t9cNg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3249,10 +3249,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.html",
-          "hash": "3AhnW12Jtig7ssa1Uh8chA=="
+          "hash": "f/wWVZfNiEEfYhub82IbRQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3261,7 +3261,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "yLLBp44t8imNuL5JhKpbIg=="
+          "hash": "2xwbfO5Rjeh/9C/AZ8nsLQ=="
         }
       },
       "is_incremental": false,
@@ -6116,7 +6116,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "vcmPoogw7L+82K/3Lx6tGQ=="
+          "hash": "Gx3WLW/oJy9icJq6L6W66Q=="
         }
       },
       "is_incremental": false,
@@ -6311,7 +6311,7 @@
           "hash": "Pg//ryIrRhDL3+sCF2v2Yw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6335,7 +6335,7 @@
           "hash": "kPjXRi4niovjsKnwie+rVA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6359,7 +6359,7 @@
           "hash": "Qu52dOKkhWmbUiOW6VQdaw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6455,7 +6455,7 @@
           "hash": "pkXutmFTYAMoU10TkCZ8pA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6491,7 +6491,7 @@
           "hash": "Q4kc/5ghtB8hp8F5RcTlCA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6527,7 +6527,7 @@
           "hash": "XPj0PS2PlI/mlLhn45BblQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6551,7 +6551,7 @@
           "hash": "K7UHGBxx6AhFd8d02j0JPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6599,7 +6599,7 @@
           "hash": "w0DtCEVKs8J1Je67lHmy6A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6611,7 +6611,7 @@
           "hash": "9qoqaX+vK8CN9ZVVmxvg2g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6623,7 +6623,7 @@
           "hash": "WQ0sqL7eaiQGI/NGzt7x5g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6635,7 +6635,7 @@
           "hash": "4SZSr1ygjxRnlugyUmMm5A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6683,7 +6683,7 @@
           "hash": "7KZ4g4EkVCA5ti2SOX/EWQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6755,7 +6755,7 @@
           "hash": "ZKX38XAmtfjrmbF6C8p+fg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6803,7 +6803,7 @@
           "hash": "eOeZCxTFPIf6Rg0cDhafqg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6935,7 +6935,7 @@
           "hash": "K8+1ykDTKkttBM4f8ctyYg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6971,7 +6971,7 @@
           "hash": "HIhVtTLf+tx3Q/ec7UUvdQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6983,7 +6983,7 @@
           "hash": "H6nXlWpbUcK2dgt3xKRpug=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -6995,7 +6995,7 @@
           "hash": "6D0ivMq1FEOB5vxFqLocGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7019,7 +7019,7 @@
           "hash": "P+eWVZ4YfIB6Ho/lvo5MBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7031,7 +7031,7 @@
           "hash": "cPIwh1sQl0q3kfx7U8KkSg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7127,7 +7127,7 @@
           "hash": "2xAhJT02MD4h8a+aSjk7Bg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7151,7 +7151,7 @@
           "hash": "giEPpsRdM7wqXexa1FUOVA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7163,7 +7163,7 @@
           "hash": "zHf7v7KiGBS+q3fcdo/LiA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -7642,7 +7642,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 622,
-          "skipped_file_count": 555
+          "skipped_file_count": 542
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -1,30 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.Vector3Extensions
-  commentId: T:StansAssets.Foundation.Vector3Extensions
-  id: Vector3Extensions
+- uid: StansAssets.Foundation.UnixTime
+  commentId: T:StansAssets.Foundation.UnixTime
+  id: UnixTime
   parent: StansAssets.Foundation
   children:
-  - StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
+  - StansAssets.Foundation.UnixTime.ToDateTime(System.Int64)
+  - StansAssets.Foundation.UnixTime.ToUnixTime(DateTime)
   langs:
   - csharp
   - vb
-  name: Vector3Extensions
-  nameWithType: Vector3Extensions
-  fullName: StansAssets.Foundation.Vector3Extensions
+  name: UnixTime
+  nameWithType: UnixTime
+  fullName: StansAssets.Foundation.UnixTime
   type: Class
   source:
-    id: Vector3Extensions
+    id: UnixTime
     path: ''
-    startLine: 428
+    startLine: 510
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
-  summary: "\nUnity <see cref=\"!:Vector3\"></see> extension methods.\n"
+  summary: "\nHelper methods to work with unix time representation.\n"
   example: []
   syntax:
-    content: public static class Vector3Extensions
-    content.vb: Public Module Vector3Extensions
+    content: public static class UnixTime
+    content.vb: Public Module UnixTime
   inheritance:
   - System.Object
   inheritedMembers:
@@ -42,53 +43,78 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
-  commentId: M:StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
-  id: SqrDistance(Vector3@,Vector3@)
-  isExtensionMethod: true
-  parent: StansAssets.Foundation.Vector3Extensions
+- uid: StansAssets.Foundation.UnixTime.ToDateTime(System.Int64)
+  commentId: M:StansAssets.Foundation.UnixTime.ToDateTime(System.Int64)
+  id: ToDateTime(System.Int64)
+  parent: StansAssets.Foundation.UnixTime
   langs:
   - csharp
   - vb
-  name: SqrDistance(Vector3, Vector3)
-  nameWithType: Vector3Extensions.SqrDistance(Vector3, Vector3)
-  fullName: StansAssets.Foundation.Vector3Extensions.SqrDistance(Vector3, Vector3)
+  name: ToDateTime(Int64)
+  nameWithType: UnixTime.ToDateTime(Int64)
+  fullName: StansAssets.Foundation.UnixTime.ToDateTime(System.Int64)
   type: Method
   source:
-    id: SqrDistance
+    id: ToDateTime
     path: ''
-    startLine: 436
+    startLine: 516
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
-  summary: "\nCalculates a squared distance between current and given vectors.\n"
+  summary: "\nConverts a UNIX time stamp into <see cref=\"!:DateTime\"></see> object.\n"
   example: []
   syntax:
-    content: public static float SqrDistance(this in Vector3 a, in Vector3 b)
+    content: public static DateTime ToDateTime(long timestamp)
     parameters:
-    - id: a
-      type: Vector3
-      description: A current vector.
-    - id: b
-      type: Vector3
-      description: A given vector.
+    - id: timestamp
+      type: System.Int64
+      description: UNIX timestamp.
     return:
-      type: System.Single
-      description: Returns squared distance between current and given vectors.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function SqrDistance(ByRef a As Vector3, ByRef b As Vector3) As Single
-  overload: StansAssets.Foundation.Vector3Extensions.SqrDistance*
-  nameWithType.vb: Vector3Extensions.SqrDistance(ByRef Vector3, ByRef Vector3)
+      type: DateTime
+    content.vb: Public Shared Function ToDateTime(timestamp As Long) As DateTime
+  overload: StansAssets.Foundation.UnixTime.ToDateTime*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Foundation.Vector3Extensions.SqrDistance(ByRef Vector3, ByRef Vector3)
-  name.vb: SqrDistance(ByRef Vector3, ByRef Vector3)
+- uid: StansAssets.Foundation.UnixTime.ToUnixTime(DateTime)
+  commentId: M:StansAssets.Foundation.UnixTime.ToUnixTime(DateTime)
+  id: ToUnixTime(DateTime)
+  parent: StansAssets.Foundation.UnixTime
+  langs:
+  - csharp
+  - vb
+  name: ToUnixTime(DateTime)
+  nameWithType: UnixTime.ToUnixTime(DateTime)
+  fullName: StansAssets.Foundation.UnixTime.ToUnixTime(DateTime)
+  type: Method
+  source:
+    id: ToUnixTime
+    path: ''
+    startLine: 526
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation
+  summary: "\nGets a UNIX timestamp from a <see cref=\"!:DateTime\"></see> object.\n"
+  example: []
+  syntax:
+    content: public static long ToUnixTime(DateTime date)
+    parameters:
+    - id: date
+      type: DateTime
+      description: Source date for conversion.
+    return:
+      type: System.Int64
+    content.vb: Public Shared Function ToUnixTime(date As DateTime) As Long
+  overload: StansAssets.Foundation.UnixTime.ToUnixTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: StansAssets.Foundation
   commentId: N:StansAssets.Foundation
@@ -387,20 +413,25 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Foundation.Vector3Extensions.SqrDistance*
-  commentId: Overload:StansAssets.Foundation.Vector3Extensions.SqrDistance
-  name: SqrDistance
-  nameWithType: Vector3Extensions.SqrDistance
-  fullName: StansAssets.Foundation.Vector3Extensions.SqrDistance
-- uid: Vector3
-  isExternal: true
-  name: Vector3
-  nameWithType: Vector3
-  fullName: Vector3
-- uid: System.Single
-  commentId: T:System.Single
+- uid: StansAssets.Foundation.UnixTime.ToDateTime*
+  commentId: Overload:StansAssets.Foundation.UnixTime.ToDateTime
+  name: ToDateTime
+  nameWithType: UnixTime.ToDateTime
+  fullName: StansAssets.Foundation.UnixTime.ToDateTime
+- uid: System.Int64
+  commentId: T:System.Int64
   parent: System
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: StansAssets.Foundation.UnixTime.ToUnixTime*
+  commentId: Overload:StansAssets.Foundation.UnixTime.ToUnixTime
+  name: ToUnixTime
+  nameWithType: UnixTime.ToUnixTime
+  fullName: StansAssets.Foundation.UnixTime.ToUnixTime
