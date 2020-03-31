@@ -69,7 +69,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "favicon.ico"
         ],
         "exclude": [
           "**/bin/**",
