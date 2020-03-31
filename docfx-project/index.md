@@ -1,7 +1,7 @@
 # Welcome to Stan's Assets Scripting Reference!
 The scripting reference is organized according to the available plugins. You can find plugins list as well as useful resources links below.
 
-At Stan's Assets, we make Plugins, SDKs,  Games, VR &AR  Applications. Do not hesitate do get in touch, whether you have a question, want to build something or just to say hi :)  
+At Stan's Assets, we make Plugins, SDKs,  Games, VR & AR  Applications. Do not hesitate do get in touch, whether you have a question, want to build something or just to say hi :)  
 [Website](https://stansassets.com/#contacts) | [LinkedIn](https://www.linkedin.com/in/lacost/) | [Youtube](https://www.youtube.com/user/stansassets/videos) | [Github](https://github.com/StansAssets) | [AssetStore](https://assetstore.unity.com/publishers/2256)
 
 ### Foundation Library
