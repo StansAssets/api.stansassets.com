@@ -17,7 +17,7 @@ items:
   source:
     id: ReflectionUtility
     path: ''
-    startLine: 594
+    startLine: 747
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
@@ -57,7 +57,7 @@ items:
   source:
     id: CreateInstance
     path: ''
-    startLine: 603
+    startLine: 756
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
@@ -94,7 +94,7 @@ items:
   source:
     id: FindType
     path: ''
-    startLine: 614
+    startLine: 767
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation

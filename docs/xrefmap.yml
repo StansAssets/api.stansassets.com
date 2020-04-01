@@ -31229,6 +31229,60 @@ references:
   fullName.vb: StansAssets.Foundation.Extensions.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
   nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
   nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.Extensions.ListExtensions
+  name: ListExtensions
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.ListExtensions
+  fullName: StansAssets.Foundation.Extensions.ListExtensions
+  nameWithType: ListExtensions
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone*
+  name: Clone
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone_
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.Clone
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone
+  nameWithType: ListExtensions.Clone
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  name: Clone<T>(List<T>)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  name.vb: Clone(Of T)(List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
+  nameWithType: ListExtensions.Clone<T>(List<T>)
+  nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
+  name: Resize
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize_
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.Resize
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize
+  nameWithType: ListExtensions.Resize
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  name: Resize<T>(List<T>, Int32, T)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  name.vb: Resize(Of T)(List(Of T), Int32, T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(List<T>, System.Int32, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(List(Of T), System.Int32, T)
+  nameWithType: ListExtensions.Resize<T>(List<T>, Int32, T)
+  nameWithType.vb: ListExtensions.Resize(Of T)(List(Of T), Int32, T)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
+  name: ShallowCopy
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy_
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
+  nameWithType: ListExtensions.ShallowCopy
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+  name: ShallowCopy<T>(List<T>)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+  name.vb: ShallowCopy(Of T)(List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(List(Of T))
+  nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
+  nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.ObjectExtensions
   name: ObjectExtensions
   href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html
@@ -31416,12 +31470,100 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale
   nameWithType: TransformExtensions.SetLossyScaleScale
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions
+  name: Vector2Extensions
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html
+  commentId: T:StansAssets.Foundation.Extensions.Vector2Extensions
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions
+  nameWithType: Vector2Extensions
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2@,System.Single)
+  name: MultipliedBy(Vector2, Single)
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html#StansAssets_Foundation_Extensions_Vector2Extensions_MultipliedBy_Vector2__System_Single_
+  commentId: M:StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2@,System.Single)
+  name.vb: MultipliedBy(ByRef Vector2, Single)
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2, System.Single)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(ByRef Vector2, System.Single)
+  nameWithType: Vector2Extensions.MultipliedBy(Vector2, Single)
+  nameWithType.vb: Vector2Extensions.MultipliedBy(ByRef Vector2, Single)
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2@,Vector2)
+  name: MultipliedBy(Vector2, Vector2)
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html#StansAssets_Foundation_Extensions_Vector2Extensions_MultipliedBy_Vector2__Vector2_
+  commentId: M:StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2@,Vector2)
+  name.vb: MultipliedBy(ByRef Vector2, Vector2)
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(Vector2, Vector2)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy(ByRef Vector2, Vector2)
+  nameWithType: Vector2Extensions.MultipliedBy(Vector2, Vector2)
+  nameWithType.vb: Vector2Extensions.MultipliedBy(ByRef Vector2, Vector2)
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy*
+  name: MultipliedBy
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html#StansAssets_Foundation_Extensions_Vector2Extensions_MultipliedBy_
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions.MultipliedBy
+  nameWithType: Vector2Extensions.MultipliedBy
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance(Vector2@,Vector2@)
+  name: SqrDistance(Vector2, Vector2)
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html#StansAssets_Foundation_Extensions_Vector2Extensions_SqrDistance_Vector2__Vector2__
+  commentId: M:StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance(Vector2@,Vector2@)
+  name.vb: SqrDistance(ByRef Vector2, ByRef Vector2)
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance(Vector2, Vector2)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance(ByRef Vector2, ByRef Vector2)
+  nameWithType: Vector2Extensions.SqrDistance(Vector2, Vector2)
+  nameWithType.vb: Vector2Extensions.SqrDistance(ByRef Vector2, ByRef Vector2)
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance*
+  name: SqrDistance
+  href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html#StansAssets_Foundation_Extensions_Vector2Extensions_SqrDistance_
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions.SqrDistance
+  nameWithType: Vector2Extensions.SqrDistance
 - uid: StansAssets.Foundation.Extensions.Vector3Extensions
   name: Vector3Extensions
   href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html
   commentId: T:StansAssets.Foundation.Extensions.Vector3Extensions
   fullName: StansAssets.Foundation.Extensions.Vector3Extensions
   nameWithType: Vector3Extensions
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,System.Single)
+  name: MultipliedBy(Vector3, Single)
+  href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_MultipliedBy_Vector3__System_Single_
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,System.Single)
+  name.vb: MultipliedBy(ByRef Vector3, Single)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3, System.Single)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(ByRef Vector3, System.Single)
+  nameWithType: Vector3Extensions.MultipliedBy(Vector3, Single)
+  nameWithType.vb: Vector3Extensions.MultipliedBy(ByRef Vector3, Single)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,Vector3)
+  name: MultipliedBy(Vector3, Vector3)
+  href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_MultipliedBy_Vector3__Vector3_
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,Vector3)
+  name.vb: MultipliedBy(ByRef Vector3, Vector3)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3, Vector3)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(ByRef Vector3, Vector3)
+  nameWithType: Vector3Extensions.MultipliedBy(Vector3, Vector3)
+  nameWithType.vb: Vector3Extensions.MultipliedBy(ByRef Vector3, Vector3)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy*
+  name: MultipliedBy
+  href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_MultipliedBy_
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy
+  nameWithType: Vector3Extensions.MultipliedBy
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
+  name: SmoothDampEuler(Vector3, Vector3, ref Vector3, Single)
+  href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_SmoothDampEuler_Vector3__Vector3_Vector3__System_Single_
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
+  name.vb: SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, Single)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3, Vector3, ref Vector3, System.Single)
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, System.Single)
+  nameWithType: Vector3Extensions.SmoothDampEuler(Vector3, Vector3, ref Vector3, Single)
+  nameWithType.vb: Vector3Extensions.SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, Single)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler*
+  name: SmoothDampEuler
+  href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_SmoothDampEuler_
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler
+  nameWithType: Vector3Extensions.SmoothDampEuler
 - uid: StansAssets.Foundation.Extensions.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
   name: SqrDistance(Vector3, Vector3)
   href: foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html#StansAssets_Foundation_Extensions_Vector3Extensions_SqrDistance_Vector3__Vector3__

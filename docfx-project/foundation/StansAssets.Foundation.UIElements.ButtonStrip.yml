@@ -26,7 +26,7 @@ items:
   source:
     id: ButtonStrip
     path: ''
-    startLine: 750
+    startLine: 903
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -61,7 +61,7 @@ items:
   source:
     id: UssClassName
     path: ''
-    startLine: 764
+    startLine: 917
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -92,7 +92,7 @@ items:
   source:
     id: Choices
     path: ''
-    startLine: 780
+    startLine: 933
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -125,7 +125,7 @@ items:
   source:
     id: Labels
     path: ''
-    startLine: 785
+    startLine: 938
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -158,7 +158,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 792
+    startLine: 945
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -191,7 +191,7 @@ items:
   source:
     id: OnButtonClick
     path: ''
-    startLine: 797
+    startLine: 950
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -220,7 +220,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 802
+    startLine: 955
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -248,7 +248,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 811
+    startLine: 964
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -283,7 +283,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 836
+    startLine: 989
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -315,7 +315,7 @@ items:
   source:
     id: SetValueWithoutNotify
     path: ''
-    startLine: 846
+    startLine: 999
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -347,7 +347,7 @@ items:
   source:
     id: AddChoice
     path: ''
-    startLine: 862
+    startLine: 1015
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements
@@ -382,7 +382,7 @@ items:
   source:
     id: CleanUp
     path: ''
-    startLine: 875
+    startLine: 1028
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements

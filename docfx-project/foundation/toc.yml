@@ -34,12 +34,16 @@
   items:
   - uid: StansAssets.Foundation.Extensions.ArrayExtensions
     name: ArrayExtensions
+  - uid: StansAssets.Foundation.Extensions.ListExtensions
+    name: ListExtensions
   - uid: StansAssets.Foundation.Extensions.ObjectExtensions
     name: ObjectExtensions
   - uid: StansAssets.Foundation.Extensions.StringExtensions
     name: StringExtensions
   - uid: StansAssets.Foundation.Extensions.TransformExtensions
     name: TransformExtensions
+  - uid: StansAssets.Foundation.Extensions.Vector2Extensions
+    name: Vector2Extensions
   - uid: StansAssets.Foundation.Extensions.Vector3Extensions
     name: Vector3Extensions
 - uid: StansAssets.Foundation.Patterns

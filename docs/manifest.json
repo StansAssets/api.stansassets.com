@@ -2735,7 +2735,7 @@
           "hash": "xLCxFgVH+07FI0IIwe+0qQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2747,7 +2747,7 @@
           "hash": "Gqb6hgN6dhZyIN34a++ktQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2759,7 +2759,7 @@
           "hash": "rwREWh8GtGTVn6QmibJF/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2771,7 +2771,7 @@
           "hash": "DLyRew4LI0gwkk7BWwADFA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2783,7 +2783,7 @@
           "hash": "tRTnGnBkucDxmmHUF7mFOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2795,7 +2795,7 @@
           "hash": "4YT3Bnos1x53zy3uasZoPg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2807,7 +2807,7 @@
           "hash": "b1ppThCESo2VMGmq9TrsvQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2819,7 +2819,7 @@
           "hash": "Ah/X4PPrOW9quJG/ZLgl8A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2831,7 +2831,7 @@
           "hash": "wXqDWwgdJSeFZIEVkAhB2g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2843,7 +2843,19 @@
           "hash": "lo5vPDTqWSHfWUtr0eotig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.html",
+          "hash": "pPDVtHUG2KMZE9I1feo2Ww=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2855,7 +2867,7 @@
           "hash": "aDXAlYceuv8OE6f6wP3Ywg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2867,7 +2879,7 @@
           "hash": "hZBsF3t1Ig2BV33mXFqklQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2879,7 +2891,19 @@
           "hash": "sedgltrQoXtf0OxlCxokRA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html",
+          "hash": "z+gpOYSPyZKDBCW0t5ha7Q=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2888,10 +2912,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.Vector3Extensions.html",
-          "hash": "by/4zmccCVjJQ/qoYXGEYg=="
+          "hash": "5tKNhKqJF26EROwNLBqhEA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2900,10 +2924,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
-          "hash": "tZW/LR/sd55C8M9Vh20ZBw=="
+          "hash": "v1X77gFStXUWPp/tDPtH1A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2915,7 +2939,7 @@
           "hash": "f2LbTum4pKwI2MdRLh1F7Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2927,7 +2951,7 @@
           "hash": "OzsB33raHz35U4QBqDCGQw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2939,7 +2963,7 @@
           "hash": "oiiB79G+AL1FBk4Pgin/lg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2951,7 +2975,7 @@
           "hash": "2FQUoEuWVBkgD5OmhHWR6A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2963,7 +2987,7 @@
           "hash": "602gPZmyFDwHX5aFEl7MSg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2975,7 +2999,7 @@
           "hash": "g1PRNN2dHLOUPyhPJ01Ylw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2987,7 +3011,7 @@
           "hash": "ygAwIHPvbKhqeuRL3lo/yA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2999,7 +3023,7 @@
           "hash": "eyn665FdRg7X7xAoPYs7Lw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3011,7 +3035,7 @@
           "hash": "3QvUrviHzyaJ3KH9ydVj/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3023,7 +3047,7 @@
           "hash": "tF/m8B5mcR7vxnbJD8nN4A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3035,7 +3059,7 @@
           "hash": "4Tn+tISKhELe/V9BapQv/A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3047,7 +3071,7 @@
           "hash": "Ko9W+HKKmFgVpmz4UZJlMw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3059,7 +3083,7 @@
           "hash": "RGiA0Fd1QZjpbJ5HQP0DBg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3071,7 +3095,7 @@
           "hash": "XTb8+ho/TJ35vGF48p4Lnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3080,7 +3104,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "2xwbfO5Rjeh/9C/AZ8nsLQ=="
+          "hash": "yWm3ELTW06wl31EvwjngEg=="
         }
       },
       "is_incremental": false,
@@ -7071,13 +7095,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 5
+          "skipped_file_count": 6
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 574,
-          "skipped_file_count": 574
+          "total_file_count": 576,
+          "skipped_file_count": 556
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

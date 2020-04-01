@@ -17,7 +17,7 @@ items:
   source:
     id: IdFactory
     path: ''
-    startLine: 542
+    startLine: 695
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
@@ -57,7 +57,7 @@ items:
   source:
     id: NextId
     path: ''
-    startLine: 550
+    startLine: 703
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation
@@ -92,7 +92,7 @@ items:
   source:
     id: RandomString
     path: ''
-    startLine: 569
+    startLine: 722
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation

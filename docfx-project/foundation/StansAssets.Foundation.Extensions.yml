@@ -5,9 +5,11 @@ items:
   id: StansAssets.Foundation.Extensions
   children:
   - StansAssets.Foundation.Extensions.ArrayExtensions
+  - StansAssets.Foundation.Extensions.ListExtensions
   - StansAssets.Foundation.Extensions.ObjectExtensions
   - StansAssets.Foundation.Extensions.StringExtensions
   - StansAssets.Foundation.Extensions.TransformExtensions
+  - StansAssets.Foundation.Extensions.Vector2Extensions
   - StansAssets.Foundation.Extensions.Vector3Extensions
   langs:
   - csharp
@@ -34,6 +36,11 @@ references:
   name: Vector3Extensions
   nameWithType: Vector3Extensions
   fullName: StansAssets.Foundation.Extensions.Vector3Extensions
+- uid: StansAssets.Foundation.Extensions.Vector2Extensions
+  commentId: T:StansAssets.Foundation.Extensions.Vector2Extensions
+  name: Vector2Extensions
+  nameWithType: Vector2Extensions
+  fullName: StansAssets.Foundation.Extensions.Vector2Extensions
 - uid: StansAssets.Foundation.Extensions.ArrayExtensions
   commentId: T:StansAssets.Foundation.Extensions.ArrayExtensions
   name: ArrayExtensions
@@ -44,3 +51,8 @@ references:
   name: StringExtensions
   nameWithType: StringExtensions
   fullName: StansAssets.Foundation.Extensions.StringExtensions
+- uid: StansAssets.Foundation.Extensions.ListExtensions
+  commentId: T:StansAssets.Foundation.Extensions.ListExtensions
+  name: ListExtensions
+  nameWithType: ListExtensions
+  fullName: StansAssets.Foundation.Extensions.ListExtensions

@@ -22,7 +22,7 @@ items:
   source:
     id: StringExtensions
     path: ''
-    startLine: 394
+    startLine: 492
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -63,7 +63,7 @@ items:
   source:
     id: GetLast
     path: ''
-    startLine: 402
+    startLine: 500
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -107,7 +107,7 @@ items:
   source:
     id: RemoveLast
     path: ''
-    startLine: 413
+    startLine: 511
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -151,7 +151,7 @@ items:
   source:
     id: GetFirst
     path: ''
-    startLine: 424
+    startLine: 522
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -195,7 +195,7 @@ items:
   source:
     id: AllIndexesOf
     path: ''
-    startLine: 437
+    startLine: 535
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -242,7 +242,7 @@ items:
   source:
     id: CopyToClipboard
     path: ''
-    startLine: 456
+    startLine: 554
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -280,7 +280,7 @@ items:
   source:
     id: TrimStart
     path: ''
-    startLine: 469
+    startLine: 567
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions
@@ -324,7 +324,7 @@ items:
   source:
     id: TrimEnd
     path: ''
-    startLine: 488
+    startLine: 586
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Extensions

@@ -16,7 +16,7 @@ items:
   source:
     id: BaseTab
     path: ''
-    startLine: 1118
+    startLine: 1271
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1124
+    startLine: 1277
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins

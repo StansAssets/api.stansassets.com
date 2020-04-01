@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Foundation.Editor.FoundationPackage
-  commentId: T:StansAssets.Foundation.Editor.FoundationPackage
-  id: FoundationPackage
-  parent: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation.Extensions.ListExtensions
+  commentId: T:StansAssets.Foundation.Extensions.ListExtensions
+  id: ListExtensions
+  parent: StansAssets.Foundation.Extensions
   children:
-  - StansAssets.Foundation.Editor.FoundationPackage.Info
-  - StansAssets.Foundation.Editor.FoundationPackage.Name
-  - StansAssets.Foundation.Editor.FoundationPackage.RootPath
+  - StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  - StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  - StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
   langs:
   - csharp
   - vb
-  name: FoundationPackage
-  nameWithType: FoundationPackage
-  fullName: StansAssets.Foundation.Editor.FoundationPackage
+  name: ListExtensions
+  nameWithType: ListExtensions
+  fullName: StansAssets.Foundation.Extensions.ListExtensions
   type: Class
   source:
-    id: FoundationPackage
+    id: ListExtensions
     path: ''
-    startLine: 1244
+    startLine: 610
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nFoundation Package Static info.\n"
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nCSharp List extension methods.\n"
   example: []
   syntax:
-    content: public static class FoundationPackage
-    content.vb: Public Module FoundationPackage
+    content: public static class ListExtensions
+    content.vb: Public Module ListExtensions
   inheritance:
   - System.Object
   inheritedMembers:
@@ -44,109 +44,155 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Foundation.Editor.FoundationPackage.Name
-  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.Name
-  id: Name
-  parent: StansAssets.Foundation.Editor.FoundationPackage
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  id: Resize``1(List{``0},System.Int32,``0)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.ListExtensions
   langs:
   - csharp
   - vb
-  name: Name
-  nameWithType: FoundationPackage.Name
-  fullName: StansAssets.Foundation.Editor.FoundationPackage.Name
-  type: Field
+  name: Resize<T>(List<T>, Int32, T)
+  nameWithType: ListExtensions.Resize<T>(List<T>, Int32, T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(List<T>, System.Int32, T)
+  type: Method
   source:
-    id: Name
+    id: Resize
     path: ''
-    startLine: 1249
+    startLine: 618
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage full name.\n"
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nResizes the list. In case of increase list size - fills it with default elements.\n"
   example: []
   syntax:
-    content: public const string Name = "com.stansassets.foundation"
-    return:
-      type: System.String
-    content.vb: Public Const Name As String = "com.stansassets.foundation"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: StansAssets.Foundation.Editor.FoundationPackage.RootPath
-  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.RootPath
-  id: RootPath
-  parent: StansAssets.Foundation.Editor.FoundationPackage
-  langs:
-  - csharp
-  - vb
-  name: RootPath
-  nameWithType: FoundationPackage.RootPath
-  fullName: StansAssets.Foundation.Editor.FoundationPackage.RootPath
-  type: Field
-  source:
-    id: RootPath
-    path: ''
-    startLine: 1254
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage root path.\n"
-  example: []
-  syntax:
-    content: public static readonly string RootPath
-    return:
-      type: System.String
-    content.vb: Public Shared ReadOnly RootPath As String
+    content: public static void Resize<T>(this List<T> list, int newSize, T defaultValue = null)
+    parameters:
+    - id: list
+      type: List{{T}}
+      description: The current list.
+    - id: newSize
+      type: System.Int32
+      description: The new size of the list.
+    - id: defaultValue
+      type: '{T}'
+      description: The default value to set as new list elements.
+    typeParameters:
+    - id: T
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Resize(Of T)(list As List(Of T), newSize As Integer, defaultValue As T = Nothing)
+  overload: StansAssets.Foundation.Extensions.ListExtensions.Resize*
+  nameWithType.vb: ListExtensions.Resize(Of T)(List(Of T), Int32, T)
   modifiers.csharp:
   - public
   - static
-  - readonly
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
-- uid: StansAssets.Foundation.Editor.FoundationPackage.Info
-  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.Info
-  id: Info
-  parent: StansAssets.Foundation.Editor.FoundationPackage
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(List(Of T), System.Int32, T)
+  name.vb: Resize(Of T)(List(Of T), Int32, T)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  id: Clone``1(List{``0})
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.ListExtensions
   langs:
   - csharp
   - vb
-  name: Info
-  nameWithType: FoundationPackage.Info
-  fullName: StansAssets.Foundation.Editor.FoundationPackage.Info
-  type: Field
+  name: Clone<T>(List<T>)
+  nameWithType: ListExtensions.Clone<T>(List<T>)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(List<T>)
+  type: Method
   source:
-    id: Info
+    id: Clone
     path: ''
-    startLine: 1259
+    startLine: 639
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage info.\n"
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nCreates a deep copy of the list.\n"
   example: []
   syntax:
-    content: public static readonly PackageInfo Info
+    content: >-
+      public static List<T> Clone<T>(this List<T> list)
+          where T : ICloneable
+    parameters:
+    - id: list
+      type: List{{T}}
+      description: The current list.
+    typeParameters:
+    - id: T
     return:
-      type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
+      type: List{{T}}
+      description: The deep copy of the current list.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clone(Of T As ICloneable)(list As List(Of T)) As List(Of T)
+  overload: StansAssets.Foundation.Extensions.ListExtensions.Clone*
+  nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
   modifiers.csharp:
   - public
   - static
-  - readonly
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
+  name.vb: Clone(Of T)(List(Of T))
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+  id: ShallowCopy``1(List{``0})
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.ListExtensions
+  langs:
+  - csharp
+  - vb
+  name: ShallowCopy<T>(List<T>)
+  nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(List<T>)
+  type: Method
+  source:
+    id: ShallowCopy
+    path: ''
+    startLine: 649
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nCreates a shallow copy of the list.\n"
+  example: []
+  syntax:
+    content: public static List<T> ShallowCopy<T>(this List<T> list)
+    parameters:
+    - id: list
+      type: List{{T}}
+      description: The current list.
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+      description: The shallow copy of the current list.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ShallowCopy(Of T)(list As List(Of T)) As List(Of T)
+  overload: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
+  nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(List(Of T))
+  name.vb: ShallowCopy(Of T)(List(Of T))
 references:
-- uid: StansAssets.Foundation.Editor
-  commentId: N:StansAssets.Foundation.Editor
-  name: StansAssets.Foundation.Editor
-  nameWithType: StansAssets.Foundation.Editor
-  fullName: StansAssets.Foundation.Editor
+- uid: StansAssets.Foundation.Extensions
+  commentId: N:StansAssets.Foundation.Extensions
+  name: StansAssets.Foundation.Extensions
+  nameWithType: StansAssets.Foundation.Extensions
+  fullName: StansAssets.Foundation.Extensions
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -439,15 +485,112 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.String
-  commentId: T:System.String
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.Resize
+  name: Resize
+  nameWithType: ListExtensions.Resize
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize
+- uid: List{{T}}
+  commentId: '!:List{``0}'
+  definition: List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: PackageInfo
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: List`1
   isExternal: true
-  name: PackageInfo
-  nameWithType: PackageInfo
-  fullName: PackageInfo
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone*
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.Clone
+  name: Clone
+  nameWithType: ListExtensions.Clone
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
+  name: ShallowCopy
+  nameWithType: ListExtensions.ShallowCopy
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy

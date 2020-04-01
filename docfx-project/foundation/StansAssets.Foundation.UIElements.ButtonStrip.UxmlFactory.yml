@@ -15,7 +15,7 @@ items:
   source:
     id: UxmlFactory
     path: ''
-    startLine: 753
+    startLine: 906
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.UIElements

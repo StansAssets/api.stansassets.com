@@ -5,6 +5,9 @@ items:
   id: Vector3Extensions
   parent: StansAssets.Foundation.Extensions
   children:
+  - StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,System.Single)
+  - StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,Vector3)
+  - StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
   - StansAssets.Foundation.Extensions.Vector3Extensions.SqrDistance(Vector3@,Vector3@)
   langs:
   - csharp
@@ -68,10 +71,10 @@ items:
     parameters:
     - id: a
       type: Vector3
-      description: A current vector.
+      description: The current vector.
     - id: b
       type: Vector3
-      description: A given vector.
+      description: The given vector.
     return:
       type: System.Single
       description: Returns squared distance between current and given vectors.
@@ -89,6 +92,153 @@ items:
   - Shared
   fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.SqrDistance(ByRef Vector3, ByRef Vector3)
   name.vb: SqrDistance(ByRef Vector3, ByRef Vector3)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,System.Single)
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,System.Single)
+  id: MultipliedBy(Vector3@,System.Single)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: MultipliedBy(Vector3, Single)
+  nameWithType: Vector3Extensions.MultipliedBy(Vector3, Single)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3, System.Single)
+  type: Method
+  source:
+    id: MultipliedBy
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nMultiplies each element in Vector3 by the given scalar.\n"
+  example: []
+  syntax:
+    content: public static Vector3 MultipliedBy(this in Vector3 a, float s)
+    parameters:
+    - id: a
+      type: Vector3
+      description: The current vector.
+    - id: s
+      type: System.Single
+      description: The given scalar.
+    return:
+      type: Vector3
+      description: Returns new Vector3 containing the multiplied components.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MultipliedBy(ByRef a As Vector3, s As Single) As Vector3
+  overload: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy*
+  nameWithType.vb: Vector3Extensions.MultipliedBy(ByRef Vector3, Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(ByRef Vector3, System.Single)
+  name.vb: MultipliedBy(ByRef Vector3, Single)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,Vector3)
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3@,Vector3)
+  id: MultipliedBy(Vector3@,Vector3)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: MultipliedBy(Vector3, Vector3)
+  nameWithType: Vector3Extensions.MultipliedBy(Vector3, Vector3)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(Vector3, Vector3)
+  type: Method
+  source:
+    id: MultipliedBy
+    path: ''
+    startLine: 368
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nMultiplies each element in Vector3 a by the corresponding element of b.\n"
+  example: []
+  syntax:
+    content: public static Vector3 MultipliedBy(this in Vector3 a, Vector3 b)
+    parameters:
+    - id: a
+      type: Vector3
+      description: The current vector.
+    - id: b
+      type: Vector3
+      description: The given vector.
+    return:
+      type: Vector3
+      description: Returns new Vector3 containing the multiplied components of the given vectors.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MultipliedBy(ByRef a As Vector3, b As Vector3) As Vector3
+  overload: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy*
+  nameWithType.vb: Vector3Extensions.MultipliedBy(ByRef Vector3, Vector3)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy(ByRef Vector3, Vector3)
+  name.vb: MultipliedBy(ByRef Vector3, Vector3)
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
+  commentId: M:StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
+  id: SmoothDampEuler(Vector3@,Vector3,Vector3@,System.Single)
+  isExtensionMethod: true
+  parent: StansAssets.Foundation.Extensions.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SmoothDampEuler(Vector3, Vector3, ref Vector3, Single)
+  nameWithType: Vector3Extensions.SmoothDampEuler(Vector3, Vector3, ref Vector3, Single)
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(Vector3, Vector3, ref Vector3, System.Single)
+  type: Method
+  source:
+    id: SmoothDampEuler
+    path: ''
+    startLine: 385
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Foundation.Extensions
+  summary: "\nSmoothes a Vector3 that represents euler angles.\n"
+  example: []
+  syntax:
+    content: public static Vector3 SmoothDampEuler(this in Vector3 current, Vector3 target, ref Vector3 velocity, float smoothTime)
+    parameters:
+    - id: current
+      type: Vector3
+      description: The current Vector3 value.
+    - id: target
+      type: Vector3
+      description: The target Vector3 value.
+    - id: velocity
+      type: Vector3
+      description: A refernce Vector3 used internally.
+    - id: smoothTime
+      type: System.Single
+      description: The time to smooth, in seconds.
+    return:
+      type: Vector3
+      description: The smoothed Vector3 value.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SmoothDampEuler(ByRef current As Vector3, target As Vector3, ByRef velocity As Vector3, smoothTime As Single) As Vector3
+  overload: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler*
+  nameWithType.vb: Vector3Extensions.SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, System.Single)
+  name.vb: SmoothDampEuler(ByRef Vector3, Vector3, ByRef Vector3, Single)
 references:
 - uid: StansAssets.Foundation.Extensions
   commentId: N:StansAssets.Foundation.Extensions
@@ -404,3 +554,13 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy*
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy
+  name: MultipliedBy
+  nameWithType: Vector3Extensions.MultipliedBy
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.MultipliedBy
+- uid: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler*
+  commentId: Overload:StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler
+  name: SmoothDampEuler
+  nameWithType: Vector3Extensions.SmoothDampEuler
+  fullName: StansAssets.Foundation.Extensions.Vector3Extensions.SmoothDampEuler
