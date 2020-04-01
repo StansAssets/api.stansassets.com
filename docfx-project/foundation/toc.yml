@@ -29,6 +29,11 @@
   - uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1
     name: PackageSettingsWindow<TWindow>
     name.vb: PackageSettingsWindow(Of TWindow)
+- uid: StansAssets.Foundation.Editor.Shading
+  name: StansAssets.Foundation.Editor.Shading
+  items:
+  - uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+    name: ShowIfDrawer
 - uid: StansAssets.Foundation.Extensions
   name: StansAssets.Foundation.Extensions
   items:

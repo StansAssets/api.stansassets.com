@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Foundation.Editor.Shading
+  commentId: N:StansAssets.Foundation.Editor.Shading
+  id: StansAssets.Foundation.Editor.Shading
+  children:
+  - StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.Foundation.Editor.Shading
+  nameWithType: StansAssets.Foundation.Editor.Shading
+  fullName: StansAssets.Foundation.Editor.Shading
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  commentId: T:StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  name: ShowIfDrawer
+  nameWithType: ShowIfDrawer
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer

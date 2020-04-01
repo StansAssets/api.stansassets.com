@@ -2664,7 +2664,7 @@
           "hash": "VZdsIyr3r2JjDol49u61Yw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2805,6 +2805,30 @@
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.Plugins.html",
           "hash": "b1ppThCESo2VMGmq9TrsvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html",
+          "hash": "l3SBtQAl4TQmANHv/NP0ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Editor.Shading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Editor.Shading.html",
+          "hash": "1kmnrS1GCtVnG7lSZSYHDg=="
         }
       },
       "is_incremental": false,
@@ -3104,7 +3128,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "yWm3ELTW06wl31EvwjngEg=="
+          "hash": "0fAuY6TqYg5mqLqC++t4WQ=="
         }
       },
       "is_incremental": false,
@@ -3127,7 +3151,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "X1EEewYQppAE780qrKrAzA=="
+          "hash": "Tme6AuJj+aey4dKBbTy8Rg=="
         }
       },
       "is_incremental": true,
@@ -7100,8 +7124,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 576,
-          "skipped_file_count": 556
+          "total_file_count": 578,
+          "skipped_file_count": 576
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

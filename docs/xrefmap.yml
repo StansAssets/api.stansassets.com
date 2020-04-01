@@ -31131,6 +31131,75 @@ references:
   fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow).ShowTowardsInspector
   nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector
   nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector
+- uid: StansAssets.Foundation.Editor.Shading
+  name: StansAssets.Foundation.Editor.Shading
+  href: foundation/StansAssets.Foundation.Editor.Shading.html
+  commentId: N:StansAssets.Foundation.Editor.Shading
+  fullName: StansAssets.Foundation.Editor.Shading
+  nameWithType: StansAssets.Foundation.Editor.Shading
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  name: ShowIfDrawer
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html
+  commentId: T:StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer
+  nameWithType: ShowIfDrawer
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String)
+  name: ShowIfDrawer(String)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.ShowIfDrawer(System.String)
+  nameWithType: ShowIfDrawer.ShowIfDrawer(String)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String)
+  name: ShowIfDrawer(String, String)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.ShowIfDrawer(System.String, System.String)
+  nameWithType: ShowIfDrawer.ShowIfDrawer(String, String)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String)
+  name: ShowIfDrawer(String, String, String)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.ShowIfDrawer(System.String, System.String, System.String)
+  nameWithType: ShowIfDrawer.ShowIfDrawer(String, String, String)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String,System.String)
+  name: ShowIfDrawer(String, String, String, String)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.ShowIfDrawer(System.String, System.String, System.String, System.String)
+  nameWithType: ShowIfDrawer.ShowIfDrawer(String, String, String, String)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor*
+  name: ShowIfDrawer
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_
+  commentId: Overload:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.ShowIfDrawer
+  nameWithType: ShowIfDrawer.ShowIfDrawer
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight(MaterialProperty,System.String,MaterialEditor)
+  name: GetPropertyHeight(MaterialProperty, String, MaterialEditor)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_MaterialProperty_System_String_MaterialEditor_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight(MaterialProperty,System.String,MaterialEditor)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight(MaterialProperty, System.String, MaterialEditor)
+  nameWithType: ShowIfDrawer.GetPropertyHeight(MaterialProperty, String, MaterialEditor)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight*
+  name: GetPropertyHeight
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_
+  commentId: Overload:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight
+  nameWithType: ShowIfDrawer.GetPropertyHeight
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI(Rect,MaterialProperty,System.String,MaterialEditor)
+  name: OnGUI(Rect, MaterialProperty, String, MaterialEditor)
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer_OnGUI_Rect_MaterialProperty_System_String_MaterialEditor_
+  commentId: M:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI(Rect,MaterialProperty,System.String,MaterialEditor)
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI(Rect, MaterialProperty, System.String, MaterialEditor)
+  nameWithType: ShowIfDrawer.OnGUI(Rect, MaterialProperty, String, MaterialEditor)
+- uid: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI*
+  name: OnGUI
+  href: foundation/StansAssets.Foundation.Editor.Shading.ShowIfDrawer.html#StansAssets_Foundation_Editor_Shading_ShowIfDrawer_OnGUI_
+  commentId: Overload:StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI
+  nameWithType: ShowIfDrawer.OnGUI
 - uid: StansAssets.Foundation.EnumUtility
   name: EnumUtility
   href: foundation/StansAssets.Foundation.EnumUtility.html

@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ShowIfDrawer
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ShowIfDrawer
+   ">
+    <meta name="generator" content="docfx 2.51.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logo_rect_blue.png" height="46" width="46" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer">
+  
+  
+  <h1 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer" class="text-break">Class ShowIfDrawer
+  </h1>
+  <div class="markdown level0 summary"><p>Material property attribute that allows you to display the material property
+only if the specified material keywords are enabled.</p>
+<p>Use with <strong>[ShowIf(KEYWORD_NAME, ...)]</strong> before a shader property.
+Most often used in combination with the <strong>[Toggle(KEYWORD_NAME)]</strong> attribute.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ShowIfDrawer</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.Shading.html">StansAssets.Foundation.Editor.Shading</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ShowIfDrawer : MaterialPropertyDrawer</code></pre>
+  </div>
+  <h5 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_examples"><strong>Examples</strong></h5>
+  <p>Usage example:</p>
+<pre><code>    [Toggle(_BASE_COLOR_ON)] _ToggleBaseColor(&quot;Color&quot;, Int) = 0
+    [ShowIf(_BASE_COLOR_ON)] _BaseColor(&quot;&quot;, Color) = (1,1,1,1)</code></pre>
+
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String)">ShowIfDrawer(String)</h4>
+  <div class="markdown level1 summary"><p>Creates ShowIfDrawer with one required keyword.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShowIfDrawer(string keyword0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword0</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String)">ShowIfDrawer(String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates ShowIfDrawer with two required keywords.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShowIfDrawer(string keyword0, string keyword1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String)">ShowIfDrawer(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates ShowIfDrawer with three required keywords.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShowIfDrawer(string keyword0, string keyword1, string keyword2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer__ctor_System_String_System_String_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.#ctor(System.String,System.String,System.String,System.String)">ShowIfDrawer(String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates ShowIfDrawer with four required keywords.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ShowIfDrawer(string keyword0, string keyword1, string keyword2, string keyword3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">keyword3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_MaterialProperty_System_String_MaterialEditor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight(MaterialProperty,System.String,MaterialEditor)">GetPropertyHeight(MaterialProperty, String, MaterialEditor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override float GetPropertyHeight(MaterialProperty prop, string label, MaterialEditor editor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MaterialProperty</span></td>
+        <td><span class="parametername">prop</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MaterialEditor</span></td>
+        <td><span class="parametername">editor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_OnGUI_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_OnGUI_Rect_MaterialProperty_System_String_MaterialEditor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.OnGUI(Rect,MaterialProperty,System.String,MaterialEditor)">OnGUI(Rect, MaterialProperty, String, MaterialEditor)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnGUI(Rect position, MaterialProperty prop, string label, MaterialEditor editor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MaterialProperty</span></td>
+        <td><span class="parametername">prop</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">label</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">MaterialEditor</span></td>
+        <td><span class="parametername">editor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
