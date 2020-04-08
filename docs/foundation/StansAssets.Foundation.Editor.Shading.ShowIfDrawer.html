@@ -89,7 +89,7 @@ Most often used in combination with the <strong>[Toggle(KEYWORD_NAME)]</strong> 
     <pre><code class="lang-csharp hljs">public class ShowIfDrawer : MaterialPropertyDrawer</code></pre>
   </div>
   <h5 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_examples"><strong>Examples</strong></h5>
-  <p>Usage example:</p>
+  <p>Use example:</p>
 <pre><code>    [Toggle(_BASE_COLOR_ON)] _ToggleBaseColor(&quot;Color&quot;, Int) = 0
     [ShowIf(_BASE_COLOR_ON)] _BaseColor(&quot;&quot;, Color) = (1,1,1,1)</code></pre>
 
@@ -243,7 +243,8 @@ Most often used in combination with the <strong>[Toggle(KEYWORD_NAME)]</strong> 
   
   <a id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight*"></a>
   <h4 id="StansAssets_Foundation_Editor_Shading_ShowIfDrawer_GetPropertyHeight_MaterialProperty_System_String_MaterialEditor_" data-uid="StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight(MaterialProperty,System.String,MaterialEditor)">GetPropertyHeight(MaterialProperty, String, MaterialEditor)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Will always return <code>0</code></p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -262,17 +263,20 @@ Most often used in combination with the <strong>[Toggle(KEYWORD_NAME)]</strong> 
       <tr>
         <td><span class="xref">MaterialProperty</span></td>
         <td><span class="parametername">prop</span></td>
-        <td></td>
+        <td><p>The <see cref="!:MaterialProperty"></see> to make the custom GUI for.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">label</span></td>
-        <td></td>
+        <td><p>The label of this property.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">MaterialEditor</span></td>
         <td><span class="parametername">editor</span></td>
-        <td></td>
+        <td><p>Current material editor.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -287,7 +291,8 @@ Most often used in combination with the <strong>[Toggle(KEYWORD_NAME)]</strong> 
     <tbody>
       <tr>
         <td><span class="xref">System.Single</span></td>
-        <td></td>
+        <td><p>Property height in pixels</p>
+</td>
       </tr>
     </tbody>
   </table>

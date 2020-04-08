@@ -22,7 +22,7 @@ items:
   source:
     id: PackageSettingsWindow
     path: ''
-    startLine: 1301
+    startLine: 1302
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -63,7 +63,7 @@ items:
   source:
     id: GetPackageInfo
     path: ''
-    startLine: 1303
+    startLine: 1304
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -95,7 +95,7 @@ items:
   source:
     id: OnWindowEnable
     path: ''
-    startLine: 1304
+    startLine: 1305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -128,7 +128,7 @@ items:
   source:
     id: m_TabsButtons
     path: ''
-    startLine: 1305
+    startLine: 1306
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -157,7 +157,7 @@ items:
   source:
     id: m_WindowRoot
     path: ''
-    startLine: 1307
+    startLine: 1308
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -186,7 +186,7 @@ items:
   source:
     id: m_Tabs
     path: ''
-    startLine: 1308
+    startLine: 1309
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -217,7 +217,7 @@ items:
   source:
     id: AddTab
     path: ''
-    startLine: 1350
+    startLine: 1351
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins
@@ -254,7 +254,7 @@ items:
   source:
     id: ShowTowardsInspector
     path: ''
-    startLine: 1372
+    startLine: 1373
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Plugins

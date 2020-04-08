@@ -10,7 +10,7 @@
   "StansAssets.Foundation.Editor.EditorDefines.HasCompileDefine(System.String,BuildTarget[])": "StansAssets.Foundation.Editor.EditorDefines.yml",
   "StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine(System.String,BuildTarget[])": "StansAssets.Foundation.Editor.EditorDefines.yml",
   "StansAssets.Foundation.Editor.FoundationPackage": "StansAssets.Foundation.Editor.FoundationPackage.yml",
-  "StansAssets.Foundation.Editor.FoundationPackage.Info": "StansAssets.Foundation.Editor.FoundationPackage.yml",
+  "StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo": "StansAssets.Foundation.Editor.FoundationPackage.yml",
   "StansAssets.Foundation.Editor.FoundationPackage.Name": "StansAssets.Foundation.Editor.FoundationPackage.yml",
   "StansAssets.Foundation.Editor.FoundationPackage.RootPath": "StansAssets.Foundation.Editor.FoundationPackage.yml",
   "StansAssets.Foundation.Editor.PackageManagerUtility": "StansAssets.Foundation.Editor.PackageManagerUtility.yml",

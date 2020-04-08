@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class FoundationPackage
+    <title>Class AN_APIResolver
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class FoundationPackage
+    <meta name="title" content="Class AN_APIResolver
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,62 +66,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.FoundationPackage">
+            <article class="content wrap" id="_content" data-uid="SA.Android.Editor.AN_APIResolver">
   
   
-  <h1 id="StansAssets_Foundation_Editor_FoundationPackage" data-uid="StansAssets.Foundation.Editor.FoundationPackage" class="text-break">Class FoundationPackage
+  <h1 id="SA_Android_Editor_AN_APIResolver" data-uid="SA.Android.Editor.AN_APIResolver" class="text-break">Class AN_APIResolver
   </h1>
-  <div class="markdown level0 summary"><p>Foundation Package Static info.</p>
+  <div class="markdown level0 summary"><p>Base class to implement Android Native Pro plugin post process directives.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">FoundationPackage</span></div>
+    <div class="level1"><span class="xref">AN_APIResolver</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.html">StansAssets.Foundation.Editor</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.Editor.html">SA.Android.Editor</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Editor_FoundationPackage_syntax">Syntax</h5>
+  <h5 id="SA_Android_Editor_AN_APIResolver_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class FoundationPackage</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class AN_APIResolver : SA_iAPIResolver</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="properties">Properties
   </h3>
   
   
-  <h4 id="StansAssets_Foundation_Editor_FoundationPackage_Name" data-uid="StansAssets.Foundation.Editor.FoundationPackage.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Foundation package full name.</p>
+  <a id="SA_Android_Editor_AN_APIResolver_BuildRequirements_" data-uid="SA.Android.Editor.AN_APIResolver.BuildRequirements*"></a>
+  <h4 id="SA_Android_Editor_AN_APIResolver_BuildRequirements" data-uid="SA.Android.Editor.AN_APIResolver.BuildRequirements">BuildRequirements</h4>
+  <div class="markdown level1 summary"><p>Current Resolver Build Requirements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string Name = &quot;com.stansassets.foundation&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public AN_AndroidBuildRequirements BuildRequirements { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -131,22 +108,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="SA.Android.Editor.AN_AndroidBuildRequirements.html">AN_AndroidBuildRequirements</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="StansAssets_Foundation_Editor_FoundationPackage_RootPath" data-uid="StansAssets.Foundation.Editor.FoundationPackage.RootPath">RootPath</h4>
-  <div class="markdown level1 summary"><p>Foundation package root path.</p>
+  <a id="SA_Android_Editor_AN_APIResolver_IsSettingsEnabled_" data-uid="SA.Android.Editor.AN_APIResolver.IsSettingsEnabled*"></a>
+  <h4 id="SA_Android_Editor_AN_APIResolver_IsSettingsEnabled" data-uid="SA.Android.Editor.AN_APIResolver.IsSettingsEnabled">IsSettingsEnabled</h4>
+  <div class="markdown level1 summary"><p>Returns <code>true</code> if attached settings is enabled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string RootPath</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract bool IsSettingsEnabled { get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -156,7 +134,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -165,27 +143,70 @@
   </h3>
   
   
-  <a id="StansAssets_Foundation_Editor_FoundationPackage_GetPackageInfo_" data-uid="StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo*"></a>
-  <h4 id="StansAssets_Foundation_Editor_FoundationPackage_GetPackageInfo" data-uid="StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo">GetPackageInfo()</h4>
-  <div class="markdown level1 summary"><p>Foundation package info.</p>
+  <a id="SA_Android_Editor_AN_APIResolver_AppendBuildRequirements_" data-uid="SA.Android.Editor.AN_APIResolver.AppendBuildRequirements*"></a>
+  <h4 id="SA_Android_Editor_AN_APIResolver_AppendBuildRequirements_SA_Android_Editor_AN_AndroidBuildRequirements_" data-uid="SA.Android.Editor.AN_APIResolver.AppendBuildRequirements(SA.Android.Editor.AN_AndroidBuildRequirements)">AppendBuildRequirements(AN_AndroidBuildRequirements)</h4>
+  <div class="markdown level1 summary"><p>Append build resolver requirements.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PackageInfo GetPackageInfo()</code></pre>
+    <pre><code class="lang-csharp hljs">protected abstract void AppendBuildRequirements(AN_AndroidBuildRequirements buildRequirements)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">PackageInfo</span></td>
-        <td></td>
+        <td><a class="xref" href="SA.Android.Editor.AN_AndroidBuildRequirements.html">AN_AndroidBuildRequirements</a></td>
+        <td><span class="parametername">buildRequirements</span></td>
+        <td><p>Build Requirements.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_Android_Editor_AN_APIResolver_ResetRequirementsCache_" data-uid="SA.Android.Editor.AN_APIResolver.ResetRequirementsCache*"></a>
+  <h4 id="SA_Android_Editor_AN_APIResolver_ResetRequirementsCache" data-uid="SA.Android.Editor.AN_APIResolver.ResetRequirementsCache">ResetRequirementsCache()</h4>
+  <div class="markdown level1 summary"><p>Reset Resolver requirements cache.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetRequirementsCache()</code></pre>
+  </div>
+  
+  
+  <a id="SA_Android_Editor_AN_APIResolver_Run_" data-uid="SA.Android.Editor.AN_APIResolver.Run*"></a>
+  <h4 id="SA_Android_Editor_AN_APIResolver_Run_SA_Android_Editor_AN_AndroidBuildRequirements_" data-uid="SA.Android.Editor.AN_APIResolver.Run(SA.Android.Editor.AN_AndroidBuildRequirements)">Run(AN_AndroidBuildRequirements)</h4>
+  <div class="markdown level1 summary"><p>Run resolver.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Run(AN_AndroidBuildRequirements buildRequirements)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.Android.Editor.AN_AndroidBuildRequirements.html">AN_AndroidBuildRequirements</a></td>
+        <td><span class="parametername">buildRequirements</span></td>
+        <td><p>Build Requirements.</p>
+</td>
       </tr>
     </tbody>
   </table>

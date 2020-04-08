@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ISN_UNNotificationResponse
+    <title>Class ISN_UNNotificationAction
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ISN_UNNotificationResponse
+    <meta name="title" content="Class ISN_UNNotificationAction
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,30 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse">
+            <article class="content wrap" id="_content" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationAction">
   
   
-  <h1 id="SA_iOS_UserNotifications_ISN_UNNotificationResponse" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse" class="text-break">Class ISN_UNNotificationResponse
+  <h1 id="SA_iOS_UserNotifications_ISN_UNNotificationAction" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationAction" class="text-break">Class ISN_UNNotificationAction
   </h1>
-  <div class="markdown level0 summary"><p>The user’s response to an actionable notification.</p>
-<p>When the user interacts with a delivered notification, 
-the system delivers a <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationResponse.html">ISN_UNNotificationResponse</a> object to your app 
-so that you can process the response. 
-Users can interact with delivered notifications in many ways. 
-If the notification’s category had associated action buttons, they can select one of those buttons. 
-Users can also dismiss the notification without selecting one of your actions and they can open your app. 
-A response object tells you which option that the user selected.</p>
-<p>You do not create instances of this class yourself. 
-Instead, the notification center object creates instances and delivers them 
-to the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a>. 
-You use that method to extract any needed information from the response objects and take appropriate actions. 
-For more information about, see the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenterDelegate.html">ISN_UNUserNotificationCenterDelegate</a>.</p>
+  <div class="markdown level0 summary"><p>A task to perform in response to a delivered notification.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ISN_UNNotificationResponse</span></div>
+    <div class="level1"><span class="xref">ISN_UNNotificationAction</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -117,30 +105,24 @@ For more information about, see the <a class="xref" href="SA.iOS.UserNotificatio
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.UserNotifications.html">SA.iOS.UserNotifications</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="SA_iOS_UserNotifications_ISN_UNNotificationResponse_syntax">Syntax</h5>
+  <h5 id="SA_iOS_UserNotifications_ISN_UNNotificationAction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ISN_UNNotificationResponse</code></pre>
+    <pre><code class="lang-csharp hljs">public class ISN_UNNotificationAction</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="SA_iOS_UserNotifications_ISN_UNNotificationResponse_ActionIdentifier_" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse.ActionIdentifier*"></a>
-  <h4 id="SA_iOS_UserNotifications_ISN_UNNotificationResponse_ActionIdentifier" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse.ActionIdentifier">ActionIdentifier</h4>
-  <div class="markdown level1 summary"><p>The identifier for the action that the user selected.</p>
-<p>This parameter may contain one the identifier of one of your <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationAction.html">ISN_UNNotificationAction</a> objects
-or it may contain a system-defined identifier. 
-The system defined identifiers are <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationAction.html#SA_iOS_UserNotifications_ISN_UNNotificationAction_DefaultActionIdentifier">DefaultActionIdentifier</a> 
-and <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationAction.html#SA_iOS_UserNotifications_ISN_UNNotificationAction_DismissActionIdentifier">DismissActionIdentifier</a>, which indicate that the user opened the app 
-or dismissed the notification without any further actions.</p>
-<p>For more information about defining custom actions, see <a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotificationAction.html">ISN_UNNotificationAction</a>.</p>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNNotificationAction_DefaultActionIdentifier" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationAction.DefaultActionIdentifier">DefaultActionIdentifier</h4>
+  <div class="markdown level1 summary"><p>An action that indicates the user opened the app from the notification interface.</p>
+<p>The delivery of this action does not require any special configuration of notification categories.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string ActionIdentifier { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public const string DefaultActionIdentifier = &quot;com.apple.UNNotificationDefaultActionIdentifier&quot;</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -157,16 +139,21 @@ or dismissed the notification without any further actions.</p>
   </table>
   
   
-  <a id="SA_iOS_UserNotifications_ISN_UNNotificationResponse_Notification_" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse.Notification*"></a>
-  <h4 id="SA_iOS_UserNotifications_ISN_UNNotificationResponse_Notification" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationResponse.Notification">Notification</h4>
-  <div class="markdown level1 summary"><p>The notification to which the user responded.</p>
+  <h4 id="SA_iOS_UserNotifications_ISN_UNNotificationAction_DismissActionIdentifier" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationAction.DismissActionIdentifier">DismissActionIdentifier</h4>
+  <div class="markdown level1 summary"><p>The action that indicates the user explicitly dismissed the notification interface.</p>
+<p>This action is delivered only if the notification’s category object was configured
+with the UNNotificationCategoryOptionCustomDismissAction option.
+To trigger this action, the user must explicitly dismiss the notification interface.
+For example, the user must tap the Dismiss button
+or swipe down on the notification interface in watchOS to trigger this action.</p>
+<p>Ignoring a notification or flicking away a notification banner does not trigger this action.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISN_UNNotification Notification { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public const string DismissActionIdentifier = &quot;com.apple.UNNotificationDismissActionIdentifier&quot;</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -176,7 +163,7 @@ or dismissed the notification without any further actions.</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SA.iOS.UserNotifications.ISN_UNNotification.html">ISN_UNNotification</a></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

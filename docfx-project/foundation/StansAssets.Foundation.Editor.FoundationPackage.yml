@@ -5,7 +5,7 @@ items:
   id: FoundationPackage
   parent: StansAssets.Foundation.Editor
   children:
-  - StansAssets.Foundation.Editor.FoundationPackage.Info
+  - StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo
   - StansAssets.Foundation.Editor.FoundationPackage.Name
   - StansAssets.Foundation.Editor.FoundationPackage.RootPath
   langs:
@@ -62,7 +62,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage full name.\n"
+  summary: "\nFoundation package full name.\n"
   example: []
   syntax:
     content: public const string Name = "com.stansassets.foundation"
@@ -93,7 +93,7 @@ items:
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage root path.\n"
+  summary: "\nFoundation package root path.\n"
   example: []
   syntax:
     content: public static readonly string RootPath
@@ -108,39 +108,38 @@ items:
   - Public
   - Shared
   - ReadOnly
-- uid: StansAssets.Foundation.Editor.FoundationPackage.Info
-  commentId: F:StansAssets.Foundation.Editor.FoundationPackage.Info
-  id: Info
+- uid: StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo
+  commentId: M:StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo
+  id: GetPackageInfo
   parent: StansAssets.Foundation.Editor.FoundationPackage
   langs:
   - csharp
   - vb
-  name: Info
-  nameWithType: FoundationPackage.Info
-  fullName: StansAssets.Foundation.Editor.FoundationPackage.Info
-  type: Field
+  name: GetPackageInfo()
+  nameWithType: FoundationPackage.GetPackageInfo()
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo()
+  type: Method
   source:
-    id: Info
+    id: GetPackageInfo
     path: ''
     startLine: 1259
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor
-  summary: "\nPackage info.\n"
+  summary: "\nFoundation package info.\n"
   example: []
   syntax:
-    content: public static readonly PackageInfo Info
+    content: public static PackageInfo GetPackageInfo()
     return:
       type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
+    content.vb: Public Shared Function GetPackageInfo As PackageInfo
+  overload: StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo*
   modifiers.csharp:
   - public
   - static
-  - readonly
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
 references:
 - uid: StansAssets.Foundation.Editor
   commentId: N:StansAssets.Foundation.Editor
@@ -446,6 +445,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo*
+  commentId: Overload:StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo
+  name: GetPackageInfo
+  nameWithType: FoundationPackage.GetPackageInfo
+  fullName: StansAssets.Foundation.Editor.FoundationPackage.GetPackageInfo
 - uid: PackageInfo
   isExternal: true
   name: PackageInfo

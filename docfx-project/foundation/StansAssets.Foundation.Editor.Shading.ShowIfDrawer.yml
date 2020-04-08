@@ -21,13 +21,13 @@ items:
   source:
     id: ShowIfDrawer
     path: ''
-    startLine: 1478
+    startLine: 1479
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
   summary: "\nMaterial property attribute that allows you to display the material property\nonly if the specified material keywords are enabled.\n\nUse with **[ShowIf(KEYWORD_NAME, ...)]** before a shader property.\nMost often used in combination with the **[Toggle(KEYWORD_NAME)]** attribute.\n"
   example:
-  - "\nUsage example:\n<pre><code>    [Toggle(_BASE_COLOR_ON)] _ToggleBaseColor(&quot;Color&quot;, Int) = 0\n    [ShowIf(_BASE_COLOR_ON)] _BaseColor(&quot;&quot;, Color) = (1,1,1,1)</code></pre>\n"
+  - "\nUse example:\n<pre><code>    [Toggle(_BASE_COLOR_ON)] _ToggleBaseColor(&quot;Color&quot;, Int) = 0\n    [ShowIf(_BASE_COLOR_ON)] _BaseColor(&quot;&quot;, Color) = (1,1,1,1)</code></pre>\n"
   syntax:
     content: 'public class ShowIfDrawer : MaterialPropertyDrawer'
     content.vb: >-
@@ -55,7 +55,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1486
+    startLine: 1487
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
@@ -86,7 +86,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1495
+    startLine: 1496
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
@@ -119,7 +119,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1505
+    startLine: 1506
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
@@ -154,7 +154,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1516
+    startLine: 1517
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
@@ -191,7 +191,7 @@ items:
   source:
     id: OnGUI
     path: ''
-    startLine: 1525
+    startLine: 1526
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
@@ -228,21 +228,27 @@ items:
   source:
     id: GetPropertyHeight
     path: ''
-    startLine: 1556
+    startLine: 1564
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Foundation.Editor.Shading
+  summary: "\nWill always return <code>0</code>\n"
+  example: []
   syntax:
     content: public override float GetPropertyHeight(MaterialProperty prop, string label, MaterialEditor editor)
     parameters:
     - id: prop
       type: MaterialProperty
+      description: The <see cref="!:MaterialProperty"></see> to make the custom GUI for.
     - id: label
       type: System.String
+      description: The label of this property.
     - id: editor
       type: MaterialEditor
+      description: Current material editor.
     return:
       type: System.Single
+      description: Property height in pixels
     content.vb: Public Overrides Function GetPropertyHeight(prop As MaterialProperty, label As String, editor As MaterialEditor) As Single
   overload: StansAssets.Foundation.Editor.Shading.ShowIfDrawer.GetPropertyHeight*
   modifiers.csharp:
