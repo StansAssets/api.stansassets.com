@@ -1,7 +1,4 @@
-docfx-project/android-nativei
-docfx-project/ios-nativei
 docfx-project/obj
-docfx-project/ultimate-mobilei
-docfx-project/android-native
-docfx-project/ios-native
-docfx-project/ultimate-mobile
+docfx-project/android-native/**/*.yml
+
+.manifest
