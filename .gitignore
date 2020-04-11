@@ -1,4 +1,6 @@
 docfx-project/obj
+docfx-project/foundation/**/*.yml
+docfx-project/ios-native/**/*.yml
 docfx-project/android-native/**/*.yml
-
+docfx-project/ultimate-mobile/**/*.yml
 .manifest
