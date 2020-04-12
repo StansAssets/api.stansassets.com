@@ -6,7 +6,7 @@ The scripting reference is organised according to the classes available to scrip
 API are grouped by namespaces they belong to, and can be selected from the sidebar to the left. 
 Product related resources:
 
-[Asset Store](https://assetstore.unity.com/packages/tools/integration/ultimate-mobile-pro-130345) | [Git Hub](https://github.com/StansAssets/com.stansassets.ultimate-mobile) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.ultimate-mobile/wiki) | [Support](https://stansassets.com/)
+[Asset Store](https://assetstore.unity.com/packages/tools/integration/ultimate-mobile-pro-130345) | [Git Hub](https://github.com/StansAssets/com.stansassets.ultimate-mobile) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.ultimate-mobile/wiki) | [Forum](https://forum.unity.com/threads/released-ultimate-mobile-pro.571465/) | [Support](https://stansassets.com/)
 
 About Us
 -------------------
