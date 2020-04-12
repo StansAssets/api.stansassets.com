@@ -57,10 +57,14 @@
         "files": [
           "articles/**.md",
           "articles/**/toc.yml",
-          "android-native/**.md",
           "ios-native/**.md",
+          "ios-native/**/toc.yml",
+          "android-native/**.md",
+          "android-native/**/toc.yml",
           "ultimate-mobile/**.md",
+          "ultimate-mobile/**/toc.yml",
           "foundation/**.md",
+          "foundation/**/toc.yml",
           "toc.yml",
           "*.md"
         ],
