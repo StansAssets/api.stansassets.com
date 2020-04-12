@@ -6,7 +6,7 @@ The scripting reference is organised according to the classes available to scrip
 API are grouped by namespaces they belong to, and can be selected from the sidebar to the left. 
 Product related resources:
 
-[Asset Store](https://assetstore.unity.com/packages/tools/integration/android-native-pro-125691) | [Git Hub](https://github.com/StansAssets/com.stansassets.android-native/) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.android-native) | [Support](https://stansassets.com/)
+[Asset Store](https://assetstore.unity.com/packages/tools/integration/android-native-pro-125691) | [Git Hub](https://github.com/StansAssets/com.stansassets.android-native/) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.android-native/wiki/) | [Support](https://stansassets.com/)
 
 About Us
 -------------------
