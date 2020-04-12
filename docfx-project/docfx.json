@@ -58,13 +58,9 @@
           "articles/**.md",
           "articles/**/toc.yml",
           "ios-native/**.md",
-          "ios-native/**/toc.yml",
           "android-native/**.md",
-          "android-native/**/toc.yml",
           "ultimate-mobile/**.md",
-          "ultimate-mobile/**/toc.yml",
           "foundation/**.md",
-          "foundation/**/toc.yml",
           "toc.yml",
           "*.md"
         ],
@@ -78,7 +74,7 @@
       {
         "files": [
           "images/**",
-          "favicon.ico"
+          "favicon.ico",
         ],
         "exclude": [
           "**/bin/**",
