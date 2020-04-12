@@ -2709,10 +2709,10 @@
       "output": {
         ".html": {
           "relative_path": "android-native/index.html",
-          "hash": "ut43N4spFFkxl0KEhhVInQ=="
+          "hash": "lLnOW/yoodpumNgSgUCuXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -3200,10 +3200,10 @@
       "output": {
         ".html": {
           "relative_path": "foundation/index.html",
-          "hash": "jYwNFnVGa7dB3rtPkovPzA=="
+          "hash": "503x5HJF0WqqSKMEAWzrLw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -5683,7 +5683,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/index.html",
-          "hash": "GNznuRu6tJadbLuxjY1TsA=="
+          "hash": "Lt+HBTeJW81jLp5eSn2csg=="
         }
       },
       "is_incremental": false,
@@ -7306,10 +7306,10 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/index.html",
-          "hash": "Js0LlBL5WXV9S5ik2xOIrQ=="
+          "hash": "PKq+KhrH9jjZSWmweohmrQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -7338,7 +7338,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 10,
-          "skipped_file_count": 9
+          "skipped_file_count": 6
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
