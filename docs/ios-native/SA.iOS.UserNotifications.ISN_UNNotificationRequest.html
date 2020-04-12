@@ -147,7 +147,7 @@ replaces the old notification with the new one, and places the new notification 
         <td><span class="parametername">identifier</span></td>
         <td><p>An identifier for the request; this parameter must not be <code>null</code>.
 You can use this identifier to cancel the request if it is still pending
-<a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_SA_iOS_UserNotifications_ISN_UNNotificationRequest___">RemovePendingNotificationRequests(ISN_UNNotificationRequest[])</a> method.</p>
+<a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_System_String___">RemovePendingNotificationRequests(String[])</a> method.</p>
 </td>
       </tr>
       <tr>
@@ -201,7 +201,7 @@ or alert text to be displayed to the user, in addition to the notification’s t
   <h4 id="SA_iOS_UserNotifications_ISN_UNNotificationRequest_Identifier" data-uid="SA.iOS.UserNotifications.ISN_UNNotificationRequest.Identifier">Identifier</h4>
   <div class="markdown level1 summary"><p>The unique identifier for this notification request.</p>
 <p>Use this string to identify notifications in your app.
-For example, you can pass this string to the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_SA_iOS_UserNotifications_ISN_UNNotificationRequest___">RemovePendingNotificationRequests(ISN_UNNotificationRequest[])</a>
+For example, you can pass this string to the <a class="xref" href="SA.iOS.UserNotifications.ISN_UNUserNotificationCenter.html#SA_iOS_UserNotifications_ISN_UNUserNotificationCenter_RemovePendingNotificationRequests_System_String___">RemovePendingNotificationRequests(String[])</a>
 method to cancel a previously scheduled notification.</p>
 <p>If you use the same identifier when scheduling a new notification,
 the system removes the previously scheduled notification with that identifier and replaces it with the new one.</p>

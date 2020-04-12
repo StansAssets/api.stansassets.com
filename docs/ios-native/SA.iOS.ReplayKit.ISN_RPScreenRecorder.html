@@ -116,8 +116,8 @@
   <a id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DidChangeAvailability_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DidChangeAvailability*"></a>
   <h4 id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DidChangeAvailability" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DidChangeAvailability">DidChangeAvailability</h4>
   <div class="markdown level1 summary"><p>Indicates that the recorder has changed states between disabled and enabled.</p>
-<p>Screen recording can be unavailable due to unsupported hardware, 
-the user’s device displaying information over Airplay or through a TVOut session, 
+<p>Screen recording can be unavailable due to unsupported hardware,
+the user’s device displaying information over Airplay or through a TVOut session,
 or another app using the shared recorder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -145,8 +145,8 @@ or another app using the shared recorder.</p>
   <a id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DidStopRecording_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DidStopRecording*"></a>
   <h4 id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DidStopRecording" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DidStopRecording">DidStopRecording</h4>
   <div class="markdown level1 summary"><p>Gets the did stop recording.</p>
-<p>This method is called when recording stops due to an error or a change in recording availability. 
-If any part of the stopped recording is available, 
+<p>This method is called when recording stops due to an error or a change in recording availability.
+If any part of the stopped recording is available,
 an instance of <a class="xref" href="SA.iOS.ReplayKit.ISN_RPStopResult.html">ISN_RPStopResult</a> is returned.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -254,7 +254,7 @@ an instance of <a class="xref" href="SA.iOS.ReplayKit.ISN_RPStopResult.html">ISN
   <a id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DiscardRecording_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DiscardRecording*"></a>
   <h4 id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_DiscardRecording_Action_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.DiscardRecording(Action)">DiscardRecording(Action)</h4>
   <div class="markdown level1 summary"><p>Discards the current recording.</p>
-<p>Method can only be called after the <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.html#SA_iOS_ReplayKit_ISN_RPScreenRecorder_StopRecording_Action_SA_iOS_ReplayKit_ISN_RPStopResult__">StopRecording(Action&lt;ISN_RPStopResult&gt;)</a> callback has been called. 
+<p>Method can only be called after the <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.html#SA_iOS_ReplayKit_ISN_RPScreenRecorder_StopRecording_Action_SA_iOS_ReplayKit_ISN_RPStopResult__">StopRecording(Action&lt;ISN_RPStopResult&gt;)</a> callback has been called.
 Use the handler block to do any required cleanup, including setting any <a class="xref" href="SA.iOS.ReplayKit.ISN_RPPreviewViewController.html">ISN_RPPreviewViewController</a> references to null.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -285,8 +285,8 @@ Use the handler block to do any required cleanup, including setting any <a class
   <a id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_StartRecording_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.StartRecording*"></a>
   <h4 id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_StartRecording_Action_SA_Result__" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.StartRecording(Action{SA_Result})">StartRecording(Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Starts recording the app display.</p>
-<p>When <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.html#SA_iOS_ReplayKit_ISN_RPScreenRecorder_StartRecording_Action_SA_Result__">StartRecording(Action&lt;SA_Result&gt;)</a> is first called, an alert window appears asking the user to confirm recording. 
-This alert window is also presented if it has been longer than 8 minutes 
+<p>When <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.html#SA_iOS_ReplayKit_ISN_RPScreenRecorder_StartRecording_Action_SA_Result__">StartRecording(Action&lt;SA_Result&gt;)</a> is first called, an alert window appears asking the user to confirm recording.
+This alert window is also presented if it has been longer than 8 minutes
 since the last time <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.html#SA_iOS_ReplayKit_ISN_RPScreenRecorder_StartRecording_Action_SA_Result__">StartRecording(Action&lt;SA_Result&gt;)</a> was called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -317,9 +317,9 @@ since the last time <a class="xref" href="SA.iOS.ReplayKit.ISN_RPScreenRecorder.
   <a id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_StopRecording_" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.StopRecording*"></a>
   <h4 id="SA_iOS_ReplayKit_ISN_RPScreenRecorder_StopRecording_Action_SA_iOS_ReplayKit_ISN_RPStopResult__" data-uid="SA.iOS.ReplayKit.ISN_RPScreenRecorder.StopRecording(Action{SA.iOS.ReplayKit.ISN_RPStopResult})">StopRecording(Action&lt;ISN_RPStopResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Stops the current recording.</p>
-<p>When recording stops and there is no error associated with the recording, 
-present the the resulting preview view controller using <a class="xref" href="SA.iOS.ReplayKit.ISN_RPPreviewViewController.html">ISN_RPPreviewViewController</a>. 
-The user will see the built-in preview view controller, providing them with the option to trim, cut, 
+<p>When recording stops and there is no error associated with the recording,
+present the the resulting preview view controller using <a class="xref" href="SA.iOS.ReplayKit.ISN_RPPreviewViewController.html">ISN_RPPreviewViewController</a>.
+The user will see the built-in preview view controller, providing them with the option to trim, cut,
 and share the recording. On the iPad, the preview view controller will be presented as popover.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
