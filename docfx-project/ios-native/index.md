@@ -5,8 +5,8 @@ This section of the documentation contains details of the scripting API provided
 The scripting reference is organised according to the classes available to scripts which are described along with their methods, properties and any other information relevant to their use.
 
 API are grouped by namespaces they belong to, and can be selected from the sidebar to the left. 
+Product related resources:
 
-More plugin related resources:
 [Asset Store](https://assetstore.unity.com/packages/tools/integration/ios-native-pro-119175) | [Git Hub](https://github.com/StansAssets/com.stansassets.ios-native/) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.ios-native/wiki) | [Support](https://stansassets.com/)
 
 About Us
