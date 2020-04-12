@@ -7,7 +7,7 @@ The scripting reference is organised according to the classes available to scrip
 API are grouped by namespaces they belong to, and can be selected from the sidebar to the left. 
 Product related resources:
 
-[Asset Store](https://assetstore.unity.com/packages/tools/integration/ios-native-pro-119175) | [Git Hub](https://github.com/StansAssets/com.stansassets.ios-native/) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.ios-native/wiki) | [Support](https://stansassets.com/)
+[Asset Store](https://assetstore.unity.com/packages/tools/integration/ios-native-pro-119175) | [Git Hub](https://github.com/StansAssets/com.stansassets.ios-native/) | [Wiki Guides & Tutorials](https://github.com/StansAssets/com.stansassets.ios-native/wiki) | [Forum](https://forum.unity.com/threads/introducing-ios-native-pro.535120/) | [Support](https://stansassets.com/)
 
 About Us
 -------------------
