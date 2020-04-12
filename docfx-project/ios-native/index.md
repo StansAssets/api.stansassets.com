@@ -1,4 +1,4 @@
-# Welcome to the IOS Native Reference!
+# IOS Native Scripting Reference!
 
 This section of the documentation contains details of the scripting API provided by a plugin. To use this information, you should be familiar with the basic theory and practice of scripting in Unity.
 
@@ -11,6 +11,7 @@ Product related resources:
 
 About Us
 -------------------
-We are committed to developing high quality and engaging entertainment software. Our mission has been to bring a reliable Unity development service to companies and individuals around the globe. [Let's Talk!](mailto::stan@stansassets.com)
+We are committed to developing high quality and engaging entertainment software. Our mission has been to bring a reliable and high-qualityUnity Development service to companies and individuals around the globe. 
+At Stan's Assets, we make Plugins, SDKs, Games, VR & AR Applications. Do not hesitate do get in touch, whether you have a question, want to build something or just to say hi :) [Let's Talk!](mailto::stan@stansassets.com)
 
-[Website](https://stansassets.com/#contacts) | [LinkedIn](https://www.linkedin.com/in/lacost/) | [Youtube](https://www.youtube.com/user/stansassets/videos) | [Github](https://github.com/StansAssets) | [AssetStore](https://assetstore.unity.com/publishers/2256)
+[Website](https://stansassets.com/) | [LinkedIn](https://www.linkedin.com/in/lacost/) | [Youtube](https://www.youtube.com/user/stansassets/videos) | [Github](https://github.com/StansAssets) | [AssetStore](https://assetstore.unity.com/publishers/2256)
