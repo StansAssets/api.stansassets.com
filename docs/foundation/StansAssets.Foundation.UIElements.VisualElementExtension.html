@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ListExtensions
+    <title>Class VisualElementExtension
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ListExtensions
+    <meta name="title" content="Class VisualElementExtension
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.ListExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_ListExtensions" data-uid="StansAssets.Foundation.Extensions.ListExtensions" class="text-break">Class ListExtensions
+  <h1 id="StansAssets_Foundation_UIElements_VisualElementExtension" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension" class="text-break">Class VisualElementExtension
   </h1>
-  <div class="markdown level0 summary"><p>CSharp List extension methods.</p>
+  <div class="markdown level0 summary"><p>VisualElement Utility Methods.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ListExtensions</span></div>
+    <div class="level1"><span class="xref">VisualElementExtension</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,25 +103,25 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.UIElements.html">StansAssets.Foundation.UIElements</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_ListExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_UIElements_VisualElementExtension_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ListExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class VisualElementExtension</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_Clone_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Clone*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})">Clone&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a deep copy of the list.</p>
+  <a id="StansAssets_Foundation_UIElements_VisualElementExtension_GetFirstParentOfType_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType*"></a>
+  <h4 id="StansAssets_Foundation_UIElements_VisualElementExtension_GetFirstParentOfType__1_VisualElement_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType``1(VisualElement)">GetFirstParentOfType&lt;T&gt;(VisualElement)</h4>
+  <div class="markdown level1 summary"><p>Traverses up the hierarchy to find first parent instance of type T.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Clone&lt;T&gt;(this List&lt;T&gt; list)
-    where T : ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public static T GetFirstParentOfType&lt;T&gt;(this VisualElement element)
+    where T : VisualElement</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,9 +134,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
+        <td><span class="xref">VisualElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td><p>Current element to search parent.</p>
 </td>
       </tr>
     </tbody>
@@ -150,65 +150,9 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>The deep copy of the current list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_Resize_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Resize*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)">Resize&lt;T&gt;(List&lt;T&gt;, Int32, T)</h4>
-  <div class="markdown level1 summary"><p>Resizes the list. In case of increase list size - fills it with default elements.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Resize&lt;T&gt;(this List&lt;T&gt; list, int newSize, T defaultValue = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">newSize</span></td>
-        <td><p>The new size of the list.</p>
-</td>
-      </tr>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>The default value to set as new list elements.</p>
+        <td><p>T instance found</p>
 </td>
       </tr>
     </tbody>
@@ -224,20 +168,22 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Type which you want to find</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__" data-uid="StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})">ShallowCopy&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a shallow copy of the list.</p>
+  <a id="StansAssets_Foundation_UIElements_VisualElementExtension_GetParentsOfType_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType*"></a>
+  <h4 id="StansAssets_Foundation_UIElements_VisualElementExtension_GetParentsOfType__1_VisualElement_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType``1(VisualElement)">GetParentsOfType&lt;T&gt;(VisualElement)</h4>
+  <div class="markdown level1 summary"><p>Traverses up the hierarchy to find all of the parent instances of type T.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; ShallowCopy&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;T&gt; GetParentsOfType&lt;T&gt;(this VisualElement element)
+    where T : VisualElement</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -250,9 +196,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
+        <td><span class="xref">VisualElement</span></td>
+        <td><span class="parametername">element</span></td>
+        <td><p>Current element to search parents.</p>
 </td>
       </tr>
     </tbody>
@@ -267,8 +213,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>The shallow copy of the current list.</p>
+        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td><p>Collection of T instances found.</p>
 </td>
       </tr>
     </tbody>
@@ -284,7 +230,87 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
+        <td><p>Type which you want to find</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_UIElements_VisualElementExtension_GetPseudoState_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState*"></a>
+  <h4 id="StansAssets_Foundation_UIElements_VisualElementExtension_GetPseudoState_VisualElement_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState(VisualElement)">GetPseudoState(VisualElement)</h4>
+  <div class="markdown level1 summary"><p>Returns PseudoState of a visualElement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PseudoStates GetPseudoState(this VisualElement visualElement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VisualElement</span></td>
+        <td><span class="parametername">visualElement</span></td>
+        <td><p>VisualElement instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.UIElements.PseudoStates.html">PseudoStates</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_UIElements_VisualElementExtension_SetPseudoState_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState*"></a>
+  <h4 id="StansAssets_Foundation_UIElements_VisualElementExtension_SetPseudoState_VisualElement_StansAssets_Foundation_UIElements_PseudoStates_" data-uid="StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState(VisualElement,StansAssets.Foundation.UIElements.PseudoStates)">SetPseudoState(VisualElement, PseudoStates)</h4>
+  <div class="markdown level1 summary"><p>Set PseudoState into visualElement to mimic input behaviour.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetPseudoState(this VisualElement visualElement, PseudoStates state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VisualElement</span></td>
+        <td><span class="parametername">visualElement</span></td>
+        <td><p>VisualElement instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.UIElements.PseudoStates.html">PseudoStates</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>Pseudo state of a VisualElement: Active, Hover, Checked, Disabled, Focus, Root.</p>
+</td>
       </tr>
     </tbody>
   </table>

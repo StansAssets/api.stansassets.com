@@ -17810,6 +17810,15 @@ references:
   fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action(Of SA_iResult))
   nameWithType: UM_iInAppClient.Connect(Action<SA_iResult>)
   nameWithType.vb: UM_iInAppClient.Connect(Action(Of SA_iResult))
+- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+  name: Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__Action_SA_iResult__
+  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+  name.vb: Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
+  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, Action<SA_iResult>)
+  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), Action(Of SA_iResult))
+  nameWithType: UM_iInAppClient.Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
+  nameWithType.vb: UM_iInAppClient.Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
 - uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect*
   name: Connect
   href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_
@@ -18191,6 +18200,24 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.InApp.UM_iTransactionObserver.OnTransactionUpdated
   nameWithType: UM_iTransactionObserver.OnTransactionUpdated
+- uid: SA.CrossPlatform.InApp.UM_ProductTemplate
+  name: UM_ProductTemplate
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_ProductTemplate.html
+  commentId: T:SA.CrossPlatform.InApp.UM_ProductTemplate
+  fullName: SA.CrossPlatform.InApp.UM_ProductTemplate
+  nameWithType: UM_ProductTemplate
+- uid: SA.CrossPlatform.InApp.UM_ProductTemplate.Id
+  name: Id
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_ProductTemplate.html#SA_CrossPlatform_InApp_UM_ProductTemplate_Id
+  commentId: F:SA.CrossPlatform.InApp.UM_ProductTemplate.Id
+  fullName: SA.CrossPlatform.InApp.UM_ProductTemplate.Id
+  nameWithType: UM_ProductTemplate.Id
+- uid: SA.CrossPlatform.InApp.UM_ProductTemplate.Type
+  name: Type
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_ProductTemplate.html#SA_CrossPlatform_InApp_UM_ProductTemplate_Type
+  commentId: F:SA.CrossPlatform.InApp.UM_ProductTemplate.Type
+  fullName: SA.CrossPlatform.InApp.UM_ProductTemplate.Type
+  nameWithType: UM_ProductTemplate.Type
 - uid: SA.CrossPlatform.InApp.UM_ProductType
   name: UM_ProductType
   href: ultimate-mobile/SA.CrossPlatform.InApp.UM_ProductType.html
@@ -25344,6 +25371,38 @@ references:
   commentId: F:SA.iOS.GameKit.ISN_GKLeaderboardTimeScope.Week
   fullName: SA.iOS.GameKit.ISN_GKLeaderboardTimeScope.Week
   nameWithType: ISN_GKLeaderboardTimeScope.Week
+- uid: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult
+  name: ISN_GKLoadDefaultLeaderboardResult
+  href: ios-native/SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html
+  commentId: T:SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult
+  fullName: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult
+  nameWithType: ISN_GKLoadDefaultLeaderboardResult
+- uid: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.#ctor(SA_DataResult)
+  name: ISN_GKLoadDefaultLeaderboardResult(SA_DataResult)
+  href: ios-native/SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html#SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult__ctor_SA_DataResult_
+  commentId: M:SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.#ctor(SA_DataResult)
+  fullName: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.ISN_GKLoadDefaultLeaderboardResult(SA_DataResult)
+  nameWithType: ISN_GKLoadDefaultLeaderboardResult.ISN_GKLoadDefaultLeaderboardResult(SA_DataResult)
+- uid: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.#ctor*
+  name: ISN_GKLoadDefaultLeaderboardResult
+  href: ios-native/SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html#SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult__ctor_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.ISN_GKLoadDefaultLeaderboardResult
+  nameWithType: ISN_GKLoadDefaultLeaderboardResult.ISN_GKLoadDefaultLeaderboardResult
+- uid: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID
+  name: CategoryID
+  href: ios-native/SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html#SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult_CategoryID
+  commentId: P:SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID
+  fullName: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID
+  nameWithType: ISN_GKLoadDefaultLeaderboardResult.CategoryID
+- uid: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID*
+  name: CategoryID
+  href: ios-native/SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html#SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult_CategoryID_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.CategoryID
+  nameWithType: ISN_GKLoadDefaultLeaderboardResult.CategoryID
 - uid: SA.iOS.GameKit.ISN_GKLocalPlayer
   name: ISN_GKLocalPlayer
   href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html
@@ -25427,6 +25486,22 @@ references:
   isSpec: "True"
   fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler
   nameWithType: ISN_GKLocalPlayer.GenerateIdentityVerificationSignatureWithCompletionHandler
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action{SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult})
+  name: LoadDefaultLeaderboardIdentifier(Action<ISN_GKLoadDefaultLeaderboardResult>)
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_LoadDefaultLeaderboardIdentifier_Action_SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult__
+  commentId: M:SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action{SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult})
+  name.vb: LoadDefaultLeaderboardIdentifier(Action(Of ISN_GKLoadDefaultLeaderboardResult))
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action<SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult>)
+  fullName.vb: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action(Of SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult))
+  nameWithType: ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action<ISN_GKLoadDefaultLeaderboardResult>)
+  nameWithType.vb: ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action(Of ISN_GKLoadDefaultLeaderboardResult))
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier*
+  name: LoadDefaultLeaderboardIdentifier
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_LoadDefaultLeaderboardIdentifier_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier
+  nameWithType: ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier
 - uid: SA.iOS.GameKit.ISN_GKLocalPlayer.LoadGameData(SA.iOS.GameKit.ISN_GKSavedGame,Action{SA.iOS.GameKit.ISN_GKSavedGameLoadResult})
   name: LoadGameData(ISN_GKSavedGame, Action<ISN_GKSavedGameLoadResult>)
   href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_LoadGameData_SA_iOS_GameKit_ISN_GKSavedGame_Action_SA_iOS_GameKit_ISN_GKSavedGameLoadResult__
@@ -25497,6 +25572,15 @@ references:
   fullName.vb: SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler(Action(Of SA_Result))
   nameWithType: ISN_GKLocalPlayer.setAuthenticateHandler(Action<SA_Result>)
   nameWithType.vb: ISN_GKLocalPlayer.setAuthenticateHandler(Action(Of SA_Result))
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler(Action{SA_Result})
+  name: SetAuthenticateHandler(Action<SA_Result>)
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_SetAuthenticateHandler_Action_SA_Result__
+  commentId: M:SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler(Action{SA_Result})
+  name.vb: SetAuthenticateHandler(Action(Of SA_Result))
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler(Action<SA_Result>)
+  fullName.vb: SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler(Action(Of SA_Result))
+  nameWithType: ISN_GKLocalPlayer.SetAuthenticateHandler(Action<SA_Result>)
+  nameWithType.vb: ISN_GKLocalPlayer.SetAuthenticateHandler(Action(Of SA_Result))
 - uid: SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler*
   name: setAuthenticateHandler
   href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_
@@ -25504,6 +25588,29 @@ references:
   isSpec: "True"
   fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler
   nameWithType: ISN_GKLocalPlayer.setAuthenticateHandler
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler*
+  name: SetAuthenticateHandler
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_SetAuthenticateHandler_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler
+  nameWithType: ISN_GKLocalPlayer.SetAuthenticateHandler
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(System.String,Action{SA_Result})
+  name: SetDefaultLeaderboardIdentifier(String, Action<SA_Result>)
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_SetDefaultLeaderboardIdentifier_System_String_Action_SA_Result__
+  commentId: M:SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(System.String,Action{SA_Result})
+  name.vb: SetDefaultLeaderboardIdentifier(String, Action(Of SA_Result))
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(System.String, Action<SA_Result>)
+  fullName.vb: SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(System.String, Action(Of SA_Result))
+  nameWithType: ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(String, Action<SA_Result>)
+  nameWithType.vb: ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(String, Action(Of SA_Result))
+- uid: SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier*
+  name: SetDefaultLeaderboardIdentifier
+  href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_SetDefaultLeaderboardIdentifier_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier
+  nameWithType: ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier
 - uid: SA.iOS.GameKit.ISN_GKLocalPlayer.Underage
   name: Underage
   href: ios-native/SA.iOS.GameKit.ISN_GKLocalPlayer.html#SA_iOS_GameKit_ISN_GKLocalPlayer_Underage
@@ -30215,50 +30322,6 @@ references:
   isSpec: "True"
   fullName: SA.iOS.UIKit.ISN_UITraitEnvironment.TraitCollection
   nameWithType: ISN_UITraitEnvironment.TraitCollection
-- uid: SA.iOS.UIKit.ISN_UIUrlType
-  name: ISN_UIUrlType
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html
-  commentId: T:SA.iOS.UIKit.ISN_UIUrlType
-  fullName: SA.iOS.UIKit.ISN_UIUrlType
-  nameWithType: ISN_UIUrlType
-- uid: SA.iOS.UIKit.ISN_UIUrlType.#ctor(System.String)
-  name: ISN_UIUrlType(String)
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType__ctor_System_String_
-  commentId: M:SA.iOS.UIKit.ISN_UIUrlType.#ctor(System.String)
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.ISN_UIUrlType(System.String)
-  nameWithType: ISN_UIUrlType.ISN_UIUrlType(String)
-- uid: SA.iOS.UIKit.ISN_UIUrlType.#ctor*
-  name: ISN_UIUrlType
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType__ctor_
-  commentId: Overload:SA.iOS.UIKit.ISN_UIUrlType.#ctor
-  isSpec: "True"
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.ISN_UIUrlType
-  nameWithType: ISN_UIUrlType.ISN_UIUrlType
-- uid: SA.iOS.UIKit.ISN_UIUrlType.AddSchemes(System.String)
-  name: AddSchemes(String)
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType_AddSchemes_System_String_
-  commentId: M:SA.iOS.UIKit.ISN_UIUrlType.AddSchemes(System.String)
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.AddSchemes(System.String)
-  nameWithType: ISN_UIUrlType.AddSchemes(String)
-- uid: SA.iOS.UIKit.ISN_UIUrlType.AddSchemes*
-  name: AddSchemes
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType_AddSchemes_
-  commentId: Overload:SA.iOS.UIKit.ISN_UIUrlType.AddSchemes
-  isSpec: "True"
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.AddSchemes
-  nameWithType: ISN_UIUrlType.AddSchemes
-- uid: SA.iOS.UIKit.ISN_UIUrlType.Identifier
-  name: Identifier
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType_Identifier
-  commentId: F:SA.iOS.UIKit.ISN_UIUrlType.Identifier
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.Identifier
-  nameWithType: ISN_UIUrlType.Identifier
-- uid: SA.iOS.UIKit.ISN_UIUrlType.Schemes
-  name: Schemes
-  href: ios-native/SA.iOS.UIKit.ISN_UIUrlType.html#SA_iOS_UIKit_ISN_UIUrlType_Schemes
-  commentId: F:SA.iOS.UIKit.ISN_UIUrlType.Schemes
-  fullName: SA.iOS.UIKit.ISN_UIUrlType.Schemes
-  nameWithType: ISN_UIUrlType.Schemes
 - uid: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom
   name: ISN_UIUserInterfaceIdiom
   href: ios-native/SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.html
@@ -31591,6 +31654,25 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile
   nameWithType: AssetDatabaseUtility.GetLocalIdentifierInFile
+- uid: StansAssets.Foundation.Editor.EditorAssets
+  name: EditorAssets
+  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html
+  commentId: T:StansAssets.Foundation.Editor.EditorAssets
+  fullName: StansAssets.Foundation.Editor.EditorAssets
+  nameWithType: EditorAssets
+- uid: StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
+  name: GetImage(String)
+  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html#StansAssets_Foundation_Editor_EditorAssets_GetImage_System_String_
+  commentId: M:StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
+  fullName: StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
+  nameWithType: EditorAssets.GetImage(String)
+- uid: StansAssets.Foundation.Editor.EditorAssets.GetImage*
+  name: GetImage
+  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html#StansAssets_Foundation_Editor_EditorAssets_GetImage_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorAssets.GetImage
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorAssets.GetImage
+  nameWithType: EditorAssets.GetImage
 - uid: StansAssets.Foundation.Editor.EditorDefines
   name: EditorDefines
   href: foundation/StansAssets.Foundation.Editor.EditorDefines.html
@@ -31664,6 +31746,97 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine
   nameWithType: EditorDefines.RemoveCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility
+  name: EditorDefinesUtility
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html
+  commentId: T:StansAssets.Foundation.Editor.EditorDefinesUtility
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility
+  nameWithType: EditorDefinesUtility
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String,BuildTarget[])
+  name: AddCompileDefine(String, BuildTarget[])
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_System_String_BuildTarget___
+  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String,BuildTarget[])
+  name.vb: AddCompileDefine(String, BuildTarget())
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String, BuildTarget[])
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefinesUtility.AddCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefinesUtility.AddCompileDefine(String, BuildTarget())
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine*
+  name: AddCompileDefine
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine
+  nameWithType: EditorDefinesUtility.AddCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
+  name: GetScriptingDefines()
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines
+  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines()
+  nameWithType: EditorDefinesUtility.GetScriptingDefines()
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
+  name: GetScriptingDefines(BuildTargetGroup)
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_BuildTargetGroup_
+  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
+  nameWithType: EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines*
+  name: GetScriptingDefines
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
+  nameWithType: EditorDefinesUtility.GetScriptingDefines
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String,BuildTarget[])
+  name: HasCompileDefine(String, BuildTarget[])
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_System_String_BuildTarget___
+  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String,BuildTarget[])
+  name.vb: HasCompileDefine(String, BuildTarget())
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String, BuildTarget[])
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefinesUtility.HasCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefinesUtility.HasCompileDefine(String, BuildTarget())
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine*
+  name: HasCompileDefine
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine
+  nameWithType: EditorDefinesUtility.HasCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String,BuildTarget[])
+  name: RemoveCompileDefine(String, BuildTarget[])
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_System_String_BuildTarget___
+  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String,BuildTarget[])
+  name.vb: RemoveCompileDefine(String, BuildTarget())
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String, BuildTarget[])
+  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String, BuildTarget())
+  nameWithType: EditorDefinesUtility.RemoveCompileDefine(String, BuildTarget[])
+  nameWithType.vb: EditorDefinesUtility.RemoveCompileDefine(String, BuildTarget())
+- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine*
+  name: RemoveCompileDefine
+  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine
+  nameWithType: EditorDefinesUtility.RemoveCompileDefine
+- uid: StansAssets.Foundation.Editor.FoundationConstants
+  name: FoundationConstants
+  href: foundation/StansAssets.Foundation.Editor.FoundationConstants.html
+  commentId: T:StansAssets.Foundation.Editor.FoundationConstants
+  fullName: StansAssets.Foundation.Editor.FoundationConstants
+  nameWithType: FoundationConstants
+- uid: StansAssets.Foundation.Editor.FoundationConstants.EditorResourcesFolder
+  name: EditorResourcesFolder
+  href: foundation/StansAssets.Foundation.Editor.FoundationConstants.html#StansAssets_Foundation_Editor_FoundationConstants_EditorResourcesFolder
+  commentId: F:StansAssets.Foundation.Editor.FoundationConstants.EditorResourcesFolder
+  fullName: StansAssets.Foundation.Editor.FoundationConstants.EditorResourcesFolder
+  nameWithType: FoundationConstants.EditorResourcesFolder
+- uid: StansAssets.Foundation.Editor.FoundationConstants.RuntimeResourcesFolder
+  name: RuntimeResourcesFolder
+  href: foundation/StansAssets.Foundation.Editor.FoundationConstants.html#StansAssets_Foundation_Editor_FoundationConstants_RuntimeResourcesFolder
+  commentId: F:StansAssets.Foundation.Editor.FoundationConstants.RuntimeResourcesFolder
+  fullName: StansAssets.Foundation.Editor.FoundationConstants.RuntimeResourcesFolder
+  nameWithType: FoundationConstants.RuntimeResourcesFolder
 - uid: StansAssets.Foundation.Editor.FoundationPackage
   name: FoundationPackage
   href: foundation/StansAssets.Foundation.Editor.FoundationPackage.html
@@ -32416,6 +32589,31 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.IdFactory.RandomString
   nameWithType: IdFactory.RandomString
+- uid: StansAssets.Foundation.OperatingSystem
+  name: StansAssets.Foundation.OperatingSystem
+  href: foundation/StansAssets.Foundation.OperatingSystem.html
+  commentId: N:StansAssets.Foundation.OperatingSystem
+  fullName: StansAssets.Foundation.OperatingSystem
+  nameWithType: StansAssets.Foundation.OperatingSystem
+- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser
+  name: FilesBrowser
+  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html
+  commentId: T:StansAssets.Foundation.OperatingSystem.FilesBrowser
+  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser
+  nameWithType: FilesBrowser
+- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
+  name: OpenAtPath(String)
+  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html#StansAssets_Foundation_OperatingSystem_FilesBrowser_OpenAtPath_System_String_
+  commentId: M:StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
+  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
+  nameWithType: FilesBrowser.OpenAtPath(String)
+- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath*
+  name: OpenAtPath
+  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html#StansAssets_Foundation_OperatingSystem_FilesBrowser_OpenAtPath_
+  commentId: Overload:StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath
+  isSpec: "True"
+  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath
+  nameWithType: FilesBrowser.OpenAtPath
 - uid: StansAssets.Foundation.Patterns
   name: StansAssets.Foundation.Patterns
   href: foundation/StansAssets.Foundation.Patterns.html
@@ -32832,6 +33030,73 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.UIElements.ButtonStrip.Value
   nameWithType: ButtonStrip.Value
+- uid: StansAssets.Foundation.UIElements.LoadingSpinner
+  name: LoadingSpinner
+  href: foundation/StansAssets.Foundation.UIElements.LoadingSpinner.html
+  commentId: T:StansAssets.Foundation.UIElements.LoadingSpinner
+  fullName: StansAssets.Foundation.UIElements.LoadingSpinner
+  nameWithType: LoadingSpinner
+- uid: StansAssets.Foundation.UIElements.LoadingSpinner.#ctor
+  name: LoadingSpinner()
+  href: foundation/StansAssets.Foundation.UIElements.LoadingSpinner.html#StansAssets_Foundation_UIElements_LoadingSpinner__ctor
+  commentId: M:StansAssets.Foundation.UIElements.LoadingSpinner.#ctor
+  fullName: StansAssets.Foundation.UIElements.LoadingSpinner.LoadingSpinner()
+  nameWithType: LoadingSpinner.LoadingSpinner()
+- uid: StansAssets.Foundation.UIElements.LoadingSpinner.#ctor*
+  name: LoadingSpinner
+  href: foundation/StansAssets.Foundation.UIElements.LoadingSpinner.html#StansAssets_Foundation_UIElements_LoadingSpinner__ctor_
+  commentId: Overload:StansAssets.Foundation.UIElements.LoadingSpinner.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.LoadingSpinner.LoadingSpinner
+  nameWithType: LoadingSpinner.LoadingSpinner
+- uid: StansAssets.Foundation.UIElements.LoadingSpinner.UssClassName
+  name: UssClassName
+  href: foundation/StansAssets.Foundation.UIElements.LoadingSpinner.html#StansAssets_Foundation_UIElements_LoadingSpinner_UssClassName
+  commentId: F:StansAssets.Foundation.UIElements.LoadingSpinner.UssClassName
+  fullName: StansAssets.Foundation.UIElements.LoadingSpinner.UssClassName
+  nameWithType: LoadingSpinner.UssClassName
+- uid: StansAssets.Foundation.UIElements.PseudoStates
+  name: PseudoStates
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html
+  commentId: T:StansAssets.Foundation.UIElements.PseudoStates
+  fullName: StansAssets.Foundation.UIElements.PseudoStates
+  nameWithType: PseudoStates
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Active
+  name: Active
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Active
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Active
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Active
+  nameWithType: PseudoStates.Active
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Checked
+  name: Checked
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Checked
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Checked
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Checked
+  nameWithType: PseudoStates.Checked
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Disabled
+  name: Disabled
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Disabled
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Disabled
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Disabled
+  nameWithType: PseudoStates.Disabled
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Focus
+  name: Focus
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Focus
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Focus
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Focus
+  nameWithType: PseudoStates.Focus
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Hover
+  name: Hover
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Hover
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Hover
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Hover
+  nameWithType: PseudoStates.Hover
+- uid: StansAssets.Foundation.UIElements.PseudoStates.Root
+  name: Root
+  href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html#StansAssets_Foundation_UIElements_PseudoStates_Root
+  commentId: F:StansAssets.Foundation.UIElements.PseudoStates.Root
+  fullName: StansAssets.Foundation.UIElements.PseudoStates.Root
+  nameWithType: PseudoStates.Root
 - uid: StansAssets.Foundation.UIElements.UIElementsUtility
   name: UIElementsUtility
   href: foundation/StansAssets.Foundation.UIElements.UIElementsUtility.html
@@ -32857,6 +33122,70 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.UIElements.UIElementsUtility.CreateEvent
   nameWithType: UIElementsUtility.CreateEvent
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension
+  name: VisualElementExtension
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html
+  commentId: T:StansAssets.Foundation.UIElements.VisualElementExtension
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension
+  nameWithType: VisualElementExtension
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType*
+  name: GetFirstParentOfType
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetFirstParentOfType_
+  commentId: Overload:StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType
+  nameWithType: VisualElementExtension.GetFirstParentOfType
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType``1(VisualElement)
+  name: GetFirstParentOfType<T>(VisualElement)
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetFirstParentOfType__1_VisualElement_
+  commentId: M:StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType``1(VisualElement)
+  name.vb: GetFirstParentOfType(Of T)(VisualElement)
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType<T>(VisualElement)
+  fullName.vb: StansAssets.Foundation.UIElements.VisualElementExtension.GetFirstParentOfType(Of T)(VisualElement)
+  nameWithType: VisualElementExtension.GetFirstParentOfType<T>(VisualElement)
+  nameWithType.vb: VisualElementExtension.GetFirstParentOfType(Of T)(VisualElement)
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType*
+  name: GetParentsOfType
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetParentsOfType_
+  commentId: Overload:StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType
+  nameWithType: VisualElementExtension.GetParentsOfType
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType``1(VisualElement)
+  name: GetParentsOfType<T>(VisualElement)
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetParentsOfType__1_VisualElement_
+  commentId: M:StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType``1(VisualElement)
+  name.vb: GetParentsOfType(Of T)(VisualElement)
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType<T>(VisualElement)
+  fullName.vb: StansAssets.Foundation.UIElements.VisualElementExtension.GetParentsOfType(Of T)(VisualElement)
+  nameWithType: VisualElementExtension.GetParentsOfType<T>(VisualElement)
+  nameWithType.vb: VisualElementExtension.GetParentsOfType(Of T)(VisualElement)
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState(VisualElement)
+  name: GetPseudoState(VisualElement)
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetPseudoState_VisualElement_
+  commentId: M:StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState(VisualElement)
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState(VisualElement)
+  nameWithType: VisualElementExtension.GetPseudoState(VisualElement)
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState*
+  name: GetPseudoState
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_GetPseudoState_
+  commentId: Overload:StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.GetPseudoState
+  nameWithType: VisualElementExtension.GetPseudoState
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState(VisualElement,StansAssets.Foundation.UIElements.PseudoStates)
+  name: SetPseudoState(VisualElement, PseudoStates)
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_SetPseudoState_VisualElement_StansAssets_Foundation_UIElements_PseudoStates_
+  commentId: M:StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState(VisualElement,StansAssets.Foundation.UIElements.PseudoStates)
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState(VisualElement, StansAssets.Foundation.UIElements.PseudoStates)
+  nameWithType: VisualElementExtension.SetPseudoState(VisualElement, PseudoStates)
+- uid: StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState*
+  name: SetPseudoState
+  href: foundation/StansAssets.Foundation.UIElements.VisualElementExtension.html#StansAssets_Foundation_UIElements_VisualElementExtension_SetPseudoState_
+  commentId: Overload:StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.VisualElementExtension.SetPseudoState
+  nameWithType: VisualElementExtension.SetPseudoState
 - uid: StansAssets.Foundation.UnixTime
   name: UnixTime
   href: foundation/StansAssets.Foundation.UnixTime.html

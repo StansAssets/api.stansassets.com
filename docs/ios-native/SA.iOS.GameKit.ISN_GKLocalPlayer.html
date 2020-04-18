@@ -343,6 +343,40 @@ The completion handler is always called on the main thread.</p>
   </table>
   
   
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadDefaultLeaderboardIdentifier_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadDefaultLeaderboardIdentifier_Action_SA_iOS_GameKit_ISN_GKLoadDefaultLeaderboardResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadDefaultLeaderboardIdentifier(Action{SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult})">LoadDefaultLeaderboardIdentifier(Action&lt;ISN_GKLoadDefaultLeaderboardResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Loads the category identifier for the local player’s default leaderboard.</p>
+<p>This method loads the default leaderboard set in App Store Connect.
+this method to retrieve the default leaderboard.</p>
+<p>When this method is called, it creates a new background task to handle the request. The method then returns control to your game.
+Later, when the task is complete, Game Kit calls your completion handler.
+The completion handler is always called on the main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LoadDefaultLeaderboardIdentifier(Action&lt;ISN_GKLoadDefaultLeaderboardResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.GameKit.ISN_GKLoadDefaultLeaderboardResult.html">ISN_GKLoadDefaultLeaderboardResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>A block to be called when the request completes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadGameData_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadGameData*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_LoadGameData_SA_iOS_GameKit_ISN_GKSavedGame_Action_SA_iOS_GameKit_ISN_GKSavedGameLoadResult__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.LoadGameData(SA.iOS.GameKit.ISN_GKSavedGame,Action{SA.iOS.GameKit.ISN_GKSavedGameLoadResult})">LoadGameData(ISN_GKSavedGame, Action&lt;ISN_GKSavedGameLoadResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Loads specific saved game data.</p>
@@ -454,15 +488,7 @@ The completion handler is always called on the main thread.</p>
   
   <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_setAuthenticateHandler_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.setAuthenticateHandler(Action{SA_Result})">setAuthenticateHandler(Action&lt;SA_Result&gt;)</h4>
-  <div class="markdown level1 summary"><p>A handler called to process an authentication-related event.</p>
-<p>Your game should authenticate the player as early as possible after launching,
-ideally as soon as you can present a user interface to the player.
-For example, your game may be launched because the player accepted an invitation to join a match
-or to take a turn in a turn-based match,
-so you want your game to authenticate the player
-and process the match invitation as quickly as possible.
-After you set a handler, authentication begins automatically
-and is repeated when your game moves to the background and then back to the foreground.</p>
+  <div class="markdown level1 summary"><p>setAuthenticateHandler is deprecated, please use SetAuthenticateHandler instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -482,7 +508,84 @@ and is repeated when your game moves to the background and then back to the fore
       <tr>
         <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
         <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_SetAuthenticateHandler_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_SetAuthenticateHandler_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SetAuthenticateHandler(Action{SA_Result})">SetAuthenticateHandler(Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>A handler called to process an authentication-related event.</p>
+<p>Your game should authenticate the player as early as possible after launching,
+ideally as soon as you can present a user interface to the player.
+For example, your game may be launched because the player accepted an invitation to join a match
+or to take a turn in a turn-based match,
+so you want your game to authenticate the player
+and process the match invitation as quickly as possible.
+After you set a handler, authentication begins automatically
+and is repeated when your game moves to the background and then back to the foreground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetAuthenticateHandler(Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
         <td><p>Authentication Result</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKLocalPlayer_SetDefaultLeaderboardIdentifier_" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKLocalPlayer_SetDefaultLeaderboardIdentifier_System_String_Action_SA_Result__" data-uid="SA.iOS.GameKit.ISN_GKLocalPlayer.SetDefaultLeaderboardIdentifier(System.String,Action{SA_Result})">SetDefaultLeaderboardIdentifier(String, Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets the default leaderboard for the current game.</p>
+<p>When this method is called, it creates a new background task to handle the request. The method then returns control to your game.
+Later, when the task is complete, Game Kit calls your completion handler.
+The completion handler is always called on the main thread.</p>
+<p>The default leaderboard is configured in App Store Connect as part of configuring your game’s leaderboards.
+All players normally start with this leaderboard as the default leaderboard.
+Calling this method changes the default leaderboard only for the local player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDefaultLeaderboardIdentifier(string leaderboardIdentifier, Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">leaderboardIdentifier</span></td>
+        <td><p>The identifier of the leaderboard to be set as the default leaderboard.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>A block to be called when the request completes.</p>
 </td>
       </tr>
     </tbody>

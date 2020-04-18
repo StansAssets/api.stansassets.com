@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ListExtensions
+    <title>Class EditorDefinesUtility
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ListExtensions
+    <meta name="title" content="Class EditorDefinesUtility
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.ListExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_ListExtensions" data-uid="StansAssets.Foundation.Extensions.ListExtensions" class="text-break">Class ListExtensions
+  <h1 id="StansAssets_Foundation_Editor_EditorDefinesUtility" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility" class="text-break">Class EditorDefinesUtility
   </h1>
-  <div class="markdown level0 summary"><p>CSharp List extension methods.</p>
+  <div class="markdown level0 summary"><p>Provides method for managing the <see cref="!:PlayerSettings"></see> script defines.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ListExtensions</span></div>
+    <div class="level1"><span class="xref">EditorDefinesUtility</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,25 +103,24 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.html">StansAssets.Foundation.Editor</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_ListExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Editor_EditorDefinesUtility_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ListExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class EditorDefinesUtility</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_Clone_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Clone*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})">Clone&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a deep copy of the list.</p>
+  <a id="StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine*"></a>
+  <h4 id="StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_System_String_BuildTarget___" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String,BuildTarget[])">AddCompileDefine(String, BuildTarget[])</h4>
+  <div class="markdown level1 summary"><p>Attempts to add a new #define constant to the Player Settings.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; Clone&lt;T&gt;(this List&lt;T&gt; list)
-    where T : ICloneable</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AddCompileDefine(string newDefineCompileConstant, params BuildTarget[] targets)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,9 +133,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">newDefineCompileConstant</span></td>
+        <td><p>constant to attempt to define.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BuildTarget</span>[]</td>
+        <td><span class="parametername">targets</span></td>
+        <td><p>platforms to add this for (default will add to all platforms).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines*"></a>
+  <h4 id="StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines">GetScriptingDefines()</h4>
+  <div class="markdown level1 summary"><p>Get user-specified symbols for script compilation for the current build target group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetScriptingDefines()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines*"></a>
+  <h4 id="StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_BuildTargetGroup_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)">GetScriptingDefines(BuildTargetGroup)</h4>
+  <div class="markdown level1 summary"><p>Get user-specified symbols for script compilation for the given build target group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string[] GetScriptingDefines(BuildTargetGroup targetGroup)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BuildTargetGroup</span></td>
+        <td><span class="parametername">targetGroup</span></td>
+        <td><p>build target group</p>
 </td>
       </tr>
     </tbody>
@@ -151,37 +211,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>The deep copy of the current list.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
+        <td><span class="xref">System.String</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_Resize_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Resize*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)">Resize&lt;T&gt;(List&lt;T&gt;, Int32, T)</h4>
-  <div class="markdown level1 summary"><p>Resizes the list. In case of increase list size - fills it with default elements.</p>
+  <a id="StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine*"></a>
+  <h4 id="StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_System_String_BuildTarget___" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String,BuildTarget[])">HasCompileDefine(String, BuildTarget[])</h4>
+  <div class="markdown level1 summary"><p>Check if define exists.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Resize&lt;T&gt;(this List&lt;T&gt; list, int newSize, T defaultValue = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool HasCompileDefine(string defineCompileConstant, params BuildTarget[] targetGroups)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,65 +238,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defineCompileConstant</span></td>
+        <td><p>constant to attempt to define.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">newSize</span></td>
-        <td><p>The new size of the list.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">defaultValue</span></td>
-        <td><p>The default value to set as new list elements.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy_" data-uid="StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__" data-uid="StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})">ShallowCopy&lt;T&gt;(List&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates a shallow copy of the list.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; ShallowCopy&lt;T&gt;(this List&lt;T&gt; list)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><span class="parametername">list</span></td>
-        <td><p>The current list.</p>
+        <td><span class="xref">BuildTarget</span>[]</td>
+        <td><span class="parametername">targetGroups</span></td>
+        <td><p>platforms to add this for (default will add to all platforms).</p>
 </td>
       </tr>
     </tbody>
@@ -267,24 +261,43 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
-        <td><p>The shallow copy of the current list.</p>
-</td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
+  
+  
+  <a id="StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine*"></a>
+  <h4 id="StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_System_String_BuildTarget___" data-uid="StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String,BuildTarget[])">RemoveCompileDefine(String, BuildTarget[])</h4>
+  <div class="markdown level1 summary"><p>Attempts to remove a #define constant from the Player Settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveCompileDefine(string defineCompileConstant, params BuildTarget[] targetGroups)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">defineCompileConstant</span></td>
+        <td><p>define constant.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">BuildTarget</span>[]</td>
+        <td><span class="parametername">targetGroups</span></td>
+        <td><p>platforms to add this for (default will add to all platforms).</p>
+</td>
       </tr>
     </tbody>
   </table>
