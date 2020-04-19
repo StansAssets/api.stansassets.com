@@ -26092,6 +26092,38 @@ references:
   commentId: N:SA.iOS.MediaPlayer
   fullName: SA.iOS.MediaPlayer
   nameWithType: SA.iOS.MediaPlayer
+- uid: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate
+  name: ISN_IMPMediaPickerControllerDelegate
+  href: ios-native/SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.html
+  commentId: T:SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate
+  fullName: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate
+  nameWithType: ISN_IMPMediaPickerControllerDelegate
+- uid: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems(SA.iOS.MediaPlayer.ISN_MPMediaPickerController,SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  name: DidPickMediaItems(ISN_MPMediaPickerController, ISN_MPMediaItemCollection)
+  href: ios-native/SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.html#SA_iOS_MediaPlayer_ISN_IMPMediaPickerControllerDelegate_DidPickMediaItems_SA_iOS_MediaPlayer_ISN_MPMediaPickerController_SA_iOS_MediaPlayer_ISN_MPMediaItemCollection_
+  commentId: M:SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems(SA.iOS.MediaPlayer.ISN_MPMediaPickerController,SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  fullName: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems(SA.iOS.MediaPlayer.ISN_MPMediaPickerController, SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  nameWithType: ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems(ISN_MPMediaPickerController, ISN_MPMediaItemCollection)
+- uid: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems*
+  name: DidPickMediaItems
+  href: ios-native/SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.html#SA_iOS_MediaPlayer_ISN_IMPMediaPickerControllerDelegate_DidPickMediaItems_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems
+  nameWithType: ISN_IMPMediaPickerControllerDelegate.DidPickMediaItems
+- uid: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel(SA.iOS.MediaPlayer.ISN_MPMediaPickerController)
+  name: MediaPickerDidCancel(ISN_MPMediaPickerController)
+  href: ios-native/SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.html#SA_iOS_MediaPlayer_ISN_IMPMediaPickerControllerDelegate_MediaPickerDidCancel_SA_iOS_MediaPlayer_ISN_MPMediaPickerController_
+  commentId: M:SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel(SA.iOS.MediaPlayer.ISN_MPMediaPickerController)
+  fullName: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel(SA.iOS.MediaPlayer.ISN_MPMediaPickerController)
+  nameWithType: ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel(ISN_MPMediaPickerController)
+- uid: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel*
+  name: MediaPickerDidCancel
+  href: ios-native/SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.html#SA_iOS_MediaPlayer_ISN_IMPMediaPickerControllerDelegate_MediaPickerDidCancel_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel
+  nameWithType: ISN_IMPMediaPickerControllerDelegate.MediaPickerDidCancel
 - uid: SA.iOS.MediaPlayer.ISN_MPMediaItem
   name: ISN_MPMediaItem
   href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaItem.html
@@ -26176,6 +26208,57 @@ references:
   isSpec: "True"
   fullName: SA.iOS.MediaPlayer.ISN_MPMediaItem.Title
   nameWithType: ISN_MPMediaItem.Title
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaItemCollection
+  name: ISN_MPMediaItemCollection
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaItemCollection.html
+  commentId: T:SA.iOS.MediaPlayer.ISN_MPMediaItemCollection
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaItemCollection
+  nameWithType: ISN_MPMediaItemCollection
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController
+  name: ISN_MPMediaPickerController
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html
+  commentId: T:SA.iOS.MediaPlayer.ISN_MPMediaPickerController
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController
+  nameWithType: ISN_MPMediaPickerController
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.#ctor
+  name: ISN_MPMediaPickerController()
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController__ctor
+  commentId: M:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.#ctor
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.ISN_MPMediaPickerController()
+  nameWithType: ISN_MPMediaPickerController.ISN_MPMediaPickerController()
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.#ctor*
+  name: ISN_MPMediaPickerController
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController__ctor_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.ISN_MPMediaPickerController
+  nameWithType: ISN_MPMediaPickerController.ISN_MPMediaPickerController
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems
+  name: AllowsPickingMultipleItems
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController_AllowsPickingMultipleItems
+  commentId: P:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems
+  nameWithType: ISN_MPMediaPickerController.AllowsPickingMultipleItems
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems*
+  name: AllowsPickingMultipleItems
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController_AllowsPickingMultipleItems_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.AllowsPickingMultipleItems
+  nameWithType: ISN_MPMediaPickerController.AllowsPickingMultipleItems
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate(SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate)
+  name: SetDelegate(ISN_IMPMediaPickerControllerDelegate)
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController_SetDelegate_SA_iOS_MediaPlayer_ISN_IMPMediaPickerControllerDelegate_
+  commentId: M:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate(SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate)
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate(SA.iOS.MediaPlayer.ISN_IMPMediaPickerControllerDelegate)
+  nameWithType: ISN_MPMediaPickerController.SetDelegate(ISN_IMPMediaPickerControllerDelegate)
+- uid: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate*
+  name: SetDelegate
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMediaPickerController.html#SA_iOS_MediaPlayer_ISN_MPMediaPickerController_SetDelegate_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_MPMediaPickerController.SetDelegate
+  nameWithType: ISN_MPMediaPickerController.SetDelegate
 - uid: SA.iOS.MediaPlayer.ISN_MPMusicPlaybackState
   name: ISN_MPMusicPlaybackState
   href: ios-native/SA.iOS.MediaPlayer.ISN_MPMusicPlaybackState.html
@@ -26353,6 +26436,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.PlayerHashId
   nameWithType: ISN_MPMusicPlayerController.PlayerHashId
+- uid: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection(SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  name: SetQueueWithItemCollection(ISN_MPMediaItemCollection)
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.html#SA_iOS_MediaPlayer_ISN_MPMusicPlayerController_SetQueueWithItemCollection_SA_iOS_MediaPlayer_ISN_MPMediaItemCollection_
+  commentId: M:SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection(SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  fullName: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection(SA.iOS.MediaPlayer.ISN_MPMediaItemCollection)
+  nameWithType: ISN_MPMusicPlayerController.SetQueueWithItemCollection(ISN_MPMediaItemCollection)
+- uid: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection*
+  name: SetQueueWithItemCollection
+  href: ios-native/SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.html#SA_iOS_MediaPlayer_ISN_MPMusicPlayerController_SetQueueWithItemCollection_
+  commentId: Overload:SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection
+  isSpec: "True"
+  fullName: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithItemCollection
+  nameWithType: ISN_MPMusicPlayerController.SetQueueWithItemCollection
 - uid: SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.SetQueueWithStoreIDs(System.String[])
   name: SetQueueWithStoreIDs(String[])
   href: ios-native/SA.iOS.MediaPlayer.ISN_MPMusicPlayerController.html#SA_iOS_MediaPlayer_ISN_MPMusicPlayerController_SetQueueWithStoreIDs_System_String___
@@ -30334,12 +30430,12 @@ references:
   commentId: F:SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.CarPlay
   fullName: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.CarPlay
   nameWithType: ISN_UIUserInterfaceIdiom.CarPlay
-- uid: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.Pad
-  name: Pad
-  href: ios-native/SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.html#SA_iOS_UIKit_ISN_UIUserInterfaceIdiom_Pad
-  commentId: F:SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.Pad
-  fullName: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.Pad
-  nameWithType: ISN_UIUserInterfaceIdiom.Pad
+- uid: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.IPad
+  name: IPad
+  href: ios-native/SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.html#SA_iOS_UIKit_ISN_UIUserInterfaceIdiom_IPad
+  commentId: F:SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.IPad
+  fullName: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.IPad
+  nameWithType: ISN_UIUserInterfaceIdiom.IPad
 - uid: SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.Phone
   name: Phone
   href: ios-native/SA.iOS.UIKit.ISN_UIUserInterfaceIdiom.html#SA_iOS_UIKit_ISN_UIUserInterfaceIdiom_Phone
@@ -30418,6 +30514,19 @@ references:
   commentId: T:SA.iOS.UIKit.ISN_UIViewController
   fullName: SA.iOS.UIKit.ISN_UIViewController
   nameWithType: ISN_UIViewController
+- uid: SA.iOS.UIKit.ISN_UIViewController.Dismiss(System.Boolean,Action)
+  name: Dismiss(Boolean, Action)
+  href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_Dismiss_System_Boolean_Action_
+  commentId: M:SA.iOS.UIKit.ISN_UIViewController.Dismiss(System.Boolean,Action)
+  fullName: SA.iOS.UIKit.ISN_UIViewController.Dismiss(System.Boolean, Action)
+  nameWithType: ISN_UIViewController.Dismiss(Boolean, Action)
+- uid: SA.iOS.UIKit.ISN_UIViewController.Dismiss*
+  name: Dismiss
+  href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_Dismiss_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIViewController.Dismiss
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIViewController.Dismiss
+  nameWithType: ISN_UIViewController.Dismiss
 - uid: SA.iOS.UIKit.ISN_UIViewController.ModalPresentationStyle
   name: ModalPresentationStyle
   href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_ModalPresentationStyle
@@ -30431,12 +30540,12 @@ references:
   isSpec: "True"
   fullName: SA.iOS.UIKit.ISN_UIViewController.ModalPresentationStyle
   nameWithType: ISN_UIViewController.ModalPresentationStyle
-- uid: SA.iOS.UIKit.ISN_UIViewController.PresentViewController(SA.iOS.UIKit.ISN_UIViewController,System.Boolean,Action)
-  name: PresentViewController(ISN_UIViewController, Boolean, Action)
-  href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_PresentViewController_SA_iOS_UIKit_ISN_UIViewController_System_Boolean_Action_
-  commentId: M:SA.iOS.UIKit.ISN_UIViewController.PresentViewController(SA.iOS.UIKit.ISN_UIViewController,System.Boolean,Action)
-  fullName: SA.iOS.UIKit.ISN_UIViewController.PresentViewController(SA.iOS.UIKit.ISN_UIViewController, System.Boolean, Action)
-  nameWithType: ISN_UIViewController.PresentViewController(ISN_UIViewController, Boolean, Action)
+- uid: SA.iOS.UIKit.ISN_UIViewController.PresentViewController(System.Boolean,Action)
+  name: PresentViewController(Boolean, Action)
+  href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_PresentViewController_System_Boolean_Action_
+  commentId: M:SA.iOS.UIKit.ISN_UIViewController.PresentViewController(System.Boolean,Action)
+  fullName: SA.iOS.UIKit.ISN_UIViewController.PresentViewController(System.Boolean, Action)
+  nameWithType: ISN_UIViewController.PresentViewController(Boolean, Action)
 - uid: SA.iOS.UIKit.ISN_UIViewController.PresentViewController*
   name: PresentViewController
   href: ios-native/SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_PresentViewController_
@@ -31654,25 +31763,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile
   nameWithType: AssetDatabaseUtility.GetLocalIdentifierInFile
-- uid: StansAssets.Foundation.Editor.EditorAssets
-  name: EditorAssets
-  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html
-  commentId: T:StansAssets.Foundation.Editor.EditorAssets
-  fullName: StansAssets.Foundation.Editor.EditorAssets
-  nameWithType: EditorAssets
-- uid: StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
-  name: GetImage(String)
-  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html#StansAssets_Foundation_Editor_EditorAssets_GetImage_System_String_
-  commentId: M:StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
-  fullName: StansAssets.Foundation.Editor.EditorAssets.GetImage(System.String)
-  nameWithType: EditorAssets.GetImage(String)
-- uid: StansAssets.Foundation.Editor.EditorAssets.GetImage*
-  name: GetImage
-  href: foundation/StansAssets.Foundation.Editor.EditorAssets.html#StansAssets_Foundation_Editor_EditorAssets_GetImage_
-  commentId: Overload:StansAssets.Foundation.Editor.EditorAssets.GetImage
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.EditorAssets.GetImage
-  nameWithType: EditorAssets.GetImage
 - uid: StansAssets.Foundation.Editor.EditorDefines
   name: EditorDefines
   href: foundation/StansAssets.Foundation.Editor.EditorDefines.html
@@ -31746,79 +31836,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.EditorDefines.RemoveCompileDefine
   nameWithType: EditorDefines.RemoveCompileDefine
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility
-  name: EditorDefinesUtility
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html
-  commentId: T:StansAssets.Foundation.Editor.EditorDefinesUtility
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility
-  nameWithType: EditorDefinesUtility
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String,BuildTarget[])
-  name: AddCompileDefine(String, BuildTarget[])
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_System_String_BuildTarget___
-  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String,BuildTarget[])
-  name.vb: AddCompileDefine(String, BuildTarget())
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String, BuildTarget[])
-  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine(System.String, BuildTarget())
-  nameWithType: EditorDefinesUtility.AddCompileDefine(String, BuildTarget[])
-  nameWithType.vb: EditorDefinesUtility.AddCompileDefine(String, BuildTarget())
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine*
-  name: AddCompileDefine
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_AddCompileDefine_
-  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.AddCompileDefine
-  nameWithType: EditorDefinesUtility.AddCompileDefine
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
-  name: GetScriptingDefines()
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines
-  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines()
-  nameWithType: EditorDefinesUtility.GetScriptingDefines()
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
-  name: GetScriptingDefines(BuildTargetGroup)
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_BuildTargetGroup_
-  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
-  nameWithType: EditorDefinesUtility.GetScriptingDefines(BuildTargetGroup)
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines*
-  name: GetScriptingDefines
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_GetScriptingDefines_
-  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.GetScriptingDefines
-  nameWithType: EditorDefinesUtility.GetScriptingDefines
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String,BuildTarget[])
-  name: HasCompileDefine(String, BuildTarget[])
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_System_String_BuildTarget___
-  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String,BuildTarget[])
-  name.vb: HasCompileDefine(String, BuildTarget())
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String, BuildTarget[])
-  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine(System.String, BuildTarget())
-  nameWithType: EditorDefinesUtility.HasCompileDefine(String, BuildTarget[])
-  nameWithType.vb: EditorDefinesUtility.HasCompileDefine(String, BuildTarget())
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine*
-  name: HasCompileDefine
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_HasCompileDefine_
-  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.HasCompileDefine
-  nameWithType: EditorDefinesUtility.HasCompileDefine
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String,BuildTarget[])
-  name: RemoveCompileDefine(String, BuildTarget[])
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_System_String_BuildTarget___
-  commentId: M:StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String,BuildTarget[])
-  name.vb: RemoveCompileDefine(String, BuildTarget())
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String, BuildTarget[])
-  fullName.vb: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine(System.String, BuildTarget())
-  nameWithType: EditorDefinesUtility.RemoveCompileDefine(String, BuildTarget[])
-  nameWithType.vb: EditorDefinesUtility.RemoveCompileDefine(String, BuildTarget())
-- uid: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine*
-  name: RemoveCompileDefine
-  href: foundation/StansAssets.Foundation.Editor.EditorDefinesUtility.html#StansAssets_Foundation_Editor_EditorDefinesUtility_RemoveCompileDefine_
-  commentId: Overload:StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine
-  nameWithType: EditorDefinesUtility.RemoveCompileDefine
 - uid: StansAssets.Foundation.Editor.FoundationConstants
   name: FoundationConstants
   href: foundation/StansAssets.Foundation.Editor.FoundationConstants.html
@@ -32589,31 +32606,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.IdFactory.RandomString
   nameWithType: IdFactory.RandomString
-- uid: StansAssets.Foundation.OperatingSystem
-  name: StansAssets.Foundation.OperatingSystem
-  href: foundation/StansAssets.Foundation.OperatingSystem.html
-  commentId: N:StansAssets.Foundation.OperatingSystem
-  fullName: StansAssets.Foundation.OperatingSystem
-  nameWithType: StansAssets.Foundation.OperatingSystem
-- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser
-  name: FilesBrowser
-  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html
-  commentId: T:StansAssets.Foundation.OperatingSystem.FilesBrowser
-  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser
-  nameWithType: FilesBrowser
-- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
-  name: OpenAtPath(String)
-  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html#StansAssets_Foundation_OperatingSystem_FilesBrowser_OpenAtPath_System_String_
-  commentId: M:StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
-  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath(System.String)
-  nameWithType: FilesBrowser.OpenAtPath(String)
-- uid: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath*
-  name: OpenAtPath
-  href: foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.html#StansAssets_Foundation_OperatingSystem_FilesBrowser_OpenAtPath_
-  commentId: Overload:StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath
-  isSpec: "True"
-  fullName: StansAssets.Foundation.OperatingSystem.FilesBrowser.OpenAtPath
-  nameWithType: FilesBrowser.OpenAtPath
 - uid: StansAssets.Foundation.Patterns
   name: StansAssets.Foundation.Patterns
   href: foundation/StansAssets.Foundation.Patterns.html

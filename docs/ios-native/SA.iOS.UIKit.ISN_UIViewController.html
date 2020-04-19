@@ -79,35 +79,11 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">ISN_UIViewController</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.UIKit.html">SA.iOS.UIKit</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="SA_iOS_UIKit_ISN_UIViewController_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ISN_UIViewController</code></pre>
+    <pre><code class="lang-csharp hljs">public class ISN_UIViewController : ISN_NativeObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +102,7 @@ see the <a class="xref" href="SA.iOS.UIKit.ISN_UIModalPresentationStyle.html">IS
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ISN_UIModalPresentationStyle ModalPresentationStyle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ISN_UIModalPresentationStyle ModalPresentationStyle { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,8 +123,50 @@ see the <a class="xref" href="SA.iOS.UIKit.ISN_UIModalPresentationStyle.html">IS
   </h3>
   
   
+  <a id="SA_iOS_UIKit_ISN_UIViewController_Dismiss_" data-uid="SA.iOS.UIKit.ISN_UIViewController.Dismiss*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UIViewController_Dismiss_System_Boolean_Action_" data-uid="SA.iOS.UIKit.ISN_UIViewController.Dismiss(System.Boolean,Action)">Dismiss(Boolean, Action)</h4>
+  <div class="markdown level1 summary"><p>Dismisses the view controller that was presented modally by the view controller.</p>
+<p>The presenting view controller is responsible for dismissing the view controller it presented.
+If you call this method on the presented view controller itself, UIKit asks the presenting view controller to handle the dismissal.</p>
+<p>If you present several view controllers in succession, thus building a stack of presented view controllers,
+calling this method on a view controller lower in the stack dismisses its immediate child view controller
+and all view controllers above that child on the stack. When this happens,
+only the top-most view is dismissed in an animated fashion; any intermediate view controllers are simply removed from the stack.
+The top-most view is dismissed using its modal transition style, which may differ from the styles used by other view controllers lower in the stack.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dismiss(bool animated, Action completion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">animated</span></td>
+        <td><p>Pass &apos;true&apos; to animate the transition.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span></td>
+        <td><span class="parametername">completion</span></td>
+        <td><p>The block to execute after the view controller is dismissed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="SA_iOS_UIKit_ISN_UIViewController_PresentViewController_" data-uid="SA.iOS.UIKit.ISN_UIViewController.PresentViewController*"></a>
-  <h4 id="SA_iOS_UIKit_ISN_UIViewController_PresentViewController_SA_iOS_UIKit_ISN_UIViewController_System_Boolean_Action_" data-uid="SA.iOS.UIKit.ISN_UIViewController.PresentViewController(SA.iOS.UIKit.ISN_UIViewController,System.Boolean,Action)">PresentViewController(ISN_UIViewController, Boolean, Action)</h4>
+  <h4 id="SA_iOS_UIKit_ISN_UIViewController_PresentViewController_System_Boolean_Action_" data-uid="SA.iOS.UIKit.ISN_UIViewController.PresentViewController(System.Boolean,Action)">PresentViewController(Boolean, Action)</h4>
   <div class="markdown level1 summary"><p>Presents a view controller modally.</p>
 <p>In a horizontally regular environment, the view controller is presented in the style specified
 by the <a class="xref" href="SA.iOS.UIKit.ISN_UIViewController.html#SA_iOS_UIKit_ISN_UIViewController_ModalPresentationStyle">ModalPresentationStyle</a> property. In a horizontally compact environment,
@@ -173,7 +191,7 @@ the view may be animated onscreen using the current view controller’s transiti
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void PresentViewController(ISN_UIViewController viewControllerToPresent, bool animated, Action completion)</code></pre>
+    <pre><code class="lang-csharp hljs">public void PresentViewController(bool animated, Action completion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,19 +204,16 @@ the view may be animated onscreen using the current view controller’s transiti
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SA.iOS.UIKit.ISN_UIViewController.html">ISN_UIViewController</a></td>
-        <td><span class="parametername">viewControllerToPresent</span></td>
-        <td></td>
-      </tr>
-      <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">animated</span></td>
-        <td></td>
+        <td><p>Pass <code>true</code> to animate the presentation; otherwise, pass <code>false</code>.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">Action</span></td>
         <td><span class="parametername">completion</span></td>
-        <td></td>
+        <td><p>The block to execute after the presentation finishes.</p>
+</td>
       </tr>
     </tbody>
   </table>
