@@ -75,10 +75,25 @@
   <div class="markdown level0 remarks"></div>
     <h3 id="classes">Classes
   </h3>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.CollectionPool-2.html">CollectionPool&lt;TCollection, TItem&gt;</a></h4>
+      <section><p>Generic collections pool implementation.</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.DefaultPool-1.html">DefaultPool&lt;T&gt;</a></h4>
+      <section><p>Simplified default <a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.html">ObjectPool&lt;T&gt;</a> implementation.</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.DictionaryPool-2.html">DictionaryPool&lt;TKey, TValue&gt;</a></h4>
+      <section><p><code>Dictionary</code> Pool.</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.ListPool-1.html">ListPool&lt;T&gt;</a></h4>
+      <section><p><code>List</code> pool.</p>
+</section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.MonoSingleton-1.html">MonoSingleton&lt;T&gt;</a></h4>
       <section><p>Singleton pattern implementation.
 Can be used with classes extended from a MonoBehaviour.
 Once instance is found or created, game object will be marked as DontDestroyOnLoadю</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.html">ObjectPool&lt;T&gt;</a></h4>
+      <section><p>Generic object pool implementation.</p>
 </section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettings.html">PackageScriptableSettings</a></h4>
       <section><p>Base class for the plugin settings.</p>
@@ -86,8 +101,26 @@ Once instance is found or created, game object will be marked as DontDestroyOnLo
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html">PackageScriptableSettingsSingleton&lt;T&gt;</a></h4>
       <section><p>Package Scriptable Settings singleton pattern implementation.</p>
 </section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.PrefabPool.html">PrefabPool</a></h4>
+      <section><p>Simplified prefab implementation.</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.SceneLoader.html">SceneLoader</a></h4>
+      <section><p>Provides methods to manage scenes loading.</p>
+</section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
       <section><p>Singleton pattern implementation.</p>
+</section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool&lt;T&gt;.PooledObject</a></h4>
+      <section><p>A Pooled object wraps a reference to an instance that will be returned to the pool when the Pooled object is disposed.
+The purpose is to automate the return of references so that they do not need to be returned manually.
+A PooledObject can be used like so:</p>
+<pre><code>MyClass myInstance;
+using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be returned to the pool.
+{
+    // Do something with myInstance
+}</code></pre>
 </section>
 </article>
           </div>

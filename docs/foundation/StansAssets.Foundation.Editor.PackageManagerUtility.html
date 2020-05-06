@@ -109,80 +109,35 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class PackageManagerUtility</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="StansAssets_Foundation_Editor_PackageManagerUtility_GetAllProjectPackages_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages*"></a>
-  <h4 id="StansAssets_Foundation_Editor_PackageManagerUtility_GetAllProjectPackages" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.GetAllProjectPackages">GetAllProjectPackages()</h4>
-  <div class="markdown level1 summary"><p>Sync method to return all the packages installed in the project.</p>
+  <h4 id="StansAssets_Foundation_Editor_PackageManagerUtility_ManifestPath" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.ManifestPath">ManifestPath</h4>
+  <div class="markdown level1 summary"><p>Project relative path to packages manifest.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;PackageInfo&gt; GetAllProjectPackages()</code></pre>
+    <pre><code class="lang-csharp hljs">public const string ManifestPath = &quot;Packages/manifest.json&quot;</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">PackageInfo</span>&gt;</td>
-        <td><p>Returns all the packages installed in the project.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageInfo_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo*"></a>
-  <h4 id="StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageInfo_System_String_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageInfo(System.String)">GetPackageInfo(String)</h4>
-  <div class="markdown level1 summary"><p>Returns PackageInfo if package is installed in the project, <code>null</code> otherwise.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PackageInfo GetPackageInfo(string packageName)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">packageName</span></td>
-        <td><p>Package name.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PackageInfo</span></td>
-        <td><p>Returns PackageInfo if package is installed in the project, <code>null</code> otherwise.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
   <a id="StansAssets_Foundation_Editor_PackageManagerUtility_GetPackageRootPath_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.GetPackageRootPath*"></a>
@@ -224,6 +179,35 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>Package root path.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_PackageManagerUtility_RemovePackage_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.RemovePackage*"></a>
+  <h4 id="StansAssets_Foundation_Editor_PackageManagerUtility_RemovePackage_System_String_" data-uid="StansAssets.Foundation.Editor.PackageManagerUtility.RemovePackage(System.String)">RemovePackage(String)</h4>
+  <div class="markdown level1 summary"><p>Remove Package by name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemovePackage(string packageName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">packageName</span></td>
+        <td><p>Name of the package to remove</p>
 </td>
       </tr>
     </tbody>

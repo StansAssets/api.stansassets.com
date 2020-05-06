@@ -117,14 +117,14 @@
   <a id="SA_iOS_Foundation_ISN_NSNotificationCenter_DefaultCenter_" data-uid="SA.iOS.Foundation.ISN_NSNotificationCenter.DefaultCenter*"></a>
   <h4 id="SA_iOS_Foundation_ISN_NSNotificationCenter_DefaultCenter" data-uid="SA.iOS.Foundation.ISN_NSNotificationCenter.DefaultCenter">DefaultCenter</h4>
   <div class="markdown level1 summary"><p>The app’s default notification center.</p>
-<p>All system notifications sent to an app are posted to the defaultCenter notification center. 
+<p>All system notifications sent to an app are posted to the defaultCenter notification center.
 You can also post your own notifications there.</p>
-<p>If your app uses notifications extensively, 
-you may want to create and post to your own notification centers rather than posting 
-only to the defaultCenter notification center. 
-When a notification is posted to a notification center, 
-the notification center scans through the list of registered observers, 
-which may slow down your app. By organizing notifications functionally around one or more notification centers, 
+<p>If your app uses notifications extensively,
+you may want to create and post to your own notification centers rather than posting
+only to the defaultCenter notification center.
+When a notification is posted to a notification center,
+the notification center scans through the list of registered observers,
+which may slow down your app. By organizing notifications functionally around one or more notification centers,
 less work is done each time a notification is posted, which can improve performance throughout your app.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -153,7 +153,7 @@ less work is done each time a notification is posted, which can improve performa
   
   <a id="SA_iOS_Foundation_ISN_NSNotificationCenter_AddObserverForName_" data-uid="SA.iOS.Foundation.ISN_NSNotificationCenter.AddObserverForName*"></a>
   <h4 id="SA_iOS_Foundation_ISN_NSNotificationCenter_AddObserverForName_System_String_Action_SA_iOS_Foundation_ISN_NSNotification__" data-uid="SA.iOS.Foundation.ISN_NSNotificationCenter.AddObserverForName(System.String,Action{SA.iOS.Foundation.ISN_NSNotification})">AddObserverForName(String, Action&lt;ISN_NSNotification&gt;)</h4>
-  <div class="markdown level1 summary"><p>Adds an entry to the notification center&apos;s dispatch table that includes a notification queue 
+  <div class="markdown level1 summary"><p>Adds an entry to the notification center&apos;s dispatch table that includes a notification queue
 and a block to add to the queue, and an optional notification name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -174,7 +174,7 @@ and a block to add to the queue, and an optional notification name.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td><p>The name of the notification for which to register the observer; 
+        <td><p>The name of the notification for which to register the observer;
 that is, only notifications with this name are used to add the block to the operation queue.</p>
 </td>
       </tr>

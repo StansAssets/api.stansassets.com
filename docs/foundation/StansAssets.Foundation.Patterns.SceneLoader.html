@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TransformExtensions
+    <title>Class SceneLoader
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TransformExtensions
+    <meta name="title" content="Class SceneLoader
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.TransformExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Patterns.SceneLoader">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_TransformExtensions" data-uid="StansAssets.Foundation.Extensions.TransformExtensions" class="text-break">Class TransformExtensions
+  <h1 id="StansAssets_Foundation_Patterns_SceneLoader" data-uid="StansAssets.Foundation.Patterns.SceneLoader" class="text-break">Class SceneLoader
   </h1>
-  <div class="markdown level0 summary"><p>Unity <code>Transform</code> extension methods.</p>
+  <div class="markdown level0 summary"><p>Provides methods to manage scenes loading.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TransformExtensions</span></div>
+    <div class="level1"><span class="xref">SceneLoader</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,24 +103,26 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Patterns.html">StansAssets.Foundation.Patterns</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_TransformExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Patterns_SceneLoader_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class TransformExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SceneLoader</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_TransformExtensions_Clear_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Clear*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_Clear_Transform_System_Boolean_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Clear(Transform,System.Boolean)">Clear(Transform, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Removes all transform children.</p>
+  <a id="StansAssets_Foundation_Patterns_SceneLoader_LoadAdditively_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.LoadAdditively*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_LoadAdditively_System_String_System_Action_Scene__" data-uid="StansAssets.Foundation.Patterns.SceneLoader.LoadAdditively(System.String,System.Action{Scene})">LoadAdditively(String, Action&lt;Scene&gt;)</h4>
+  <div class="markdown level1 summary"><p>Load Scene Additively by it&apos;s name.
+<param name="sceneName">Name of the scene to be loaded.
+<param name="loadCompleted">Load Completed callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Transform Clear(this Transform transform, bool activeOnly = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static AsyncOperation LoadAdditively(string sceneName, Action&lt;Scene&gt; loadCompleted = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,16 +135,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transform</span></td>
-        <td><p>Transform component.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">activeOnly</span></td>
-        <td><p>Will ignore disabled game-objects when set to <code>true</code>. </p>
-</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Scene</span>&gt;</td>
+        <td><span class="parametername">loadCompleted</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -156,21 +156,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><span class="xref">AsyncOperation</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_TransformExtensions_FindOrCreateChild_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_FindOrCreateChild_Transform_System_String_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform,System.String)">FindOrCreateChild(Transform, String)</h4>
-  <div class="markdown level1 summary"><p>Find or create child with name.</p>
+  <a id="StansAssets_Foundation_Patterns_SceneLoader_TryGetLoadedScene_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.TryGetLoadedScene*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_TryGetLoadedScene_System_String_Scene__" data-uid="StansAssets.Foundation.Patterns.SceneLoader.TryGetLoadedScene(System.String,Scene@)">TryGetLoadedScene(String, out Scene)</h4>
+  <div class="markdown level1 summary"><p>Method to find currently loaded scene by it&apos;s name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Transform FindOrCreateChild(this Transform transform, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool TryGetLoadedScene(string sceneName, out Scene scene)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,15 +183,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transform</span></td>
-        <td><p>Transform component.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td><p>Scene name.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Child name.</p>
+        <td><span class="xref">Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td><p>Found scene. If methods returns <code>false</code> scene value will be set to <code>default</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -206,22 +206,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><p>Child <see cref="!:Transform"></see> component instance.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if scene was found among currently loaded scenes, <code>false</code> otherwise.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_TransformExtensions_Reset_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Reset*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_Reset_Transform_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)">Reset(Transform)</h4>
-  <div class="markdown level1 summary"><p>Reset <see cref="!:Transform"></see> component position, scale and rotation.</p>
+  <a id="StansAssets_Foundation_Patterns_SceneLoader_Unload_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.Unload*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_Unload_Scene_System_Action_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.Unload(Scene,System.Action)">Unload(Scene, Action)</h4>
+  <div class="markdown level1 summary"><p>Unload scene.
+<param name="scene">The scene to be loaded.
+<param name="unloadCompleted">Unload Completed callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Reset(this Transform transform)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Unload(Scene scene, Action unloadCompleted = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,23 +236,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transform</span></td>
-        <td><p>Transform component.</p>
-</td>
+        <td><span class="xref">Scene</span></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">unloadCompleted</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScaleScale_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScaleScale_Transform_Vector3_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)">SetLossyScaleScale(Transform, Vector3)</h4>
-  <div class="markdown level1 summary"><p>Sets <see cref="!:Transform.lossyScale"></see> value.</p>
+  <a id="StansAssets_Foundation_Patterns_SceneLoader_Unload_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.Unload*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_Unload_System_String_System_Action_" data-uid="StansAssets.Foundation.Patterns.SceneLoader.Unload(System.String,System.Action)">Unload(String, Action)</h4>
+  <div class="markdown level1 summary"><p>Unload scene by name.
+<param name="sceneName">Name of the scene to be loaded.
+<param name="unloadCompleted">Unload Completed callback.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetLossyScaleScale(this Transform transform, Vector3 lossyScale)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Unload(string sceneName, Action unloadCompleted = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -263,16 +271,64 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td><span class="parametername">transform</span></td>
-        <td><p>Transform component.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td><span class="parametername">lossyScale</span></td>
-        <td><p>New lossyScale value.</p>
-</td>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">unloadCompleted</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_SceneLoaded" data-uid="StansAssets.Foundation.Patterns.SceneLoader.SceneLoaded">SceneLoaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;Scene, LoadSceneMode&gt; SceneLoaded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Scene</span>, <span class="xref">LoadSceneMode</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="StansAssets_Foundation_Patterns_SceneLoader_SceneUnloaded" data-uid="StansAssets.Foundation.Patterns.SceneLoader.SceneUnloaded">SceneUnloaded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;Scene&gt; SceneUnloaded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Scene</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

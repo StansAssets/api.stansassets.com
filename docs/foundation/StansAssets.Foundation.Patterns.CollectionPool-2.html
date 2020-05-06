@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ObjectExtensions
+    <title>Class CollectionPool&lt;TCollection, TItem&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ObjectExtensions
+    <meta name="title" content="Class CollectionPool&lt;TCollection, TItem&gt;
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,18 +66,20 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_ObjectExtensions" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions" class="text-break">Class ObjectExtensions
+  <h1 id="StansAssets_Foundation_Patterns_CollectionPool_2" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2" class="text-break">Class CollectionPool&lt;TCollection, TItem&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Unity <code>Object</code> extension methods.</p>
+  <div class="markdown level0 summary"><p>Generic collections pool implementation.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ObjectExtensions</span></div>
+    <div class="level1"><span class="xref">CollectionPool&lt;TCollection, TItem&gt;</span></div>
+      <div class="level2"><a class="xref" href="StansAssets.Foundation.Patterns.DictionaryPool-2.html">DictionaryPool&lt;TKey, TValue&gt;</a></div>
+      <div class="level2"><a class="xref" href="StansAssets.Foundation.Patterns.ListPool-1.html">ListPool&lt;T&gt;</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,25 +105,73 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Patterns.html">StansAssets.Foundation.Patterns</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_ObjectExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Patterns_CollectionPool_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ObjectExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class CollectionPool&lt;TCollection, TItem&gt;
+    where TCollection : class, ICollection&lt;TItem&gt;, new()</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TCollection</span></td>
+        <td><p>Type of the collection.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>Type of the collection item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_System_Object_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(System.Object)">IsNotNull(Object)</h4>
-  <div class="markdown level1 summary"><p>Performs a TRUE null-check.
-See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.unity.com/answers/1224404/view.html</a></p>
+  <a id="StansAssets_Foundation_Patterns_CollectionPool_2_Get_" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Get*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_CollectionPool_2_Get" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Get">Get()</h4>
+  <div class="markdown level1 summary"><p>Get new.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotNull(this object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TCollection Get()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TCollection</span></td>
+        <td><p>A new HashSet</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Patterns_CollectionPool_2_Get_" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Get*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_CollectionPool_2_Get__0__" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Get(`0@)">Get(out TCollection)</h4>
+  <div class="markdown level1 summary"><p>Get a new list PooledObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ObjectPool&lt;TCollection&gt;.PooledObject Get(out TCollection value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,9 +184,9 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>An object to check.</p>
+        <td><span class="xref">TCollection</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Output typed HashSet.</p>
 </td>
       </tr>
     </tbody>
@@ -151,23 +201,22 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns <code>false</code> if object is null, <code>true</code> otherwise.</p>
+        <td><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool.PooledObject</a>&lt;&gt;</td>
+        <td><p>A new HashSet PooledObject.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNull*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_System_Object_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(System.Object)">IsNull(Object)</h4>
-  <div class="markdown level1 summary"><p>Performs a TRUE null-check.
-See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.unity.com/answers/1224404/view.html</a></p>
+  <a id="StansAssets_Foundation_Patterns_CollectionPool_2_Release_" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Release*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_CollectionPool_2_Release__0_" data-uid="StansAssets.Foundation.Patterns.CollectionPool`2.Release(`0)">Release(TCollection)</h4>
+  <div class="markdown level1 summary"><p>Release an object to the pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNull(this object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Release(TCollection toRelease)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,25 +229,9 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>An object to check.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns <code>true</code> if object is null, <code>false</code> otherwise.</p>
+        <td><span class="xref">TCollection</span></td>
+        <td><span class="parametername">toRelease</span></td>
+        <td><p>hashSet to release.</p>
 </td>
       </tr>
     </tbody>

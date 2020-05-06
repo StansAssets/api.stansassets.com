@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ObjectExtensions
+    <title>Class TimeUtility
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ObjectExtensions
+    <meta name="title" content="Class TimeUtility
    ">
     <meta name="generator" content="docfx 2.51.0.0">
     
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.TimeUtility">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_ObjectExtensions" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions" class="text-break">Class ObjectExtensions
+  <h1 id="StansAssets_Foundation_TimeUtility" data-uid="StansAssets.Foundation.TimeUtility" class="text-break">Class TimeUtility
   </h1>
-  <div class="markdown level0 summary"><p>Unity <code>Object</code> extension methods.</p>
+  <div class="markdown level0 summary"><p>Time Related Utility Methods.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ObjectExtensions</span></div>
+    <div class="level1"><span class="xref">TimeUtility</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,25 +103,24 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.html">StansAssets.Foundation</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_ObjectExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_TimeUtility_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class ObjectExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class TimeUtility</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_System_Object_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(System.Object)">IsNotNull(Object)</h4>
-  <div class="markdown level1 summary"><p>Performs a TRUE null-check.
-See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.unity.com/answers/1224404/view.html</a></p>
+  <a id="StansAssets_Foundation_TimeUtility_FromUnixTime_" data-uid="StansAssets.Foundation.TimeUtility.FromUnixTime*"></a>
+  <h4 id="StansAssets_Foundation_TimeUtility_FromUnixTime_System_Int64_" data-uid="StansAssets.Foundation.TimeUtility.FromUnixTime(System.Int64)">FromUnixTime(Int64)</h4>
+  <div class="markdown level1 summary"><p>Converts a UNIX time stamp into <span class="xref">System.DateTime</span> object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNotNull(this object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public static DateTime FromUnixTime(long timestamp)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,9 +133,9 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>An object to check.</p>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">timestamp</span></td>
+        <td><p>UNIX timestamp.</p>
 </td>
       </tr>
     </tbody>
@@ -151,23 +150,22 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns <code>false</code> if object is null, <code>true</code> otherwise.</p>
-</td>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNull*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_System_Object_" data-uid="StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(System.Object)">IsNull(Object)</h4>
-  <div class="markdown level1 summary"><p>Performs a TRUE null-check.
-See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.unity.com/answers/1224404/view.html</a></p>
+  <a id="StansAssets_Foundation_TimeUtility_GetTime_" data-uid="StansAssets.Foundation.TimeUtility.GetTime*"></a>
+  <h4 id="StansAssets_Foundation_TimeUtility_GetTime_System_String_" data-uid="StansAssets.Foundation.TimeUtility.GetTime(System.String)">GetTime(String)</h4>
+  <div class="markdown level1 summary"><p>Get timer value in seconds by timer name. You may star any number of timers using the <a class="xref" href="StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_StartTimer_System_String_">StartTimer(String)</a> method.
+If timer with specified name doesn&apos;t exist <code>0</code> value will be returned.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsNull(this object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public static float GetTime(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,9 +178,9 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td><p>An object to check.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Timer name.</p>
 </td>
       </tr>
     </tbody>
@@ -197,9 +195,83 @@ See <a href="http://answers.unity.com/answers/1224404/view.html">http://answers.
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>Returns <code>true</code> if object is null, <code>false</code> otherwise.</p>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Timer value in seconds</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_TimeUtility_StartTimer_" data-uid="StansAssets.Foundation.TimeUtility.StartTimer*"></a>
+  <h4 id="StansAssets_Foundation_TimeUtility_StartTimer_System_String_" data-uid="StansAssets.Foundation.TimeUtility.StartTimer(System.String)">StartTimer(String)</h4>
+  <div class="markdown level1 summary"><p>Start new timer, with given name.
+You can check timer second value via <a class="xref" href="StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_GetTime_System_String_">GetTime(String)</a> method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StartTimer(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Timer name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_TimeUtility_ToUnixTime_" data-uid="StansAssets.Foundation.TimeUtility.ToUnixTime*"></a>
+  <h4 id="StansAssets_Foundation_TimeUtility_ToUnixTime_System_DateTime_" data-uid="StansAssets.Foundation.TimeUtility.ToUnixTime(System.DateTime)">ToUnixTime(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Gets a UNIX timestamp from a <span class="xref">System.DateTime</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ToUnixTime(DateTime date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>Source date for conversion.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
