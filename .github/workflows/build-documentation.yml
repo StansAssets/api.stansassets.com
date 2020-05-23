@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   push:
     branches:
-      - master
+      - documentation-ci-tes
 
 jobs:
   build:
@@ -67,5 +67,5 @@ jobs:
         git config --global user.name "Stan's Assets Automation"
         git add -A
         git status
-       # git commit -m "Automated docs update"
-       # git push
+        git commit -m "Automated docs update"
+        git push
