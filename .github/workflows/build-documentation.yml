@@ -1,0 +1,22 @@
+name: Build Documentation
+
+on:
+  repository_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-18.04
+
+    steps:
+
+    # Checkout all repos
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      path: api.stansassets.com
+
+    - name: list
+      run: ls
