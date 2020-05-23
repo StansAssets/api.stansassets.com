@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StringExtensions
+    <title>Class Manifest
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StringExtensions
+    <meta name="title" content="Class Manifest
    ">
     <meta name="generator" content="docfx 2.53.1.0">
     
@@ -66,18 +66,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.StringExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.Manifest">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_StringExtensions" data-uid="StansAssets.Foundation.Extensions.StringExtensions" class="text-break">Class StringExtensions
+  <h1 id="StansAssets_Foundation_Editor_Manifest" data-uid="StansAssets.Foundation.Editor.Manifest" class="text-break">Class Manifest
   </h1>
-  <div class="markdown level0 summary"><p>String extension methods.</p>
+  <div class="markdown level0 summary"><p>Representation of Manifest JSON file.
+Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">StringExtensions</span></div>
+    <div class="level1"><span class="xref">Manifest</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -103,24 +104,24 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.html">StansAssets.Foundation.Editor</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_StringExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Editor_Manifest_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public class Manifest</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_AllIndexesOf_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_AllIndexesOf_System_String_System_String_System_StringComparison_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,System.StringComparison)">AllIndexesOf(String, String, StringComparison)</h4>
-  <div class="markdown level1 summary"><p>Method will return all the indexes for a matched string.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest__ctor_" data-uid="StansAssets.Foundation.Editor.Manifest.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest__ctor_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.#ctor(System.String)">Manifest(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static List&lt;int&gt; AllIndexesOf(this string source, string value, StringComparison comparisonType)</code></pre>
+    <pre><code class="lang-csharp hljs">public Manifest(string pathToFile = &quot;Packages/manifest.json&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,25 +135,26 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td><p>String Value to look for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.StringComparison</span></td>
-        <td><span class="parametername">comparisonType</span></td>
-        <td><p>Comparison Type.</p>
+        <td><span class="parametername">pathToFile</span></td>
+        <td><p>Path to manifest file.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_Path_" data-uid="StansAssets.Foundation.Editor.Manifest.Path*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_Path" data-uid="StansAssets.Foundation.Editor.Manifest.Path">Path</h4>
+  <div class="markdown level1 summary"><p>Path to manifest file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Path { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -162,37 +164,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td><p>Indexes for a matched string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_CopyToClipboard_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_CopyToClipboard_System_String_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.CopyToClipboard(System.String)">CopyToClipboard(String)</h4>
-  <div class="markdown level1 summary"><p>Copy specified string to the system copy buffer.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_AddDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.AddDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_AddDependency_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.AddDependency(System.String,System.String)">AddDependency(String, String)</h4>
+  <div class="markdown level1 summary"><p>Adds dependency.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CopyToClipboard(this string source)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddDependency(string name, string version)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,23 +194,79 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><blockquote><p>Source string.</p>
-</blockquote>
+        <td><span class="parametername">name</span></td>
+        <td><p>Dependency name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>Dependency version.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_GetFirst_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.GetFirst*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_GetFirst_System_String_System_Int32_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.GetFirst(System.String,System.Int32)">GetFirst(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves specified symbols amount from the beginning of the string.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_StansAssets_Foundation_Editor_ScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(StansAssets.Foundation.Editor.ScopeRegistry)">AddScopeRegistry(ScopeRegistry)</h4>
+  <div class="markdown level1 summary"><p>Adds scope registry.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetFirst(this string source, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddScopeRegistry(ScopeRegistry registry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a></td>
+        <td><span class="parametername">registry</span></td>
+        <td><p>An entry to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_ApplyChanges_" data-uid="StansAssets.Foundation.Editor.Manifest.ApplyChanges*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_ApplyChanges" data-uid="StansAssets.Foundation.Editor.Manifest.ApplyChanges">ApplyChanges()</h4>
+  <div class="markdown level1 summary"><p>Writes changes back to the manifest file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ApplyChanges()</code></pre>
+  </div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_Fetch_" data-uid="StansAssets.Foundation.Editor.Manifest.Fetch*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_Fetch" data-uid="StansAssets.Foundation.Editor.Manifest.Fetch">Fetch()</h4>
+  <div class="markdown level1 summary"><p>Read the Manifest file and deserialize its content from JSON.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Fetch()</code></pre>
+  </div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_GetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.GetDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_GetDependency_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.GetDependency(System.String)">GetDependency(String)</h4>
+  <div class="markdown level1 summary"><p>Returns dependency by a provided name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dependency GetDependency(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -236,14 +280,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>Amount of symbols</p>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the dependency.</p>
 </td>
       </tr>
     </tbody>
@@ -258,22 +296,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>Specified symbols amount from the beginning of the string.</p>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
+        <td><p>Dependency with given name.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_GetLast_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.GetLast*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_GetLast_System_String_System_Int32_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.GetLast(System.String,System.Int32)">GetLast(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Retrieves specified symbols amount from the end of the string.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_GetScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.GetScopeRegistry*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_GetScopeRegistry_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.GetScopeRegistry(System.String)">GetScopeRegistry(String)</h4>
+  <div class="markdown level1 summary"><p>Returns scope registry by a provided url.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetLast(this string source, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScopeRegistry GetScopeRegistry(string url)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -287,14 +325,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>Amount of symbols</p>
+        <td><span class="parametername">url</span></td>
+        <td><p>Scope registry url.</p>
 </td>
       </tr>
     </tbody>
@@ -309,22 +341,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>Specified symbols amount from the end of the string.</p>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a></td>
+        <td><p>Scope registry with the given url.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_RemoveLast_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.RemoveLast*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_RemoveLast_System_String_System_Int32_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.RemoveLast(System.String,System.Int32)">RemoveLast(String, Int32)</h4>
-  <div class="markdown level1 summary"><p>Removes specified symbols amount from the end of the string.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_IsDependencyExists_" data-uid="StansAssets.Foundation.Editor.Manifest.IsDependencyExists*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_IsDependencyExists_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.IsDependencyExists(System.String)">IsDependencyExists(String)</h4>
+  <div class="markdown level1 summary"><p>Searches for a specific dependency by the provided name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string RemoveLast(this string source, int count)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsDependencyExists(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -338,14 +370,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">source</span></td>
-        <td><p>Source string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">count</span></td>
-        <td><p>Amount of symbols</p>
+        <td><span class="parametername">name</span></td>
+        <td><p>The dependency name to search for.</p>
 </td>
       </tr>
     </tbody>
@@ -360,22 +386,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>Modified string.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if found, <code>false</code> otherwise.</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_TrimEnd_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.TrimEnd*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_TrimEnd_System_String_System_String_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.TrimEnd(System.String,System.String)">TrimEnd(String, String)</h4>
-  <div class="markdown level1 summary"><p>Removes all the trailing occurrences of specified string from the current string.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_IsRegistryExists_" data-uid="StansAssets.Foundation.Editor.Manifest.IsRegistryExists*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_IsRegistryExists_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.IsRegistryExists(System.String)">IsRegistryExists(String)</h4>
+  <div class="markdown level1 summary"><p>Searches for ScopeRegistry with the provided Url.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string TrimEnd(this string target, string trimString)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsRegistryExists(string url)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -389,14 +415,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>Current string</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">trimString</span></td>
-        <td><p>A string to remove.</p>
+        <td><span class="parametername">url</span></td>
+        <td><p>ScopeRegistry url to search for.</p>
 </td>
       </tr>
     </tbody>
@@ -411,59 +431,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The string that remains after all occurrences of trimString parameter are removed from the end of the current string.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Extensions_StringExtensions_TrimStart_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.TrimStart*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_StringExtensions_TrimStart_System_String_System_String_" data-uid="StansAssets.Foundation.Extensions.StringExtensions.TrimStart(System.String,System.String)">TrimStart(String, String)</h4>
-  <div class="markdown level1 summary"><p>Removes all the leading occurrences of specified string from the current string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string TrimStart(this string target, string trimString)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>Current string.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">trimString</span></td>
-        <td><p>A string to remove.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The string that remains after all occurrences of trimString parameter are removed from the start of the current string.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if scoped registry found, <code>false</code> otherwise.</p>
 </td>
       </tr>
     </tbody>
