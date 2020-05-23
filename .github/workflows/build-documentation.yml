@@ -16,7 +16,8 @@ jobs:
     # Checkout all repos
     - name: Checkout repo
       uses: actions/checkout@v2
-      path: api.stansassets.com
+      with:
+        path: api.stansassets.com
 
     - name: list
       run: ls
