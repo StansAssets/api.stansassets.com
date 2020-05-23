@@ -37,7 +37,10 @@ jobs:
    
     # Clear existing documentation
     - name: Clear existing documentation
-      run: rm -rf api.stansassets.com/docs/*
+      run: |
+        mv api.stansassets.com/docs/CNAME api.stansassets.com/
+        rm -rf api.stansassets.com/docs/*
+        mv api.stansassets.com/CNAME api.stansassets.com/docs/
     
     # Setup software
     - name: Get mono
