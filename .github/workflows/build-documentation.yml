@@ -8,16 +8,33 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-18.04
 
     steps:
 
     # Checkout all repos
-    - name: Checkout repo
+    - name: Checkout api.stansassets.com
       uses: actions/checkout@v2
       with:
         path: api.stansassets.com
 
-    - name: list
+    - name: Checkout com.stansassets.foundation
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.DOC_MGMT_TOKEN }}
+        repository: StansAssets/com.stansassets.foundation
+        path: com.stansassets.foundation
+
+    - name: Checkout Native-Plugins
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.DOC_MGMT_TOKEN }}
+        repository: StansAssets/Native-Plugins
+        path: Native-Plugins
+
+    - name: List work directory content
       run: ls
+   
+    # Clear existing documentation
+    - name: Clear existing documentation
+      run: rm -rf api.stansassets.com/docs/*
