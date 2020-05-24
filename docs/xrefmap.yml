@@ -15705,6 +15705,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_GameService.AchievementsClient
   nameWithType: UM_GameService.AchievementsClient
+- uid: SA.CrossPlatform.GameServices.UM_GameService.HelloWorld
+  name: HelloWorld()
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_GameService.html#SA_CrossPlatform_GameServices_UM_GameService_HelloWorld
+  commentId: M:SA.CrossPlatform.GameServices.UM_GameService.HelloWorld
+  fullName: SA.CrossPlatform.GameServices.UM_GameService.HelloWorld()
+  nameWithType: UM_GameService.HelloWorld()
+- uid: SA.CrossPlatform.GameServices.UM_GameService.HelloWorld*
+  name: HelloWorld
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_GameService.html#SA_CrossPlatform_GameServices_UM_GameService_HelloWorld_
+  commentId: Overload:SA.CrossPlatform.GameServices.UM_GameService.HelloWorld
+  isSpec: "True"
+  fullName: SA.CrossPlatform.GameServices.UM_GameService.HelloWorld
+  nameWithType: UM_GameService.HelloWorld
 - uid: SA.CrossPlatform.GameServices.UM_GameService.LeaderboardsClient
   name: LeaderboardsClient
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_GameService.html#SA_CrossPlatform_GameServices_UM_GameService_LeaderboardsClient
