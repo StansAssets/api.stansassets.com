@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface UM_iNonRewardedAds
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.54.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -74,107 +74,26 @@
   <div class="markdown level0 summary"><p>A client to interact with the non-rewarded advertisement.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_IsReady">UM_IAdvertisement.IsReady</a>
+    </div>
+    <div>
+      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_Action_SA_Result__">UM_IAdvertisement.Load(Action&lt;SA_Result&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_String_Action_SA_Result__">UM_IAdvertisement.Load(String, Action&lt;SA_Result&gt;)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.Advertisement.html">SA.CrossPlatform.Advertisement</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface UM_iNonRewardedAds</code></pre>
+    <pre><code class="lang-csharp hljs">public interface UM_iNonRewardedAds : UM_IAdvertisement</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_IsReady_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady*"></a>
-  <h4 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_IsReady" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady">IsReady</h4>
-  <div class="markdown level1 summary"><p>Indicates if onn-rewarded ad is ready to be shown.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool IsReady { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load*"></a>
-  <h4 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_Action_SA_Result__" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(Action{SA_Result})">Load(Action&lt;SA_Result&gt;)</h4>
-  <div class="markdown level1 summary"><p>Load rewarded ads.
-Plugin will use non-rewarded ads id configured from the settings.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Load(Action&lt;SA_Result&gt; callback)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>Callback with the load result.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load*"></a>
-  <h4 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_System_String_Action_SA_Result__" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(System.String,Action{SA_Result})">Load(String, Action&lt;SA_Result&gt;)</h4>
-  <div class="markdown level1 summary"><p>Load non-rewarded ads.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Load(string id, Action&lt;SA_Result&gt; callback)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>Non-Rewarded ads id from the ad provider dashboard.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>Callback with the load result.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show*"></a>

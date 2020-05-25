@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface UM_iAdsClient
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.54.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -71,7 +71,7 @@
   
   <h1 id="SA_CrossPlatform_Advertisement_UM_iAdsClient" data-uid="SA.CrossPlatform.Advertisement.UM_iAdsClient" class="text-break">Interface UM_iAdsClient
   </h1>
-  <div class="markdown level0 summary"><p>A client to interact with advertisements platfrom.</p>
+  <div class="markdown level0 summary"><p>A client to interact with advertisements platform.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.Advertisement.html">SA.CrossPlatform.Advertisement</a></h6>
@@ -241,13 +241,42 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">appId</span></td>
-        <td><p>Your application / game id as configured inside servise admitistration dashboard</p>
+        <td><p>Your application / game id as configured inside service administration dashboard</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>The result callback</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_Advertisement_UM_iAdsClient_SetUserId_" data-uid="SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId*"></a>
+  <h4 id="SA_CrossPlatform_Advertisement_UM_iAdsClient_SetUserId_System_String_" data-uid="SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId(System.String)">SetUserId(String)</h4>
+  <div class="markdown level1 summary"><p>Set identifier for a specific user in the game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetUserId(string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>A string to specify an identifier for a specific user in the game.</p>
 </td>
       </tr>
     </tbody>

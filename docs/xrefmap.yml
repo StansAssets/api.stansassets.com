@@ -14231,6 +14231,38 @@ references:
   commentId: F:SA.CrossPlatform.Advertisement.UM_AdPlatform.Unity
   fullName: SA.CrossPlatform.Advertisement.UM_AdPlatform.Unity
   nameWithType: UM_AdPlatform.Unity
+- uid: SA.CrossPlatform.Advertisement.UM_AdsClientProxy
+  name: UM_AdsClientProxy
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdsClientProxy.html
+  commentId: T:SA.CrossPlatform.Advertisement.UM_AdsClientProxy
+  fullName: SA.CrossPlatform.Advertisement.UM_AdsClientProxy
+  nameWithType: UM_AdsClientProxy
+- uid: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  name: RegisterGoogleAdsClient(UM_iAdsClient)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_AdsClientProxy_RegisterGoogleAdsClient_SA_CrossPlatform_Advertisement_UM_iAdsClient_
+  commentId: M:SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  fullName: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  nameWithType: UM_AdsClientProxy.RegisterGoogleAdsClient(UM_iAdsClient)
+- uid: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient*
+  name: RegisterGoogleAdsClient
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_AdsClientProxy_RegisterGoogleAdsClient_
+  commentId: Overload:SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterGoogleAdsClient
+  nameWithType: UM_AdsClientProxy.RegisterGoogleAdsClient
+- uid: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  name: RegisterUnityAdsClient(UM_iAdsClient)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_AdsClientProxy_RegisterUnityAdsClient_SA_CrossPlatform_Advertisement_UM_iAdsClient_
+  commentId: M:SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  fullName: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
+  nameWithType: UM_AdsClientProxy.RegisterUnityAdsClient(UM_iAdsClient)
+- uid: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient*
+  name: RegisterUnityAdsClient
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_AdsClientProxy_RegisterUnityAdsClient_
+  commentId: Overload:SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Advertisement.UM_AdsClientProxy.RegisterUnityAdsClient
+  nameWithType: UM_AdsClientProxy.RegisterUnityAdsClient
 - uid: SA.CrossPlatform.Advertisement.UM_AdvertisementService
   name: UM_AdvertisementService
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdvertisementService.html
@@ -14250,25 +14282,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_AdvertisementService.GetClient
   nameWithType: UM_AdvertisementService.GetClient
-- uid: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy
-  name: UM_GoogleAdsClientProxy
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.html
-  commentId: T:SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy
-  fullName: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy
-  nameWithType: UM_GoogleAdsClientProxy
-- uid: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
-  name: RegisterAdsClient(UM_iAdsClient)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_GoogleAdsClientProxy_RegisterAdsClient_SA_CrossPlatform_Advertisement_UM_iAdsClient_
-  commentId: M:SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
-  fullName: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient(SA.CrossPlatform.Advertisement.UM_iAdsClient)
-  nameWithType: UM_GoogleAdsClientProxy.RegisterAdsClient(UM_iAdsClient)
-- uid: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient*
-  name: RegisterAdsClient
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.html#SA_CrossPlatform_Advertisement_UM_GoogleAdsClientProxy_RegisterAdsClient_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_GoogleAdsClientProxy.RegisterAdsClient
-  nameWithType: UM_GoogleAdsClientProxy.RegisterAdsClient
 - uid: SA.CrossPlatform.Advertisement.UM_iAdsClient
   name: UM_iAdsClient
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html
@@ -14352,6 +14365,63 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.RewardedAds
   nameWithType: UM_iAdsClient.RewardedAds
+- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId(System.String)
+  name: SetUserId(String)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_SetUserId_System_String_
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId(System.String)
+  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId(System.String)
+  nameWithType: UM_iAdsClient.SetUserId(String)
+- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId*
+  name: SetUserId
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_SetUserId_
+  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.SetUserId
+  nameWithType: UM_iAdsClient.SetUserId
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement
+  name: UM_IAdvertisement
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html
+  commentId: T:SA.CrossPlatform.Advertisement.UM_IAdvertisement
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement
+  nameWithType: UM_IAdvertisement
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
+  name: IsReady
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_IsReady
+  commentId: P:SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
+  nameWithType: UM_IAdvertisement.IsReady
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady*
+  name: IsReady
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_IsReady_
+  commentId: Overload:SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
+  nameWithType: UM_IAdvertisement.IsReady
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action{SA_Result})
+  name: Load(Action<SA_Result>)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action{SA_Result})
+  name.vb: Load(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action(Of SA_Result))
+  nameWithType: UM_IAdvertisement.Load(Action<SA_Result>)
+  nameWithType.vb: UM_IAdvertisement.Load(Action(Of SA_Result))
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,Action{SA_Result})
+  name: Load(String, Action<SA_Result>)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_String_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,Action{SA_Result})
+  name.vb: Load(String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, Action(Of SA_Result))
+  nameWithType: UM_IAdvertisement.Load(String, Action<SA_Result>)
+  nameWithType.vb: UM_IAdvertisement.Load(String, Action(Of SA_Result))
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load*
+  name: Load
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_
+  commentId: Overload:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load
+  nameWithType: UM_IAdvertisement.Load
 - uid: SA.CrossPlatform.Advertisement.UM_iBannerAds
   name: UM_iBannerAds
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html
@@ -14384,44 +14454,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Hide
   nameWithType: UM_iBannerAds.Hide
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_IsReady
-  commentId: P:SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady
-  nameWithType: UM_iBannerAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady*
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_IsReady_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.IsReady
-  nameWithType: UM_iBannerAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(Action{SA_Result})
-  name: Load(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Load_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(Action{SA_Result})
-  name.vb: Load(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(Action(Of SA_Result))
-  nameWithType: UM_iBannerAds.Load(Action<SA_Result>)
-  nameWithType.vb: UM_iBannerAds.Load(Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(System.String,Action{SA_Result})
-  name: Load(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Load_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(System.String,Action{SA_Result})
-  name.vb: Load(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load(System.String, Action(Of SA_Result))
-  nameWithType: UM_iBannerAds.Load(String, Action<SA_Result>)
-  nameWithType.vb: UM_iBannerAds.Load(String, Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load*
-  name: Load
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Load_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iBannerAds.Load
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Load
-  nameWithType: UM_iBannerAds.Load
 - uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(Action)
   name: Show(Action)
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Show_Action_
@@ -14441,44 +14473,6 @@ references:
   commentId: T:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds
   fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds
   nameWithType: UM_iNonRewardedAds
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_IsReady
-  commentId: P:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady
-  nameWithType: UM_iNonRewardedAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady*
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_IsReady_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.IsReady
-  nameWithType: UM_iNonRewardedAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(Action{SA_Result})
-  name: Load(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(Action{SA_Result})
-  name.vb: Load(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(Action(Of SA_Result))
-  nameWithType: UM_iNonRewardedAds.Load(Action<SA_Result>)
-  nameWithType.vb: UM_iNonRewardedAds.Load(Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(System.String,Action{SA_Result})
-  name: Load(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(System.String,Action{SA_Result})
-  name.vb: Load(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load(System.String, Action(Of SA_Result))
-  nameWithType: UM_iNonRewardedAds.Load(String, Action<SA_Result>)
-  nameWithType.vb: UM_iNonRewardedAds.Load(String, Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load*
-  name: Load
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Load_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Load
-  nameWithType: UM_iNonRewardedAds.Load
 - uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(Action)
   name: Show(Action)
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_Action_
@@ -14498,44 +14492,6 @@ references:
   commentId: T:SA.CrossPlatform.Advertisement.UM_iRewardedAds
   fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds
   nameWithType: UM_iRewardedAds
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_IsReady
-  commentId: P:SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady
-  nameWithType: UM_iRewardedAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady*
-  name: IsReady
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_IsReady_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.IsReady
-  nameWithType: UM_iRewardedAds.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(Action{SA_Result})
-  name: Load(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Load_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(Action{SA_Result})
-  name.vb: Load(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(Action(Of SA_Result))
-  nameWithType: UM_iRewardedAds.Load(Action<SA_Result>)
-  nameWithType.vb: UM_iRewardedAds.Load(Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(System.String,Action{SA_Result})
-  name: Load(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Load_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(System.String,Action{SA_Result})
-  name.vb: Load(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load(System.String, Action(Of SA_Result))
-  nameWithType: UM_iRewardedAds.Load(String, Action<SA_Result>)
-  nameWithType.vb: UM_iRewardedAds.Load(String, Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load*
-  name: Load
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Load_
-  commentId: Overload:SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load
-  isSpec: "True"
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Load
-  nameWithType: UM_iRewardedAds.Load
 - uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(Action{SA.CrossPlatform.Advertisement.UM_RewardedAdsResult})
   name: Show(Action<UM_RewardedAdsResult>)
   href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Show_Action_SA_CrossPlatform_Advertisement_UM_RewardedAdsResult__
@@ -15471,6 +15427,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout
   nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(SA_iGUILayoutElement)
+  name: RegisterUnityAdsUILayout(SA_iGUILayoutElement)
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_SA_iGUILayoutElement_
+  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(SA_iGUILayoutElement)
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(SA_iGUILayoutElement)
+  nameWithType: UM_AdvertisementUI.RegisterUnityAdsUILayout(SA_iGUILayoutElement)
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout*
+  name: RegisterUnityAdsUILayout
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_
+  commentId: Overload:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout
+  nameWithType: UM_AdvertisementUI.RegisterUnityAdsUILayout
 - uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.Resolver
   name: Resolver
   href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_Resolver
@@ -16377,6 +16346,22 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut
   nameWithType: UM_iSignInClient.SignOut
+- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action{SA_Result})
+  name: SingIn(Action<SA_Result>)
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action{SA_Result})
+  name.vb: SingIn(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action(Of SA_Result))
+  nameWithType: UM_iSignInClient.SingIn(Action<SA_Result>)
+  nameWithType.vb: UM_iSignInClient.SingIn(Action(Of SA_Result))
+- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn*
+  name: SingIn
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_
+  commentId: Overload:SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn
+  isSpec: "True"
+  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn
+  nameWithType: UM_iSignInClient.SingIn
 - uid: SA.CrossPlatform.GameServices.UM_LeaderboardCollection
   name: UM_LeaderboardCollection
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_LeaderboardCollection.html

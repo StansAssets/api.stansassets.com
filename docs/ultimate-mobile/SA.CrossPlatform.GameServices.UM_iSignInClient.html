@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface UM_iSignInClient
    ">
-    <meta name="generator" content="docfx 2.53.1.0">
+    <meta name="generator" content="docfx 2.54.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -114,7 +114,7 @@ Player Singed in / Signed out / Changed Account</p>
   <a id="SA_CrossPlatform_GameServices_UM_iSignInClient_PlayerInfo_" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.PlayerInfo*"></a>
   <h4 id="SA_CrossPlatform_GameServices_UM_iSignInClient_PlayerInfo" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.PlayerInfo">PlayerInfo</h4>
   <div class="markdown level1 summary"><p>Current Player info
-Use this property to find out current <a class="xref" href="SA.CrossPlatform.GameServices.UM_PlayerState.html">UM_PlayerState</a> 
+Use this property to find out current <a class="xref" href="SA.CrossPlatform.GameServices.UM_PlayerState.html">UM_PlayerState</a>
 and get singed <a class="xref" href="SA.CrossPlatform.GameServices.UM_iPlayer.html">UM_iPlayer</a> object</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -172,7 +172,7 @@ and get singed <a class="xref" href="SA.CrossPlatform.GameServices.UM_iPlayer.ht
   
   <a id="SA_CrossPlatform_GameServices_UM_iSignInClient_SignOut_" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut*"></a>
   <h4 id="SA_CrossPlatform_GameServices_UM_iSignInClient_SignOut_Action_SA_Result__" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(Action{SA_Result})">SignOut(Action&lt;SA_Result&gt;)</h4>
-  <div class="markdown level1 summary"><p>Start&apos;s Sing Out flow</p>
+  <div class="markdown level1 summary"><p>Starts Sing Out flow</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -194,6 +194,33 @@ and get singed <a class="xref" href="SA.CrossPlatform.GameServices.UM_iPlayer.ht
         <td><span class="parametername">callback</span></td>
         <td><p>Operation async callback</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn*"></a>
+  <h4 id="SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_Action_SA_Result__" data-uid="SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action{SA_Result})">SingIn(Action&lt;SA_Result&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SingIn(Action&lt;SA_Result&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">SA_Result</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
