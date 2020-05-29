@@ -31513,55 +31513,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.PackageManagerUtility.RemovePackage
   nameWithType: PackageManagerUtility.RemovePackage
-- uid: StansAssets.Foundation.Editor.Plugins
-  name: StansAssets.Foundation.Editor.Plugins
-  href: foundation/StansAssets.Foundation.Editor.Plugins.html
-  commentId: N:StansAssets.Foundation.Editor.Plugins
-  fullName: StansAssets.Foundation.Editor.Plugins
-  nameWithType: StansAssets.Foundation.Editor.Plugins
-- uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1
-  name: PackageSettingsWindow<TWindow>
-  href: foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html
-  commentId: T:StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1
-  name.vb: PackageSettingsWindow(Of TWindow)
-  fullName: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow<TWindow>
-  fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow)
-  nameWithType: PackageSettingsWindow<TWindow>
-  nameWithType.vb: PackageSettingsWindow(Of TWindow)
-- uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.GetPackageInfo
-  name: GetPackageInfo()
-  href: foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_Plugins_PackageSettingsWindow_1_GetPackageInfo
-  commentId: M:StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.GetPackageInfo
-  fullName: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow<TWindow>.GetPackageInfo()
-  fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow).GetPackageInfo()
-  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo()
-  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo()
-- uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.GetPackageInfo*
-  name: GetPackageInfo
-  href: foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_Plugins_PackageSettingsWindow_1_GetPackageInfo_
-  commentId: Overload:StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.GetPackageInfo
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow<TWindow>.GetPackageInfo
-  fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow).GetPackageInfo
-  nameWithType: PackageSettingsWindow<TWindow>.GetPackageInfo
-  nameWithType.vb: PackageSettingsWindow(Of TWindow).GetPackageInfo
-- uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
-  name: ShowTowardsInspector(String, Texture)
-  href: foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_Plugins_PackageSettingsWindow_1_ShowTowardsInspector_System_String_Texture_
-  commentId: M:StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.ShowTowardsInspector(System.String,Texture)
-  fullName: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow<TWindow>.ShowTowardsInspector(System.String, Texture)
-  fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow).ShowTowardsInspector(System.String, Texture)
-  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector(String, Texture)
-  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector(String, Texture)
-- uid: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.ShowTowardsInspector*
-  name: ShowTowardsInspector
-  href: foundation/StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow-1.html#StansAssets_Foundation_Editor_Plugins_PackageSettingsWindow_1_ShowTowardsInspector_
-  commentId: Overload:StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow`1.ShowTowardsInspector
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow<TWindow>.ShowTowardsInspector
-  fullName.vb: StansAssets.Foundation.Editor.Plugins.PackageSettingsWindow(Of TWindow).ShowTowardsInspector
-  nameWithType: PackageSettingsWindow<TWindow>.ShowTowardsInspector
-  nameWithType.vb: PackageSettingsWindow(Of TWindow).ShowTowardsInspector
 - uid: StansAssets.Foundation.Editor.ScopeRegistry
   name: ScopeRegistry
   href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html
