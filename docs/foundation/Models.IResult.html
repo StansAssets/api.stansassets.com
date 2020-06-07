@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PackageScriptableSettingsSingleton&lt;T&gt;
+    <title>Interface IResult
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PackageScriptableSettingsSingleton&lt;T&gt;
+    <meta name="title" content="Interface IResult
    ">
     <meta name="generator" content="docfx 2.54.0.0">
     
@@ -66,65 +66,33 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1">
+            <article class="content wrap" id="_content" data-uid="Models.IResult">
   
   
-  <h1 id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1" class="text-break">Class PackageScriptableSettingsSingleton&lt;T&gt;
+  <h1 id="Models_IResult" data-uid="Models.IResult" class="text-break">Interface IResult
   </h1>
-  <div class="markdown level0 summary"><p>Package Scriptable Settings singleton pattern implementation.</p>
+  <div class="markdown level0 summary"><p>Result model.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettings.html">PackageScriptableSettings</a></div>
-    <div class="level2"><span class="xref">PackageScriptableSettingsSingleton&lt;T&gt;</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_PackageName">PackageScriptableSettings.PackageName</a>
-    </div>
-    <div>
-      <a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_SettingsLocations">PackageScriptableSettings.SettingsLocations</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Patterns.html">StansAssets.Foundation.Patterns</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Models.html">Models</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_syntax">Syntax</h5>
+  <h5 id="Models_IResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class PackageScriptableSettingsSingleton&lt;T&gt; : PackageScriptableSettings where T : PackageScriptableSettings</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IResult</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Instance_" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Instance" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>Returns a singleton class instance
-If current instance is not assigned it will try to find an object of the instance type,
-in case instance already exists in a project. If not, new instance will be created,
-and saved under a <a class="xref" href="StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_SettingsLocations">SettingsLocations</a> location</p>
+  <a id="Models_IResult_Error_" data-uid="Models.IResult.Error*"></a>
+  <h4 id="Models_IResult_Error" data-uid="Models.IResult.Error">Error</h4>
+  <div class="markdown level1 summary"><p>Gets the result error object. If Error message is empty,
+result is succeeded.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">IError Error { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,8 +104,89 @@ and saved under a <a class="xref" href="StansAssets.Foundation.Patterns.PackageS
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><a class="xref" href="Models.IError.html">IError</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Models_IResult_HasError_" data-uid="Models.IResult.HasError*"></a>
+  <h4 id="Models_IResult_HasError" data-uid="Models.IResult.HasError">HasError</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this this result has error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasError { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if has error; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Models_IResult_IsFailed_" data-uid="Models.IResult.IsFailed*"></a>
+  <h4 id="Models_IResult_IsFailed" data-uid="Models.IResult.IsFailed">IsFailed</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this result is failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsFailed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if is failed; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Models_IResult_IsSucceeded_" data-uid="Models.IResult.IsSucceeded*"></a>
+  <h4 id="Models_IResult_IsSucceeded" data-uid="Models.IResult.IsSucceeded">IsSucceeded</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this result is succeeded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsSucceeded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if is succeeded; otherwise, <code>false</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -145,16 +194,30 @@ and saved under a <a class="xref" href="StansAssets.Foundation.Patterns.PackageS
   </h3>
   
   
-  <a id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Save_" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Save" data-uid="StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save">Save()</h4>
-  <div class="markdown level1 summary"><p>Saves instance to an editor database.
-Only applicable while in the editor.</p>
+  <a id="Models_IResult_ToJson_" data-uid="Models.IResult.ToJson*"></a>
+  <h4 id="Models_IResult_ToJson" data-uid="Models.IResult.ToJson">ToJson()</h4>
+  <div class="markdown level1 summary"><p>Convert to the result json string.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Save()</code></pre>
+    <pre><code class="lang-csharp hljs">string ToJson()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

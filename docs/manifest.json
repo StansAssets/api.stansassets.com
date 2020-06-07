@@ -2680,6 +2680,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/Models.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/Models.Error.html",
+          "hash": "fVYQvxGy2XG5Ff4wbFhyPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/Models.IError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/Models.IError.html",
+          "hash": "4LpuaAMiXdtgKh0/pBZkqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/Models.IResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/Models.IResult.html",
+          "hash": "wdSJ9JQsCDdSdObvV6Aj/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/Models.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/Models.Result.html",
+          "hash": "apANQ/IA08mZfraAsO/kAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/Models.html",
+          "hash": "n2Yn7bFD3wEAubA8KRYQYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Async.CoroutineUtility.yml",
       "output": {
         ".html": {
@@ -2721,6 +2781,18 @@
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.html",
           "hash": "vC+9/ajnnSDNGGSXFncbeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.CachedWebRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.CachedWebRequest.html",
+          "hash": "WN+lsuU8+Iwhdjqe7wDvjw=="
         }
       },
       "is_incremental": false,
@@ -3136,30 +3208,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html",
-          "hash": "1C4rHTSOk5P78LsDiLwePQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html",
-          "hash": "DvfajLp0VH5wZBPCeDvWiQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.PrefabPool.yml",
       "output": {
         ".html": {
@@ -3188,7 +3236,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.html",
-          "hash": "jmD+0tGrtCjF8Qbj9ysUXA=="
+          "hash": "owg45E4A+gRFjgcTdLYrdg=="
         }
       },
       "is_incremental": false,
@@ -3248,7 +3296,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.html",
-          "hash": "9Xit6M0QnhJQtYOfOVQDNA=="
+          "hash": "salwh1wFtabm89IgKDepQQ=="
         }
       },
       "is_incremental": false,
@@ -3272,7 +3320,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "Tg0dQQggPLDss2GGMswlhA=="
+          "hash": "ZQjmNtyTvpONU9PUOTHLBA=="
         }
       },
       "is_incremental": false,
@@ -7441,7 +7489,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 600,
+          "total_file_count": 604,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

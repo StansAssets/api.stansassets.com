@@ -1,6 +1,307 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: Models
+  name: Models
+  href: foundation/Models.html
+  commentId: N:Models
+  fullName: Models
+  nameWithType: Models
+- uid: Models.Error
+  name: Error
+  href: foundation/Models.Error.html
+  commentId: T:Models.Error
+  fullName: Models.Error
+  nameWithType: Error
+- uid: Models.Error.#ctor(System.Int32)
+  name: Error(Int32)
+  href: foundation/Models.Error.html#Models_Error__ctor_System_Int32_
+  commentId: M:Models.Error.#ctor(System.Int32)
+  fullName: Models.Error.Error(System.Int32)
+  nameWithType: Error.Error(Int32)
+- uid: Models.Error.#ctor(System.Int32,System.String)
+  name: Error(Int32, String)
+  href: foundation/Models.Error.html#Models_Error__ctor_System_Int32_System_String_
+  commentId: M:Models.Error.#ctor(System.Int32,System.String)
+  fullName: Models.Error.Error(System.Int32, System.String)
+  nameWithType: Error.Error(Int32, String)
+- uid: Models.Error.#ctor*
+  name: Error
+  href: foundation/Models.Error.html#Models_Error__ctor_
+  commentId: Overload:Models.Error.#ctor
+  isSpec: "True"
+  fullName: Models.Error.Error
+  nameWithType: Error.Error
+- uid: Models.Error.Code
+  name: Code
+  href: foundation/Models.Error.html#Models_Error_Code
+  commentId: P:Models.Error.Code
+  fullName: Models.Error.Code
+  nameWithType: Error.Code
+- uid: Models.Error.Code*
+  name: Code
+  href: foundation/Models.Error.html#Models_Error_Code_
+  commentId: Overload:Models.Error.Code
+  isSpec: "True"
+  fullName: Models.Error.Code
+  nameWithType: Error.Code
+- uid: Models.Error.FullMessage
+  name: FullMessage
+  href: foundation/Models.Error.html#Models_Error_FullMessage
+  commentId: P:Models.Error.FullMessage
+  fullName: Models.Error.FullMessage
+  nameWithType: Error.FullMessage
+- uid: Models.Error.FullMessage*
+  name: FullMessage
+  href: foundation/Models.Error.html#Models_Error_FullMessage_
+  commentId: Overload:Models.Error.FullMessage
+  isSpec: "True"
+  fullName: Models.Error.FullMessage
+  nameWithType: Error.FullMessage
+- uid: Models.Error.Message
+  name: Message
+  href: foundation/Models.Error.html#Models_Error_Message
+  commentId: P:Models.Error.Message
+  fullName: Models.Error.Message
+  nameWithType: Error.Message
+- uid: Models.Error.Message*
+  name: Message
+  href: foundation/Models.Error.html#Models_Error_Message_
+  commentId: Overload:Models.Error.Message
+  isSpec: "True"
+  fullName: Models.Error.Message
+  nameWithType: Error.Message
+- uid: Models.IError
+  name: IError
+  href: foundation/Models.IError.html
+  commentId: T:Models.IError
+  fullName: Models.IError
+  nameWithType: IError
+- uid: Models.IError.Code
+  name: Code
+  href: foundation/Models.IError.html#Models_IError_Code
+  commentId: P:Models.IError.Code
+  fullName: Models.IError.Code
+  nameWithType: IError.Code
+- uid: Models.IError.Code*
+  name: Code
+  href: foundation/Models.IError.html#Models_IError_Code_
+  commentId: Overload:Models.IError.Code
+  isSpec: "True"
+  fullName: Models.IError.Code
+  nameWithType: IError.Code
+- uid: Models.IError.FullMessage
+  name: FullMessage
+  href: foundation/Models.IError.html#Models_IError_FullMessage
+  commentId: P:Models.IError.FullMessage
+  fullName: Models.IError.FullMessage
+  nameWithType: IError.FullMessage
+- uid: Models.IError.FullMessage*
+  name: FullMessage
+  href: foundation/Models.IError.html#Models_IError_FullMessage_
+  commentId: Overload:Models.IError.FullMessage
+  isSpec: "True"
+  fullName: Models.IError.FullMessage
+  nameWithType: IError.FullMessage
+- uid: Models.IError.Message
+  name: Message
+  href: foundation/Models.IError.html#Models_IError_Message
+  commentId: P:Models.IError.Message
+  fullName: Models.IError.Message
+  nameWithType: IError.Message
+- uid: Models.IError.Message*
+  name: Message
+  href: foundation/Models.IError.html#Models_IError_Message_
+  commentId: Overload:Models.IError.Message
+  isSpec: "True"
+  fullName: Models.IError.Message
+  nameWithType: IError.Message
+- uid: Models.IResult
+  name: IResult
+  href: foundation/Models.IResult.html
+  commentId: T:Models.IResult
+  fullName: Models.IResult
+  nameWithType: IResult
+- uid: Models.IResult.Error
+  name: Error
+  href: foundation/Models.IResult.html#Models_IResult_Error
+  commentId: P:Models.IResult.Error
+  fullName: Models.IResult.Error
+  nameWithType: IResult.Error
+- uid: Models.IResult.Error*
+  name: Error
+  href: foundation/Models.IResult.html#Models_IResult_Error_
+  commentId: Overload:Models.IResult.Error
+  isSpec: "True"
+  fullName: Models.IResult.Error
+  nameWithType: IResult.Error
+- uid: Models.IResult.HasError
+  name: HasError
+  href: foundation/Models.IResult.html#Models_IResult_HasError
+  commentId: P:Models.IResult.HasError
+  fullName: Models.IResult.HasError
+  nameWithType: IResult.HasError
+- uid: Models.IResult.HasError*
+  name: HasError
+  href: foundation/Models.IResult.html#Models_IResult_HasError_
+  commentId: Overload:Models.IResult.HasError
+  isSpec: "True"
+  fullName: Models.IResult.HasError
+  nameWithType: IResult.HasError
+- uid: Models.IResult.IsFailed
+  name: IsFailed
+  href: foundation/Models.IResult.html#Models_IResult_IsFailed
+  commentId: P:Models.IResult.IsFailed
+  fullName: Models.IResult.IsFailed
+  nameWithType: IResult.IsFailed
+- uid: Models.IResult.IsFailed*
+  name: IsFailed
+  href: foundation/Models.IResult.html#Models_IResult_IsFailed_
+  commentId: Overload:Models.IResult.IsFailed
+  isSpec: "True"
+  fullName: Models.IResult.IsFailed
+  nameWithType: IResult.IsFailed
+- uid: Models.IResult.IsSucceeded
+  name: IsSucceeded
+  href: foundation/Models.IResult.html#Models_IResult_IsSucceeded
+  commentId: P:Models.IResult.IsSucceeded
+  fullName: Models.IResult.IsSucceeded
+  nameWithType: IResult.IsSucceeded
+- uid: Models.IResult.IsSucceeded*
+  name: IsSucceeded
+  href: foundation/Models.IResult.html#Models_IResult_IsSucceeded_
+  commentId: Overload:Models.IResult.IsSucceeded
+  isSpec: "True"
+  fullName: Models.IResult.IsSucceeded
+  nameWithType: IResult.IsSucceeded
+- uid: Models.IResult.ToJson
+  name: ToJson()
+  href: foundation/Models.IResult.html#Models_IResult_ToJson
+  commentId: M:Models.IResult.ToJson
+  fullName: Models.IResult.ToJson()
+  nameWithType: IResult.ToJson()
+- uid: Models.IResult.ToJson*
+  name: ToJson
+  href: foundation/Models.IResult.html#Models_IResult_ToJson_
+  commentId: Overload:Models.IResult.ToJson
+  isSpec: "True"
+  fullName: Models.IResult.ToJson
+  nameWithType: IResult.ToJson
+- uid: Models.Result
+  name: Result
+  href: foundation/Models.Result.html
+  commentId: T:Models.Result
+  fullName: Models.Result
+  nameWithType: Result
+- uid: Models.Result.#ctor
+  name: Result()
+  href: foundation/Models.Result.html#Models_Result__ctor
+  commentId: M:Models.Result.#ctor
+  fullName: Models.Result.Result()
+  nameWithType: Result.Result()
+- uid: Models.Result.#ctor(Models.Error)
+  name: Result(Error)
+  href: foundation/Models.Result.html#Models_Result__ctor_Models_Error_
+  commentId: M:Models.Result.#ctor(Models.Error)
+  fullName: Models.Result.Result(Models.Error)
+  nameWithType: Result.Result(Error)
+- uid: Models.Result.#ctor(Models.Result)
+  name: Result(Result)
+  href: foundation/Models.Result.html#Models_Result__ctor_Models_Result_
+  commentId: M:Models.Result.#ctor(Models.Result)
+  fullName: Models.Result.Result(Models.Result)
+  nameWithType: Result.Result(Result)
+- uid: Models.Result.#ctor*
+  name: Result
+  href: foundation/Models.Result.html#Models_Result__ctor_
+  commentId: Overload:Models.Result.#ctor
+  isSpec: "True"
+  fullName: Models.Result.Result
+  nameWithType: Result.Result
+- uid: Models.Result.Error
+  name: Error
+  href: foundation/Models.Result.html#Models_Result_Error
+  commentId: P:Models.Result.Error
+  fullName: Models.Result.Error
+  nameWithType: Result.Error
+- uid: Models.Result.Error*
+  name: Error
+  href: foundation/Models.Result.html#Models_Result_Error_
+  commentId: Overload:Models.Result.Error
+  isSpec: "True"
+  fullName: Models.Result.Error
+  nameWithType: Result.Error
+- uid: Models.Result.HasError
+  name: HasError
+  href: foundation/Models.Result.html#Models_Result_HasError
+  commentId: P:Models.Result.HasError
+  fullName: Models.Result.HasError
+  nameWithType: Result.HasError
+- uid: Models.Result.HasError*
+  name: HasError
+  href: foundation/Models.Result.html#Models_Result_HasError_
+  commentId: Overload:Models.Result.HasError
+  isSpec: "True"
+  fullName: Models.Result.HasError
+  nameWithType: Result.HasError
+- uid: Models.Result.IsFailed
+  name: IsFailed
+  href: foundation/Models.Result.html#Models_Result_IsFailed
+  commentId: P:Models.Result.IsFailed
+  fullName: Models.Result.IsFailed
+  nameWithType: Result.IsFailed
+- uid: Models.Result.IsFailed*
+  name: IsFailed
+  href: foundation/Models.Result.html#Models_Result_IsFailed_
+  commentId: Overload:Models.Result.IsFailed
+  isSpec: "True"
+  fullName: Models.Result.IsFailed
+  nameWithType: Result.IsFailed
+- uid: Models.Result.IsSucceeded
+  name: IsSucceeded
+  href: foundation/Models.Result.html#Models_Result_IsSucceeded
+  commentId: P:Models.Result.IsSucceeded
+  fullName: Models.Result.IsSucceeded
+  nameWithType: Result.IsSucceeded
+- uid: Models.Result.IsSucceeded*
+  name: IsSucceeded
+  href: foundation/Models.Result.html#Models_Result_IsSucceeded_
+  commentId: Overload:Models.Result.IsSucceeded
+  isSpec: "True"
+  fullName: Models.Result.IsSucceeded
+  nameWithType: Result.IsSucceeded
+- uid: Models.Result.m_Error
+  name: m_Error
+  href: foundation/Models.Result.html#Models_Result_m_Error
+  commentId: F:Models.Result.m_Error
+  fullName: Models.Result.m_Error
+  nameWithType: Result.m_Error
+- uid: Models.Result.SetError(Models.Error)
+  name: SetError(Error)
+  href: foundation/Models.Result.html#Models_Result_SetError_Models_Error_
+  commentId: M:Models.Result.SetError(Models.Error)
+  fullName: Models.Result.SetError(Models.Error)
+  nameWithType: Result.SetError(Error)
+- uid: Models.Result.SetError*
+  name: SetError
+  href: foundation/Models.Result.html#Models_Result_SetError_
+  commentId: Overload:Models.Result.SetError
+  isSpec: "True"
+  fullName: Models.Result.SetError
+  nameWithType: Result.SetError
+- uid: Models.Result.ToJson
+  name: ToJson()
+  href: foundation/Models.Result.html#Models_Result_ToJson
+  commentId: M:Models.Result.ToJson
+  fullName: Models.Result.ToJson()
+  nameWithType: Result.ToJson()
+- uid: Models.Result.ToJson*
+  name: ToJson
+  href: foundation/Models.Result.html#Models_Result_ToJson_
+  commentId: Overload:Models.Result.ToJson
+  isSpec: "True"
+  fullName: Models.Result.ToJson
+  nameWithType: Result.ToJson
 - uid: SA.Android.App
   name: SA.Android.App
   href: android-native/SA.Android.App.html
@@ -31042,6 +31343,73 @@ references:
   commentId: E:StansAssets.Foundation.Async.MonoBehaviourCallback.OnUpdate
   fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.OnUpdate
   nameWithType: MonoBehaviourCallback.OnUpdate
+- uid: StansAssets.Foundation.CachedWebRequest
+  name: CachedWebRequest
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html
+  commentId: T:StansAssets.Foundation.CachedWebRequest
+  fullName: StansAssets.Foundation.CachedWebRequest
+  nameWithType: CachedWebRequest
+- uid: StansAssets.Foundation.CachedWebRequest.ClearCache
+  name: ClearCache()
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_ClearCache
+  commentId: M:StansAssets.Foundation.CachedWebRequest.ClearCache
+  fullName: StansAssets.Foundation.CachedWebRequest.ClearCache()
+  nameWithType: CachedWebRequest.ClearCache()
+- uid: StansAssets.Foundation.CachedWebRequest.ClearCache*
+  name: ClearCache
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_ClearCache_
+  commentId: Overload:StansAssets.Foundation.CachedWebRequest.ClearCache
+  isSpec: "True"
+  fullName: StansAssets.Foundation.CachedWebRequest.ClearCache
+  nameWithType: CachedWebRequest.ClearCache
+- uid: StansAssets.Foundation.CachedWebRequest.Get(System.String,System.Action{UnityWebRequest})
+  name: Get(String, Action<UnityWebRequest>)
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_Get_System_String_System_Action_UnityWebRequest__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.Get(System.String,System.Action{UnityWebRequest})
+  name.vb: Get(String, Action(Of UnityWebRequest))
+  fullName: StansAssets.Foundation.CachedWebRequest.Get(System.String, System.Action<UnityWebRequest>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.Get(System.String, System.Action(Of UnityWebRequest))
+  nameWithType: CachedWebRequest.Get(String, Action<UnityWebRequest>)
+  nameWithType.vb: CachedWebRequest.Get(String, Action(Of UnityWebRequest))
+- uid: StansAssets.Foundation.CachedWebRequest.Get*
+  name: Get
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_Get_
+  commentId: Overload:StansAssets.Foundation.CachedWebRequest.Get
+  isSpec: "True"
+  fullName: StansAssets.Foundation.CachedWebRequest.Get
+  nameWithType: CachedWebRequest.Get
+- uid: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,System.Action{AudioClip})
+  name: GetAudioClip(String, Action<AudioClip>)
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetAudioClip_System_String_System_Action_AudioClip__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,System.Action{AudioClip})
+  name.vb: GetAudioClip(String, Action(Of AudioClip))
+  fullName: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, System.Action<AudioClip>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, System.Action(Of AudioClip))
+  nameWithType: CachedWebRequest.GetAudioClip(String, Action<AudioClip>)
+  nameWithType.vb: CachedWebRequest.GetAudioClip(String, Action(Of AudioClip))
+- uid: StansAssets.Foundation.CachedWebRequest.GetAudioClip*
+  name: GetAudioClip
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetAudioClip_
+  commentId: Overload:StansAssets.Foundation.CachedWebRequest.GetAudioClip
+  isSpec: "True"
+  fullName: StansAssets.Foundation.CachedWebRequest.GetAudioClip
+  nameWithType: CachedWebRequest.GetAudioClip
+- uid: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,System.Action{Texture2D})
+  name: GetTexture2D(String, Action<Texture2D>)
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetTexture2D_System_String_System_Action_Texture2D__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,System.Action{Texture2D})
+  name.vb: GetTexture2D(String, Action(Of Texture2D))
+  fullName: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, System.Action<Texture2D>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, System.Action(Of Texture2D))
+  nameWithType: CachedWebRequest.GetTexture2D(String, Action<Texture2D>)
+  nameWithType.vb: CachedWebRequest.GetTexture2D(String, Action(Of Texture2D))
+- uid: StansAssets.Foundation.CachedWebRequest.GetTexture2D*
+  name: GetTexture2D
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetTexture2D_
+  commentId: Overload:StansAssets.Foundation.CachedWebRequest.GetTexture2D
+  isSpec: "True"
+  fullName: StansAssets.Foundation.CachedWebRequest.GetTexture2D
+  nameWithType: CachedWebRequest.GetTexture2D
 - uid: StansAssets.Foundation.Editor
   name: StansAssets.Foundation.Editor
   href: foundation/StansAssets.Foundation.Editor.html
@@ -32743,81 +33111,6 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).Release
   nameWithType: ObjectPool<T>.Release
   nameWithType.vb: ObjectPool(Of T).Release
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings
-  name: PackageScriptableSettings
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html
-  commentId: T:StansAssets.Foundation.Patterns.PackageScriptableSettings
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings
-  nameWithType: PackageScriptableSettings
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
-  name: PackageName
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_PackageName
-  commentId: P:StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
-  nameWithType: PackageScriptableSettings.PackageName
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName*
-  name: PackageName
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_PackageName_
-  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.PackageName
-  nameWithType: PackageScriptableSettings.PackageName
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
-  name: SettingsLocations
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_SettingsLocations
-  commentId: P:StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
-  nameWithType: PackageScriptableSettings.SettingsLocations
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations*
-  name: SettingsLocations
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettings.html#StansAssets_Foundation_Patterns_PackageScriptableSettings_SettingsLocations_
-  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettings.SettingsLocations
-  nameWithType: PackageScriptableSettings.SettingsLocations
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1
-  name: PackageScriptableSettingsSingleton<T>
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html
-  commentId: T:StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1
-  name.vb: PackageScriptableSettingsSingleton(Of T)
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton<T>
-  fullName.vb: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton(Of T)
-  nameWithType: PackageScriptableSettingsSingleton<T>
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T)
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance
-  name: Instance
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Instance
-  commentId: P:StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton<T>.Instance
-  fullName.vb: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton(Of T).Instance
-  nameWithType: PackageScriptableSettingsSingleton<T>.Instance
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Instance
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance*
-  name: Instance
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Instance_
-  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Instance
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton<T>.Instance
-  fullName.vb: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton(Of T).Instance
-  nameWithType: PackageScriptableSettingsSingleton<T>.Instance
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Instance
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save
-  name: Save()
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Save
-  commentId: M:StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton<T>.Save()
-  fullName.vb: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton(Of T).Save()
-  nameWithType: PackageScriptableSettingsSingleton<T>.Save()
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Save()
-- uid: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save*
-  name: Save
-  href: foundation/StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton-1.html#StansAssets_Foundation_Patterns_PackageScriptableSettingsSingleton_1_Save_
-  commentId: Overload:StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton`1.Save
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton<T>.Save
-  fullName.vb: StansAssets.Foundation.Patterns.PackageScriptableSettingsSingleton(Of T).Save
-  nameWithType: PackageScriptableSettingsSingleton<T>.Save
-  nameWithType.vb: PackageScriptableSettingsSingleton(Of T).Save
 - uid: StansAssets.Foundation.Patterns.PrefabPool
   name: PrefabPool
   href: foundation/StansAssets.Foundation.Patterns.PrefabPool.html
