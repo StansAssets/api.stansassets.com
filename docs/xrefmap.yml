@@ -33213,6 +33213,94 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.FindType
   nameWithType: ReflectionUtility.FindType
+- uid: StansAssets.Foundation.Texture2DUtility
+  name: Texture2DUtility
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html
+  commentId: T:StansAssets.Foundation.Texture2DUtility
+  fullName: StansAssets.Foundation.Texture2DUtility
+  nameWithType: Texture2DUtility
+- uid: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(Color,System.Int32,System.Int32,System.Boolean)
+  name: MakePlainColorImage(Color, Int32, Int32, Boolean)
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_MakePlainColorImage_Color_System_Int32_System_Int32_System_Boolean_
+  commentId: M:StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(Color,System.Int32,System.Int32,System.Boolean)
+  fullName: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(Color, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Texture2DUtility.MakePlainColorImage(Color, Int32, Int32, Boolean)
+- uid: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(System.String,System.Int32,System.Int32,System.Boolean)
+  name: MakePlainColorImage(String, Int32, Int32, Boolean)
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_MakePlainColorImage_System_String_System_Int32_System_Int32_System_Boolean_
+  commentId: M:StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(System.String,System.Int32,System.Int32,System.Boolean)
+  fullName: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage(System.String, System.Int32, System.Int32, System.Boolean)
+  nameWithType: Texture2DUtility.MakePlainColorImage(String, Int32, Int32, Boolean)
+- uid: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage*
+  name: MakePlainColorImage
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_MakePlainColorImage_
+  commentId: Overload:StansAssets.Foundation.Texture2DUtility.MakePlainColorImage
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Texture2DUtility.MakePlainColorImage
+  nameWithType: Texture2DUtility.MakePlainColorImage
+- uid: StansAssets.Foundation.Texture2DUtility.Resize(Texture2D,System.Int32,System.Int32,FilterMode)
+  name: Resize(Texture2D, Int32, Int32, FilterMode)
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_Resize_Texture2D_System_Int32_System_Int32_FilterMode_
+  commentId: M:StansAssets.Foundation.Texture2DUtility.Resize(Texture2D,System.Int32,System.Int32,FilterMode)
+  fullName: StansAssets.Foundation.Texture2DUtility.Resize(Texture2D, System.Int32, System.Int32, FilterMode)
+  nameWithType: Texture2DUtility.Resize(Texture2D, Int32, Int32, FilterMode)
+- uid: StansAssets.Foundation.Texture2DUtility.Resize*
+  name: Resize
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_Resize_
+  commentId: Overload:StansAssets.Foundation.Texture2DUtility.Resize
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Texture2DUtility.Resize
+  nameWithType: Texture2DUtility.Resize
+- uid: StansAssets.Foundation.Texture2DUtility.Rotate(Texture2D,System.Single)
+  name: Rotate(Texture2D, Single)
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_Rotate_Texture2D_System_Single_
+  commentId: M:StansAssets.Foundation.Texture2DUtility.Rotate(Texture2D,System.Single)
+  fullName: StansAssets.Foundation.Texture2DUtility.Rotate(Texture2D, System.Single)
+  nameWithType: Texture2DUtility.Rotate(Texture2D, Single)
+- uid: StansAssets.Foundation.Texture2DUtility.Rotate*
+  name: Rotate
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_Rotate_
+  commentId: Overload:StansAssets.Foundation.Texture2DUtility.Rotate
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Texture2DUtility.Rotate
+  nameWithType: Texture2DUtility.Rotate
+- uid: StansAssets.Foundation.Texture2DUtility.ScaleTexture(Texture2D,System.Single,StansAssets.Foundation.Texture2DUtility.TextureScaleMode)
+  name: ScaleTexture(Texture2D, Single, Texture2DUtility.TextureScaleMode)
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_ScaleTexture_Texture2D_System_Single_StansAssets_Foundation_Texture2DUtility_TextureScaleMode_
+  commentId: M:StansAssets.Foundation.Texture2DUtility.ScaleTexture(Texture2D,System.Single,StansAssets.Foundation.Texture2DUtility.TextureScaleMode)
+  fullName: StansAssets.Foundation.Texture2DUtility.ScaleTexture(Texture2D, System.Single, StansAssets.Foundation.Texture2DUtility.TextureScaleMode)
+  nameWithType: Texture2DUtility.ScaleTexture(Texture2D, Single, Texture2DUtility.TextureScaleMode)
+- uid: StansAssets.Foundation.Texture2DUtility.ScaleTexture*
+  name: ScaleTexture
+  href: foundation/StansAssets.Foundation.Texture2DUtility.html#StansAssets_Foundation_Texture2DUtility_ScaleTexture_
+  commentId: Overload:StansAssets.Foundation.Texture2DUtility.ScaleTexture
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Texture2DUtility.ScaleTexture
+  nameWithType: Texture2DUtility.ScaleTexture
+- uid: StansAssets.Foundation.Texture2DUtility.TextureScaleMode
+  name: Texture2DUtility.TextureScaleMode
+  href: foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.html
+  commentId: T:StansAssets.Foundation.Texture2DUtility.TextureScaleMode
+  fullName: StansAssets.Foundation.Texture2DUtility.TextureScaleMode
+  nameWithType: Texture2DUtility.TextureScaleMode
+- uid: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Average
+  name: Average
+  href: foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.html#StansAssets_Foundation_Texture2DUtility_TextureScaleMode_Average
+  commentId: F:StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Average
+  fullName: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Average
+  nameWithType: Texture2DUtility.TextureScaleMode.Average
+- uid: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Bilinear
+  name: Bilinear
+  href: foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.html#StansAssets_Foundation_Texture2DUtility_TextureScaleMode_Bilinear
+  commentId: F:StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Bilinear
+  fullName: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Bilinear
+  nameWithType: Texture2DUtility.TextureScaleMode.Bilinear
+- uid: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Nearest
+  name: Nearest
+  href: foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.html#StansAssets_Foundation_Texture2DUtility_TextureScaleMode_Nearest
+  commentId: F:StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Nearest
+  fullName: StansAssets.Foundation.Texture2DUtility.TextureScaleMode.Nearest
+  nameWithType: Texture2DUtility.TextureScaleMode.Nearest
 - uid: StansAssets.Foundation.TimeUtility
   name: TimeUtility
   href: foundation/StansAssets.Foundation.TimeUtility.html

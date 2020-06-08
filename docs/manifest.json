@@ -3268,6 +3268,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Texture2DUtility.TextureScaleMode.html",
+          "hash": "2BzZ3yWGXevFpk/g8niRSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Texture2DUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Texture2DUtility.html",
+          "hash": "RbIxjW/G4106BZPuA4L7oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.TimeUtility.yml",
       "output": {
         ".html": {
@@ -3308,7 +3332,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.html",
-          "hash": "JoHbhII/pG1HVC0UXRrcdw=="
+          "hash": "i8tx3Rk+U9uCsdRHr44JBw=="
         }
       },
       "is_incremental": false,
@@ -3332,7 +3356,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "wCM2mUTdgqsJ2FbKKoBTEw=="
+          "hash": "y44hhG1+5Mz6NFUdDiQlvw=="
         }
       },
       "is_incremental": false,
@@ -7501,7 +7525,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 605,
+          "total_file_count": 607,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
