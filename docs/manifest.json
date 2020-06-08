@@ -2800,6 +2800,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.ColorHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.ColorHelper.html",
+          "hash": "qwKfiOigHSwIs1LltdubBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.yml",
       "output": {
         ".html": {
@@ -3296,7 +3308,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.html",
-          "hash": "salwh1wFtabm89IgKDepQQ=="
+          "hash": "JoHbhII/pG1HVC0UXRrcdw=="
         }
       },
       "is_incremental": false,
@@ -3320,7 +3332,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "ZQjmNtyTvpONU9PUOTHLBA=="
+          "hash": "wCM2mUTdgqsJ2FbKKoBTEw=="
         }
       },
       "is_incremental": false,
@@ -7489,7 +7501,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 604,
+          "total_file_count": 605,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

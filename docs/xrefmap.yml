@@ -31410,6 +31410,31 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.CachedWebRequest.GetTexture2D
   nameWithType: CachedWebRequest.GetTexture2D
+- uid: StansAssets.Foundation.ColorHelper
+  name: ColorHelper
+  href: foundation/StansAssets.Foundation.ColorHelper.html
+  commentId: T:StansAssets.Foundation.ColorHelper
+  fullName: StansAssets.Foundation.ColorHelper
+  nameWithType: ColorHelper
+- uid: StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String)
+  name: MakeColorFromHtml(String)
+  href: foundation/StansAssets.Foundation.ColorHelper.html#StansAssets_Foundation_ColorHelper_MakeColorFromHtml_System_String_
+  commentId: M:StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String)
+  fullName: StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String)
+  nameWithType: ColorHelper.MakeColorFromHtml(String)
+- uid: StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String,Color)
+  name: MakeColorFromHtml(String, Color)
+  href: foundation/StansAssets.Foundation.ColorHelper.html#StansAssets_Foundation_ColorHelper_MakeColorFromHtml_System_String_Color_
+  commentId: M:StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String,Color)
+  fullName: StansAssets.Foundation.ColorHelper.MakeColorFromHtml(System.String, Color)
+  nameWithType: ColorHelper.MakeColorFromHtml(String, Color)
+- uid: StansAssets.Foundation.ColorHelper.MakeColorFromHtml*
+  name: MakeColorFromHtml
+  href: foundation/StansAssets.Foundation.ColorHelper.html#StansAssets_Foundation_ColorHelper_MakeColorFromHtml_
+  commentId: Overload:StansAssets.Foundation.ColorHelper.MakeColorFromHtml
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ColorHelper.MakeColorFromHtml
+  nameWithType: ColorHelper.MakeColorFromHtml
 - uid: StansAssets.Foundation.Editor
   name: StansAssets.Foundation.Editor
   href: foundation/StansAssets.Foundation.Editor.html
