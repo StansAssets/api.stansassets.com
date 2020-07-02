@@ -1980,15 +1980,15 @@ references:
   commentId: T:SA.Android.App.AN_WheelPickerDialog
   fullName: SA.Android.App.AN_WheelPickerDialog
   nameWithType: AN_WheelPickerDialog
-- uid: SA.Android.App.AN_WheelPickerDialog.#ctor(List{System.String})
-  name: AN_WheelPickerDialog(List<String>)
-  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog__ctor_List_System_String__
-  commentId: M:SA.Android.App.AN_WheelPickerDialog.#ctor(List{System.String})
-  name.vb: AN_WheelPickerDialog(List(Of String))
-  fullName: SA.Android.App.AN_WheelPickerDialog.AN_WheelPickerDialog(List<System.String>)
-  fullName.vb: SA.Android.App.AN_WheelPickerDialog.AN_WheelPickerDialog(List(Of System.String))
-  nameWithType: AN_WheelPickerDialog.AN_WheelPickerDialog(List<String>)
-  nameWithType.vb: AN_WheelPickerDialog.AN_WheelPickerDialog(List(Of String))
+- uid: SA.Android.App.AN_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+  name: AN_WheelPickerDialog(List<String>, Int32)
+  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog__ctor_List_System_String__System_Int32_
+  commentId: M:SA.Android.App.AN_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+  name.vb: AN_WheelPickerDialog(List(Of String), Int32)
+  fullName: SA.Android.App.AN_WheelPickerDialog.AN_WheelPickerDialog(List<System.String>, System.Int32)
+  fullName.vb: SA.Android.App.AN_WheelPickerDialog.AN_WheelPickerDialog(List(Of System.String), System.Int32)
+  nameWithType: AN_WheelPickerDialog.AN_WheelPickerDialog(List<String>, Int32)
+  nameWithType.vb: AN_WheelPickerDialog.AN_WheelPickerDialog(List(Of String), Int32)
 - uid: SA.Android.App.AN_WheelPickerDialog.#ctor*
   name: AN_WheelPickerDialog
   href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog__ctor_
@@ -1996,6 +1996,19 @@ references:
   isSpec: "True"
   fullName: SA.Android.App.AN_WheelPickerDialog.AN_WheelPickerDialog
   nameWithType: AN_WheelPickerDialog.AN_WheelPickerDialog
+- uid: SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex
+  name: DefaultValueIndex
+  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog_DefaultValueIndex
+  commentId: P:SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex
+  fullName: SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex
+  nameWithType: AN_WheelPickerDialog.DefaultValueIndex
+- uid: SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex*
+  name: DefaultValueIndex
+  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog_DefaultValueIndex_
+  commentId: Overload:SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex
+  isSpec: "True"
+  fullName: SA.Android.App.AN_WheelPickerDialog.DefaultValueIndex
+  nameWithType: AN_WheelPickerDialog.DefaultValueIndex
 - uid: SA.Android.App.AN_WheelPickerDialog.Show(Action{SA.Android.App.AN_WheelPickerResult})
   name: Show(Action<AN_WheelPickerResult>)
   href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog_Show_Action_SA_Android_App_AN_WheelPickerResult__
@@ -2012,6 +2025,19 @@ references:
   isSpec: "True"
   fullName: SA.Android.App.AN_WheelPickerDialog.Show
   nameWithType: AN_WheelPickerDialog.Show
+- uid: SA.Android.App.AN_WheelPickerDialog.Values
+  name: Values
+  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog_Values
+  commentId: P:SA.Android.App.AN_WheelPickerDialog.Values
+  fullName: SA.Android.App.AN_WheelPickerDialog.Values
+  nameWithType: AN_WheelPickerDialog.Values
+- uid: SA.Android.App.AN_WheelPickerDialog.Values*
+  name: Values
+  href: android-native/SA.Android.App.AN_WheelPickerDialog.html#SA_Android_App_AN_WheelPickerDialog_Values_
+  commentId: Overload:SA.Android.App.AN_WheelPickerDialog.Values
+  isSpec: "True"
+  fullName: SA.Android.App.AN_WheelPickerDialog.Values
+  nameWithType: AN_WheelPickerDialog.Values
 - uid: SA.Android.App.AN_WheelPickerResult
   name: AN_WheelPickerResult
   href: android-native/SA.Android.App.AN_WheelPickerResult.html
@@ -18790,12 +18816,12 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_Preloader
   fullName: SA.CrossPlatform.UI.UM_Preloader
   nameWithType: UM_Preloader
-- uid: SA.CrossPlatform.UI.UM_Preloader.LockScreen
-  name: LockScreen()
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_Preloader.html#SA_CrossPlatform_UI_UM_Preloader_LockScreen
-  commentId: M:SA.CrossPlatform.UI.UM_Preloader.LockScreen
-  fullName: SA.CrossPlatform.UI.UM_Preloader.LockScreen()
-  nameWithType: UM_Preloader.LockScreen()
+- uid: SA.CrossPlatform.UI.UM_Preloader.LockScreen(System.String)
+  name: LockScreen(String)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_Preloader.html#SA_CrossPlatform_UI_UM_Preloader_LockScreen_System_String_
+  commentId: M:SA.CrossPlatform.UI.UM_Preloader.LockScreen(System.String)
+  fullName: SA.CrossPlatform.UI.UM_Preloader.LockScreen(System.String)
+  nameWithType: UM_Preloader.LockScreen(String)
 - uid: SA.CrossPlatform.UI.UM_Preloader.LockScreen*
   name: LockScreen
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_Preloader.html#SA_CrossPlatform_UI_UM_Preloader_LockScreen_
@@ -18841,15 +18867,15 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_WheelPickerDialog
   fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog
   nameWithType: UM_WheelPickerDialog
-- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String})
-  name: UM_WheelPickerDialog(List<String>)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog__ctor_List_System_String__
-  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String})
-  name.vb: UM_WheelPickerDialog(List(Of String))
-  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List<System.String>)
-  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of System.String))
-  nameWithType: UM_WheelPickerDialog.UM_WheelPickerDialog(List<String>)
-  nameWithType.vb: UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of String))
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+  name: UM_WheelPickerDialog(List<String>, Int32)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog__ctor_List_System_String__System_Int32_
+  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+  name.vb: UM_WheelPickerDialog(List(Of String), Int32)
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List<System.String>, System.Int32)
+  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of System.String), System.Int32)
+  nameWithType: UM_WheelPickerDialog.UM_WheelPickerDialog(List<String>, Int32)
+  nameWithType.vb: UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of String), Int32)
 - uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor*
   name: UM_WheelPickerDialog
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog__ctor_
@@ -18857,6 +18883,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog
   nameWithType: UM_WheelPickerDialog.UM_WheelPickerDialog
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
+  name: DefaultValueIndex
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_DefaultValueIndex
+  commentId: P:SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
+  nameWithType: UM_WheelPickerDialog.DefaultValueIndex
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex*
+  name: DefaultValueIndex
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_DefaultValueIndex_
+  commentId: Overload:SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
+  isSpec: "True"
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
+  nameWithType: UM_WheelPickerDialog.DefaultValueIndex
 - uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(Action{SA.CrossPlatform.UI.UM_WheelPickerResult})
   name: Show(Action<UM_WheelPickerResult>)
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_Show_Action_SA_CrossPlatform_UI_UM_WheelPickerResult__
@@ -18873,6 +18912,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show
   nameWithType: UM_WheelPickerDialog.Show
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Values
+  name: Values
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_Values
+  commentId: P:SA.CrossPlatform.UI.UM_WheelPickerDialog.Values
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.Values
+  nameWithType: UM_WheelPickerDialog.Values
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Values*
+  name: Values
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_Values_
+  commentId: Overload:SA.CrossPlatform.UI.UM_WheelPickerDialog.Values
+  isSpec: "True"
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.Values
+  nameWithType: UM_WheelPickerDialog.Values
 - uid: SA.CrossPlatform.UI.UM_WheelPickerResult
   name: UM_WheelPickerResult
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerResult.html
@@ -18898,25 +18950,6 @@ references:
   commentId: T:SA.CrossPlatform.UI.UN_DatePickerResult
   fullName: SA.CrossPlatform.UI.UN_DatePickerResult
   nameWithType: UN_DatePickerResult
-- uid: SA.CrossPlatform.UI.UN_DatePickerResult.#ctor(DateTime)
-  name: UN_DatePickerResult(DateTime)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UN_DatePickerResult.html#SA_CrossPlatform_UI_UN_DatePickerResult__ctor_DateTime_
-  commentId: M:SA.CrossPlatform.UI.UN_DatePickerResult.#ctor(DateTime)
-  fullName: SA.CrossPlatform.UI.UN_DatePickerResult.UN_DatePickerResult(DateTime)
-  nameWithType: UN_DatePickerResult.UN_DatePickerResult(DateTime)
-- uid: SA.CrossPlatform.UI.UN_DatePickerResult.#ctor(SA_Error)
-  name: UN_DatePickerResult(SA_Error)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UN_DatePickerResult.html#SA_CrossPlatform_UI_UN_DatePickerResult__ctor_SA_Error_
-  commentId: M:SA.CrossPlatform.UI.UN_DatePickerResult.#ctor(SA_Error)
-  fullName: SA.CrossPlatform.UI.UN_DatePickerResult.UN_DatePickerResult(SA_Error)
-  nameWithType: UN_DatePickerResult.UN_DatePickerResult(SA_Error)
-- uid: SA.CrossPlatform.UI.UN_DatePickerResult.#ctor*
-  name: UN_DatePickerResult
-  href: ultimate-mobile/SA.CrossPlatform.UI.UN_DatePickerResult.html#SA_CrossPlatform_UI_UN_DatePickerResult__ctor_
-  commentId: Overload:SA.CrossPlatform.UI.UN_DatePickerResult.#ctor
-  isSpec: "True"
-  fullName: SA.CrossPlatform.UI.UN_DatePickerResult.UN_DatePickerResult
-  nameWithType: UN_DatePickerResult.UN_DatePickerResult
 - uid: SA.CrossPlatform.UI.UN_DatePickerResult.Date
   name: Date
   href: ultimate-mobile/SA.CrossPlatform.UI.UN_DatePickerResult.html#SA_CrossPlatform_UI_UN_DatePickerResult_Date
@@ -25132,6 +25165,32 @@ references:
   isSpec: "True"
   fullName: SA.iOS.GameKit.ISN_GKPlayer.DisplayName
   nameWithType: ISN_GKPlayer.DisplayName
+- uid: SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId
+  name: GamePlayerId
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_GamePlayerId
+  commentId: P:SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId
+  nameWithType: ISN_GKPlayer.GamePlayerId
+- uid: SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId*
+  name: GamePlayerId
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_GamePlayerId_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId
+  nameWithType: ISN_GKPlayer.GamePlayerId
+- uid: SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier
+  name: GuestIdentifier
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_GuestIdentifier
+  commentId: P:SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier
+  nameWithType: ISN_GKPlayer.GuestIdentifier
+- uid: SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier*
+  name: GuestIdentifier
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_GuestIdentifier_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier
+  nameWithType: ISN_GKPlayer.GuestIdentifier
 - uid: SA.iOS.GameKit.ISN_GKPlayer.LoadPhoto(SA.iOS.GameKit.GKPhotoSize,Action{SA.iOS.GameKit.ISN_GKImageLoadResult})
   name: LoadPhoto(GKPhotoSize, Action<ISN_GKImageLoadResult>)
   href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_LoadPhoto_SA_iOS_GameKit_GKPhotoSize_Action_SA_iOS_GameKit_ISN_GKImageLoadResult__
@@ -25174,6 +25233,32 @@ references:
   isSpec: "True"
   fullName: SA.iOS.GameKit.ISN_GKPlayer.PlayerID
   nameWithType: ISN_GKPlayer.PlayerID
+- uid: SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent
+  name: ScopedIDsArePersistent
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_ScopedIDsArePersistent
+  commentId: P:SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent
+  nameWithType: ISN_GKPlayer.ScopedIDsArePersistent
+- uid: SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent*
+  name: ScopedIDsArePersistent
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_ScopedIDsArePersistent_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent
+  nameWithType: ISN_GKPlayer.ScopedIDsArePersistent
+- uid: SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId
+  name: TeamPlayerId
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_TeamPlayerId
+  commentId: P:SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId
+  nameWithType: ISN_GKPlayer.TeamPlayerId
+- uid: SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId*
+  name: TeamPlayerId
+  href: ios-native/SA.iOS.GameKit.ISN_GKPlayer.html#SA_iOS_GameKit_ISN_GKPlayer_TeamPlayerId_
+  commentId: Overload:SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId
+  isSpec: "True"
+  fullName: SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId
+  nameWithType: ISN_GKPlayer.TeamPlayerId
 - uid: SA.iOS.GameKit.ISN_GKSavedGame
   name: ISN_GKSavedGame
   href: ios-native/SA.iOS.GameKit.ISN_GKSavedGame.html
@@ -29593,6 +29678,79 @@ references:
   isSpec: "True"
   fullName: SA.iOS.UIKit.ISN_UIMediaType.MOVIE
   nameWithType: ISN_UIMediaType.MOVIE
+- uid: SA.iOS.UIKit.ISN_UIMenuController
+  name: ISN_UIMenuController
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html
+  commentId: T:SA.iOS.UIKit.ISN_UIMenuController
+  fullName: SA.iOS.UIKit.ISN_UIMenuController
+  nameWithType: ISN_UIMenuController
+- uid: SA.iOS.UIKit.ISN_UIMenuController.MenuItems
+  name: MenuItems
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_MenuItems
+  commentId: P:SA.iOS.UIKit.ISN_UIMenuController.MenuItems
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.MenuItems
+  nameWithType: ISN_UIMenuController.MenuItems
+- uid: SA.iOS.UIKit.ISN_UIMenuController.MenuItems*
+  name: MenuItems
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_MenuItems_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIMenuController.MenuItems
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.MenuItems
+  nameWithType: ISN_UIMenuController.MenuItems
+- uid: SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController
+  name: SharedMenuController
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_SharedMenuController
+  commentId: P:SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController
+  nameWithType: ISN_UIMenuController.SharedMenuController
+- uid: SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController*
+  name: SharedMenuController
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_SharedMenuController_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.SharedMenuController
+  nameWithType: ISN_UIMenuController.SharedMenuController
+- uid: SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition(System.Single,System.Single,Action{SA.iOS.UIKit.ISN_UIMenuControllerResult})
+  name: ShowMenuFromPosition(Single, Single, Action<ISN_UIMenuControllerResult>)
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_ShowMenuFromPosition_System_Single_System_Single_Action_SA_iOS_UIKit_ISN_UIMenuControllerResult__
+  commentId: M:SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition(System.Single,System.Single,Action{SA.iOS.UIKit.ISN_UIMenuControllerResult})
+  name.vb: ShowMenuFromPosition(Single, Single, Action(Of ISN_UIMenuControllerResult))
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition(System.Single, System.Single, Action<SA.iOS.UIKit.ISN_UIMenuControllerResult>)
+  fullName.vb: SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition(System.Single, System.Single, Action(Of SA.iOS.UIKit.ISN_UIMenuControllerResult))
+  nameWithType: ISN_UIMenuController.ShowMenuFromPosition(Single, Single, Action<ISN_UIMenuControllerResult>)
+  nameWithType.vb: ISN_UIMenuController.ShowMenuFromPosition(Single, Single, Action(Of ISN_UIMenuControllerResult))
+- uid: SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition*
+  name: ShowMenuFromPosition
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuController.html#SA_iOS_UIKit_ISN_UIMenuController_ShowMenuFromPosition_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIMenuController.ShowMenuFromPosition
+  nameWithType: ISN_UIMenuController.ShowMenuFromPosition
+- uid: SA.iOS.UIKit.ISN_UIMenuControllerResult
+  name: ISN_UIMenuControllerResult
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuControllerResult.html
+  commentId: T:SA.iOS.UIKit.ISN_UIMenuControllerResult
+  fullName: SA.iOS.UIKit.ISN_UIMenuControllerResult
+  nameWithType: ISN_UIMenuControllerResult
+- uid: SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex
+  name: ChosenIndex
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuControllerResult.html#SA_iOS_UIKit_ISN_UIMenuControllerResult_ChosenIndex
+  commentId: P:SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex
+  fullName: SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex
+  nameWithType: ISN_UIMenuControllerResult.ChosenIndex
+- uid: SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex*
+  name: ChosenIndex
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuControllerResult.html#SA_iOS_UIKit_ISN_UIMenuControllerResult_ChosenIndex_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIMenuControllerResult.ChosenIndex
+  nameWithType: ISN_UIMenuControllerResult.ChosenIndex
+- uid: SA.iOS.UIKit.ISN_UIMenuControllerResult.m_ChosenIndex
+  name: m_ChosenIndex
+  href: ios-native/SA.iOS.UIKit.ISN_UIMenuControllerResult.html#SA_iOS_UIKit_ISN_UIMenuControllerResult_m_ChosenIndex
+  commentId: F:SA.iOS.UIKit.ISN_UIMenuControllerResult.m_ChosenIndex
+  fullName: SA.iOS.UIKit.ISN_UIMenuControllerResult.m_ChosenIndex
+  nameWithType: ISN_UIMenuControllerResult.m_ChosenIndex
 - uid: SA.iOS.UIKit.ISN_UIModalPresentationStyle
   name: ISN_UIModalPresentationStyle
   href: ios-native/SA.iOS.UIKit.ISN_UIModalPresentationStyle.html
@@ -30005,15 +30163,15 @@ references:
   commentId: T:SA.iOS.UIKit.ISN_UIWheelPickerController
   fullName: SA.iOS.UIKit.ISN_UIWheelPickerController
   nameWithType: ISN_UIWheelPickerController
-- uid: SA.iOS.UIKit.ISN_UIWheelPickerController.#ctor(List{System.String})
-  name: ISN_UIWheelPickerController(List<String>)
-  href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController__ctor_List_System_String__
-  commentId: M:SA.iOS.UIKit.ISN_UIWheelPickerController.#ctor(List{System.String})
-  name.vb: ISN_UIWheelPickerController(List(Of String))
-  fullName: SA.iOS.UIKit.ISN_UIWheelPickerController.ISN_UIWheelPickerController(List<System.String>)
-  fullName.vb: SA.iOS.UIKit.ISN_UIWheelPickerController.ISN_UIWheelPickerController(List(Of System.String))
-  nameWithType: ISN_UIWheelPickerController.ISN_UIWheelPickerController(List<String>)
-  nameWithType.vb: ISN_UIWheelPickerController.ISN_UIWheelPickerController(List(Of String))
+- uid: SA.iOS.UIKit.ISN_UIWheelPickerController.#ctor(List{System.String},System.Int32)
+  name: ISN_UIWheelPickerController(List<String>, Int32)
+  href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController__ctor_List_System_String__System_Int32_
+  commentId: M:SA.iOS.UIKit.ISN_UIWheelPickerController.#ctor(List{System.String},System.Int32)
+  name.vb: ISN_UIWheelPickerController(List(Of String), Int32)
+  fullName: SA.iOS.UIKit.ISN_UIWheelPickerController.ISN_UIWheelPickerController(List<System.String>, System.Int32)
+  fullName.vb: SA.iOS.UIKit.ISN_UIWheelPickerController.ISN_UIWheelPickerController(List(Of System.String), System.Int32)
+  nameWithType: ISN_UIWheelPickerController.ISN_UIWheelPickerController(List<String>, Int32)
+  nameWithType.vb: ISN_UIWheelPickerController.ISN_UIWheelPickerController(List(Of String), Int32)
 - uid: SA.iOS.UIKit.ISN_UIWheelPickerController.#ctor*
   name: ISN_UIWheelPickerController
   href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController__ctor_
@@ -30021,6 +30179,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.UIKit.ISN_UIWheelPickerController.ISN_UIWheelPickerController
   nameWithType: ISN_UIWheelPickerController.ISN_UIWheelPickerController
+- uid: SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex
+  name: DefaultValueIndex
+  href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController_DefaultValueIndex
+  commentId: P:SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex
+  fullName: SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex
+  nameWithType: ISN_UIWheelPickerController.DefaultValueIndex
+- uid: SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex*
+  name: DefaultValueIndex
+  href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController_DefaultValueIndex_
+  commentId: Overload:SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex
+  isSpec: "True"
+  fullName: SA.iOS.UIKit.ISN_UIWheelPickerController.DefaultValueIndex
+  nameWithType: ISN_UIWheelPickerController.DefaultValueIndex
 - uid: SA.iOS.UIKit.ISN_UIWheelPickerController.Show(Action{SA.iOS.UIKit.ISN_UIWheelPickerResult})
   name: Show(Action<ISN_UIWheelPickerResult>)
   href: ios-native/SA.iOS.UIKit.ISN_UIWheelPickerController.html#SA_iOS_UIKit_ISN_UIWheelPickerController_Show_Action_SA_iOS_UIKit_ISN_UIWheelPickerResult__

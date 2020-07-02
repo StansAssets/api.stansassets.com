@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ISN_GKPlayer
    ">
-    <meta name="generator" content="docfx 2.54.0.0">
+    <meta name="generator" content="docfx 2.56.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -82,35 +82,11 @@ Your game should use this string to store per-player information or to disambigu
     <div class="level1"><span class="xref">ISN_GKPlayer</span></div>
       <div class="level2"><a class="xref" href="SA.iOS.GameKit.ISN_GKLocalPlayer.html">ISN_GKLocalPlayer</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="SA.iOS.GameKit.html">SA.iOS.GameKit</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="SA_iOS_GameKit_ISN_GKPlayer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ISN_GKPlayer</code></pre>
+    <pre><code class="lang-csharp hljs">public class ISN_GKPlayer : ISN_NativeObject</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -172,6 +148,59 @@ If the player is not a friend, then the display name is the player’s alias.</p
   </table>
   
   
+  <a id="SA_iOS_GameKit_ISN_GKPlayer_GamePlayerId_" data-uid="SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKPlayer_GamePlayerId" data-uid="SA.iOS.GameKit.ISN_GKPlayer.GamePlayerId">GamePlayerId</h4>
+  <div class="markdown level1 summary"><p>Game player Id.
+See <a href="https://developer.apple.com/videos/play/wwdc2019/615/">https://developer.apple.com/videos/play/wwdc2019/615/</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GamePlayerId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKPlayer_GuestIdentifier_" data-uid="SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKPlayer_GuestIdentifier" data-uid="SA.iOS.GameKit.ISN_GKPlayer.GuestIdentifier">GuestIdentifier</h4>
+  <div class="markdown level1 summary"><p>A developer created string used to identify a guest player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuestIdentifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="SA_iOS_GameKit_ISN_GKPlayer_PlayerId_" data-uid="SA.iOS.GameKit.ISN_GKPlayer.PlayerId*"></a>
   <h4 id="SA_iOS_GameKit_ISN_GKPlayer_PlayerId" data-uid="SA.iOS.GameKit.ISN_GKPlayer.PlayerId">PlayerId</h4>
   <div class="markdown level1 summary"><p>A unique identifier associated with a player.
@@ -207,6 +236,60 @@ Do not make assumptions about the contents of the player identifier string. Its 
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string PlayerID { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKPlayer_ScopedIDsArePersistent_" data-uid="SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKPlayer_ScopedIDsArePersistent" data-uid="SA.iOS.GameKit.ISN_GKPlayer.ScopedIDsArePersistent">ScopedIDsArePersistent</h4>
+  <div class="markdown level1 summary"><p>Scoped Ids Are Persistent.
+See <a href="https://developer.apple.com/videos/play/wwdc2019/615/">https://developer.apple.com/videos/play/wwdc2019/615/</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ScopedIDsArePersistent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_GameKit_ISN_GKPlayer_TeamPlayerId_" data-uid="SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId*"></a>
+  <h4 id="SA_iOS_GameKit_ISN_GKPlayer_TeamPlayerId" data-uid="SA.iOS.GameKit.ISN_GKPlayer.TeamPlayerId">TeamPlayerId</h4>
+  <div class="markdown level1 summary"><p>Team Player Id.
+See <a href="https://developer.apple.com/videos/play/wwdc2019/615/">https://developer.apple.com/videos/play/wwdc2019/615/</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TeamPlayerId { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class UM_Preloader
    ">
-    <meta name="generator" content="docfx 2.54.0.0">
+    <meta name="generator" content="docfx 2.56.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -71,7 +71,7 @@
   
   <h1 id="SA_CrossPlatform_UI_UM_Preloader" data-uid="SA.CrossPlatform.UI.UM_Preloader" class="text-break">Class UM_Preloader
   </h1>
-  <div class="markdown level0 summary"><p>Class allows to show preloader and lock application screen</p>
+  <div class="markdown level0 summary"><p>Class allows to show preloader and lock application screen.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -114,14 +114,32 @@
   
   
   <a id="SA_CrossPlatform_UI_UM_Preloader_LockScreen_" data-uid="SA.CrossPlatform.UI.UM_Preloader.LockScreen*"></a>
-  <h4 id="SA_CrossPlatform_UI_UM_Preloader_LockScreen" data-uid="SA.CrossPlatform.UI.UM_Preloader.LockScreen">LockScreen()</h4>
-  <div class="markdown level1 summary"><p>Locks the screen and displayes a preloader spinner</p>
+  <h4 id="SA_CrossPlatform_UI_UM_Preloader_LockScreen_System_String_" data-uid="SA.CrossPlatform.UI.UM_Preloader.LockScreen(System.String)">LockScreen(String)</h4>
+  <div class="markdown level1 summary"><p>Locks the screen and displays a preloader spinner.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LockScreen()</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LockScreen(string progressBarText = &quot;Please Wait..&quot;)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">progressBarText</span></td>
+        <td><p>The text will be used if system lock screen dialog has a label where text can be assigned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="SA_CrossPlatform_UI_UM_Preloader_UnlockScreen_" data-uid="SA.CrossPlatform.UI.UM_Preloader.UnlockScreen*"></a>
