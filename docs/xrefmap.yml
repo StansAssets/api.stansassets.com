@@ -33352,6 +33352,25 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.Singleton(Of T).Instance
   nameWithType: Singleton<T>.Instance
   nameWithType.vb: Singleton(Of T).Instance
+- uid: StansAssets.Foundation.RectTransformUtility
+  name: RectTransformUtility
+  href: foundation/StansAssets.Foundation.RectTransformUtility.html
+  commentId: T:StansAssets.Foundation.RectTransformUtility
+  fullName: StansAssets.Foundation.RectTransformUtility
+  nameWithType: RectTransformUtility
+- uid: StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace(RectTransform)
+  name: RectTransformToScreenSpace(RectTransform)
+  href: foundation/StansAssets.Foundation.RectTransformUtility.html#StansAssets_Foundation_RectTransformUtility_RectTransformToScreenSpace_RectTransform_
+  commentId: M:StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace(RectTransform)
+  fullName: StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace(RectTransform)
+  nameWithType: RectTransformUtility.RectTransformToScreenSpace(RectTransform)
+- uid: StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace*
+  name: RectTransformToScreenSpace
+  href: foundation/StansAssets.Foundation.RectTransformUtility.html#StansAssets_Foundation_RectTransformUtility_RectTransformToScreenSpace_
+  commentId: Overload:StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace
+  isSpec: "True"
+  fullName: StansAssets.Foundation.RectTransformUtility.RectTransformToScreenSpace
+  nameWithType: RectTransformUtility.RectTransformToScreenSpace
 - uid: StansAssets.Foundation.ReflectionUtility
   name: ReflectionUtility
   href: foundation/StansAssets.Foundation.ReflectionUtility.html
