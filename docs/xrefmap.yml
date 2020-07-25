@@ -18559,6 +18559,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_DialogsUtility.ShowMessage
   nameWithType: UM_DialogsUtility.ShowMessage
+- uid: SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification(System.String)
+  name: ShowNotification(String)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DialogsUtility.html#SA_CrossPlatform_UI_UM_DialogsUtility_ShowNotification_System_String_
+  commentId: M:SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification(System.String)
+  fullName: SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification(System.String)
+  nameWithType: UM_DialogsUtility.ShowNotification(String)
+- uid: SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification*
+  name: ShowNotification
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DialogsUtility.html#SA_CrossPlatform_UI_UM_DialogsUtility_ShowNotification_
+  commentId: Overload:SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification
+  isSpec: "True"
+  fullName: SA.CrossPlatform.UI.UM_DialogsUtility.ShowNotification
+  nameWithType: UM_DialogsUtility.ShowNotification
 - uid: SA.CrossPlatform.UI.UM_iUIDialog
   name: UM_iUIDialog
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_iUIDialog.html
