@@ -92,10 +92,10 @@
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetAllLeaderboardsIntent_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetAllLeaderboardsIntent*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetAllLeaderboardsIntent_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetAllLeaderboardsIntent(Action{SA.Android.GMS.Games.AN_IntentResult})">GetAllLeaderboardsIntent(Action&lt;AN_IntentResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show the list of leaderboards for a game. 
-Note that this must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see> 
+  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show the list of leaderboards for a game.
+Note that this must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>
 so that the identity of the calling package can be established.</p>
-<p>Required Scopes: SCOPE_GAMES_LITE</p>
+<p>Required Scopes: <code>SCOPE_GAMES_LITE</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -115,7 +115,8 @@ so that the identity of the calling package can be established.</p>
       <tr>
         <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_IntentResult.html">AN_IntentResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
-        <td></td>
+        <td><p>Task completion callback.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -123,8 +124,8 @@ so that the identity of the calling package can be established.</p>
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_System_String_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent(System.String,Action{SA.Android.GMS.Games.AN_IntentResult})">GetLeaderboardIntent(String, Action&lt;AN_IntentResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId. 
-Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>, 
+  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId.
+Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>,
 so that the identity of the calling package can be established.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -160,8 +161,8 @@ so that the identity of the calling package can be established.</p>
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_System_String_SA_Android_GMS_Games_AN_Leaderboard_TimeSpan_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent(System.String,SA.Android.GMS.Games.AN_Leaderboard.TimeSpan,Action{SA.Android.GMS.Games.AN_IntentResult})">GetLeaderboardIntent(String, AN_Leaderboard.TimeSpan, Action&lt;AN_IntentResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId. 
-Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>, 
+  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId.
+Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>,
 so that the identity of the calling package can be established.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -203,8 +204,8 @@ so that the identity of the calling package can be established.</p>
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_GetLeaderboardIntent_System_String_SA_Android_GMS_Games_AN_Leaderboard_TimeSpan_SA_Android_GMS_Games_AN_Leaderboard_Collection_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.GetLeaderboardIntent(System.String,SA.Android.GMS.Games.AN_Leaderboard.TimeSpan,SA.Android.GMS.Games.AN_Leaderboard.Collection,Action{SA.Android.GMS.Games.AN_IntentResult})">GetLeaderboardIntent(String, AN_Leaderboard.TimeSpan, AN_Leaderboard.Collection, Action&lt;AN_IntentResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId. 
-Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>, 
+  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show a leaderboard for a game specified by a leaderboardId.
+Note that the Intent returned from the Task must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>,
 so that the identity of the calling package can be established.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -284,8 +285,8 @@ so that the identity of the calling package can be established.</p>
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadCurrentPlayerLeaderboardScore_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadCurrentPlayerLeaderboardScore*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadCurrentPlayerLeaderboardScore_System_String_SA_Android_GMS_Games_AN_Leaderboard_TimeSpan_SA_Android_GMS_Games_AN_Leaderboard_Collection_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_LeaderboardScore___" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadCurrentPlayerLeaderboardScore(System.String,SA.Android.GMS.Games.AN_Leaderboard.TimeSpan,SA.Android.GMS.Games.AN_Leaderboard.Collection,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_LeaderboardScore}})">LoadCurrentPlayerLeaderboardScore(String, AN_Leaderboard.TimeSpan, AN_Leaderboard.Collection, Action&lt;AN_LinkedObjectResult&lt;AN_LeaderboardScore&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScore.html">AN_LeaderboardScore</a> result 
-that represents the signed-in player&apos;s score for the leaderboard specified by leaderboardId. </p>
+  <div class="markdown level1 summary"><p>Asynchronously loads <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScore.html">AN_LeaderboardScore</a> result
+that represents the signed-in player&apos;s score for the leaderboard specified by leaderboardId.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -352,8 +353,8 @@ that represents the signed-in player&apos;s score for the leaderboard specified 
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceReload</span></td>
-        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server. 
-This would commonly be used for something like a user-initiated refresh. 
+        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server.
+This would commonly be used for something like a user-initiated refresh.
 Normally, this should be set to <code>false</code> to gain advantages of data caching.</p>
 </td>
       </tr>
@@ -395,8 +396,8 @@ Normally, this should be set to <code>false</code> to gain advantages of data ca
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceReload</span></td>
-        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server. 
-This would commonly be used for something like a user-initiated refresh. 
+        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server.
+This would commonly be used for something like a user-initiated refresh.
 Normally, this should be set to <code>false</code> to gain advantages of data caching.</p>
 </td>
       </tr>
@@ -412,7 +413,7 @@ Normally, this should be set to <code>false</code> to gain advantages of data ca
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadMoreScores_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadMoreScores*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadMoreScores_SA_Android_GMS_Games_AN_LeaderboardScoreBuffer_System_Int32_SA_Android_GMS_Games_AN_PageDirection_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_LeaderboardScores___" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadMoreScores(SA.Android.GMS.Games.AN_LeaderboardScoreBuffer,System.Int32,SA.Android.GMS.Games.AN_PageDirection,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_LeaderboardScores}})">LoadMoreScores(AN_LeaderboardScoreBuffer, Int32, AN_PageDirection, Action&lt;AN_LinkedObjectResult&lt;AN_LeaderboardScores&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScores.html">AN_LeaderboardScores</a> that represents an additional page of score data 
+  <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScores.html">AN_LeaderboardScores</a> that represents an additional page of score data
 for the given score buffer. A new score buffer will be delivered that replaces the given buffer.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -433,7 +434,7 @@ for the given score buffer. A new score buffer will be delivered that replaces t
       <tr>
         <td><a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScoreBuffer.html">AN_LeaderboardScoreBuffer</a></td>
         <td><span class="parametername">buffer</span></td>
-        <td><p>The existing buffer that will be expanded. 
+        <td><p>The existing buffer that will be expanded.
 The buffer is allowed to be closed prior to being passed in to this method.</p>
 </td>
       </tr>
@@ -441,7 +442,7 @@ The buffer is allowed to be closed prior to being passed in to this method.</p>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">maxResults</span></td>
         <td><p>The maximum number of scores to fetch per page.
-Must be between 1 and 25. Note that the number of scores returned here may be greater than this value, 
+Must be between 1 and 25. Note that the number of scores returned here may be greater than this value,
 depending on how much data is cached on the device.</p>
 </td>
       </tr>
@@ -463,8 +464,8 @@ depending on how much data is cached on the device.</p>
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadPlayerCenteredScores_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadPlayerCenteredScores*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadPlayerCenteredScores_System_String_SA_Android_GMS_Games_AN_Leaderboard_TimeSpan_SA_Android_GMS_Games_AN_Leaderboard_Collection_System_Int32_System_Boolean_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_LeaderboardScores___" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadPlayerCenteredScores(System.String,SA.Android.GMS.Games.AN_Leaderboard.TimeSpan,SA.Android.GMS.Games.AN_Leaderboard.Collection,System.Int32,System.Boolean,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_LeaderboardScores}})">LoadPlayerCenteredScores(String, AN_Leaderboard.TimeSpan, AN_Leaderboard.Collection, Int32, Boolean, Action&lt;AN_LinkedObjectResult&lt;AN_LeaderboardScores&gt;&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScores.html">AN_LeaderboardScores</a> that represents the player-centered page of scores 
-for the leaderboard specified by specified by <see cref="!:leaderboardId"></see>. 
+  <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScores.html">AN_LeaderboardScores</a> that represents the player-centered page of scores
+for the leaderboard specified by specified by <see cref="!:leaderboardId"></see>.
 If the player does not have a score on this leaderboard, this call will return the top page instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -509,8 +510,8 @@ If the player does not have a score on this leaderboard, this call will return t
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceReload</span></td>
-        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server. 
-This would commonly be used for something like a user-initiated refresh. 
+        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server.
+This would commonly be used for something like a user-initiated refresh.
 Normally, this should be set to <code>false</code> to gain advantages of data caching.</p>
 </td>
       </tr>
@@ -564,7 +565,7 @@ Normally, this should be set to <code>false</code> to gain advantages of data ca
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadTopScores_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadTopScores*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_LoadTopScores_System_String_SA_Android_GMS_Games_AN_Leaderboard_TimeSpan_SA_Android_GMS_Games_AN_Leaderboard_Collection_System_Int32_System_Boolean_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_LeaderboardScores___" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.LoadTopScores(System.String,SA.Android.GMS.Games.AN_Leaderboard.TimeSpan,SA.Android.GMS.Games.AN_Leaderboard.Collection,System.Int32,System.Boolean,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_LeaderboardScores}})">LoadTopScores(String, AN_Leaderboard.TimeSpan, AN_Leaderboard.Collection, Int32, Boolean, Action&lt;AN_LinkedObjectResult&lt;AN_LeaderboardScores&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Asynchronously loads an <a class="xref" href="SA.Android.GMS.Games.AN_LeaderboardScores.html">AN_LeaderboardScores</a> that represents represents the top page of scores
-for a given leaderboard specified by specified by <see cref="!:leaderboardId"></see>. 
+for a given leaderboard specified by specified by <see cref="!:leaderboardId"></see>.
 If the player does not have a score on this leaderboard, this call will return the top page instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -609,8 +610,8 @@ If the player does not have a score on this leaderboard, this call will return t
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">forceReload</span></td>
-        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server. 
-This would commonly be used for something like a user-initiated refresh. 
+        <td><p>If <code>true</code>, this call will clear any locally cached data and attempt to fetch the latest data from the server.
+This would commonly be used for something like a user-initiated refresh.
 Normally, this should be set to <code>false</code> to gain advantages of data caching.</p>
 </td>
       </tr>
@@ -663,20 +664,20 @@ Normally, this should be set to <code>false</code> to gain advantages of data ca
   
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_SubmitScore_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.SubmitScore*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_SubmitScore_System_String_System_Int64_System_String_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.SubmitScore(System.String,System.Int64,System.String)">SubmitScore(String, Int64, String)</h4>
-  <div class="markdown level1 summary"><p>Submit a score to a leaderboard for the currently signed-in player. 
-The score is ignored if it is worse (as defined by the leaderboard configuration) than a previously submitted score 
+  <div class="markdown level1 summary"><p>Submit a score to a leaderboard for the currently signed-in player.
+The score is ignored if it is worse (as defined by the leaderboard configuration) than a previously submitted score
 for the same player.</p>
 <p>This form of the API is a fire-and-forget form.
-Use this if you do not need to be notified of the results of submitting the score, 
+Use this if you do not need to be notified of the results of submitting the score,
 though note that the update may not be sent to the server until the next sync.</p>
 <p>The meaning of the score value depends on the formatting of the leaderboard established in the developer console.
 Leaderboards support the following score formats:
-Fixed-point: score represents a raw value, 
+Fixed-point: score represents a raw value,
 and will be formatted based on the number of decimal places configured.
 A score of 1000 would be formatted as 1000, 100.0, or 10.00 for 0, 1, or 2 decimal places.</p>
 <p>Time: score represents an elapsed time in milliseconds.
 The value will be formatted as an appropriate time value.</p>
-<p>Currency: score represents a value in micro units. 
+<p>Currency: score represents a value in micro units.
 For example, in USD, a score of 100 would display as $0.0001, while a score of 1000000 would display as $1.00</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -709,7 +710,7 @@ For example, in USD, a score of 100 would display as $0.0001, while a score of 1
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">scoreTag</span></td>
-        <td><p>Optional metadata about this score. 
+        <td><p>Optional metadata about this score.
 The value may contain no more than 64 URI-safe characters as defined by section 2.3 of RFC 3986.</p>
 </td>
       </tr>
@@ -720,18 +721,18 @@ The value may contain no more than 64 URI-safe characters as defined by section 
   <a id="SA_Android_GMS_Games_AN_LeaderboardsClient_SubmitScoreImmediate_" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.SubmitScoreImmediate*"></a>
   <h4 id="SA_Android_GMS_Games_AN_LeaderboardsClient_SubmitScoreImmediate_System_String_System_Int64_System_String_Action_AN_LinkedObjectResult_SA_Android_GMS_Games_AN_ScoreSubmissionData___" data-uid="SA.Android.GMS.Games.AN_LeaderboardsClient.SubmitScoreImmediate(System.String,System.Int64,System.String,Action{AN_LinkedObjectResult{SA.Android.GMS.Games.AN_ScoreSubmissionData}})">SubmitScoreImmediate(String, Int64, String, Action&lt;AN_LinkedObjectResult&lt;AN_ScoreSubmissionData&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Asynchronously submits the score to the leaderboard for the currently signed-in player.
-The score is ignored if it is worse(as defined by the leaderboard configuration) 
+The score is ignored if it is worse(as defined by the leaderboard configuration)
 than a previously submitted score or the same player.</p>
-<p>This form of the API will attempt to submit the score to the server immediately within the callback, 
+<p>This form of the API will attempt to submit the score to the server immediately within the callback,
 returning a <a class="xref" href="SA.Android.GMS.Games.AN_ScoreSubmissionData.html">AN_ScoreSubmissionData</a> on success with information about the submission.</p>
 <p>The meaning of the score value depends on the formatting of the leaderboard established in the developer console.
 Leaderboards support the following score formats:
-Fixed-point: score represents a raw value, 
+Fixed-point: score represents a raw value,
 and will be formatted based on the number of decimal places configured.
 A score of 1000 would be formatted as 1000, 100.0, or 10.00 for 0, 1, or 2 decimal places.</p>
 <p>Time: score represents an elapsed time in milliseconds.
 The value will be formatted as an appropriate time value.</p>
-<p>Currency: score represents a value in micro units. 
+<p>Currency: score represents a value in micro units.
 For example, in USD, a score of 100 would display as $0.0001, while a score of 1000000 would display as $1.00</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -764,7 +765,7 @@ For example, in USD, a score of 100 would display as $0.0001, while a score of 1
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">scoreTag</span></td>
-        <td><p>Optional metadata about this score. 
+        <td><p>Optional metadata about this score.
 The value may contain no more than 64 URI-safe characters as defined by section 2.3 of RFC 3986.</p>
 </td>
       </tr>

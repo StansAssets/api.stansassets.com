@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.AN_ProxyActivity.html",
-          "hash": "2VVci6682/0WBE7sCdGb1A=="
+          "hash": "qUVZ+cZItocy9GzpCZS3Sg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.html",
-          "hash": "RpMBVax6icx/mb83Ru9mFA=="
+          "hash": "bRzWc7TuIbb9k9U/YN4ATw=="
         }
       },
       "is_incremental": false,
@@ -1221,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.GMS.Games.AN_GamesClient.html",
-          "hash": "WZqNy4J8NyfPamnZfhmQsQ=="
+          "hash": "qk4+zWtuEYFaI1TUL98h4A=="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.GMS.Games.AN_LeaderboardsClient.html",
-          "hash": "gcKSfbCWsqPc0OxMMxrfNA=="
+          "hash": "A+LvVIh2o+Xl6Y0L78k6mw=="
         }
       },
       "is_incremental": false,
@@ -3415,7 +3415,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.AVFoundation.ISN_AVAudioSession.html",
-          "hash": "UkP+4ZlbCGh2rRkDwII5yw=="
+          "hash": "Q2R+EowlKSQpKCp7IdYcHQ=="
         }
       },
       "is_incremental": false,
@@ -3440,6 +3440,18 @@
         ".html": {
           "relative_path": "ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionCategoryOptions.html",
           "hash": "C2/F7ge9EAUo9t4Q+shnbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.html",
+          "hash": "GyrdxbiU0b9AYo38i0en2A=="
         }
       },
       "is_incremental": false,
@@ -3511,7 +3523,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.AVFoundation.html",
-          "hash": "u5x9DfryiueyFT1hK3SHdw=="
+          "hash": "aKRdYp8o+CbCB2KP5YTQjw=="
         }
       },
       "is_incremental": false,
@@ -5887,7 +5899,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "WjMQFHyaX/PIb1u3nm9KFw=="
+          "hash": "W10vMuENZgCp10H1RJQhAg=="
         }
       },
       "is_incremental": false,
@@ -7561,7 +7573,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 610,
+          "total_file_count": 611,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

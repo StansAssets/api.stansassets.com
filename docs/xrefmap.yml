@@ -8461,6 +8461,22 @@ references:
   commentId: T:SA.Android.GMS.Games.AN_GamesClient
   fullName: SA.Android.GMS.Games.AN_GamesClient
   nameWithType: AN_GamesClient
+- uid: SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent(Action{SA.Android.GMS.Games.AN_IntentResult})
+  name: GetSettingsIntent(Action<AN_IntentResult>)
+  href: android-native/SA.Android.GMS.Games.AN_GamesClient.html#SA_Android_GMS_Games_AN_GamesClient_GetSettingsIntent_Action_SA_Android_GMS_Games_AN_IntentResult__
+  commentId: M:SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent(Action{SA.Android.GMS.Games.AN_IntentResult})
+  name.vb: GetSettingsIntent(Action(Of AN_IntentResult))
+  fullName: SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent(Action<SA.Android.GMS.Games.AN_IntentResult>)
+  fullName.vb: SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent(Action(Of SA.Android.GMS.Games.AN_IntentResult))
+  nameWithType: AN_GamesClient.GetSettingsIntent(Action<AN_IntentResult>)
+  nameWithType.vb: AN_GamesClient.GetSettingsIntent(Action(Of AN_IntentResult))
+- uid: SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent*
+  name: GetSettingsIntent
+  href: android-native/SA.Android.GMS.Games.AN_GamesClient.html#SA_Android_GMS_Games_AN_GamesClient_GetSettingsIntent_
+  commentId: Overload:SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent
+  isSpec: "True"
+  fullName: SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent
+  nameWithType: AN_GamesClient.GetSettingsIntent
 - uid: SA.Android.GMS.Games.AN_GamesClient.SetGravityForPopups(System.Int32)
   name: SetGravityForPopups(Int32)
   href: android-native/SA.Android.GMS.Games.AN_GamesClient.html#SA_Android_GMS_Games_AN_GamesClient_SetGravityForPopups_System_Int32_
@@ -21430,6 +21446,12 @@ references:
   commentId: T:SA.iOS.AVFoundation.ISN_AVAudioSession
   fullName: SA.iOS.AVFoundation.ISN_AVAudioSession
   nameWithType: ISN_AVAudioSession
+- uid: SA.iOS.AVFoundation.ISN_AVAudioSession.AVAudioSessionInterruptionNotification
+  name: AVAudioSessionInterruptionNotification
+  href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSession.html#SA_iOS_AVFoundation_ISN_AVAudioSession_AVAudioSessionInterruptionNotification
+  commentId: E:SA.iOS.AVFoundation.ISN_AVAudioSession.AVAudioSessionInterruptionNotification
+  fullName: SA.iOS.AVFoundation.ISN_AVAudioSession.AVAudioSessionInterruptionNotification
+  nameWithType: ISN_AVAudioSession.AVAudioSessionInterruptionNotification
 - uid: SA.iOS.AVFoundation.ISN_AVAudioSession.Category
   name: Category
   href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSession.html#SA_iOS_AVFoundation_ISN_AVAudioSession_Category
@@ -21591,6 +21613,24 @@ references:
   commentId: F:SA.iOS.AVFoundation.ISN_AVAudioSessionCategoryOptions.MixWithOthers
   fullName: SA.iOS.AVFoundation.ISN_AVAudioSessionCategoryOptions.MixWithOthers
   nameWithType: ISN_AVAudioSessionCategoryOptions.MixWithOthers
+- uid: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption
+  name: ISN_AVAudioSessionInterruption
+  href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.html
+  commentId: T:SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption
+  fullName: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption
+  nameWithType: ISN_AVAudioSessionInterruption
+- uid: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Began
+  name: Began
+  href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.html#SA_iOS_AVFoundation_ISN_AVAudioSessionInterruption_Began
+  commentId: F:SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Began
+  fullName: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Began
+  nameWithType: ISN_AVAudioSessionInterruption.Began
+- uid: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Ended
+  name: Ended
+  href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.html#SA_iOS_AVFoundation_ISN_AVAudioSessionInterruption_Ended
+  commentId: F:SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Ended
+  fullName: SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.Ended
+  nameWithType: ISN_AVAudioSessionInterruption.Ended
 - uid: SA.iOS.AVFoundation.ISN_AVAudioSessionRouteChangeReason
   name: ISN_AVAudioSessionRouteChangeReason
   href: ios-native/SA.iOS.AVFoundation.ISN_AVAudioSessionRouteChangeReason.html
