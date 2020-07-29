@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class AN_GamesClient
    ">
-    <meta name="generator" content="docfx 2.56.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -89,9 +89,42 @@
   </h3>
   
   
+  <a id="SA_Android_GMS_Games_AN_GamesClient_GetSettingsIntent_" data-uid="SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent*"></a>
+  <h4 id="SA_Android_GMS_Games_AN_GamesClient_GetSettingsIntent_Action_SA_Android_GMS_Games_AN_IntentResult__" data-uid="SA.Android.GMS.Games.AN_GamesClient.GetSettingsIntent(Action{SA.Android.GMS.Games.AN_IntentResult})">GetSettingsIntent(Action&lt;AN_IntentResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously loads an Intent to show the Settings screen
+that allows the user to configure Games-related features for the current game.
+Note that this must be invoked with <see cref="!:App.AN_Activity.StartActivityForResult(Content.AN_Intent, Action&lt;App.AN_ActivityResult>)"></see>
+so that the identity of the calling package can be established.</p>
+<p>Required Scopes: <code>SCOPE_GAMES_LITE</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetSettingsIntent(Action&lt;AN_IntentResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.Android.GMS.Games.AN_IntentResult.html">AN_IntentResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Task completion callback.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="SA_Android_GMS_Games_AN_GamesClient_SetGravityForPopups_" data-uid="SA.Android.GMS.Games.AN_GamesClient.SetGravityForPopups*"></a>
   <h4 id="SA_Android_GMS_Games_AN_GamesClient_SetGravityForPopups_System_Int32_" data-uid="SA.Android.GMS.Games.AN_GamesClient.SetGravityForPopups(System.Int32)">SetGravityForPopups(Int32)</h4>
-  <div class="markdown level1 summary"><p>asynchronously sets the part of the screen at which games service pop-ups 
+  <div class="markdown level1 summary"><p>asynchronously sets the part of the screen at which games service pop-ups
 (for example, &quot;welcome back&quot; or &quot;achievement unlocked&quot; popups) will be displayed using gravity.</p>
 <p>Default value is <a class="xref" href="SA.Android.App.View.AN_Gravity.html#SA_Android_App_View_AN_Gravity_TOP">TOP</a> | <a class="xref" href="SA.Android.App.View.AN_Gravity.html#SA_Android_App_View_AN_Gravity_CENTER_HORIZONTAL">CENTER_HORIZONTAL</a></p>
 </div>

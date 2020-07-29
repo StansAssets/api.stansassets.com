@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ISN_AVAudioSession
    ">
-    <meta name="generator" content="docfx 2.56.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -349,6 +349,36 @@ You can also set the category while the session is active, but this results in a
         <td><span class="xref">SA_Result</span></td>
         <td><p>Returns operation result info</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="SA_iOS_AVFoundation_ISN_AVAudioSession_AVAudioSessionInterruptionNotification" data-uid="SA.iOS.AVFoundation.ISN_AVAudioSession.AVAudioSessionInterruptionNotification">AVAudioSessionInterruptionNotification</h4>
+  <div class="markdown level1 summary"><p>A notification that’s posted when an audio interruption occurs.</p>
+<p>Starting in iOS 10, the system deactivates an app’s audio session when it suspends the app process.
+When the app starts running again, it receives an interruption notification that the system has deactivated its audio session.
+This notification is necessarily delayed in time because the system can only deliver it once the app is running again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;ISN_AVAudioSessionInterruption&gt; AVAudioSessionInterruptionNotification</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.AVFoundation.ISN_AVAudioSessionInterruption.html">ISN_AVAudioSessionInterruption</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
