@@ -1,99 +1,110 @@
 {
-  "metadata": [
-    {
-      "src": [
-        {
-          "files":["Editor/**.cs", "Runtime/**.cs"],
-          "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/NativePlugins/IOSNativePro"
-        }
-      ],
-      "dest": "ios-native"
-    },
-    {
-      "src": [
-        {
-          "files":["Editor/**.cs", "Runtime/**.cs"],
-          "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/NativePlugins/AndroidNativePro"
-        }
-      ],
-      "dest": "android-native"
-    },
-     {
-      "src": [
-        {
-          "files":[
-              "UltimateMobile/Runtime/**.cs",
-              "UltimateMobile/Editor/**.cs",
-              "SAFacebook/Runtime/**.cs",
-              "SocialGif/Runtime/**.cs",
-          ],
-          "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/CrossPlatform/"
-        }
-      ],
-      "dest": "ultimate-mobile"
-    }
-     ,
+   "metadata":[
       {
-       "src": [
-         {
-           "files":["Editor/**.cs", "Runtime/**.cs"],
-           "src":"../../com.stansassets.foundation/"
-         }
-       ],
-       "dest": "foundation"
-     }
-  ],
-  "build": {
-    "content": [
-      {
-        "files": [
-          "ios-native/**.yml",
-          "android-native/**.yml",
-          "ultimate-mobile/**.yml",
-          "foundation/**.yml"
-        ]
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/NativePlugins/IOSNativePro"
+            }
+         ],
+         "dest":"ios-native"
       },
       {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "ios-native/**.md",
-          "android-native/**.md",
-          "ultimate-mobile/**.md",
-          "foundation/**.md",
-          "toc.yml",
-          "*.md"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**"
-        ]
-      }
-    ],
-    "resource": [
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/NativePlugins/AndroidNativePro"
+            }
+         ],
+         "dest":"android-native"
+      },
       {
-        "files": [
-          "images/**",
-          "favicon.ico",
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**"
-        ]
-      }
-    ],
-    "overwrite": [
+         "src":[
+            {
+               "files":[
+                  "UltimateMobile/Runtime/**.cs",
+                  "UltimateMobile/Editor/**.cs",
+                  "SAFacebook/Runtime/**.cs",
+                  "SocialGif/Runtime/**.cs"
+               ],
+               "src":"../../Native-Plugins/NativePluginsUnityProject/Assets/Plugins/StansAssets/CrossPlatform/"
+            }
+         ],
+         "dest":"ultimate-mobile"
+      },
       {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "**/bin/**",
-          "**/obj/**"
-        ]
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../com.stansassets.foundation/"
+            }
+         ],
+         "dest":"foundation"
       }
-    ],
-    "dest": "../docs",
-    "template": ["default", "templates/unity"]
-  }
+   ],
+   "build":{
+      "content":[
+         {
+            "files":[
+               "ios-native/**.yml",
+               "android-native/**.yml",
+               "ultimate-mobile/**.yml",
+               "foundation/**.yml"
+            ]
+         },
+         {
+            "files":[
+               "articles/**.md",
+               "articles/**/toc.yml",
+               "ios-native/**.md",
+               "android-native/**.md",
+               "ultimate-mobile/**.md",
+               "foundation/**.md",
+               "toc.yml",
+               "*.md"
+            ],
+            "exclude":[
+               "**/bin/**",
+               "**/obj/**"
+            ]
+         }
+      ],
+      "resource":[
+         {
+            "files":[
+               "images/**",
+               "favicon.ico"
+            ],
+            "exclude":[
+               "**/bin/**",
+               "**/obj/**"
+            ]
+         }
+      ],
+      "overwrite":[
+         {
+            "files":[
+               "apidoc/**.md"
+            ],
+            "exclude":[
+               "**/bin/**",
+               "**/obj/**"
+            ]
+         }
+      ],
+      "dest":"../docs",
+      "template":[
+         "default",
+         "templates/unity"
+      ]
+   }
 }
