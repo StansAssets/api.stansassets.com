@@ -57,7 +57,7 @@
                   "Editor/**.cs",
                   "Runtime/**.cs"
                ],
-               "src":"../../com.stansassets.facebook/"
+               "src":"../../com.stansassets.facebook/com.stansassets.facebook/"
             }
          ],
          "dest":"facebook"
