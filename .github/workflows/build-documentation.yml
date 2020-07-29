@@ -24,6 +24,13 @@ jobs:
         token: ${{ secrets.DOC_MGMT_TOKEN }}
         repository: StansAssets/com.stansassets.foundation
         path: com.stansassets.foundation
+        
+    - name: Checkout com.stansassets.facebook
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.DOC_MGMT_TOKEN }}
+        repository: StansAssets/com.stansassets.facebook
+        path: com.stansassets.facebook
 
     - name: Checkout Native-Plugins
       uses: actions/checkout@v2
