@@ -49,6 +49,18 @@
             }
          ],
          "dest":"foundation"
+      },
+      {
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../com.stansassets.facebook/"
+            }
+         ],
+         "dest":"facebook"
       }
    ],
    "build":{
@@ -58,7 +70,8 @@
                "ios-native/**.yml",
                "android-native/**.yml",
                "ultimate-mobile/**.yml",
-               "foundation/**.yml"
+               "foundation/**.yml",
+               "facebook/**.yml",
             ]
          },
          {
@@ -69,6 +82,7 @@
                "android-native/**.md",
                "ultimate-mobile/**.md",
                "foundation/**.md",
+               "facebook/**.md",
                "toc.yml",
                "*.md"
             ],
