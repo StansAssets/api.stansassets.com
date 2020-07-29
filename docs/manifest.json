@@ -2668,12 +2668,288 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/SA.Facebook.FbEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/SA.Facebook.FbEditorWindow.html",
+          "hash": "LtHWfIv9WM8WxcZ+CbRwKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/SA.Facebook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/SA.Facebook.html",
+          "hash": "y6L5DlG5u+a/sQ7aUHjeMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.Fb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.Fb.html",
+          "hash": "waEEW7DAk9o5f7Aw0e5o1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbAnalytics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbAnalytics.html",
+          "hash": "QdTf+TTenL6ngWf2MScTqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbCursor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbCursor.html",
+          "hash": "Odvk7QkTRnrP0KtSN4j1FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbCursorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbCursorType.html",
+          "hash": "Nv2wysWKsAgVIcAR2HhCiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbGender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbGender.html",
+          "hash": "MUGn6VHBe374rX5rW26NGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbGetUserResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbGetUserResult.html",
+          "hash": "3Dakm6cHGrKEu5FhA3sjug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbGraphAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbGraphAPI.html",
+          "hash": "sVHF5J1JpYnaNsO8mhjpWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbGraphFriendsListResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbGraphFriendsListResult.html",
+          "hash": "mOSLYXHtMiNokfdP9+CRXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbGraphResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbGraphResult.html",
+          "hash": "dR/Z9+H5OPpVBmi8EQguHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbLoginResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbLoginResult.html",
+          "hash": "vIynBYD46lFGoWK6wbixcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbLoginUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbLoginUtil.html",
+          "hash": "ZYDprtggex2mAeKOWsro/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbLoginUtilResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbLoginUtilResult.html",
+          "hash": "m0umV6z8FEet5ORc/RTCJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbPermissions.html",
+          "hash": "WkmHzv3EAR8J18o7sxkw4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbProfileImageSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbProfileImageSize.html",
+          "hash": "11wkBm1CFQ5Vfx3Rybg8dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbRequestBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbRequestBuilder.html",
+          "hash": "tdDHZ5HWWgq8kFig/jYzNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbResult.html",
+          "hash": "/1j7BWOk7f0Tdm3lU4947Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbResultState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbResultState.html",
+          "hash": "hbwA7R3C72qX28w8FUTQjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbSettings.html",
+          "hash": "nm8hIwE1qbHZWG9oIPk8vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.FbUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.FbUser.html",
+          "hash": "YlrZl3FTTNM1n/1gHCiMHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "facebook/StansAssets.Facebook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/StansAssets.Facebook.html",
+          "hash": "hHsLUN9o/Buspb93qVWvVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "facebook/index.md",
       "output": {
         ".html": {
           "relative_path": "facebook/index.html",
-          "hash": "uVApTV9TzqwGmUx6QCLjsg=="
+          "hash": "5I9RAkQVqdgb/3a+jhlr8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "facebook/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "facebook/toc.html",
+          "hash": "0GR4LwQnKkwG9WNuPpRI9Q=="
         }
       },
       "is_incremental": false,
@@ -7102,7 +7378,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.FacebookDelegate-1.html",
-          "hash": "OHjWxZ0dwquBKCw2FenBmQ=="
+          "hash": "sfSkbfr7Wn4JBotLc73GKg=="
         }
       },
       "is_incremental": false,
@@ -7114,7 +7390,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.HideUnityDelegate.html",
-          "hash": "NO46yC98TGtd7VxAoZILTQ=="
+          "hash": "IkXw0q/FPWgPwhfPSGtljw=="
         }
       },
       "is_incremental": false,
@@ -7126,7 +7402,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.HttpMethod.html",
-          "hash": "TiR0xGpxOTI2ztBzEGzu+w=="
+          "hash": "GtITkM7Z3le4PgIuqR7CeQ=="
         }
       },
       "is_incremental": false,
@@ -7138,7 +7414,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.IGraphResult.html",
-          "hash": "occFDQGqUnwz7zNXE9T/pA=="
+          "hash": "1pq+aGzDNGYvePQWiXtfBQ=="
         }
       },
       "is_incremental": false,
@@ -7150,7 +7426,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.ILoginResult.html",
-          "hash": "nsrBPMRjlNX5OYF8SPeYfA=="
+          "hash": "rCpG6ZQpamgHlVSyKf7T0g=="
         }
       },
       "is_incremental": false,
@@ -7162,7 +7438,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.IResult.html",
-          "hash": "oj8B6zngzL0aAR/RofFjjg=="
+          "hash": "+nKoZl0wZSMcRDb+1v/mDQ=="
         }
       },
       "is_incremental": false,
@@ -7174,7 +7450,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.InitDelegate.html",
-          "hash": "lqLbji3WQ7iVAgkmBIm3Iw=="
+          "hash": "cb7sXWpbhQ1/nU0t5w1hOQ=="
         }
       },
       "is_incremental": false,
@@ -7186,7 +7462,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.Json.html",
-          "hash": "U5FRtT51Cay8A8lj844q4w=="
+          "hash": "MW6s8IDipA85trO9UNs6Dg=="
         }
       },
       "is_incremental": false,
@@ -7198,7 +7474,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_AccessToken.html",
-          "hash": "9KII9Wouhz3WYJYRywaLDQ=="
+          "hash": "83AnigYL59ylK8ToZxNxWA=="
         }
       },
       "is_incremental": false,
@@ -7210,7 +7486,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB.html",
-          "hash": "Z0Sy3A2d/hdY2qIOPI9+2w=="
+          "hash": "+riNaCLRYk4V5OuplbLsLQ=="
         }
       },
       "is_incremental": false,
@@ -7222,7 +7498,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FBGraphFirendsListResult.html",
-          "hash": "5jC8N1GMunghVvx0L3SS5A=="
+          "hash": "8Lr4TgwnxIARO/HWWaoAIQ=="
         }
       },
       "is_incremental": false,
@@ -7234,7 +7510,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Analytics.html",
-          "hash": "/tOcocoLyRMZ2q8eJeu04Q=="
+          "hash": "Xu/xgdHhXRruK5z8aBlzdw=="
         }
       },
       "is_incremental": false,
@@ -7246,7 +7522,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Cursor.html",
-          "hash": "sBGv9TUiNyRn7Isc1vhyuw=="
+          "hash": "QIX9k1KOW+myaVVI5AhSSA=="
         }
       },
       "is_incremental": false,
@@ -7258,7 +7534,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_CursorType.html",
-          "hash": "26Tph61n57iZ5VWr3cYNQg=="
+          "hash": "ufd8zRscZX5X+Uvg8kV/aQ=="
         }
       },
       "is_incremental": false,
@@ -7270,7 +7546,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorCode.html",
-          "hash": "Hc99NLs77AHzUPTICLg17w=="
+          "hash": "FXCQq+FaWx1dUbxQgqsaUw=="
         }
       },
       "is_incremental": false,
@@ -7282,7 +7558,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorFactory.html",
-          "hash": "okYDgAkSbbuu4djy9ngqsw=="
+          "hash": "qYkV4rCH5n2Z1ND5jRAzwA=="
         }
       },
       "is_incremental": false,
@@ -7294,7 +7570,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Gender.html",
-          "hash": "UmiCPD+2rutptadusGXXaw=="
+          "hash": "MtZbfVRmnvzgLkcaBkoaVQ=="
         }
       },
       "is_incremental": false,
@@ -7306,7 +7582,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetProfileImageUrlResult.html",
-          "hash": "SI/cc70XjQOUSBnTeWogpw=="
+          "hash": "Pz860EOg3B79z/Gaf+/o4Q=="
         }
       },
       "is_incremental": false,
@@ -7318,7 +7594,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetUserResult.html",
-          "hash": "iNRJMEAvof+p84Nhc5r19w=="
+          "hash": "K+6m9dIpiJ5zaiZauOa1bw=="
         }
       },
       "is_incremental": false,
@@ -7330,7 +7606,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphAPI.html",
-          "hash": "AbE4ETZVxzFVzgG19rbAhw=="
+          "hash": "FlJFU7pSfk7LRLMRGuZnNw=="
         }
       },
       "is_incremental": false,
@@ -7342,7 +7618,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphFriendsListResult.html",
-          "hash": "TEfJuCaWPXPEpi0Ymdsz0Q=="
+          "hash": "Plcsvti0IBsR8Cbun4oubQ=="
         }
       },
       "is_incremental": false,
@@ -7354,7 +7630,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphInvitableFriendsListResult.html",
-          "hash": "jPl7YkC5edhOxljB3WZeKg=="
+          "hash": "B4bqnF3vhKY7u+Mik3kmNA=="
         }
       },
       "is_incremental": false,
@@ -7366,7 +7642,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html",
-          "hash": "HaQUKO0REEbNfyEo254auQ=="
+          "hash": "l63CaT1C7dqufYXtbDSsyw=="
         }
       },
       "is_incremental": false,
@@ -7378,7 +7654,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginResult.html",
-          "hash": "NSOeoPbJp/EOGQHYfxOeQw=="
+          "hash": "Mn7hKq2DDfcgQT11jA6pBg=="
         }
       },
       "is_incremental": false,
@@ -7390,7 +7666,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtil.html",
-          "hash": "gYSIYxENmruNkAxIwPX/Ww=="
+          "hash": "ryiSVRqpSDhZcW+lyauLFQ=="
         }
       },
       "is_incremental": false,
@@ -7402,7 +7678,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtilResult.html",
-          "hash": "12RToHPmJWO/p2ihx4mZmA=="
+          "hash": "WKcnv3Pd6hVv9eCiIgPbMA=="
         }
       },
       "is_incremental": false,
@@ -7414,7 +7690,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Permissions.html",
-          "hash": "mr/SuHI7typRhoeGgPD/sQ=="
+          "hash": "td4yNBAvBLPgUs+EMQBVpA=="
         }
       },
       "is_incremental": false,
@@ -7426,7 +7702,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ProfileImageSize.html",
-          "hash": "1M/hKNPvg9dPqoIeUcRfPA=="
+          "hash": "w/9AaehI3MEsSq+2dXop4w=="
         }
       },
       "is_incremental": false,
@@ -7438,7 +7714,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_RequestBuilder.html",
-          "hash": "jFH5a7XsGnDBeQYl04sKkA=="
+          "hash": "6otMB3PfdBu/h9pvUqBsGQ=="
         }
       },
       "is_incremental": false,
@@ -7450,7 +7726,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Result.html",
-          "hash": "AikinBM0AwEY+6uwzy7fZQ=="
+          "hash": "B8rSEtNImE5bvuxuZTHW5A=="
         }
       },
       "is_incremental": false,
@@ -7462,7 +7738,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Settings.html",
-          "hash": "+jvcdDs2tDQsT+y6YgxEag=="
+          "hash": "FVc+3+DPQyLFCwo81ys9Hg=="
         }
       },
       "is_incremental": false,
@@ -7474,13 +7750,16 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_User.html",
-          "hash": "u/jt+6azTwfFyBLL974N6A=="
+          "hash": "pCLbMIZnxpOzWenSvuq92w=="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -7558,7 +7837,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/toc.html",
-          "hash": "ouEpOI/jCU81yxOGF6lGsA=="
+          "hash": "CLp07VHcMoe2h1eN2QXJ5g=="
         }
       },
       "is_incremental": false,
@@ -7585,7 +7864,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 611,
+          "total_file_count": 633,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

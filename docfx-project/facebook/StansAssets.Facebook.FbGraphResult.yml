@@ -1,0 +1,874 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbGraphResult
+  commentId: T:StansAssets.Facebook.FbGraphResult
+  id: FbGraphResult
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbGraphResult.After
+  - StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer
+  - StansAssets.Facebook.FbGraphResult.Before
+  - StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+  - StansAssets.Facebook.FbGraphResult.HasNext
+  - StansAssets.Facebook.FbGraphResult.HasPrevious
+  - StansAssets.Facebook.FbGraphResult.Id
+  - StansAssets.Facebook.FbGraphResult.Next
+  - StansAssets.Facebook.FbGraphResult.ParsePaginatedResult(IDictionary)
+  - StansAssets.Facebook.FbGraphResult.ParseResultId(IDictionary)
+  - StansAssets.Facebook.FbGraphResult.Previous
+  langs:
+  - csharp
+  - vb
+  name: FbGraphResult
+  nameWithType: FbGraphResult
+  fullName: StansAssets.Facebook.FbGraphResult
+  type: Class
+  source:
+    id: FbGraphResult
+    path: ''
+    startLine: 1277
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nAbstract Graph API result class\n"
+  example: []
+  syntax:
+    content: 'public abstract class FbGraphResult : FbResult'
+    content.vb: >-
+      Public MustInherit Class FbGraphResult
+          Inherits FbResult
+  inheritance:
+  - System.Object
+  - StansAssets.Facebook.FbResult
+  derivedClasses:
+  - StansAssets.Facebook.FbGraphFriendsListResult
+  inheritedMembers:
+  - StansAssets.Facebook.FbResult.State
+  - StansAssets.Facebook.FbResult.IsSucceeded
+  - StansAssets.Facebook.FbResult.IsFailed
+  - StansAssets.Facebook.FbResult.RawResult
+  - StansAssets.Facebook.FbResult.Error
+  - StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: StansAssets.Facebook.FbGraphResult.ParsePaginatedResult(IDictionary)
+  commentId: M:StansAssets.Facebook.FbGraphResult.ParsePaginatedResult(IDictionary)
+  id: ParsePaginatedResult(IDictionary)
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: ParsePaginatedResult(IDictionary)
+  nameWithType: FbGraphResult.ParsePaginatedResult(IDictionary)
+  fullName: StansAssets.Facebook.FbGraphResult.ParsePaginatedResult(IDictionary)
+  type: Method
+  source:
+    id: ParsePaginatedResult
+    path: ''
+    startLine: 1282
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: protected void ParsePaginatedResult(IDictionary paginatedResult)
+    parameters:
+    - id: paginatedResult
+      type: IDictionary
+    content.vb: Protected Sub ParsePaginatedResult(paginatedResult As IDictionary)
+  overload: StansAssets.Facebook.FbGraphResult.ParsePaginatedResult*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: StansAssets.Facebook.FbGraphResult.ParseResultId(IDictionary)
+  commentId: M:StansAssets.Facebook.FbGraphResult.ParseResultId(IDictionary)
+  id: ParseResultId(IDictionary)
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: ParseResultId(IDictionary)
+  nameWithType: FbGraphResult.ParseResultId(IDictionary)
+  fullName: StansAssets.Facebook.FbGraphResult.ParseResultId(IDictionary)
+  type: Method
+  source:
+    id: ParseResultId
+    path: ''
+    startLine: 1296
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: protected void ParseResultId(IDictionary rawDict)
+    parameters:
+    - id: rawDict
+      type: IDictionary
+    content.vb: Protected Sub ParseResultId(rawDict As IDictionary)
+  overload: StansAssets.Facebook.FbGraphResult.ParseResultId*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: StansAssets.Facebook.FbGraphResult.Id
+  commentId: P:StansAssets.Facebook.FbGraphResult.Id
+  id: Id
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FbGraphResult.Id
+  fullName: StansAssets.Facebook.FbGraphResult.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 1304
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequest Id\n"
+  example: []
+  syntax:
+    content: public string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Id As String
+  overload: StansAssets.Facebook.FbGraphResult.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.Next
+  commentId: P:StansAssets.Facebook.FbGraphResult.Next
+  id: Next
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: Next
+  nameWithType: FbGraphResult.Next
+  fullName: StansAssets.Facebook.FbGraphResult.Next
+  type: Property
+  source:
+    id: Next
+    path: ''
+    startLine: 1309
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nFull request URL for a next page\n"
+  example: []
+  syntax:
+    content: public string Next { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Next As String
+  overload: StansAssets.Facebook.FbGraphResult.Next*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.HasNext
+  commentId: P:StansAssets.Facebook.FbGraphResult.HasNext
+  id: HasNext
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: HasNext
+  nameWithType: FbGraphResult.HasNext
+  fullName: StansAssets.Facebook.FbGraphResult.HasNext
+  type: Property
+  source:
+    id: HasNext
+    path: ''
+    startLine: 1314
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nTrue if request has next page of results\n"
+  example: []
+  syntax:
+    content: public bool HasNext { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasNext As Boolean
+  overload: StansAssets.Facebook.FbGraphResult.HasNext*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.Previous
+  commentId: P:StansAssets.Facebook.FbGraphResult.Previous
+  id: Previous
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: Previous
+  nameWithType: FbGraphResult.Previous
+  fullName: StansAssets.Facebook.FbGraphResult.Previous
+  type: Property
+  source:
+    id: Previous
+    path: ''
+    startLine: 1319
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nFull request URL for a previous page\n"
+  example: []
+  syntax:
+    content: public string Previous { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Previous As String
+  overload: StansAssets.Facebook.FbGraphResult.Previous*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.HasPrevious
+  commentId: P:StansAssets.Facebook.FbGraphResult.HasPrevious
+  id: HasPrevious
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: HasPrevious
+  nameWithType: FbGraphResult.HasPrevious
+  fullName: StansAssets.Facebook.FbGraphResult.HasPrevious
+  type: Property
+  source:
+    id: HasPrevious
+    path: ''
+    startLine: 1324
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nTrue if request has previous page of results\n"
+  example: []
+  syntax:
+    content: public bool HasPrevious { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasPrevious As Boolean
+  overload: StansAssets.Facebook.FbGraphResult.HasPrevious*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.Before
+  commentId: P:StansAssets.Facebook.FbGraphResult.Before
+  id: Before
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: Before
+  nameWithType: FbGraphResult.Before
+  fullName: StansAssets.Facebook.FbGraphResult.Before
+  type: Property
+  source:
+    id: Before
+    path: ''
+    startLine: 1329
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequest before page pointer\n"
+  example: []
+  syntax:
+    content: public string Before { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Before As String
+  overload: StansAssets.Facebook.FbGraphResult.Before*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.After
+  commentId: P:StansAssets.Facebook.FbGraphResult.After
+  id: After
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: After
+  nameWithType: FbGraphResult.After
+  fullName: StansAssets.Facebook.FbGraphResult.After
+  type: Property
+  source:
+    id: After
+    path: ''
+    startLine: 1334
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequest after page pointer\n"
+  example: []
+  syntax:
+    content: public string After { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property After As String
+  overload: StansAssets.Facebook.FbGraphResult.After*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+  commentId: P:StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+  id: BeforeFbCursorPointer
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: BeforeFbCursorPointer
+  nameWithType: FbGraphResult.BeforeFbCursorPointer
+  fullName: StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+  type: Property
+  source:
+    id: BeforeFbCursorPointer
+    path: ''
+    startLine: 1339
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nGenerated before cursor pointer\n"
+  example: []
+  syntax:
+    content: public FbCursor BeforeFbCursorPointer { get; }
+    parameters: []
+    return:
+      type: StansAssets.Facebook.FbCursor
+    content.vb: Public ReadOnly Property BeforeFbCursorPointer As FbCursor
+  overload: StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer
+  commentId: P:StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer
+  id: AfterFbCursorPointer
+  parent: StansAssets.Facebook.FbGraphResult
+  langs:
+  - csharp
+  - vb
+  name: AfterFbCursorPointer
+  nameWithType: FbGraphResult.AfterFbCursorPointer
+  fullName: StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer
+  type: Property
+  source:
+    id: AfterFbCursorPointer
+    path: ''
+    startLine: 1344
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nGenerated after cursor pointer\n"
+  example: []
+  syntax:
+    content: public FbCursor AfterFbCursorPointer { get; }
+    parameters: []
+    return:
+      type: StansAssets.Facebook.FbCursor
+    content.vb: Public ReadOnly Property AfterFbCursorPointer As FbCursor
+  overload: StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: StansAssets.Facebook.FbResult
+  commentId: T:StansAssets.Facebook.FbResult
+  parent: StansAssets.Facebook
+  name: FbResult
+  nameWithType: FbResult
+  fullName: StansAssets.Facebook.FbResult
+- uid: StansAssets.Facebook.FbResult.State
+  commentId: P:StansAssets.Facebook.FbResult.State
+  parent: StansAssets.Facebook.FbResult
+  name: State
+  nameWithType: FbResult.State
+  fullName: StansAssets.Facebook.FbResult.State
+- uid: StansAssets.Facebook.FbResult.IsSucceeded
+  commentId: P:StansAssets.Facebook.FbResult.IsSucceeded
+  parent: StansAssets.Facebook.FbResult
+  name: IsSucceeded
+  nameWithType: FbResult.IsSucceeded
+  fullName: StansAssets.Facebook.FbResult.IsSucceeded
+- uid: StansAssets.Facebook.FbResult.IsFailed
+  commentId: P:StansAssets.Facebook.FbResult.IsFailed
+  parent: StansAssets.Facebook.FbResult
+  name: IsFailed
+  nameWithType: FbResult.IsFailed
+  fullName: StansAssets.Facebook.FbResult.IsFailed
+- uid: StansAssets.Facebook.FbResult.RawResult
+  commentId: P:StansAssets.Facebook.FbResult.RawResult
+  parent: StansAssets.Facebook.FbResult
+  name: RawResult
+  nameWithType: FbResult.RawResult
+  fullName: StansAssets.Facebook.FbResult.RawResult
+- uid: StansAssets.Facebook.FbResult.Error
+  commentId: P:StansAssets.Facebook.FbResult.Error
+  parent: StansAssets.Facebook.FbResult
+  name: Error
+  nameWithType: FbResult.Error
+  fullName: StansAssets.Facebook.FbResult.Error
+- uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  commentId: M:StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  parent: StansAssets.Facebook.FbResult
+  isExternal: true
+  name: OnDataReady(IDictionary)
+  nameWithType: FbResult.OnDataReady(IDictionary)
+  fullName: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  spec.csharp:
+  - uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+    name: OnDataReady
+    nameWithType: FbResult.OnDataReady
+    fullName: StansAssets.Facebook.FbResult.OnDataReady
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+    name: OnDataReady
+    nameWithType: FbResult.OnDataReady
+    fullName: StansAssets.Facebook.FbResult.OnDataReady
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.FbGraphResult.ParsePaginatedResult*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.ParsePaginatedResult
+  name: ParsePaginatedResult
+  nameWithType: FbGraphResult.ParsePaginatedResult
+  fullName: StansAssets.Facebook.FbGraphResult.ParsePaginatedResult
+- uid: IDictionary
+  isExternal: true
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: IDictionary
+- uid: StansAssets.Facebook.FbGraphResult.ParseResultId*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.ParseResultId
+  name: ParseResultId
+  nameWithType: FbGraphResult.ParseResultId
+  fullName: StansAssets.Facebook.FbGraphResult.ParseResultId
+- uid: StansAssets.Facebook.FbGraphResult.Id*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.Id
+  name: Id
+  nameWithType: FbGraphResult.Id
+  fullName: StansAssets.Facebook.FbGraphResult.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Facebook.FbGraphResult.Next*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.Next
+  name: Next
+  nameWithType: FbGraphResult.Next
+  fullName: StansAssets.Facebook.FbGraphResult.Next
+- uid: StansAssets.Facebook.FbGraphResult.HasNext*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.HasNext
+  name: HasNext
+  nameWithType: FbGraphResult.HasNext
+  fullName: StansAssets.Facebook.FbGraphResult.HasNext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Facebook.FbGraphResult.Previous*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.Previous
+  name: Previous
+  nameWithType: FbGraphResult.Previous
+  fullName: StansAssets.Facebook.FbGraphResult.Previous
+- uid: StansAssets.Facebook.FbGraphResult.HasPrevious*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.HasPrevious
+  name: HasPrevious
+  nameWithType: FbGraphResult.HasPrevious
+  fullName: StansAssets.Facebook.FbGraphResult.HasPrevious
+- uid: StansAssets.Facebook.FbGraphResult.Before*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.Before
+  name: Before
+  nameWithType: FbGraphResult.Before
+  fullName: StansAssets.Facebook.FbGraphResult.Before
+- uid: StansAssets.Facebook.FbGraphResult.After*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.After
+  name: After
+  nameWithType: FbGraphResult.After
+  fullName: StansAssets.Facebook.FbGraphResult.After
+- uid: StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+  name: BeforeFbCursorPointer
+  nameWithType: FbGraphResult.BeforeFbCursorPointer
+  fullName: StansAssets.Facebook.FbGraphResult.BeforeFbCursorPointer
+- uid: StansAssets.Facebook.FbCursor
+  commentId: T:StansAssets.Facebook.FbCursor
+  parent: StansAssets.Facebook
+  name: FbCursor
+  nameWithType: FbCursor
+  fullName: StansAssets.Facebook.FbCursor
+- uid: StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer*
+  commentId: Overload:StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer
+  name: AfterFbCursorPointer
+  nameWithType: FbGraphResult.AfterFbCursorPointer
+  fullName: StansAssets.Facebook.FbGraphResult.AfterFbCursorPointer

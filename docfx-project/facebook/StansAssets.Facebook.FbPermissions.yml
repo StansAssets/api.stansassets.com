@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbPermissions
+  commentId: T:StansAssets.Facebook.FbPermissions
+  id: FbPermissions
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbPermissions.email
+  - StansAssets.Facebook.FbPermissions.instagram_basic
+  - StansAssets.Facebook.FbPermissions.public_profile
+  - StansAssets.Facebook.FbPermissions.user_age_range
+  - StansAssets.Facebook.FbPermissions.user_birthday
+  - StansAssets.Facebook.FbPermissions.user_friends
+  - StansAssets.Facebook.FbPermissions.user_hometown
+  - StansAssets.Facebook.FbPermissions.user_likes
+  - StansAssets.Facebook.FbPermissions.user_location
+  - StansAssets.Facebook.FbPermissions.user_photos
+  - StansAssets.Facebook.FbPermissions.user_posts
+  - StansAssets.Facebook.FbPermissions.user_videos
+  langs:
+  - csharp
+  - vb
+  name: FbPermissions
+  nameWithType: FbPermissions
+  fullName: StansAssets.Facebook.FbPermissions
+  type: Enum
+  source:
+    id: FbPermissions
+    path: ''
+    startLine: 701
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nContain list of facebook permissions\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0\n"
+  example: []
+  syntax:
+    content: public enum FbPermissions
+    content.vb: Public Enum FbPermissions
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.Facebook.FbPermissions.instagram_basic
+  commentId: F:StansAssets.Facebook.FbPermissions.instagram_basic
+  id: instagram_basic
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: instagram_basic
+  nameWithType: FbPermissions.instagram_basic
+  fullName: StansAssets.Facebook.FbPermissions.instagram_basic
+  type: Field
+  source:
+    id: instagram_basic
+    path: ''
+    startLine: 710
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe instagram_basic permission allows your app to read an Instagram account profile&apos;s info and media.\nRequires App Review.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-instagram_basic\n"
+  example: []
+  syntax:
+    content: instagram_basic = 0
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.email
+  commentId: F:StansAssets.Facebook.FbPermissions.email
+  id: email
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: email
+  nameWithType: FbPermissions.email
+  fullName: StansAssets.Facebook.FbPermissions.email
+  type: Field
+  source:
+    id: email
+    path: ''
+    startLine: 716
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nDoes not require App Review.\nThe email permission allows your app to read an person&apos;s primary email address.\n"
+  example: []
+  syntax:
+    content: email = 1
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.public_profile
+  commentId: F:StansAssets.Facebook.FbPermissions.public_profile
+  id: public_profile
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: public_profile
+  nameWithType: FbPermissions.public_profile
+  fullName: StansAssets.Facebook.FbPermissions.public_profile
+  type: Field
+  source:
+    id: public_profile
+    path: ''
+    startLine: 730
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nGrants your app access to the default fields of the User object that are a subset of a person&apos;s public profile:\n* id\n* first_name\n* last_name\n* middle_name\n*  name\n*  name_format\n*  picture\n* short_name\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-default\n"
+  example: []
+  syntax:
+    content: public_profile = 2
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_birthday
+  commentId: F:StansAssets.Facebook.FbPermissions.user_birthday
+  id: user_birthday
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_birthday
+  nameWithType: FbPermissions.user_birthday
+  fullName: StansAssets.Facebook.FbPermissions.user_birthday
+  type: Field
+  source:
+    id: user_birthday
+    path: ''
+    startLine: 737
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_birthday permission allows your app to read a person&apos;s birthday as listed in their Facebook profile.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_birthday\n"
+  example: []
+  syntax:
+    content: user_birthday = 3
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_friends
+  commentId: F:StansAssets.Facebook.FbPermissions.user_friends
+  id: user_friends
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_friends
+  nameWithType: FbPermissions.user_friends
+  fullName: StansAssets.Facebook.FbPermissions.user_friends
+  type: Field
+  source:
+    id: user_friends
+    path: ''
+    startLine: 746
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_friends permission allows your app to get a list of a person&apos;s friends using that app.\nThe allowed usage for this permission is to provide Facebook-related content to personalize a person&apos;s experience.\nYou may also use this permission to request analytics insights to improve your app and for marketing or advertising purposes, through the use of aggregated and de-identified or anonymized information (provided such data cannot be re-identified).\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_friends\n"
+  example: []
+  syntax:
+    content: user_friends = 4
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_hometown
+  commentId: F:StansAssets.Facebook.FbPermissions.user_hometown
+  id: user_hometown
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_hometown
+  nameWithType: FbPermissions.user_hometown
+  fullName: StansAssets.Facebook.FbPermissions.user_hometown
+  type: Field
+  source:
+    id: user_hometown
+    path: ''
+    startLine: 753
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_hometown permission allows your app to read a person&apos;s hometown location from their Facebook profile.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_hometown\n"
+  example: []
+  syntax:
+    content: user_hometown = 5
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_location
+  commentId: F:StansAssets.Facebook.FbPermissions.user_location
+  id: user_location
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_location
+  nameWithType: FbPermissions.user_location
+  fullName: StansAssets.Facebook.FbPermissions.user_location
+  type: Field
+  source:
+    id: user_location
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_location permission allows your app to read the city name as listed in the location field of a person&apos;s Facebook profile.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_location\n"
+  example: []
+  syntax:
+    content: user_location = 6
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_likes
+  commentId: F:StansAssets.Facebook.FbPermissions.user_likes
+  id: user_likes
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_likes
+  nameWithType: FbPermissions.user_likes
+  fullName: StansAssets.Facebook.FbPermissions.user_likes
+  type: Field
+  source:
+    id: user_likes
+    path: ''
+    startLine: 771
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_likes permission allows your app to read a list of all Facebook Pages that a user has Liked.\nThe allowed usage for this permission is to provide a personalized experience by correlating or surfacing content related to the person&apos;s Likes.\nThis includes curating content at scale to customize apps with large amounts of content, and enabling people to share their Likes with others,\nfor example in dating and music apps. You may also use this permission to request analytics insights to improve your app and for marketing\nor advertising purposes, through the use of aggregated and de-identified or anonymized information (provided such data cannot be re-identified).\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_likes\n"
+  example: []
+  syntax:
+    content: user_likes = 7
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_photos
+  commentId: F:StansAssets.Facebook.FbPermissions.user_photos
+  id: user_photos
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_photos
+  nameWithType: FbPermissions.user_photos
+  fullName: StansAssets.Facebook.FbPermissions.user_photos
+  type: Field
+  source:
+    id: user_photos
+    path: ''
+    startLine: 778
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_photos permission allows your app to read the photos a person has uploaded to Facebook.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_photos\n"
+  example: []
+  syntax:
+    content: user_photos = 8
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_posts
+  commentId: F:StansAssets.Facebook.FbPermissions.user_posts
+  id: user_posts
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_posts
+  nameWithType: FbPermissions.user_posts
+  fullName: StansAssets.Facebook.FbPermissions.user_posts
+  type: Field
+  source:
+    id: user_posts
+    path: ''
+    startLine: 785
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe **user_posts** permission allows your app to access the posts a person has made on their timeline, but not the comments on those posts.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_posts\n"
+  example: []
+  syntax:
+    content: user_posts = 9
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_videos
+  commentId: F:StansAssets.Facebook.FbPermissions.user_videos
+  id: user_videos
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_videos
+  nameWithType: FbPermissions.user_videos
+  fullName: StansAssets.Facebook.FbPermissions.user_videos
+  type: Field
+  source:
+    id: user_videos
+    path: ''
+    startLine: 792
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nThe user_videos permission allows your app to read a list of videos uploaded by a person.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_videos\n"
+  example: []
+  syntax:
+    content: user_videos = 10
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbPermissions.user_age_range
+  commentId: F:StansAssets.Facebook.FbPermissions.user_age_range
+  id: user_age_range
+  parent: StansAssets.Facebook.FbPermissions
+  langs:
+  - csharp
+  - vb
+  name: user_age_range
+  nameWithType: FbPermissions.user_age_range
+  fullName: StansAssets.Facebook.FbPermissions.user_age_range
+  type: Field
+  source:
+    id: user_age_range
+    path: ''
+    startLine: 799
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRequires App Review.\nGrants an app permission to access a person&apos;s age range.\nhttps://developers.facebook.com/docs/facebook-login/permissions/v2.0#reference-user_age_range\n"
+  example: []
+  syntax:
+    content: user_age_range = 11
+    return:
+      type: StansAssets.Facebook.FbPermissions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: StansAssets.Facebook.FbPermissions
+  commentId: T:StansAssets.Facebook.FbPermissions
+  parent: StansAssets.Facebook
+  name: FbPermissions
+  nameWithType: FbPermissions
+  fullName: StansAssets.Facebook.FbPermissions
