@@ -2680,6 +2680,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3032,7 +3035,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.CoroutineUtility.html",
-          "hash": "QPATo4AhTsEAKM591raVpg=="
+          "hash": "rHl/M4LjU0H/CTKlCn1jow=="
         }
       },
       "is_incremental": false,
@@ -3116,7 +3119,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.Dependency.html",
-          "hash": "1Y8v6oh4Owh5R/fErdBWUQ=="
+          "hash": "OFmZHHnlNFRVxsbgYcXyPA=="
         }
       },
       "is_incremental": false,
@@ -3212,7 +3215,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.ScopeRegistry.html",
-          "hash": "UOEnrplHWyWpCRODdOmi0w=="
+          "hash": "VsDUvkn4yuMHuaKHkEDeng=="
         }
       },
       "is_incremental": false,
@@ -3284,7 +3287,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.html",
-          "hash": "g7EiaTla2OaiWNk9KlfJSA=="
+          "hash": "dMdfiG2l9r+wIHVnnQo9HA=="
         }
       },
       "is_incremental": false,
@@ -3308,7 +3311,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.StringExtensions.html",
-          "hash": "73OyedZoHEX/H9WEsTi0qA=="
+          "hash": "ENFabPnPE3n70yFoGENnmA=="
         }
       },
       "is_incremental": false,
@@ -3452,7 +3455,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.DictionaryPool-2.html",
-          "hash": "gbW8GVdTEogpv+oBKG/Wyw=="
+          "hash": "MXxAe7bcUV80JwuIJDPx4w=="
         }
       },
       "is_incremental": false,
@@ -3464,7 +3467,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ListPool-1.html",
-          "hash": "jwxpEKf9NrPyJ9/FN3Q+aA=="
+          "hash": "2ObLX/h01sC3tqGfo7tbew=="
         }
       },
       "is_incremental": false,
@@ -3476,7 +3479,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.MonoSingleton-1.html",
-          "hash": "Dq0tMQdvYsJZ83+wFiIqzg=="
+          "hash": "XVRPNU5v4CLzggY4t0zu2g=="
         }
       },
       "is_incremental": false,
@@ -7757,9 +7760,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {

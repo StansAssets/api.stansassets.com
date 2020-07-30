@@ -18,7 +18,7 @@ items:
   source:
     id: FbLoginResult
     path: ''
-    startLine: 1139
+    startLine: 1353
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -65,7 +65,7 @@ items:
   source:
     id: UserId
     path: ''
-    startLine: 1154
+    startLine: 1368
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -98,7 +98,7 @@ items:
   source:
     id: AccessToken
     path: ''
-    startLine: 1159
+    startLine: 1373
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -131,7 +131,7 @@ items:
   source:
     id: OnDataReady
     path: ''
-    startLine: 1161
+    startLine: 1375
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

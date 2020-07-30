@@ -108,7 +108,7 @@ Once instance is found or created, game object will be marked as DontDestroyOnLo
   
   <a id="StansAssets_Foundation_Patterns_MonoSingleton_1_HasInstance_" data-uid="StansAssets.Foundation.Patterns.MonoSingleton`1.HasInstance*"></a>
   <h4 id="StansAssets_Foundation_Patterns_MonoSingleton_1_HasInstance" data-uid="StansAssets.Foundation.Patterns.MonoSingleton`1.HasInstance">HasInstance</h4>
-  <div class="markdown level1 summary"><p>True if Singleton Instance exists</p>
+  <div class="markdown level1 summary"><p>Returns <code>true</code> if Singleton Instance exists.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -162,7 +162,9 @@ in case instance already exists on a scene. If not, new instance will be created
   
   <a id="StansAssets_Foundation_Patterns_MonoSingleton_1_IsDestroyed_" data-uid="StansAssets.Foundation.Patterns.MonoSingleton`1.IsDestroyed*"></a>
   <h4 id="StansAssets_Foundation_Patterns_MonoSingleton_1_IsDestroyed" data-uid="StansAssets.Foundation.Patterns.MonoSingleton`1.IsDestroyed">IsDestroyed</h4>
-  <div class="markdown level1 summary"><p>True if Singleton Instance doesn&apos;t exist</p>
+  <div class="markdown level1 summary"><p>If this property returns <code>true</code> it means that object with explicitly destroyed.
+This could happen if Destroy function  was called for this object or if it was
+automatically destroyed during the <code>ApplicationQuit</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
