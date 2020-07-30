@@ -1,0 +1,683 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SemanticVersion
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SemanticVersion
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logo_rect_blue.png" height="46" width="46" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.SemanticVersion">
+  
+  
+  <h1 id="StansAssets_Foundation_Editor_SemanticVersion" data-uid="StansAssets.Foundation.Editor.SemanticVersion" class="text-break">Class SemanticVersion
+  </h1>
+  <div class="markdown level0 summary"><p>Representation of the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> semantic version.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SemanticVersion</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.html">StansAssets.Foundation.Editor</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StansAssets_Foundation_Editor_SemanticVersion_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class SemanticVersion</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion__ctor_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion__ctor_System_Int32_System_Int32_System_Int32_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String)">SemanticVersion(Int32, Int32, Int32, String, String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> class with provided properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SemanticVersion(int major, int minor, int patch, string preRelease, string buildMetadata)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">major</span></td>
+        <td><p>The major version number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minor</span></td>
+        <td><p>The minor version number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">patch</span></td>
+        <td><p>The patch version number.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">preRelease</span></td>
+        <td><p>The pre-release data string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">buildMetadata</span></td>
+        <td><p>The build metadata string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion__ctor_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.#ctor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion__ctor_System_String_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.String)">SemanticVersion(String)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> class with provided data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SemanticVersion(string versionString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">versionString</span></td>
+        <td><p>String which contains <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when versionString has incorrect format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_BuildMetadata_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_BuildMetadata" data-uid="StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata">BuildMetadata</h4>
+  <div class="markdown level1 summary"><p>The build metadata string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BuildMetadata { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_HasBuildMetadata_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_HasBuildMetadata" data-uid="StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata">HasBuildMetadata</h4>
+  <div class="markdown level1 summary"><p>True if the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> has build metadata string set; otherwise, false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasBuildMetadata { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_HasPreRelease_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_HasPreRelease" data-uid="StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease">HasPreRelease</h4>
+  <div class="markdown level1 summary"><p>True if the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> has pre-release data string set; otherwise, false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasPreRelease { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_Major_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Major*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_Major" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Major">Major</h4>
+  <div class="markdown level1 summary"><p>The major version number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Major { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_Minor_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Minor*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_Minor" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Minor">Minor</h4>
+  <div class="markdown level1 summary"><p>The minor version number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Minor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_Patch_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Patch*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_Patch" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Patch">Patch</h4>
+  <div class="markdown level1 summary"><p>The patch version number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Patch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_PreRelease_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.PreRelease*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_PreRelease" data-uid="StansAssets.Foundation.Editor.SemanticVersion.PreRelease">PreRelease</h4>
+  <div class="markdown level1 summary"><p>The pre-release data string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PreRelease { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_Equals_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Equals*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_Equals_System_Object_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> instances are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare with the current <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>&apos;true&apos; if the specified object is equal to the current <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>; otherwise, &apos;false&apos;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_GetHashCode_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.GetHashCode*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_GetHashCode" data-uid="StansAssets.Foundation.Editor.SemanticVersion.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Generates a hash of this object data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Hash of this object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_ToString_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.ToString*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_ToString" data-uid="StansAssets.Foundation.Editor.SemanticVersion.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string that represents the current <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>A string that represents the current <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_TryCreateSemanticVersion_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_TryCreateSemanticVersion_System_String_StansAssets_Foundation_Editor_SemanticVersion__" data-uid="StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion(System.String,StansAssets.Foundation.Editor.SemanticVersion@)">TryCreateSemanticVersion(String, out SemanticVersion)</h4>
+  <div class="markdown level1 summary"><p>Tries to create a new instance of the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> class with provided data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryCreateSemanticVersion(string versionString, out SemanticVersion semanticVersion)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">versionString</span></td>
+        <td><p>String which contains <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a></td>
+        <td><span class="parametername">semanticVersion</span></td>
+        <td><p>When this method returns, contains the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> object with provided data,
+if versionString has correct format; otherwise, null. This parameter is passed uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>&apos;true&apos; if the <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> has been successfully created; otherwise, &apos;false&apos;.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_op_GreaterThan_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_op_GreaterThan_StansAssets_Foundation_Editor_SemanticVersion_StansAssets_Foundation_Editor_SemanticVersion_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)">GreaterThan(SemanticVersion, SemanticVersion)</h4>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> objects. Major, Minor and Patch version numbers will be compared one by one respectively.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator&gt;(SemanticVersion semanticVersion, SemanticVersion other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a></td>
+        <td><span class="parametername">semanticVersion</span></td>
+        <td><p><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> object which you want to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> object which you want to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_SemanticVersion_op_LessThan_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.op_LessThan*"></a>
+  <h4 id="StansAssets_Foundation_Editor_SemanticVersion_op_LessThan_StansAssets_Foundation_Editor_SemanticVersion_StansAssets_Foundation_Editor_SemanticVersion_" data-uid="StansAssets.Foundation.Editor.SemanticVersion.op_LessThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)">LessThan(SemanticVersion, SemanticVersion)</h4>
+  <div class="markdown level1 summary"><p>Compares two <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> objects. Major, Minor and Patch version numbers will be compared one by one respectively.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(SemanticVersion semanticVersion, SemanticVersion other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a></td>
+        <td><span class="parametername">semanticVersion</span></td>
+        <td><p><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> object which you want to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a> object which you want to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

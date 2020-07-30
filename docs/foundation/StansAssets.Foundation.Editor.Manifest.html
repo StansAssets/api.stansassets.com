@@ -173,14 +173,16 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
   </h3>
   
   
-  <a id="StansAssets_Foundation_Editor_Manifest_AddDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.AddDependency*"></a>
-  <h4 id="StansAssets_Foundation_Editor_Manifest_AddDependency_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.AddDependency(System.String,System.String)">AddDependency(String, String)</h4>
-  <div class="markdown level1 summary"><p>Adds dependency.</p>
+  <a id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})">AddScopeRegistry(String, String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with the provided properties. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with given url,
+provided scopes will be merged with existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> scopes.
+Name of existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> won&apos;t be updated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddDependency(string name, string version)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScopeRegistry AddScopeRegistry(string url, string name, IEnumerable&lt;string&gt; scopes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,43 +196,37 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>Dependency name.</p>
+        <td><span class="parametername">url</span></td>
+        <td><p>Scope registry url.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">version</span></td>
-        <td><p>Dependency version.</p>
+        <td><span class="parametername">name</span></td>
+        <td><p>Scope registry name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">scopes</span></td>
+        <td><p>Scope registry scopes.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*"></a>
-  <h4 id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_StansAssets_Foundation_Editor_ScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(StansAssets.Foundation.Editor.ScopeRegistry)">AddScopeRegistry(ScopeRegistry)</h4>
-  <div class="markdown level1 summary"><p>Adds scope registry.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddScopeRegistry(ScopeRegistry registry)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a></td>
-        <td><span class="parametername">registry</span></td>
-        <td><p>An entry to add.</p>
+        <td><p>New <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with provided properties or existing with updated scopes, if <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a>
+already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with given name.</p>
 </td>
       </tr>
     </tbody>
@@ -257,6 +253,33 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Fetch()</code></pre>
   </div>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_GetDependencies_" data-uid="StansAssets.Foundation.Editor.Manifest.GetDependencies*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_GetDependencies" data-uid="StansAssets.Foundation.Editor.Manifest.GetDependencies">GetDependencies()</h4>
+  <div class="markdown level1 summary"><p>Returns dependencies of the manifest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;Dependency&gt; GetDependencies()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a>&gt;</td>
+        <td><p>Dependencies of the manifest.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StansAssets_Foundation_Editor_Manifest_GetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.GetDependency*"></a>
@@ -298,6 +321,33 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
       <tr>
         <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
         <td><p>Dependency with given name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_GetScopeRegistries_" data-uid="StansAssets.Foundation.Editor.Manifest.GetScopeRegistries*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_GetScopeRegistries" data-uid="StansAssets.Foundation.Editor.Manifest.GetScopeRegistries">GetScopeRegistries()</h4>
+  <div class="markdown level1 summary"><p>Returns scope registries of the manifest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ScopeRegistry&gt; GetScopeRegistries()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a>&gt;</td>
+        <td><p>Scope registries of the manifest.</p>
 </td>
       </tr>
     </tbody>
@@ -394,14 +444,14 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
   </table>
   
   
-  <a id="StansAssets_Foundation_Editor_Manifest_IsRegistryExists_" data-uid="StansAssets.Foundation.Editor.Manifest.IsRegistryExists*"></a>
-  <h4 id="StansAssets_Foundation_Editor_Manifest_IsRegistryExists_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.IsRegistryExists(System.String)">IsRegistryExists(String)</h4>
+  <a id="StansAssets_Foundation_Editor_Manifest_IsScopeRegistryExists_" data-uid="StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_IsScopeRegistryExists_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists(System.String)">IsScopeRegistryExists(String)</h4>
   <div class="markdown level1 summary"><p>Searches for ScopeRegistry with the provided Url.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsRegistryExists(string url)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsScopeRegistryExists(string url)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -433,6 +483,328 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><p><code>true</code> if scoped registry found, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_SetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_SetDependency_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency(System.String)">SetDependency(String)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> by given full name. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name,
+existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> will be overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDependency(string fullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td><p>Dependency full name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_SetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_SetDependency_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency(System.String,System.String)">SetDependency(String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> by given name. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name,
+existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> will be overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetDependency(string name, string version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Dependency name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>Dependency version.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String)">SetOrUpdateDependency(String)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> by given full name. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name, its&apos;
+<a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>s will be taken into account. <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with higher <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>
+will be placed into the <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dependency SetOrUpdateDependency(string fullName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">fullName</span></td>
+        <td><p>Dependency full name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
+        <td><p>New or existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when dependency fullName has wrong format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_System_String_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String,System.String)">SetOrUpdateDependency(String, String)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> by given name. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name, its&apos;
+<a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>s will be taken into account. <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with higher <a class="xref" href="StansAssets.Foundation.Editor.SemanticVersion.html">SemanticVersion</a>
+will be placed into the <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dependency SetOrUpdateDependency(string name, string version)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Dependency name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">version</span></td>
+        <td><p>Dependency name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
+        <td><p>New or existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_SetScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.SetScopeRegistry*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_SetScopeRegistry_System_String_StansAssets_Foundation_Editor_ScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.SetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry)">SetScopeRegistry(String, ScopeRegistry)</h4>
+  <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> by given url. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with given url,
+existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> will be overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetScopeRegistry(string url, ScopeRegistry registry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>Scope registry url.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a></td>
+        <td><span class="parametername">registry</span></td>
+        <td><p><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_TryGetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.TryGetDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_TryGetDependency_System_String_StansAssets_Foundation_Editor_Dependency__" data-uid="StansAssets.Foundation.Editor.Manifest.TryGetDependency(System.String,StansAssets.Foundation.Editor.Dependency@)">TryGetDependency(String, out Dependency)</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> associated with the specified name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetDependency(string name, out Dependency dependency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
+        <td><span class="parametername">dependency</span></td>
+        <td><p>When this method returns, contains the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> associated with the specified name,
+if the name is found; otherwise, <code>null</code>. This parameter is passed uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a> contains a <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with the specified name; otherwise, false.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_TryGetScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_TryGetScopeRegistry_System_String_StansAssets_Foundation_Editor_ScopeRegistry__" data-uid="StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry@)">TryGetScopeRegistry(String, out ScopeRegistry)</h4>
+  <div class="markdown level1 summary"><p>Gets the <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> associated with the specified url.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetScopeRegistry(string url, out ScopeRegistry registry)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>The url of the <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> to get.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a></td>
+        <td><span class="parametername">registry</span></td>
+        <td><p>When this method returns, contains the <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> associated with the specified url,
+if the url is found; otherwise, <code>null</code>. This parameter is passed uninitialized.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>true if the <a class="xref" href="StansAssets.Foundation.Editor.Manifest.html">Manifest</a> contains a <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with the specified url; otherwise, false.</p>
 </td>
       </tr>
     </tbody>

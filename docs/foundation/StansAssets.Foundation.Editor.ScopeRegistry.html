@@ -129,8 +129,7 @@
       <tr>
         <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">dictionary</span></td>
-        <td><p>Data to fill this object. Must contain <span class="xref">StansAssets.Foundation.Editor.ScopeRegistry.k_KeyName</span>,
-<span class="xref">StansAssets.Foundation.Editor.ScopeRegistry.k_KeyUrl</span> and <span class="xref">StansAssets.Foundation.Editor.ScopeRegistry.k_KeyScopes</span>.</p>
+        <td><p>Data to fill this object. Must contain name, url and scopes.</p>
 </td>
       </tr>
     </tbody>
@@ -138,13 +137,13 @@
   
   
   <a id="StansAssets_Foundation_Editor_ScopeRegistry__ctor_" data-uid="StansAssets.Foundation.Editor.ScopeRegistry.#ctor*"></a>
-  <h4 id="StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_HashSet_System_String__" data-uid="StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,HashSet{System.String})">ScopeRegistry(String, String, HashSet&lt;String&gt;)</h4>
+  <h4 id="StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_IEnumerable_System_String__" data-uid="StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})">ScopeRegistry(String, String, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> class with the provided properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScopeRegistry(string name, string url, HashSet&lt;string&gt; scopes)</code></pre>
+    <pre><code class="lang-csharp hljs">public ScopeRegistry(string name, string url, IEnumerable&lt;string&gt; scopes)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,7 +168,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">scopes</span></td>
         <td><p>Scopes of new scope registry.</p>
 </td>
@@ -213,7 +212,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HashSet&lt;string&gt; Scopes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; Scopes { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,7 +224,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">HashSet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

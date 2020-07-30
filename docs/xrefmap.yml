@@ -33010,6 +33010,12 @@ references:
   commentId: T:StansAssets.Foundation.Editor.Dependency
   fullName: StansAssets.Foundation.Editor.Dependency
   nameWithType: Dependency
+- uid: StansAssets.Foundation.Editor.Dependency.#ctor(System.String)
+  name: Dependency(String)
+  href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency__ctor_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Dependency.#ctor(System.String)
+  fullName: StansAssets.Foundation.Editor.Dependency.Dependency(System.String)
+  nameWithType: Dependency.Dependency(String)
 - uid: StansAssets.Foundation.Editor.Dependency.#ctor(System.String,System.String)
   name: Dependency(String, String)
   href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency__ctor_System_String_System_String_
@@ -33023,6 +33029,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Dependency.Dependency
   nameWithType: Dependency.Dependency
+- uid: StansAssets.Foundation.Editor.Dependency.HasSemanticVersion
+  name: HasSemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_HasSemanticVersion
+  commentId: P:StansAssets.Foundation.Editor.Dependency.HasSemanticVersion
+  fullName: StansAssets.Foundation.Editor.Dependency.HasSemanticVersion
+  nameWithType: Dependency.HasSemanticVersion
+- uid: StansAssets.Foundation.Editor.Dependency.HasSemanticVersion*
+  name: HasSemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_HasSemanticVersion_
+  commentId: Overload:StansAssets.Foundation.Editor.Dependency.HasSemanticVersion
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Dependency.HasSemanticVersion
+  nameWithType: Dependency.HasSemanticVersion
 - uid: StansAssets.Foundation.Editor.Dependency.Name
   name: Name
   href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_Name
@@ -33036,6 +33055,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Dependency.Name
   nameWithType: Dependency.Name
+- uid: StansAssets.Foundation.Editor.Dependency.SemanticVersion
+  name: SemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_SemanticVersion
+  commentId: P:StansAssets.Foundation.Editor.Dependency.SemanticVersion
+  fullName: StansAssets.Foundation.Editor.Dependency.SemanticVersion
+  nameWithType: Dependency.SemanticVersion
+- uid: StansAssets.Foundation.Editor.Dependency.SemanticVersion*
+  name: SemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_SemanticVersion_
+  commentId: Overload:StansAssets.Foundation.Editor.Dependency.SemanticVersion
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Dependency.SemanticVersion
+  nameWithType: Dependency.SemanticVersion
 - uid: StansAssets.Foundation.Editor.Dependency.SetVersion(System.String)
   name: SetVersion(String)
   href: foundation/StansAssets.Foundation.Editor.Dependency.html#StansAssets_Foundation_Editor_Dependency_SetVersion_System_String_
@@ -33295,25 +33327,15 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Manifest
   nameWithType: Manifest.Manifest
-- uid: StansAssets.Foundation.Editor.Manifest.AddDependency(System.String,System.String)
-  name: AddDependency(String, String)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddDependency_System_String_System_String_
-  commentId: M:StansAssets.Foundation.Editor.Manifest.AddDependency(System.String,System.String)
-  fullName: StansAssets.Foundation.Editor.Manifest.AddDependency(System.String, System.String)
-  nameWithType: Manifest.AddDependency(String, String)
-- uid: StansAssets.Foundation.Editor.Manifest.AddDependency*
-  name: AddDependency
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddDependency_
-  commentId: Overload:StansAssets.Foundation.Editor.Manifest.AddDependency
-  isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.Manifest.AddDependency
-  nameWithType: Manifest.AddDependency
-- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(StansAssets.Foundation.Editor.ScopeRegistry)
-  name: AddScopeRegistry(ScopeRegistry)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_StansAssets_Foundation_Editor_ScopeRegistry_
-  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(StansAssets.Foundation.Editor.ScopeRegistry)
-  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(StansAssets.Foundation.Editor.ScopeRegistry)
-  nameWithType: Manifest.AddScopeRegistry(ScopeRegistry)
+- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
+  name: AddScopeRegistry(String, String, IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
+  name.vb: AddScopeRegistry(String, String, IEnumerable(Of String))
+  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
+  nameWithType: Manifest.AddScopeRegistry(String, String, IEnumerable<String>)
+  nameWithType.vb: Manifest.AddScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*
   name: AddScopeRegistry
   href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_
@@ -33347,6 +33369,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Fetch
   nameWithType: Manifest.Fetch
+- uid: StansAssets.Foundation.Editor.Manifest.GetDependencies
+  name: GetDependencies()
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetDependencies
+  commentId: M:StansAssets.Foundation.Editor.Manifest.GetDependencies
+  fullName: StansAssets.Foundation.Editor.Manifest.GetDependencies()
+  nameWithType: Manifest.GetDependencies()
+- uid: StansAssets.Foundation.Editor.Manifest.GetDependencies*
+  name: GetDependencies
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetDependencies_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.GetDependencies
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.GetDependencies
+  nameWithType: Manifest.GetDependencies
 - uid: StansAssets.Foundation.Editor.Manifest.GetDependency(System.String)
   name: GetDependency(String)
   href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetDependency_System_String_
@@ -33360,6 +33395,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.GetDependency
   nameWithType: Manifest.GetDependency
+- uid: StansAssets.Foundation.Editor.Manifest.GetScopeRegistries
+  name: GetScopeRegistries()
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetScopeRegistries
+  commentId: M:StansAssets.Foundation.Editor.Manifest.GetScopeRegistries
+  fullName: StansAssets.Foundation.Editor.Manifest.GetScopeRegistries()
+  nameWithType: Manifest.GetScopeRegistries()
+- uid: StansAssets.Foundation.Editor.Manifest.GetScopeRegistries*
+  name: GetScopeRegistries
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetScopeRegistries_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.GetScopeRegistries
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.GetScopeRegistries
+  nameWithType: Manifest.GetScopeRegistries
 - uid: StansAssets.Foundation.Editor.Manifest.GetScopeRegistry(System.String)
   name: GetScopeRegistry(String)
   href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_GetScopeRegistry_System_String_
@@ -33386,19 +33434,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.IsDependencyExists
   nameWithType: Manifest.IsDependencyExists
-- uid: StansAssets.Foundation.Editor.Manifest.IsRegistryExists(System.String)
-  name: IsRegistryExists(String)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_IsRegistryExists_System_String_
-  commentId: M:StansAssets.Foundation.Editor.Manifest.IsRegistryExists(System.String)
-  fullName: StansAssets.Foundation.Editor.Manifest.IsRegistryExists(System.String)
-  nameWithType: Manifest.IsRegistryExists(String)
-- uid: StansAssets.Foundation.Editor.Manifest.IsRegistryExists*
-  name: IsRegistryExists
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_IsRegistryExists_
-  commentId: Overload:StansAssets.Foundation.Editor.Manifest.IsRegistryExists
+- uid: StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists(System.String)
+  name: IsScopeRegistryExists(String)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_IsScopeRegistryExists_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists(System.String)
+  fullName: StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists(System.String)
+  nameWithType: Manifest.IsScopeRegistryExists(String)
+- uid: StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists*
+  name: IsScopeRegistryExists
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_IsScopeRegistryExists_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists
   isSpec: "True"
-  fullName: StansAssets.Foundation.Editor.Manifest.IsRegistryExists
-  nameWithType: Manifest.IsRegistryExists
+  fullName: StansAssets.Foundation.Editor.Manifest.IsScopeRegistryExists
+  nameWithType: Manifest.IsScopeRegistryExists
 - uid: StansAssets.Foundation.Editor.Manifest.Path
   name: Path
   href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_Path
@@ -33412,6 +33460,89 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Path
   nameWithType: Manifest.Path
+- uid: StansAssets.Foundation.Editor.Manifest.SetDependency(System.String)
+  name: SetDependency(String)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetDependency_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.SetDependency(System.String)
+  fullName: StansAssets.Foundation.Editor.Manifest.SetDependency(System.String)
+  nameWithType: Manifest.SetDependency(String)
+- uid: StansAssets.Foundation.Editor.Manifest.SetDependency(System.String,System.String)
+  name: SetDependency(String, String)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetDependency_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.SetDependency(System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.Manifest.SetDependency(System.String, System.String)
+  nameWithType: Manifest.SetDependency(String, String)
+- uid: StansAssets.Foundation.Editor.Manifest.SetDependency*
+  name: SetDependency
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetDependency_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.SetDependency
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.SetDependency
+  nameWithType: Manifest.SetDependency
+- uid: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String)
+  name: SetOrUpdateDependency(String)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String)
+  fullName: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String)
+  nameWithType: Manifest.SetOrUpdateDependency(String)
+- uid: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String,System.String)
+  name: SetOrUpdateDependency(String, String)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency(System.String, System.String)
+  nameWithType: Manifest.SetOrUpdateDependency(String, String)
+- uid: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency*
+  name: SetOrUpdateDependency
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetOrUpdateDependency_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.SetOrUpdateDependency
+  nameWithType: Manifest.SetOrUpdateDependency
+- uid: StansAssets.Foundation.Editor.Manifest.SetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry)
+  name: SetScopeRegistry(String, ScopeRegistry)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetScopeRegistry_System_String_StansAssets_Foundation_Editor_ScopeRegistry_
+  commentId: M:StansAssets.Foundation.Editor.Manifest.SetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry)
+  fullName: StansAssets.Foundation.Editor.Manifest.SetScopeRegistry(System.String, StansAssets.Foundation.Editor.ScopeRegistry)
+  nameWithType: Manifest.SetScopeRegistry(String, ScopeRegistry)
+- uid: StansAssets.Foundation.Editor.Manifest.SetScopeRegistry*
+  name: SetScopeRegistry
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_SetScopeRegistry_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.SetScopeRegistry
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.SetScopeRegistry
+  nameWithType: Manifest.SetScopeRegistry
+- uid: StansAssets.Foundation.Editor.Manifest.TryGetDependency(System.String,StansAssets.Foundation.Editor.Dependency@)
+  name: TryGetDependency(String, out Dependency)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_TryGetDependency_System_String_StansAssets_Foundation_Editor_Dependency__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.TryGetDependency(System.String,StansAssets.Foundation.Editor.Dependency@)
+  name.vb: TryGetDependency(String, ByRef Dependency)
+  fullName: StansAssets.Foundation.Editor.Manifest.TryGetDependency(System.String, out StansAssets.Foundation.Editor.Dependency)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.TryGetDependency(System.String, ByRef StansAssets.Foundation.Editor.Dependency)
+  nameWithType: Manifest.TryGetDependency(String, out Dependency)
+  nameWithType.vb: Manifest.TryGetDependency(String, ByRef Dependency)
+- uid: StansAssets.Foundation.Editor.Manifest.TryGetDependency*
+  name: TryGetDependency
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_TryGetDependency_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.TryGetDependency
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.TryGetDependency
+  nameWithType: Manifest.TryGetDependency
+- uid: StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry@)
+  name: TryGetScopeRegistry(String, out ScopeRegistry)
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_TryGetScopeRegistry_System_String_StansAssets_Foundation_Editor_ScopeRegistry__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry(System.String,StansAssets.Foundation.Editor.ScopeRegistry@)
+  name.vb: TryGetScopeRegistry(String, ByRef ScopeRegistry)
+  fullName: StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry(System.String, out StansAssets.Foundation.Editor.ScopeRegistry)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry(System.String, ByRef StansAssets.Foundation.Editor.ScopeRegistry)
+  nameWithType: Manifest.TryGetScopeRegistry(String, out ScopeRegistry)
+  nameWithType.vb: Manifest.TryGetScopeRegistry(String, ByRef ScopeRegistry)
+- uid: StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry*
+  name: TryGetScopeRegistry
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_TryGetScopeRegistry_
+  commentId: Overload:StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.Manifest.TryGetScopeRegistry
+  nameWithType: Manifest.TryGetScopeRegistry
 - uid: StansAssets.Foundation.Editor.PackageManagerUtility
   name: PackageManagerUtility
   href: foundation/StansAssets.Foundation.Editor.PackageManagerUtility.html
@@ -33465,15 +33596,15 @@ references:
   fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary(Of System.String, System.Object))
   nameWithType: ScopeRegistry.ScopeRegistry(Dictionary<String, Object>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(Dictionary(Of String, Object))
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,HashSet{System.String})
-  name: ScopeRegistry(String, String, HashSet<String>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_HashSet_System_String__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,HashSet{System.String})
-  name.vb: ScopeRegistry(String, String, HashSet(Of String))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, HashSet<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, HashSet(Of System.String))
-  nameWithType: ScopeRegistry.ScopeRegistry(String, String, HashSet<String>)
-  nameWithType.vb: ScopeRegistry.ScopeRegistry(String, String, HashSet(Of String))
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
+  name: ScopeRegistry(String, String, IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
+  name.vb: ScopeRegistry(String, String, IEnumerable(Of String))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
+  nameWithType: ScopeRegistry.ScopeRegistry(String, String, IEnumerable<String>)
+  nameWithType.vb: ScopeRegistry.ScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor*
   name: ScopeRegistry
   href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_
@@ -33585,6 +33716,203 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.ScopeRegistry.Url
   nameWithType: ScopeRegistry.Url
+- uid: StansAssets.Foundation.Editor.SemanticVersion
+  name: SemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html
+  commentId: T:StansAssets.Foundation.Editor.SemanticVersion
+  fullName: StansAssets.Foundation.Editor.SemanticVersion
+  nameWithType: SemanticVersion
+- uid: StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String)
+  name: SemanticVersion(Int32, Int32, Int32, String, String)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion__ctor_System_Int32_System_Int32_System_Int32_System_String_System_String_
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.String)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.SemanticVersion(System.Int32, System.Int32, System.Int32, System.String, System.String)
+  nameWithType: SemanticVersion.SemanticVersion(Int32, Int32, Int32, String, String)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.String)
+  name: SemanticVersion(String)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion__ctor_System_String_
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.#ctor(System.String)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.SemanticVersion(System.String)
+  nameWithType: SemanticVersion.SemanticVersion(String)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.#ctor*
+  name: SemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion__ctor_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.SemanticVersion
+  nameWithType: SemanticVersion.SemanticVersion
+- uid: StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata
+  name: BuildMetadata
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_BuildMetadata
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata
+  nameWithType: SemanticVersion.BuildMetadata
+- uid: StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata*
+  name: BuildMetadata
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_BuildMetadata_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.BuildMetadata
+  nameWithType: SemanticVersion.BuildMetadata
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Equals(System.Object)
+  name: Equals(Object)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Equals_System_Object_
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.Equals(System.Object)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Equals(System.Object)
+  nameWithType: SemanticVersion.Equals(Object)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Equals*
+  name: Equals
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Equals_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.Equals
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Equals
+  nameWithType: SemanticVersion.Equals
+- uid: StansAssets.Foundation.Editor.SemanticVersion.GetHashCode
+  name: GetHashCode()
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_GetHashCode
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.GetHashCode
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.GetHashCode()
+  nameWithType: SemanticVersion.GetHashCode()
+- uid: StansAssets.Foundation.Editor.SemanticVersion.GetHashCode*
+  name: GetHashCode
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_GetHashCode_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.GetHashCode
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.GetHashCode
+  nameWithType: SemanticVersion.GetHashCode
+- uid: StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata
+  name: HasBuildMetadata
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_HasBuildMetadata
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata
+  nameWithType: SemanticVersion.HasBuildMetadata
+- uid: StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata*
+  name: HasBuildMetadata
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_HasBuildMetadata_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.HasBuildMetadata
+  nameWithType: SemanticVersion.HasBuildMetadata
+- uid: StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease
+  name: HasPreRelease
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_HasPreRelease
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease
+  nameWithType: SemanticVersion.HasPreRelease
+- uid: StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease*
+  name: HasPreRelease
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_HasPreRelease_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.HasPreRelease
+  nameWithType: SemanticVersion.HasPreRelease
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Major
+  name: Major
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Major
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.Major
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Major
+  nameWithType: SemanticVersion.Major
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Major*
+  name: Major
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Major_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.Major
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Major
+  nameWithType: SemanticVersion.Major
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Minor
+  name: Minor
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Minor
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.Minor
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Minor
+  nameWithType: SemanticVersion.Minor
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Minor*
+  name: Minor
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Minor_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.Minor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Minor
+  nameWithType: SemanticVersion.Minor
+- uid: StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)
+  name: GreaterThan(SemanticVersion, SemanticVersion)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_op_GreaterThan_StansAssets_Foundation_Editor_SemanticVersion_StansAssets_Foundation_Editor_SemanticVersion_
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.GreaterThan(StansAssets.Foundation.Editor.SemanticVersion, StansAssets.Foundation.Editor.SemanticVersion)
+  nameWithType: SemanticVersion.GreaterThan(SemanticVersion, SemanticVersion)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan*
+  name: GreaterThan
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_op_GreaterThan_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.op_GreaterThan
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.GreaterThan
+  nameWithType: SemanticVersion.GreaterThan
+- uid: StansAssets.Foundation.Editor.SemanticVersion.op_LessThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)
+  name: LessThan(SemanticVersion, SemanticVersion)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_op_LessThan_StansAssets_Foundation_Editor_SemanticVersion_StansAssets_Foundation_Editor_SemanticVersion_
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.op_LessThan(StansAssets.Foundation.Editor.SemanticVersion,StansAssets.Foundation.Editor.SemanticVersion)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.LessThan(StansAssets.Foundation.Editor.SemanticVersion, StansAssets.Foundation.Editor.SemanticVersion)
+  nameWithType: SemanticVersion.LessThan(SemanticVersion, SemanticVersion)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.op_LessThan*
+  name: LessThan
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_op_LessThan_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.op_LessThan
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.LessThan
+  nameWithType: SemanticVersion.LessThan
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Patch
+  name: Patch
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Patch
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.Patch
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Patch
+  nameWithType: SemanticVersion.Patch
+- uid: StansAssets.Foundation.Editor.SemanticVersion.Patch*
+  name: Patch
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_Patch_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.Patch
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.Patch
+  nameWithType: SemanticVersion.Patch
+- uid: StansAssets.Foundation.Editor.SemanticVersion.PreRelease
+  name: PreRelease
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_PreRelease
+  commentId: P:StansAssets.Foundation.Editor.SemanticVersion.PreRelease
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.PreRelease
+  nameWithType: SemanticVersion.PreRelease
+- uid: StansAssets.Foundation.Editor.SemanticVersion.PreRelease*
+  name: PreRelease
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_PreRelease_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.PreRelease
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.PreRelease
+  nameWithType: SemanticVersion.PreRelease
+- uid: StansAssets.Foundation.Editor.SemanticVersion.ToString
+  name: ToString()
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_ToString
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.ToString
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.ToString()
+  nameWithType: SemanticVersion.ToString()
+- uid: StansAssets.Foundation.Editor.SemanticVersion.ToString*
+  name: ToString
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_ToString_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.ToString
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.ToString
+  nameWithType: SemanticVersion.ToString
+- uid: StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion(System.String,StansAssets.Foundation.Editor.SemanticVersion@)
+  name: TryCreateSemanticVersion(String, out SemanticVersion)
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_TryCreateSemanticVersion_System_String_StansAssets_Foundation_Editor_SemanticVersion__
+  commentId: M:StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion(System.String,StansAssets.Foundation.Editor.SemanticVersion@)
+  name.vb: TryCreateSemanticVersion(String, ByRef SemanticVersion)
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion(System.String, out StansAssets.Foundation.Editor.SemanticVersion)
+  fullName.vb: StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion(System.String, ByRef StansAssets.Foundation.Editor.SemanticVersion)
+  nameWithType: SemanticVersion.TryCreateSemanticVersion(String, out SemanticVersion)
+  nameWithType.vb: SemanticVersion.TryCreateSemanticVersion(String, ByRef SemanticVersion)
+- uid: StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion*
+  name: TryCreateSemanticVersion
+  href: foundation/StansAssets.Foundation.Editor.SemanticVersion.html#StansAssets_Foundation_Editor_SemanticVersion_TryCreateSemanticVersion_
+  commentId: Overload:StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.SemanticVersion.TryCreateSemanticVersion
+  nameWithType: SemanticVersion.TryCreateSemanticVersion
 - uid: StansAssets.Foundation.Editor.Shading
   name: StansAssets.Foundation.Editor.Shading
   href: foundation/StansAssets.Foundation.Editor.Shading.html
