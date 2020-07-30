@@ -16343,15 +16343,15 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI
   nameWithType: UM_iLeaderboardsClient.ShowUI
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.Int32,System.Action{SA_Result})
-  name: SubmitScore(String, Int64, Int32, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_Int32_System_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.Int32,System.Action{SA_Result})
-  name.vb: SubmitScore(String, Int64, Int32, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.Int32, System.Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.Int32, System.Action(Of SA_Result))
-  nameWithType: UM_iLeaderboardsClient.SubmitScore(String, Int64, Int32, Action<SA_Result>)
-  nameWithType.vb: UM_iLeaderboardsClient.SubmitScore(String, Int64, Int32, Action(Of SA_Result))
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt32,System.Action{SA_Result})
+  name: SubmitScore(String, Int64, UInt32, Action<SA_Result>)
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_UInt32_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt32,System.Action{SA_Result})
+  name.vb: SubmitScore(String, Int64, UInt32, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt32, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt32, System.Action(Of SA_Result))
+  nameWithType: UM_iLeaderboardsClient.SubmitScore(String, Int64, UInt32, Action<SA_Result>)
+  nameWithType.vb: UM_iLeaderboardsClient.SubmitScore(String, Int64, UInt32, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore*
   name: SubmitScore
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_
@@ -17120,12 +17120,12 @@ references:
   commentId: T:SA.CrossPlatform.GameServices.UM_Score
   fullName: SA.CrossPlatform.GameServices.UM_Score
   nameWithType: UM_Score
-- uid: SA.CrossPlatform.GameServices.UM_Score.#ctor(System.Int64,System.Int64,System.Int32,System.Int64)
-  name: UM_Score(Int64, Int64, Int32, Int64)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_Score.html#SA_CrossPlatform_GameServices_UM_Score__ctor_System_Int64_System_Int64_System_Int32_System_Int64_
-  commentId: M:SA.CrossPlatform.GameServices.UM_Score.#ctor(System.Int64,System.Int64,System.Int32,System.Int64)
-  fullName: SA.CrossPlatform.GameServices.UM_Score.UM_Score(System.Int64, System.Int64, System.Int32, System.Int64)
-  nameWithType: UM_Score.UM_Score(Int64, Int64, Int32, Int64)
+- uid: SA.CrossPlatform.GameServices.UM_Score.#ctor(System.Int64,System.Int64,System.UInt32,System.Int64)
+  name: UM_Score(Int64, Int64, UInt32, Int64)
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_Score.html#SA_CrossPlatform_GameServices_UM_Score__ctor_System_Int64_System_Int64_System_UInt32_System_Int64_
+  commentId: M:SA.CrossPlatform.GameServices.UM_Score.#ctor(System.Int64,System.Int64,System.UInt32,System.Int64)
+  fullName: SA.CrossPlatform.GameServices.UM_Score.UM_Score(System.Int64, System.Int64, System.UInt32, System.Int64)
+  nameWithType: UM_Score.UM_Score(Int64, Int64, UInt32, Int64)
 - uid: SA.CrossPlatform.GameServices.UM_Score.#ctor*
   name: UM_Score
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_Score.html#SA_CrossPlatform_GameServices_UM_Score__ctor_

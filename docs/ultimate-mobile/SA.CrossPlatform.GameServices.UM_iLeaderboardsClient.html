@@ -86,8 +86,8 @@
   
   <a id="SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadCurrentPlayerScore_" data-uid="SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore*"></a>
   <h4 id="SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadCurrentPlayerScore_System_String_SA_CrossPlatform_GameServices_UM_LeaderboardTimeSpan_SA_CrossPlatform_GameServices_UM_LeaderboardCollection_System_Action_SA_CrossPlatform_GameServices_UM_ScoreLoadResult__" data-uid="SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,SA.CrossPlatform.GameServices.UM_LeaderboardCollection,System.Action{SA.CrossPlatform.GameServices.UM_ScoreLoadResult})">LoadCurrentPlayerScore(String, UM_LeaderboardTimeSpan, UM_LeaderboardCollection, Action&lt;UM_ScoreLoadResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Asynchronously loads <a class="xref" href="SA.CrossPlatform.GameServices.UM_Score.html">UM_Score</a> 
-that represents the signed-in player&apos;s score for the leaderboard specified by leaderboardId. </p>
+  <div class="markdown level1 summary"><p>Asynchronously loads <a class="xref" href="SA.CrossPlatform.GameServices.UM_Score.html">UM_Score</a>
+that represents the signed-in player&apos;s score for the leaderboard specified by leaderboardId.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -265,14 +265,14 @@ that represents the signed-in player&apos;s score for the leaderboard specified 
   
   
   <a id="SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_" data-uid="SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore*"></a>
-  <h4 id="SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_Int32_System_Action_SA_Result__" data-uid="SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.Int32,System.Action{SA_Result})">SubmitScore(String, Int64, Int32, Action&lt;SA_Result&gt;)</h4>
+  <h4 id="SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_UInt32_System_Action_SA_Result__" data-uid="SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt32,System.Action{SA_Result})">SubmitScore(String, Int64, UInt32, Action&lt;SA_Result&gt;)</h4>
   <div class="markdown level1 summary"><p>Submits the score to the game service.
 Use this method whenever you need to submit scores.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void SubmitScore(string leaderboardId, long score, int context, Action&lt;SA_Result&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">void SubmitScore(string leaderboardId, long score, uint context, Action&lt;SA_Result&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,23 +294,23 @@ Use this method whenever you need to submit scores.</p>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">score</span></td>
         <td><p>The score earned by the player.
-You can use any algorithm you want to calculate scores in your game. 
+You can use any algorithm you want to calculate scores in your game.
 Your game must set the value property before reporting a score, otherwise an error is returned.
 The value provided by a score object is interpreted by Game service provided only when formatted for display.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">System.UInt32</span></td>
         <td><span class="parametername">context</span></td>
         <td><p>An integer value used by your game.</p>
-<p>The context property is stored and returned to your game, 
-but is otherwise ignored by Game Center. 
-It allows your game to associate an arbitrary 64-bit unsigned integer value 
-with the score data reported to Game Center. 
-You decide how this integer value is interpreted by your game. 
-For example, you might use the context property 
-to store flags that provide game-specific details about a player’s score, 
-or you might use the context as a key to other data stored on the device or on your own server. 
+<p>The context property is stored and returned to your game,
+but is otherwise ignored by Game Center.
+It allows your game to associate an arbitrary 32-bit unsigned integer value
+with the score data reported to Game Center.
+You decide how this integer value is interpreted by your game.
+For example, you might use the context property
+to store flags that provide game-specific details about a player’s score,
+or you might use the context as a key to other data stored on the device or on your own server.
 The context is most useful when your game displays a custom leaderboard user interface.</p>
 </td>
       </tr>

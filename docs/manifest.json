@@ -2680,9 +2680,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -4786,7 +4783,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.GameKit.ISN_GKScore.html",
-          "hash": "qK2d9wcTK5kYKm9k7I0WQQ=="
+          "hash": "ZJ6/XI/yQyaGkqBGlBRPxA=="
         }
       },
       "is_incremental": false,
@@ -6421,7 +6418,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.App.UM_Application.html",
-          "hash": "FoRBYX5okhXyzHfBJgYhqQ=="
+          "hash": "CD5Eko3o06eEpAAeuZZFXw=="
         }
       },
       "is_incremental": false,
@@ -6577,7 +6574,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html",
-          "hash": "H8pkIoap3eKgHFUsT4opcw=="
+          "hash": "x+Sr1CNnnGOZ6Xyop9B4iA=="
         }
       },
       "is_incremental": false,
@@ -6601,7 +6598,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.App.html",
-          "hash": "YRwPTHPWpUaPMB/zjfD1pQ=="
+          "hash": "nyRRDAf1lOpVGJgTqinJgA=="
         }
       },
       "is_incremental": false,
@@ -6829,7 +6826,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_Score.html",
-          "hash": "ZrzW1vAkeLa2mJFBS0es6g=="
+          "hash": "xOmvNhg7tSMeUiTaH4GM3A=="
         }
       },
       "is_incremental": false,
@@ -6889,7 +6886,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html",
-          "hash": "s/ls+KZwukvdrPhm5czeFA=="
+          "hash": "NISGfHf0wlAuX//pnKByPA=="
         }
       },
       "is_incremental": false,
@@ -6937,7 +6934,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_iScore.html",
-          "hash": "NViJ5v48bJJo+NLTMUICfw=="
+          "hash": "mJO8cHRSvMRXShiA21SmEw=="
         }
       },
       "is_incremental": false,
@@ -7772,6 +7769,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {

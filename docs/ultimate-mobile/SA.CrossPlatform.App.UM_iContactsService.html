@@ -114,7 +114,7 @@ Shared service instance is available via <a class="xref" href="SA.CrossPlatform.
   
   <a id="SA_CrossPlatform_App_UM_iContactsService_Retrieve_" data-uid="SA.CrossPlatform.App.UM_iContactsService.Retrieve*"></a>
   <h4 id="SA_CrossPlatform_App_UM_iContactsService_Retrieve_System_Action_SA_CrossPlatform_App_UM_ContactsResult__" data-uid="SA.CrossPlatform.App.UM_iContactsService.Retrieve(System.Action{SA.CrossPlatform.App.UM_ContactsResult})">Retrieve(Action&lt;UM_ContactsResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Retrieve&apos;s all contacts from a device contacts book.</p>
+  <div class="markdown level1 summary"><p>Retrieves all contacts from a device contacts book.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -134,7 +134,7 @@ Shared service instance is available via <a class="xref" href="SA.CrossPlatform.
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="SA.CrossPlatform.App.UM_ContactsResult.html">UM_ContactsResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
-        <td><p>Callback.</p>
+        <td><p>Operation callback.</p>
 </td>
       </tr>
     </tbody>
@@ -143,7 +143,7 @@ Shared service instance is available via <a class="xref" href="SA.CrossPlatform.
   
   <a id="SA_CrossPlatform_App_UM_iContactsService_RetrieveContacts_" data-uid="SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts*"></a>
   <h4 id="SA_CrossPlatform_App_UM_iContactsService_RetrieveContacts_System_Int32_System_Int32_System_Action_SA_CrossPlatform_App_UM_ContactsResult__" data-uid="SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32,System.Int32,System.Action{SA.CrossPlatform.App.UM_ContactsResult})">RetrieveContacts(Int32, Int32, Action&lt;UM_ContactsResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Retrieve&apos;s contacts from a device contacts book.</p>
+  <div class="markdown level1 summary"><p>Retrieves all contacts from a device contacts book.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -163,17 +163,19 @@ Shared service instance is available via <a class="xref" href="SA.CrossPlatform.
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td></td>
+        <td><p>Start index.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">count</span></td>
-        <td></td>
+        <td><p>Contacts count to retrive.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="SA.CrossPlatform.App.UM_ContactsResult.html">UM_ContactsResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
-        <td><p>Callback.</p>
+        <td><p>Operation callback.</p>
 </td>
       </tr>
     </tbody>
