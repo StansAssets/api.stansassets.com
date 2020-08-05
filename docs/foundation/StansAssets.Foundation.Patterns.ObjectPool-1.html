@@ -417,6 +417,57 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.TryGet*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_System_Predicate__0___0__" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)">TryGet(Predicate&lt;T&gt;, out T)</h4>
+  <div class="markdown level1 summary"><p>Try to get an object in the pool.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGet(Predicate&lt;T&gt; pred, out T result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
+        <td><span class="parametername">pred</span></td>
+        <td><p>Search predicate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">result</span></td>
+        <td><p>An existing object from the pool or <code>null</code> if the object is not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if an appropriate object is found, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

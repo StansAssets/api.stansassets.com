@@ -35008,6 +35008,24 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).Release
   nameWithType: ObjectPool<T>.Release
   nameWithType.vb: ObjectPool(Of T).Release
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)
+  name: TryGet(Predicate<T>, out T)
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_System_Predicate__0___0__
+  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)
+  name.vb: TryGet(Predicate(Of T), ByRef T)
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.TryGet(System.Predicate<T>, out T)
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).TryGet(System.Predicate(Of T), ByRef T)
+  nameWithType: ObjectPool<T>.TryGet(Predicate<T>, out T)
+  nameWithType.vb: ObjectPool(Of T).TryGet(Predicate(Of T), ByRef T)
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.TryGet*
+  name: TryGet
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_
+  commentId: Overload:StansAssets.Foundation.Patterns.ObjectPool`1.TryGet
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.TryGet
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).TryGet
+  nameWithType: ObjectPool<T>.TryGet
+  nameWithType.vb: ObjectPool(Of T).TryGet
 - uid: StansAssets.Foundation.Patterns.PrefabPool
   name: PrefabPool
   href: foundation/StansAssets.Foundation.Patterns.PrefabPool.html
