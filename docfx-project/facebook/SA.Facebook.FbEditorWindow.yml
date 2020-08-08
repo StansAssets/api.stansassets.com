@@ -16,7 +16,7 @@ items:
   source:
     id: FbEditorWindow
     path: ''
-    startLine: 24
+    startLine: 1425
   assemblies:
   - cs.temp.dll
   namespace: SA.Facebook
@@ -47,7 +47,7 @@ items:
   source:
     id: DrawSettingsUI
     path: ''
-    startLine: 53
+    startLine: 1454
   assemblies:
   - cs.temp.dll
   namespace: SA.Facebook

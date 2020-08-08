@@ -17,7 +17,7 @@ items:
   source:
     id: FbCursorType
     path: ''
-    startLine: 193
+    startLine: 939
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -46,7 +46,7 @@ items:
   source:
     id: After
     path: ''
-    startLine: 198
+    startLine: 944
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -76,7 +76,7 @@ items:
   source:
     id: Before
     path: ''
-    startLine: 203
+    startLine: 949
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

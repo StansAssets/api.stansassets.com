@@ -17,7 +17,7 @@ items:
   source:
     id: FbAnalytics
     path: ''
-    startLine: 971
+    startLine: 216
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -55,7 +55,7 @@ items:
   source:
     id: LogAppEvent
     path: ''
-    startLine: 988
+    startLine: 233
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -98,7 +98,7 @@ items:
   source:
     id: LogPurchase
     path: ''
-    startLine: 1006
+    startLine: 251
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
