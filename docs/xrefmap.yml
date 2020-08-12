@@ -302,6 +302,82 @@ references:
   isSpec: "True"
   fullName: Models.Result.ToJson
   nameWithType: Result.ToJson
+- uid: SA.Android
+  name: SA.Android
+  href: android-native/SA.Android.html
+  commentId: N:SA.Android
+  fullName: SA.Android
+  nameWithType: SA.Android
+- uid: SA.Android.AN_Packages
+  name: AN_Packages
+  href: android-native/SA.Android.AN_Packages.html
+  commentId: T:SA.Android.AN_Packages
+  fullName: SA.Android.AN_Packages
+  nameWithType: AN_Packages
+- uid: SA.Android.AN_Packages.FirebaseAnalyticsPackage
+  name: FirebaseAnalyticsPackage
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_FirebaseAnalyticsPackage
+  commentId: F:SA.Android.AN_Packages.FirebaseAnalyticsPackage
+  fullName: SA.Android.AN_Packages.FirebaseAnalyticsPackage
+  nameWithType: AN_Packages.FirebaseAnalyticsPackage
+- uid: SA.Android.AN_Packages.FirebaseMessagingPackage
+  name: FirebaseMessagingPackage
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_FirebaseMessagingPackage
+  commentId: F:SA.Android.AN_Packages.FirebaseMessagingPackage
+  fullName: SA.Android.AN_Packages.FirebaseMessagingPackage
+  nameWithType: AN_Packages.FirebaseMessagingPackage
+- uid: SA.Android.AN_Packages.InstallEdm4U
+  name: InstallEdm4U()
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_InstallEdm4U
+  commentId: M:SA.Android.AN_Packages.InstallEdm4U
+  fullName: SA.Android.AN_Packages.InstallEdm4U()
+  nameWithType: AN_Packages.InstallEdm4U()
+- uid: SA.Android.AN_Packages.InstallEdm4U*
+  name: InstallEdm4U
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_InstallEdm4U_
+  commentId: Overload:SA.Android.AN_Packages.InstallEdm4U
+  isSpec: "True"
+  fullName: SA.Android.AN_Packages.InstallEdm4U
+  nameWithType: AN_Packages.InstallEdm4U
+- uid: SA.Android.AN_Packages.InstallFirebasePackage(System.String)
+  name: InstallFirebasePackage(String)
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_InstallFirebasePackage_System_String_
+  commentId: M:SA.Android.AN_Packages.InstallFirebasePackage(System.String)
+  fullName: SA.Android.AN_Packages.InstallFirebasePackage(System.String)
+  nameWithType: AN_Packages.InstallFirebasePackage(String)
+- uid: SA.Android.AN_Packages.InstallFirebasePackage*
+  name: InstallFirebasePackage
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_InstallFirebasePackage_
+  commentId: Overload:SA.Android.AN_Packages.InstallFirebasePackage
+  isSpec: "True"
+  fullName: SA.Android.AN_Packages.InstallFirebasePackage
+  nameWithType: AN_Packages.InstallFirebasePackage
+- uid: SA.Android.AN_Packages.IsAnalyticsSdkInstalled
+  name: IsAnalyticsSdkInstalled
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_IsAnalyticsSdkInstalled
+  commentId: P:SA.Android.AN_Packages.IsAnalyticsSdkInstalled
+  fullName: SA.Android.AN_Packages.IsAnalyticsSdkInstalled
+  nameWithType: AN_Packages.IsAnalyticsSdkInstalled
+- uid: SA.Android.AN_Packages.IsAnalyticsSdkInstalled*
+  name: IsAnalyticsSdkInstalled
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_IsAnalyticsSdkInstalled_
+  commentId: Overload:SA.Android.AN_Packages.IsAnalyticsSdkInstalled
+  isSpec: "True"
+  fullName: SA.Android.AN_Packages.IsAnalyticsSdkInstalled
+  nameWithType: AN_Packages.IsAnalyticsSdkInstalled
+- uid: SA.Android.AN_Packages.IsMessagingSdkInstalled
+  name: IsMessagingSdkInstalled
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_IsMessagingSdkInstalled
+  commentId: P:SA.Android.AN_Packages.IsMessagingSdkInstalled
+  fullName: SA.Android.AN_Packages.IsMessagingSdkInstalled
+  nameWithType: AN_Packages.IsMessagingSdkInstalled
+- uid: SA.Android.AN_Packages.IsMessagingSdkInstalled*
+  name: IsMessagingSdkInstalled
+  href: android-native/SA.Android.AN_Packages.html#SA_Android_AN_Packages_IsMessagingSdkInstalled_
+  commentId: Overload:SA.Android.AN_Packages.IsMessagingSdkInstalled
+  isSpec: "True"
+  fullName: SA.Android.AN_Packages.IsMessagingSdkInstalled
+  nameWithType: AN_Packages.IsMessagingSdkInstalled
 - uid: SA.Android.App
   name: SA.Android.App
   href: android-native/SA.Android.App.html
@@ -5977,6 +6053,38 @@ references:
   commentId: F:SA.Android.Editor.AN_BinaryDependency.PlayServicesGames
   fullName: SA.Android.Editor.AN_BinaryDependency.PlayServicesGames
   nameWithType: AN_BinaryDependency.PlayServicesGames
+- uid: SA.Android.Editor.AN_FirebaseResolver
+  name: AN_FirebaseResolver
+  href: android-native/SA.Android.Editor.AN_FirebaseResolver.html
+  commentId: T:SA.Android.Editor.AN_FirebaseResolver
+  fullName: SA.Android.Editor.AN_FirebaseResolver
+  nameWithType: AN_FirebaseResolver
+- uid: SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements(SA.Android.Editor.AN_AndroidBuildRequirements)
+  name: AppendBuildRequirements(AN_AndroidBuildRequirements)
+  href: android-native/SA.Android.Editor.AN_FirebaseResolver.html#SA_Android_Editor_AN_FirebaseResolver_AppendBuildRequirements_SA_Android_Editor_AN_AndroidBuildRequirements_
+  commentId: M:SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements(SA.Android.Editor.AN_AndroidBuildRequirements)
+  fullName: SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements(SA.Android.Editor.AN_AndroidBuildRequirements)
+  nameWithType: AN_FirebaseResolver.AppendBuildRequirements(AN_AndroidBuildRequirements)
+- uid: SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements*
+  name: AppendBuildRequirements
+  href: android-native/SA.Android.Editor.AN_FirebaseResolver.html#SA_Android_Editor_AN_FirebaseResolver_AppendBuildRequirements_
+  commentId: Overload:SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements
+  isSpec: "True"
+  fullName: SA.Android.Editor.AN_FirebaseResolver.AppendBuildRequirements
+  nameWithType: AN_FirebaseResolver.AppendBuildRequirements
+- uid: SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled
+  name: IsSettingsEnabled
+  href: android-native/SA.Android.Editor.AN_FirebaseResolver.html#SA_Android_Editor_AN_FirebaseResolver_IsSettingsEnabled
+  commentId: P:SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled
+  fullName: SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled
+  nameWithType: AN_FirebaseResolver.IsSettingsEnabled
+- uid: SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled*
+  name: IsSettingsEnabled
+  href: android-native/SA.Android.Editor.AN_FirebaseResolver.html#SA_Android_Editor_AN_FirebaseResolver_IsSettingsEnabled_
+  commentId: Overload:SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled
+  isSpec: "True"
+  fullName: SA.Android.Editor.AN_FirebaseResolver.IsSettingsEnabled
+  nameWithType: AN_FirebaseResolver.IsSettingsEnabled
 - uid: SA.Android.Editor.AN_Preprocessor
   name: AN_Preprocessor
   href: android-native/SA.Android.Editor.AN_Preprocessor.html

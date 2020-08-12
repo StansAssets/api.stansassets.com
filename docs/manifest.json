@@ -17,6 +17,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.AN_Packages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.AN_Packages.html",
+          "hash": "BW/i0DBL2NhyjHKsPKog6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "android-native/SA.Android.App.AN_Activity.Result.yml",
       "output": {
         ".html": {
@@ -741,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Editor.AN_APIResolver.html",
-          "hash": "nvMI5AURbA1fHWBdVao47A=="
+          "hash": "5W2LYcD4LmIWjQbPuq/SvQ=="
         }
       },
       "is_incremental": false,
@@ -773,6 +785,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.Editor.AN_FirebaseResolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.Editor.AN_FirebaseResolver.html",
+          "hash": "+8Ci3vt5ELbNuOXJsyqMuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "android-native/SA.Android.Editor.AN_Preprocessor.yml",
       "output": {
         ".html": {
@@ -789,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Editor.html",
-          "hash": "HWT3ZL0ezkO7qOHYE9kmew=="
+          "hash": "MD2Nead23xk5JgU173jqWQ=="
         }
       },
       "is_incremental": false,
@@ -837,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Firebase.Messaging.AN_FirebaseMessaging.html",
-          "hash": "H8/Xi20Fb4HEMRZLQhuivQ=="
+          "hash": "XD9LI7CIokOKRnreduf3HA=="
         }
       },
       "is_incremental": false,
@@ -849,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Firebase.Messaging.AN_FirebaseNotification.html",
-          "hash": "W3XfgYYAaWziwRzmp67USw=="
+          "hash": "ukpq/JYr7bh4HidiFKzteA=="
         }
       },
       "is_incremental": false,
@@ -861,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Firebase.Messaging.html",
-          "hash": "WTZJI7iagoh6Uvw8u7wVrQ=="
+          "hash": "DUYTiZxctj6kypKvvLArag=="
         }
       },
       "is_incremental": false,
@@ -2584,6 +2608,18 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.html",
+          "hash": "GAwYcjGXMlsBk9kjN+XeOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "android-native/index.md",
       "output": {
@@ -2601,7 +2637,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/toc.html",
-          "hash": "iGAVJYM2xin/Ud1YToFMrw=="
+          "hash": "aDlztCKMHZhOn5MweJoTIQ=="
         }
       },
       "is_incremental": false,
@@ -2680,9 +2716,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -7772,6 +7805,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -7876,7 +7912,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 634,
+          "total_file_count": 637,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
