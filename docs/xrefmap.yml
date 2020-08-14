@@ -34603,6 +34603,41 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.IdFactory.RandomString
   nameWithType: IdFactory.RandomString
+- uid: StansAssets.Foundation.ITypeConverter`1
+  name: ITypeConverter<TDestination>
+  href: foundation/StansAssets.Foundation.ITypeConverter-1.html
+  commentId: T:StansAssets.Foundation.ITypeConverter`1
+  name.vb: ITypeConverter(Of TDestination)
+  fullName: StansAssets.Foundation.ITypeConverter<TDestination>
+  fullName.vb: StansAssets.Foundation.ITypeConverter(Of TDestination)
+  nameWithType: ITypeConverter<TDestination>
+  nameWithType.vb: ITypeConverter(Of TDestination)
+- uid: StansAssets.Foundation.ITypeConverter`1.Convert(System.Object)
+  name: Convert(Object)
+  href: foundation/StansAssets.Foundation.ITypeConverter-1.html#StansAssets_Foundation_ITypeConverter_1_Convert_System_Object_
+  commentId: M:StansAssets.Foundation.ITypeConverter`1.Convert(System.Object)
+  fullName: StansAssets.Foundation.ITypeConverter<TDestination>.Convert(System.Object)
+  fullName.vb: StansAssets.Foundation.ITypeConverter(Of TDestination).Convert(System.Object)
+  nameWithType: ITypeConverter<TDestination>.Convert(Object)
+  nameWithType.vb: ITypeConverter(Of TDestination).Convert(Object)
+- uid: StansAssets.Foundation.ITypeConverter`1.Convert*
+  name: Convert
+  href: foundation/StansAssets.Foundation.ITypeConverter-1.html#StansAssets_Foundation_ITypeConverter_1_Convert_
+  commentId: Overload:StansAssets.Foundation.ITypeConverter`1.Convert
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ITypeConverter<TDestination>.Convert
+  fullName.vb: StansAssets.Foundation.ITypeConverter(Of TDestination).Convert
+  nameWithType: ITypeConverter<TDestination>.Convert
+  nameWithType.vb: ITypeConverter(Of TDestination).Convert
+- uid: StansAssets.Foundation.ITypeConverter`2
+  name: ITypeConverter<TSource, TDestination>
+  href: foundation/StansAssets.Foundation.ITypeConverter-2.html
+  commentId: T:StansAssets.Foundation.ITypeConverter`2
+  name.vb: ITypeConverter(Of TSource, TDestination)
+  fullName: StansAssets.Foundation.ITypeConverter<TSource, TDestination>
+  fullName.vb: StansAssets.Foundation.ITypeConverter(Of TSource, TDestination)
+  nameWithType: ITypeConverter<TSource, TDestination>
+  nameWithType.vb: ITypeConverter(Of TSource, TDestination)
 - uid: StansAssets.Foundation.Json
   name: Json
   href: foundation/StansAssets.Foundation.Json.html
@@ -35376,6 +35411,91 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.TimeUtility.ToUnixTime
   nameWithType: TimeUtility.ToUnixTime
+- uid: StansAssets.Foundation.TypeConversion
+  name: TypeConversion
+  href: foundation/StansAssets.Foundation.TypeConversion.html
+  commentId: T:StansAssets.Foundation.TypeConversion
+  fullName: StansAssets.Foundation.TypeConversion
+  nameWithType: TypeConversion
+- uid: StansAssets.Foundation.TypeConversion.Convert(System.Object,System.Type)
+  name: Convert(Object, Type)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert_System_Object_System_Type_
+  commentId: M:StansAssets.Foundation.TypeConversion.Convert(System.Object,System.Type)
+  fullName: StansAssets.Foundation.TypeConversion.Convert(System.Object, System.Type)
+  nameWithType: TypeConversion.Convert(Object, Type)
+- uid: StansAssets.Foundation.TypeConversion.Convert*
+  name: Convert
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert_
+  commentId: Overload:StansAssets.Foundation.TypeConversion.Convert
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TypeConversion.Convert
+  nameWithType: TypeConversion.Convert
+- uid: StansAssets.Foundation.TypeConversion.Convert``1(System.Object)
+  name: Convert<TDestination>(Object)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert__1_System_Object_
+  commentId: M:StansAssets.Foundation.TypeConversion.Convert``1(System.Object)
+  name.vb: Convert(Of TDestination)(Object)
+  fullName: StansAssets.Foundation.TypeConversion.Convert<TDestination>(System.Object)
+  fullName.vb: StansAssets.Foundation.TypeConversion.Convert(Of TDestination)(System.Object)
+  nameWithType: TypeConversion.Convert<TDestination>(Object)
+  nameWithType.vb: TypeConversion.Convert(Of TDestination)(Object)
+- uid: StansAssets.Foundation.TypeConversion.Convert``2(``0)
+  name: Convert<TSource, TValue>(TSource)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert__2___0_
+  commentId: M:StansAssets.Foundation.TypeConversion.Convert``2(``0)
+  name.vb: Convert(Of TSource, TValue)(TSource)
+  fullName: StansAssets.Foundation.TypeConversion.Convert<TSource, TValue>(TSource)
+  fullName.vb: StansAssets.Foundation.TypeConversion.Convert(Of TSource, TValue)(TSource)
+  nameWithType: TypeConversion.Convert<TSource, TValue>(TSource)
+  nameWithType.vb: TypeConversion.Convert(Of TSource, TValue)(TSource)
+- uid: StansAssets.Foundation.TypeConversion.Register*
+  name: Register
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Register_
+  commentId: Overload:StansAssets.Foundation.TypeConversion.Register
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TypeConversion.Register
+  nameWithType: TypeConversion.Register
+- uid: StansAssets.Foundation.TypeConversion.Register``2(System.Func{``0,``1})
+  name: Register<TSource, TDestination>(Func<TSource, TDestination>)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Register__2_System_Func___0___1__
+  commentId: M:StansAssets.Foundation.TypeConversion.Register``2(System.Func{``0,``1})
+  name.vb: Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
+  fullName: StansAssets.Foundation.TypeConversion.Register<TSource, TDestination>(System.Func<TSource, TDestination>)
+  fullName.vb: StansAssets.Foundation.TypeConversion.Register(Of TSource, TDestination)(System.Func(Of TSource, TDestination))
+  nameWithType: TypeConversion.Register<TSource, TDestination>(Func<TSource, TDestination>)
+  nameWithType.vb: TypeConversion.Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
+- uid: StansAssets.Foundation.TypeConversion.TryConvert*
+  name: TryConvert
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_TryConvert_
+  commentId: Overload:StansAssets.Foundation.TypeConversion.TryConvert
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TypeConversion.TryConvert
+  nameWithType: TypeConversion.TryConvert
+- uid: StansAssets.Foundation.TypeConversion.TryConvert``1(System.Object,``0@)
+  name: TryConvert<TValue>(Object, out TValue)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_TryConvert__1_System_Object___0__
+  commentId: M:StansAssets.Foundation.TypeConversion.TryConvert``1(System.Object,``0@)
+  name.vb: TryConvert(Of TValue)(Object, ByRef TValue)
+  fullName: StansAssets.Foundation.TypeConversion.TryConvert<TValue>(System.Object, out TValue)
+  fullName.vb: StansAssets.Foundation.TypeConversion.TryConvert(Of TValue)(System.Object, ByRef TValue)
+  nameWithType: TypeConversion.TryConvert<TValue>(Object, out TValue)
+  nameWithType.vb: TypeConversion.TryConvert(Of TValue)(Object, ByRef TValue)
+- uid: StansAssets.Foundation.TypeConversion.Unregister*
+  name: Unregister
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Unregister_
+  commentId: Overload:StansAssets.Foundation.TypeConversion.Unregister
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TypeConversion.Unregister
+  nameWithType: TypeConversion.Unregister
+- uid: StansAssets.Foundation.TypeConversion.Unregister``2
+  name: Unregister<TSource, TDestination>()
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Unregister__2
+  commentId: M:StansAssets.Foundation.TypeConversion.Unregister``2
+  name.vb: Unregister(Of TSource, TDestination)()
+  fullName: StansAssets.Foundation.TypeConversion.Unregister<TSource, TDestination>()
+  fullName.vb: StansAssets.Foundation.TypeConversion.Unregister(Of TSource, TDestination)()
+  nameWithType: TypeConversion.Unregister<TSource, TDestination>()
+  nameWithType.vb: TypeConversion.Unregister(Of TSource, TDestination)()
 - uid: StansAssets.Foundation.UIElements
   name: StansAssets.Foundation.UIElements
   href: foundation/StansAssets.Foundation.UIElements.html
