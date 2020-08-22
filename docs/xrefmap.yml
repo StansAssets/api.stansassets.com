@@ -35502,6 +35502,94 @@ references:
   commentId: N:StansAssets.Foundation.UIElements
   fullName: StansAssets.Foundation.UIElements
   nameWithType: StansAssets.Foundation.UIElements
+- uid: StansAssets.Foundation.UIElements.Hyperlink
+  name: Hyperlink
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html
+  commentId: T:StansAssets.Foundation.UIElements.Hyperlink
+  fullName: StansAssets.Foundation.UIElements.Hyperlink
+  nameWithType: Hyperlink
+- uid: StansAssets.Foundation.UIElements.Hyperlink.#ctor
+  name: Hyperlink()
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink__ctor
+  commentId: M:StansAssets.Foundation.UIElements.Hyperlink.#ctor
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.Hyperlink()
+  nameWithType: Hyperlink.Hyperlink()
+- uid: StansAssets.Foundation.UIElements.Hyperlink.#ctor*
+  name: Hyperlink
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink__ctor_
+  commentId: Overload:StansAssets.Foundation.UIElements.Hyperlink.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.Hyperlink
+  nameWithType: Hyperlink.Hyperlink
+- uid: StansAssets.Foundation.UIElements.Hyperlink.contentContainer
+  name: contentContainer
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_contentContainer
+  commentId: P:StansAssets.Foundation.UIElements.Hyperlink.contentContainer
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.contentContainer
+  nameWithType: Hyperlink.contentContainer
+- uid: StansAssets.Foundation.UIElements.Hyperlink.contentContainer*
+  name: contentContainer
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_contentContainer_
+  commentId: Overload:StansAssets.Foundation.UIElements.Hyperlink.contentContainer
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.contentContainer
+  nameWithType: Hyperlink.contentContainer
+- uid: StansAssets.Foundation.UIElements.Hyperlink.ContentUssClassName
+  name: ContentUssClassName
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_ContentUssClassName
+  commentId: F:StansAssets.Foundation.UIElements.Hyperlink.ContentUssClassName
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.ContentUssClassName
+  nameWithType: Hyperlink.ContentUssClassName
+- uid: StansAssets.Foundation.UIElements.Hyperlink.HeaderUssClassName
+  name: HeaderUssClassName
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_HeaderUssClassName
+  commentId: F:StansAssets.Foundation.UIElements.Hyperlink.HeaderUssClassName
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.HeaderUssClassName
+  nameWithType: Hyperlink.HeaderUssClassName
+- uid: StansAssets.Foundation.UIElements.Hyperlink.Link
+  name: Link
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_Link
+  commentId: P:StansAssets.Foundation.UIElements.Hyperlink.Link
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.Link
+  nameWithType: Hyperlink.Link
+- uid: StansAssets.Foundation.UIElements.Hyperlink.Link*
+  name: Link
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_Link_
+  commentId: Overload:StansAssets.Foundation.UIElements.Hyperlink.Link
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.Link
+  nameWithType: Hyperlink.Link
+- uid: StansAssets.Foundation.UIElements.Hyperlink.USSClassName
+  name: USSClassName
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.html#StansAssets_Foundation_UIElements_Hyperlink_USSClassName
+  commentId: F:StansAssets.Foundation.UIElements.Hyperlink.USSClassName
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.USSClassName
+  nameWithType: Hyperlink.USSClassName
+- uid: StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory
+  name: Hyperlink.UxmlFactory
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory.html
+  commentId: T:StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory
+  nameWithType: Hyperlink.UxmlFactory
+- uid: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits
+  name: Hyperlink.UxmlTraits
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.html
+  commentId: T:StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits
+  nameWithType: Hyperlink.UxmlTraits
+- uid: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
+  name: Init(VisualElement, IUxmlAttributes, CreationContext)
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.html#StansAssets_Foundation_UIElements_Hyperlink_UxmlTraits_Init_VisualElement_IUxmlAttributes_CreationContext_
+  commentId: M:StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init(VisualElement,IUxmlAttributes,CreationContext)
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
+  nameWithType: Hyperlink.UxmlTraits.Init(VisualElement, IUxmlAttributes, CreationContext)
+- uid: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init*
+  name: Init
+  href: foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.html#StansAssets_Foundation_UIElements_Hyperlink_UxmlTraits_Init_
+  commentId: Overload:StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init
+  isSpec: "True"
+  fullName: StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.Init
+  nameWithType: Hyperlink.UxmlTraits.Init
 - uid: StansAssets.Foundation.UIElements.PseudoStates
   name: PseudoStates
   href: foundation/StansAssets.Foundation.UIElements.PseudoStates.html
