@@ -2716,9 +2716,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3739,11 +3736,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlFactory.html",
+          "hash": "C99mv72yionxosZiOCp/Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlTraits.html",
+          "hash": "RUND91UE7F6uJQgOXG/Qew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.html",
+          "hash": "2WWnhujUHxts855ItBCb0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.UIElements.yml",
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.html",
-          "hash": "ER3SDi1acjZS8tfT5qz7fQ=="
+          "hash": "rL2XJTbbGjzajMMoGWmVSA=="
         }
       },
       "is_incremental": false,
@@ -3779,7 +3812,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "rQnnmY9a6Q4dMzLc2GItqQ=="
+          "hash": "gHNNRGXUrmSN3P3lEeFd2w=="
         }
       },
       "is_incremental": false,
@@ -7880,6 +7913,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -7984,7 +8020,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 643,
+          "total_file_count": 646,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
