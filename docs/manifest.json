@@ -2716,6 +2716,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3688,42 +3691,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlFactory.html",
-          "hash": "qrhvxm+vOB+MN81UAcF8NQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.UxmlTraits.html",
-          "hash": "OXvE79dyT3jCa1awA+Fp2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.Hyperlink.html",
-          "hash": "BFup0Ku2W1yGY14ZE7G3PA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.UIElements.PseudoStates.yml",
       "output": {
         ".html": {
@@ -3736,47 +3703,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlFactory.html",
-          "hash": "C99mv72yionxosZiOCp/Kg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlTraits.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.UxmlTraits.html",
-          "hash": "RUND91UE7F6uJQgOXG/Qew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/StansAssets.Foundation.UIElements.SelectableLabel.html",
-          "hash": "2WWnhujUHxts855ItBCb0Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.UIElements.yml",
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.html",
-          "hash": "rL2XJTbbGjzajMMoGWmVSA=="
+          "hash": "gqZXIE04dAuRW9oJCu0gCA=="
         }
       },
       "is_incremental": false,
@@ -3812,7 +3743,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "gHNNRGXUrmSN3P3lEeFd2w=="
+          "hash": "v4IByAEjWjr7xXhiaDy1Kg=="
         }
       },
       "is_incremental": false,
@@ -7913,9 +7844,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -8020,7 +7948,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 646,
+          "total_file_count": 640,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
