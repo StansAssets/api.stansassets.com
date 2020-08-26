@@ -32977,6 +32977,37 @@ references:
   commentId: T:StansAssets.Foundation.Async.MonoBehaviourCallback
   fullName: StansAssets.Foundation.Async.MonoBehaviourCallback
   nameWithType: MonoBehaviourCallback
+- uid: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnFocus
+  name: ApplicationOnFocus
+  href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_ApplicationOnFocus
+  commentId: E:StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnFocus
+  fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnFocus
+  nameWithType: MonoBehaviourCallback.ApplicationOnFocus
+- uid: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnPause
+  name: ApplicationOnPause
+  href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_ApplicationOnPause
+  commentId: E:StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnPause
+  fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnPause
+  nameWithType: MonoBehaviourCallback.ApplicationOnPause
+- uid: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnQuit
+  name: ApplicationOnQuit
+  href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_ApplicationOnQuit
+  commentId: E:StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnQuit
+  fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.ApplicationOnQuit
+  nameWithType: MonoBehaviourCallback.ApplicationOnQuit
+- uid: StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit
+  name: OnApplicationQuit()
+  href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_OnApplicationQuit
+  commentId: M:StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit
+  fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit()
+  nameWithType: MonoBehaviourCallback.OnApplicationQuit()
+- uid: StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit*
+  name: OnApplicationQuit
+  href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_OnApplicationQuit_
+  commentId: Overload:StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Async.MonoBehaviourCallback.OnApplicationQuit
+  nameWithType: MonoBehaviourCallback.OnApplicationQuit
 - uid: StansAssets.Foundation.Async.MonoBehaviourCallback.OnFixedUpdate
   name: OnFixedUpdate
   href: foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html#StansAssets_Foundation_Async_MonoBehaviourCallback_OnFixedUpdate
