@@ -3680,7 +3680,19 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.TypeConversion.html",
-          "hash": "tOlIe57ArwSlHBy/8GT81Q=="
+          "hash": "XQ9g6UNIcdla4s4r43OknA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.TypeConversionInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.TypeConversionInstance.html",
+          "hash": "7jebWcJy6KkRnMAH44exFg=="
         }
       },
       "is_incremental": false,
@@ -3716,7 +3728,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.html",
-          "hash": "sL2QPf/zBlpRxzOHauo+8A=="
+          "hash": "fCS/bbm/y7KfmyGjfhd4GQ=="
         }
       },
       "is_incremental": false,
@@ -3740,7 +3752,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "v4IByAEjWjr7xXhiaDy1Kg=="
+          "hash": "iqHeJjR5kDS5G6yMJ/Tykg=="
         }
       },
       "is_incremental": false,
@@ -7948,7 +7960,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 640,
+          "total_file_count": 641,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -71,8 +71,7 @@
   
   <h1 id="StansAssets_Foundation_TypeConversion" data-uid="StansAssets.Foundation.TypeConversion" class="text-break">Class TypeConversion
   </h1>
-  <div class="markdown level0 summary"><p>TypeConversion API</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -220,14 +219,14 @@
   
   
   <a id="StansAssets_Foundation_TypeConversion_Convert_" data-uid="StansAssets.Foundation.TypeConversion.Convert*"></a>
-  <h4 id="StansAssets_Foundation_TypeConversion_Convert__2___0_" data-uid="StansAssets.Foundation.TypeConversion.Convert``2(``0)">Convert&lt;TSource, TValue&gt;(TSource)</h4>
+  <h4 id="StansAssets_Foundation_TypeConversion_Convert__2___0_" data-uid="StansAssets.Foundation.TypeConversion.Convert``2(``0)">Convert&lt;TSource, TDestination&gt;(TSource)</h4>
   <div class="markdown level1 summary"><p>Converts given the value to the destination type</p>
 <p>@NOTE Fastest conversion method</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TValue Convert&lt;TSource, TValue&gt;(TSource value)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TDestination Convert&lt;TSource, TDestination&gt;(TSource value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,7 +241,8 @@
       <tr>
         <td><span class="xref">TSource</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>Value to convert to.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -256,8 +256,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TValue</span></td>
-        <td></td>
+        <td><span class="xref">TDestination</span></td>
+        <td><p>Converted value.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -272,11 +273,13 @@
     <tbody>
       <tr>
         <td><span class="parametername">TSource</span></td>
-        <td></td>
+        <td><p>Source type.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
+        <td><span class="parametername">TDestination</span></td>
+        <td><p>Conversion Destination type.</p>
+</td>
       </tr>
     </tbody>
   </table>
