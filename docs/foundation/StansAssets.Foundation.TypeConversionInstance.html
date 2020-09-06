@@ -182,6 +182,105 @@ Use to define own conversion flow on the instance level.</p>
   </table>
   
   
+  <a id="StansAssets_Foundation_TypeConversionInstance_HasConvertor_" data-uid="StansAssets.Foundation.TypeConversionInstance.HasConvertor*"></a>
+  <h4 id="StansAssets_Foundation_TypeConversionInstance_HasConvertor_Type_Type_" data-uid="StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type,Type)">HasConvertor(Type, Type)</h4>
+  <div class="markdown level1 summary"><p>Methods is used to check of convertor is registered for a specified types pare.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConvertor(Type source, Type destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">source</span></td>
+        <td><p>Source type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td><p>Conversion Destination type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if convertor is registered, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_TypeConversionInstance_HasConvertor_" data-uid="StansAssets.Foundation.TypeConversionInstance.HasConvertor*"></a>
+  <h4 id="StansAssets_Foundation_TypeConversionInstance_HasConvertor__2" data-uid="StansAssets.Foundation.TypeConversionInstance.HasConvertor``2">HasConvertor&lt;TSource, TDestination&gt;()</h4>
+  <div class="markdown level1 summary"><p>Methods is used to check of convertor is registered for a specified types pare.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasConvertor&lt;TSource, TDestination&gt;()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Returns <code>true</code> if convertor is registered, <code>false</code> otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td><p>Source type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TDestination</span></td>
+        <td><p>Conversion Destination type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StansAssets_Foundation_TypeConversionInstance_Register_" data-uid="StansAssets.Foundation.TypeConversionInstance.Register*"></a>
   <h4 id="StansAssets_Foundation_TypeConversionInstance_Register__2_Func___0___1__" data-uid="StansAssets.Foundation.TypeConversionInstance.Register``2(Func{``0,``1})">Register&lt;TSource, TDestination&gt;(Func&lt;TSource, TDestination&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers a new type conversion from the given source type to the given destination type.</p>

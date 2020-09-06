@@ -2716,9 +2716,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3707,7 +3704,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.TypeConversionInstance.html",
-          "hash": "7jebWcJy6KkRnMAH44exFg=="
+          "hash": "uRsb5S/ghd1VwlUP8qNvwA=="
         }
       },
       "is_incremental": false,
@@ -7868,6 +7865,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {

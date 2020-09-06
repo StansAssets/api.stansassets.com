@@ -35562,6 +35562,28 @@ references:
   fullName.vb: StansAssets.Foundation.TypeConversionInstance.Convert(Of TSource, TDestination)(TSource)
   nameWithType: TypeConversionInstance.Convert<TSource, TDestination>(TSource)
   nameWithType.vb: TypeConversionInstance.Convert(Of TSource, TDestination)(TSource)
+- uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type,Type)
+  name: HasConvertor(Type, Type)
+  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_HasConvertor_Type_Type_
+  commentId: M:StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type,Type)
+  fullName: StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type, Type)
+  nameWithType: TypeConversionInstance.HasConvertor(Type, Type)
+- uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor*
+  name: HasConvertor
+  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_HasConvertor_
+  commentId: Overload:StansAssets.Foundation.TypeConversionInstance.HasConvertor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TypeConversionInstance.HasConvertor
+  nameWithType: TypeConversionInstance.HasConvertor
+- uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor``2
+  name: HasConvertor<TSource, TDestination>()
+  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_HasConvertor__2
+  commentId: M:StansAssets.Foundation.TypeConversionInstance.HasConvertor``2
+  name.vb: HasConvertor(Of TSource, TDestination)()
+  fullName: StansAssets.Foundation.TypeConversionInstance.HasConvertor<TSource, TDestination>()
+  fullName.vb: StansAssets.Foundation.TypeConversionInstance.HasConvertor(Of TSource, TDestination)()
+  nameWithType: TypeConversionInstance.HasConvertor<TSource, TDestination>()
+  nameWithType.vb: TypeConversionInstance.HasConvertor(Of TSource, TDestination)()
 - uid: StansAssets.Foundation.TypeConversionInstance.Register*
   name: Register
   href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_Register_
