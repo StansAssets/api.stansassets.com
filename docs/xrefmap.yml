@@ -34219,6 +34219,38 @@ references:
   fullName.vb: StansAssets.Foundation.Extensions.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
   nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
   nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions
+  name: DateTimeExtensions
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.DateTimeExtensions
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions
+  nameWithType: DateTimeExtensions
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+  name: DateTimeToUnixTimestamp(DateTime)
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_DateTimeToUnixTimestamp_DateTime_
+  commentId: M:StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+  nameWithType: DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp*
+  name: DateTimeToUnixTimestamp
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_DateTimeToUnixTimestamp_
+  commentId: Overload:StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp
+  nameWithType: DateTimeExtensions.DateTimeToUnixTimestamp
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime(System.Double)
+  name: UnixTimestampToDateTime(Double)
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_UnixTimestampToDateTime_System_Double_
+  commentId: M:StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime(System.Double)
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime(System.Double)
+  nameWithType: DateTimeExtensions.UnixTimestampToDateTime(Double)
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime*
+  name: UnixTimestampToDateTime
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_UnixTimestampToDateTime_
+  commentId: Overload:StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime
+  nameWithType: DateTimeExtensions.UnixTimestampToDateTime
 - uid: StansAssets.Foundation.Extensions.ListExtensions
   name: ListExtensions
   href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html

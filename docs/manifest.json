@@ -2716,6 +2716,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3328,6 +3331,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html",
+          "hash": "jGXhbeJc0yQ1D6pq8iRa1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.yml",
       "output": {
         ".html": {
@@ -3416,7 +3431,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
-          "hash": "bwKG0FWwCDpm2yV8hYpejA=="
+          "hash": "T6bKuK9+rife0EKS9XridQ=="
         }
       },
       "is_incremental": false,
@@ -3752,7 +3767,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "iqHeJjR5kDS5G6yMJ/Tykg=="
+          "hash": "u6co/GCslXVTvZfoVsq06w=="
         }
       },
       "is_incremental": false,
@@ -7853,9 +7868,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -7960,7 +7972,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 641,
+          "total_file_count": 642,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
