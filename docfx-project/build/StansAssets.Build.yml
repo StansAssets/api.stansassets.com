@@ -6,10 +6,6 @@ items:
   children:
   - StansAssets.Build.Build
   - StansAssets.Build.BuildMetadata
-  - StansAssets.Build.DefaultBuildMetadataProvider
-  - StansAssets.Build.IBuildMetadataProvider
-  - StansAssets.Build.MyPublicRuntimeExampleClass
-  - StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
   langs:
   - csharp
   - vb
@@ -25,34 +21,12 @@ references:
   name: Build
   nameWithType: Build
   fullName: StansAssets.Build.Build
-- uid: StansAssets.Build.MyPublicRuntimeExampleClass
-  commentId: T:StansAssets.Build.MyPublicRuntimeExampleClass
-  name: MyPublicRuntimeExampleClass
-  nameWithType: MyPublicRuntimeExampleClass
-  fullName: StansAssets.Build.MyPublicRuntimeExampleClass
-- uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
-  commentId: T:StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
-  parent: StansAssets.Build
-  name: MyPublicRuntimeExampleClass.MyExampleEnum
-  nameWithType: MyPublicRuntimeExampleClass.MyExampleEnum
-  fullName: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
 - uid: StansAssets.Build.BuildMetadata
   commentId: T:StansAssets.Build.BuildMetadata
   parent: StansAssets.Build
   name: BuildMetadata
   nameWithType: BuildMetadata
   fullName: StansAssets.Build.BuildMetadata
-- uid: StansAssets.Build.DefaultBuildMetadataProvider
-  commentId: T:StansAssets.Build.DefaultBuildMetadataProvider
-  name: DefaultBuildMetadataProvider
-  nameWithType: DefaultBuildMetadataProvider
-  fullName: StansAssets.Build.DefaultBuildMetadataProvider
-- uid: StansAssets.Build.IBuildMetadataProvider
-  commentId: T:StansAssets.Build.IBuildMetadataProvider
-  parent: StansAssets.Build
-  name: IBuildMetadataProvider
-  nameWithType: IBuildMetadataProvider
-  fullName: StansAssets.Build.IBuildMetadataProvider
 - uid: StansAssets.Build
   commentId: N:StansAssets.Build
   name: StansAssets.Build
