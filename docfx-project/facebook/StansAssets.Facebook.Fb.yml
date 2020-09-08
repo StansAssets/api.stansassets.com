@@ -1,0 +1,1470 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.Fb
+  commentId: T:StansAssets.Facebook.Fb
+  id: Fb
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.Fb.AccessToken
+  - StansAssets.Facebook.Fb.AccessTokenString
+  - StansAssets.Facebook.Fb.ActivateApp
+  - StansAssets.Facebook.Fb.API(System.String,HttpMethod,FacebookDelegate{IGraphResult},IDictionary{System.String,System.String})
+  - StansAssets.Facebook.Fb.ClientToken
+  - StansAssets.Facebook.Fb.FbGraphApi
+  - StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  - StansAssets.Facebook.Fb.Init(InitDelegate,HideUnityDelegate,System.String)
+  - StansAssets.Facebook.Fb.Init(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,HideUnityDelegate,InitDelegate)
+  - StansAssets.Facebook.Fb.IsInitialized
+  - StansAssets.Facebook.Fb.IsLoggedIn
+  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogOut
+  langs:
+  - csharp
+  - vb
+  name: Fb
+  nameWithType: Fb
+  fullName: StansAssets.Facebook.Fb
+  type: Class
+  source:
+    id: Fb
+    path: ''
+    startLine: 123
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public static class Fb
+    content.vb: Public Module Fb
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Facebook.Fb.Init(InitDelegate,HideUnityDelegate,System.String)
+  commentId: M:StansAssets.Facebook.Fb.Init(InitDelegate,HideUnityDelegate,System.String)
+  id: Init(InitDelegate,HideUnityDelegate,System.String)
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: Init(InitDelegate, HideUnityDelegate, String)
+  nameWithType: Fb.Init(InitDelegate, HideUnityDelegate, String)
+  fullName: StansAssets.Facebook.Fb.Init(InitDelegate, HideUnityDelegate, System.String)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 139
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nSets the state of the Facebook SDK, and initializes all platform-specific data structures and behaviors.\nThis function can only be called once during the lifetime of the object; later calls lead to undefined behavior.\nRelies on properties that are set in the Unity Editor using the Facebook | Edit settings menu option,\n\nAlso <xref href=\"StansAssets.Facebook.Fb.ActivateApp\" data-throw-if-not-resolved=\"false\"></xref> method will be called automatically when initialization is completed\n"
+  example: []
+  syntax:
+    content: public static void Init(InitDelegate onInitComplete = null, HideUnityDelegate onHideUnity = null, string authResponse = null)
+    parameters:
+    - id: onInitComplete
+      type: InitDelegate
+      description: A function that will be called once all data structures in the SDK are initialized; any code that should synchronize with the player&apos;s Facebook session should be in onInitComplete().
+    - id: onHideUnity
+      type: HideUnityDelegate
+      description: A function that will be called when Facebook tries to display HTML content within the boundaries of the Canvas. When called with its sole argument set to false, your game should pause and prepare to lose focus. If it&apos;s called with its argument set to true, your game should prepare to regain focus and resume play. Your game should check whether it is in fullscreen mode when it resumes, and offer the player a chance to go to fullscreen mode if appropriate.
+    - id: authResponse
+      type: System.String
+      description: effective in Web Player only, rarely used A Facebook auth_response you have cached to preserve a session, represented in JSON. If an auth_response is provided, FB will initialize itself using the data from that session, with no additional checks.
+    content.vb: Public Shared Sub Init(onInitComplete As InitDelegate = Nothing, onHideUnity As HideUnityDelegate = Nothing, authResponse As String = Nothing)
+  overload: StansAssets.Facebook.Fb.Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Facebook.Fb.Init(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,HideUnityDelegate,InitDelegate)
+  commentId: M:StansAssets.Facebook.Fb.Init(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,HideUnityDelegate,InitDelegate)
+  id: Init(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,HideUnityDelegate,InitDelegate)
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: Init(String, String, Boolean, Boolean, Boolean, Boolean, Boolean, String, String, HideUnityDelegate, InitDelegate)
+  nameWithType: Fb.Init(String, String, Boolean, Boolean, Boolean, Boolean, Boolean, String, String, HideUnityDelegate, InitDelegate)
+  fullName: StansAssets.Facebook.Fb.Init(System.String, System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.Boolean, System.String, System.String, HideUnityDelegate, InitDelegate)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 174
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nSets the state of the Facebook SDK, and initializes all platform-specific data structures and behaviors.\nThis function can only be called once during the lifetime of the object; later calls lead to undefined behavior.\n\nAlso <xref href=\"StansAssets.Facebook.Fb.ActivateApp\" data-throw-if-not-resolved=\"false\"></xref> method will be called automatically when initialization is completed\n"
+  example: []
+  syntax:
+    content: public static void Init(string appId, string clientToken = null, bool cookie = true, bool logging = true, bool status = true, bool xfbml = false, bool frictionlessRequests = true, string authResponse = null, string javascriptSDKLocale = "en_US", HideUnityDelegate onHideUnity = null, InitDelegate onInitComplete = null)
+    parameters:
+    - id: appId
+      type: System.String
+      description: 'The Facebook application ID of the initializing app. '
+    - id: clientToken
+      type: System.String
+      description: Client Token
+    - id: cookie
+      type: System.Boolean
+      description: Sets a cookie which your server-side code can use to validate a user&apos;s Facebook session
+    - id: logging
+      type: System.Boolean
+      description: If true, outputs a verbose log to the Javascript console to facilitate debugging. Effective on Web only.
+    - id: status
+      type: System.Boolean
+      description: If true, attempts to initialize the Facebook object with valid session data.*
+    - id: xfbml
+      type: System.Boolean
+      description: If true, Facebook will immediately parse any XFBML elements on the Facebook Canvas page hosting the app, like the page plugin. Effective on Web only.
+    - id: frictionlessRequests
+      type: System.Boolean
+      description: Frictionless Requests
+    - id: authResponse
+      type: System.String
+      description: effective in Web Player only, rarely used A Facebook auth_response you have cached to preserve a session, represented in JSON. If an auth_response is provided, FB will initialize itself using the data from that session, with no additional checks.
+    - id: javascriptSDKLocale
+      type: System.String
+      description: javascript SDK Locale
+    - id: onHideUnity
+      type: HideUnityDelegate
+      description: A function that will be called when Facebook tries to display HTML content within the boundaries of the Canvas. When called with its sole argument set to false, your game should pause and prepare to lose focus. If it&apos;s called with its argument set to true, your game should prepare to regain focus and resume play. Your game should check whether it is in fullscreen mode when it resumes, and offer the player a chance to go to fullscreen mode if appropriate.
+    - id: onInitComplete
+      type: InitDelegate
+      description: A function that will be called once all data structures in the SDK are initialized; any code that should synchronize with the player&apos;s Facebook session should be in onInitComplete().
+    content.vb: Public Shared Sub Init(appId As String, clientToken As String = Nothing, cookie As Boolean = True, logging As Boolean = True, status As Boolean = True, xfbml As Boolean = False, frictionlessRequests As Boolean = True, authResponse As String = Nothing, javascriptSDKLocale As String = "en_US", onHideUnity As HideUnityDelegate = Nothing, onInitComplete As InitDelegate = Nothing)
+  overload: StansAssets.Facebook.Fb.Init*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: LogInWithPublishPermissions(Action<FbLoginResult>)
+  nameWithType: Fb.LogInWithPublishPermissions(Action<FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action<StansAssets.Facebook.FbLoginResult>)
+  type: Method
+  source:
+    id: LogInWithPublishPermissions
+    path: ''
+    startLine: 196
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nPrompts the user to authorize your application for publish permissions using the Login Dialog appropriate to the platform.\nIf the user is already logged in and has authorized your application,\nchecks whether all permissions in the permissions parameter have been granted, and if not, prompts the user for any that are newly requested.\n\nPeople are sensitive about granting publish permissions,\nso you should only ask for publish permissions once a person is ready to post something from your app and not during the initial login.\n\nIn the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.\nPlease note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,\nplease use the [Graph API Explorer](https://developers.facebook.com/tools/explorer).\n"
+  example: []
+  syntax:
+    content: public static void LogInWithPublishPermissions(Action<FbLoginResult> callback)
+    parameters:
+    - id: callback
+      type: Action{StansAssets.Facebook.FbLoginResult}
+      description: A delegate that will be called with the result of the Login Dialog.
+    content.vb: Public Shared Sub LogInWithPublishPermissions(callback As Action(Of FbLoginResult))
+  overload: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
+  nameWithType.vb: Fb.LogInWithPublishPermissions(Action(Of FbLoginResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
+  name.vb: LogInWithPublishPermissions(Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
+  nameWithType: Fb.LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
+  type: Method
+  source:
+    id: LogInWithPublishPermissions
+    path: ''
+    startLine: 215
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nPrompts the user to authorize your application for publish permissions using the Login Dialog appropriate to the platform.\nIf the user is already logged in and has authorized your application,\nchecks whether all permissions in the permissions parameter have been granted, and if not, prompts the user for any that are newly requested.\n\nPeople are sensitive about granting publish permissions,\nso you should only ask for publish permissions once a person is ready to post something from your app and not during the initial login.\n\nIn the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.\nPlease note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,\nplease use the [Graph API Explorer](https://developers.facebook.com/tools/explorer).\n"
+  example: []
+  syntax:
+    content: public static void LogInWithPublishPermissions(IEnumerable<string> permissions, Action<FbLoginResult> callback)
+    parameters:
+    - id: permissions
+      type: IEnumerable{System.String}
+      description: A list of Facebook permissions requested from the user
+    - id: callback
+      type: Action{StansAssets.Facebook.FbLoginResult}
+      description: A delegate that will be called with the result of the Login Dialog.
+    content.vb: Public Shared Sub LogInWithPublishPermissions(permissions As IEnumerable(Of String), callback As Action(Of FbLoginResult))
+  overload: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
+  nameWithType.vb: Fb.LogInWithPublishPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  name.vb: LogInWithPublishPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: LogInWithReadPermissions(Action<FbLoginResult>)
+  nameWithType: Fb.LogInWithReadPermissions(Action<FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action<StansAssets.Facebook.FbLoginResult>)
+  type: Method
+  source:
+    id: LogInWithReadPermissions
+    path: ''
+    startLine: 231
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nPrompts the user to authorize your application using the Login Dialog appropriate to the platform.\nIf the user is already logged in and has authorized your application,\nchecks whether all permissions in the permissions parameter have been granted, and if not,\nprompts the user for any that are newly requested.\n\nIn the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.\nPlease note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,\nplease use the [Graph API Explorer](https://developers.facebook.com/tools/explorer).\n"
+  example: []
+  syntax:
+    content: public static void LogInWithReadPermissions(Action<FbLoginResult> callback)
+    parameters:
+    - id: callback
+      type: Action{StansAssets.Facebook.FbLoginResult}
+      description: A delegate that will be called with the result of the Login Dialog.
+    content.vb: Public Shared Sub LogInWithReadPermissions(callback As Action(Of FbLoginResult))
+  overload: StansAssets.Facebook.Fb.LogInWithReadPermissions*
+  nameWithType.vb: Fb.LogInWithReadPermissions(Action(Of FbLoginResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
+  name.vb: LogInWithReadPermissions(Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
+  nameWithType: Fb.LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
+  type: Method
+  source:
+    id: LogInWithReadPermissions
+    path: ''
+    startLine: 248
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nPrompts the user to authorize your application using the Login Dialog appropriate to the platform.\nIf the user is already logged in and has authorized your application,\nchecks whether all permissions in the permissions parameter have been granted, and if not,\nprompts the user for any that are newly requested.\n\nIn the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.\nPlease note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,\nplease use the [Graph API Explorer](https://developers.facebook.com/tools/explorer).\n"
+  example: []
+  syntax:
+    content: public static void LogInWithReadPermissions(IEnumerable<string> permissions, Action<FbLoginResult> callback)
+    parameters:
+    - id: permissions
+      type: IEnumerable{System.String}
+      description: A list of Facebook permissions requested from the user
+    - id: callback
+      type: Action{StansAssets.Facebook.FbLoginResult}
+      description: A delegate that will be called with the result of the Login Dialog.
+    content.vb: Public Shared Sub LogInWithReadPermissions(permissions As IEnumerable(Of String), callback As Action(Of FbLoginResult))
+  overload: StansAssets.Facebook.Fb.LogInWithReadPermissions*
+  nameWithType.vb: Fb.LogInWithReadPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  name.vb: LogInWithReadPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  commentId: M:StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  id: GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: GetLoggedInUserInfo(Action<FbGetUserResult>)
+  nameWithType: Fb.GetLoggedInUserInfo(Action<FbGetUserResult>)
+  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action<StansAssets.Facebook.FbGetUserResult>)
+  type: Method
+  source:
+    id: GetLoggedInUserInfo
+    path: ''
+    startLine: 279
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRetries current logged user info.\nSee <xref href=\"StansAssets.Facebook.FbUser\" data-throw-if-not-resolved=\"false\"></xref> for more details.\n"
+  example: []
+  syntax:
+    content: public static void GetLoggedInUserInfo(Action<FbGetUserResult> callback)
+    parameters:
+    - id: callback
+      type: Action{StansAssets.Facebook.FbGetUserResult}
+      description: ''
+    content.vb: Public Shared Sub GetLoggedInUserInfo(callback As Action(Of FbGetUserResult))
+  overload: StansAssets.Facebook.Fb.GetLoggedInUserInfo*
+  nameWithType.vb: Fb.GetLoggedInUserInfo(Action(Of FbGetUserResult))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action(Of StansAssets.Facebook.FbGetUserResult))
+  name.vb: GetLoggedInUserInfo(Action(Of FbGetUserResult))
+- uid: StansAssets.Facebook.Fb.LogOut
+  commentId: M:StansAssets.Facebook.Fb.LogOut
+  id: LogOut
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: LogOut()
+  nameWithType: Fb.LogOut()
+  fullName: StansAssets.Facebook.Fb.LogOut()
+  type: Method
+  source:
+    id: LogOut
+    path: ''
+    startLine: 293
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nOn Web, this method will log the user out of both your site and Facebook.\nOn iOS and Android, it will log the user out of your Application.\nOn all the platforms it will also invalidate any access token that you have for the user that was issued before the logout.\n\nOn Web, you almost certainly should not use this function, which is provided primarily for completeness.\nHaving a logout control inside a game that executes a Facebook-wide logout will violate users&apos; expectations.\nInstead, allow users to control their logged-in status on Facebook itself.\n"
+  example: []
+  syntax:
+    content: public static void LogOut()
+    content.vb: Public Shared Sub LogOut
+  overload: StansAssets.Facebook.Fb.LogOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Facebook.Fb.API(System.String,HttpMethod,FacebookDelegate{IGraphResult},IDictionary{System.String,System.String})
+  commentId: M:StansAssets.Facebook.Fb.API(System.String,HttpMethod,FacebookDelegate{IGraphResult},IDictionary{System.String,System.String})
+  id: API(System.String,HttpMethod,FacebookDelegate{IGraphResult},IDictionary{System.String,System.String})
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: API(String, HttpMethod, FacebookDelegate<IGraphResult>, IDictionary<String, String>)
+  nameWithType: Fb.API(String, HttpMethod, FacebookDelegate<IGraphResult>, IDictionary<String, String>)
+  fullName: StansAssets.Facebook.Fb.API(System.String, HttpMethod, FacebookDelegate<IGraphResult>, IDictionary<System.String, System.String>)
+  type: Method
+  source:
+    id: API
+    path: ''
+    startLine: 311
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public static void API(string query, HttpMethod method, FacebookDelegate<IGraphResult> callback = null, IDictionary<string, string> formData = null)
+    parameters:
+    - id: query
+      type: System.String
+    - id: method
+      type: HttpMethod
+    - id: callback
+      type: FacebookDelegate{IGraphResult}
+    - id: formData
+      type: IDictionary{System.String,System.String}
+    content.vb: Public Shared Sub API(query As String, method As HttpMethod, callback As FacebookDelegate(Of IGraphResult) = Nothing, formData As IDictionary(Of String, String) = Nothing)
+  overload: StansAssets.Facebook.Fb.API*
+  nameWithType.vb: Fb.API(String, HttpMethod, FacebookDelegate(Of IGraphResult), IDictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.API(System.String, HttpMethod, FacebookDelegate(Of IGraphResult), IDictionary(Of System.String, System.String))
+  name.vb: API(String, HttpMethod, FacebookDelegate(Of IGraphResult), IDictionary(Of String, String))
+- uid: StansAssets.Facebook.Fb.ActivateApp
+  commentId: M:StansAssets.Facebook.Fb.ActivateApp
+  id: ActivateApp
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: ActivateApp()
+  nameWithType: Fb.ActivateApp()
+  fullName: StansAssets.Facebook.Fb.ActivateApp()
+  type: Method
+  source:
+    id: ActivateApp
+    path: ''
+    startLine: 321
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nBy logging app activation events, you can observe how frequently users activate your app,\nhow much time they spend using it, and view other demographic information through Facebook Analytics for Apps.\n"
+  example: []
+  syntax:
+    content: public static void ActivateApp()
+    content.vb: Public Shared Sub ActivateApp
+  overload: StansAssets.Facebook.Fb.ActivateApp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Facebook.Fb.IsLoggedIn
+  commentId: P:StansAssets.Facebook.Fb.IsLoggedIn
+  id: IsLoggedIn
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: IsLoggedIn
+  nameWithType: Fb.IsLoggedIn
+  fullName: StansAssets.Facebook.Fb.IsLoggedIn
+  type: Property
+  source:
+    id: IsLoggedIn
+    path: ''
+    startLine: 326
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nCheck whether a user is currently logged in and has authorized your app\n"
+  example: []
+  syntax:
+    content: public static bool IsLoggedIn { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsLoggedIn As Boolean
+  overload: StansAssets.Facebook.Fb.IsLoggedIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.Fb.IsInitialized
+  commentId: P:StansAssets.Facebook.Fb.IsInitialized
+  id: IsInitialized
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: IsInitialized
+  nameWithType: Fb.IsInitialized
+  fullName: StansAssets.Facebook.Fb.IsInitialized
+  type: Property
+  source:
+    id: IsInitialized
+    path: ''
+    startLine: 331
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nCheck whether the Unity SDK has been initialized. `false` if the SDK has not been initialized.\n"
+  example: []
+  syntax:
+    content: public static bool IsInitialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsInitialized As Boolean
+  overload: StansAssets.Facebook.Fb.IsInitialized*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.Fb.FbGraphApi
+  commentId: P:StansAssets.Facebook.Fb.FbGraphApi
+  id: FbGraphApi
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: FbGraphApi
+  nameWithType: Fb.FbGraphApi
+  fullName: StansAssets.Facebook.Fb.FbGraphApi
+  type: Property
+  source:
+    id: FbGraphApi
+    path: ''
+    startLine: 336
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nObject that contain methods to communicate with facebook graph API.\n"
+  example: []
+  syntax:
+    content: public static FbGraphAPI FbGraphApi { get; }
+    parameters: []
+    return:
+      type: StansAssets.Facebook.FbGraphAPI
+    content.vb: Public Shared ReadOnly Property FbGraphApi As FbGraphAPI
+  overload: StansAssets.Facebook.Fb.FbGraphApi*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.Fb.AccessToken
+  commentId: P:StansAssets.Facebook.Fb.AccessToken
+  id: AccessToken
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: Fb.AccessToken
+  fullName: StansAssets.Facebook.Fb.AccessToken
+  type: Property
+  source:
+    id: AccessToken
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nSaved user AccessToken from last login result\nCan be null if there wa no success during current session\n"
+  example: []
+  syntax:
+    content: public static AccessToken AccessToken { get; }
+    parameters: []
+    return:
+      type: AccessToken
+    content.vb: Public Shared ReadOnly Property AccessToken As AccessToken
+  overload: StansAssets.Facebook.Fb.AccessToken*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.Fb.AccessTokenString
+  commentId: P:StansAssets.Facebook.Fb.AccessTokenString
+  id: AccessTokenString
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: AccessTokenString
+  nameWithType: Fb.AccessTokenString
+  fullName: StansAssets.Facebook.Fb.AccessTokenString
+  type: Property
+  source:
+    id: AccessTokenString
+    path: ''
+    startLine: 348
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nSaved user AccessToken string from last login result\n<xref href=\"System.String.Empty\" data-throw-if-not-resolved=\"false\"></xref> if there wa no success during current session\n"
+  example: []
+  syntax:
+    content: public static string AccessTokenString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property AccessTokenString As String
+  overload: StansAssets.Facebook.Fb.AccessTokenString*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.Fb.ClientToken
+  commentId: P:StansAssets.Facebook.Fb.ClientToken
+  id: ClientToken
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: ClientToken
+  nameWithType: Fb.ClientToken
+  fullName: StansAssets.Facebook.Fb.ClientToken
+  type: Property
+  source:
+    id: ClientToken
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nGets the app client token. ClientToken might be different from FBSettings.ClientToken\nif using the programmatic version of SA_FB.Init().\n"
+  example: []
+  syntax:
+    content: public static string ClientToken { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ClientToken As String
+  overload: StansAssets.Facebook.Fb.ClientToken*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.Fb.ActivateApp
+  commentId: M:StansAssets.Facebook.Fb.ActivateApp
+  isExternal: true
+- uid: StansAssets.Facebook.Fb.Init*
+  commentId: Overload:StansAssets.Facebook.Fb.Init
+  name: Init
+  nameWithType: Fb.Init
+  fullName: StansAssets.Facebook.Fb.Init
+- uid: InitDelegate
+  isExternal: true
+  name: InitDelegate
+  nameWithType: InitDelegate
+  fullName: InitDelegate
+- uid: HideUnityDelegate
+  isExternal: true
+  name: HideUnityDelegate
+  nameWithType: HideUnityDelegate
+  fullName: HideUnityDelegate
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
+  commentId: Overload:StansAssets.Facebook.Fb.LogInWithPublishPermissions
+  name: LogInWithPublishPermissions
+  nameWithType: Fb.LogInWithPublishPermissions
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions
+- uid: Action{StansAssets.Facebook.FbLoginResult}
+  commentId: '!:Action{StansAssets.Facebook.FbLoginResult}'
+  definition: Action`1
+  name: Action<FbLoginResult>
+  nameWithType: Action<FbLoginResult>
+  fullName: Action<StansAssets.Facebook.FbLoginResult>
+  nameWithType.vb: Action(Of FbLoginResult)
+  fullName.vb: Action(Of StansAssets.Facebook.FbLoginResult)
+  name.vb: Action(Of FbLoginResult)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.Facebook.FbLoginResult
+    name: FbLoginResult
+    nameWithType: FbLoginResult
+    fullName: StansAssets.Facebook.FbLoginResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.Facebook.FbLoginResult
+    name: FbLoginResult
+    nameWithType: FbLoginResult
+    fullName: StansAssets.Facebook.FbLoginResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable{System.String}
+  commentId: '!:IEnumerable{System.String}'
+  definition: IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions*
+  commentId: Overload:StansAssets.Facebook.Fb.LogInWithReadPermissions
+  name: LogInWithReadPermissions
+  nameWithType: Fb.LogInWithReadPermissions
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions
+- uid: StansAssets.Facebook.FbUser
+  commentId: T:StansAssets.Facebook.FbUser
+  parent: StansAssets.Facebook
+  name: FbUser
+  nameWithType: FbUser
+  fullName: StansAssets.Facebook.FbUser
+- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo*
+  commentId: Overload:StansAssets.Facebook.Fb.GetLoggedInUserInfo
+  name: GetLoggedInUserInfo
+  nameWithType: Fb.GetLoggedInUserInfo
+  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo
+- uid: Action{StansAssets.Facebook.FbGetUserResult}
+  commentId: '!:Action{StansAssets.Facebook.FbGetUserResult}'
+  definition: Action`1
+  name: Action<FbGetUserResult>
+  nameWithType: Action<FbGetUserResult>
+  fullName: Action<StansAssets.Facebook.FbGetUserResult>
+  nameWithType.vb: Action(Of FbGetUserResult)
+  fullName.vb: Action(Of StansAssets.Facebook.FbGetUserResult)
+  name.vb: Action(Of FbGetUserResult)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.Facebook.FbGetUserResult
+    name: FbGetUserResult
+    nameWithType: FbGetUserResult
+    fullName: StansAssets.Facebook.FbGetUserResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.Facebook.FbGetUserResult
+    name: FbGetUserResult
+    nameWithType: FbGetUserResult
+    fullName: StansAssets.Facebook.FbGetUserResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.Fb.LogOut*
+  commentId: Overload:StansAssets.Facebook.Fb.LogOut
+  name: LogOut
+  nameWithType: Fb.LogOut
+  fullName: StansAssets.Facebook.Fb.LogOut
+- uid: StansAssets.Facebook.Fb.API*
+  commentId: Overload:StansAssets.Facebook.Fb.API
+  name: API
+  nameWithType: Fb.API
+  fullName: StansAssets.Facebook.Fb.API
+- uid: HttpMethod
+  commentId: '!:HttpMethod'
+  isExternal: true
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: HttpMethod
+- uid: FacebookDelegate{IGraphResult}
+  commentId: '!:FacebookDelegate{IGraphResult}'
+  definition: FacebookDelegate`1
+  name: FacebookDelegate<IGraphResult>
+  nameWithType: FacebookDelegate<IGraphResult>
+  fullName: FacebookDelegate<IGraphResult>
+  nameWithType.vb: FacebookDelegate(Of IGraphResult)
+  fullName.vb: FacebookDelegate(Of IGraphResult)
+  name.vb: FacebookDelegate(Of IGraphResult)
+  spec.csharp:
+  - uid: FacebookDelegate`1
+    name: FacebookDelegate
+    nameWithType: FacebookDelegate
+    fullName: FacebookDelegate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IGraphResult
+    name: IGraphResult
+    nameWithType: IGraphResult
+    fullName: IGraphResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FacebookDelegate`1
+    name: FacebookDelegate
+    nameWithType: FacebookDelegate
+    fullName: FacebookDelegate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IGraphResult
+    name: IGraphResult
+    nameWithType: IGraphResult
+    fullName: IGraphResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary{System.String,System.String}
+  commentId: '!:IDictionary{System.String,System.String}'
+  definition: IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: FacebookDelegate`1
+  commentId: '!:FacebookDelegate`1'
+  isExternal: true
+  name: FacebookDelegate<>
+  nameWithType: FacebookDelegate<>
+  fullName: FacebookDelegate<>
+  nameWithType.vb: FacebookDelegate(Of )
+  fullName.vb: FacebookDelegate(Of )
+  name.vb: FacebookDelegate(Of )
+  spec.csharp:
+  - uid: FacebookDelegate`1
+    name: FacebookDelegate
+    nameWithType: FacebookDelegate
+    fullName: FacebookDelegate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: FacebookDelegate`1
+    name: FacebookDelegate
+    nameWithType: FacebookDelegate
+    fullName: FacebookDelegate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.Fb.ActivateApp*
+  commentId: Overload:StansAssets.Facebook.Fb.ActivateApp
+  name: ActivateApp
+  nameWithType: Fb.ActivateApp
+  fullName: StansAssets.Facebook.Fb.ActivateApp
+- uid: StansAssets.Facebook.Fb.IsLoggedIn*
+  commentId: Overload:StansAssets.Facebook.Fb.IsLoggedIn
+  name: IsLoggedIn
+  nameWithType: Fb.IsLoggedIn
+  fullName: StansAssets.Facebook.Fb.IsLoggedIn
+- uid: StansAssets.Facebook.Fb.IsInitialized*
+  commentId: Overload:StansAssets.Facebook.Fb.IsInitialized
+  name: IsInitialized
+  nameWithType: Fb.IsInitialized
+  fullName: StansAssets.Facebook.Fb.IsInitialized
+- uid: StansAssets.Facebook.Fb.FbGraphApi*
+  commentId: Overload:StansAssets.Facebook.Fb.FbGraphApi
+  name: FbGraphApi
+  nameWithType: Fb.FbGraphApi
+  fullName: StansAssets.Facebook.Fb.FbGraphApi
+- uid: StansAssets.Facebook.FbGraphAPI
+  commentId: T:StansAssets.Facebook.FbGraphAPI
+  parent: StansAssets.Facebook
+  name: FbGraphAPI
+  nameWithType: FbGraphAPI
+  fullName: StansAssets.Facebook.FbGraphAPI
+- uid: StansAssets.Facebook.Fb.AccessToken*
+  commentId: Overload:StansAssets.Facebook.Fb.AccessToken
+  name: AccessToken
+  nameWithType: Fb.AccessToken
+  fullName: StansAssets.Facebook.Fb.AccessToken
+- uid: AccessToken
+  isExternal: true
+  name: AccessToken
+  nameWithType: AccessToken
+  fullName: AccessToken
+- uid: System.String.Empty
+  commentId: F:System.String.Empty
+  isExternal: true
+- uid: StansAssets.Facebook.Fb.AccessTokenString*
+  commentId: Overload:StansAssets.Facebook.Fb.AccessTokenString
+  name: AccessTokenString
+  nameWithType: Fb.AccessTokenString
+  fullName: StansAssets.Facebook.Fb.AccessTokenString
+- uid: StansAssets.Facebook.Fb.ClientToken*
+  commentId: Overload:StansAssets.Facebook.Fb.ClientToken
+  name: ClientToken
+  nameWithType: Fb.ClientToken
+  fullName: StansAssets.Facebook.Fb.ClientToken

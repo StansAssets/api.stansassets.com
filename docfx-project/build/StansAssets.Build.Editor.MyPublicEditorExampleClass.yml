@@ -1,0 +1,438 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass
+  id: MyPublicEditorExampleClass
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething(System.Int32,System.Int32)
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+  langs:
+  - csharp
+  - vb
+  name: MyPublicEditorExampleClass
+  nameWithType: MyPublicEditorExampleClass
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass
+  type: Class
+  source:
+    id: MyPublicEditorExampleClass
+    path: ''
+    startLine: 438
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nMake sure you have documentation for ALL public Package APIs.\n1 class = 1 file preferable.\n\nYou may skip internal classes / methods documentation.\nBut make sure to document anything that would surprise another engineer (or yourself when you&apos;ve forgotten it).\n\nYou can use normal markdown, such as **bold**, *italics*, and `code` formatting.\nLinks: [Unity](https://unity.com/)\nRefs: <xref href=\"StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: "\nFor more information on using the XML Documentation comments and the supported tags,\nhttps://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments\n\nCode convention:\nhttps://github.com/StansAssets/com.stansassets.foundation/wiki/Code-Convention-Unity-C%23\n"
+  example: []
+  syntax:
+    content: public class MyPublicEditorExampleClass
+    content.vb: Public Class MyPublicEditorExampleClass
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+  commentId: P:StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+  id: PropertyExample
+  parent: StansAssets.Build.Editor.MyPublicEditorExampleClass
+  langs:
+  - csharp
+  - vb
+  name: PropertyExample
+  nameWithType: MyPublicEditorExampleClass.PropertyExample
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+  type: Property
+  source:
+    id: PropertyExample
+    path: ''
+    startLine: 459
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nFor properties, you can add a description of the property to get/set with the `value` tag.\n"
+  example: []
+  syntax:
+    content: public MyPublicEditorExampleClass.MyExampleEnum PropertyExample { get; }
+    parameters: []
+    return:
+      type: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+      description: 'Description of the property '
+    content.vb: Public ReadOnly Property PropertyExample As MyPublicEditorExampleClass.MyExampleEnum
+  overload: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething(System.Int32,System.Int32)
+  commentId: M:StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething(System.Int32,System.Int32)
+  id: DoSomething(System.Int32,System.Int32)
+  parent: StansAssets.Build.Editor.MyPublicEditorExampleClass
+  langs:
+  - csharp
+  - vb
+  name: DoSomething(Int32, Int32)
+  nameWithType: MyPublicEditorExampleClass.DoSomething(Int32, Int32)
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: DoSomething
+    path: ''
+    startLine: 468
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nBesides providing a summary you should also describe each parameter\nusing the `param` tag and document return values with the `return` tag.\n"
+  example: []
+  syntax:
+    content: public int DoSomething(int parameter1, int parameter2)
+    parameters:
+    - id: parameter1
+      type: System.Int32
+      description: 'Description of parameter 1. '
+    - id: parameter2
+      type: System.Int32
+      description: 'Description of parameter 2. '
+    return:
+      type: System.Int32
+      description: 'Description of what the function returns. '
+    content.vb: Public Function DoSomething(parameter1 As Integer, parameter2 As Integer) As Integer
+  overload: StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  parent: StansAssets.Build.Editor
+  name: MyPublicEditorExampleClass.MyExampleEnum
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample*
+  commentId: Overload:StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+  name: PropertyExample
+  nameWithType: MyPublicEditorExampleClass.PropertyExample
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething*
+  commentId: Overload:StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething
+  name: DoSomething
+  nameWithType: MyPublicEditorExampleClass.DoSomething
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.DoSomething
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

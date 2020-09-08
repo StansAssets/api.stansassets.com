@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: SA.Facebook.FbEditorWindow
+  commentId: T:SA.Facebook.FbEditorWindow
+  id: FbEditorWindow
+  parent: SA.Facebook
+  children:
+  - SA.Facebook.FbEditorWindow.DrawSettingsUI
+  langs:
+  - csharp
+  - vb
+  name: FbEditorWindow
+  nameWithType: FbEditorWindow
+  fullName: SA.Facebook.FbEditorWindow
+  type: Class
+  source:
+    id: FbEditorWindow
+    path: ''
+    startLine: 1409
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Facebook
+  syntax:
+    content: 'public class FbEditorWindow : EditorWindow'
+    content.vb: >-
+      Public Class FbEditorWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SA.Facebook.FbEditorWindow.DrawSettingsUI
+  commentId: M:SA.Facebook.FbEditorWindow.DrawSettingsUI
+  id: DrawSettingsUI
+  parent: SA.Facebook.FbEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: DrawSettingsUI()
+  nameWithType: FbEditorWindow.DrawSettingsUI()
+  fullName: SA.Facebook.FbEditorWindow.DrawSettingsUI()
+  type: Method
+  source:
+    id: DrawSettingsUI
+    path: ''
+    startLine: 1438
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Facebook
+  syntax:
+    content: public static void DrawSettingsUI()
+    content.vb: Public Shared Sub DrawSettingsUI
+  overload: SA.Facebook.FbEditorWindow.DrawSettingsUI*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SA.Facebook
+  commentId: N:SA.Facebook
+  name: SA.Facebook
+  nameWithType: SA.Facebook
+  fullName: SA.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SA.Facebook.FbEditorWindow.DrawSettingsUI*
+  commentId: Overload:SA.Facebook.FbEditorWindow.DrawSettingsUI
+  name: DrawSettingsUI
+  nameWithType: FbEditorWindow.DrawSettingsUI
+  fullName: SA.Facebook.FbEditorWindow.DrawSettingsUI

@@ -1,0 +1,1057 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbUser
+  commentId: T:StansAssets.Facebook.FbUser
+  id: FbUser
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbUser.AgeRange
+  - StansAssets.Facebook.FbUser.Birthday
+  - StansAssets.Facebook.FbUser.Email
+  - StansAssets.Facebook.FbUser.FirstName
+  - StansAssets.Facebook.FbUser.Gender
+  - StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+  - StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  - StansAssets.Facebook.FbUser.Id
+  - StansAssets.Facebook.FbUser.LastName
+  - StansAssets.Facebook.FbUser.Location
+  - StansAssets.Facebook.FbUser.Name
+  - StansAssets.Facebook.FbUser.PictureUrl
+  - StansAssets.Facebook.FbUser.ProfileUrl
+  - StansAssets.Facebook.FbUser.RawGenderString
+  langs:
+  - csharp
+  - vb
+  name: FbUser
+  nameWithType: FbUser
+  fullName: StansAssets.Facebook.FbUser
+  type: Class
+  source:
+    id: FbUser
+    path: ''
+    startLine: 999
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRepresents a Facebook user.\nContains parsed user fields from a Facebook API response,\nand additional methods to retrieve mode data based on current model state\nlike for example generate user avatar url, etc\n"
+  example: []
+  syntax:
+    content: public class FbUser
+    content.vb: Public Class FbUser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.Facebook.FbUser.Id
+  commentId: P:StansAssets.Facebook.FbUser.Id
+  id: Id
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: FbUser.Id
+  fullName: StansAssets.Facebook.FbUser.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 1004
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe ID of this person&apos;s user account. This ID is unique to each app and cannot be used across different apps.\n"
+  example: []
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: StansAssets.Facebook.FbUser.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.Birthday
+  commentId: P:StansAssets.Facebook.FbUser.Birthday
+  id: Birthday
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Birthday
+  nameWithType: FbUser.Birthday
+  fullName: StansAssets.Facebook.FbUser.Birthday
+  type: Property
+  source:
+    id: Birthday
+    path: ''
+    startLine: 1009
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe person&apos;s birthday.\n"
+  example: []
+  syntax:
+    content: public DateTime Birthday { get; set; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public Property Birthday As DateTime
+  overload: StansAssets.Facebook.FbUser.Birthday*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.Name
+  commentId: P:StansAssets.Facebook.FbUser.Name
+  id: Name
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FbUser.Name
+  fullName: StansAssets.Facebook.FbUser.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1014
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nUsed for test accounts only. Name for this account\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: StansAssets.Facebook.FbUser.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.FirstName
+  commentId: P:StansAssets.Facebook.FbUser.FirstName
+  id: FirstName
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: FbUser.FirstName
+  fullName: StansAssets.Facebook.FbUser.FirstName
+  type: Property
+  source:
+    id: FirstName
+    path: ''
+    startLine: 1019
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe person&apos;s first name.\n"
+  example: []
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: StansAssets.Facebook.FbUser.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.LastName
+  commentId: P:StansAssets.Facebook.FbUser.LastName
+  id: LastName
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: FbUser.LastName
+  fullName: StansAssets.Facebook.FbUser.LastName
+  type: Property
+  source:
+    id: LastName
+    path: ''
+    startLine: 1024
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe person&apos;s last name.\n"
+  example: []
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: StansAssets.Facebook.FbUser.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.ProfileUrl
+  commentId: P:StansAssets.Facebook.FbUser.ProfileUrl
+  id: ProfileUrl
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: ProfileUrl
+  nameWithType: FbUser.ProfileUrl
+  fullName: StansAssets.Facebook.FbUser.ProfileUrl
+  type: Property
+  source:
+    id: ProfileUrl
+    path: ''
+    startLine: 1030
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nA link to the person&apos;s Timeline.\nThe link will only resolve if the person clicking the link is logged into Facebook and is a friend of the person whose profile is being viewed.\n"
+  example: []
+  syntax:
+    content: public string ProfileUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProfileUrl As String
+  overload: StansAssets.Facebook.FbUser.ProfileUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.Email
+  commentId: P:StansAssets.Facebook.FbUser.Email
+  id: Email
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: FbUser.Email
+  fullName: StansAssets.Facebook.FbUser.Email
+  type: Property
+  source:
+    id: Email
+    path: ''
+    startLine: 1036
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe User&apos;s primary email address listed on their profile.\nThis field value is <xref href=\"System.String.Empty\" data-throw-if-not-resolved=\"false\"></xref> if no valid email address is available.\n"
+  example: []
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: StansAssets.Facebook.FbUser.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.Location
+  commentId: P:StansAssets.Facebook.FbUser.Location
+  id: Location
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: FbUser.Location
+  fullName: StansAssets.Facebook.FbUser.Location
+  type: Property
+  source:
+    id: Location
+    path: ''
+    startLine: 1041
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe person&apos;s current location as entered by them on their profile. This field requires the `user_location` permission.\n"
+  example: []
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: StansAssets.Facebook.FbUser.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.Gender
+  commentId: P:StansAssets.Facebook.FbUser.Gender
+  id: Gender
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: FbUser.Gender
+  fullName: StansAssets.Facebook.FbUser.Gender
+  type: Property
+  source:
+    id: Gender
+    path: ''
+    startLine: 1049
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe gender selected by this person, <xref href=\"StansAssets.Facebook.FbGender.Male\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"StansAssets.Facebook.FbGender.Female\" data-throw-if-not-resolved=\"false\"></xref>.\nIf the gender is set to a custom value, this value will be based off of the preferred pronoun;\nit will be omitted if the preferred pronoun is neutral.\nUse <xref href=\"StansAssets.Facebook.FbUser.RawGenderString\" data-throw-if-not-resolved=\"false\"></xref> if you need more details.\n"
+  example: []
+  syntax:
+    content: public FbGender Gender { get; set; }
+    parameters: []
+    return:
+      type: StansAssets.Facebook.FbGender
+    content.vb: Public Property Gender As FbGender
+  overload: StansAssets.Facebook.FbUser.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.RawGenderString
+  commentId: P:StansAssets.Facebook.FbUser.RawGenderString
+  id: RawGenderString
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: RawGenderString
+  nameWithType: FbUser.RawGenderString
+  fullName: StansAssets.Facebook.FbUser.RawGenderString
+  type: Property
+  source:
+    id: RawGenderString
+    path: ''
+    startLine: 1054
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nRaw gender string value.\n"
+  example: []
+  syntax:
+    content: public string RawGenderString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RawGenderString As String
+  overload: StansAssets.Facebook.FbUser.RawGenderString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.AgeRange
+  commentId: P:StansAssets.Facebook.FbUser.AgeRange
+  id: AgeRange
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: AgeRange
+  nameWithType: FbUser.AgeRange
+  fullName: StansAssets.Facebook.FbUser.AgeRange
+  type: Property
+  source:
+    id: AgeRange
+    path: ''
+    startLine: 1059
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe age segment for this person expressed as a minimum and maximum age. For example, more than 18, less than 21.\n"
+  example: []
+  syntax:
+    content: public string AgeRange { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AgeRange As String
+  overload: StansAssets.Facebook.FbUser.AgeRange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.PictureUrl
+  commentId: P:StansAssets.Facebook.FbUser.PictureUrl
+  id: PictureUrl
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: PictureUrl
+  nameWithType: FbUser.PictureUrl
+  fullName: StansAssets.Facebook.FbUser.PictureUrl
+  type: Property
+  source:
+    id: PictureUrl
+    path: ''
+    startLine: 1064
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe profile picture URL of the Messenger user. The URL will expire.\n"
+  example: []
+  syntax:
+    content: public string PictureUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PictureUrl As String
+  overload: StansAssets.Facebook.FbUser.PictureUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  id: GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: GetProfileUrl(FbProfileImageSize, Action<String>)
+  nameWithType: FbUser.GetProfileUrl(FbProfileImageSize, Action<String>)
+  fullName: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action<System.String>)
+  type: Method
+  source:
+    id: GetProfileUrl
+    path: ''
+    startLine: 1078
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nGenerates user profile image URL\n"
+  example: []
+  syntax:
+    content: public void GetProfileUrl(FbProfileImageSize size, Action<string> callback)
+    parameters:
+    - id: size
+      type: StansAssets.Facebook.FbProfileImageSize
+      description: Requested profile image size.
+    - id: callback
+      type: Action{System.String}
+      description: Request callback.
+    content.vb: Public Sub GetProfileUrl(size As FbProfileImageSize, callback As Action(Of String))
+  overload: StansAssets.Facebook.FbUser.GetProfileUrl*
+  nameWithType.vb: FbUser.GetProfileUrl(FbProfileImageSize, Action(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action(Of System.String))
+  name.vb: GetProfileUrl(FbProfileImageSize, Action(Of String))
+- uid: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+  id: GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+  parent: StansAssets.Facebook.FbUser
+  langs:
+  - csharp
+  - vb
+  name: GetProfileImage(FbProfileImageSize, Action<Texture2D>)
+  nameWithType: FbUser.GetProfileImage(FbProfileImageSize, Action<Texture2D>)
+  fullName: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action<Texture2D>)
+  type: Method
+  source:
+    id: GetProfileImage
+    path: ''
+    startLine: 1098
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nDownload user profile image of a given size\n"
+  example: []
+  syntax:
+    content: public void GetProfileImage(FbProfileImageSize size, Action<Texture2D> callback)
+    parameters:
+    - id: size
+      type: StansAssets.Facebook.FbProfileImageSize
+      description: Requested profile image size
+    - id: callback
+      type: Action{Texture2D}
+      description: Callback with user Texture2D profile image
+    content.vb: Public Sub GetProfileImage(size As FbProfileImageSize, callback As Action(Of Texture2D))
+  overload: StansAssets.Facebook.FbUser.GetProfileImage*
+  nameWithType.vb: FbUser.GetProfileImage(FbProfileImageSize, Action(Of Texture2D))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action(Of Texture2D))
+  name.vb: GetProfileImage(FbProfileImageSize, Action(Of Texture2D))
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.FbUser.Id*
+  commentId: Overload:StansAssets.Facebook.FbUser.Id
+  name: Id
+  nameWithType: FbUser.Id
+  fullName: StansAssets.Facebook.FbUser.Id
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Facebook.FbUser.Birthday*
+  commentId: Overload:StansAssets.Facebook.FbUser.Birthday
+  name: Birthday
+  nameWithType: FbUser.Birthday
+  fullName: StansAssets.Facebook.FbUser.Birthday
+- uid: DateTime
+  commentId: '!:DateTime'
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: StansAssets.Facebook.FbUser.Name*
+  commentId: Overload:StansAssets.Facebook.FbUser.Name
+  name: Name
+  nameWithType: FbUser.Name
+  fullName: StansAssets.Facebook.FbUser.Name
+- uid: StansAssets.Facebook.FbUser.FirstName*
+  commentId: Overload:StansAssets.Facebook.FbUser.FirstName
+  name: FirstName
+  nameWithType: FbUser.FirstName
+  fullName: StansAssets.Facebook.FbUser.FirstName
+- uid: StansAssets.Facebook.FbUser.LastName*
+  commentId: Overload:StansAssets.Facebook.FbUser.LastName
+  name: LastName
+  nameWithType: FbUser.LastName
+  fullName: StansAssets.Facebook.FbUser.LastName
+- uid: StansAssets.Facebook.FbUser.ProfileUrl*
+  commentId: Overload:StansAssets.Facebook.FbUser.ProfileUrl
+  name: ProfileUrl
+  nameWithType: FbUser.ProfileUrl
+  fullName: StansAssets.Facebook.FbUser.ProfileUrl
+- uid: System.String.Empty
+  commentId: F:System.String.Empty
+  isExternal: true
+- uid: StansAssets.Facebook.FbUser.Email*
+  commentId: Overload:StansAssets.Facebook.FbUser.Email
+  name: Email
+  nameWithType: FbUser.Email
+  fullName: StansAssets.Facebook.FbUser.Email
+- uid: StansAssets.Facebook.FbUser.Location*
+  commentId: Overload:StansAssets.Facebook.FbUser.Location
+  name: Location
+  nameWithType: FbUser.Location
+  fullName: StansAssets.Facebook.FbUser.Location
+- uid: StansAssets.Facebook.FbGender.Male
+  commentId: F:StansAssets.Facebook.FbGender.Male
+  isExternal: true
+- uid: StansAssets.Facebook.FbGender.Female
+  commentId: F:StansAssets.Facebook.FbGender.Female
+  isExternal: true
+- uid: StansAssets.Facebook.FbUser.RawGenderString
+  commentId: P:StansAssets.Facebook.FbUser.RawGenderString
+  isExternal: true
+- uid: StansAssets.Facebook.FbUser.Gender*
+  commentId: Overload:StansAssets.Facebook.FbUser.Gender
+  name: Gender
+  nameWithType: FbUser.Gender
+  fullName: StansAssets.Facebook.FbUser.Gender
+- uid: StansAssets.Facebook.FbGender
+  commentId: T:StansAssets.Facebook.FbGender
+  parent: StansAssets.Facebook
+  name: FbGender
+  nameWithType: FbGender
+  fullName: StansAssets.Facebook.FbGender
+- uid: StansAssets.Facebook.FbUser.RawGenderString*
+  commentId: Overload:StansAssets.Facebook.FbUser.RawGenderString
+  name: RawGenderString
+  nameWithType: FbUser.RawGenderString
+  fullName: StansAssets.Facebook.FbUser.RawGenderString
+- uid: StansAssets.Facebook.FbUser.AgeRange*
+  commentId: Overload:StansAssets.Facebook.FbUser.AgeRange
+  name: AgeRange
+  nameWithType: FbUser.AgeRange
+  fullName: StansAssets.Facebook.FbUser.AgeRange
+- uid: StansAssets.Facebook.FbUser.PictureUrl*
+  commentId: Overload:StansAssets.Facebook.FbUser.PictureUrl
+  name: PictureUrl
+  nameWithType: FbUser.PictureUrl
+  fullName: StansAssets.Facebook.FbUser.PictureUrl
+- uid: StansAssets.Facebook.FbUser.GetProfileUrl*
+  commentId: Overload:StansAssets.Facebook.FbUser.GetProfileUrl
+  name: GetProfileUrl
+  nameWithType: FbUser.GetProfileUrl
+  fullName: StansAssets.Facebook.FbUser.GetProfileUrl
+- uid: StansAssets.Facebook.FbProfileImageSize
+  commentId: T:StansAssets.Facebook.FbProfileImageSize
+  parent: StansAssets.Facebook
+  name: FbProfileImageSize
+  nameWithType: FbProfileImageSize
+  fullName: StansAssets.Facebook.FbProfileImageSize
+- uid: Action{System.String}
+  commentId: '!:Action{System.String}'
+  definition: Action`1
+  name: Action<String>
+  nameWithType: Action<String>
+  fullName: Action<System.String>
+  nameWithType.vb: Action(Of String)
+  fullName.vb: Action(Of System.String)
+  name.vb: Action(Of String)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbUser.GetProfileImage*
+  commentId: Overload:StansAssets.Facebook.FbUser.GetProfileImage
+  name: GetProfileImage
+  nameWithType: FbUser.GetProfileImage
+  fullName: StansAssets.Facebook.FbUser.GetProfileImage
+- uid: Action{Texture2D}
+  commentId: '!:Action{Texture2D}'
+  definition: Action`1
+  name: Action<Texture2D>
+  nameWithType: Action<Texture2D>
+  fullName: Action<Texture2D>
+  nameWithType.vb: Action(Of Texture2D)
+  fullName.vb: Action(Of Texture2D)
+  name.vb: Action(Of Texture2D)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Texture2D
+    name: Texture2D
+    nameWithType: Texture2D
+    fullName: Texture2D
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Texture2D
+    name: Texture2D
+    nameWithType: Texture2D
+    fullName: Texture2D
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

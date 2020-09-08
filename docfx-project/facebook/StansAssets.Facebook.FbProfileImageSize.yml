@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbProfileImageSize
+  commentId: T:StansAssets.Facebook.FbProfileImageSize
+  id: FbProfileImageSize
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbProfileImageSize.Large
+  - StansAssets.Facebook.FbProfileImageSize.Normal
+  - StansAssets.Facebook.FbProfileImageSize.Small
+  - StansAssets.Facebook.FbProfileImageSize.Square
+  langs:
+  - csharp
+  - vb
+  name: FbProfileImageSize
+  nameWithType: FbProfileImageSize
+  fullName: StansAssets.Facebook.FbProfileImageSize
+  type: Enum
+  source:
+    id: FbProfileImageSize
+    path: ''
+    startLine: 1353
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public enum FbProfileImageSize
+    content.vb: Public Enum FbProfileImageSize
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.Facebook.FbProfileImageSize.Large
+  commentId: F:StansAssets.Facebook.FbProfileImageSize.Large
+  id: Large
+  parent: StansAssets.Facebook.FbProfileImageSize
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: FbProfileImageSize.Large
+  fullName: StansAssets.Facebook.FbProfileImageSize.Large
+  type: Field
+  source:
+    id: Large
+    path: ''
+    startLine: 1358
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\n200px image size.\n"
+  example: []
+  syntax:
+    content: Large = 0
+    return:
+      type: StansAssets.Facebook.FbProfileImageSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbProfileImageSize.Normal
+  commentId: F:StansAssets.Facebook.FbProfileImageSize.Normal
+  id: Normal
+  parent: StansAssets.Facebook.FbProfileImageSize
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: FbProfileImageSize.Normal
+  fullName: StansAssets.Facebook.FbProfileImageSize.Normal
+  type: Field
+  source:
+    id: Normal
+    path: ''
+    startLine: 1363
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\n100px image size.\n"
+  example: []
+  syntax:
+    content: Normal = 1
+    return:
+      type: StansAssets.Facebook.FbProfileImageSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbProfileImageSize.Small
+  commentId: F:StansAssets.Facebook.FbProfileImageSize.Small
+  id: Small
+  parent: StansAssets.Facebook.FbProfileImageSize
+  langs:
+  - csharp
+  - vb
+  name: Small
+  nameWithType: FbProfileImageSize.Small
+  fullName: StansAssets.Facebook.FbProfileImageSize.Small
+  type: Field
+  source:
+    id: Small
+    path: ''
+    startLine: 1368
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\n50px image size.\n"
+  example: []
+  syntax:
+    content: Small = 2
+    return:
+      type: StansAssets.Facebook.FbProfileImageSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbProfileImageSize.Square
+  commentId: F:StansAssets.Facebook.FbProfileImageSize.Square
+  id: Square
+  parent: StansAssets.Facebook.FbProfileImageSize
+  langs:
+  - csharp
+  - vb
+  name: Square
+  nameWithType: FbProfileImageSize.Square
+  fullName: StansAssets.Facebook.FbProfileImageSize.Square
+  type: Field
+  source:
+    id: Square
+    path: ''
+    startLine: 1373
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\n50px*50px image size.\n"
+  example: []
+  syntax:
+    content: Square = 3
+    return:
+      type: StansAssets.Facebook.FbProfileImageSize
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: StansAssets.Facebook.FbProfileImageSize
+  commentId: T:StansAssets.Facebook.FbProfileImageSize
+  parent: StansAssets.Facebook
+  name: FbProfileImageSize
+  nameWithType: FbProfileImageSize
+  fullName: StansAssets.Facebook.FbProfileImageSize

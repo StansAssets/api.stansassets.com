@@ -1,0 +1,510 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.BuildMetadata
+  commentId: T:StansAssets.Build.BuildMetadata
+  id: BuildMetadata
+  parent: StansAssets.Build
+  children:
+  - StansAssets.Build.BuildMetadata.BranchName
+  - StansAssets.Build.BuildMetadata.BuildNumber
+  - StansAssets.Build.BuildMetadata.BuildTime
+  - StansAssets.Build.BuildMetadata.CommitHash
+  - StansAssets.Build.BuildMetadata.CommitMessage
+  - StansAssets.Build.BuildMetadata.CommitShortHash
+  - StansAssets.Build.BuildMetadata.CommitTime
+  - StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+  - StansAssets.Build.BuildMetadata.MachineName
+  - StansAssets.Build.BuildMetadata.Note
+  - StansAssets.Build.BuildMetadata.Version
+  langs:
+  - csharp
+  - vb
+  name: BuildMetadata
+  nameWithType: BuildMetadata
+  fullName: StansAssets.Build.BuildMetadata
+  type: Class
+  source:
+    id: BuildMetadata
+    path: ''
+    startLine: 100
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nMetadata about current build\n"
+  example: []
+  syntax:
+    content: 'public class BuildMetadata : ScriptableObject'
+    content.vb: >-
+      Public Class BuildMetadata
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+  commentId: P:StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+  id: HasChangesInWorkingCopy
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: HasChangesInWorkingCopy
+  nameWithType: BuildMetadata.HasChangesInWorkingCopy
+  fullName: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+  type: Property
+  source:
+    id: HasChangesInWorkingCopy
+    path: ''
+    startLine: 114
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nTrue if working copy had local changes during the build.\n"
+  example: []
+  syntax:
+    content: public bool HasChangesInWorkingCopy { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasChangesInWorkingCopy As Boolean
+  overload: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.BranchName
+  commentId: P:StansAssets.Build.BuildMetadata.BranchName
+  id: BranchName
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: BranchName
+  nameWithType: BuildMetadata.BranchName
+  fullName: StansAssets.Build.BuildMetadata.BranchName
+  type: Property
+  source:
+    id: BranchName
+    path: ''
+    startLine: 120
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nRepository branch name.\n"
+  example: []
+  syntax:
+    content: public string BranchName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BranchName As String
+  overload: StansAssets.Build.BuildMetadata.BranchName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.CommitHash
+  commentId: P:StansAssets.Build.BuildMetadata.CommitHash
+  id: CommitHash
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: CommitHash
+  nameWithType: BuildMetadata.CommitHash
+  fullName: StansAssets.Build.BuildMetadata.CommitHash
+  type: Property
+  source:
+    id: CommitHash
+    path: ''
+    startLine: 126
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nHash string which identifies this commit\n"
+  example: []
+  syntax:
+    content: public string CommitHash { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CommitHash As String
+  overload: StansAssets.Build.BuildMetadata.CommitHash*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.CommitShortHash
+  commentId: P:StansAssets.Build.BuildMetadata.CommitShortHash
+  id: CommitShortHash
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: CommitShortHash
+  nameWithType: BuildMetadata.CommitShortHash
+  fullName: StansAssets.Build.BuildMetadata.CommitShortHash
+  type: Property
+  source:
+    id: CommitShortHash
+    path: ''
+    startLine: 132
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nShort version of a hash string which identifies this commit.\n"
+  example: []
+  syntax:
+    content: public string CommitShortHash { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CommitShortHash As String
+  overload: StansAssets.Build.BuildMetadata.CommitShortHash*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.CommitMessage
+  commentId: P:StansAssets.Build.BuildMetadata.CommitMessage
+  id: CommitMessage
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: CommitMessage
+  nameWithType: BuildMetadata.CommitMessage
+  fullName: StansAssets.Build.BuildMetadata.CommitMessage
+  type: Property
+  source:
+    id: CommitMessage
+    path: ''
+    startLine: 138
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nCommit message that identifies changes.\n"
+  example: []
+  syntax:
+    content: public string CommitMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CommitMessage As String
+  overload: StansAssets.Build.BuildMetadata.CommitMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.Note
+  commentId: P:StansAssets.Build.BuildMetadata.Note
+  id: Note
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: BuildMetadata.Note
+  fullName: StansAssets.Build.BuildMetadata.Note
+  type: Property
+  source:
+    id: Note
+    path: ''
+    startLine: 144
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nThe note left by a person who made this build.\n"
+  example: []
+  syntax:
+    content: public string Note { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Note As String
+  overload: StansAssets.Build.BuildMetadata.Note*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.MachineName
+  commentId: P:StansAssets.Build.BuildMetadata.MachineName
+  id: MachineName
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: MachineName
+  nameWithType: BuildMetadata.MachineName
+  fullName: StansAssets.Build.BuildMetadata.MachineName
+  type: Property
+  source:
+    id: MachineName
+    path: ''
+    startLine: 150
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nThe name of machine that was used to produce this build\n"
+  example: []
+  syntax:
+    content: public string MachineName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MachineName As String
+  overload: StansAssets.Build.BuildMetadata.MachineName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.BuildTime
+  commentId: P:StansAssets.Build.BuildMetadata.BuildTime
+  id: BuildTime
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: BuildTime
+  nameWithType: BuildMetadata.BuildTime
+  fullName: StansAssets.Build.BuildMetadata.BuildTime
+  type: Property
+  source:
+    id: BuildTime
+    path: ''
+    startLine: 158
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nTime when build was made.\nTo print in a nice formatted way,\ncheck an article <a href=\"https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1\">here</a>.\n"
+  example: []
+  syntax:
+    content: public DateTime BuildTime { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public ReadOnly Property BuildTime As DateTime
+  overload: StansAssets.Build.BuildMetadata.BuildTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.CommitTime
+  commentId: P:StansAssets.Build.BuildMetadata.CommitTime
+  id: CommitTime
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: CommitTime
+  nameWithType: BuildMetadata.CommitTime
+  fullName: StansAssets.Build.BuildMetadata.CommitTime
+  type: Property
+  source:
+    id: CommitTime
+    path: ''
+    startLine: 176
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nTime when commit was made.\nTo print in a nice formatted way,\ncheck an article <a href=\"https://www.c-sharpcorner.com/blogs/date-and-time-format-in-c-sharp-programming1\">here</a>.\n"
+  example: []
+  syntax:
+    content: public DateTime CommitTime { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public ReadOnly Property CommitTime As DateTime
+  overload: StansAssets.Build.BuildMetadata.CommitTime*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.Version
+  commentId: P:StansAssets.Build.BuildMetadata.Version
+  id: Version
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: BuildMetadata.Version
+  fullName: StansAssets.Build.BuildMetadata.Version
+  type: Property
+  source:
+    id: Version
+    path: ''
+    startLine: 193
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nReturns application version number (Read Only).\nDuplicated Unity <see cref=\"!:Application.version\"></see>. Just for your convenience.\n"
+  example: []
+  syntax:
+    content: public string Version { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Version As String
+  overload: StansAssets.Build.BuildMetadata.Version*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.BuildNumber
+  commentId: P:StansAssets.Build.BuildMetadata.BuildNumber
+  id: BuildNumber
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: BuildNumber
+  nameWithType: BuildMetadata.BuildNumber
+  fullName: StansAssets.Build.BuildMetadata.BuildNumber
+  type: Property
+  source:
+    id: BuildNumber
+    path: ''
+    startLine: 199
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nThe build number of the bundle.\nOnly valid for iOS or Android platforms.\n"
+  example: []
+  syntax:
+    content: public int BuildNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BuildNumber As Integer
+  overload: StansAssets.Build.BuildMetadata.BuildNumber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.Build
+  commentId: N:StansAssets.Build
+  name: StansAssets.Build
+  nameWithType: StansAssets.Build
+  fullName: StansAssets.Build
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy*
+  commentId: Overload:StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+  name: HasChangesInWorkingCopy
+  nameWithType: BuildMetadata.HasChangesInWorkingCopy
+  fullName: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Build.BuildMetadata.BranchName*
+  commentId: Overload:StansAssets.Build.BuildMetadata.BranchName
+  name: BranchName
+  nameWithType: BuildMetadata.BranchName
+  fullName: StansAssets.Build.BuildMetadata.BranchName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Build.BuildMetadata.CommitHash*
+  commentId: Overload:StansAssets.Build.BuildMetadata.CommitHash
+  name: CommitHash
+  nameWithType: BuildMetadata.CommitHash
+  fullName: StansAssets.Build.BuildMetadata.CommitHash
+- uid: StansAssets.Build.BuildMetadata.CommitShortHash*
+  commentId: Overload:StansAssets.Build.BuildMetadata.CommitShortHash
+  name: CommitShortHash
+  nameWithType: BuildMetadata.CommitShortHash
+  fullName: StansAssets.Build.BuildMetadata.CommitShortHash
+- uid: StansAssets.Build.BuildMetadata.CommitMessage*
+  commentId: Overload:StansAssets.Build.BuildMetadata.CommitMessage
+  name: CommitMessage
+  nameWithType: BuildMetadata.CommitMessage
+  fullName: StansAssets.Build.BuildMetadata.CommitMessage
+- uid: StansAssets.Build.BuildMetadata.Note*
+  commentId: Overload:StansAssets.Build.BuildMetadata.Note
+  name: Note
+  nameWithType: BuildMetadata.Note
+  fullName: StansAssets.Build.BuildMetadata.Note
+- uid: StansAssets.Build.BuildMetadata.MachineName*
+  commentId: Overload:StansAssets.Build.BuildMetadata.MachineName
+  name: MachineName
+  nameWithType: BuildMetadata.MachineName
+  fullName: StansAssets.Build.BuildMetadata.MachineName
+- uid: StansAssets.Build.BuildMetadata.BuildTime*
+  commentId: Overload:StansAssets.Build.BuildMetadata.BuildTime
+  name: BuildTime
+  nameWithType: BuildMetadata.BuildTime
+  fullName: StansAssets.Build.BuildMetadata.BuildTime
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: StansAssets.Build.BuildMetadata.CommitTime*
+  commentId: Overload:StansAssets.Build.BuildMetadata.CommitTime
+  name: CommitTime
+  nameWithType: BuildMetadata.CommitTime
+  fullName: StansAssets.Build.BuildMetadata.CommitTime
+- uid: StansAssets.Build.BuildMetadata.Version*
+  commentId: Overload:StansAssets.Build.BuildMetadata.Version
+  name: Version
+  nameWithType: BuildMetadata.Version
+  fullName: StansAssets.Build.BuildMetadata.Version
+- uid: StansAssets.Build.BuildMetadata.BuildNumber*
+  commentId: Overload:StansAssets.Build.BuildMetadata.BuildNumber
+  name: BuildNumber
+  nameWithType: BuildMetadata.BuildNumber
+  fullName: StansAssets.Build.BuildMetadata.BuildNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

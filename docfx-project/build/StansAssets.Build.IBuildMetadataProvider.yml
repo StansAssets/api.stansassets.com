@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.IBuildMetadataProvider
+  commentId: T:StansAssets.Build.IBuildMetadataProvider
+  id: IBuildMetadataProvider
+  parent: StansAssets.Build
+  children:
+  - StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: IBuildMetadataProvider
+  nameWithType: IBuildMetadataProvider
+  fullName: StansAssets.Build.IBuildMetadataProvider
+  type: Interface
+  source:
+    id: IBuildMetadataProvider
+    path: ''
+    startLine: 241
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  syntax:
+    content: public interface IBuildMetadataProvider
+    content.vb: Public Interface IBuildMetadataProvider
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata
+  commentId: M:StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata
+  id: GetBuildMetadata
+  parent: StansAssets.Build.IBuildMetadataProvider
+  langs:
+  - csharp
+  - vb
+  name: GetBuildMetadata()
+  nameWithType: IBuildMetadataProvider.GetBuildMetadata()
+  fullName: StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata()
+  type: Method
+  source:
+    id: GetBuildMetadata
+    path: ''
+    startLine: 243
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  syntax:
+    content: BuildMetadata GetBuildMetadata()
+    return:
+      type: StansAssets.Build.BuildMetadata
+    content.vb: Function GetBuildMetadata As BuildMetadata
+  overload: StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata*
+references:
+- uid: StansAssets.Build
+  commentId: N:StansAssets.Build
+  name: StansAssets.Build
+  nameWithType: StansAssets.Build
+  fullName: StansAssets.Build
+- uid: StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata*
+  commentId: Overload:StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata
+  name: GetBuildMetadata
+  nameWithType: IBuildMetadataProvider.GetBuildMetadata
+  fullName: StansAssets.Build.IBuildMetadataProvider.GetBuildMetadata
+- uid: StansAssets.Build.BuildMetadata
+  commentId: T:StansAssets.Build.BuildMetadata
+  parent: StansAssets.Build
+  name: BuildMetadata
+  nameWithType: BuildMetadata
+  fullName: StansAssets.Build.BuildMetadata

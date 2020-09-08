@@ -2705,6 +2705,150 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Build.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Build.html",
+          "hash": "w4dY9BSnXfFoG9f+C2NnmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.BuildMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.BuildMetadata.html",
+          "hash": "8ohUw3Bl5Uvnr6bbYOXhCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.DefaultBuildMetadataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.DefaultBuildMetadataProvider.html",
+          "hash": "3DeeuF2rzjHxX/2lMQHHVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.html",
+          "hash": "Z4taQIsHjjsRHhm5ZRLqRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.MyPublicEditorExampleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.MyPublicEditorExampleClass.html",
+          "hash": "a3aPRLbjzR5xJYQkjIX+eA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.html",
+          "hash": "5V1vlp1oDNC9SWLN9GT+UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.IBuildMetadataProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.IBuildMetadataProvider.html",
+          "hash": "QuEKGglBp+OQH1iR5aU6vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.html",
+          "hash": "lN8q/lqPCQV5ClZdm/iuyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.MyPublicRuntimeExampleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.MyPublicRuntimeExampleClass.html",
+          "hash": "9iknTzM48oLSreeU5s1tUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.html",
+          "hash": "r3VAmGWq7GeaeNdnEnKd0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "build/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "build/index.html",
+          "hash": "9SYs+MgDfS+UU9ETKrpL2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "build/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/toc.html",
+          "hash": "LKvZyq1qe9+Sztn8NDYIRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.FbEditorWindow.yml",
       "output": {
         ".html": {
@@ -2716,6 +2860,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -6310,7 +6457,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "25O4k6LJ+vk4ZQMiD/JXYQ=="
+          "hash": "PEqxJwUUrtj0Ha5I4TUJjQ=="
         }
       },
       "is_incremental": false,
@@ -7865,9 +8012,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -7966,13 +8110,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 11,
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 642,
+          "total_file_count": 652,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

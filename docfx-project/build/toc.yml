@@ -1,0 +1,23 @@
+### YamlMime:TableOfContent
+- uid: StansAssets.Build
+  name: StansAssets.Build
+  items:
+  - uid: StansAssets.Build.Build
+    name: Build
+  - uid: StansAssets.Build.BuildMetadata
+    name: BuildMetadata
+  - uid: StansAssets.Build.DefaultBuildMetadataProvider
+    name: DefaultBuildMetadataProvider
+  - uid: StansAssets.Build.IBuildMetadataProvider
+    name: IBuildMetadataProvider
+  - uid: StansAssets.Build.MyPublicRuntimeExampleClass
+    name: MyPublicRuntimeExampleClass
+  - uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+    name: MyPublicRuntimeExampleClass.MyExampleEnum
+- uid: StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  items:
+  - uid: StansAssets.Build.Editor.MyPublicEditorExampleClass
+    name: MyPublicEditorExampleClass
+  - uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+    name: MyPublicEditorExampleClass.MyExampleEnum

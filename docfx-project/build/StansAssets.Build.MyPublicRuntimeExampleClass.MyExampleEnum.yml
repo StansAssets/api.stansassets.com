@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  id: MyPublicRuntimeExampleClass.MyExampleEnum
+  parent: StansAssets.Build
+  children:
+  - StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.First
+  - StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.Second
+  langs:
+  - csharp
+  - vb
+  name: MyPublicRuntimeExampleClass.MyExampleEnum
+  nameWithType: MyPublicRuntimeExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  type: Enum
+  source:
+    id: MyExampleEnum
+    path: ''
+    startLine: 59
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nIf you want to document your public enum, use `summary` tags before each value.\n"
+  example: []
+  syntax:
+    content: public enum MyExampleEnum
+    content.vb: Public Enum MyExampleEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.First
+  commentId: F:StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.First
+  id: First
+  parent: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: MyPublicRuntimeExampleClass.MyExampleEnum.First
+  fullName: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.First
+  type: Field
+  source:
+    id: First
+    path: ''
+    startLine: 64
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nDescription of value 1\n"
+  example: []
+  syntax:
+    content: First = 0
+    return:
+      type: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.Second
+  commentId: F:StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.Second
+  id: Second
+  parent: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: MyPublicRuntimeExampleClass.MyExampleEnum.Second
+  fullName: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum.Second
+  type: Field
+  source:
+    id: Second
+    path: ''
+    startLine: 68
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nDescription of value 2\n"
+  example: []
+  syntax:
+    content: Second = 1
+    return:
+      type: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.Build
+  commentId: N:StansAssets.Build
+  name: StansAssets.Build
+  nameWithType: StansAssets.Build
+  fullName: StansAssets.Build
+- uid: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum
+  parent: StansAssets.Build
+  name: MyPublicRuntimeExampleClass.MyExampleEnum
+  nameWithType: MyPublicRuntimeExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.MyPublicRuntimeExampleClass.MyExampleEnum

@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbCursorType
+  commentId: T:StansAssets.Facebook.FbCursorType
+  id: FbCursorType
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbCursorType.After
+  - StansAssets.Facebook.FbCursorType.Before
+  langs:
+  - csharp
+  - vb
+  name: FbCursorType
+  nameWithType: FbCursorType
+  fullName: StansAssets.Facebook.FbCursorType
+  type: Enum
+  source:
+    id: FbCursorType
+    path: ''
+    startLine: 1337
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nType of the Graph API paginated cursor.\n"
+  example: []
+  syntax:
+    content: public enum FbCursorType
+    content.vb: Public Enum FbCursorType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.Facebook.FbCursorType.After
+  commentId: F:StansAssets.Facebook.FbCursorType.After
+  id: After
+  parent: StansAssets.Facebook.FbCursorType
+  langs:
+  - csharp
+  - vb
+  name: After
+  nameWithType: FbCursorType.After
+  fullName: StansAssets.Facebook.FbCursorType.After
+  type: Field
+  source:
+    id: After
+    path: ''
+    startLine: 1342
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThis is the cursor that points to the end of the page of data that has been returned.\n"
+  example: []
+  syntax:
+    content: After = 0
+    return:
+      type: StansAssets.Facebook.FbCursorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Facebook.FbCursorType.Before
+  commentId: F:StansAssets.Facebook.FbCursorType.Before
+  id: Before
+  parent: StansAssets.Facebook.FbCursorType
+  langs:
+  - csharp
+  - vb
+  name: Before
+  nameWithType: FbCursorType.Before
+  fullName: StansAssets.Facebook.FbCursorType.Before
+  type: Field
+  source:
+    id: Before
+    path: ''
+    startLine: 1347
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThis is the cursor that points to the start of the page of data that has been returned.\n"
+  example: []
+  syntax:
+    content: Before = 1
+    return:
+      type: StansAssets.Facebook.FbCursorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: StansAssets.Facebook.FbCursorType
+  commentId: T:StansAssets.Facebook.FbCursorType
+  parent: StansAssets.Facebook
+  name: FbCursorType
+  nameWithType: FbCursorType
+  fullName: StansAssets.Facebook.FbCursorType

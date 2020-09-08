@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbLoginResult
+  commentId: T:StansAssets.Facebook.FbLoginResult
+  id: FbLoginResult
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbLoginResult.AccessToken
+  - StansAssets.Facebook.FbLoginResult.OnDataReady(IDictionary)
+  - StansAssets.Facebook.FbLoginResult.UserId
+  langs:
+  - csharp
+  - vb
+  name: FbLoginResult
+  nameWithType: FbLoginResult
+  fullName: StansAssets.Facebook.FbLoginResult
+  type: Class
+  source:
+    id: FbLoginResult
+    path: ''
+    startLine: 635
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nLogin reasult.\n"
+  example: []
+  syntax:
+    content: 'public class FbLoginResult : FbResult'
+    content.vb: >-
+      Public Class FbLoginResult
+          Inherits FbResult
+  inheritance:
+  - System.Object
+  - StansAssets.Facebook.FbResult
+  inheritedMembers:
+  - StansAssets.Facebook.FbResult.State
+  - StansAssets.Facebook.FbResult.IsSucceeded
+  - StansAssets.Facebook.FbResult.IsFailed
+  - StansAssets.Facebook.FbResult.RawResult
+  - StansAssets.Facebook.FbResult.Error
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.Facebook.FbLoginResult.UserId
+  commentId: P:StansAssets.Facebook.FbLoginResult.UserId
+  id: UserId
+  parent: StansAssets.Facebook.FbLoginResult
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: FbLoginResult.UserId
+  fullName: StansAssets.Facebook.FbLoginResult.UserId
+  type: Property
+  source:
+    id: UserId
+    path: ''
+    startLine: 650
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nLogged User Id.\n"
+  example: []
+  syntax:
+    content: public string UserId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UserId As String
+  overload: StansAssets.Facebook.FbLoginResult.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginResult.AccessToken
+  commentId: P:StansAssets.Facebook.FbLoginResult.AccessToken
+  id: AccessToken
+  parent: StansAssets.Facebook.FbLoginResult
+  langs:
+  - csharp
+  - vb
+  name: AccessToken
+  nameWithType: FbLoginResult.AccessToken
+  fullName: StansAssets.Facebook.FbLoginResult.AccessToken
+  type: Property
+  source:
+    id: AccessToken
+    path: ''
+    startLine: 655
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nUser AccessToken.\n"
+  example: []
+  syntax:
+    content: public AccessToken AccessToken { get; }
+    parameters: []
+    return:
+      type: AccessToken
+    content.vb: Public ReadOnly Property AccessToken As AccessToken
+  overload: StansAssets.Facebook.FbLoginResult.AccessToken*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginResult.OnDataReady(IDictionary)
+  commentId: M:StansAssets.Facebook.FbLoginResult.OnDataReady(IDictionary)
+  id: OnDataReady(IDictionary)
+  parent: StansAssets.Facebook.FbLoginResult
+  langs:
+  - csharp
+  - vb
+  name: OnDataReady(IDictionary)
+  nameWithType: FbLoginResult.OnDataReady(IDictionary)
+  fullName: StansAssets.Facebook.FbLoginResult.OnDataReady(IDictionary)
+  type: Method
+  source:
+    id: OnDataReady
+    path: ''
+    startLine: 657
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: protected override void OnDataReady(IDictionary json)
+    parameters:
+    - id: json
+      type: IDictionary
+    content.vb: Protected Overrides Sub OnDataReady(json As IDictionary)
+  overridden: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  overload: StansAssets.Facebook.FbLoginResult.OnDataReady*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: StansAssets.Facebook.FbResult
+  commentId: T:StansAssets.Facebook.FbResult
+  parent: StansAssets.Facebook
+  name: FbResult
+  nameWithType: FbResult
+  fullName: StansAssets.Facebook.FbResult
+- uid: StansAssets.Facebook.FbResult.State
+  commentId: P:StansAssets.Facebook.FbResult.State
+  parent: StansAssets.Facebook.FbResult
+  name: State
+  nameWithType: FbResult.State
+  fullName: StansAssets.Facebook.FbResult.State
+- uid: StansAssets.Facebook.FbResult.IsSucceeded
+  commentId: P:StansAssets.Facebook.FbResult.IsSucceeded
+  parent: StansAssets.Facebook.FbResult
+  name: IsSucceeded
+  nameWithType: FbResult.IsSucceeded
+  fullName: StansAssets.Facebook.FbResult.IsSucceeded
+- uid: StansAssets.Facebook.FbResult.IsFailed
+  commentId: P:StansAssets.Facebook.FbResult.IsFailed
+  parent: StansAssets.Facebook.FbResult
+  name: IsFailed
+  nameWithType: FbResult.IsFailed
+  fullName: StansAssets.Facebook.FbResult.IsFailed
+- uid: StansAssets.Facebook.FbResult.RawResult
+  commentId: P:StansAssets.Facebook.FbResult.RawResult
+  parent: StansAssets.Facebook.FbResult
+  name: RawResult
+  nameWithType: FbResult.RawResult
+  fullName: StansAssets.Facebook.FbResult.RawResult
+- uid: StansAssets.Facebook.FbResult.Error
+  commentId: P:StansAssets.Facebook.FbResult.Error
+  parent: StansAssets.Facebook.FbResult
+  name: Error
+  nameWithType: FbResult.Error
+  fullName: StansAssets.Facebook.FbResult.Error
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.FbLoginResult.UserId*
+  commentId: Overload:StansAssets.Facebook.FbLoginResult.UserId
+  name: UserId
+  nameWithType: FbLoginResult.UserId
+  fullName: StansAssets.Facebook.FbLoginResult.UserId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Facebook.FbLoginResult.AccessToken*
+  commentId: Overload:StansAssets.Facebook.FbLoginResult.AccessToken
+  name: AccessToken
+  nameWithType: FbLoginResult.AccessToken
+  fullName: StansAssets.Facebook.FbLoginResult.AccessToken
+- uid: AccessToken
+  isExternal: true
+  name: AccessToken
+  nameWithType: AccessToken
+  fullName: AccessToken
+- uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  commentId: M:StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  parent: StansAssets.Facebook.FbResult
+  isExternal: true
+  name: OnDataReady(IDictionary)
+  nameWithType: FbResult.OnDataReady(IDictionary)
+  fullName: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+  spec.csharp:
+  - uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+    name: OnDataReady
+    nameWithType: FbResult.OnDataReady
+    fullName: StansAssets.Facebook.FbResult.OnDataReady
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StansAssets.Facebook.FbResult.OnDataReady(IDictionary)
+    name: OnDataReady
+    nameWithType: FbResult.OnDataReady
+    fullName: StansAssets.Facebook.FbResult.OnDataReady
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbLoginResult.OnDataReady*
+  commentId: Overload:StansAssets.Facebook.FbLoginResult.OnDataReady
+  name: OnDataReady
+  nameWithType: FbLoginResult.OnDataReady
+  fullName: StansAssets.Facebook.FbLoginResult.OnDataReady
+- uid: IDictionary
+  isExternal: true
+  name: IDictionary
+  nameWithType: IDictionary
+  fullName: IDictionary

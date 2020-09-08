@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  id: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass
+  name: MyPublicEditorExampleClass
+  nameWithType: MyPublicEditorExampleClass
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  parent: StansAssets.Build.Editor
+  name: MyPublicEditorExampleClass.MyExampleEnum
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor

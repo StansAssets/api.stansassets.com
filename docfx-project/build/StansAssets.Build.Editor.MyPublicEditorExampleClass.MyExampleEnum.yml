@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  id: MyPublicEditorExampleClass.MyExampleEnum
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.First
+  - StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.Second
+  langs:
+  - csharp
+  - vb
+  name: MyPublicEditorExampleClass.MyExampleEnum
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  type: Enum
+  source:
+    id: MyExampleEnum
+    path: ''
+    startLine: 443
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nIf you want to document your public enum, use `summary` tags before each value.\n"
+  example: []
+  syntax:
+    content: public enum MyExampleEnum
+    content.vb: Public Enum MyExampleEnum
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.First
+  commentId: F:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.First
+  id: First
+  parent: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  langs:
+  - csharp
+  - vb
+  name: First
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum.First
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.First
+  type: Field
+  source:
+    id: First
+    path: ''
+    startLine: 448
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nDescription of value 1\n"
+  example: []
+  syntax:
+    content: First = 0
+    return:
+      type: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.Second
+  commentId: F:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.Second
+  id: Second
+  parent: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum.Second
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.Second
+  type: Field
+  source:
+    id: Second
+    path: ''
+    startLine: 452
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nDescription of value 2\n"
+  example: []
+  syntax:
+    content: Second = 1
+    return:
+      type: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  commentId: T:StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
+  parent: StansAssets.Build.Editor
+  name: MyPublicEditorExampleClass.MyExampleEnum
+  nameWithType: MyPublicEditorExampleClass.MyExampleEnum
+  fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum
