@@ -1,6 +1,7 @@
 # Stan's Assets API website
 This project is used to maintent the docfx project for the [Web Stan's Assets API](https://api.stansassets.com/)
 
+
 ### How to use
 * Webiste is located under the `docs` folder.
 * Make sure docfx is installed. (for example if you are using  mac [Homebrew](https://formulae.brew.sh/formula/docfx) run `brew install docfx`). Or cehcek **DocFX** section for more details.
