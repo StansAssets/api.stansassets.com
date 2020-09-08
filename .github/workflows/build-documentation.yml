@@ -4,6 +4,7 @@ on:
   repository_dispatch:
   push:
     branches:
+      - master
       - documentation-ci-tes
 
 jobs:
