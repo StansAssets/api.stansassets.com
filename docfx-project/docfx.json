@@ -61,6 +61,18 @@
             }
          ],
          "dest":"facebook"
+      },
+      {
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../com.stansassets.build/com.stansassets.build/"
+            }
+         ],
+         "dest":"build"
       }
    ],
    "build":{
@@ -72,6 +84,7 @@
                "ultimate-mobile/**.yml",
                "foundation/**.yml",
                "facebook/**.yml",
+               "build/**.yml",
             ]
          },
          {
@@ -83,6 +96,7 @@
                "ultimate-mobile/**.md",
                "foundation/**.md",
                "facebook/**.md",
+               "build/**.md",
                "toc.yml",
                "*.md"
             ],
