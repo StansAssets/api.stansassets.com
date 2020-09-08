@@ -10,13 +10,11 @@ This project is used to maintent the docfx project for the [Web Stan's Assets AP
 * * Plugins
 * * com.stansassets.foundation
 
-##Example
-Here are the good example of how to connect new package to the documentation website.
-Commit to the current repo:
-https://github.com/StansAssets/api.stansassets.com/commit/96e6d4935db0e45a067ca7920e2ae5ae8b6403b2
+## Example
+Here are the good example of how to connect new package to the documentation website. There were only 2 simple steps to add `com.stansassets.build` documentation generation. See the examples below:
+* [Commit to the current repo](https://github.com/StansAssets/api.stansassets.com/commit/96e6d4935db0e45a067ca7920e2ae5ae8b6403b2)
+* [Commit it the com.stansassets.build repo](https://github.com/StansAssets/com.stansassets.build/commit/cf50320f1035d8057e469207b3e00312fc268033)
 
-Commit it the com.stansassets.build repo:
-https://github.com/StansAssets/com.stansassets.build/commit/cf50320f1035d8057e469207b3e00312fc268033
 
 ### DocFx
 * [Getting Starged Guide](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html)
