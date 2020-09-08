@@ -6,3 +6,8 @@
     name: Build
   - uid: StansAssets.Build.BuildMetadata
     name: BuildMetadata
+- uid: StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  items:
+  - uid: StansAssets.Build.Editor.BuildSystemPackage
+    name: BuildSystemPackage

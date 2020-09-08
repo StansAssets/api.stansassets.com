@@ -2741,6 +2741,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.BuildSystemPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.BuildSystemPackage.html",
+          "hash": "R3qRj5G80+RZd0D4S0UVnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "build/StansAssets.Build.Editor.MyPublicEditorExampleClass.MyExampleEnum.yml",
       "output": {
         ".html": {
@@ -2769,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.html",
-          "hash": "5V1vlp1oDNC9SWLN9GT+UQ=="
+          "hash": "UPUhNn7rs6FW+lMYbREVtg=="
         }
       },
       "is_incremental": false,
@@ -2841,7 +2853,7 @@
       "output": {
         ".html": {
           "relative_path": "build/toc.html",
-          "hash": "PIaUAXINcIwRw6gXB/qGkQ=="
+          "hash": "vfNMaJbZiChrqwilMS7jIA=="
         }
       },
       "is_incremental": false,
@@ -8116,7 +8128,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 652,
+          "total_file_count": 653,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

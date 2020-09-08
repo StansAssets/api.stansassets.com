@@ -31728,6 +31728,30 @@ references:
   commentId: N:StansAssets.Build.Editor
   fullName: StansAssets.Build.Editor
   nameWithType: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildSystemPackage
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html
+  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
+  fullName: StansAssets.Build.Editor.BuildSystemPackage
+  nameWithType: BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
+  name: DisplayName
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_DisplayName
+  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.DisplayName
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
+  nameWithType: BuildSystemPackage.DisplayName
+- uid: StansAssets.Build.Editor.BuildSystemPackage.Info
+  name: Info
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_Info
+  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
+  nameWithType: BuildSystemPackage.Info
+- uid: StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  name: RootPath
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_RootPath
+  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  nameWithType: BuildSystemPackage.RootPath
 - uid: StansAssets.Build.Editor.MyPublicEditorExampleClass
   name: MyPublicEditorExampleClass
   href: build/StansAssets.Build.Editor.MyPublicEditorExampleClass.html
