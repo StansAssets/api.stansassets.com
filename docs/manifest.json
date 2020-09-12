@@ -2872,6 +2872,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -4268,6 +4271,138 @@
         ".html": {
           "relative_path": "ios-native/SA.iOS.AuthenticationServices.html",
           "hash": "Kvp2bgF30+rzR4/eca/WxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKAsset.html",
+          "hash": "2WkorJBpp+OR7QC3Red34A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKDatabase.html",
+          "hash": "S5La88MFXRhIUY7AzUt+Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKDatabaseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKDatabaseType.html",
+          "hash": "z2kCvOxlt8FbkOQrN7mU+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecord.html",
+          "hash": "7/8ss54qtBRJd8MpmpffBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html",
+          "hash": "Ns0kArdUAlAm1MBoeqp2Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordFieldType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordFieldType.html",
+          "hash": "HvtXqTXzCwPlIa7joNAr2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html",
+          "hash": "VxpYqd5Y78MwGCQs2t1iNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKResult.html",
+          "hash": "YOMaNRkrAlOnnCrt9w6h4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKResultType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKResultType.html",
+          "hash": "XHYpt2qsvYMOw14W4zS9mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html",
+          "hash": "rR6mx0MjQ0EOCciC0QSCIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.CloudKit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.CloudKit.html",
+          "hash": "yCOyPl4GxE22/tG8ZUOVvg=="
         }
       },
       "is_incremental": false,
@@ -6451,7 +6586,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "W10vMuENZgCp10H1RJQhAg=="
+          "hash": "dolkgYdNODnINVoTd9Q0Sw=="
         }
       },
       "is_incremental": false,
@@ -8021,9 +8156,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -8128,7 +8260,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 653,
+          "total_file_count": 664,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
