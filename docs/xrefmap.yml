@@ -15399,6 +15399,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iContact.Email
   nameWithType: UM_iContact.Email
+- uid: SA.CrossPlatform.App.UM_iContact.JobTitle
+  name: JobTitle
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_JobTitle
+  commentId: P:SA.CrossPlatform.App.UM_iContact.JobTitle
+  fullName: SA.CrossPlatform.App.UM_iContact.JobTitle
+  nameWithType: UM_iContact.JobTitle
+- uid: SA.CrossPlatform.App.UM_iContact.JobTitle*
+  name: JobTitle
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_JobTitle_
+  commentId: Overload:SA.CrossPlatform.App.UM_iContact.JobTitle
+  isSpec: "True"
+  fullName: SA.CrossPlatform.App.UM_iContact.JobTitle
+  nameWithType: UM_iContact.JobTitle
 - uid: SA.CrossPlatform.App.UM_iContact.Name
   name: Name
   href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_Name
@@ -15412,6 +15425,32 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iContact.Name
   nameWithType: UM_iContact.Name
+- uid: SA.CrossPlatform.App.UM_iContact.Note
+  name: Note
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_Note
+  commentId: P:SA.CrossPlatform.App.UM_iContact.Note
+  fullName: SA.CrossPlatform.App.UM_iContact.Note
+  nameWithType: UM_iContact.Note
+- uid: SA.CrossPlatform.App.UM_iContact.Note*
+  name: Note
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_Note_
+  commentId: Overload:SA.CrossPlatform.App.UM_iContact.Note
+  isSpec: "True"
+  fullName: SA.CrossPlatform.App.UM_iContact.Note
+  nameWithType: UM_iContact.Note
+- uid: SA.CrossPlatform.App.UM_iContact.OrganizationName
+  name: OrganizationName
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_OrganizationName
+  commentId: P:SA.CrossPlatform.App.UM_iContact.OrganizationName
+  fullName: SA.CrossPlatform.App.UM_iContact.OrganizationName
+  nameWithType: UM_iContact.OrganizationName
+- uid: SA.CrossPlatform.App.UM_iContact.OrganizationName*
+  name: OrganizationName
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_OrganizationName_
+  commentId: Overload:SA.CrossPlatform.App.UM_iContact.OrganizationName
+  isSpec: "True"
+  fullName: SA.CrossPlatform.App.UM_iContact.OrganizationName
+  nameWithType: UM_iContact.OrganizationName
 - uid: SA.CrossPlatform.App.UM_iContact.Phone
   name: Phone
   href: ultimate-mobile/SA.CrossPlatform.App.UM_iContact.html#SA_CrossPlatform_App_UM_iContact_Phone
@@ -22836,6 +22875,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.Contacts.ISN_CNContact.Nickname
   nameWithType: ISN_CNContact.Nickname
+- uid: SA.iOS.Contacts.ISN_CNContact.Note
+  name: Note
+  href: ios-native/SA.iOS.Contacts.ISN_CNContact.html#SA_iOS_Contacts_ISN_CNContact_Note
+  commentId: P:SA.iOS.Contacts.ISN_CNContact.Note
+  fullName: SA.iOS.Contacts.ISN_CNContact.Note
+  nameWithType: ISN_CNContact.Note
+- uid: SA.iOS.Contacts.ISN_CNContact.Note*
+  name: Note
+  href: ios-native/SA.iOS.Contacts.ISN_CNContact.html#SA_iOS_Contacts_ISN_CNContact_Note_
+  commentId: Overload:SA.iOS.Contacts.ISN_CNContact.Note
+  isSpec: "True"
+  fullName: SA.iOS.Contacts.ISN_CNContact.Note
+  nameWithType: ISN_CNContact.Note
 - uid: SA.iOS.Contacts.ISN_CNContact.OrganizationName
   name: OrganizationName
   href: ios-native/SA.iOS.Contacts.ISN_CNContact.html#SA_iOS_Contacts_ISN_CNContact_OrganizationName
