@@ -11,3 +11,5 @@
   items:
   - uid: StansAssets.Build.Editor.BuildSystemPackage
     name: BuildSystemPackage
+  - uid: StansAssets.Build.Editor.StanAssetsPackages
+    name: StanAssetsPackages

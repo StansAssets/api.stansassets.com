@@ -5,6 +5,7 @@ items:
   id: StansAssets.Build.Editor
   children:
   - StansAssets.Build.Editor.BuildSystemPackage
+  - StansAssets.Build.Editor.StanAssetsPackages
   langs:
   - csharp
   - vb
@@ -20,3 +21,8 @@ references:
   name: BuildSystemPackage
   nameWithType: BuildSystemPackage
   fullName: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.StanAssetsPackages
+  commentId: T:StansAssets.Build.Editor.StanAssetsPackages
+  name: StanAssetsPackages
+  nameWithType: StanAssetsPackages
+  fullName: StansAssets.Build.Editor.StanAssetsPackages

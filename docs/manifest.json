@@ -2777,11 +2777,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.StanAssetsPackages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.StanAssetsPackages.html",
+          "hash": "VzTq/tub1nQ0+wiuQS5pqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "build/StansAssets.Build.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.html",
-          "hash": "UPUhNn7rs6FW+lMYbREVtg=="
+          "hash": "LyI7fX0J+gwzwEARxwFtJQ=="
         }
       },
       "is_incremental": false,
@@ -2853,7 +2865,7 @@
       "output": {
         ".html": {
           "relative_path": "build/toc.html",
-          "hash": "vfNMaJbZiChrqwilMS7jIA=="
+          "hash": "5XIiRoq3FkVc2BetzBv+XQ=="
         }
       },
       "is_incremental": false,
@@ -3227,7 +3239,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.CoroutineUtility.html",
-          "hash": "7CXul1504DP9yYioUZwQ+w=="
+          "hash": "+BjIZMPOGcnCEgM6nG+5pA=="
         }
       },
       "is_incremental": false,
@@ -3311,7 +3323,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.Dependency.html",
-          "hash": "33mMUBN9BSt8tbD9TJzJQg=="
+          "hash": "gbndz0hrHojMBu58rEfYuA=="
         }
       },
       "is_incremental": false,
@@ -3383,7 +3395,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.Manifest.html",
-          "hash": "gv7fpXbINQRh81j1t/Br4A=="
+          "hash": "W2JM6fO4EI/yYua2nWMclQ=="
         }
       },
       "is_incremental": false,
@@ -3407,7 +3419,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.ScopeRegistry.html",
-          "hash": "WJZcVEem+J2FKc8heIDI9Q=="
+          "hash": "KO+rT2azxEPafk6mrImQpQ=="
         }
       },
       "is_incremental": false,
@@ -3503,7 +3515,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.html",
-          "hash": "dMdfiG2l9r+wIHVnnQo9HA=="
+          "hash": "g7EiaTla2OaiWNk9KlfJSA=="
         }
       },
       "is_incremental": false,
@@ -3527,7 +3539,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.StringExtensions.html",
-          "hash": "akhhkF1BPTjuaCJdwQf2nw=="
+          "hash": "MUMa9Hto/OXk/13FGw+BjA=="
         }
       },
       "is_incremental": false,
@@ -3695,7 +3707,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.DictionaryPool-2.html",
-          "hash": "MXxAe7bcUV80JwuIJDPx4w=="
+          "hash": "gbW8GVdTEogpv+oBKG/Wyw=="
         }
       },
       "is_incremental": false,
@@ -3707,7 +3719,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ListPool-1.html",
-          "hash": "2ObLX/h01sC3tqGfo7tbew=="
+          "hash": "jwxpEKf9NrPyJ9/FN3Q+aA=="
         }
       },
       "is_incremental": false,
@@ -8017,7 +8029,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphFriendsListResult.html",
-          "hash": "iv4mlUSro/4wNS1QO3l5Ag=="
+          "hash": "G6yLVUZljgtxB39/hBWXJQ=="
         }
       },
       "is_incremental": false,
@@ -8029,7 +8041,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphInvitableFriendsListResult.html",
-          "hash": "xdxN3KHl4JXIUJbHa/cexw=="
+          "hash": "DGnyUSxLaTup6dlkUh3SSg=="
         }
       },
       "is_incremental": false,
@@ -8041,7 +8053,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html",
-          "hash": "upUGdN5rudZC6CRj3+wH3Q=="
+          "hash": "ddKVRke/LK9XFqrD3YXYnw=="
         }
       },
       "is_incremental": false,
@@ -8149,7 +8161,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_User.html",
-          "hash": "M2m4fdLCmL2hQ8rSCgv8Ew=="
+          "hash": "Rn7UeKGRQX93mwhYJTdf6w=="
         }
       },
       "is_incremental": false,
@@ -8260,7 +8272,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 664,
+          "total_file_count": 665,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

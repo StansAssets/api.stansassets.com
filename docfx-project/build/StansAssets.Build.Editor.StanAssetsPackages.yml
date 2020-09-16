@@ -1,34 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Facebook.FbRequestBuilder
-  commentId: T:StansAssets.Facebook.FbRequestBuilder
-  id: FbRequestBuilder
-  parent: StansAssets.Facebook
+- uid: StansAssets.Build.Editor.StanAssetsPackages
+  commentId: T:StansAssets.Build.Editor.StanAssetsPackages
+  id: StanAssetsPackages
+  parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Facebook.FbRequestBuilder.#ctor(System.String)
-  - StansAssets.Facebook.FbRequestBuilder.AddCommand(System.String,System.Object[])
-  - StansAssets.Facebook.FbRequestBuilder.AddCursor(StansAssets.Facebook.FbCursor)
-  - StansAssets.Facebook.FbRequestBuilder.AddLimit(System.Int32)
-  - StansAssets.Facebook.FbRequestBuilder.RequestString
+  - StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String,System.String)
+  - StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  - StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  - StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
   langs:
   - csharp
   - vb
-  name: FbRequestBuilder
-  nameWithType: FbRequestBuilder
-  fullName: StansAssets.Facebook.FbRequestBuilder
+  name: StanAssetsPackages
+  nameWithType: StanAssetsPackages
+  fullName: StansAssets.Build.Editor.StanAssetsPackages
   type: Class
   source:
-    id: FbRequestBuilder
+    id: StanAssetsPackages
     path: ''
-    startLine: 1322
+    startLine: 496
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nFacebook Graph API request builder.\n"
-  example: []
+  namespace: StansAssets.Build.Editor
   syntax:
-    content: public class FbRequestBuilder
-    content.vb: Public Class FbRequestBuilder
+    content: public static class StanAssetsPackages
+    content.vb: Public Module StanAssetsPackages
   inheritance:
   - System.Object
   inheritedMembers:
@@ -41,179 +38,145 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: StansAssets.Facebook.FbRequestBuilder.#ctor(System.String)
-  commentId: M:StansAssets.Facebook.FbRequestBuilder.#ctor(System.String)
-  id: '#ctor(System.String)'
-  parent: StansAssets.Facebook.FbRequestBuilder
+  - Module
+- uid: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  commentId: F:StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  id: GoogleDocConnectorProPackage
+  parent: StansAssets.Build.Editor.StanAssetsPackages
   langs:
   - csharp
   - vb
-  name: FbRequestBuilder(String)
-  nameWithType: FbRequestBuilder.FbRequestBuilder(String)
-  fullName: StansAssets.Facebook.FbRequestBuilder.FbRequestBuilder(System.String)
-  type: Constructor
+  name: GoogleDocConnectorProPackage
+  nameWithType: StanAssetsPackages.GoogleDocConnectorProPackage
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  type: Field
   source:
-    id: .ctor
+    id: GoogleDocConnectorProPackage
     path: ''
-    startLine: 1330
+    startLine: 498
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nCreate new builder object with request.\n"
-  example: []
+  namespace: StansAssets.Build.Editor
   syntax:
-    content: public FbRequestBuilder(string request)
-    parameters:
-    - id: request
-      type: System.String
-      description: Initial request body. Fro example `/me?fields=friends`.
-    content.vb: Public Sub New(request As String)
-  overload: StansAssets.Facebook.FbRequestBuilder.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: StansAssets.Facebook.FbRequestBuilder.AddCommand(System.String,System.Object[])
-  commentId: M:StansAssets.Facebook.FbRequestBuilder.AddCommand(System.String,System.Object[])
-  id: AddCommand(System.String,System.Object[])
-  parent: StansAssets.Facebook.FbRequestBuilder
-  langs:
-  - csharp
-  - vb
-  name: AddCommand(String, Object[])
-  nameWithType: FbRequestBuilder.AddCommand(String, Object[])
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddCommand(System.String, System.Object[])
-  type: Method
-  source:
-    id: AddCommand
-    path: ''
-    startLine: 1338
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nAdds facebook Graph API command to a current request.\n"
-  example: []
-  syntax:
-    content: public void AddCommand(string command, params object[] args)
-    parameters:
-    - id: command
-      type: System.String
-    - id: args
-      type: System.Object[]
-    content.vb: Public Sub AddCommand(command As String, ParamArray args As Object())
-  overload: StansAssets.Facebook.FbRequestBuilder.AddCommand*
-  nameWithType.vb: FbRequestBuilder.AddCommand(String, Object())
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: StansAssets.Facebook.FbRequestBuilder.AddCommand(System.String, System.Object())
-  name.vb: AddCommand(String, Object())
-- uid: StansAssets.Facebook.FbRequestBuilder.AddLimit(System.Int32)
-  commentId: M:StansAssets.Facebook.FbRequestBuilder.AddLimit(System.Int32)
-  id: AddLimit(System.Int32)
-  parent: StansAssets.Facebook.FbRequestBuilder
-  langs:
-  - csharp
-  - vb
-  name: AddLimit(Int32)
-  nameWithType: FbRequestBuilder.AddLimit(Int32)
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddLimit(System.Int32)
-  type: Method
-  source:
-    id: AddLimit
-    path: ''
-    startLine: 1356
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nAdds a limit command.\n"
-  example: []
-  syntax:
-    content: public void AddLimit(int limit)
-    parameters:
-    - id: limit
-      type: System.Int32
-    content.vb: Public Sub AddLimit(limit As Integer)
-  overload: StansAssets.Facebook.FbRequestBuilder.AddLimit*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: StansAssets.Facebook.FbRequestBuilder.AddCursor(StansAssets.Facebook.FbCursor)
-  commentId: M:StansAssets.Facebook.FbRequestBuilder.AddCursor(StansAssets.Facebook.FbCursor)
-  id: AddCursor(StansAssets.Facebook.FbCursor)
-  parent: StansAssets.Facebook.FbRequestBuilder
-  langs:
-  - csharp
-  - vb
-  name: AddCursor(FbCursor)
-  nameWithType: FbRequestBuilder.AddCursor(FbCursor)
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddCursor(StansAssets.Facebook.FbCursor)
-  type: Method
-  source:
-    id: AddCursor
-    path: ''
-    startLine: 1364
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nAdd pagination cursor.\n"
-  example: []
-  syntax:
-    content: public void AddCursor(FbCursor fbCursor)
-    parameters:
-    - id: fbCursor
-      type: StansAssets.Facebook.FbCursor
-    content.vb: Public Sub AddCursor(fbCursor As FbCursor)
-  overload: StansAssets.Facebook.FbRequestBuilder.AddCursor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: StansAssets.Facebook.FbRequestBuilder.RequestString
-  commentId: P:StansAssets.Facebook.FbRequestBuilder.RequestString
-  id: RequestString
-  parent: StansAssets.Facebook.FbRequestBuilder
-  langs:
-  - csharp
-  - vb
-  name: RequestString
-  nameWithType: FbRequestBuilder.RequestString
-  fullName: StansAssets.Facebook.FbRequestBuilder.RequestString
-  type: Property
-  source:
-    id: RequestString
-    path: ''
-    startLine: 1372
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Facebook
-  summary: "\nReturns built request string.\n"
-  example: []
-  syntax:
-    content: public string RequestString { get; }
-    parameters: []
+    content: public static readonly string GoogleDocConnectorProPackage
     return:
       type: System.String
-    content.vb: Public ReadOnly Property RequestString As String
-  overload: StansAssets.Facebook.FbRequestBuilder.RequestString*
+    content.vb: Public Shared ReadOnly GoogleDocConnectorProPackage As String
   modifiers.csharp:
   - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  commentId: F:StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  id: GoogleDocConnectorProPackageVersion
+  parent: StansAssets.Build.Editor.StanAssetsPackages
+  langs:
+  - csharp
+  - vb
+  name: GoogleDocConnectorProPackageVersion
+  nameWithType: StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  type: Field
+  source:
+    id: GoogleDocConnectorProPackageVersion
+    path: ''
+    startLine: 499
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public static readonly string GoogleDocConnectorProPackageVersion
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly GoogleDocConnectorProPackageVersion As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  commentId: P:StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  id: IsGoogleDocConnectorProInstalled
+  parent: StansAssets.Build.Editor.StanAssetsPackages
+  langs:
+  - csharp
+  - vb
+  name: IsGoogleDocConnectorProInstalled
+  nameWithType: StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  type: Property
+  source:
+    id: IsGoogleDocConnectorProInstalled
+    path: ''
+    startLine: 508
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public static bool IsGoogleDocConnectorProInstalled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsGoogleDocConnectorProInstalled As Boolean
+  overload: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled*
+  modifiers.csharp:
+  - public
+  - static
   - get
   modifiers.vb:
   - Public
+  - Shared
   - ReadOnly
+- uid: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String,System.String)
+  commentId: M:StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String,System.String)
+  id: AddStanAssetsPackage(System.String,System.String)
+  parent: StansAssets.Build.Editor.StanAssetsPackages
+  langs:
+  - csharp
+  - vb
+  name: AddStanAssetsPackage(String, String)
+  nameWithType: StanAssetsPackages.AddStanAssetsPackage(String, String)
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String, System.String)
+  type: Method
+  source:
+    id: AddStanAssetsPackage
+    path: ''
+    startLine: 520
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public static void AddStanAssetsPackage(string packageName, string packageVersion)
+    parameters:
+    - id: packageName
+      type: System.String
+    - id: packageVersion
+      type: System.String
+    content.vb: Public Shared Sub AddStanAssetsPackage(packageName As String, packageVersion As String)
+  overload: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
-- uid: StansAssets.Facebook
-  commentId: N:StansAssets.Facebook
-  name: StansAssets.Facebook
-  nameWithType: StansAssets.Facebook
-  fullName: StansAssets.Facebook
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -506,11 +469,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Facebook.FbRequestBuilder.#ctor*
-  commentId: Overload:StansAssets.Facebook.FbRequestBuilder.#ctor
-  name: FbRequestBuilder
-  nameWithType: FbRequestBuilder.FbRequestBuilder
-  fullName: StansAssets.Facebook.FbRequestBuilder.FbRequestBuilder
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -518,62 +476,20 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: StansAssets.Facebook.FbRequestBuilder.AddCommand*
-  commentId: Overload:StansAssets.Facebook.FbRequestBuilder.AddCommand
-  name: AddCommand
-  nameWithType: FbRequestBuilder.AddCommand
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddCommand
-- uid: System.Object[]
-  isExternal: true
-  name: Object[]
-  nameWithType: Object[]
-  fullName: System.Object[]
-  nameWithType.vb: Object()
-  fullName.vb: System.Object()
-  name.vb: Object()
-  spec.csharp:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  spec.vb:
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
-- uid: StansAssets.Facebook.FbRequestBuilder.AddLimit*
-  commentId: Overload:StansAssets.Facebook.FbRequestBuilder.AddLimit
-  name: AddLimit
-  nameWithType: FbRequestBuilder.AddLimit
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddLimit
-- uid: System.Int32
-  commentId: T:System.Int32
+- uid: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled*
+  commentId: Overload:StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  name: IsGoogleDocConnectorProInstalled
+  nameWithType: StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+- uid: System.Boolean
+  commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: StansAssets.Facebook.FbRequestBuilder.AddCursor*
-  commentId: Overload:StansAssets.Facebook.FbRequestBuilder.AddCursor
-  name: AddCursor
-  nameWithType: FbRequestBuilder.AddCursor
-  fullName: StansAssets.Facebook.FbRequestBuilder.AddCursor
-- uid: StansAssets.Facebook.FbCursor
-  commentId: T:StansAssets.Facebook.FbCursor
-  parent: StansAssets.Facebook
-  name: FbCursor
-  nameWithType: FbCursor
-  fullName: StansAssets.Facebook.FbCursor
-- uid: StansAssets.Facebook.FbRequestBuilder.RequestString*
-  commentId: Overload:StansAssets.Facebook.FbRequestBuilder.RequestString
-  name: RequestString
-  nameWithType: FbRequestBuilder.RequestString
-  fullName: StansAssets.Facebook.FbRequestBuilder.RequestString
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage*
+  commentId: Overload:StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage
+  name: AddStanAssetsPackage
+  nameWithType: StanAssetsPackages.AddStanAssetsPackage
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage

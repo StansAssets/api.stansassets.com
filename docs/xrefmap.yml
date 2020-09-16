@@ -20100,11 +20100,11 @@ references:
   isSpec: "True"
   fullName: SA.Facebook.SA_FB_GraphResult.Next
   nameWithType: SA_FB_GraphResult.Next
-- uid: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.Generic.IDictionary)
+- uid: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.IDictionary)
   name: ParsePaginatedResult(IDictionary)
-  href: ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html#SA_Facebook_SA_FB_GraphResult_ParsePaginatedResult_System_Collections_Generic_IDictionary_
-  commentId: M:SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.Generic.IDictionary)
-  fullName: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.Generic.IDictionary)
+  href: ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html#SA_Facebook_SA_FB_GraphResult_ParsePaginatedResult_System_Collections_IDictionary_
+  commentId: M:SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.IDictionary)
+  fullName: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult(System.Collections.IDictionary)
   nameWithType: SA_FB_GraphResult.ParsePaginatedResult(IDictionary)
 - uid: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult*
   name: ParsePaginatedResult
@@ -20113,11 +20113,11 @@ references:
   isSpec: "True"
   fullName: SA.Facebook.SA_FB_GraphResult.ParsePaginatedResult
   nameWithType: SA_FB_GraphResult.ParsePaginatedResult
-- uid: SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.Generic.IDictionary)
+- uid: SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.IDictionary)
   name: ParseResultId(IDictionary)
-  href: ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html#SA_Facebook_SA_FB_GraphResult_ParseResultId_System_Collections_Generic_IDictionary_
-  commentId: M:SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.Generic.IDictionary)
-  fullName: SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.Generic.IDictionary)
+  href: ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html#SA_Facebook_SA_FB_GraphResult_ParseResultId_System_Collections_IDictionary_
+  commentId: M:SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.IDictionary)
+  fullName: SA.Facebook.SA_FB_GraphResult.ParseResultId(System.Collections.IDictionary)
   nameWithType: SA_FB_GraphResult.ParseResultId(IDictionary)
 - uid: SA.Facebook.SA_FB_GraphResult.ParseResultId*
   name: ParseResultId
@@ -20716,11 +20716,11 @@ references:
   commentId: T:SA.Facebook.SA_FB_User
   fullName: SA.Facebook.SA_FB_User
   nameWithType: SA_FB_User
-- uid: SA.Facebook.SA_FB_User.#ctor(System.Collections.Generic.IDictionary)
+- uid: SA.Facebook.SA_FB_User.#ctor(System.Collections.IDictionary)
   name: SA_FB_User(IDictionary)
-  href: ultimate-mobile/SA.Facebook.SA_FB_User.html#SA_Facebook_SA_FB_User__ctor_System_Collections_Generic_IDictionary_
-  commentId: M:SA.Facebook.SA_FB_User.#ctor(System.Collections.Generic.IDictionary)
-  fullName: SA.Facebook.SA_FB_User.SA_FB_User(System.Collections.Generic.IDictionary)
+  href: ultimate-mobile/SA.Facebook.SA_FB_User.html#SA_Facebook_SA_FB_User__ctor_System_Collections_IDictionary_
+  commentId: M:SA.Facebook.SA_FB_User.#ctor(System.Collections.IDictionary)
+  fullName: SA.Facebook.SA_FB_User.SA_FB_User(System.Collections.IDictionary)
   nameWithType: SA_FB_User.SA_FB_User(IDictionary)
 - uid: SA.Facebook.SA_FB_User.#ctor*
   name: SA_FB_User
@@ -32540,6 +32540,50 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.MyPublicEditorExampleClass.PropertyExample
   nameWithType: MyPublicEditorExampleClass.PropertyExample
+- uid: StansAssets.Build.Editor.StanAssetsPackages
+  name: StanAssetsPackages
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html
+  commentId: T:StansAssets.Build.Editor.StanAssetsPackages
+  fullName: StansAssets.Build.Editor.StanAssetsPackages
+  nameWithType: StanAssetsPackages
+- uid: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String,System.String)
+  name: AddStanAssetsPackage(String, String)
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_AddStanAssetsPackage_System_String_System_String_
+  commentId: M:StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String,System.String)
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage(System.String, System.String)
+  nameWithType: StanAssetsPackages.AddStanAssetsPackage(String, String)
+- uid: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage*
+  name: AddStanAssetsPackage
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_AddStanAssetsPackage_
+  commentId: Overload:StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.AddStanAssetsPackage
+  nameWithType: StanAssetsPackages.AddStanAssetsPackage
+- uid: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  name: GoogleDocConnectorProPackage
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_GoogleDocConnectorProPackage
+  commentId: F:StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackage
+  nameWithType: StanAssetsPackages.GoogleDocConnectorProPackage
+- uid: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  name: GoogleDocConnectorProPackageVersion
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_GoogleDocConnectorProPackageVersion
+  commentId: F:StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.GoogleDocConnectorProPackageVersion
+  nameWithType: StanAssetsPackages.GoogleDocConnectorProPackageVersion
+- uid: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  name: IsGoogleDocConnectorProInstalled
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_IsGoogleDocConnectorProInstalled
+  commentId: P:StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  nameWithType: StanAssetsPackages.IsGoogleDocConnectorProInstalled
+- uid: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled*
+  name: IsGoogleDocConnectorProInstalled
+  href: build/StansAssets.Build.Editor.StanAssetsPackages.html#StansAssets_Build_Editor_StanAssetsPackages_IsGoogleDocConnectorProInstalled_
+  commentId: Overload:StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
+  nameWithType: StanAssetsPackages.IsGoogleDocConnectorProInstalled
 - uid: StansAssets.Build.IBuildMetadataProvider
   name: IBuildMetadataProvider
   href: build/StansAssets.Build.IBuildMetadataProvider.html
@@ -33928,11 +33972,11 @@ references:
   commentId: T:StansAssets.Foundation.Async.CoroutineUtility
   fullName: StansAssets.Foundation.Async.CoroutineUtility
   nameWithType: CoroutineUtility
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
   name: Start(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_System_Collections_Generic_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
   nameWithType: CoroutineUtility.Start(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Start*
   name: Start
@@ -33941,11 +33985,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.Start
   nameWithType: CoroutineUtility.Start
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
   name: Stop(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_Generic_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
   nameWithType: CoroutineUtility.Stop(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Stop*
   name: Stop
@@ -34546,13 +34590,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Manifest
   nameWithType: Manifest.Manifest
-- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   name: AddScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   name.vb: AddScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
   nameWithType: Manifest.AddScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: Manifest.AddScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*
@@ -34806,22 +34850,22 @@ references:
   commentId: T:StansAssets.Foundation.Editor.ScopeRegistry
   fullName: StansAssets.Foundation.Editor.ScopeRegistry
   nameWithType: ScopeRegistry
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
   name: ScopeRegistry(Dictionary<String, Object>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_Dictionary_System_String_System_Object__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
   name.vb: ScopeRegistry(Dictionary(Of String, Object))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary<System.String, System.Object>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary(Of System.String, System.Object))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary(Of System.String, System.Object))
   nameWithType: ScopeRegistry.ScopeRegistry(Dictionary<String, Object>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(Dictionary(Of String, Object))
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   name: ScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   name.vb: ScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
   nameWithType: ScopeRegistry.ScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor*
@@ -35344,13 +35388,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone
   nameWithType: ListExtensions.Clone
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
   name: Clone<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_System_Collections_Generic_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
   name.vb: Clone(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(System.Collections.Generic.List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.Clone<T>(List<T>)
   nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
@@ -35360,13 +35404,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize
   nameWithType: ListExtensions.Resize
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
   name: Resize<T>(List<T>, Int32, T)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_System_Collections_Generic_List___0__System_Int32___0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
   name.vb: Resize(Of T)(List(Of T), Int32, T)
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(List<T>, System.Int32, T)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(List(Of T), System.Int32, T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(System.Collections.Generic.List<T>, System.Int32, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(System.Collections.Generic.List(Of T), System.Int32, T)
   nameWithType: ListExtensions.Resize<T>(List<T>, Int32, T)
   nameWithType.vb: ListExtensions.Resize(Of T)(List(Of T), Int32, T)
 - uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
@@ -35376,13 +35420,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
   nameWithType: ListExtensions.ShallowCopy
-- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
   name: ShallowCopy<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_System_Collections_Generic_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
   name.vb: ShallowCopy(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(System.Collections.Generic.List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
   nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.ObjectExtensions

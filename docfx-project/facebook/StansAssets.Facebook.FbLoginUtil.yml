@@ -16,7 +16,7 @@ items:
   source:
     id: FbLoginUtil
     path: ''
-    startLine: 839
+    startLine: 335
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -56,7 +56,7 @@ items:
   source:
     id: ConfirmLoginStatus
     path: ''
-    startLine: 854
+    startLine: 350
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
