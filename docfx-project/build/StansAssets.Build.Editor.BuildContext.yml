@@ -1,34 +1,39 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Build.Editor.BuildSystemPackage
-  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
-  id: BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildContext
+  commentId: T:StansAssets.Build.Editor.BuildContext
+  id: BuildContext
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  - StansAssets.Build.Editor.BuildSystemPackage.Info
-  - StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  - StansAssets.Build.Editor.BuildContext.#ctor(BuildPlayerOptions,System.String)
+  - StansAssets.Build.Editor.BuildContext.BuildAlias
+  - StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  - StansAssets.Build.Editor.BuildContext.TargetPlatform
   langs:
   - csharp
   - vb
-  name: BuildSystemPackage
-  nameWithType: BuildSystemPackage
-  fullName: StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildContext
+  nameWithType: BuildContext
+  fullName: StansAssets.Build.Editor.BuildContext
   type: Class
   source:
-    id: BuildSystemPackage
+    id: BuildContext
     path: ''
-    startLine: 499
+    startLine: 685
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nBuild System Package Static info.\n"
+  summary: "\nBuild configuration data\n"
   example: []
   syntax:
-    content: public static class BuildSystemPackage
-    content.vb: Public Module BuildSystemPackage
+    content: 'public class BuildContext : IBuildContext'
+    content.vb: >-
+      Public Class BuildContext
+          Implements IBuildContext
   inheritance:
   - System.Object
+  implements:
+  - StansAssets.Build.Editor.IBuildContext
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -39,107 +44,139 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
-  - static
   - class
   modifiers.vb:
   - Public
-  - Module
-- uid: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  id: DisplayName
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+  - Class
+- uid: StansAssets.Build.Editor.BuildContext.#ctor(BuildPlayerOptions,System.String)
+  commentId: M:StansAssets.Build.Editor.BuildContext.#ctor(BuildPlayerOptions,System.String)
+  id: '#ctor(BuildPlayerOptions,System.String)'
+  parent: StansAssets.Build.Editor.BuildContext
   langs:
   - csharp
   - vb
-  name: DisplayName
-  nameWithType: BuildSystemPackage.DisplayName
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  type: Field
+  name: BuildContext(BuildPlayerOptions, String)
+  nameWithType: BuildContext.BuildContext(BuildPlayerOptions, String)
+  fullName: StansAssets.Build.Editor.BuildContext.BuildContext(BuildPlayerOptions, System.String)
+  type: Constructor
   source:
-    id: DisplayName
+    id: .ctor
     path: ''
-    startLine: 504
+    startLine: 687
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nThe package name\n"
-  example: []
   syntax:
-    content: public const string DisplayName = "Build System"
-    return:
+    content: public BuildContext(BuildPlayerOptions buildPlayerOptions, string buildAlias = null)
+    parameters:
+    - id: buildPlayerOptions
+      type: BuildPlayerOptions
+    - id: buildAlias
       type: System.String
-    content.vb: Public Const DisplayName As String = "Build System"
+    content.vb: Public Sub New(buildPlayerOptions As BuildPlayerOptions, buildAlias As String = Nothing)
+  overload: StansAssets.Build.Editor.BuildContext.#ctor*
   modifiers.csharp:
   - public
-  - const
   modifiers.vb:
   - Public
-  - Const
-- uid: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  id: RootPath
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildContext.TargetPlatform
+  commentId: P:StansAssets.Build.Editor.BuildContext.TargetPlatform
+  id: TargetPlatform
+  parent: StansAssets.Build.Editor.BuildContext
   langs:
   - csharp
   - vb
-  name: RootPath
-  nameWithType: BuildSystemPackage.RootPath
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  type: Field
+  name: TargetPlatform
+  nameWithType: BuildContext.TargetPlatform
+  fullName: StansAssets.Build.Editor.BuildContext.TargetPlatform
+  type: Property
   source:
-    id: RootPath
+    id: TargetPlatform
     path: ''
-    startLine: 509
+    startLine: 695
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nFoundation package root path.\n"
-  example: []
   syntax:
-    content: public static readonly string RootPath
+    content: public BuildTarget TargetPlatform { get; }
+    parameters: []
     return:
-      type: System.String
-    content.vb: Public Shared ReadOnly RootPath As String
+      type: BuildTarget
+    content.vb: Public ReadOnly Property TargetPlatform As BuildTarget
+  overload: StansAssets.Build.Editor.BuildContext.TargetPlatform*
+  implements:
+  - StansAssets.Build.Editor.IBuildContext.TargetPlatform
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - get
   modifiers.vb:
   - Public
-  - Shared
   - ReadOnly
-- uid: StansAssets.Build.Editor.BuildSystemPackage.Info
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
-  id: Info
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  commentId: P:StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  id: BuildPlayerOptions
+  parent: StansAssets.Build.Editor.BuildContext
   langs:
   - csharp
   - vb
-  name: Info
-  nameWithType: BuildSystemPackage.Info
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
-  type: Field
+  name: BuildPlayerOptions
+  nameWithType: BuildContext.BuildPlayerOptions
+  fullName: StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  type: Property
   source:
-    id: Info
+    id: BuildPlayerOptions
     path: ''
-    startLine: 514
+    startLine: 696
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nBuild System package info.\n"
-  example: []
   syntax:
-    content: public static readonly PackageInfo Info
+    content: public BuildPlayerOptions BuildPlayerOptions { get; }
+    parameters: []
     return:
-      type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
+      type: BuildPlayerOptions
+    content.vb: Public ReadOnly Property BuildPlayerOptions As BuildPlayerOptions
+  overload: StansAssets.Build.Editor.BuildContext.BuildPlayerOptions*
+  implements:
+  - StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
   modifiers.csharp:
   - public
-  - static
-  - readonly
+  - get
   modifiers.vb:
   - Public
-  - Shared
+  - ReadOnly
+- uid: StansAssets.Build.Editor.BuildContext.BuildAlias
+  commentId: P:StansAssets.Build.Editor.BuildContext.BuildAlias
+  id: BuildAlias
+  parent: StansAssets.Build.Editor.BuildContext
+  langs:
+  - csharp
+  - vb
+  name: BuildAlias
+  nameWithType: BuildContext.BuildAlias
+  fullName: StansAssets.Build.Editor.BuildContext.BuildAlias
+  type: Property
+  source:
+    id: BuildAlias
+    path: ''
+    startLine: 697
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public string BuildAlias { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property BuildAlias As String
+  overload: StansAssets.Build.Editor.BuildContext.BuildAlias*
+  implements:
+  - StansAssets.Build.Editor.IBuildContext.BuildAlias
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
   - ReadOnly
 references:
 - uid: StansAssets.Build.Editor
@@ -154,6 +191,12 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  parent: StansAssets.Build.Editor
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -439,6 +482,16 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.Build.Editor.BuildContext.#ctor*
+  commentId: Overload:StansAssets.Build.Editor.BuildContext.#ctor
+  name: BuildContext
+  nameWithType: BuildContext.BuildContext
+  fullName: StansAssets.Build.Editor.BuildContext.BuildContext
+- uid: BuildPlayerOptions
+  isExternal: true
+  name: BuildPlayerOptions
+  nameWithType: BuildPlayerOptions
+  fullName: BuildPlayerOptions
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -446,9 +499,41 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: PackageInfo
-  commentId: '!:PackageInfo'
+- uid: StansAssets.Build.Editor.BuildContext.TargetPlatform*
+  commentId: Overload:StansAssets.Build.Editor.BuildContext.TargetPlatform
+  name: TargetPlatform
+  nameWithType: BuildContext.TargetPlatform
+  fullName: StansAssets.Build.Editor.BuildContext.TargetPlatform
+- uid: StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  commentId: P:StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  parent: StansAssets.Build.Editor.IBuildContext
+  name: TargetPlatform
+  nameWithType: IBuildContext.TargetPlatform
+  fullName: StansAssets.Build.Editor.IBuildContext.TargetPlatform
+- uid: BuildTarget
   isExternal: true
-  name: PackageInfo
-  nameWithType: PackageInfo
-  fullName: PackageInfo
+  name: BuildTarget
+  nameWithType: BuildTarget
+  fullName: BuildTarget
+- uid: StansAssets.Build.Editor.BuildContext.BuildPlayerOptions*
+  commentId: Overload:StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  name: BuildPlayerOptions
+  nameWithType: BuildContext.BuildPlayerOptions
+  fullName: StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+- uid: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  parent: StansAssets.Build.Editor.IBuildContext
+  name: BuildPlayerOptions
+  nameWithType: IBuildContext.BuildPlayerOptions
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+- uid: StansAssets.Build.Editor.BuildContext.BuildAlias*
+  commentId: Overload:StansAssets.Build.Editor.BuildContext.BuildAlias
+  name: BuildAlias
+  nameWithType: BuildContext.BuildAlias
+  fullName: StansAssets.Build.Editor.BuildContext.BuildAlias
+- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildAlias
+  parent: StansAssets.Build.Editor.IBuildContext
+  name: BuildAlias
+  nameWithType: IBuildContext.BuildAlias
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias

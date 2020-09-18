@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.IBuildTask
+  commentId: T:StansAssets.Build.Editor.IBuildTask
+  id: IBuildTask
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.IBuildTask.Name
+  - StansAssets.Build.Editor.IBuildTask.OnBuildFinished
+  - StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  - StansAssets.Build.Editor.IBuildTask.OnPostprocessScene(Scene)
+  - StansAssets.Build.Editor.IBuildTask.Priority
+  - StansAssets.Build.Editor.IBuildTask.SetContext(StansAssets.Build.Editor.IBuildContext)
+  langs:
+  - csharp
+  - vb
+  name: IBuildTask
+  nameWithType: IBuildTask
+  fullName: StansAssets.Build.Editor.IBuildTask
+  type: Interface
+  source:
+    id: IBuildTask
+    path: ''
+    startLine: 1105
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nSingle task which runs when build started.\nWill be called for all included to a build scenes\n"
+  example: []
+  syntax:
+    content: public interface IBuildTask
+    content.vb: Public Interface IBuildTask
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.Editor.IBuildTask.SetContext(StansAssets.Build.Editor.IBuildContext)
+  commentId: M:StansAssets.Build.Editor.IBuildTask.SetContext(StansAssets.Build.Editor.IBuildContext)
+  id: SetContext(StansAssets.Build.Editor.IBuildContext)
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: SetContext(IBuildContext)
+  nameWithType: IBuildTask.SetContext(IBuildContext)
+  fullName: StansAssets.Build.Editor.IBuildTask.SetContext(StansAssets.Build.Editor.IBuildContext)
+  type: Method
+  source:
+    id: SetContext
+    path: ''
+    startLine: 1110
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nSet context\n"
+  example: []
+  syntax:
+    content: void SetContext(IBuildContext buildContext)
+    parameters:
+    - id: buildContext
+      type: StansAssets.Build.Editor.IBuildContext
+    content.vb: Sub SetContext(buildContext As IBuildContext)
+  overload: StansAssets.Build.Editor.IBuildTask.SetContext*
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene(Scene)
+  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessScene(Scene)
+  id: OnPostprocessScene(Scene)
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: OnPostprocessScene(Scene)
+  nameWithType: IBuildTask.OnPostprocessScene(Scene)
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene(Scene)
+  type: Method
+  source:
+    id: OnPostprocessScene
+    path: ''
+    startLine: 1115
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nScene postprocessing started\n"
+  example: []
+  syntax:
+    content: void OnPostprocessScene(Scene scene)
+    parameters:
+    - id: scene
+      type: Scene
+    content.vb: Sub OnPostprocessScene(scene As Scene)
+  overload: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene*
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  id: OnPostprocessGameObject(GameObject,List{Component})
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: OnPostprocessGameObject(GameObject, List<Component>)
+  nameWithType: IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
+  type: Method
+  source:
+    id: OnPostprocessGameObject
+    path: ''
+    startLine: 1122
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nPostprocess each GameObject and Components on it in a scene\n"
+  example: []
+  syntax:
+    content: void OnPostprocessGameObject(GameObject go, List<Component> components)
+    parameters:
+    - id: go
+      type: GameObject
+      description: root GameObject
+    - id: components
+      type: List{Component}
+      description: components on object
+    content.vb: Sub OnPostprocessGameObject(go As GameObject, components As List(Of Component))
+  overload: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject*
+  nameWithType.vb: IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
+  fullName.vb: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
+  name.vb: OnPostprocessGameObject(GameObject, List(Of Component))
+- uid: StansAssets.Build.Editor.IBuildTask.OnBuildFinished
+  commentId: M:StansAssets.Build.Editor.IBuildTask.OnBuildFinished
+  id: OnBuildFinished
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: OnBuildFinished()
+  nameWithType: IBuildTask.OnBuildFinished()
+  fullName: StansAssets.Build.Editor.IBuildTask.OnBuildFinished()
+  type: Method
+  source:
+    id: OnBuildFinished
+    path: ''
+    startLine: 1127
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nIncidicates when build finished\n"
+  example: []
+  syntax:
+    content: void OnBuildFinished()
+    content.vb: Sub OnBuildFinished
+  overload: StansAssets.Build.Editor.IBuildTask.OnBuildFinished*
+- uid: StansAssets.Build.Editor.IBuildTask.Priority
+  commentId: P:StansAssets.Build.Editor.IBuildTask.Priority
+  id: Priority
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: IBuildTask.Priority
+  fullName: StansAssets.Build.Editor.IBuildTask.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 1133
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nQueue number of the step\n(use less then 0 value if it needs to run before build step)\n"
+  example: []
+  syntax:
+    content: int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Priority As Integer
+  overload: StansAssets.Build.Editor.IBuildTask.Priority*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildTask.Name
+  commentId: P:StansAssets.Build.Editor.IBuildTask.Name
+  id: Name
+  parent: StansAssets.Build.Editor.IBuildTask
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IBuildTask.Name
+  fullName: StansAssets.Build.Editor.IBuildTask.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1138
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nTask name\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: StansAssets.Build.Editor.IBuildTask.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.IBuildTask.SetContext*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.SetContext
+  name: SetContext
+  nameWithType: IBuildTask.SetContext
+  fullName: StansAssets.Build.Editor.IBuildTask.SetContext
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  parent: StansAssets.Build.Editor
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.OnPostprocessScene
+  name: OnPostprocessScene
+  nameWithType: IBuildTask.OnPostprocessScene
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene
+- uid: Scene
+  commentId: '!:Scene'
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: Scene
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject
+  name: OnPostprocessGameObject
+  nameWithType: IBuildTask.OnPostprocessGameObject
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject
+- uid: GameObject
+  commentId: '!:GameObject'
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: List{Component}
+  commentId: '!:List{Component}'
+  definition: List`1
+  name: List<Component>
+  nameWithType: List<Component>
+  fullName: List<Component>
+  nameWithType.vb: List(Of Component)
+  fullName.vb: List(Of Component)
+  name.vb: List(Of Component)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Component
+    name: Component
+    nameWithType: Component
+    fullName: Component
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Component
+    name: Component
+    nameWithType: Component
+    fullName: Component
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  commentId: '!:List`1'
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Build.Editor.IBuildTask.OnBuildFinished*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.OnBuildFinished
+  name: OnBuildFinished
+  nameWithType: IBuildTask.OnBuildFinished
+  fullName: StansAssets.Build.Editor.IBuildTask.OnBuildFinished
+- uid: StansAssets.Build.Editor.IBuildTask.Priority*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.Priority
+  name: Priority
+  nameWithType: IBuildTask.Priority
+  fullName: StansAssets.Build.Editor.IBuildTask.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.Editor.IBuildTask.Name*
+  commentId: Overload:StansAssets.Build.Editor.IBuildTask.Name
+  name: Name
+  nameWithType: IBuildTask.Name
+  fullName: StansAssets.Build.Editor.IBuildTask.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

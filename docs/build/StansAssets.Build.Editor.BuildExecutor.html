@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BuildExecutor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BuildExecutor
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logo_rect_blue.png" height="46" width="46" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Build.Editor.BuildExecutor">
+  
+  
+  <h1 id="StansAssets_Build_Editor_BuildExecutor" data-uid="StansAssets.Build.Editor.BuildExecutor" class="text-break">Class BuildExecutor
+  </h1>
+  <div class="markdown level0 summary"><p>Run registered steps and tasks with build on result</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BuildExecutor</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Build.Editor.html">StansAssets.Build.Editor</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StansAssets_Build_Editor_BuildExecutor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class BuildExecutor</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StansAssets_Build_Editor_BuildExecutor_Build_" data-uid="StansAssets.Build.Editor.BuildExecutor.Build*"></a>
+  <h4 id="StansAssets_Build_Editor_BuildExecutor_Build_StansAssets_Build_Editor_BuildContext_" data-uid="StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)">Build(BuildContext)</h4>
+  <div class="markdown level1 summary"><p>Run build process with included steps and tasks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Build(BuildContext buildContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Build.Editor.BuildContext.html">BuildContext</a></td>
+        <td><span class="parametername">buildContext</span></td>
+        <td><p>Data class with necessary parameters for build execution</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Build_Editor_BuildExecutor_RegisterScenePostprocessTask_" data-uid="StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask*"></a>
+  <h4 id="StansAssets_Build_Editor_BuildExecutor_RegisterScenePostprocessTask_StansAssets_Build_Editor_IBuildTask_" data-uid="StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)">RegisterScenePostprocessTask(IBuildTask)</h4>
+  <div class="markdown level1 summary"><p>Add IBuildTask object to build pipeline as a task</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterScenePostprocessTask(IBuildTask buildTask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Build.Editor.IBuildTask.html">IBuildTask</a></td>
+        <td><span class="parametername">buildTask</span></td>
+        <td><p>Build task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Build_Editor_BuildExecutor_RegisterStep_" data-uid="StansAssets.Build.Editor.BuildExecutor.RegisterStep*"></a>
+  <h4 id="StansAssets_Build_Editor_BuildExecutor_RegisterStep_StansAssets_Build_Editor_IBuildStep_" data-uid="StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)">RegisterStep(IBuildStep)</h4>
+  <div class="markdown level1 summary"><p>Add IBuildStep object to build pipeline as a step</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterStep(IBuildStep step)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Build.Editor.IBuildStep.html">IBuildStep</a></td>
+        <td><span class="parametername">step</span></td>
+        <td><p>Build step</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

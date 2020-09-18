@@ -2741,11 +2741,95 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.BuildContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.BuildContext.html",
+          "hash": "JmnwoiWqU6AL9J3prEPk4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.BuildExecutor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.BuildExecutor.html",
+          "hash": "AdJWVw2ZU1ok26PrH4gmNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.BuildStepResultArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.BuildStepResultArgs.html",
+          "hash": "Agb0riCOGWl9pthTt66Uiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "build/StansAssets.Build.Editor.BuildSystemPackage.yml",
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.BuildSystemPackage.html",
           "hash": "R3qRj5G80+RZd0D4S0UVnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.IBuildContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.IBuildContext.html",
+          "hash": "nT8EVXZCKbp16VSg/TMG+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.IBuildExecutorListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.IBuildExecutorListener.html",
+          "hash": "5rCQsMKw3L2IZiftI3k3DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.IBuildStep.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.IBuildStep.html",
+          "hash": "lVn2FoRY17KMlcOoIpvJlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.IBuildTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.IBuildTask.html",
+          "hash": "5meecqp3xLx1lGWfZeqpwg=="
         }
       },
       "is_incremental": false,
@@ -2793,7 +2877,7 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.html",
-          "hash": "LyI7fX0J+gwzwEARxwFtJQ=="
+          "hash": "zwo4k3OlhleR9MCEsJBauA=="
         }
       },
       "is_incremental": false,
@@ -2865,7 +2949,7 @@
       "output": {
         ".html": {
           "relative_path": "build/toc.html",
-          "hash": "5XIiRoq3FkVc2BetzBv+XQ=="
+          "hash": "dVH71bugstvjscdJ3BQWtQ=="
         }
       },
       "is_incremental": false,
@@ -8272,7 +8356,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 665,
+          "total_file_count": 672,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

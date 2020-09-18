@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Build.Editor.BuildSystemPackage
-  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
-  id: BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildStepResultArgs
+  commentId: T:StansAssets.Build.Editor.BuildStepResultArgs
+  id: BuildStepResultArgs
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  - StansAssets.Build.Editor.BuildSystemPackage.Info
-  - StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  - StansAssets.Build.Editor.BuildStepResultArgs.IsSuccess
+  - StansAssets.Build.Editor.BuildStepResultArgs.ResultMessage
+  - StansAssets.Build.Editor.BuildStepResultArgs.Step
   langs:
   - csharp
   - vb
-  name: BuildSystemPackage
-  nameWithType: BuildSystemPackage
-  fullName: StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildStepResultArgs
+  nameWithType: BuildStepResultArgs
+  fullName: StansAssets.Build.Editor.BuildStepResultArgs
   type: Class
   source:
-    id: BuildSystemPackage
+    id: BuildStepResultArgs
     path: ''
-    startLine: 499
+    startLine: 1213
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nBuild System Package Static info.\n"
+  summary: "\nIBuildStep execution result report data\n"
   example: []
   syntax:
-    content: public static class BuildSystemPackage
-    content.vb: Public Module BuildSystemPackage
+    content: public class BuildStepResultArgs
+    content.vb: Public Class BuildStepResultArgs
   inheritance:
   - System.Object
   inheritedMembers:
@@ -39,108 +39,91 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
-  - static
   - class
   modifiers.vb:
   - Public
-  - Module
-- uid: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  id: DisplayName
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+  - Class
+- uid: StansAssets.Build.Editor.BuildStepResultArgs.Step
+  commentId: F:StansAssets.Build.Editor.BuildStepResultArgs.Step
+  id: Step
+  parent: StansAssets.Build.Editor.BuildStepResultArgs
   langs:
   - csharp
   - vb
-  name: DisplayName
-  nameWithType: BuildSystemPackage.DisplayName
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
+  name: Step
+  nameWithType: BuildStepResultArgs.Step
+  fullName: StansAssets.Build.Editor.BuildStepResultArgs.Step
   type: Field
   source:
-    id: DisplayName
+    id: Step
     path: ''
-    startLine: 504
+    startLine: 1215
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nThe package name\n"
-  example: []
   syntax:
-    content: public const string DisplayName = "Build System"
+    content: public IBuildStep Step
+    return:
+      type: StansAssets.Build.Editor.IBuildStep
+    content.vb: Public Step As IBuildStep
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Build.Editor.BuildStepResultArgs.IsSuccess
+  commentId: F:StansAssets.Build.Editor.BuildStepResultArgs.IsSuccess
+  id: IsSuccess
+  parent: StansAssets.Build.Editor.BuildStepResultArgs
+  langs:
+  - csharp
+  - vb
+  name: IsSuccess
+  nameWithType: BuildStepResultArgs.IsSuccess
+  fullName: StansAssets.Build.Editor.BuildStepResultArgs.IsSuccess
+  type: Field
+  source:
+    id: IsSuccess
+    path: ''
+    startLine: 1216
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public bool IsSuccess
+    return:
+      type: System.Boolean
+    content.vb: Public IsSuccess As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.Build.Editor.BuildStepResultArgs.ResultMessage
+  commentId: F:StansAssets.Build.Editor.BuildStepResultArgs.ResultMessage
+  id: ResultMessage
+  parent: StansAssets.Build.Editor.BuildStepResultArgs
+  langs:
+  - csharp
+  - vb
+  name: ResultMessage
+  nameWithType: BuildStepResultArgs.ResultMessage
+  fullName: StansAssets.Build.Editor.BuildStepResultArgs.ResultMessage
+  type: Field
+  source:
+    id: ResultMessage
+    path: ''
+    startLine: 1217
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public string ResultMessage
     return:
       type: System.String
-    content.vb: Public Const DisplayName As String = "Build System"
+    content.vb: Public ResultMessage As String
   modifiers.csharp:
   - public
-  - const
   modifiers.vb:
   - Public
-  - Const
-- uid: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  id: RootPath
-  parent: StansAssets.Build.Editor.BuildSystemPackage
-  langs:
-  - csharp
-  - vb
-  name: RootPath
-  nameWithType: BuildSystemPackage.RootPath
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  type: Field
-  source:
-    id: RootPath
-    path: ''
-    startLine: 509
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Build.Editor
-  summary: "\nFoundation package root path.\n"
-  example: []
-  syntax:
-    content: public static readonly string RootPath
-    return:
-      type: System.String
-    content.vb: Public Shared ReadOnly RootPath As String
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
-- uid: StansAssets.Build.Editor.BuildSystemPackage.Info
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
-  id: Info
-  parent: StansAssets.Build.Editor.BuildSystemPackage
-  langs:
-  - csharp
-  - vb
-  name: Info
-  nameWithType: BuildSystemPackage.Info
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
-  type: Field
-  source:
-    id: Info
-    path: ''
-    startLine: 514
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Build.Editor
-  summary: "\nBuild System package info.\n"
-  example: []
-  syntax:
-    content: public static readonly PackageInfo Info
-    return:
-      type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
-  modifiers.csharp:
-  - public
-  - static
-  - readonly
-  modifiers.vb:
-  - Public
-  - Shared
-  - ReadOnly
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
@@ -439,6 +422,19 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.Build.Editor.IBuildStep
+  commentId: T:StansAssets.Build.Editor.IBuildStep
+  parent: StansAssets.Build.Editor
+  name: IBuildStep
+  nameWithType: IBuildStep
+  fullName: StansAssets.Build.Editor.IBuildStep
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -446,9 +442,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: PackageInfo
-  commentId: '!:PackageInfo'
-  isExternal: true
-  name: PackageInfo
-  nameWithType: PackageInfo
-  fullName: PackageInfo

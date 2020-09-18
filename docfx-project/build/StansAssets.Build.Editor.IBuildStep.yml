@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.IBuildStep
+  commentId: T:StansAssets.Build.Editor.IBuildStep
+  id: IBuildStep
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  - StansAssets.Build.Editor.IBuildStep.Name
+  - StansAssets.Build.Editor.IBuildStep.Priority
+  langs:
+  - csharp
+  - vb
+  name: IBuildStep
+  nameWithType: IBuildStep
+  fullName: StansAssets.Build.Editor.IBuildStep
+  type: Interface
+  source:
+    id: IBuildStep
+    path: ''
+    startLine: 1186
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nSingle functional field of build process\n"
+  example: []
+  syntax:
+    content: public interface IBuildStep
+    content.vb: Public Interface IBuildStep
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  commentId: M:StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  id: Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  parent: StansAssets.Build.Editor.IBuildStep
+  langs:
+  - csharp
+  - vb
+  name: Execute(IBuildContext, Action<BuildStepResultArgs>)
+  nameWithType: IBuildStep.Execute(IBuildContext, Action<BuildStepResultArgs>)
+  fullName: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action<StansAssets.Build.Editor.BuildStepResultArgs>)
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 1193
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nRun step execution\n"
+  example: []
+  syntax:
+    content: void Execute(IBuildContext buildContext, Action<BuildStepResultArgs> onComplete = null)
+    parameters:
+    - id: buildContext
+      type: StansAssets.Build.Editor.IBuildContext
+      description: Data class with necessary parameters for build execution
+    - id: onComplete
+      type: Action{StansAssets.Build.Editor.BuildStepResultArgs}
+      description: Delegate which invokes when  step executing will be completed
+    content.vb: Sub Execute(buildContext As IBuildContext, onComplete As Action(Of BuildStepResultArgs) = Nothing)
+  overload: StansAssets.Build.Editor.IBuildStep.Execute*
+  nameWithType.vb: IBuildStep.Execute(IBuildContext, Action(Of BuildStepResultArgs))
+  fullName.vb: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action(Of StansAssets.Build.Editor.BuildStepResultArgs))
+  name.vb: Execute(IBuildContext, Action(Of BuildStepResultArgs))
+- uid: StansAssets.Build.Editor.IBuildStep.Priority
+  commentId: P:StansAssets.Build.Editor.IBuildStep.Priority
+  id: Priority
+  parent: StansAssets.Build.Editor.IBuildStep
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: IBuildStep.Priority
+  fullName: StansAssets.Build.Editor.IBuildStep.Priority
+  type: Property
+  source:
+    id: Priority
+    path: ''
+    startLine: 1199
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nQueue number of the step\n(use less then 0 value if it needs to run before build step)\n"
+  example: []
+  syntax:
+    content: int Priority { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Priority As Integer
+  overload: StansAssets.Build.Editor.IBuildStep.Priority*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildStep.Name
+  commentId: P:StansAssets.Build.Editor.IBuildStep.Name
+  id: Name
+  parent: StansAssets.Build.Editor.IBuildStep
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IBuildStep.Name
+  fullName: StansAssets.Build.Editor.IBuildStep.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1204
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nStep name\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: StansAssets.Build.Editor.IBuildStep.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.IBuildStep.Execute*
+  commentId: Overload:StansAssets.Build.Editor.IBuildStep.Execute
+  name: Execute
+  nameWithType: IBuildStep.Execute
+  fullName: StansAssets.Build.Editor.IBuildStep.Execute
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  parent: StansAssets.Build.Editor
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
+- uid: Action{StansAssets.Build.Editor.BuildStepResultArgs}
+  commentId: '!:Action{StansAssets.Build.Editor.BuildStepResultArgs}'
+  definition: Action`1
+  name: Action<BuildStepResultArgs>
+  nameWithType: Action<BuildStepResultArgs>
+  fullName: Action<StansAssets.Build.Editor.BuildStepResultArgs>
+  nameWithType.vb: Action(Of BuildStepResultArgs)
+  fullName.vb: Action(Of StansAssets.Build.Editor.BuildStepResultArgs)
+  name.vb: Action(Of BuildStepResultArgs)
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.Build.Editor.BuildStepResultArgs
+    name: BuildStepResultArgs
+    nameWithType: BuildStepResultArgs
+    fullName: StansAssets.Build.Editor.BuildStepResultArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.Build.Editor.BuildStepResultArgs
+    name: BuildStepResultArgs
+    nameWithType: BuildStepResultArgs
+    fullName: StansAssets.Build.Editor.BuildStepResultArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Action`1
+  commentId: '!:Action`1'
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Build.Editor.IBuildStep.Priority*
+  commentId: Overload:StansAssets.Build.Editor.IBuildStep.Priority
+  name: Priority
+  nameWithType: IBuildStep.Priority
+  fullName: StansAssets.Build.Editor.IBuildStep.Priority
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.Editor.IBuildStep.Name*
+  commentId: Overload:StansAssets.Build.Editor.IBuildStep.Name
+  name: Name
+  nameWithType: IBuildStep.Name
+  fullName: StansAssets.Build.Editor.IBuildStep.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

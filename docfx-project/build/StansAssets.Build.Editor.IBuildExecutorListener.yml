@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.IBuildExecutorListener
+  commentId: T:StansAssets.Build.Editor.IBuildExecutorListener
+  id: IBuildExecutorListener
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.IBuildExecutorListener.Active
+  - StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)
+  langs:
+  - csharp
+  - vb
+  name: IBuildExecutorListener
+  nameWithType: IBuildExecutorListener
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener
+  type: Interface
+  source:
+    id: IBuildExecutorListener
+    path: ''
+    startLine: 476
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nSingle listener which runs when build started.\nWill be called before run all steps and tasks\n"
+  example: []
+  syntax:
+    content: public interface IBuildExecutorListener
+    content.vb: Public Interface IBuildExecutorListener
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Active
+  commentId: P:StansAssets.Build.Editor.IBuildExecutorListener.Active
+  id: Active
+  parent: StansAssets.Build.Editor.IBuildExecutorListener
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: IBuildExecutorListener.Active
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Active
+  type: Property
+  source:
+    id: Active
+    path: ''
+    startLine: 481
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nIndicates is listener active or not while registration flow. It allows toggle to build steps/tasks registration without re-compile\n"
+  example: []
+  syntax:
+    content: bool Active { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property Active As Boolean
+  overload: StansAssets.Build.Editor.IBuildExecutorListener.Active*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)
+  commentId: M:StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)
+  id: Register(StansAssets.Build.Editor.IBuildContext)
+  parent: StansAssets.Build.Editor.IBuildExecutorListener
+  langs:
+  - csharp
+  - vb
+  name: Register(IBuildContext)
+  nameWithType: IBuildExecutorListener.Register(IBuildContext)
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)
+  type: Method
+  source:
+    id: Register
+    path: ''
+    startLine: 487
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nRegister executor listener\n"
+  example: []
+  syntax:
+    content: void Register(IBuildContext buildContext)
+    parameters:
+    - id: buildContext
+      type: StansAssets.Build.Editor.IBuildContext
+      description: Data class with necessary parameters for build execution
+    content.vb: Sub Register(buildContext As IBuildContext)
+  overload: StansAssets.Build.Editor.IBuildExecutorListener.Register*
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Active*
+  commentId: Overload:StansAssets.Build.Editor.IBuildExecutorListener.Active
+  name: Active
+  nameWithType: IBuildExecutorListener.Active
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Register*
+  commentId: Overload:StansAssets.Build.Editor.IBuildExecutorListener.Register
+  name: Register
+  nameWithType: IBuildExecutorListener.Register
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Register
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  parent: StansAssets.Build.Editor
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext

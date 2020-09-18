@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  id: IBuildContext
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.IBuildContext.BuildAlias
+  - StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  - StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  langs:
+  - csharp
+  - vb
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
+  type: Interface
+  source:
+    id: IBuildContext
+    path: ''
+    startLine: 1160
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nBuild parameters\n"
+  example: []
+  syntax:
+    content: public interface IBuildContext
+    content.vb: Public Interface IBuildContext
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  commentId: P:StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  id: TargetPlatform
+  parent: StansAssets.Build.Editor.IBuildContext
+  langs:
+  - csharp
+  - vb
+  name: TargetPlatform
+  nameWithType: IBuildContext.TargetPlatform
+  fullName: StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  type: Property
+  source:
+    id: TargetPlatform
+    path: ''
+    startLine: 1165
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nPlatform to build\n"
+  example: []
+  syntax:
+    content: BuildTarget TargetPlatform { get; }
+    parameters: []
+    return:
+      type: BuildTarget
+    content.vb: ReadOnly Property TargetPlatform As BuildTarget
+  overload: StansAssets.Build.Editor.IBuildContext.TargetPlatform*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  id: BuildPlayerOptions
+  parent: StansAssets.Build.Editor.IBuildContext
+  langs:
+  - csharp
+  - vb
+  name: BuildPlayerOptions
+  nameWithType: IBuildContext.BuildPlayerOptions
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  type: Property
+  source:
+    id: BuildPlayerOptions
+    path: ''
+    startLine: 1170
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nBuild settings\n"
+  example: []
+  syntax:
+    content: BuildPlayerOptions BuildPlayerOptions { get; }
+    parameters: []
+    return:
+      type: BuildPlayerOptions
+    content.vb: ReadOnly Property BuildPlayerOptions As BuildPlayerOptions
+  overload: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildAlias
+  id: BuildAlias
+  parent: StansAssets.Build.Editor.IBuildContext
+  langs:
+  - csharp
+  - vb
+  name: BuildAlias
+  nameWithType: IBuildContext.BuildAlias
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
+  type: Property
+  source:
+    id: BuildAlias
+    path: ''
+    startLine: 1175
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nKey value\n"
+  example: []
+  syntax:
+    content: string BuildAlias { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property BuildAlias As String
+  overload: StansAssets.Build.Editor.IBuildContext.BuildAlias*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.IBuildContext.TargetPlatform*
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.TargetPlatform
+  name: TargetPlatform
+  nameWithType: IBuildContext.TargetPlatform
+  fullName: StansAssets.Build.Editor.IBuildContext.TargetPlatform
+- uid: BuildTarget
+  isExternal: true
+  name: BuildTarget
+  nameWithType: BuildTarget
+  fullName: BuildTarget
+- uid: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions*
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  name: BuildPlayerOptions
+  nameWithType: IBuildContext.BuildPlayerOptions
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+- uid: BuildPlayerOptions
+  isExternal: true
+  name: BuildPlayerOptions
+  nameWithType: BuildPlayerOptions
+  fullName: BuildPlayerOptions
+- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias*
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildAlias
+  name: BuildAlias
+  nameWithType: IBuildContext.BuildAlias
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

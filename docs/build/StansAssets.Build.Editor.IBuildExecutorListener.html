@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace StansAssets.Build.Editor
+    <title>Interface IBuildExecutorListener
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace StansAssets.Build.Editor
+    <meta name="title" content="Interface IBuildExecutorListener
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -66,45 +66,80 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Build.Editor">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Build.Editor.IBuildExecutorListener">
   
-  <h1 id="StansAssets_Build_Editor" data-uid="StansAssets.Build.Editor" class="text-break">Namespace StansAssets.Build.Editor
+  
+  <h1 id="StansAssets_Build_Editor_IBuildExecutorListener" data-uid="StansAssets.Build.Editor.IBuildExecutorListener" class="text-break">Interface IBuildExecutorListener
   </h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
-  </h3>
-      <h4><a class="xref" href="StansAssets.Build.Editor.BuildContext.html">BuildContext</a></h4>
-      <section><p>Build configuration data</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.BuildExecutor.html">BuildExecutor</a></h4>
-      <section><p>Run registered steps and tasks with build on result</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.BuildStepResultArgs.html">BuildStepResultArgs</a></h4>
-      <section><p>IBuildStep execution result report data</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.BuildSystemPackage.html">BuildSystemPackage</a></h4>
-      <section><p>Build System Package Static info.</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.StanAssetsPackages.html">StanAssetsPackages</a></h4>
-      <section></section>
-    <h3 id="interfaces">Interfaces
-  </h3>
-      <h4><a class="xref" href="StansAssets.Build.Editor.IBuildContext.html">IBuildContext</a></h4>
-      <section><p>Build parameters</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.IBuildExecutorListener.html">IBuildExecutorListener</a></h4>
-      <section><p>Single listener which runs when build started.
+  <div class="markdown level0 summary"><p>Single listener which runs when build started.
 Will be called before run all steps and tasks</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.IBuildStep.html">IBuildStep</a></h4>
-      <section><p>Single functional field of build process</p>
-</section>
-      <h4><a class="xref" href="StansAssets.Build.Editor.IBuildTask.html">IBuildTask</a></h4>
-      <section><p>Single task which runs when build started.
-Will be called for all included to a build scenes</p>
-</section>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Build.Editor.html">StansAssets.Build.Editor</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StansAssets_Build_Editor_IBuildExecutorListener_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IBuildExecutorListener</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="StansAssets_Build_Editor_IBuildExecutorListener_Active_" data-uid="StansAssets.Build.Editor.IBuildExecutorListener.Active*"></a>
+  <h4 id="StansAssets_Build_Editor_IBuildExecutorListener_Active" data-uid="StansAssets.Build.Editor.IBuildExecutorListener.Active">Active</h4>
+  <div class="markdown level1 summary"><p>Indicates is listener active or not while registration flow. It allows toggle to build steps/tasks registration without re-compile</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Active { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StansAssets_Build_Editor_IBuildExecutorListener_Register_" data-uid="StansAssets.Build.Editor.IBuildExecutorListener.Register*"></a>
+  <h4 id="StansAssets_Build_Editor_IBuildExecutorListener_Register_StansAssets_Build_Editor_IBuildContext_" data-uid="StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)">Register(IBuildContext)</h4>
+  <div class="markdown level1 summary"><p>Register executor listener</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Register(IBuildContext buildContext)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Build.Editor.IBuildContext.html">IBuildContext</a></td>
+        <td><span class="parametername">buildContext</span></td>
+        <td><p>Data class with necessary parameters for build execution</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

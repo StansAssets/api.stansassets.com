@@ -1,32 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Build.Editor.BuildSystemPackage
-  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
-  id: BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildExecutor
+  commentId: T:StansAssets.Build.Editor.BuildExecutor
+  id: BuildExecutor
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  - StansAssets.Build.Editor.BuildSystemPackage.Info
-  - StansAssets.Build.Editor.BuildSystemPackage.RootPath
+  - StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  - StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
+  - StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)
   langs:
   - csharp
   - vb
-  name: BuildSystemPackage
-  nameWithType: BuildSystemPackage
-  fullName: StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildExecutor
+  nameWithType: BuildExecutor
+  fullName: StansAssets.Build.Editor.BuildExecutor
   type: Class
   source:
-    id: BuildSystemPackage
+    id: BuildExecutor
     path: ''
-    startLine: 499
+    startLine: 530
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nBuild System Package Static info.\n"
+  summary: "\nRun registered steps and tasks with build on result\n"
   example: []
   syntax:
-    content: public static class BuildSystemPackage
-    content.vb: Public Module BuildSystemPackage
+    content: public static class BuildExecutor
+    content.vb: Public Module BuildExecutor
   inheritance:
   - System.Object
   inheritedMembers:
@@ -44,103 +44,108 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  id: DisplayName
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)
+  commentId: M:StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)
+  id: RegisterStep(StansAssets.Build.Editor.IBuildStep)
+  parent: StansAssets.Build.Editor.BuildExecutor
   langs:
   - csharp
   - vb
-  name: DisplayName
-  nameWithType: BuildSystemPackage.DisplayName
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
-  type: Field
+  name: RegisterStep(IBuildStep)
+  nameWithType: BuildExecutor.RegisterStep(IBuildStep)
+  fullName: StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)
+  type: Method
   source:
-    id: DisplayName
+    id: RegisterStep
     path: ''
-    startLine: 504
+    startLine: 543
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nThe package name\n"
+  summary: "\nAdd IBuildStep object to build pipeline as a step\n"
   example: []
   syntax:
-    content: public const string DisplayName = "Build System"
-    return:
-      type: System.String
-    content.vb: Public Const DisplayName As String = "Build System"
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
-- uid: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  id: RootPath
-  parent: StansAssets.Build.Editor.BuildSystemPackage
-  langs:
-  - csharp
-  - vb
-  name: RootPath
-  nameWithType: BuildSystemPackage.RootPath
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.RootPath
-  type: Field
-  source:
-    id: RootPath
-    path: ''
-    startLine: 509
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.Build.Editor
-  summary: "\nFoundation package root path.\n"
-  example: []
-  syntax:
-    content: public static readonly string RootPath
-    return:
-      type: System.String
-    content.vb: Public Shared ReadOnly RootPath As String
+    content: public static void RegisterStep(IBuildStep step)
+    parameters:
+    - id: step
+      type: StansAssets.Build.Editor.IBuildStep
+      description: Build step
+    content.vb: Public Shared Sub RegisterStep(step As IBuildStep)
+  overload: StansAssets.Build.Editor.BuildExecutor.RegisterStep*
   modifiers.csharp:
   - public
   - static
-  - readonly
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
-- uid: StansAssets.Build.Editor.BuildSystemPackage.Info
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
-  id: Info
-  parent: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
+  commentId: M:StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
+  id: RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
+  parent: StansAssets.Build.Editor.BuildExecutor
   langs:
   - csharp
   - vb
-  name: Info
-  nameWithType: BuildSystemPackage.Info
-  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
-  type: Field
+  name: RegisterScenePostprocessTask(IBuildTask)
+  nameWithType: BuildExecutor.RegisterScenePostprocessTask(IBuildTask)
+  fullName: StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
+  type: Method
   source:
-    id: Info
+    id: RegisterScenePostprocessTask
     path: ''
-    startLine: 514
+    startLine: 552
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nBuild System package info.\n"
+  summary: "\nAdd IBuildTask object to build pipeline as a task\n"
   example: []
   syntax:
-    content: public static readonly PackageInfo Info
-    return:
-      type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
+    content: public static void RegisterScenePostprocessTask(IBuildTask buildTask)
+    parameters:
+    - id: buildTask
+      type: StansAssets.Build.Editor.IBuildTask
+      description: Build task
+    content.vb: Public Shared Sub RegisterScenePostprocessTask(buildTask As IBuildTask)
+  overload: StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask*
   modifiers.csharp:
   - public
   - static
-  - readonly
   modifiers.vb:
   - Public
   - Shared
-  - ReadOnly
+- uid: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  commentId: M:StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  id: Build(StansAssets.Build.Editor.BuildContext)
+  parent: StansAssets.Build.Editor.BuildExecutor
+  langs:
+  - csharp
+  - vb
+  name: Build(BuildContext)
+  nameWithType: BuildExecutor.Build(BuildContext)
+  fullName: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  type: Method
+  source:
+    id: Build
+    path: ''
+    startLine: 561
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nRun build process with included steps and tasks\n"
+  example: []
+  syntax:
+    content: public static void Build(BuildContext buildContext)
+    parameters:
+    - id: buildContext
+      type: StansAssets.Build.Editor.BuildContext
+      description: Data class with necessary parameters for build execution
+    content.vb: Public Shared Sub Build(buildContext As BuildContext)
+  overload: StansAssets.Build.Editor.BuildExecutor.Build*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
@@ -439,16 +444,36 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: PackageInfo
-  commentId: '!:PackageInfo'
-  isExternal: true
-  name: PackageInfo
-  nameWithType: PackageInfo
-  fullName: PackageInfo
+- uid: StansAssets.Build.Editor.BuildExecutor.RegisterStep*
+  commentId: Overload:StansAssets.Build.Editor.BuildExecutor.RegisterStep
+  name: RegisterStep
+  nameWithType: BuildExecutor.RegisterStep
+  fullName: StansAssets.Build.Editor.BuildExecutor.RegisterStep
+- uid: StansAssets.Build.Editor.IBuildStep
+  commentId: T:StansAssets.Build.Editor.IBuildStep
+  parent: StansAssets.Build.Editor
+  name: IBuildStep
+  nameWithType: IBuildStep
+  fullName: StansAssets.Build.Editor.IBuildStep
+- uid: StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask*
+  commentId: Overload:StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask
+  name: RegisterScenePostprocessTask
+  nameWithType: BuildExecutor.RegisterScenePostprocessTask
+  fullName: StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask
+- uid: StansAssets.Build.Editor.IBuildTask
+  commentId: T:StansAssets.Build.Editor.IBuildTask
+  parent: StansAssets.Build.Editor
+  name: IBuildTask
+  nameWithType: IBuildTask
+  fullName: StansAssets.Build.Editor.IBuildTask
+- uid: StansAssets.Build.Editor.BuildExecutor.Build*
+  commentId: Overload:StansAssets.Build.Editor.BuildExecutor.Build
+  name: Build
+  nameWithType: BuildExecutor.Build
+  fullName: StansAssets.Build.Editor.BuildExecutor.Build
+- uid: StansAssets.Build.Editor.BuildContext
+  commentId: T:StansAssets.Build.Editor.BuildContext
+  parent: StansAssets.Build.Editor
+  name: BuildContext
+  nameWithType: BuildContext
+  fullName: StansAssets.Build.Editor.BuildContext

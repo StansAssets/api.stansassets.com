@@ -9,7 +9,21 @@
 - uid: StansAssets.Build.Editor
   name: StansAssets.Build.Editor
   items:
+  - uid: StansAssets.Build.Editor.BuildContext
+    name: BuildContext
+  - uid: StansAssets.Build.Editor.BuildExecutor
+    name: BuildExecutor
+  - uid: StansAssets.Build.Editor.BuildStepResultArgs
+    name: BuildStepResultArgs
   - uid: StansAssets.Build.Editor.BuildSystemPackage
     name: BuildSystemPackage
+  - uid: StansAssets.Build.Editor.IBuildContext
+    name: IBuildContext
+  - uid: StansAssets.Build.Editor.IBuildExecutorListener
+    name: IBuildExecutorListener
+  - uid: StansAssets.Build.Editor.IBuildStep
+    name: IBuildStep
+  - uid: StansAssets.Build.Editor.IBuildTask
+    name: IBuildTask
   - uid: StansAssets.Build.Editor.StanAssetsPackages
     name: StanAssetsPackages
