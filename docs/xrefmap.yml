@@ -22616,6 +22616,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecordID.RecordName
   nameWithType: ISN_CKRecordID.RecordName
+- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+  name: ZoneId
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneId
+  commentId: P:SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+  nameWithType: ISN_CKRecordID.ZoneId
+- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId*
+  name: ZoneId
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneId_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+  nameWithType: ISN_CKRecordID.ZoneId
 - uid: SA.iOS.CloudKit.ISN_CKResult
   name: ISN_CKResult
   href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html

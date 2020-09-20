@@ -2968,6 +2968,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -4447,7 +4450,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html",
-          "hash": "VxpYqd5Y78MwGCQs2t1iNA=="
+          "hash": "6BEXjsnc/5WWm46EYqD0zw=="
         }
       },
       "is_incremental": false,
@@ -6742,7 +6745,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AdvertisementService.html",
-          "hash": "1NzZi7CHZg/hFopCVozhgA=="
+          "hash": "8EH6xO6QJeej+NrQkJPyvw=="
         }
       },
       "is_incremental": false,
@@ -8249,9 +8252,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
