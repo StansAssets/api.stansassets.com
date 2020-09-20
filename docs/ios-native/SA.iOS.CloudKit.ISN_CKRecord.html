@@ -71,7 +71,11 @@
   
   <h1 id="SA_iOS_CloudKit_ISN_CKRecord" data-uid="SA.iOS.CloudKit.ISN_CKRecord" class="text-break">Class ISN_CKRecord
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>An object of key-value pairs that you use to fetch and save your app&apos;s data.
+Records are the fundamental objects you use to manage data in CloudKit.
+You may define any number of record types for your app, with each record type corresponding to a different type of information you need.
+Within a given record type, you then define one or more fields, each of which has a name and a data value.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -114,7 +118,8 @@
   
   <a id="SA_iOS_CloudKit_ISN_CKRecord__ctor_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.#ctor*"></a>
   <h4 id="SA_iOS_CloudKit_ISN_CKRecord__ctor_System_String_SA_iOS_CloudKit_ISN_CKRecordID_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.#ctor(System.String,SA.iOS.CloudKit.ISN_CKRecordID)">ISN_CKRecord(String, ISN_CKRecordID)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Initializes and returns a record using an ID that you provide.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -133,12 +138,21 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">recordType</span></td>
-        <td></td>
+        <td><p>A string reflecting the type of record that you want to create.
+Define the record types that your app supports, and use them to distinguish between records with different types of data.
+This parameter must not be nil or contain an empty string.
+Record type names consist of one or more alphanumeric characters and start with a letter.
+Type names may include underscore characters if they do not start with that character.
+Spaces are not allowed in record type names.</p>
+</td>
       </tr>
       <tr>
         <td><a class="xref" href="SA.iOS.CloudKit.ISN_CKRecordID.html">ISN_CKRecordID</a></td>
         <td><span class="parametername">recordID</span></td>
-        <td></td>
+        <td><p>The ID to assign to the record itself.
+When creating the ID, you can specify the zone in which to place the record.
+The ID cannot currently be in use by any other record and must not be <code>null</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -253,7 +267,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int DataElementsAmount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int DataElementsAmount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -274,7 +288,8 @@
   
   <a id="SA_iOS_CloudKit_ISN_CKRecord_Fields_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Fields*"></a>
   <h4 id="SA_iOS_CloudKit_ISN_CKRecord_Fields" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Fields">Fields</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get record fields.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
