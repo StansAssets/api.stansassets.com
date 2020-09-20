@@ -33011,6 +33011,31 @@ references:
   commentId: N:StansAssets.Facebook
   fullName: StansAssets.Facebook
   nameWithType: StansAssets.Facebook
+- uid: StansAssets.Facebook.Editor
+  name: StansAssets.Facebook.Editor
+  href: facebook/StansAssets.Facebook.Editor.html
+  commentId: N:StansAssets.Facebook.Editor
+  fullName: StansAssets.Facebook.Editor
+  nameWithType: StansAssets.Facebook.Editor
+- uid: StansAssets.Facebook.Editor.FbEditorWindow
+  name: FbEditorWindow
+  href: facebook/StansAssets.Facebook.Editor.FbEditorWindow.html
+  commentId: T:StansAssets.Facebook.Editor.FbEditorWindow
+  fullName: StansAssets.Facebook.Editor.FbEditorWindow
+  nameWithType: FbEditorWindow
+- uid: StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI
+  name: DrawSettingsUI()
+  href: facebook/StansAssets.Facebook.Editor.FbEditorWindow.html#StansAssets_Facebook_Editor_FbEditorWindow_DrawSettingsUI
+  commentId: M:StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI
+  fullName: StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI()
+  nameWithType: FbEditorWindow.DrawSettingsUI()
+- uid: StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI*
+  name: DrawSettingsUI
+  href: facebook/StansAssets.Facebook.Editor.FbEditorWindow.html#StansAssets_Facebook_Editor_FbEditorWindow_DrawSettingsUI_
+  commentId: Overload:StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI
+  isSpec: "True"
+  fullName: StansAssets.Facebook.Editor.FbEditorWindow.DrawSettingsUI
+  nameWithType: FbEditorWindow.DrawSettingsUI
 - uid: StansAssets.Facebook.Fb
   name: Fb
   href: facebook/StansAssets.Facebook.Fb.html

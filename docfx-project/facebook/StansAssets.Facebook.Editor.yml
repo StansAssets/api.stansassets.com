@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.Editor
+  commentId: N:StansAssets.Facebook.Editor
+  id: StansAssets.Facebook.Editor
+  children:
+  - StansAssets.Facebook.Editor.FbEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.Facebook.Editor
+  nameWithType: StansAssets.Facebook.Editor
+  fullName: StansAssets.Facebook.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.Facebook.Editor.FbEditorWindow
+  commentId: T:StansAssets.Facebook.Editor.FbEditorWindow
+  name: FbEditorWindow
+  nameWithType: FbEditorWindow
+  fullName: StansAssets.Facebook.Editor.FbEditorWindow
