@@ -2968,9 +2968,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -3595,6 +3592,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html",
+          "hash": "37Br44h+2/SeEGP0s4CR8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.yml",
       "output": {
         ".html": {
@@ -3607,11 +3616,47 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.MaterialExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.MaterialExtensions.html",
+          "hash": "+33+6b2SxbslcdOL6mt20Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Extensions.ObjectExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html",
           "hash": "l8PLAOdFwXHEh/GnJomSZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html",
+          "hash": "VskI040MI2QvUKik1o85Jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.RendererExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.RendererExtensions.html",
+          "hash": "sWvWsG4uun5u2E2uX+YsjQ=="
         }
       },
       "is_incremental": false,
@@ -3635,7 +3680,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.Texture2DExtensions.html",
-          "hash": "0lp0BPOvYn6Hm2ObiASTKw=="
+          "hash": "0iYIgtXxQwk74WRAPPhjCg=="
         }
       },
       "is_incremental": false,
@@ -3647,7 +3692,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.TransformExtensions.html",
-          "hash": "YRcrJAhPvKwSGlA204ChAA=="
+          "hash": "r8zakRspSTQBxcbxb6eL+w=="
         }
       },
       "is_incremental": false,
@@ -3683,7 +3728,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
-          "hash": "T6bKuK9+rife0EKS9XridQ=="
+          "hash": "MoiiuDU8s3sjRYx9o5WgnQ=="
         }
       },
       "is_incremental": false,
@@ -3899,7 +3944,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.ReflectionUtility.html",
-          "hash": "JPefpqlPTgDUIWYPibXYRw=="
+          "hash": "LBiqWIxMGbVgfoB9yfOmbA=="
         }
       },
       "is_incremental": false,
@@ -4019,7 +4064,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "u6co/GCslXVTvZfoVsq06w=="
+          "hash": "cLoPlV11/5a9kNPB44YQrg=="
         }
       },
       "is_incremental": false,
@@ -8252,6 +8297,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -8356,7 +8404,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 672,
+          "total_file_count": 676,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

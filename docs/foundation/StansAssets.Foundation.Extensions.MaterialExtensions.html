@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Texture2DExtensions
+    <title>Class MaterialExtensions
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Texture2DExtensions
+    <meta name="title" content="Class MaterialExtensions
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -66,18 +66,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Extensions.MaterialExtensions">
   
   
-  <h1 id="StansAssets_Foundation_Extensions_Texture2DExtensions" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions" class="text-break">Class Texture2DExtensions
+  <h1 id="StansAssets_Foundation_Extensions_MaterialExtensions" data-uid="StansAssets.Foundation.Extensions.MaterialExtensions" class="text-break">Class MaterialExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Unity <code>Texture2D</code> extension methods.</p>
+  <div class="markdown level0 summary"><p>Unity <code>Material</code> extension methods.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Texture2DExtensions</span></div>
+    <div class="level1"><span class="xref">MaterialExtensions</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,22 +105,22 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Extensions.html">StansAssets.Foundation.Extensions</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Extensions_Texture2DExtensions_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Extensions_MaterialExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Texture2DExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public static class MaterialExtensions</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Extensions_Texture2DExtensions_CreateSprite_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_Texture2DExtensions_CreateSprite_Texture2D_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite(Texture2D)">CreateSprite(Texture2D)</h4>
-  <div class="markdown level1 summary"><p>Create new sprite instance for the texture.</p>
+  <a id="StansAssets_Foundation_Extensions_MaterialExtensions_SetAlpha_" data-uid="StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha*"></a>
+  <h4 id="StansAssets_Foundation_Extensions_MaterialExtensions_SetAlpha_Material_System_Single_" data-uid="StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha(Material,System.Single)">SetAlpha(Material, Single)</h4>
+  <div class="markdown level1 summary"><p>Set&apos;s alpha channel for the Material <code>_Color</code> property</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Sprite CreateSprite(this Texture2D texture)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetAlpha(this Material material, float value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,121 +133,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Texture2D</span></td>
-        <td><span class="parametername">texture</span></td>
-        <td><p>A texture to created sprite from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td><p>New sprite instance.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Extensions_Texture2DExtensions_LoadFromBase64_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.LoadFromBase64*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_Texture2DExtensions_LoadFromBase64_Texture2D_System_String_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.LoadFromBase64(Texture2D,System.String)">LoadFromBase64(Texture2D, String)</h4>
-  <div class="markdown level1 summary"><p>Loads texture content from base64 string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D LoadFromBase64(this Texture2D texture, string base64EncodedString)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Texture2D</span></td>
-        <td><span class="parametername">texture</span></td>
-        <td><p>Texture to load image content into.</p>
+        <td><span class="xref">Material</span></td>
+        <td><span class="parametername">material</span></td>
+        <td><p>Material to operate with.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">base64EncodedString</span></td>
-        <td><p>Base64 string image representation.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Texture2D</span></td>
-        <td><p>Updated texture.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Foundation_Extensions_Texture2DExtensions_ToBase64_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.ToBase64*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_Texture2DExtensions_ToBase64_Texture2D_" data-uid="StansAssets.Foundation.Extensions.Texture2DExtensions.ToBase64(Texture2D)">ToBase64(Texture2D)</h4>
-  <div class="markdown level1 summary"><p>Convert <see cref="!:Texture2D"></see> png representation to base64 string.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBase64(this Texture2D texture)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Texture2D</span></td>
-        <td><span class="parametername">texture</span></td>
-        <td><p>Texture to convert.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>Converted texture as base64 string</p>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Alpha channel value.</p>
 </td>
       </tr>
     </tbody>

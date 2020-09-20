@@ -35727,6 +35727,38 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.UnixTimestampToDateTime
   nameWithType: DateTimeExtensions.UnixTimestampToDateTime
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions
+  name: GameObjectExtensions
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.GameObjectExtensions
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions
+  nameWithType: GameObjectExtensions
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds(GameObject)
+  name: GetRendererBounds(GameObject)
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_GetRendererBounds_GameObject_
+  commentId: M:StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds(GameObject)
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds(GameObject)
+  nameWithType: GameObjectExtensions.GetRendererBounds(GameObject)
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds*
+  name: GetRendererBounds
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_GetRendererBounds_
+  commentId: Overload:StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds
+  nameWithType: GameObjectExtensions.GetRendererBounds
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively(GameObject,System.Int32)
+  name: SetLayerRecursively(GameObject, Int32)
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_SetLayerRecursively_GameObject_System_Int32_
+  commentId: M:StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively(GameObject,System.Int32)
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively(GameObject, System.Int32)
+  nameWithType: GameObjectExtensions.SetLayerRecursively(GameObject, Int32)
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively*
+  name: SetLayerRecursively
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_SetLayerRecursively_
+  commentId: Overload:StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.SetLayerRecursively
+  nameWithType: GameObjectExtensions.SetLayerRecursively
 - uid: StansAssets.Foundation.Extensions.ListExtensions
   name: ListExtensions
   href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html
@@ -35781,6 +35813,25 @@ references:
   fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(System.Collections.Generic.List(Of T))
   nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
   nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
+- uid: StansAssets.Foundation.Extensions.MaterialExtensions
+  name: MaterialExtensions
+  href: foundation/StansAssets.Foundation.Extensions.MaterialExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.MaterialExtensions
+  fullName: StansAssets.Foundation.Extensions.MaterialExtensions
+  nameWithType: MaterialExtensions
+- uid: StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha(Material,System.Single)
+  name: SetAlpha(Material, Single)
+  href: foundation/StansAssets.Foundation.Extensions.MaterialExtensions.html#StansAssets_Foundation_Extensions_MaterialExtensions_SetAlpha_Material_System_Single_
+  commentId: M:StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha(Material,System.Single)
+  fullName: StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha(Material, System.Single)
+  nameWithType: MaterialExtensions.SetAlpha(Material, Single)
+- uid: StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha*
+  name: SetAlpha
+  href: foundation/StansAssets.Foundation.Extensions.MaterialExtensions.html#StansAssets_Foundation_Extensions_MaterialExtensions_SetAlpha_
+  commentId: Overload:StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.MaterialExtensions.SetAlpha
+  nameWithType: MaterialExtensions.SetAlpha
 - uid: StansAssets.Foundation.Extensions.ObjectExtensions
   name: ObjectExtensions
   href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html
@@ -35813,6 +35864,70 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull
   nameWithType: ObjectExtensions.IsNull
+- uid: StansAssets.Foundation.Extensions.RectTransformExtensions
+  name: RectTransformExtensions
+  href: foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.RectTransformExtensions
+  fullName: StansAssets.Foundation.Extensions.RectTransformExtensions
+  nameWithType: RectTransformExtensions
+- uid: StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect(RectTransform)
+  name: GetScreenRect(RectTransform)
+  href: foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html#StansAssets_Foundation_Extensions_RectTransformExtensions_GetScreenRect_RectTransform_
+  commentId: M:StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect(RectTransform)
+  fullName: StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect(RectTransform)
+  nameWithType: RectTransformExtensions.GetScreenRect(RectTransform)
+- uid: StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect*
+  name: GetScreenRect
+  href: foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html#StansAssets_Foundation_Extensions_RectTransformExtensions_GetScreenRect_
+  commentId: Overload:StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.RectTransformExtensions.GetScreenRect
+  nameWithType: RectTransformExtensions.GetScreenRect
+- uid: StansAssets.Foundation.Extensions.RectTransformExtensions.Reset(RectTransform)
+  name: Reset(RectTransform)
+  href: foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html#StansAssets_Foundation_Extensions_RectTransformExtensions_Reset_RectTransform_
+  commentId: M:StansAssets.Foundation.Extensions.RectTransformExtensions.Reset(RectTransform)
+  fullName: StansAssets.Foundation.Extensions.RectTransformExtensions.Reset(RectTransform)
+  nameWithType: RectTransformExtensions.Reset(RectTransform)
+- uid: StansAssets.Foundation.Extensions.RectTransformExtensions.Reset*
+  name: Reset
+  href: foundation/StansAssets.Foundation.Extensions.RectTransformExtensions.html#StansAssets_Foundation_Extensions_RectTransformExtensions_Reset_
+  commentId: Overload:StansAssets.Foundation.Extensions.RectTransformExtensions.Reset
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.RectTransformExtensions.Reset
+  nameWithType: RectTransformExtensions.Reset
+- uid: StansAssets.Foundation.Extensions.RendererExtensions
+  name: RendererExtensions
+  href: foundation/StansAssets.Foundation.Extensions.RendererExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.RendererExtensions
+  fullName: StansAssets.Foundation.Extensions.RendererExtensions
+  nameWithType: RendererExtensions
+- uid: StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds(Renderer)
+  name: GetRendererBounds(Renderer)
+  href: foundation/StansAssets.Foundation.Extensions.RendererExtensions.html#StansAssets_Foundation_Extensions_RendererExtensions_GetRendererBounds_Renderer_
+  commentId: M:StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds(Renderer)
+  fullName: StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds(Renderer)
+  nameWithType: RendererExtensions.GetRendererBounds(Renderer)
+- uid: StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds*
+  name: GetRendererBounds
+  href: foundation/StansAssets.Foundation.Extensions.RendererExtensions.html#StansAssets_Foundation_Extensions_RendererExtensions_GetRendererBounds_
+  commentId: Overload:StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.RendererExtensions.GetRendererBounds
+  nameWithType: RendererExtensions.GetRendererBounds
+- uid: StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom(Renderer,Camera)
+  name: IsVisibleFrom(Renderer, Camera)
+  href: foundation/StansAssets.Foundation.Extensions.RendererExtensions.html#StansAssets_Foundation_Extensions_RendererExtensions_IsVisibleFrom_Renderer_Camera_
+  commentId: M:StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom(Renderer,Camera)
+  fullName: StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom(Renderer, Camera)
+  nameWithType: RendererExtensions.IsVisibleFrom(Renderer, Camera)
+- uid: StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom*
+  name: IsVisibleFrom
+  href: foundation/StansAssets.Foundation.Extensions.RendererExtensions.html#StansAssets_Foundation_Extensions_RendererExtensions_IsVisibleFrom_
+  commentId: Overload:StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom
+  nameWithType: RendererExtensions.IsVisibleFrom
 - uid: StansAssets.Foundation.Extensions.StringExtensions
   name: StringExtensions
   href: foundation/StansAssets.Foundation.Extensions.StringExtensions.html
@@ -35916,6 +36031,19 @@ references:
   commentId: T:StansAssets.Foundation.Extensions.Texture2DExtensions
   fullName: StansAssets.Foundation.Extensions.Texture2DExtensions
   nameWithType: Texture2DExtensions
+- uid: StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite(Texture2D)
+  name: CreateSprite(Texture2D)
+  href: foundation/StansAssets.Foundation.Extensions.Texture2DExtensions.html#StansAssets_Foundation_Extensions_Texture2DExtensions_CreateSprite_Texture2D_
+  commentId: M:StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite(Texture2D)
+  fullName: StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite(Texture2D)
+  nameWithType: Texture2DExtensions.CreateSprite(Texture2D)
+- uid: StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite*
+  name: CreateSprite
+  href: foundation/StansAssets.Foundation.Extensions.Texture2DExtensions.html#StansAssets_Foundation_Extensions_Texture2DExtensions_CreateSprite_
+  commentId: Overload:StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.Texture2DExtensions.CreateSprite
+  nameWithType: Texture2DExtensions.CreateSprite
 - uid: StansAssets.Foundation.Extensions.Texture2DExtensions.LoadFromBase64(Texture2D,System.String)
   name: LoadFromBase64(Texture2D, String)
   href: foundation/StansAssets.Foundation.Extensions.Texture2DExtensions.html#StansAssets_Foundation_Extensions_Texture2DExtensions_LoadFromBase64_Texture2D_System_String_
@@ -35987,19 +36115,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.TransformExtensions.Reset
   nameWithType: TransformExtensions.Reset
-- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
-  name: SetLossyScaleScale(Transform, Vector3)
-  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScaleScale_Transform_Vector3_
-  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform,Vector3)
-  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale(Transform, Vector3)
-  nameWithType: TransformExtensions.SetLossyScaleScale(Transform, Vector3)
-- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale*
-  name: SetLossyScaleScale
-  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScaleScale_
-  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale(Transform,Vector3)
+  name: SetLossyScale(Transform, Vector3)
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScale_Transform_Vector3_
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale(Transform,Vector3)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale(Transform, Vector3)
+  nameWithType: TransformExtensions.SetLossyScale(Transform, Vector3)
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale*
+  name: SetLossyScale
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetLossyScale_
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale
   isSpec: "True"
-  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScaleScale
-  nameWithType: TransformExtensions.SetLossyScaleScale
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale
+  nameWithType: TransformExtensions.SetLossyScale
 - uid: StansAssets.Foundation.Extensions.Vector2Extensions
   name: Vector2Extensions
   href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html
@@ -36785,6 +36913,35 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.FindType
   nameWithType: ReflectionUtility.FindType
+- uid: StansAssets.Foundation.ReflectionUtility.GetPropertyValue(System.Object,System.String,BindingFlags)
+  name: GetPropertyValue(Object, String, BindingFlags)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_GetPropertyValue_System_Object_System_String_BindingFlags_
+  commentId: M:StansAssets.Foundation.ReflectionUtility.GetPropertyValue(System.Object,System.String,BindingFlags)
+  fullName: StansAssets.Foundation.ReflectionUtility.GetPropertyValue(System.Object, System.String, BindingFlags)
+  nameWithType: ReflectionUtility.GetPropertyValue(Object, String, BindingFlags)
+- uid: StansAssets.Foundation.ReflectionUtility.GetPropertyValue*
+  name: GetPropertyValue
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_GetPropertyValue_
+  commentId: Overload:StansAssets.Foundation.ReflectionUtility.GetPropertyValue
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ReflectionUtility.GetPropertyValue
+  nameWithType: ReflectionUtility.GetPropertyValue
+- uid: StansAssets.Foundation.ReflectionUtility.SetPropertyValue*
+  name: SetPropertyValue
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_SetPropertyValue_
+  commentId: Overload:StansAssets.Foundation.ReflectionUtility.SetPropertyValue
+  isSpec: "True"
+  fullName: StansAssets.Foundation.ReflectionUtility.SetPropertyValue
+  nameWithType: ReflectionUtility.SetPropertyValue
+- uid: StansAssets.Foundation.ReflectionUtility.SetPropertyValue``1(System.Object,System.String,``0,BindingFlags)
+  name: SetPropertyValue<T>(Object, String, T, BindingFlags)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_SetPropertyValue__1_System_Object_System_String___0_BindingFlags_
+  commentId: M:StansAssets.Foundation.ReflectionUtility.SetPropertyValue``1(System.Object,System.String,``0,BindingFlags)
+  name.vb: SetPropertyValue(Of T)(Object, String, T, BindingFlags)
+  fullName: StansAssets.Foundation.ReflectionUtility.SetPropertyValue<T>(System.Object, System.String, T, BindingFlags)
+  fullName.vb: StansAssets.Foundation.ReflectionUtility.SetPropertyValue(Of T)(System.Object, System.String, T, BindingFlags)
+  nameWithType: ReflectionUtility.SetPropertyValue<T>(Object, String, T, BindingFlags)
+  nameWithType.vb: ReflectionUtility.SetPropertyValue(Of T)(Object, String, T, BindingFlags)
 - uid: StansAssets.Foundation.Texture2DUtility
   name: Texture2DUtility
   href: foundation/StansAssets.Foundation.Texture2DUtility.html
