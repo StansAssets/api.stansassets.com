@@ -1,0 +1,586 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.CellValue
+  commentId: T:StansAssets.GoogleDoc.CellValue
+  id: CellValue
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.CellValue.#ctor
+  - StansAssets.GoogleDoc.CellValue.#ctor(System.String,System.String,System.String)
+  - StansAssets.GoogleDoc.CellValue.FormattedValue
+  - StansAssets.GoogleDoc.CellValue.FormulaValue
+  - StansAssets.GoogleDoc.CellValue.GetValue``1
+  - StansAssets.GoogleDoc.CellValue.StringValue
+  langs:
+  - csharp
+  - vb
+  name: CellValue
+  nameWithType: CellValue
+  fullName: StansAssets.GoogleDoc.CellValue
+  type: Class
+  source:
+    id: CellValue
+    path: ''
+    startLine: 886
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe kinds of value that a cell in a spreadsheet can have.\n"
+  example: []
+  syntax:
+    content: public class CellValue
+    content.vb: Public Class CellValue
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.CellValue.FormattedValue
+  commentId: P:StansAssets.GoogleDoc.CellValue.FormattedValue
+  id: FormattedValue
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: FormattedValue
+  nameWithType: CellValue.FormattedValue
+  fullName: StansAssets.GoogleDoc.CellValue.FormattedValue
+  type: Property
+  source:
+    id: FormattedValue
+    path: ''
+    startLine: 892
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe formatted value of the cell. This is the value as it&apos;s shown to the user.\n"
+  example: []
+  syntax:
+    content: public string FormattedValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FormattedValue As String
+  overload: StansAssets.GoogleDoc.CellValue.FormattedValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.CellValue.FormulaValue
+  commentId: P:StansAssets.GoogleDoc.CellValue.FormulaValue
+  id: FormulaValue
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: FormulaValue
+  nameWithType: CellValue.FormulaValue
+  fullName: StansAssets.GoogleDoc.CellValue.FormulaValue
+  type: Property
+  source:
+    id: FormulaValue
+    path: ''
+    startLine: 897
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nRepresents a formula. \n"
+  example: []
+  syntax:
+    content: public string FormulaValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FormulaValue As String
+  overload: StansAssets.GoogleDoc.CellValue.FormulaValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.CellValue.StringValue
+  commentId: P:StansAssets.GoogleDoc.CellValue.StringValue
+  id: StringValue
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: StringValue
+  nameWithType: CellValue.StringValue
+  fullName: StansAssets.GoogleDoc.CellValue.StringValue
+  type: Property
+  source:
+    id: StringValue
+    path: ''
+    startLine: 902
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nRepresents a value in string format. \n"
+  example: []
+  syntax:
+    content: public string StringValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property StringValue As String
+  overload: StansAssets.GoogleDoc.CellValue.StringValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.CellValue.#ctor
+  commentId: M:StansAssets.GoogleDoc.CellValue.#ctor
+  id: '#ctor'
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: CellValue()
+  nameWithType: CellValue.CellValue()
+  fullName: StansAssets.GoogleDoc.CellValue.CellValue()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 904
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public CellValue()
+    content.vb: Public Sub New
+  overload: StansAssets.GoogleDoc.CellValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.CellValue.#ctor(System.String,System.String,System.String)
+  commentId: M:StansAssets.GoogleDoc.CellValue.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: CellValue(String, String, String)
+  nameWithType: CellValue.CellValue(String, String, String)
+  fullName: StansAssets.GoogleDoc.CellValue.CellValue(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 906
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public CellValue(string formattedValue, string formulaValue, string stringValue)
+    parameters:
+    - id: formattedValue
+      type: System.String
+    - id: formulaValue
+      type: System.String
+    - id: stringValue
+      type: System.String
+    content.vb: Public Sub New(formattedValue As String, formulaValue As String, stringValue As String)
+  overload: StansAssets.GoogleDoc.CellValue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.CellValue.GetValue``1
+  commentId: M:StansAssets.GoogleDoc.CellValue.GetValue``1
+  id: GetValue``1
+  parent: StansAssets.GoogleDoc.CellValue
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>()
+  nameWithType: CellValue.GetValue<T>()
+  fullName: StansAssets.GoogleDoc.CellValue.GetValue<T>()
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 921
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nConverts Cell <xref href=\"StansAssets.GoogleDoc.CellValue.StringValue\" data-throw-if-not-resolved=\"false\"></xref> to the specified type.\nSome special cases:\n* If <see cref=\"!:T\"></see> is a non-primitive serializable value the <see cref=\"!:JsonUtility\"></see> is used to make object from string.\n"
+  example: []
+  syntax:
+    content: public T GetValue<T>()
+    typeParameters:
+    - id: T
+      description: Type you want to convert a value to.
+    return:
+      type: '{T}'
+      description: Converted value.
+    content.vb: Public Function GetValue(Of T) As T
+  overload: StansAssets.GoogleDoc.CellValue.GetValue*
+  nameWithType.vb: CellValue.GetValue(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.CellValue.GetValue(Of T)()
+  name.vb: GetValue(Of T)()
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.CellValue.FormattedValue*
+  commentId: Overload:StansAssets.GoogleDoc.CellValue.FormattedValue
+  name: FormattedValue
+  nameWithType: CellValue.FormattedValue
+  fullName: StansAssets.GoogleDoc.CellValue.FormattedValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.CellValue.FormulaValue*
+  commentId: Overload:StansAssets.GoogleDoc.CellValue.FormulaValue
+  name: FormulaValue
+  nameWithType: CellValue.FormulaValue
+  fullName: StansAssets.GoogleDoc.CellValue.FormulaValue
+- uid: StansAssets.GoogleDoc.CellValue.StringValue*
+  commentId: Overload:StansAssets.GoogleDoc.CellValue.StringValue
+  name: StringValue
+  nameWithType: CellValue.StringValue
+  fullName: StansAssets.GoogleDoc.CellValue.StringValue
+- uid: StansAssets.GoogleDoc.CellValue.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.CellValue.#ctor
+  name: CellValue
+  nameWithType: CellValue.CellValue
+  fullName: StansAssets.GoogleDoc.CellValue.CellValue
+- uid: StansAssets.GoogleDoc.CellValue.StringValue
+  commentId: P:StansAssets.GoogleDoc.CellValue.StringValue
+  isExternal: true
+- uid: StansAssets.GoogleDoc.CellValue.GetValue*
+  commentId: Overload:StansAssets.GoogleDoc.CellValue.GetValue
+  name: GetValue
+  nameWithType: CellValue.GetValue
+  fullName: StansAssets.GoogleDoc.CellValue.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

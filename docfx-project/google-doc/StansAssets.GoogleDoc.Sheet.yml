@@ -1,0 +1,1333 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Sheet
+  commentId: T:StansAssets.GoogleDoc.Sheet
+  id: Sheet
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.Sheet.GetCell(System.Int32,System.Int32)
+  - StansAssets.GoogleDoc.Sheet.GetCell(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.Int32,System.Int32)
+  - StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetColumn(System.Int32)
+  - StansAssets.GoogleDoc.Sheet.GetColumn(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.Int32)
+  - StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetRange(StansAssets.GoogleDoc.GridRange)
+  - StansAssets.GoogleDoc.Sheet.GetRange(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetRow(System.Int32)
+  - StansAssets.GoogleDoc.Sheet.GetRowValues``1(System.Int32)
+  - StansAssets.GoogleDoc.Sheet.NamedRanges
+  - StansAssets.GoogleDoc.Sheet.Rows
+  - StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
+  langs:
+  - csharp
+  - vb
+  name: Sheet
+  nameWithType: Sheet
+  fullName: StansAssets.GoogleDoc.Sheet
+  type: Class
+  source:
+    id: Sheet
+    path: ''
+    startLine: 945
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nA sheet in a spreadsheet.\n"
+  example: []
+  syntax:
+    content: 'public class Sheet : SheetMetadata'
+    content.vb: >-
+      Public Class Sheet
+          Inherits SheetMetadata
+  inheritance:
+  - System.Object
+  - StansAssets.GoogleDoc.SheetMetadata
+  inheritedMembers:
+  - StansAssets.GoogleDoc.SheetMetadata.m_Name
+  - StansAssets.GoogleDoc.SheetMetadata.Name
+  - StansAssets.GoogleDoc.SheetMetadata.m_Id
+  - StansAssets.GoogleDoc.SheetMetadata.Id
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.Sheet.NamedRanges
+  commentId: P:StansAssets.GoogleDoc.Sheet.NamedRanges
+  id: NamedRanges
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: NamedRanges
+  nameWithType: Sheet.NamedRanges
+  fullName: StansAssets.GoogleDoc.Sheet.NamedRanges
+  type: Property
+  source:
+    id: NamedRanges
+    path: ''
+    startLine: 955
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe named ranges defined in a sheet.\n"
+  example: []
+  syntax:
+    content: public IEnumerable<NamedRange> NamedRanges { get; }
+    parameters: []
+    return:
+      type: IEnumerable{StansAssets.GoogleDoc.NamedRange}
+    content.vb: Public ReadOnly Property NamedRanges As IEnumerable(Of NamedRange)
+  overload: StansAssets.GoogleDoc.Sheet.NamedRanges*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Sheet.Rows
+  commentId: P:StansAssets.GoogleDoc.Sheet.Rows
+  id: Rows
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: Sheet.Rows
+  fullName: StansAssets.GoogleDoc.Sheet.Rows
+  type: Property
+  source:
+    id: Rows
+    path: ''
+    startLine: 960
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nSheet Rows are zero-based\n"
+  example: []
+  syntax:
+    content: public IEnumerable<RowData> Rows { get; }
+    parameters: []
+    return:
+      type: IEnumerable{StansAssets.GoogleDoc.RowData}
+    content.vb: Public ReadOnly Property Rows As IEnumerable(Of RowData)
+  overload: StansAssets.GoogleDoc.Sheet.Rows*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Sheet.GetCell(System.Int32,System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetCell(System.Int32,System.Int32)
+  id: GetCell(System.Int32,System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetCell(Int32, Int32)
+  nameWithType: Sheet.GetCell(Int32, Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetCell(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: GetCell
+    path: ''
+    startLine: 1024
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public Cell GetCell(int row, int column)
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    return:
+      type: StansAssets.GoogleDoc.Cell
+    content.vb: Public Function GetCell(row As Integer, column As Integer) As Cell
+  overload: StansAssets.GoogleDoc.Sheet.GetCell*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetCell(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetCell(System.String)
+  id: GetCell(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetCell(String)
+  nameWithType: Sheet.GetCell(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetCell(System.String)
+  type: Method
+  source:
+    id: GetCell
+    path: ''
+    startLine: 1043
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nGet sell by name. For example &quot;A1&quot; or &quot;B5&quot;\nAttention: When transferring information, the site api ignores empty cells (but the lines remain unchanged, even if all its cells are empty).\nTherefore, the reference to the cell name will differ from the name on the site (for the cell name to match the name on the site, the table must be filled with data without blank cells)\n"
+  example: []
+  syntax:
+    content: public Cell GetCell(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the cell.
+    return:
+      type: StansAssets.GoogleDoc.Cell
+      description: Cell objects or `null` if cell wasn&apos;t found.
+    content.vb: Public Function GetCell(name As String) As Cell
+  overload: StansAssets.GoogleDoc.Sheet.GetCell*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.Int32,System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.Int32,System.Int32)
+  id: GetCellValue``1(System.Int32,System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetCellValue<T>(Int32, Int32)
+  nameWithType: Sheet.GetCellValue<T>(Int32, Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetCellValue<T>(System.Int32, System.Int32)
+  type: Method
+  source:
+    id: GetCellValue
+    path: ''
+    startLine: 1059
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public T GetCellValue<T>(int row, int column)
+    parameters:
+    - id: row
+      type: System.Int32
+    - id: column
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetCellValue(Of T)(row As Integer, column As Integer) As T
+  overload: StansAssets.GoogleDoc.Sheet.GetCellValue*
+  nameWithType.vb: Sheet.GetCellValue(Of T)(Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetCellValue(Of T)(System.Int32, System.Int32)
+  name.vb: GetCellValue(Of T)(Int32, Int32)
+- uid: StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetCellValue``1(System.String)
+  id: GetCellValue``1(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetCellValue<T>(String)
+  nameWithType: Sheet.GetCellValue<T>(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetCellValue<T>(System.String)
+  type: Method
+  source:
+    id: GetCellValue
+    path: ''
+    startLine: 1064
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public T GetCellValue<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetCellValue(Of T)(name As String) As T
+  overload: StansAssets.GoogleDoc.Sheet.GetCellValue*
+  nameWithType.vb: Sheet.GetCellValue(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetCellValue(Of T)(System.String)
+  name.vb: GetCellValue(Of T)(String)
+- uid: StansAssets.GoogleDoc.Sheet.GetRow(System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetRow(System.Int32)
+  id: GetRow(System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetRow(Int32)
+  nameWithType: Sheet.GetRow(Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetRow(System.Int32)
+  type: Method
+  source:
+    id: GetRow
+    path: ''
+    startLine: 1074
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells in the row.\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetRow(int row)
+    parameters:
+    - id: row
+      type: System.Int32
+      description: Row index. Index starts from 0
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+      description: Cells List.
+    content.vb: Public Function GetRow(row As Integer) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetRow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetRowValues``1(System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetRowValues``1(System.Int32)
+  id: GetRowValues``1(System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetRowValues<T>(Int32)
+  nameWithType: Sheet.GetRowValues<T>(Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetRowValues<T>(System.Int32)
+  type: Method
+  source:
+    id: GetRowValues
+    path: ''
+    startLine: 1085
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public List<T> GetRowValues<T>(int row)
+    parameters:
+    - id: row
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+    content.vb: Public Function GetRowValues(Of T)(row As Integer) As List(Of T)
+  overload: StansAssets.GoogleDoc.Sheet.GetRowValues*
+  nameWithType.vb: Sheet.GetRowValues(Of T)(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetRowValues(Of T)(System.Int32)
+  name.vb: GetRowValues(Of T)(Int32)
+- uid: StansAssets.GoogleDoc.Sheet.GetColumn(System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetColumn(System.Int32)
+  id: GetColumn(System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetColumn(Int32)
+  nameWithType: Sheet.GetColumn(Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumn(System.Int32)
+  type: Method
+  source:
+    id: GetColumn
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells in the column.\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetColumn(int column)
+    parameters:
+    - id: column
+      type: System.Int32
+      description: The name of the column
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+      description: Cells List.
+    content.vb: Public Function GetColumn(column As Integer) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetColumn(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetColumn(System.String)
+  id: GetColumn(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetColumn(String)
+  nameWithType: Sheet.GetColumn(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumn(System.String)
+  type: Method
+  source:
+    id: GetColumn
+    path: ''
+    startLine: 1111
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells in the column.\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetColumn(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Column index. Index starts from 0
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+      description: Cells List.
+    content.vb: Public Function GetColumn(name As String) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.Int32)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.Int32)
+  id: GetColumnValues``1(System.Int32)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetColumnValues<T>(Int32)
+  nameWithType: Sheet.GetColumnValues<T>(Int32)
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumnValues<T>(System.Int32)
+  type: Method
+  source:
+    id: GetColumnValues
+    path: ''
+    startLine: 1121
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public List<T> GetColumnValues<T>(int column)
+    parameters:
+    - id: column
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+    content.vb: Public Function GetColumnValues(Of T)(column As Integer) As List(Of T)
+  overload: StansAssets.GoogleDoc.Sheet.GetColumnValues*
+  nameWithType.vb: Sheet.GetColumnValues(Of T)(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetColumnValues(Of T)(System.Int32)
+  name.vb: GetColumnValues(Of T)(Int32)
+- uid: StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.String)
+  id: GetColumnValues``1(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetColumnValues<T>(String)
+  nameWithType: Sheet.GetColumnValues<T>(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumnValues<T>(System.String)
+  type: Method
+  source:
+    id: GetColumnValues
+    path: ''
+    startLine: 1126
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public List<T> GetColumnValues<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+    content.vb: Public Function GetColumnValues(Of T)(name As String) As List(Of T)
+  overload: StansAssets.GoogleDoc.Sheet.GetColumnValues*
+  nameWithType.vb: Sheet.GetColumnValues(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetColumnValues(Of T)(System.String)
+  name.vb: GetColumnValues(Of T)(String)
+- uid: StansAssets.GoogleDoc.Sheet.GetRange(StansAssets.GoogleDoc.GridRange)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetRange(StansAssets.GoogleDoc.GridRange)
+  id: GetRange(StansAssets.GoogleDoc.GridRange)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetRange(GridRange)
+  nameWithType: Sheet.GetRange(GridRange)
+  fullName: StansAssets.GoogleDoc.Sheet.GetRange(StansAssets.GoogleDoc.GridRange)
+  type: Method
+  source:
+    id: GetRange
+    path: ''
+    startLine: 1137
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells in the range.\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetRange(GridRange range)
+    parameters:
+    - id: range
+      type: StansAssets.GoogleDoc.GridRange
+      description: range consist of 2 point(start of range and end of range)
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+      description: Cells List.
+    content.vb: Public Function GetRange(range As GridRange) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetRange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetRange(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetRange(System.String)
+  id: GetRange(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetRange(String)
+  nameWithType: Sheet.GetRange(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetRange(System.String)
+  type: Method
+  source:
+    id: GetRange
+    path: ''
+    startLine: 1205
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells in the range.\n<p><strong>Example-</strong></p><ul><li>A1:B2</li><li>A:B</li><li>1:2</li></ul>\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetRange(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the range
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+      description: Cells List.
+    content.vb: Public Function GetRange(name As String) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetRange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
+  id: GetNamedRangeCells(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetNamedRangeCells(String)
+  nameWithType: Sheet.GetNamedRangeCells(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
+  type: Method
+  source:
+    id: GetNamedRangeCells
+    path: ''
+    startLine: 1223
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns a list of <xref href=\"StansAssets.GoogleDoc.Cell\" data-throw-if-not-resolved=\"false\"></xref> objects of the requested Named Range.\n"
+  example: []
+  syntax:
+    content: public List<Cell> GetNamedRangeCells(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the requested Named Range
+    return:
+      type: List{StansAssets.GoogleDoc.Cell}
+    content.vb: Public Function GetNamedRangeCells(name As String) As List(Of Cell)
+  overload: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
+  commentId: M:StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
+  id: UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: UpdateCell(Int32, Int32, CellValue)
+  nameWithType: Sheet.UpdateCell(Int32, Int32, CellValue)
+  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32, System.Int32, StansAssets.GoogleDoc.CellValue)
+  type: Method
+  source:
+    id: UpdateCell
+    path: ''
+    startLine: 1237
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nUpdates the value for a cell, if any, or create a new cell with that value\n"
+  example: []
+  syntax:
+    content: public void UpdateCell(int row, int column, CellValue cellValue)
+    parameters:
+    - id: row
+      type: System.Int32
+      description: ''
+    - id: column
+      type: System.Int32
+      description: ''
+    - id: cellValue
+      type: StansAssets.GoogleDoc.CellValue
+      description: ''
+    content.vb: Public Sub UpdateCell(row As Integer, column As Integer, cellValue As CellValue)
+  overload: StansAssets.GoogleDoc.Sheet.UpdateCell*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
+  id: GetNamedRangeValues``1(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetNamedRangeValues<T>(String)
+  nameWithType: Sheet.GetNamedRangeValues<T>(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues<T>(System.String)
+  type: Method
+  source:
+    id: GetNamedRangeValues
+    path: ''
+    startLine: 1265
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public List<T> GetNamedRangeValues<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+    content.vb: Public Function GetNamedRangeValues(Of T)(name As String) As List(Of T)
+  overload: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues*
+  nameWithType.vb: Sheet.GetNamedRangeValues(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues(Of T)(System.String)
+  name.vb: GetNamedRangeValues(Of T)(String)
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: StansAssets.GoogleDoc.SheetMetadata
+  commentId: T:StansAssets.GoogleDoc.SheetMetadata
+  parent: StansAssets.GoogleDoc
+  name: SheetMetadata
+  nameWithType: SheetMetadata
+  fullName: StansAssets.GoogleDoc.SheetMetadata
+- uid: StansAssets.GoogleDoc.SheetMetadata.m_Name
+  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Name
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  name: m_Name
+  nameWithType: SheetMetadata.m_Name
+  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Name
+- uid: StansAssets.GoogleDoc.SheetMetadata.Name
+  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Name
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  name: Name
+  nameWithType: SheetMetadata.Name
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
+- uid: StansAssets.GoogleDoc.SheetMetadata.m_Id
+  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Id
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  name: m_Id
+  nameWithType: SheetMetadata.m_Id
+  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Id
+- uid: StansAssets.GoogleDoc.SheetMetadata.Id
+  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Id
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  name: Id
+  nameWithType: SheetMetadata.Id
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.Sheet.NamedRanges*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.NamedRanges
+  name: NamedRanges
+  nameWithType: Sheet.NamedRanges
+  fullName: StansAssets.GoogleDoc.Sheet.NamedRanges
+- uid: IEnumerable{StansAssets.GoogleDoc.NamedRange}
+  commentId: '!:IEnumerable{StansAssets.GoogleDoc.NamedRange}'
+  definition: IEnumerable`1
+  name: IEnumerable<NamedRange>
+  nameWithType: IEnumerable<NamedRange>
+  fullName: IEnumerable<StansAssets.GoogleDoc.NamedRange>
+  nameWithType.vb: IEnumerable(Of NamedRange)
+  fullName.vb: IEnumerable(Of StansAssets.GoogleDoc.NamedRange)
+  name.vb: IEnumerable(Of NamedRange)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.GoogleDoc.NamedRange
+    name: NamedRange
+    nameWithType: NamedRange
+    fullName: StansAssets.GoogleDoc.NamedRange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.GoogleDoc.NamedRange
+    name: NamedRange
+    nameWithType: NamedRange
+    fullName: StansAssets.GoogleDoc.NamedRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.Sheet.Rows*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.Rows
+  name: Rows
+  nameWithType: Sheet.Rows
+  fullName: StansAssets.GoogleDoc.Sheet.Rows
+- uid: IEnumerable{StansAssets.GoogleDoc.RowData}
+  commentId: '!:IEnumerable{StansAssets.GoogleDoc.RowData}'
+  definition: IEnumerable`1
+  name: IEnumerable<RowData>
+  nameWithType: IEnumerable<RowData>
+  fullName: IEnumerable<StansAssets.GoogleDoc.RowData>
+  nameWithType.vb: IEnumerable(Of RowData)
+  fullName.vb: IEnumerable(Of StansAssets.GoogleDoc.RowData)
+  name.vb: IEnumerable(Of RowData)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.GoogleDoc.RowData
+    name: RowData
+    nameWithType: RowData
+    fullName: StansAssets.GoogleDoc.RowData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.GoogleDoc.RowData
+    name: RowData
+    nameWithType: RowData
+    fullName: StansAssets.GoogleDoc.RowData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.Sheet.GetCell*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetCell
+  name: GetCell
+  nameWithType: Sheet.GetCell
+  fullName: StansAssets.GoogleDoc.Sheet.GetCell
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StansAssets.GoogleDoc.Cell
+  commentId: T:StansAssets.GoogleDoc.Cell
+  parent: StansAssets.GoogleDoc
+  name: Cell
+  nameWithType: Cell
+  fullName: StansAssets.GoogleDoc.Cell
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.Sheet.GetCellValue*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetCellValue
+  name: GetCellValue
+  nameWithType: Sheet.GetCellValue
+  fullName: StansAssets.GoogleDoc.Sheet.GetCellValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StansAssets.GoogleDoc.Sheet.GetRow*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetRow
+  name: GetRow
+  nameWithType: Sheet.GetRow
+  fullName: StansAssets.GoogleDoc.Sheet.GetRow
+- uid: List{StansAssets.GoogleDoc.Cell}
+  commentId: '!:List{StansAssets.GoogleDoc.Cell}'
+  definition: List`1
+  name: List<Cell>
+  nameWithType: List<Cell>
+  fullName: List<StansAssets.GoogleDoc.Cell>
+  nameWithType.vb: List(Of Cell)
+  fullName.vb: List(Of StansAssets.GoogleDoc.Cell)
+  name.vb: List(Of Cell)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.GoogleDoc.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: StansAssets.GoogleDoc.Cell
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.GoogleDoc.Cell
+    name: Cell
+    nameWithType: Cell
+    fullName: StansAssets.GoogleDoc.Cell
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.Sheet.GetRowValues*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetRowValues
+  name: GetRowValues
+  nameWithType: Sheet.GetRowValues
+  fullName: StansAssets.GoogleDoc.Sheet.GetRowValues
+- uid: List{{T}}
+  commentId: '!:List{``0}'
+  definition: List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.Sheet.GetColumn*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetColumn
+  name: GetColumn
+  nameWithType: Sheet.GetColumn
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumn
+- uid: StansAssets.GoogleDoc.Sheet.GetColumnValues*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetColumnValues
+  name: GetColumnValues
+  nameWithType: Sheet.GetColumnValues
+  fullName: StansAssets.GoogleDoc.Sheet.GetColumnValues
+- uid: StansAssets.GoogleDoc.Sheet.GetRange*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetRange
+  name: GetRange
+  nameWithType: Sheet.GetRange
+  fullName: StansAssets.GoogleDoc.Sheet.GetRange
+- uid: StansAssets.GoogleDoc.GridRange
+  commentId: T:StansAssets.GoogleDoc.GridRange
+  parent: StansAssets.GoogleDoc
+  name: GridRange
+  nameWithType: GridRange
+  fullName: StansAssets.GoogleDoc.GridRange
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetNamedRangeCells
+  name: GetNamedRangeCells
+  nameWithType: Sheet.GetNamedRangeCells
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells
+- uid: StansAssets.GoogleDoc.Sheet.UpdateCell*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.UpdateCell
+  name: UpdateCell
+  nameWithType: Sheet.UpdateCell
+  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell
+- uid: StansAssets.GoogleDoc.CellValue
+  commentId: T:StansAssets.GoogleDoc.CellValue
+  parent: StansAssets.GoogleDoc
+  name: CellValue
+  nameWithType: CellValue
+  fullName: StansAssets.GoogleDoc.CellValue
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetNamedRangeValues
+  name: GetNamedRangeValues
+  nameWithType: Sheet.GetNamedRangeValues
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues

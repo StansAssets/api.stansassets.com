@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.PackageSample
+  commentId: N:StansAssets.PackageSample
+  id: StansAssets.PackageSample
+  children:
+  - StansAssets.PackageSample.MyPublicRuntimeExampleClass
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.PackageSample
+  nameWithType: StansAssets.PackageSample
+  fullName: StansAssets.PackageSample
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.PackageSample.MyPublicRuntimeExampleClass
+  commentId: T:StansAssets.PackageSample.MyPublicRuntimeExampleClass
+  name: MyPublicRuntimeExampleClass
+  nameWithType: MyPublicRuntimeExampleClass
+  fullName: StansAssets.PackageSample.MyPublicRuntimeExampleClass

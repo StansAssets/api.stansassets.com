@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.LocalizationTab
+  commentId: T:StansAssets.GoogleDoc.LocalizationTab
+  id: LocalizationTab
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.LocalizationTab.#ctor
+  langs:
+  - csharp
+  - vb
+  name: LocalizationTab
+  nameWithType: LocalizationTab
+  fullName: StansAssets.GoogleDoc.LocalizationTab
+  type: Class
+  source:
+    id: LocalizationTab
+    path: ''
+    startLine: 2229
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: 'public class LocalizationTab : BaseTab'
+    content.vb: >-
+      Public Class LocalizationTab
+          Inherits BaseTab
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.LocalizationTab.#ctor
+  commentId: M:StansAssets.GoogleDoc.LocalizationTab.#ctor
+  id: '#ctor'
+  parent: StansAssets.GoogleDoc.LocalizationTab
+  langs:
+  - csharp
+  - vb
+  name: LocalizationTab()
+  nameWithType: LocalizationTab.LocalizationTab()
+  fullName: StansAssets.GoogleDoc.LocalizationTab.LocalizationTab()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2231
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public LocalizationTab()
+    content.vb: Public Sub New
+  overload: StansAssets.GoogleDoc.LocalizationTab.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.LocalizationTab.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.LocalizationTab.#ctor
+  name: LocalizationTab
+  nameWithType: LocalizationTab.LocalizationTab
+  fullName: StansAssets.GoogleDoc.LocalizationTab.LocalizationTab

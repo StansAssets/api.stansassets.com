@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.GridRange
+  commentId: T:StansAssets.GoogleDoc.GridRange
+  id: GridRange
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.GridRange.#ctor
+  - StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32)
+  - StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  - StansAssets.GoogleDoc.GridRange.#ctor(System.String)
+  - StansAssets.GoogleDoc.GridRange.EndColumnIndex
+  - StansAssets.GoogleDoc.GridRange.EndRowIndex
+  - StansAssets.GoogleDoc.GridRange.Name
+  - StansAssets.GoogleDoc.GridRange.StartColumnIndex
+  - StansAssets.GoogleDoc.GridRange.StartRowIndex
+  langs:
+  - csharp
+  - vb
+  name: GridRange
+  nameWithType: GridRange
+  fullName: StansAssets.GoogleDoc.GridRange
+  type: Class
+  source:
+    id: GridRange
+    path: ''
+    startLine: 1277
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public class GridRange
+    content.vb: Public Class GridRange
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.GridRange.EndColumnIndex
+  commentId: P:StansAssets.GoogleDoc.GridRange.EndColumnIndex
+  id: EndColumnIndex
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: EndColumnIndex
+  nameWithType: GridRange.EndColumnIndex
+  fullName: StansAssets.GoogleDoc.GridRange.EndColumnIndex
+  type: Property
+  source:
+    id: EndColumnIndex
+    path: ''
+    startLine: 1282
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe end column of the range, property are zero-based or null if unbounded.\n"
+  example: []
+  syntax:
+    content: public int? EndColumnIndex { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property EndColumnIndex As Integer?
+  overload: StansAssets.GoogleDoc.GridRange.EndColumnIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GridRange.EndRowIndex
+  commentId: P:StansAssets.GoogleDoc.GridRange.EndRowIndex
+  id: EndRowIndex
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: EndRowIndex
+  nameWithType: GridRange.EndRowIndex
+  fullName: StansAssets.GoogleDoc.GridRange.EndRowIndex
+  type: Property
+  source:
+    id: EndRowIndex
+    path: ''
+    startLine: 1286
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe end row of the range, property are zero-based or null if unbounded.\n"
+  example: []
+  syntax:
+    content: public int? EndRowIndex { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property EndRowIndex As Integer?
+  overload: StansAssets.GoogleDoc.GridRange.EndRowIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GridRange.StartColumnIndex
+  commentId: P:StansAssets.GoogleDoc.GridRange.StartColumnIndex
+  id: StartColumnIndex
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: StartColumnIndex
+  nameWithType: GridRange.StartColumnIndex
+  fullName: StansAssets.GoogleDoc.GridRange.StartColumnIndex
+  type: Property
+  source:
+    id: StartColumnIndex
+    path: ''
+    startLine: 1290
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe start column of the range, property are zero-based or null if unbounded.\n"
+  example: []
+  syntax:
+    content: public int? StartColumnIndex { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property StartColumnIndex As Integer?
+  overload: StansAssets.GoogleDoc.GridRange.StartColumnIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GridRange.StartRowIndex
+  commentId: P:StansAssets.GoogleDoc.GridRange.StartRowIndex
+  id: StartRowIndex
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: StartRowIndex
+  nameWithType: GridRange.StartRowIndex
+  fullName: StansAssets.GoogleDoc.GridRange.StartRowIndex
+  type: Property
+  source:
+    id: StartRowIndex
+    path: ''
+    startLine: 1294
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe start row of the range, property are zero-based or null if unbounded.\n"
+  example: []
+  syntax:
+    content: public int? StartRowIndex { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public ReadOnly Property StartRowIndex As Integer?
+  overload: StansAssets.GoogleDoc.GridRange.StartRowIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GridRange.Name
+  commentId: P:StansAssets.GoogleDoc.GridRange.Name
+  id: Name
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GridRange.Name
+  fullName: StansAssets.GoogleDoc.GridRange.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1299
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nName of the range. For example A1:B2, A:B, 1:2, etc.\n"
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: StansAssets.GoogleDoc.GridRange.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GridRange.#ctor
+  commentId: M:StansAssets.GoogleDoc.GridRange.#ctor
+  id: '#ctor'
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: GridRange()
+  nameWithType: GridRange.GridRange()
+  fullName: StansAssets.GoogleDoc.GridRange.GridRange()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1301
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public GridRange()
+    content.vb: Public Sub New
+  overload: StansAssets.GoogleDoc.GridRange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.GridRange.#ctor(System.String)
+  commentId: M:StansAssets.GoogleDoc.GridRange.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: GridRange(String)
+  nameWithType: GridRange.GridRange(String)
+  fullName: StansAssets.GoogleDoc.GridRange.GridRange(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1318
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nA range on a sheet. All indexes are zero-based. Start and end index is inclusive.\nAttention: When transferring information, the site api ignores empty cells (but the lines remain unchanged, even if all its cells are empty).\nTherefore, the reference to the cell name will differ from the name on the site (for the cell name to match the name on the site, the table must be filled with data without blank cells)\n<p><strong>Example-</strong></p><ul><li>A1:B2</li><li>A:B</li><li>1:2</li></ul>\n"
+  example: []
+  syntax:
+    content: public GridRange(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the range
+    content.vb: Public Sub New(name As String)
+  overload: StansAssets.GoogleDoc.GridRange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: GridRange(Int32, Int32, Int32, Int32)
+  nameWithType: GridRange.GridRange(Int32, Int32, Int32, Int32)
+  fullName: StansAssets.GoogleDoc.GridRange.GridRange(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1368
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nA range on a sheet. All indexes are zero-based. Start and end index is inclusive.\n"
+  example: []
+  syntax:
+    content: public GridRange(int startRowIndex, int startColumnIndex, int endRowIndex, int endColumnIndex)
+    parameters:
+    - id: startRowIndex
+      type: System.Int32
+      description: number of first row
+    - id: startColumnIndex
+      type: System.Int32
+      description: number of first column
+    - id: endRowIndex
+      type: System.Int32
+      description: number of last row
+    - id: endColumnIndex
+      type: System.Int32
+      description: number of column column
+    content.vb: Public Sub New(startRowIndex As Integer, startColumnIndex As Integer, endRowIndex As Integer, endColumnIndex As Integer)
+  overload: StansAssets.GoogleDoc.GridRange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32)
+  commentId: M:StansAssets.GoogleDoc.GridRange.#ctor(System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32)'
+  parent: StansAssets.GoogleDoc.GridRange
+  langs:
+  - csharp
+  - vb
+  name: GridRange(Int32, Int32, Int32)
+  nameWithType: GridRange.GridRange(Int32, Int32, Int32)
+  fullName: StansAssets.GoogleDoc.GridRange.GridRange(System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1395
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nA range on a sheet. All indexes are zero-based. Start and end index is inclusive.\n"
+  example: []
+  syntax:
+    content: public GridRange(int start, int end, int direction = 0)
+    parameters:
+    - id: start
+      type: System.Int32
+      description: 'start of range '
+    - id: end
+      type: System.Int32
+      description: 'end of range '
+    - id: direction
+      type: System.Int32
+      description: the direction is 0 - rows, otherwise 1 - columns; default is 0
+    content.vb: Public Sub New(start As Integer, end As Integer, direction As Integer = 0)
+  overload: StansAssets.GoogleDoc.GridRange.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.GridRange.EndColumnIndex*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.EndColumnIndex
+  name: EndColumnIndex
+  nameWithType: GridRange.EndColumnIndex
+  fullName: StansAssets.GoogleDoc.GridRange.EndColumnIndex
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.GridRange.EndRowIndex*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.EndRowIndex
+  name: EndRowIndex
+  nameWithType: GridRange.EndRowIndex
+  fullName: StansAssets.GoogleDoc.GridRange.EndRowIndex
+- uid: StansAssets.GoogleDoc.GridRange.StartColumnIndex*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.StartColumnIndex
+  name: StartColumnIndex
+  nameWithType: GridRange.StartColumnIndex
+  fullName: StansAssets.GoogleDoc.GridRange.StartColumnIndex
+- uid: StansAssets.GoogleDoc.GridRange.StartRowIndex*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.StartRowIndex
+  name: StartRowIndex
+  nameWithType: GridRange.StartRowIndex
+  fullName: StansAssets.GoogleDoc.GridRange.StartRowIndex
+- uid: StansAssets.GoogleDoc.GridRange.Name*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.Name
+  name: Name
+  nameWithType: GridRange.Name
+  fullName: StansAssets.GoogleDoc.GridRange.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.GridRange.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.GridRange.#ctor
+  name: GridRange
+  nameWithType: GridRange.GridRange
+  fullName: StansAssets.GoogleDoc.GridRange.GridRange
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,525 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.SheetMetadata
+  commentId: T:StansAssets.GoogleDoc.SheetMetadata
+  id: SheetMetadata
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
+  - StansAssets.GoogleDoc.SheetMetadata.Id
+  - StansAssets.GoogleDoc.SheetMetadata.m_Id
+  - StansAssets.GoogleDoc.SheetMetadata.m_Name
+  - StansAssets.GoogleDoc.SheetMetadata.Name
+  langs:
+  - csharp
+  - vb
+  name: SheetMetadata
+  nameWithType: SheetMetadata
+  fullName: StansAssets.GoogleDoc.SheetMetadata
+  type: Class
+  source:
+    id: SheetMetadata
+    path: ''
+    startLine: 441
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public class SheetMetadata
+    content.vb: Public Class SheetMetadata
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - StansAssets.GoogleDoc.Sheet
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.SheetMetadata.m_Name
+  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Name
+  id: m_Name
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  langs:
+  - csharp
+  - vb
+  name: m_Name
+  nameWithType: SheetMetadata.m_Name
+  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Name
+  type: Field
+  source:
+    id: m_Name
+    path: ''
+    startLine: 445
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: protected string m_Name
+    return:
+      type: System.String
+    content.vb: Protected m_Name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: StansAssets.GoogleDoc.SheetMetadata.Name
+  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Name
+  id: Name
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SheetMetadata.Name
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 450
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe name of the sheet.\n"
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: StansAssets.GoogleDoc.SheetMetadata.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.SheetMetadata.m_Id
+  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Id
+  id: m_Id
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  langs:
+  - csharp
+  - vb
+  name: m_Id
+  nameWithType: SheetMetadata.m_Id
+  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Id
+  type: Field
+  source:
+    id: m_Id
+    path: ''
+    startLine: 453
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: protected int m_Id
+    return:
+      type: System.Int32
+    content.vb: Protected m_Id As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: StansAssets.GoogleDoc.SheetMetadata.Id
+  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Id
+  id: Id
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SheetMetadata.Id
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
+  type: Property
+  source:
+    id: Id
+    path: ''
+    startLine: 458
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe ID of the sheet.\n"
+  example: []
+  syntax:
+    content: public int Id { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Id As Integer
+  overload: StansAssets.GoogleDoc.SheetMetadata.Id*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
+  commentId: M:StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: StansAssets.GoogleDoc.SheetMetadata
+  langs:
+  - csharp
+  - vb
+  name: SheetMetadata(Int32, String)
+  nameWithType: SheetMetadata.SheetMetadata(Int32, String)
+  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata(System.Int32, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 459
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public SheetMetadata(int id, string name)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(id As Integer, name As String)
+  overload: StansAssets.GoogleDoc.SheetMetadata.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.SheetMetadata.Name*
+  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Name
+  name: Name
+  nameWithType: SheetMetadata.Name
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StansAssets.GoogleDoc.SheetMetadata.Id*
+  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Id
+  name: Id
+  nameWithType: SheetMetadata.Id
+  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
+- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.#ctor
+  name: SheetMetadata
+  nameWithType: SheetMetadata.SheetMetadata
+  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata

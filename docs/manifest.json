@@ -2968,6 +2968,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -4095,6 +4098,234 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Cell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Cell.html",
+          "hash": "vthI9BEqEVZIOqDTfncpWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.CellValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.CellValue.html",
+          "hash": "y3CO5i0A9QQ7mTpJzT/MAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnector.html",
+          "hash": "mRZkAoSGUO7yenqb11+eVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorPackage.html",
+          "hash": "utVnMTY42UBJz4FPzShiIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.GridRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.GridRange.html",
+          "hash": "vopnGOH8lbABDbKIoLfmOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.ICellPointer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.ICellPointer.html",
+          "hash": "RmBGl31mXn43Du4Rp2aKqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.LocalizationTab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.LocalizationTab.html",
+          "hash": "Iizmgw/Vq5YstE+NmxPIyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.NamedRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.NamedRange.html",
+          "hash": "fYN7rl/NAkxHtwRE6QIOwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.RowData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.RowData.html",
+          "hash": "nkXPTlc7HjwbBRJ9mpljjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Sheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Sheet.html",
+          "hash": "hpnZb9H2fnc8hP9kFxm9gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.SheetMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.SheetMetadata.html",
+          "hash": "G+8ClYn1KPnuG/xgwiWIzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Spreadsheet.SyncState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Spreadsheet.SyncState.html",
+          "hash": "NpmHTgMzLCNqQP/IWSZJnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Spreadsheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Spreadsheet.html",
+          "hash": "9/7Jg7Iu2zKQFOCgvkECTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html",
+          "hash": "myMgXJqCG1bcynwan72caw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.html",
+          "hash": "1NNTC0xafJ90+AtqF45ZLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.PackageSample.MyPublicRuntimeExampleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.PackageSample.MyPublicRuntimeExampleClass.html",
+          "hash": "wDilx0fssBmLckiP7n/xSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.PackageSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.PackageSample.html",
+          "hash": "yJMrL9kvz4yEWtCDBCACBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "google-doc/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/index.html",
+          "hash": "O8oTmDHmnTGpx6DgsTJDHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "google-doc/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/toc.html",
+          "hash": "LkrfwSq0FUyM+8MJJHV45w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "images/logo_rect_blue.png",
       "output": {
@@ -4111,7 +4342,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wAAnYvIjQG+3yAwANtAO5w=="
+          "hash": "RgYGTTn4Vxgr4UR5sPrJQg=="
         }
       },
       "is_incremental": false,
@@ -6766,7 +6997,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "PEqxJwUUrtj0Ha5I4TUJjQ=="
+          "hash": "ml/wp02tY2vyD4ygfAkQMg=="
         }
       },
       "is_incremental": false,
@@ -8321,9 +8552,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -8422,13 +8650,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 12,
+          "total_file_count": 13,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 678,
+          "total_file_count": 695,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

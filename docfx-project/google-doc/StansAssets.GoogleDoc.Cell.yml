@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Cell
+  commentId: T:StansAssets.GoogleDoc.Cell
+  id: Cell
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.Cell.Column
+  - StansAssets.GoogleDoc.Cell.GetValue``1
+  - StansAssets.GoogleDoc.Cell.Name
+  - StansAssets.GoogleDoc.Cell.Row
+  - StansAssets.GoogleDoc.Cell.Value
+  langs:
+  - csharp
+  - vb
+  name: Cell
+  nameWithType: Cell
+  fullName: StansAssets.GoogleDoc.Cell
+  type: Class
+  source:
+    id: Cell
+    path: ''
+    startLine: 480
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe Spreadsheet Cell.\n"
+  example: []
+  syntax:
+    content: 'public class Cell : ICellPointer'
+    content.vb: >-
+      Public Class Cell
+          Implements ICellPointer
+  inheritance:
+  - System.Object
+  implements:
+  - StansAssets.GoogleDoc.ICellPointer
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.Cell.Row
+  commentId: P:StansAssets.GoogleDoc.Cell.Row
+  id: Row
+  parent: StansAssets.GoogleDoc.Cell
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: Cell.Row
+  fullName: StansAssets.GoogleDoc.Cell.Row
+  type: Property
+  source:
+    id: Row
+    path: ''
+    startLine: 486
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nCell Row. Index starts from `0`.\n"
+  example: []
+  syntax:
+    content: public int Row { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Row As Integer
+  overload: StansAssets.GoogleDoc.Cell.Row*
+  implements:
+  - StansAssets.GoogleDoc.ICellPointer.Row
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Cell.Column
+  commentId: P:StansAssets.GoogleDoc.Cell.Column
+  id: Column
+  parent: StansAssets.GoogleDoc.Cell
+  langs:
+  - csharp
+  - vb
+  name: Column
+  nameWithType: Cell.Column
+  fullName: StansAssets.GoogleDoc.Cell.Column
+  type: Property
+  source:
+    id: Column
+    path: ''
+    startLine: 491
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nCell Column Index starts from `0`.\n"
+  example: []
+  syntax:
+    content: public int Column { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Column As Integer
+  overload: StansAssets.GoogleDoc.Cell.Column*
+  implements:
+  - StansAssets.GoogleDoc.ICellPointer.Column
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Cell.Name
+  commentId: P:StansAssets.GoogleDoc.Cell.Name
+  id: Name
+  parent: StansAssets.GoogleDoc.Cell
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Cell.Name
+  fullName: StansAssets.GoogleDoc.Cell.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 497
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nCell Name.\nFor example &quot;A1&quot; / &quot;B20&quot; \n"
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: StansAssets.GoogleDoc.Cell.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Cell.Value
+  commentId: P:StansAssets.GoogleDoc.Cell.Value
+  id: Value
+  parent: StansAssets.GoogleDoc.Cell
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Cell.Value
+  fullName: StansAssets.GoogleDoc.Cell.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 502
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nCell Value representation.\n"
+  example: []
+  syntax:
+    content: public CellValue Value { get; }
+    parameters: []
+    return:
+      type: StansAssets.GoogleDoc.CellValue
+    content.vb: Public ReadOnly Property Value As CellValue
+  overload: StansAssets.GoogleDoc.Cell.Value*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Cell.GetValue``1
+  commentId: M:StansAssets.GoogleDoc.Cell.GetValue``1
+  id: GetValue``1
+  parent: StansAssets.GoogleDoc.Cell
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>()
+  nameWithType: Cell.GetValue<T>()
+  fullName: StansAssets.GoogleDoc.Cell.GetValue<T>()
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 551
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nSee <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
+  syntax:
+    content: public T GetValue<T>()
+    typeParameters:
+    - id: T
+      description: Type you want to convert a value to.
+    return:
+      type: '{T}'
+      description: Converted value.
+    content.vb: Public Function GetValue(Of T) As T
+  overload: StansAssets.GoogleDoc.Cell.GetValue*
+  nameWithType.vb: Cell.GetValue(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Cell.GetValue(Of T)()
+  name.vb: GetValue(Of T)()
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: StansAssets.GoogleDoc.ICellPointer
+  commentId: T:StansAssets.GoogleDoc.ICellPointer
+  parent: StansAssets.GoogleDoc
+  name: ICellPointer
+  nameWithType: ICellPointer
+  fullName: StansAssets.GoogleDoc.ICellPointer
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.Cell.Row*
+  commentId: Overload:StansAssets.GoogleDoc.Cell.Row
+  name: Row
+  nameWithType: Cell.Row
+  fullName: StansAssets.GoogleDoc.Cell.Row
+- uid: StansAssets.GoogleDoc.ICellPointer.Row
+  commentId: P:StansAssets.GoogleDoc.ICellPointer.Row
+  parent: StansAssets.GoogleDoc.ICellPointer
+  name: Row
+  nameWithType: ICellPointer.Row
+  fullName: StansAssets.GoogleDoc.ICellPointer.Row
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: StansAssets.GoogleDoc.Cell.Column*
+  commentId: Overload:StansAssets.GoogleDoc.Cell.Column
+  name: Column
+  nameWithType: Cell.Column
+  fullName: StansAssets.GoogleDoc.Cell.Column
+- uid: StansAssets.GoogleDoc.ICellPointer.Column
+  commentId: P:StansAssets.GoogleDoc.ICellPointer.Column
+  parent: StansAssets.GoogleDoc.ICellPointer
+  name: Column
+  nameWithType: ICellPointer.Column
+  fullName: StansAssets.GoogleDoc.ICellPointer.Column
+- uid: StansAssets.GoogleDoc.Cell.Name*
+  commentId: Overload:StansAssets.GoogleDoc.Cell.Name
+  name: Name
+  nameWithType: Cell.Name
+  fullName: StansAssets.GoogleDoc.Cell.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.Cell.Value*
+  commentId: Overload:StansAssets.GoogleDoc.Cell.Value
+  name: Value
+  nameWithType: Cell.Value
+  fullName: StansAssets.GoogleDoc.Cell.Value
+- uid: StansAssets.GoogleDoc.CellValue
+  commentId: T:StansAssets.GoogleDoc.CellValue
+  parent: StansAssets.GoogleDoc
+  name: CellValue
+  nameWithType: CellValue
+  fullName: StansAssets.GoogleDoc.CellValue
+- uid: StansAssets.GoogleDoc.CellValue.GetValue``1
+  commentId: M:StansAssets.GoogleDoc.CellValue.GetValue``1
+  isExternal: true
+- uid: StansAssets.GoogleDoc.Cell.GetValue*
+  commentId: Overload:StansAssets.GoogleDoc.Cell.GetValue
+  name: GetValue
+  nameWithType: Cell.GetValue
+  fullName: StansAssets.GoogleDoc.Cell.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

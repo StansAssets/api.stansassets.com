@@ -1,0 +1,884 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension
+  commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
+  id: SpreadsheetExtension
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,List{System.Object})
+  - StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: SpreadsheetExtension
+  nameWithType: SpreadsheetExtension
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension
+  type: Class
+  source:
+    id: SpreadsheetExtension
+    path: ''
+    startLine: 2444
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static class SpreadsheetExtension
+    content.vb: Public Module SpreadsheetExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  id: InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: InitFromCache(Spreadsheet)
+  nameWithType: SpreadsheetExtension.InitFromCache(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: InitFromCache
+    path: ''
+    startLine: 857
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static void InitFromCache(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub InitFromCache(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  id: CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: CleanUpLocalCache(Spreadsheet)
+  nameWithType: SpreadsheetExtension.CleanUpLocalCache(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: CleanUpLocalCache
+    path: ''
+    startLine: 867
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static void CleanUpLocalCache(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CleanUpLocalCache(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
+  id: Load(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: Load(Spreadsheet)
+  nameWithType: SpreadsheetExtension.Load(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 2446
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static void Load(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Load(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.Load*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  id: LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: LoadAsync(Spreadsheet)
+  nameWithType: SpreadsheetExtension.LoadAsync(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: LoadAsync
+    path: ''
+    startLine: 2452
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static Task LoadAsync(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    return:
+      type: Task
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function LoadAsync(spreadsheet As Spreadsheet) As Task
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
+  id: Save(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: Save(Spreadsheet)
+  nameWithType: SpreadsheetExtension.Save(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 2461
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nSave local spreadsheet changes to docs.google.com\n"
+  example: []
+  syntax:
+    content: public static void Save(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Save(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.Save*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
+  id: UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: UpdateGoogleCell(Spreadsheet, String, String)
+  nameWithType: SpreadsheetExtension.UpdateGoogleCell(Spreadsheet, String, String)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet, System.String, System.String)
+  type: Method
+  source:
+    id: UpdateGoogleCell
+    path: ''
+    startLine: 2472
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nUpdate cell to docs.google.com\n"
+  example: []
+  syntax:
+    content: public static void UpdateGoogleCell(this Spreadsheet spreadsheet, string range, string value)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    - id: range
+      type: System.String
+      description: 'Cell address. For example: Sheet1!F3'
+    - id: value
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub UpdateGoogleCell(spreadsheet As Spreadsheet, range As String, value As String)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,List{System.Object})
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,List{System.Object})
+  id: AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,List{System.Object})
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: AppendGoogleCell(Spreadsheet, String, List<Object>)
+  nameWithType: SpreadsheetExtension.AppendGoogleCell(Spreadsheet, String, List<Object>)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet, System.String, List<System.Object>)
+  type: Method
+  source:
+    id: AppendGoogleCell
+    path: ''
+    startLine: 2483
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nAppend cell in end of sheet to docs.google.com\n"
+  example: []
+  syntax:
+    content: public static void AppendGoogleCell(this Spreadsheet spreadsheet, string range, List<object> value)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    - id: range
+      type: System.String
+      description: 'Cell address. For example: Sheet1!F3:F6'
+    - id: value
+      type: List{System.Object}
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AppendGoogleCell(spreadsheet As Spreadsheet, range As String, value As List(Of Object))
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell*
+  nameWithType.vb: SpreadsheetExtension.AppendGoogleCell(Spreadsheet, String, List(Of Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet, System.String, List(Of System.Object))
+  name.vb: AppendGoogleCell(Spreadsheet, String, List(Of Object))
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  id: CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: CreateGoogleSheet(Spreadsheet, String)
+  nameWithType: SpreadsheetExtension.CreateGoogleSheet(Spreadsheet, String)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet, System.String)
+  type: Method
+  source:
+    id: CreateGoogleSheet
+    path: ''
+    startLine: 2493
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nCreate sheet to docs.google.com\n"
+  example: []
+  syntax:
+    content: public static void CreateGoogleSheet(this Spreadsheet spreadsheet, string name)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    - id: name
+      type: System.String
+      description: 'sheet name. For example: Sheet3'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CreateGoogleSheet(spreadsheet As Spreadsheet, name As String)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  id: DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: DeleteGoogleCell(Spreadsheet, String)
+  nameWithType: SpreadsheetExtension.DeleteGoogleCell(Spreadsheet, String)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet, System.String)
+  type: Method
+  source:
+    id: DeleteGoogleCell
+    path: ''
+    startLine: 2503
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nDelete range of cells to docs.google.com\n"
+  example: []
+  syntax:
+    content: public static void DeleteGoogleCell(this Spreadsheet spreadsheet, string range)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    - id: range
+      type: System.String
+      description: 'Cell address. For example: Sheet1!A1:F1'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DeleteGoogleCell(spreadsheet As Spreadsheet, range As String)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
+  id: CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: CacheDocument(Spreadsheet)
+  nameWithType: SpreadsheetExtension.CacheDocument(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: CacheDocument
+    path: ''
+    startLine: 2512
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nSave spreadsheet to local json file. File will be saving in spreadsheet.Path \n"
+  example: []
+  syntax:
+    content: public static void CacheDocument(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CacheDocument(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
+  name: InitFromCache
+  nameWithType: SpreadsheetExtension.InitFromCache
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
+- uid: StansAssets.GoogleDoc.Spreadsheet
+  commentId: T:StansAssets.GoogleDoc.Spreadsheet
+  parent: StansAssets.GoogleDoc
+  name: Spreadsheet
+  nameWithType: Spreadsheet
+  fullName: StansAssets.GoogleDoc.Spreadsheet
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache
+  name: CleanUpLocalCache
+  nameWithType: SpreadsheetExtension.CleanUpLocalCache
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Load*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Load
+  name: Load
+  nameWithType: SpreadsheetExtension.Load
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
+  name: LoadAsync
+  nameWithType: SpreadsheetExtension.LoadAsync
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
+- uid: Task
+  commentId: '!:Task'
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Save
+  name: Save
+  nameWithType: SpreadsheetExtension.Save
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell
+  name: UpdateGoogleCell
+  nameWithType: SpreadsheetExtension.UpdateGoogleCell
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell
+  name: AppendGoogleCell
+  nameWithType: SpreadsheetExtension.AppendGoogleCell
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell
+- uid: List{System.Object}
+  commentId: '!:List{System.Object}'
+  definition: List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: List<System.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: List(Of System.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet
+  name: CreateGoogleSheet
+  nameWithType: SpreadsheetExtension.CreateGoogleSheet
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell
+  name: DeleteGoogleCell
+  nameWithType: SpreadsheetExtension.DeleteGoogleCell
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument
+  name: CacheDocument
+  nameWithType: SpreadsheetExtension.CacheDocument
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument

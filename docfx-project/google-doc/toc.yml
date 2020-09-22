@@ -1,0 +1,37 @@
+### YamlMime:TableOfContent
+- uid: StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  items:
+  - uid: StansAssets.GoogleDoc.Cell
+    name: Cell
+  - uid: StansAssets.GoogleDoc.CellValue
+    name: CellValue
+  - uid: StansAssets.GoogleDoc.GoogleDocConnector
+    name: GoogleDocConnector
+  - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
+    name: GoogleDocConnectorPackage
+  - uid: StansAssets.GoogleDoc.GridRange
+    name: GridRange
+  - uid: StansAssets.GoogleDoc.ICellPointer
+    name: ICellPointer
+  - uid: StansAssets.GoogleDoc.LocalizationTab
+    name: LocalizationTab
+  - uid: StansAssets.GoogleDoc.NamedRange
+    name: NamedRange
+  - uid: StansAssets.GoogleDoc.RowData
+    name: RowData
+  - uid: StansAssets.GoogleDoc.Sheet
+    name: Sheet
+  - uid: StansAssets.GoogleDoc.SheetMetadata
+    name: SheetMetadata
+  - uid: StansAssets.GoogleDoc.Spreadsheet
+    name: Spreadsheet
+  - uid: StansAssets.GoogleDoc.Spreadsheet.SyncState
+    name: Spreadsheet.SyncState
+  - uid: StansAssets.GoogleDoc.SpreadsheetExtension
+    name: SpreadsheetExtension
+- uid: StansAssets.PackageSample
+  name: StansAssets.PackageSample
+  items:
+  - uid: StansAssets.PackageSample.MyPublicRuntimeExampleClass
+    name: MyPublicRuntimeExampleClass

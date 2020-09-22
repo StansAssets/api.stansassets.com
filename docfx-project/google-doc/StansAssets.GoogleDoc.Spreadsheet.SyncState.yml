@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  commentId: T:StansAssets.GoogleDoc.Spreadsheet.SyncState
+  id: Spreadsheet.SyncState
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.Spreadsheet.SyncState.InProgress
+  - StansAssets.GoogleDoc.Spreadsheet.SyncState.NotSynced
+  - StansAssets.GoogleDoc.Spreadsheet.SyncState.Synced
+  - StansAssets.GoogleDoc.Spreadsheet.SyncState.SyncedWithError
+  langs:
+  - csharp
+  - vb
+  name: Spreadsheet.SyncState
+  nameWithType: Spreadsheet.SyncState
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  type: Enum
+  source:
+    id: SyncState
+    path: ''
+    startLine: 583
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe spreadsheet sync states.\n"
+  example: []
+  syntax:
+    content: public enum SyncState
+    content.vb: Public Enum SyncState
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState.Synced
+  commentId: F:StansAssets.GoogleDoc.Spreadsheet.SyncState.Synced
+  id: Synced
+  parent: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  langs:
+  - csharp
+  - vb
+  name: Synced
+  nameWithType: Spreadsheet.SyncState.Synced
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState.Synced
+  type: Field
+  source:
+    id: Synced
+    path: ''
+    startLine: 588
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe spreadsheet is fully synced\n"
+  example: []
+  syntax:
+    content: Synced = 0
+    return:
+      type: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState.NotSynced
+  commentId: F:StansAssets.GoogleDoc.Spreadsheet.SyncState.NotSynced
+  id: NotSynced
+  parent: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  langs:
+  - csharp
+  - vb
+  name: NotSynced
+  nameWithType: Spreadsheet.SyncState.NotSynced
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState.NotSynced
+  type: Field
+  source:
+    id: NotSynced
+    path: ''
+    startLine: 593
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe spreadsheet is not yet synced\n"
+  example: []
+  syntax:
+    content: NotSynced = 1
+    return:
+      type: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState.SyncedWithError
+  commentId: F:StansAssets.GoogleDoc.Spreadsheet.SyncState.SyncedWithError
+  id: SyncedWithError
+  parent: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  langs:
+  - csharp
+  - vb
+  name: SyncedWithError
+  nameWithType: Spreadsheet.SyncState.SyncedWithError
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState.SyncedWithError
+  type: Field
+  source:
+    id: SyncedWithError
+    path: ''
+    startLine: 598
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nLast spreadsheet sync attempt was finished with an error.\n"
+  example: []
+  syntax:
+    content: SyncedWithError = 2
+    return:
+      type: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState.InProgress
+  commentId: F:StansAssets.GoogleDoc.Spreadsheet.SyncState.InProgress
+  id: InProgress
+  parent: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  langs:
+  - csharp
+  - vb
+  name: InProgress
+  nameWithType: Spreadsheet.SyncState.InProgress
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState.InProgress
+  type: Field
+  source:
+    id: InProgress
+    path: ''
+    startLine: 603
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nThe spreadsheet sync is currently in progress.\n"
+  example: []
+  syntax:
+    content: InProgress = 3
+    return:
+      type: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: StansAssets.GoogleDoc.Spreadsheet.SyncState
+  commentId: T:StansAssets.GoogleDoc.Spreadsheet.SyncState
+  parent: StansAssets.GoogleDoc
+  name: Spreadsheet.SyncState
+  nameWithType: Spreadsheet.SyncState
+  fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState
