@@ -28,3 +28,8 @@ The plugin also comes with advanced post-processing (no more altering XCode proj
 The Android plugin follows the same principles as the iOS plugin above. Tons of features, mimics Google official API, modular structure, advanced post-processing. But on top of that, we ultimately realize how hard it is to manage even a few 3rd party android plugins in the project.  That's why we put a lot of effort to make your life simpler. The plugin won't mess with your main `AndroidManifest.xml`, it can work out of the box as well as relay on [unity-jar-resolver](https://github.com/googlesamples/unity-jar-resolver), all plugin files are inside one folder to keep your project clean and organized and a lot more!
 
 [API Reference](https://api.stansassets.com/android-native/SA.Android.App.html) | [Get From The Asset Store](https://assetstore.unity.com/packages/tools/integration/android-native-pro-125691) | [Tutorials & Documentation](https://github.com/StansAssets/com.stansassets.android-native/wiki) | [Forum](https://forum.unity.com/threads/released-android-native-pro.551020/)
+
+### Google Doc Connector Pro
+The plugin allows you to use Google Sheets as a configuration repository for your game. And also use Google Sheets as a repository for localization.
+
+[API Reference](https://api.stansassets.com/google-doc/StansAssets.GoogleDoc.html) | [Get From Github](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro) | [Tutorials & Documentation](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki) |

@@ -47,6 +47,13 @@ jobs:
         repository: StansAssets/Native-Plugins
         path: Native-Plugins
 
+    - name: Checkout com.stansassets.google-doc-connector-pro
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.DOC_MGMT_TOKEN }}
+        repository: StansAssets/com.stansassets.google-doc-connector-pro
+        path: com.stansassets.google-doc-connector-pro
+
     - name: List work directory content
       run: ls
    
