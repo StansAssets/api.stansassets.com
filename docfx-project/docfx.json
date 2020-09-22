@@ -73,6 +73,18 @@
             }
          ],
          "dest":"build"
+      },
+      {
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../com.stansassets.google-doc-connector-pro/"
+            }
+         ],
+         "dest":"google-doc"
       }
    ],
    "build":{
@@ -85,6 +97,7 @@
                "foundation/**.yml",
                "facebook/**.yml",
                "build/**.yml",
+               "google-doc/**.yml"
             ]
          },
          {
@@ -97,6 +110,7 @@
                "foundation/**.md",
                "facebook/**.md",
                "build/**.md",
+               "google-doc/**.md",
                "toc.yml",
                "*.md"
             ],
