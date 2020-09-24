@@ -17,7 +17,7 @@ items:
   source:
     id: GoogleDocConnector
     path: ''
-    startLine: 131
+    startLine: 167
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -57,7 +57,7 @@ items:
   source:
     id: GetSpreadsheet
     path: ''
-    startLine: 144
+    startLine: 180
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -94,7 +94,7 @@ items:
   source:
     id: GetSpreadsheetWebUrl
     path: ''
-    startLine: 154
+    startLine: 190
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

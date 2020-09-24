@@ -10,6 +10,8 @@ items:
   - StansAssets.GoogleDoc.GoogleDocConnectorPackage
   - StansAssets.GoogleDoc.GridRange
   - StansAssets.GoogleDoc.ICellPointer
+  - StansAssets.GoogleDoc.LocalizationClient
+  - StansAssets.GoogleDoc.LocalizationClient.TextType
   - StansAssets.GoogleDoc.LocalizationTab
   - StansAssets.GoogleDoc.NamedRange
   - StansAssets.GoogleDoc.RowData
@@ -90,6 +92,17 @@ references:
   name: Sheet
   nameWithType: Sheet
   fullName: StansAssets.GoogleDoc.Sheet
+- uid: StansAssets.GoogleDoc.LocalizationClient
+  commentId: T:StansAssets.GoogleDoc.LocalizationClient
+  name: LocalizationClient
+  nameWithType: LocalizationClient
+  fullName: StansAssets.GoogleDoc.LocalizationClient
+- uid: StansAssets.GoogleDoc.LocalizationClient.TextType
+  commentId: T:StansAssets.GoogleDoc.LocalizationClient.TextType
+  parent: StansAssets.GoogleDoc
+  name: LocalizationClient.TextType
+  nameWithType: LocalizationClient.TextType
+  fullName: StansAssets.GoogleDoc.LocalizationClient.TextType
 - uid: StansAssets.GoogleDoc.GridRange
   commentId: T:StansAssets.GoogleDoc.GridRange
   parent: StansAssets.GoogleDoc

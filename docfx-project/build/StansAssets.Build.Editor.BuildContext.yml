@@ -8,6 +8,7 @@ items:
   - StansAssets.Build.Editor.BuildContext.#ctor(BuildPlayerOptions,System.String)
   - StansAssets.Build.Editor.BuildContext.BuildAlias
   - StansAssets.Build.Editor.BuildContext.BuildPlayerOptions
+  - StansAssets.Build.Editor.BuildContext.SetScenes(System.String[])
   - StansAssets.Build.Editor.BuildContext.TargetPlatform
   langs:
   - csharp
@@ -62,7 +63,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 687
+    startLine: 688
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -93,7 +94,7 @@ items:
   source:
     id: TargetPlatform
     path: ''
-    startLine: 695
+    startLine: 696
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -126,7 +127,7 @@ items:
   source:
     id: BuildPlayerOptions
     path: ''
-    startLine: 696
+    startLine: 697
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -159,7 +160,7 @@ items:
   source:
     id: BuildAlias
     path: ''
-    startLine: 697
+    startLine: 698
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -178,6 +179,40 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: StansAssets.Build.Editor.BuildContext.SetScenes(System.String[])
+  commentId: M:StansAssets.Build.Editor.BuildContext.SetScenes(System.String[])
+  id: SetScenes(System.String[])
+  parent: StansAssets.Build.Editor.BuildContext
+  langs:
+  - csharp
+  - vb
+  name: SetScenes(String[])
+  nameWithType: BuildContext.SetScenes(String[])
+  fullName: StansAssets.Build.Editor.BuildContext.SetScenes(System.String[])
+  type: Method
+  source:
+    id: SetScenes
+    path: ''
+    startLine: 700
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public void SetScenes(string[] scenes)
+    parameters:
+    - id: scenes
+      type: System.String[]
+    content.vb: Public Sub SetScenes(scenes As String())
+  overload: StansAssets.Build.Editor.BuildContext.SetScenes*
+  implements:
+  - StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  nameWithType.vb: BuildContext.SetScenes(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Build.Editor.BuildContext.SetScenes(System.String())
+  name.vb: SetScenes(String())
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
@@ -537,3 +572,82 @@ references:
   name: BuildAlias
   nameWithType: IBuildContext.BuildAlias
   fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
+- uid: StansAssets.Build.Editor.BuildContext.SetScenes*
+  commentId: Overload:StansAssets.Build.Editor.BuildContext.SetScenes
+  name: SetScenes
+  nameWithType: BuildContext.SetScenes
+  fullName: StansAssets.Build.Editor.BuildContext.SetScenes
+- uid: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  commentId: M:StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  parent: StansAssets.Build.Editor.IBuildContext
+  isExternal: true
+  name: SetScenes(String[])
+  nameWithType: IBuildContext.SetScenes(String[])
+  fullName: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  nameWithType.vb: IBuildContext.SetScenes(String())
+  fullName.vb: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String())
+  name.vb: SetScenes(String())
+  spec.csharp:
+  - uid: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+    name: SetScenes
+    nameWithType: IBuildContext.SetScenes
+    fullName: StansAssets.Build.Editor.IBuildContext.SetScenes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+    name: SetScenes
+    nameWithType: IBuildContext.SetScenes
+    fullName: StansAssets.Build.Editor.IBuildContext.SetScenes
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

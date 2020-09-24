@@ -12,7 +12,7 @@ items:
   - StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
   - StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
-  - StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  - StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
   - StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
   langs:
@@ -25,7 +25,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 2444
+    startLine: 2891
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -64,7 +64,7 @@ items:
   source:
     id: InitFromCache
     path: ''
-    startLine: 857
+    startLine: 893
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -99,7 +99,7 @@ items:
   source:
     id: CleanUpLocalCache
     path: ''
-    startLine: 867
+    startLine: 903
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -134,7 +134,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 2446
+    startLine: 2893
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -154,36 +154,38 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
-  id: LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
+  id: LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
   isExtensionMethod: true
   parent: StansAssets.GoogleDoc.SpreadsheetExtension
   langs:
   - csharp
   - vb
-  name: LoadAsync(Spreadsheet)
-  nameWithType: SpreadsheetExtension.LoadAsync(Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet)
+  name: LoadAsync(Spreadsheet, Boolean)
+  nameWithType: SpreadsheetExtension.LoadAsync(Spreadsheet, Boolean)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet, System.Boolean)
   type: Method
   source:
     id: LoadAsync
     path: ''
-    startLine: 2452
+    startLine: 2899
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
   syntax:
-    content: public static Task LoadAsync(this Spreadsheet spreadsheet)
+    content: public static Task LoadAsync(this Spreadsheet spreadsheet, bool saveSpreadsheet = false)
     parameters:
     - id: spreadsheet
       type: StansAssets.GoogleDoc.Spreadsheet
+    - id: saveSpreadsheet
+      type: System.Boolean
     return:
       type: Task
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function LoadAsync(spreadsheet As Spreadsheet) As Task
+      Public Shared Function LoadAsync(spreadsheet As Spreadsheet, saveSpreadsheet As Boolean = False) As Task
   overload: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
   modifiers.csharp:
   - public
@@ -206,7 +208,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 2461
+    startLine: 2908
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -243,7 +245,7 @@ items:
   source:
     id: UpdateGoogleCell
     path: ''
-    startLine: 2472
+    startLine: 2919
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -286,7 +288,7 @@ items:
   source:
     id: AppendGoogleCell
     path: ''
-    startLine: 2483
+    startLine: 2930
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -332,7 +334,7 @@ items:
   source:
     id: CreateGoogleSheet
     path: ''
-    startLine: 2493
+    startLine: 2940
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -372,7 +374,7 @@ items:
   source:
     id: DeleteGoogleCell
     path: ''
-    startLine: 2503
+    startLine: 2950
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -412,7 +414,7 @@ items:
   source:
     id: CacheDocument
     path: ''
-    startLine: 2512
+    startLine: 2959
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -758,6 +760,13 @@ references:
   name: LoadAsync
   nameWithType: SpreadsheetExtension.LoadAsync
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: Task
   commentId: '!:Task'
   isExternal: true

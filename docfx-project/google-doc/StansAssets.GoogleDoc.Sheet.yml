@@ -32,7 +32,7 @@ items:
   source:
     id: Sheet
     path: ''
-    startLine: 945
+    startLine: 982
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -78,7 +78,7 @@ items:
   source:
     id: NamedRanges
     path: ''
-    startLine: 955
+    startLine: 992
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -111,7 +111,7 @@ items:
   source:
     id: Rows
     path: ''
-    startLine: 960
+    startLine: 997
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -144,7 +144,7 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 1024
+    startLine: 1061
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -177,7 +177,7 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 1043
+    startLine: 1080
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -212,7 +212,7 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 1059
+    startLine: 1096
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -250,7 +250,7 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 1064
+    startLine: 1101
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -286,7 +286,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 1074
+    startLine: 1111
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -321,7 +321,7 @@ items:
   source:
     id: GetRowValues
     path: ''
-    startLine: 1085
+    startLine: 1122
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -357,7 +357,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1095
+    startLine: 1132
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -392,7 +392,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1111
+    startLine: 1148
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -427,7 +427,7 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 1121
+    startLine: 1158
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -463,7 +463,7 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 1126
+    startLine: 1163
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -499,7 +499,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 1137
+    startLine: 1174
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -534,7 +534,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 1205
+    startLine: 1242
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -569,7 +569,7 @@ items:
   source:
     id: GetNamedRangeCells
     path: ''
-    startLine: 1223
+    startLine: 1260
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -603,7 +603,7 @@ items:
   source:
     id: UpdateCell
     path: ''
-    startLine: 1237
+    startLine: 1274
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -641,7 +641,7 @@ items:
   source:
     id: GetNamedRangeValues
     path: ''
-    startLine: 1265
+    startLine: 1302
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

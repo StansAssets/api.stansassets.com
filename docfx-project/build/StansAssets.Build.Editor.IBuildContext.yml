@@ -7,6 +7,7 @@ items:
   children:
   - StansAssets.Build.Editor.IBuildContext.BuildAlias
   - StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  - StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
   - StansAssets.Build.Editor.IBuildContext.TargetPlatform
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   source:
     id: IBuildContext
     path: ''
-    startLine: 1160
+    startLine: 1166
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -47,7 +48,7 @@ items:
   source:
     id: TargetPlatform
     path: ''
-    startLine: 1165
+    startLine: 1171
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -78,7 +79,7 @@ items:
   source:
     id: BuildPlayerOptions
     path: ''
-    startLine: 1170
+    startLine: 1176
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -109,7 +110,7 @@ items:
   source:
     id: BuildAlias
     path: ''
-    startLine: 1175
+    startLine: 1181
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -126,6 +127,37 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  commentId: M:StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  id: SetScenes(System.String[])
+  parent: StansAssets.Build.Editor.IBuildContext
+  langs:
+  - csharp
+  - vb
+  name: SetScenes(String[])
+  nameWithType: IBuildContext.SetScenes(String[])
+  fullName: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
+  type: Method
+  source:
+    id: SetScenes
+    path: ''
+    startLine: 1188
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nSets scene paths for a build. Will affect build only in case if called before UnityPlayerBuildStep (has priority lower than 0)\n"
+  example: []
+  syntax:
+    content: void SetScenes(string[] scenes)
+    parameters:
+    - id: scenes
+      type: System.String[]
+      description: Array with scenes path
+    content.vb: Sub SetScenes(scenes As String())
+  overload: StansAssets.Build.Editor.IBuildContext.SetScenes*
+  nameWithType.vb: IBuildContext.SetScenes(String())
+  fullName.vb: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String())
+  name.vb: SetScenes(String())
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
@@ -170,3 +202,34 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.Build.Editor.IBuildContext.SetScenes*
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.SetScenes
+  name: SetScenes
+  nameWithType: IBuildContext.SetScenes
+  fullName: StansAssets.Build.Editor.IBuildContext.SetScenes
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
