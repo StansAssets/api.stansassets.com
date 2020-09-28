@@ -8,7 +8,6 @@ items:
   - StansAssets.GoogleDoc.Spreadsheet.#ctor(System.String)
   - StansAssets.GoogleDoc.Spreadsheet.GetSheet(System.Int32)
   - StansAssets.GoogleDoc.Spreadsheet.GetSheet(System.String)
-  - StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
   - StansAssets.GoogleDoc.Spreadsheet.HasSheet(System.Int32)
   - StansAssets.GoogleDoc.Spreadsheet.HasSheet(System.String)
   - StansAssets.GoogleDoc.Spreadsheet.Id
@@ -34,7 +33,7 @@ items:
   source:
     id: Spreadsheet
     path: ''
-    startLine: 613
+    startLine: 644
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -73,7 +72,7 @@ items:
   source:
     id: OnSyncStateChange
     path: ''
-    startLine: 651
+    startLine: 682
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -102,7 +101,7 @@ items:
   source:
     id: State
     path: ''
-    startLine: 659
+    startLine: 690
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -135,7 +134,7 @@ items:
   source:
     id: SyncErrorMassage
     path: ''
-    startLine: 669
+    startLine: 700
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -168,7 +167,7 @@ items:
   source:
     id: Sheets
     path: ''
-    startLine: 677
+    startLine: 708
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -201,7 +200,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 685
+    startLine: 716
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -234,7 +233,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 693
+    startLine: 724
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -267,7 +266,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 701
+    startLine: 732
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -300,7 +299,7 @@ items:
   source:
     id: LastSyncMachineName
     path: ''
-    startLine: 714
+    startLine: 745
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -333,7 +332,7 @@ items:
   source:
     id: Synced
     path: ''
-    startLine: 722
+    startLine: 753
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -366,7 +365,7 @@ items:
   source:
     id: InProgress
     path: ''
-    startLine: 727
+    startLine: 758
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -399,7 +398,7 @@ items:
   source:
     id: NotSynced
     path: ''
-    startLine: 732
+    startLine: 763
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -432,7 +431,7 @@ items:
   source:
     id: SyncedWithError
     path: ''
-    startLine: 737
+    startLine: 768
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -465,7 +464,7 @@ items:
   source:
     id: SyncDateTime
     path: ''
-    startLine: 742
+    startLine: 773
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -498,15 +497,18 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 758
+    startLine: 793
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\n\n"
+  example: []
   syntax:
     content: public Spreadsheet(string id)
     parameters:
     - id: id
       type: System.String
+      description: Spreadsheet Id
     content.vb: Public Sub New(id As String)
   overload: StansAssets.GoogleDoc.Spreadsheet.#ctor*
   modifiers.csharp:
@@ -527,7 +529,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 810
+    startLine: 845
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -562,7 +564,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 828
+    startLine: 855
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -597,7 +599,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 849
+    startLine: 868
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -632,7 +634,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 862
+    startLine: 881
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -649,37 +651,6 @@ items:
       description: "\nReturns the <xref href=\"StansAssets.GoogleDoc.Spreadsheet.Sheets\" data-throw-if-not-resolved=\"false\"></xref> object\nif spreadsheet contains a sheet with the name, otherwise `null`\n"
     content.vb: Public Function GetSheet(sheetName As String) As Sheet
   overload: StansAssets.GoogleDoc.Spreadsheet.GetSheet*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  commentId: M:StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  id: GetSheetOrCreate(System.String)
-  parent: StansAssets.GoogleDoc.Spreadsheet
-  langs:
-  - csharp
-  - vb
-  name: GetSheetOrCreate(String)
-  nameWithType: Spreadsheet.GetSheetOrCreate(String)
-  fullName: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  type: Method
-  source:
-    id: GetSheetOrCreate
-    path: ''
-    startLine: 867
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: public Sheet GetSheetOrCreate(string sheetName)
-    parameters:
-    - id: sheetName
-      type: System.String
-    return:
-      type: StansAssets.GoogleDoc.Sheet
-    content.vb: Public Function GetSheetOrCreate(sheetName As String) As Sheet
-  overload: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1349,8 +1320,3 @@ references:
   name: Sheet
   nameWithType: Sheet
   fullName: StansAssets.GoogleDoc.Sheet
-- uid: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate*
-  commentId: Overload:StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate
-  name: GetSheetOrCreate
-  nameWithType: Spreadsheet.GetSheetOrCreate
-  fullName: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate

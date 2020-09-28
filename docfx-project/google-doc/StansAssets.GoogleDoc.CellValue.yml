@@ -21,7 +21,7 @@ items:
   source:
     id: CellValue
     path: ''
-    startLine: 923
+    startLine: 950
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -60,7 +60,7 @@ items:
   source:
     id: FormattedValue
     path: ''
-    startLine: 929
+    startLine: 956
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -93,7 +93,7 @@ items:
   source:
     id: FormulaValue
     path: ''
-    startLine: 934
+    startLine: 961
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -126,7 +126,7 @@ items:
   source:
     id: StringValue
     path: ''
-    startLine: 939
+    startLine: 966
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -159,7 +159,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 941
+    startLine: 968
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -185,19 +185,24 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 943
+    startLine: 975
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\n\n"
+  example: []
   syntax:
     content: public CellValue(string formattedValue, string formulaValue, string stringValue)
     parameters:
     - id: formattedValue
       type: System.String
+      description: The formatted value of the cell. This is the value as it&apos;s shown to the user.
     - id: formulaValue
       type: System.String
+      description: Represents a formula.
     - id: stringValue
       type: System.String
+      description: Represents a value in string format.
     content.vb: Public Sub New(formattedValue As String, formulaValue As String, stringValue As String)
   overload: StansAssets.GoogleDoc.CellValue.#ctor*
   modifiers.csharp:
@@ -218,7 +223,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 958
+    startLine: 990
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

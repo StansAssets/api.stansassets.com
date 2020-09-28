@@ -145,35 +145,8 @@
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">System.Object</span>&gt;</td>
         <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_GoogleDoc_SpreadsheetExtension_CacheDocument_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*"></a>
-  <h4 id="StansAssets_GoogleDoc_SpreadsheetExtension_CacheDocument_StansAssets_GoogleDoc_Spreadsheet_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)">CacheDocument(Spreadsheet)</h4>
-  <div class="markdown level1 summary"><p>Save spreadsheet to local json file. File will be saving in spreadsheet.Path </p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void CacheDocument(this Spreadsheet spreadsheet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a></td>
-        <td><span class="parametername">spreadsheet</span></td>
-        <td></td>
+        <td><p>new list of values to append</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -303,86 +276,12 @@
   
   <a id="StansAssets_GoogleDoc_SpreadsheetExtension_Load_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.Load*"></a>
   <h4 id="StansAssets_GoogleDoc_SpreadsheetExtension_Load_StansAssets_GoogleDoc_Spreadsheet_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)">Load(Spreadsheet)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Load(this Spreadsheet spreadsheet)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a></td>
-        <td><span class="parametername">spreadsheet</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_GoogleDoc_SpreadsheetExtension_LoadAsync_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*"></a>
-  <h4 id="StansAssets_GoogleDoc_SpreadsheetExtension_LoadAsync_StansAssets_GoogleDoc_Spreadsheet_System_Boolean_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)">LoadAsync(Spreadsheet, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task LoadAsync(this Spreadsheet spreadsheet, bool saveSpreadsheet = false)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a></td>
-        <td><span class="parametername">spreadsheet</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">saveSpreadsheet</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_GoogleDoc_SpreadsheetExtension_Save_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.Save*"></a>
-  <h4 id="StansAssets_GoogleDoc_SpreadsheetExtension_Save_StansAssets_GoogleDoc_Spreadsheet_" data-uid="StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)">Save(Spreadsheet)</h4>
-  <div class="markdown level1 summary"><p>Save local spreadsheet changes to docs.google.com</p>
+  <div class="markdown level1 summary"><p>Load spreadsheet from google api</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Save(this Spreadsheet spreadsheet)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Load(this Spreadsheet spreadsheet)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -436,7 +335,8 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">value</span></td>
-        <td></td>
+        <td><p>New value to update</p>
+</td>
       </tr>
     </tbody>
   </table>

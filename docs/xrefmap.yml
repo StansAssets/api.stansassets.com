@@ -37530,6 +37530,38 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl
   nameWithType: GoogleDocConnector.GetSpreadsheetWebUrl
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  name: GoogleDocConnectorLocalization
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  nameWithType: GoogleDocConnectorLocalization
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  name: SpreadsheetId
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html#StansAssets_GoogleDoc_GoogleDocConnectorLocalization_SpreadsheetId
+  commentId: P:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetId
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId*
+  name: SpreadsheetId
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html#StansAssets_GoogleDoc_GoogleDocConnectorLocalization_SpreadsheetId_
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetId
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
+  name: SpreadsheetIdSet(String)
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html#StansAssets_GoogleDoc_GoogleDocConnectorLocalization_SpreadsheetIdSet_System_String_
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetIdSet(String)
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet*
+  name: SpreadsheetIdSet
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html#StansAssets_GoogleDoc_GoogleDocConnectorLocalization_SpreadsheetIdSet_
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetIdSet
 - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
   name: GoogleDocConnectorPackage
   href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorPackage.html
@@ -38050,6 +38082,19 @@ references:
   fullName.vb: StansAssets.GoogleDoc.Sheet.GetColumnValues(Of T)(System.String)
   nameWithType: Sheet.GetColumnValues<T>(String)
   nameWithType.vb: Sheet.GetColumnValues(Of T)(String)
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  name: GetNamedRange(String)
+  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_GetNamedRange_System_String_
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  nameWithType: Sheet.GetNamedRange(String)
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRange*
+  name: GetNamedRange
+  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_GetNamedRange_
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetNamedRange
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRange
+  nameWithType: Sheet.GetNamedRange
 - uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
   name: GetNamedRangeCells(String)
   href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_GetNamedRangeCells_System_String_
@@ -38127,6 +38172,19 @@ references:
   fullName.vb: StansAssets.GoogleDoc.Sheet.GetRowValues(Of T)(System.Int32)
   nameWithType: Sheet.GetRowValues<T>(Int32)
   nameWithType.vb: Sheet.GetRowValues(Of T)(Int32)
+- uid: StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  name: HasNamedRange(String)
+  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_HasNamedRange_System_String_
+  commentId: M:StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  fullName: StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  nameWithType: Sheet.HasNamedRange(String)
+- uid: StansAssets.GoogleDoc.Sheet.HasNamedRange*
+  name: HasNamedRange
+  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_HasNamedRange_
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.HasNamedRange
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Sheet.HasNamedRange
+  nameWithType: Sheet.HasNamedRange
 - uid: StansAssets.GoogleDoc.Sheet.NamedRanges
   name: NamedRanges
   href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_NamedRanges
@@ -38153,19 +38211,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Sheet.Rows
   nameWithType: Sheet.Rows
-- uid: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
-  name: UpdateCell(Int32, Int32, CellValue)
-  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_UpdateCell_System_Int32_System_Int32_StansAssets_GoogleDoc_CellValue_
-  commentId: M:StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
-  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32, System.Int32, StansAssets.GoogleDoc.CellValue)
-  nameWithType: Sheet.UpdateCell(Int32, Int32, CellValue)
-- uid: StansAssets.GoogleDoc.Sheet.UpdateCell*
-  name: UpdateCell
-  href: google-doc/StansAssets.GoogleDoc.Sheet.html#StansAssets_GoogleDoc_Sheet_UpdateCell_
-  commentId: Overload:StansAssets.GoogleDoc.Sheet.UpdateCell
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell
-  nameWithType: Sheet.UpdateCell
 - uid: StansAssets.GoogleDoc.SheetMetadata
   name: SheetMetadata
   href: google-doc/StansAssets.GoogleDoc.SheetMetadata.html
@@ -38261,19 +38306,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Spreadsheet.GetSheet
   nameWithType: Spreadsheet.GetSheet
-- uid: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  name: GetSheetOrCreate(String)
-  href: google-doc/StansAssets.GoogleDoc.Spreadsheet.html#StansAssets_GoogleDoc_Spreadsheet_GetSheetOrCreate_System_String_
-  commentId: M:StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  fullName: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate(System.String)
-  nameWithType: Spreadsheet.GetSheetOrCreate(String)
-- uid: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate*
-  name: GetSheetOrCreate
-  href: google-doc/StansAssets.GoogleDoc.Spreadsheet.html#StansAssets_GoogleDoc_Spreadsheet_GetSheetOrCreate_
-  commentId: Overload:StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.Spreadsheet.GetSheetOrCreate
-  nameWithType: Spreadsheet.GetSheetOrCreate
 - uid: StansAssets.GoogleDoc.Spreadsheet.HasSheet(System.Int32)
   name: HasSheet(Int32)
   href: google-doc/StansAssets.GoogleDoc.Spreadsheet.html#StansAssets_GoogleDoc_Spreadsheet_HasSheet_System_Int32_
@@ -38507,19 +38539,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell
   nameWithType: SpreadsheetExtension.AppendGoogleCell
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  name: CacheDocument(Spreadsheet)
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_CacheDocument_StansAssets_GoogleDoc_Spreadsheet_
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  nameWithType: SpreadsheetExtension.CacheDocument(Spreadsheet)
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*
-  name: CacheDocument
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_CacheDocument_
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument
-  nameWithType: SpreadsheetExtension.CacheDocument
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
   name: CleanUpLocalCache(Spreadsheet)
   href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_CleanUpLocalCache_StansAssets_GoogleDoc_Spreadsheet_
@@ -38585,32 +38604,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load
   nameWithType: SpreadsheetExtension.Load
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  name: LoadAsync(Spreadsheet, Boolean)
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_LoadAsync_StansAssets_GoogleDoc_Spreadsheet_System_Boolean_
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet, System.Boolean)
-  nameWithType: SpreadsheetExtension.LoadAsync(Spreadsheet, Boolean)
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
-  name: LoadAsync
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_LoadAsync_
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
-  nameWithType: SpreadsheetExtension.LoadAsync
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  name: Save(Spreadsheet)
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_Save_StansAssets_GoogleDoc_Spreadsheet_
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  nameWithType: SpreadsheetExtension.Save(Spreadsheet)
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save*
-  name: Save
-  href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_Save_
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Save
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save
-  nameWithType: SpreadsheetExtension.Save
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
   name: UpdateGoogleCell(Spreadsheet, String, String)
   href: google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html#StansAssets_GoogleDoc_SpreadsheetExtension_UpdateGoogleCell_StansAssets_GoogleDoc_Spreadsheet_System_String_System_String_

@@ -7,6 +7,7 @@ items:
   - StansAssets.GoogleDoc.Cell
   - StansAssets.GoogleDoc.CellValue
   - StansAssets.GoogleDoc.GoogleDocConnector
+  - StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   - StansAssets.GoogleDoc.GoogleDocConnectorPackage
   - StansAssets.GoogleDoc.GridRange
   - StansAssets.GoogleDoc.ICellPointer
@@ -36,6 +37,11 @@ references:
   name: ICellPointer
   nameWithType: ICellPointer
   fullName: StansAssets.GoogleDoc.ICellPointer
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  name: GoogleDocConnectorLocalization
+  nameWithType: GoogleDocConnectorLocalization
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
 - uid: StansAssets.GoogleDoc.GoogleDocConnector
   commentId: T:StansAssets.GoogleDoc.GoogleDocConnector
   name: GoogleDocConnector
@@ -43,6 +49,7 @@ references:
   fullName: StansAssets.GoogleDoc.GoogleDocConnector
 - uid: StansAssets.GoogleDoc.NamedRange
   commentId: T:StansAssets.GoogleDoc.NamedRange
+  parent: StansAssets.GoogleDoc
   name: NamedRange
   nameWithType: NamedRange
   fullName: StansAssets.GoogleDoc.NamedRange

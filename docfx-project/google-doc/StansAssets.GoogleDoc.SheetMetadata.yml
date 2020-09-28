@@ -20,10 +20,12 @@ items:
   source:
     id: SheetMetadata
     path: ''
-    startLine: 477
+    startLine: 502
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nSheet metadata\n"
+  example: []
   syntax:
     content: public class SheetMetadata
     content.vb: Public Class SheetMetadata
@@ -59,7 +61,7 @@ items:
   source:
     id: m_Name
     path: ''
-    startLine: 481
+    startLine: 506
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -86,7 +88,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 486
+    startLine: 511
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -119,7 +121,7 @@ items:
   source:
     id: m_Id
     path: ''
-    startLine: 489
+    startLine: 514
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -146,7 +148,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 494
+    startLine: 519
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -179,17 +181,21 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 495
+    startLine: 526
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\n\n"
+  example: []
   syntax:
     content: public SheetMetadata(int id, string name)
     parameters:
     - id: id
       type: System.Int32
+      description: The ID of the sheet.
     - id: name
       type: System.String
+      description: The name of the sheet.
     content.vb: Public Sub New(id As Integer, name As String)
   overload: StansAssets.GoogleDoc.SheetMetadata.#ctor*
   modifiers.csharp:

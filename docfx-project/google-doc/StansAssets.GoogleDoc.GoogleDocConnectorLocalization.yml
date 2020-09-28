@@ -1,31 +1,31 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.GoogleDoc.GoogleDocConnector
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnector
-  id: GoogleDocConnector
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  id: GoogleDocConnectorLocalization
   parent: StansAssets.GoogleDoc
   children:
-  - StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet(System.String)
-  - StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
+  - StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  - StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
   langs:
   - csharp
   - vb
-  name: GoogleDocConnector
-  nameWithType: GoogleDocConnector
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector
+  name: GoogleDocConnectorLocalization
+  nameWithType: GoogleDocConnectorLocalization
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   type: Class
   source:
-    id: GoogleDocConnector
+    id: GoogleDocConnectorLocalization
     path: ''
-    startLine: 189
+    startLine: 47
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nGoogle Doc Connector Package API access point.\n"
+  summary: "\nLocalization setting for Localization Client\n"
   example: []
   syntax:
-    content: public static class GoogleDocConnector
-    content.vb: Public Module GoogleDocConnector
+    content: public static class GoogleDocConnectorLocalization
+    content.vb: Public Module GoogleDocConnectorLocalization
   inheritance:
   - System.Object
   inheritedMembers:
@@ -43,74 +43,69 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet(System.String)
-  commentId: M:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet(System.String)
-  id: GetSpreadsheet(System.String)
-  parent: StansAssets.GoogleDoc.GoogleDocConnector
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  commentId: P:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  id: SpreadsheetId
+  parent: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   langs:
   - csharp
   - vb
-  name: GetSpreadsheet(String)
-  nameWithType: GoogleDocConnector.GetSpreadsheet(String)
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet(System.String)
-  type: Method
+  name: SpreadsheetId
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetId
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  type: Property
   source:
-    id: GetSpreadsheet
+    id: SpreadsheetId
     path: ''
-    startLine: 202
+    startLine: 52
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nGet <xref href=\"StansAssets.GoogleDoc.Spreadsheet\" data-throw-if-not-resolved=\"false\"></xref> by it&apos;s id, if a spreadsheet with such id was added into the project using\nthe editor settings UI. Otherwise `null`.\n"
+  summary: "\nSpreadsheet ID used for the Localization client\n"
   example: []
   syntax:
-    content: public static Spreadsheet GetSpreadsheet(string id)
-    parameters:
-    - id: id
-      type: System.String
-      description: An id of the spreadsheet.
+    content: public static string SpreadsheetId { get; }
+    parameters: []
     return:
-      type: StansAssets.GoogleDoc.Spreadsheet
-      description: "\nA <xref href=\"StansAssets.GoogleDoc.Spreadsheet\" data-throw-if-not-resolved=\"false\"></xref> object if a spreadsheet with such id was added into the project using\nthe editor settings UI. Otherwise `null`.\n"
-    content.vb: Public Shared Function GetSpreadsheet(id As String) As Spreadsheet
-  overload: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet*
+      type: System.String
+    content.vb: Public Shared ReadOnly Property SpreadsheetId As String
+  overload: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId*
   modifiers.csharp:
   - public
   - static
+  - get
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
-  commentId: M:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
-  id: GetSpreadsheetWebUrl(System.String)
-  parent: StansAssets.GoogleDoc.GoogleDocConnector
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
+  id: SpreadsheetIdSet(System.String)
+  parent: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   langs:
   - csharp
   - vb
-  name: GetSpreadsheetWebUrl(String)
-  nameWithType: GoogleDocConnector.GetSpreadsheetWebUrl(String)
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
+  name: SpreadsheetIdSet(String)
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetIdSet(String)
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet(System.String)
   type: Method
   source:
-    id: GetSpreadsheetWebUrl
+    id: SpreadsheetIdSet
     path: ''
-    startLine: 212
+    startLine: 58
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nReturns absolute web url for the spreadsheet.\n"
+  summary: "\nSet a new spreadsheet ID to be used for the Localization client\n"
   example: []
   syntax:
-    content: public static string GetSpreadsheetWebUrl(string id)
+    content: public static void SpreadsheetIdSet(string newSpreadsheetId)
     parameters:
-    - id: id
+    - id: newSpreadsheetId
       type: System.String
-      description: An id of the spreadsheet.
-    return:
-      type: System.String
-      description: String url value
-    content.vb: Public Shared Function GetSpreadsheetWebUrl(id As String) As String
-  overload: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl*
+      description: new spreadsheet ID
+    content.vb: Public Shared Sub SpreadsheetIdSet(newSpreadsheetId As String)
+  overload: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet*
   modifiers.csharp:
   - public
   - static
@@ -415,17 +410,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.GoogleDoc.Spreadsheet
-  commentId: T:StansAssets.GoogleDoc.Spreadsheet
-  parent: StansAssets.GoogleDoc
-  name: Spreadsheet
-  nameWithType: Spreadsheet
-  fullName: StansAssets.GoogleDoc.Spreadsheet
-- uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet*
-  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet
-  name: GetSpreadsheet
-  nameWithType: GoogleDocConnector.GetSpreadsheet
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
+  name: SpreadsheetId
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetId
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetId
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -433,8 +422,8 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl*
-  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl
-  name: GetSpreadsheetWebUrl
-  nameWithType: GoogleDocConnector.GetSpreadsheetWebUrl
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet
+  name: SpreadsheetIdSet
+  nameWithType: GoogleDocConnectorLocalization.SpreadsheetIdSet
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization.SpreadsheetIdSet

@@ -6,14 +6,11 @@ items:
   parent: StansAssets.GoogleDoc
   children:
   - StansAssets.GoogleDoc.SpreadsheetExtension.AppendGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,List{System.Object})
-  - StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.CreateGoogleSheet(StansAssets.GoogleDoc.Spreadsheet,System.String)
   - StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String)
   - StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
-  - StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  - StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
   - StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell(StansAssets.GoogleDoc.Spreadsheet,System.String,System.String)
   langs:
   - csharp
@@ -25,7 +22,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 2891
+    startLine: 2956
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -64,7 +61,7 @@ items:
   source:
     id: InitFromCache
     path: ''
-    startLine: 893
+    startLine: 920
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -99,7 +96,7 @@ items:
   source:
     id: CleanUpLocalCache
     path: ''
-    startLine: 903
+    startLine: 930
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -134,10 +131,12 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 2893
+    startLine: 2961
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nLoad spreadsheet from google api\n"
+  example: []
   syntax:
     content: public static void Load(this Spreadsheet spreadsheet)
     parameters:
@@ -148,82 +147,6 @@ items:
 
       Public Shared Sub Load(spreadsheet As Spreadsheet)
   overload: StansAssets.GoogleDoc.SpreadsheetExtension.Load*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  id: LoadAsync(StansAssets.GoogleDoc.Spreadsheet,System.Boolean)
-  isExtensionMethod: true
-  parent: StansAssets.GoogleDoc.SpreadsheetExtension
-  langs:
-  - csharp
-  - vb
-  name: LoadAsync(Spreadsheet, Boolean)
-  nameWithType: SpreadsheetExtension.LoadAsync(Spreadsheet, Boolean)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync(StansAssets.GoogleDoc.Spreadsheet, System.Boolean)
-  type: Method
-  source:
-    id: LoadAsync
-    path: ''
-    startLine: 2899
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: public static Task LoadAsync(this Spreadsheet spreadsheet, bool saveSpreadsheet = false)
-    parameters:
-    - id: spreadsheet
-      type: StansAssets.GoogleDoc.Spreadsheet
-    - id: saveSpreadsheet
-      type: System.Boolean
-    return:
-      type: Task
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function LoadAsync(spreadsheet As Spreadsheet, saveSpreadsheet As Boolean = False) As Task
-  overload: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  id: Save(StansAssets.GoogleDoc.Spreadsheet)
-  isExtensionMethod: true
-  parent: StansAssets.GoogleDoc.SpreadsheetExtension
-  langs:
-  - csharp
-  - vb
-  name: Save(Spreadsheet)
-  nameWithType: SpreadsheetExtension.Save(Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save(StansAssets.GoogleDoc.Spreadsheet)
-  type: Method
-  source:
-    id: Save
-    path: ''
-    startLine: 2908
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nSave local spreadsheet changes to docs.google.com\n"
-  example: []
-  syntax:
-    content: public static void Save(this Spreadsheet spreadsheet)
-    parameters:
-    - id: spreadsheet
-      type: StansAssets.GoogleDoc.Spreadsheet
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub Save(spreadsheet As Spreadsheet)
-  overload: StansAssets.GoogleDoc.SpreadsheetExtension.Save*
   modifiers.csharp:
   - public
   - static
@@ -245,7 +168,7 @@ items:
   source:
     id: UpdateGoogleCell
     path: ''
-    startLine: 2919
+    startLine: 2993
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -261,7 +184,7 @@ items:
       description: 'Cell address. For example: Sheet1!F3'
     - id: value
       type: System.String
-      description: ''
+      description: New value to update
     content.vb: >-
       <ExtensionAttribute>
 
@@ -288,7 +211,7 @@ items:
   source:
     id: AppendGoogleCell
     path: ''
-    startLine: 2930
+    startLine: 3004
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -304,7 +227,7 @@ items:
       description: 'Cell address. For example: Sheet1!F3:F6'
     - id: value
       type: List{System.Object}
-      description: ''
+      description: new list of values to append
     content.vb: >-
       <ExtensionAttribute>
 
@@ -334,7 +257,7 @@ items:
   source:
     id: CreateGoogleSheet
     path: ''
-    startLine: 2940
+    startLine: 3014
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -374,7 +297,7 @@ items:
   source:
     id: DeleteGoogleCell
     path: ''
-    startLine: 2950
+    startLine: 3024
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -393,43 +316,6 @@ items:
 
       Public Shared Sub DeleteGoogleCell(spreadsheet As Spreadsheet, range As String)
   overload: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  id: CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  isExtensionMethod: true
-  parent: StansAssets.GoogleDoc.SpreadsheetExtension
-  langs:
-  - csharp
-  - vb
-  name: CacheDocument(Spreadsheet)
-  nameWithType: SpreadsheetExtension.CacheDocument(Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument(StansAssets.GoogleDoc.Spreadsheet)
-  type: Method
-  source:
-    id: CacheDocument
-    path: ''
-    startLine: 2959
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nSave spreadsheet to local json file. File will be saving in spreadsheet.Path \n"
-  example: []
-  syntax:
-    content: public static void CacheDocument(this Spreadsheet spreadsheet)
-    parameters:
-    - id: spreadsheet
-      type: StansAssets.GoogleDoc.Spreadsheet
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub CacheDocument(spreadsheet As Spreadsheet)
-  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*
   modifiers.csharp:
   - public
   - static
@@ -755,29 +641,6 @@ references:
   name: Load
   nameWithType: SpreadsheetExtension.Load
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
-  name: LoadAsync
-  nameWithType: SpreadsheetExtension.LoadAsync
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.LoadAsync
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: Task
-  commentId: '!:Task'
-  isExternal: true
-  name: Task
-  nameWithType: Task
-  fullName: Task
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Save*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Save
-  name: Save
-  nameWithType: SpreadsheetExtension.Save
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Save
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell*
   commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell
   name: UpdateGoogleCell
@@ -886,8 +749,3 @@ references:
   name: DeleteGoogleCell
   nameWithType: SpreadsheetExtension.DeleteGoogleCell
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument
-  name: CacheDocument
-  nameWithType: SpreadsheetExtension.CacheDocument
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CacheDocument

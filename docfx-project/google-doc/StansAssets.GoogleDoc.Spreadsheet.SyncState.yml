@@ -19,7 +19,7 @@ items:
   source:
     id: SyncState
     path: ''
-    startLine: 619
+    startLine: 650
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -48,7 +48,7 @@ items:
   source:
     id: Synced
     path: ''
-    startLine: 624
+    startLine: 655
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -78,7 +78,7 @@ items:
   source:
     id: NotSynced
     path: ''
-    startLine: 629
+    startLine: 660
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -108,7 +108,7 @@ items:
   source:
     id: SyncedWithError
     path: ''
-    startLine: 634
+    startLine: 665
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -138,7 +138,7 @@ items:
   source:
     id: InProgress
     path: ''
-    startLine: 639
+    startLine: 670
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

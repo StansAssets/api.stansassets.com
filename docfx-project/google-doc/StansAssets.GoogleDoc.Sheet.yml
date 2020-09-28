@@ -13,15 +13,16 @@ items:
   - StansAssets.GoogleDoc.Sheet.GetColumn(System.String)
   - StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.Int32)
   - StansAssets.GoogleDoc.Sheet.GetColumnValues``1(System.String)
+  - StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
   - StansAssets.GoogleDoc.Sheet.GetNamedRangeCells(System.String)
   - StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
   - StansAssets.GoogleDoc.Sheet.GetRange(StansAssets.GoogleDoc.GridRange)
   - StansAssets.GoogleDoc.Sheet.GetRange(System.String)
   - StansAssets.GoogleDoc.Sheet.GetRow(System.Int32)
   - StansAssets.GoogleDoc.Sheet.GetRowValues``1(System.Int32)
+  - StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
   - StansAssets.GoogleDoc.Sheet.NamedRanges
   - StansAssets.GoogleDoc.Sheet.Rows
-  - StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
   langs:
   - csharp
   - vb
@@ -32,7 +33,7 @@ items:
   source:
     id: Sheet
     path: ''
-    startLine: 982
+    startLine: 1014
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -78,7 +79,7 @@ items:
   source:
     id: NamedRanges
     path: ''
-    startLine: 992
+    startLine: 1024
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -111,7 +112,7 @@ items:
   source:
     id: Rows
     path: ''
-    startLine: 997
+    startLine: 1029
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -130,6 +131,76 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  id: HasNamedRange(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: HasNamedRange(String)
+  nameWithType: Sheet.HasNamedRange(String)
+  fullName: StansAssets.GoogleDoc.Sheet.HasNamedRange(System.String)
+  type: Method
+  source:
+    id: HasNamedRange
+    path: ''
+    startLine: 1065
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nDetermines whether an element is in the sheet\n"
+  example: []
+  syntax:
+    content: public bool HasNamedRange(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of Named Range to search
+    return:
+      type: System.Boolean
+      description: True if the element is in the sheet; otherwise, false
+    content.vb: Public Function HasNamedRange(name As String) As Boolean
+  overload: StansAssets.GoogleDoc.Sheet.HasNamedRange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  commentId: M:StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  id: GetNamedRange(System.String)
+  parent: StansAssets.GoogleDoc.Sheet
+  langs:
+  - csharp
+  - vb
+  name: GetNamedRange(String)
+  nameWithType: Sheet.GetNamedRange(String)
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRange(System.String)
+  type: Method
+  source:
+    id: GetNamedRange
+    path: ''
+    startLine: 1075
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nReturns NamedRange with provided name\n"
+  example: []
+  syntax:
+    content: public NamedRange GetNamedRange(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of Named Range to search for
+    return:
+      type: StansAssets.GoogleDoc.NamedRange
+      description: NamedRange if the element with provided name exists, otherwise null
+    content.vb: Public Function GetNamedRange(name As String) As NamedRange
+  overload: StansAssets.GoogleDoc.Sheet.GetNamedRange*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: StansAssets.GoogleDoc.Sheet.GetCell(System.Int32,System.Int32)
   commentId: M:StansAssets.GoogleDoc.Sheet.GetCell(System.Int32,System.Int32)
   id: GetCell(System.Int32,System.Int32)
@@ -144,7 +215,7 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 1061
+    startLine: 1093
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -177,7 +248,7 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 1080
+    startLine: 1112
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -212,7 +283,7 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 1096
+    startLine: 1135
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -250,19 +321,24 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 1101
+    startLine: 1146
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nGets converted cell value  by name. For example &quot;A1&quot; or &quot;B5&quot;. See <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
   syntax:
     content: public T GetCellValue<T>(string name)
     parameters:
     - id: name
       type: System.String
+      description: The name of the cell.
     typeParameters:
     - id: T
+      description: Type you want to convert a value to.
     return:
       type: '{T}'
+      description: Converted value.
     content.vb: Public Function GetCellValue(Of T)(name As String) As T
   overload: StansAssets.GoogleDoc.Sheet.GetCellValue*
   nameWithType.vb: Sheet.GetCellValue(Of T)(String)
@@ -286,7 +362,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 1111
+    startLine: 1156
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -321,19 +397,24 @@ items:
   source:
     id: GetRowValues
     path: ''
-    startLine: 1122
+    startLine: 1173
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the cells converted values in the row. See <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
   syntax:
     content: public List<T> GetRowValues<T>(int row)
     parameters:
     - id: row
       type: System.Int32
+      description: Row index. Index starts from 0
     typeParameters:
     - id: T
+      description: Type you want to convert a value to.
     return:
       type: List{{T}}
+      description: Converted cells value
     content.vb: Public Function GetRowValues(Of T)(row As Integer) As List(Of T)
   overload: StansAssets.GoogleDoc.Sheet.GetRowValues*
   nameWithType.vb: Sheet.GetRowValues(Of T)(Int32)
@@ -357,18 +438,18 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1132
+    startLine: 1183
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nReturns all the cells in the column.\n"
+  summary: "\nReturns all the cells in the column. \n"
   example: []
   syntax:
     content: public List<Cell> GetColumn(int column)
     parameters:
     - id: column
       type: System.Int32
-      description: The name of the column
+      description: Column index. Index starts from 0
     return:
       type: List{StansAssets.GoogleDoc.Cell}
       description: Cells List.
@@ -392,7 +473,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 1148
+    startLine: 1199
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -403,7 +484,7 @@ items:
     parameters:
     - id: name
       type: System.String
-      description: Column index. Index starts from 0
+      description: The name of the column.
     return:
       type: List{StansAssets.GoogleDoc.Cell}
       description: Cells List.
@@ -427,19 +508,24 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 1158
+    startLine: 1215
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the converted cells value in the column. See <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
   syntax:
     content: public List<T> GetColumnValues<T>(int column)
     parameters:
     - id: column
       type: System.Int32
+      description: Column index. Index starts from 0
     typeParameters:
     - id: T
+      description: Type you want to convert a value to.
     return:
       type: List{{T}}
+      description: Converted cells value
     content.vb: Public Function GetColumnValues(Of T)(column As Integer) As List(Of T)
   overload: StansAssets.GoogleDoc.Sheet.GetColumnValues*
   nameWithType.vb: Sheet.GetColumnValues(Of T)(Int32)
@@ -463,19 +549,24 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 1163
+    startLine: 1226
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the converted cells value by name. For example &quot;A&quot; or &quot;B&quot;. See <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
   syntax:
     content: public List<T> GetColumnValues<T>(string name)
     parameters:
     - id: name
       type: System.String
+      description: The name of the column.
     typeParameters:
     - id: T
+      description: Type you want to convert a value to.
     return:
       type: List{{T}}
+      description: Converted cells value
     content.vb: Public Function GetColumnValues(Of T)(name As String) As List(Of T)
   overload: StansAssets.GoogleDoc.Sheet.GetColumnValues*
   nameWithType.vb: Sheet.GetColumnValues(Of T)(String)
@@ -499,7 +590,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 1174
+    startLine: 1237
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -534,7 +625,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 1242
+    startLine: 1305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -569,7 +660,7 @@ items:
   source:
     id: GetNamedRangeCells
     path: ''
-    startLine: 1260
+    startLine: 1323
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -589,44 +680,6 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
-  commentId: M:StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
-  id: UpdateCell(System.Int32,System.Int32,StansAssets.GoogleDoc.CellValue)
-  parent: StansAssets.GoogleDoc.Sheet
-  langs:
-  - csharp
-  - vb
-  name: UpdateCell(Int32, Int32, CellValue)
-  nameWithType: Sheet.UpdateCell(Int32, Int32, CellValue)
-  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell(System.Int32, System.Int32, StansAssets.GoogleDoc.CellValue)
-  type: Method
-  source:
-    id: UpdateCell
-    path: ''
-    startLine: 1274
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nUpdates the value for a cell, if any, or create a new cell with that value\n"
-  example: []
-  syntax:
-    content: public void UpdateCell(int row, int column, CellValue cellValue)
-    parameters:
-    - id: row
-      type: System.Int32
-      description: ''
-    - id: column
-      type: System.Int32
-      description: ''
-    - id: cellValue
-      type: StansAssets.GoogleDoc.CellValue
-      description: ''
-    content.vb: Public Sub UpdateCell(row As Integer, column As Integer, cellValue As CellValue)
-  overload: StansAssets.GoogleDoc.Sheet.UpdateCell*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
   commentId: M:StansAssets.GoogleDoc.Sheet.GetNamedRangeValues``1(System.String)
   id: GetNamedRangeValues``1(System.String)
@@ -641,19 +694,24 @@ items:
   source:
     id: GetNamedRangeValues
     path: ''
-    startLine: 1302
+    startLine: 1337
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nReturns all the converted cells value of the requested Named Range. See <xref href=\"StansAssets.GoogleDoc.CellValue.GetValue%60%601\" data-throw-if-not-resolved=\"false\"></xref> for more info.\n"
+  example: []
   syntax:
     content: public List<T> GetNamedRangeValues<T>(string name)
     parameters:
     - id: name
       type: System.String
+      description: Name of the requested Named Range
     typeParameters:
     - id: T
+      description: Type you want to convert a value to.
     return:
       type: List{{T}}
+      description: Returns all the converted cells
     content.vb: Public Function GetNamedRangeValues(Of T)(name As String) As List(Of T)
   overload: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues*
   nameWithType.vb: Sheet.GetNamedRangeValues(Of T)(String)
@@ -1121,6 +1179,36 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: StansAssets.GoogleDoc.Sheet.HasNamedRange*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.HasNamedRange
+  name: HasNamedRange
+  nameWithType: Sheet.HasNamedRange
+  fullName: StansAssets.GoogleDoc.Sheet.HasNamedRange
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.GoogleDoc.Sheet.GetNamedRange*
+  commentId: Overload:StansAssets.GoogleDoc.Sheet.GetNamedRange
+  name: GetNamedRange
+  nameWithType: Sheet.GetNamedRange
+  fullName: StansAssets.GoogleDoc.Sheet.GetNamedRange
+- uid: StansAssets.GoogleDoc.NamedRange
+  commentId: T:StansAssets.GoogleDoc.NamedRange
+  parent: StansAssets.GoogleDoc
+  name: NamedRange
+  nameWithType: NamedRange
+  fullName: StansAssets.GoogleDoc.NamedRange
 - uid: StansAssets.GoogleDoc.Sheet.GetCell*
   commentId: Overload:StansAssets.GoogleDoc.Sheet.GetCell
   name: GetCell
@@ -1139,13 +1227,6 @@ references:
   name: Cell
   nameWithType: Cell
   fullName: StansAssets.GoogleDoc.Cell
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: StansAssets.GoogleDoc.Sheet.GetCellValue*
   commentId: Overload:StansAssets.GoogleDoc.Sheet.GetCellValue
   name: GetCellValue
@@ -1161,6 +1242,9 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: StansAssets.GoogleDoc.CellValue.GetValue``1
+  commentId: M:StansAssets.GoogleDoc.CellValue.GetValue``1
+  isExternal: true
 - uid: StansAssets.GoogleDoc.Sheet.GetRow*
   commentId: Overload:StansAssets.GoogleDoc.Sheet.GetRow
   name: GetRow
@@ -1315,17 +1399,6 @@ references:
   name: GetNamedRangeCells
   nameWithType: Sheet.GetNamedRangeCells
   fullName: StansAssets.GoogleDoc.Sheet.GetNamedRangeCells
-- uid: StansAssets.GoogleDoc.Sheet.UpdateCell*
-  commentId: Overload:StansAssets.GoogleDoc.Sheet.UpdateCell
-  name: UpdateCell
-  nameWithType: Sheet.UpdateCell
-  fullName: StansAssets.GoogleDoc.Sheet.UpdateCell
-- uid: StansAssets.GoogleDoc.CellValue
-  commentId: T:StansAssets.GoogleDoc.CellValue
-  parent: StansAssets.GoogleDoc
-  name: CellValue
-  nameWithType: CellValue
-  fullName: StansAssets.GoogleDoc.CellValue
 - uid: StansAssets.GoogleDoc.Sheet.GetNamedRangeValues*
   commentId: Overload:StansAssets.GoogleDoc.Sheet.GetNamedRangeValues
   name: GetNamedRangeValues

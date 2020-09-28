@@ -4115,7 +4115,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.CellValue.html",
-          "hash": "y3CO5i0A9QQ7mTpJzT/MAw=="
+          "hash": "mh1GXiyF3bJyloKCAs1fFw=="
         }
       },
       "is_incremental": false,
@@ -4128,6 +4128,18 @@
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnector.html",
           "hash": "mRZkAoSGUO7yenqb11+eVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html",
+          "hash": "jKk7OvyDdMc9+B9QG/8AqQ=="
         }
       },
       "is_incremental": false,
@@ -4235,7 +4247,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Sheet.html",
-          "hash": "hpnZb9H2fnc8hP9kFxm9gg=="
+          "hash": "0M8yVt4u2UqKLm9a0vK1vA=="
         }
       },
       "is_incremental": false,
@@ -4247,7 +4259,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.SheetMetadata.html",
-          "hash": "G+8ClYn1KPnuG/xgwiWIzg=="
+          "hash": "UNWQ8SlTpCnA8Uz8y+YpkQ=="
         }
       },
       "is_incremental": false,
@@ -4271,7 +4283,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Spreadsheet.html",
-          "hash": "9/7Jg7Iu2zKQFOCgvkECTg=="
+          "hash": "HKCrYaMCpOpSEDQbkTos+A=="
         }
       },
       "is_incremental": false,
@@ -4283,7 +4295,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html",
-          "hash": "A6qvK+KZre8rqGRwNoJToQ=="
+          "hash": "Y6BZlfE7snzr4GB4CrZcZA=="
         }
       },
       "is_incremental": false,
@@ -4295,7 +4307,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.html",
-          "hash": "Ro6VCE5+7UOuJU9oAl3kBA=="
+          "hash": "ATvyyDxPbKxGJjfiBG3ZqQ=="
         }
       },
       "is_incremental": false,
@@ -4343,7 +4355,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "eKpNmscl+j2ABJ3JzxTW3A=="
+          "hash": "gFz5PScrMyzKWI5zRNsIDg=="
         }
       },
       "is_incremental": false,
@@ -8680,7 +8692,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 697,
+          "total_file_count": 698,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
