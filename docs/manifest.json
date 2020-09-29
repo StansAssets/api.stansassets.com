@@ -2968,9 +2968,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -8588,6 +8585,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
