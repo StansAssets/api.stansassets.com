@@ -5,8 +5,8 @@ items:
   id: IBuildContext
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.IBuildContext.BuildAlias
   - StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
+  - StansAssets.Build.Editor.IBuildContext.BuildSettings
   - StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
   - StansAssets.Build.Editor.IBuildContext.TargetPlatform
   langs:
@@ -19,7 +19,7 @@ items:
   source:
     id: IBuildContext
     path: ''
-    startLine: 1167
+    startLine: 1181
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -48,7 +48,7 @@ items:
   source:
     id: TargetPlatform
     path: ''
-    startLine: 1172
+    startLine: 1186
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -79,7 +79,7 @@ items:
   source:
     id: BuildPlayerOptions
     path: ''
-    startLine: 1177
+    startLine: 1191
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -96,33 +96,33 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
-- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias
-  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildAlias
-  id: BuildAlias
+- uid: StansAssets.Build.Editor.IBuildContext.BuildSettings
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildSettings
+  id: BuildSettings
   parent: StansAssets.Build.Editor.IBuildContext
   langs:
   - csharp
   - vb
-  name: BuildAlias
-  nameWithType: IBuildContext.BuildAlias
-  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
+  name: BuildSettings
+  nameWithType: IBuildContext.BuildSettings
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildSettings
   type: Property
   source:
-    id: BuildAlias
+    id: BuildSettings
     path: ''
-    startLine: 1182
+    startLine: 1196
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nKey value\n"
+  summary: "\nSettings that predefined before the build started\n"
   example: []
   syntax:
-    content: string BuildAlias { get; }
+    content: BuildSettings BuildSettings { get; }
     parameters: []
     return:
-      type: System.String
-    content.vb: ReadOnly Property BuildAlias As String
-  overload: StansAssets.Build.Editor.IBuildContext.BuildAlias*
+      type: StansAssets.Build.Editor.BuildSettings
+    content.vb: ReadOnly Property BuildSettings As BuildSettings
+  overload: StansAssets.Build.Editor.IBuildContext.BuildSettings*
   modifiers.csharp:
   - get
   modifiers.vb:
@@ -141,7 +141,7 @@ items:
   source:
     id: SetScenes
     path: ''
-    startLine: 1189
+    startLine: 1202
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -170,6 +170,7 @@ references:
   nameWithType: IBuildContext.TargetPlatform
   fullName: StansAssets.Build.Editor.IBuildContext.TargetPlatform
 - uid: BuildTarget
+  commentId: '!:BuildTarget'
   isExternal: true
   name: BuildTarget
   nameWithType: BuildTarget
@@ -180,28 +181,22 @@ references:
   nameWithType: IBuildContext.BuildPlayerOptions
   fullName: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
 - uid: BuildPlayerOptions
+  commentId: '!:BuildPlayerOptions'
   isExternal: true
   name: BuildPlayerOptions
   nameWithType: BuildPlayerOptions
   fullName: BuildPlayerOptions
-- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias*
-  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildAlias
-  name: BuildAlias
-  nameWithType: IBuildContext.BuildAlias
-  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
+- uid: StansAssets.Build.Editor.IBuildContext.BuildSettings*
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildSettings
+  name: BuildSettings
+  nameWithType: IBuildContext.BuildSettings
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildSettings
+- uid: StansAssets.Build.Editor.BuildSettings
+  commentId: T:StansAssets.Build.Editor.BuildSettings
+  parent: StansAssets.Build.Editor
+  name: BuildSettings
+  nameWithType: BuildSettings
+  fullName: StansAssets.Build.Editor.BuildSettings
 - uid: StansAssets.Build.Editor.IBuildContext.SetScenes*
   commentId: Overload:StansAssets.Build.Editor.IBuildContext.SetScenes
   name: SetScenes

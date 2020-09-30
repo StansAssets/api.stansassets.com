@@ -5,9 +5,10 @@ items:
   id: BuildExecutor
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  - StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
   - StansAssets.Build.Editor.BuildExecutor.RegisterScenePostprocessTask(StansAssets.Build.Editor.IBuildTask)
   - StansAssets.Build.Editor.BuildExecutor.RegisterStep(StansAssets.Build.Editor.IBuildStep)
+  - StansAssets.Build.Editor.BuildExecutor.Settings
   langs:
   - csharp
   - vb
@@ -112,16 +113,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
-  commentId: M:StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
-  id: Build(StansAssets.Build.Editor.BuildContext)
+- uid: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
+  commentId: M:StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
+  id: Build(StansAssets.Build.Editor.IBuildContext)
   parent: StansAssets.Build.Editor.BuildExecutor
   langs:
   - csharp
   - vb
-  name: Build(BuildContext)
-  nameWithType: BuildExecutor.Build(BuildContext)
-  fullName: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
+  name: Build(IBuildContext)
+  nameWithType: BuildExecutor.Build(IBuildContext)
+  fullName: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
   type: Method
   source:
     id: Build
@@ -133,16 +134,51 @@ items:
   summary: "\nRun build process with included steps and tasks\n"
   example: []
   syntax:
-    content: public static void Build(BuildContext buildContext)
+    content: public static void Build(IBuildContext buildContext)
     parameters:
     - id: buildContext
-      type: StansAssets.Build.Editor.BuildContext
+      type: StansAssets.Build.Editor.IBuildContext
       description: Data class with necessary parameters for build execution
-    content.vb: Public Shared Sub Build(buildContext As BuildContext)
+    content.vb: Public Shared Sub Build(buildContext As IBuildContext)
   overload: StansAssets.Build.Editor.BuildExecutor.Build*
   modifiers.csharp:
   - public
   - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Build.Editor.BuildExecutor.Settings
+  commentId: P:StansAssets.Build.Editor.BuildExecutor.Settings
+  id: Settings
+  parent: StansAssets.Build.Editor.BuildExecutor
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: BuildExecutor.Settings
+  fullName: StansAssets.Build.Editor.BuildExecutor.Settings
+  type: Property
+  source:
+    id: Settings
+    path: ''
+    startLine: 680
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nPlease use this property to set BuildSettings before build started\n"
+  example: []
+  syntax:
+    content: public static BuildSettings Settings { get; set; }
+    parameters: []
+    return:
+      type: StansAssets.Build.Editor.BuildSettings
+    content.vb: Public Shared Property Settings As BuildSettings
+  overload: StansAssets.Build.Editor.BuildExecutor.Settings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
   modifiers.vb:
   - Public
   - Shared
@@ -471,9 +507,20 @@ references:
   name: Build
   nameWithType: BuildExecutor.Build
   fullName: StansAssets.Build.Editor.BuildExecutor.Build
-- uid: StansAssets.Build.Editor.BuildContext
-  commentId: T:StansAssets.Build.Editor.BuildContext
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
   parent: StansAssets.Build.Editor
-  name: BuildContext
-  nameWithType: BuildContext
-  fullName: StansAssets.Build.Editor.BuildContext
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
+- uid: StansAssets.Build.Editor.BuildExecutor.Settings*
+  commentId: Overload:StansAssets.Build.Editor.BuildExecutor.Settings
+  name: Settings
+  nameWithType: BuildExecutor.Settings
+  fullName: StansAssets.Build.Editor.BuildExecutor.Settings
+- uid: StansAssets.Build.Editor.BuildSettings
+  commentId: T:StansAssets.Build.Editor.BuildSettings
+  parent: StansAssets.Build.Editor
+  name: BuildSettings
+  nameWithType: BuildSettings
+  fullName: StansAssets.Build.Editor.BuildSettings

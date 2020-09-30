@@ -9,10 +9,10 @@
 - uid: StansAssets.Build.Editor
   name: StansAssets.Build.Editor
   items:
-  - uid: StansAssets.Build.Editor.BuildContext
-    name: BuildContext
   - uid: StansAssets.Build.Editor.BuildExecutor
     name: BuildExecutor
+  - uid: StansAssets.Build.Editor.BuildSettings
+    name: BuildSettings
   - uid: StansAssets.Build.Editor.BuildStepResultArgs
     name: BuildStepResultArgs
   - uid: StansAssets.Build.Editor.BuildSystemPackage

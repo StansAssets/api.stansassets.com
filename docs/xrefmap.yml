@@ -32559,12 +32559,12 @@ references:
   commentId: T:StansAssets.Build.Editor.BuildExecutor
   fullName: StansAssets.Build.Editor.BuildExecutor
   nameWithType: BuildExecutor
-- uid: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
-  name: Build(BuildContext)
-  href: build/StansAssets.Build.Editor.BuildExecutor.html#StansAssets_Build_Editor_BuildExecutor_Build_StansAssets_Build_Editor_BuildContext_
-  commentId: M:StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
-  fullName: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.BuildContext)
-  nameWithType: BuildExecutor.Build(BuildContext)
+- uid: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
+  name: Build(IBuildContext)
+  href: build/StansAssets.Build.Editor.BuildExecutor.html#StansAssets_Build_Editor_BuildExecutor_Build_StansAssets_Build_Editor_IBuildContext_
+  commentId: M:StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
+  fullName: StansAssets.Build.Editor.BuildExecutor.Build(StansAssets.Build.Editor.IBuildContext)
+  nameWithType: BuildExecutor.Build(IBuildContext)
 - uid: StansAssets.Build.Editor.BuildExecutor.Build*
   name: Build
   href: build/StansAssets.Build.Editor.BuildExecutor.html#StansAssets_Build_Editor_BuildExecutor_Build_
@@ -32598,6 +32598,31 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.BuildExecutor.RegisterStep
   nameWithType: BuildExecutor.RegisterStep
+- uid: StansAssets.Build.Editor.BuildExecutor.Settings
+  name: Settings
+  href: build/StansAssets.Build.Editor.BuildExecutor.html#StansAssets_Build_Editor_BuildExecutor_Settings
+  commentId: P:StansAssets.Build.Editor.BuildExecutor.Settings
+  fullName: StansAssets.Build.Editor.BuildExecutor.Settings
+  nameWithType: BuildExecutor.Settings
+- uid: StansAssets.Build.Editor.BuildExecutor.Settings*
+  name: Settings
+  href: build/StansAssets.Build.Editor.BuildExecutor.html#StansAssets_Build_Editor_BuildExecutor_Settings_
+  commentId: Overload:StansAssets.Build.Editor.BuildExecutor.Settings
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.BuildExecutor.Settings
+  nameWithType: BuildExecutor.Settings
+- uid: StansAssets.Build.Editor.BuildSettings
+  name: BuildSettings
+  href: build/StansAssets.Build.Editor.BuildSettings.html
+  commentId: T:StansAssets.Build.Editor.BuildSettings
+  fullName: StansAssets.Build.Editor.BuildSettings
+  nameWithType: BuildSettings
+- uid: StansAssets.Build.Editor.BuildSettings.BuildAlias
+  name: BuildAlias
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_BuildAlias
+  commentId: F:StansAssets.Build.Editor.BuildSettings.BuildAlias
+  fullName: StansAssets.Build.Editor.BuildSettings.BuildAlias
+  nameWithType: BuildSettings.BuildAlias
 - uid: StansAssets.Build.Editor.BuildStepResultArgs
   name: BuildStepResultArgs
   href: build/StansAssets.Build.Editor.BuildStepResultArgs.html
@@ -32652,19 +32677,6 @@ references:
   commentId: T:StansAssets.Build.Editor.IBuildContext
   fullName: StansAssets.Build.Editor.IBuildContext
   nameWithType: IBuildContext
-- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias
-  name: BuildAlias
-  href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_BuildAlias
-  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildAlias
-  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
-  nameWithType: IBuildContext.BuildAlias
-- uid: StansAssets.Build.Editor.IBuildContext.BuildAlias*
-  name: BuildAlias
-  href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_BuildAlias_
-  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildAlias
-  isSpec: "True"
-  fullName: StansAssets.Build.Editor.IBuildContext.BuildAlias
-  nameWithType: IBuildContext.BuildAlias
 - uid: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
   name: BuildPlayerOptions
   href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_BuildPlayerOptions
@@ -32678,6 +32690,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.IBuildContext.BuildPlayerOptions
   nameWithType: IBuildContext.BuildPlayerOptions
+- uid: StansAssets.Build.Editor.IBuildContext.BuildSettings
+  name: BuildSettings
+  href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_BuildSettings
+  commentId: P:StansAssets.Build.Editor.IBuildContext.BuildSettings
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildSettings
+  nameWithType: IBuildContext.BuildSettings
+- uid: StansAssets.Build.Editor.IBuildContext.BuildSettings*
+  name: BuildSettings
+  href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_BuildSettings_
+  commentId: Overload:StansAssets.Build.Editor.IBuildContext.BuildSettings
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.IBuildContext.BuildSettings
+  nameWithType: IBuildContext.BuildSettings
 - uid: StansAssets.Build.Editor.IBuildContext.SetScenes(System.String[])
   name: SetScenes(String[])
   href: build/StansAssets.Build.Editor.IBuildContext.html#StansAssets_Build_Editor_IBuildContext_SetScenes_System_String___

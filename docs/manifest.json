@@ -2757,7 +2757,19 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.BuildExecutor.html",
-          "hash": "AdJWVw2ZU1ok26PrH4gmNA=="
+          "hash": "9m0DqbgZAc9E/L0/AVUyIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.BuildSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.BuildSettings.html",
+          "hash": "1KBGH8EmBpxGP0n6Qv66GA=="
         }
       },
       "is_incremental": false,
@@ -2793,7 +2805,7 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.IBuildContext.html",
-          "hash": "KMtZzbBAToBp33p2hGb6ig=="
+          "hash": "b8KRvMZx1XT0CGi5dQknNA=="
         }
       },
       "is_incremental": false,
@@ -2877,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.html",
-          "hash": "zwo4k3OlhleR9MCEsJBauA=="
+          "hash": "oLXoqeY3oftWYQYLzWlZEg=="
         }
       },
       "is_incremental": false,
@@ -2949,7 +2961,7 @@
       "output": {
         ".html": {
           "relative_path": "build/toc.html",
-          "hash": "dVH71bugstvjscdJ3BQWtQ=="
+          "hash": "jMrxryIk54greHHu8mTZ3g=="
         }
       },
       "is_incremental": false,
@@ -2968,9 +2980,6 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "DuplicateUids"
-      ],
       "type": "ManagedReference",
       "source_relative_path": "facebook/SA.Facebook.yml",
       "output": {
@@ -8600,6 +8609,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "DuplicateUids"
+      ],
       "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
       "output": {
@@ -8704,7 +8716,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 699,
+          "total_file_count": 700,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
