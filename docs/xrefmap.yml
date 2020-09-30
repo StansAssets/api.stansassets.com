@@ -35985,6 +35985,44 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.RendererExtensions.IsVisibleFrom
   nameWithType: RendererExtensions.IsVisibleFrom
+- uid: StansAssets.Foundation.Extensions.SceneExtensions
+  name: SceneExtensions
+  href: foundation/StansAssets.Foundation.Extensions.SceneExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.SceneExtensions
+  fullName: StansAssets.Foundation.Extensions.SceneExtensions
+  nameWithType: SceneExtensions
+- uid: StansAssets.Foundation.Extensions.SceneExtensions.GetComponent*
+  name: GetComponent
+  href: foundation/StansAssets.Foundation.Extensions.SceneExtensions.html#StansAssets_Foundation_Extensions_SceneExtensions_GetComponent_
+  commentId: Overload:StansAssets.Foundation.Extensions.SceneExtensions.GetComponent
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.SceneExtensions.GetComponent
+  nameWithType: SceneExtensions.GetComponent
+- uid: StansAssets.Foundation.Extensions.SceneExtensions.GetComponent``1(Scene)
+  name: GetComponent<T>(Scene)
+  href: foundation/StansAssets.Foundation.Extensions.SceneExtensions.html#StansAssets_Foundation_Extensions_SceneExtensions_GetComponent__1_Scene_
+  commentId: M:StansAssets.Foundation.Extensions.SceneExtensions.GetComponent``1(Scene)
+  name.vb: GetComponent(Of T)(Scene)
+  fullName: StansAssets.Foundation.Extensions.SceneExtensions.GetComponent<T>(Scene)
+  fullName.vb: StansAssets.Foundation.Extensions.SceneExtensions.GetComponent(Of T)(Scene)
+  nameWithType: SceneExtensions.GetComponent<T>(Scene)
+  nameWithType.vb: SceneExtensions.GetComponent(Of T)(Scene)
+- uid: StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren*
+  name: GetComponentInChildren
+  href: foundation/StansAssets.Foundation.Extensions.SceneExtensions.html#StansAssets_Foundation_Extensions_SceneExtensions_GetComponentInChildren_
+  commentId: Overload:StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren
+  nameWithType: SceneExtensions.GetComponentInChildren
+- uid: StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren``1(Scene)
+  name: GetComponentInChildren<T>(Scene)
+  href: foundation/StansAssets.Foundation.Extensions.SceneExtensions.html#StansAssets_Foundation_Extensions_SceneExtensions_GetComponentInChildren__1_Scene_
+  commentId: M:StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren``1(Scene)
+  name.vb: GetComponentInChildren(Of T)(Scene)
+  fullName: StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren<T>(Scene)
+  fullName.vb: StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren(Of T)(Scene)
+  nameWithType: SceneExtensions.GetComponentInChildren<T>(Scene)
+  nameWithType.vb: SceneExtensions.GetComponentInChildren(Of T)(Scene)
 - uid: StansAssets.Foundation.Extensions.StringExtensions
   name: StringExtensions
   href: foundation/StansAssets.Foundation.Extensions.StringExtensions.html
