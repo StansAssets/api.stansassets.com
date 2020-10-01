@@ -3892,6 +3892,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html",
+          "hash": "mGZcYiUghEddDj4MC+xheA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IServiceLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.IServiceLocator.html",
+          "hash": "HgJRPW8I/EFmyvtvoS7DVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.ListPool-1.yml",
       "output": {
         ".html": {
@@ -3952,6 +3976,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.ServiceLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.ServiceLocator.html",
+          "hash": "Q2ZxtoZ+HTXD/Dr6ni1+Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.Singleton-1.yml",
       "output": {
         ".html": {
@@ -3968,7 +4004,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.html",
-          "hash": "p7P7ARYuZXeKDpaXdatV6w=="
+          "hash": "lfE9+yQVUMfAnT4GM65NzQ=="
         }
       },
       "is_incremental": false,
@@ -4112,7 +4148,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "9PV/fv2hBqfx6Von0MnLyQ=="
+          "hash": "PIhxRA/iwMCST5NO9/y+Og=="
         }
       },
       "is_incremental": false,
@@ -8716,7 +8752,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 700,
+          "total_file_count": 703,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

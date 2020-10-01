@@ -98,6 +98,17 @@ Once instance is found or created, game object will be marked as DontDestroyOnLo
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.PrefabPool.html">PrefabPool</a></h4>
       <section><p>Simplified prefab implementation.</p>
 </section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.ServiceLocator.html">ServiceLocator</a></h4>
+      <section><p>The Service Locator patter.
+This pattern gives you a simple way to decouple dependencies.
+There are a lot props and cons about this patters but it&apos;s up to you to decide,
+if this pattern fits your project.
+Few articles we think it worth reading before using this pattern.</p>
+<ul>
+<li><a href="https://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/">Service Locator is an Anti-Pattern</a></li>
+<li><a href="https://www.derpturkey.com/service-locator-is-not-an-anti-pattern/">Service Locator is NOT an Anti-Pattern</a></li>
+</ul>
+</section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
       <section><p>Singleton pattern implementation.</p>
 </section>
@@ -112,6 +123,24 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
 {
     // Do something with myInstance
 }</code></pre>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html">IReadOnlyServiceLocator</a></h4>
+      <section><p>The read only interfaces for the <a class="xref" href="StansAssets.Foundation.Patterns.IServiceLocator.html">IServiceLocator</a> pattern.
+Should be used if you would only like to retrieve services,
+without giving and ability to register new ones. </p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.IServiceLocator.html">IServiceLocator</a></h4>
+      <section><p>The Service Locator patter.
+This pattern gives you a simple way to decouple dependencies.
+There are a lot props and cons about this patters but it&apos;s up to you to decide,
+if this pattern fits your project.
+Few articles we think it worth reading before using this pattern.</p>
+<ul>
+<li><a href="https://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/">Service Locator is an Anti-Pattern</a></li>
+<li><a href="https://www.derpturkey.com/service-locator-is-not-an-anti-pattern/">Service Locator is NOT an Anti-Pattern</a></li>
+</ul>
 </section>
 </article>
           </div>

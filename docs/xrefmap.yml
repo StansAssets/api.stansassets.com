@@ -36575,6 +36575,119 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.DictionaryPool(Of TKey, TValue)
   nameWithType: DictionaryPool<TKey, TValue>
   nameWithType.vb: DictionaryPool(Of TKey, TValue)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
+  name: IReadOnlyServiceLocator
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html
+  commentId: T:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
+  nameWithType: IReadOnlyServiceLocator
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
+  name: Get(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_Get_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
+  nameWithType: IReadOnlyServiceLocator.Get(Type)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get*
+  name: Get
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_Get_
+  commentId: Overload:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get
+  nameWithType: IReadOnlyServiceLocator.Get
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get``1
+  name: Get<T>()
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_Get__1
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get``1
+  name.vb: Get(Of T)()
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Of T)()
+  nameWithType: IReadOnlyServiceLocator.Get<T>()
+  nameWithType.vb: IReadOnlyServiceLocator.Get(Of T)()
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
+  name: IsRegistered(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_IsRegistered_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
+  nameWithType: IReadOnlyServiceLocator.IsRegistered(Type)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered*
+  name: IsRegistered
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_IsRegistered_
+  commentId: Overload:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered
+  nameWithType: IReadOnlyServiceLocator.IsRegistered
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered``1
+  name: IsRegistered<T>()
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_IsRegistered__1
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered``1
+  name.vb: IsRegistered(Of T)()
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Of T)()
+  nameWithType: IReadOnlyServiceLocator.IsRegistered<T>()
+  nameWithType.vb: IReadOnlyServiceLocator.IsRegistered(Of T)()
+- uid: StansAssets.Foundation.Patterns.IServiceLocator
+  name: IServiceLocator
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html
+  commentId: T:StansAssets.Foundation.Patterns.IServiceLocator
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator
+  nameWithType: IServiceLocator
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Clear
+  name: Clear()
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Clear
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Clear
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Clear()
+  nameWithType: IServiceLocator.Clear()
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Clear*
+  name: Clear
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Clear_
+  commentId: Overload:StansAssets.Foundation.Patterns.IServiceLocator.Clear
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Clear
+  nameWithType: IServiceLocator.Clear
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Register(Type,System.Object)
+  name: Register(Type, Object)
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Register_Type_System_Object_
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Register(Type,System.Object)
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Register(Type, System.Object)
+  nameWithType: IServiceLocator.Register(Type, Object)
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Register*
+  name: Register
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Register_
+  commentId: Overload:StansAssets.Foundation.Patterns.IServiceLocator.Register
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Register
+  nameWithType: IServiceLocator.Register
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Register``1(``0)
+  name: Register<T>(T)
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Register__1___0_
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Register``1(``0)
+  name.vb: Register(Of T)(T)
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Register<T>(T)
+  fullName.vb: StansAssets.Foundation.Patterns.IServiceLocator.Register(Of T)(T)
+  nameWithType: IServiceLocator.Register<T>(T)
+  nameWithType.vb: IServiceLocator.Register(Of T)(T)
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
+  name: Unregister(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Unregister_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
+  nameWithType: IServiceLocator.Unregister(Type)
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister*
+  name: Unregister
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Unregister_
+  commentId: Overload:StansAssets.Foundation.Patterns.IServiceLocator.Unregister
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Unregister
+  nameWithType: IServiceLocator.Unregister
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister``1
+  name: Unregister<T>()
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Unregister__1
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Unregister``1
+  name.vb: Unregister(Of T)()
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Unregister<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Of T)()
+  nameWithType: IServiceLocator.Unregister<T>()
+  nameWithType.vb: IServiceLocator.Unregister(Of T)()
 - uid: StansAssets.Foundation.Patterns.ListPool`1
   name: ListPool<T>
   href: foundation/StansAssets.Foundation.Patterns.ListPool-1.html
@@ -36956,6 +37069,113 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Patterns.PrefabPool.PrefabPool
   nameWithType: PrefabPool.PrefabPool
+- uid: StansAssets.Foundation.Patterns.ServiceLocator
+  name: ServiceLocator
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html
+  commentId: T:StansAssets.Foundation.Patterns.ServiceLocator
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator
+  nameWithType: ServiceLocator
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Clear
+  name: Clear()
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Clear
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Clear
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Clear()
+  nameWithType: ServiceLocator.Clear()
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Clear*
+  name: Clear
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Clear_
+  commentId: Overload:StansAssets.Foundation.Patterns.ServiceLocator.Clear
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Clear
+  nameWithType: ServiceLocator.Clear
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
+  name: Get(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Get_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
+  nameWithType: ServiceLocator.Get(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Get*
+  name: Get
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Get_
+  commentId: Overload:StansAssets.Foundation.Patterns.ServiceLocator.Get
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Get
+  nameWithType: ServiceLocator.Get
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Get``1
+  name: Get<T>()
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Get__1
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Get``1
+  name.vb: Get(Of T)()
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Get<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.Get(Of T)()
+  nameWithType: ServiceLocator.Get<T>()
+  nameWithType.vb: ServiceLocator.Get(Of T)()
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
+  name: IsRegistered(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_IsRegistered_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
+  nameWithType: ServiceLocator.IsRegistered(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered*
+  name: IsRegistered
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_IsRegistered_
+  commentId: Overload:StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered
+  nameWithType: ServiceLocator.IsRegistered
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered``1
+  name: IsRegistered<T>()
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_IsRegistered__1
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered``1
+  name.vb: IsRegistered(Of T)()
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Of T)()
+  nameWithType: ServiceLocator.IsRegistered<T>()
+  nameWithType.vb: ServiceLocator.IsRegistered(Of T)()
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Register(Type,System.Object)
+  name: Register(Type, Object)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Register_Type_System_Object_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Register(Type,System.Object)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Register(Type, System.Object)
+  nameWithType: ServiceLocator.Register(Type, Object)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Register*
+  name: Register
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Register_
+  commentId: Overload:StansAssets.Foundation.Patterns.ServiceLocator.Register
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Register
+  nameWithType: ServiceLocator.Register
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Register``1(``0)
+  name: Register<T>(T)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Register__1___0_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Register``1(``0)
+  name.vb: Register(Of T)(T)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Register<T>(T)
+  fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.Register(Of T)(T)
+  nameWithType: ServiceLocator.Register<T>(T)
+  nameWithType.vb: ServiceLocator.Register(Of T)(T)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
+  name: Unregister(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Unregister_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
+  nameWithType: ServiceLocator.Unregister(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister*
+  name: Unregister
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Unregister_
+  commentId: Overload:StansAssets.Foundation.Patterns.ServiceLocator.Unregister
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Unregister
+  nameWithType: ServiceLocator.Unregister
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister``1
+  name: Unregister<T>()
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Unregister__1
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Unregister``1
+  name.vb: Unregister(Of T)()
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Unregister<T>()
+  fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Of T)()
+  nameWithType: ServiceLocator.Unregister<T>()
+  nameWithType.vb: ServiceLocator.Unregister(Of T)()
 - uid: StansAssets.Foundation.Patterns.Singleton`1
   name: Singleton<T>
   href: foundation/StansAssets.Foundation.Patterns.Singleton-1.html
