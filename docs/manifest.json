@@ -2985,7 +2985,7 @@
       "output": {
         ".html": {
           "relative_path": "facebook/SA.Facebook.html",
-          "hash": "pK3tZpWUHkThpDCmq6/pcQ=="
+          "hash": "y6L5DlG5u+a/sQ7aUHjeMA=="
         }
       },
       "is_incremental": false,
@@ -7270,7 +7270,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.UM_IAnalyticsClient.html",
-          "hash": "LZee04iCjfl9G1sWO4slpw=="
+          "hash": "EkE8TNnv9IdutQ6HdjHRaA=="
         }
       },
       "is_incremental": false,
@@ -7330,7 +7330,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.App.UM_ContactsResult.html",
-          "hash": "0DHm/+UBKmdoLDoba5Yceg=="
+          "hash": "EVsqjyh5gW8Go6mYtNi7vQ=="
         }
       },
       "is_incremental": false,
@@ -7510,7 +7510,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html",
-          "hash": "3b2qcxwykfOFPLLkfagfVg=="
+          "hash": "YdXaMOdvj2tarcsngy7RwQ=="
         }
       },
       "is_incremental": false,
@@ -7522,7 +7522,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Editor.UM_PluginSettingsUI.html",
-          "hash": "EPDqUmNvGGOjOZ6q1RAMOA=="
+          "hash": "kqoR56lEaI7XjQFfxruiOQ=="
         }
       },
       "is_incremental": false,
@@ -7570,7 +7570,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_AchievementsLoadResult.html",
-          "hash": "lcFTSP4ZZnbZClQ892yYpQ=="
+          "hash": "s/qVQLgr0XXvBXspcyhlDQ=="
         }
       },
       "is_incremental": false,
@@ -7630,7 +7630,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.html",
-          "hash": "nOlIIRBl07wxj6tcuT3wsA=="
+          "hash": "7KjsFqwUwE7EG2Xk4+4oGA=="
         }
       },
       "is_incremental": false,
@@ -7690,7 +7690,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult.html",
-          "hash": "ZK7aRayrxLtSynFckEsiug=="
+          "hash": "2GMtn7VFepoNcniO7476FQ=="
         }
       },
       "is_incremental": false,
@@ -7906,7 +7906,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html",
-          "hash": "MBkRsAY1DTdxAb5urz8yLg=="
+          "hash": "lr9bqn3T/Z929XlwVYcnRQ=="
         }
       },
       "is_incremental": false,
@@ -8074,7 +8074,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Social.UM_EmailDialogBuilder.html",
-          "hash": "vjtYxHzUmn9Igm5czmYHUg=="
+          "hash": "V6vu1L0lkY50x3W66uBrlQ=="
         }
       },
       "is_incremental": false,
@@ -8086,7 +8086,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Social.UM_ShareDialogBuilder.html",
-          "hash": "JNxtuPi5TWWDY17FrJ9ZTA=="
+          "hash": "uI/KoOMwd3n7/wNTuXGYww=="
         }
       },
       "is_incremental": false,
@@ -8206,7 +8206,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html",
-          "hash": "O6mqMv6WwqsOmSTNSO95gw=="
+          "hash": "f7eX1kBCbExgRpQ4KKxOWA=="
         }
       },
       "is_incremental": false,
@@ -8255,405 +8255,6 @@
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.UI.html",
           "hash": "oa8HDMXZCXWbbuAuYdcpNw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.FacebookDelegate-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.FacebookDelegate-1.html",
-          "hash": "sfSkbfr7Wn4JBotLc73GKg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.HideUnityDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.HideUnityDelegate.html",
-          "hash": "IkXw0q/FPWgPwhfPSGtljw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.HttpMethod.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.HttpMethod.html",
-          "hash": "GtITkM7Z3le4PgIuqR7CeQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.IGraphResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.IGraphResult.html",
-          "hash": "OIJPyucwvq27NwYQXV4gfQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.ILoginResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.ILoginResult.html",
-          "hash": "rCpG6ZQpamgHlVSyKf7T0g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.IResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.IResult.html",
-          "hash": "u8kakqMAMoUT/s+uq0Dkyw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.InitDelegate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.InitDelegate.html",
-          "hash": "cb7sXWpbhQ1/nU0t5w1hOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.Json.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.Json.html",
-          "hash": "MW6s8IDipA85trO9UNs6Dg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_AccessToken.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_AccessToken.html",
-          "hash": "lWDp6Pcyii4Exx9LBlgTIw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB.html",
-          "hash": "14pjDqiRCCqwDaA+2XJOBA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FBGraphFirendsListResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FBGraphFirendsListResult.html",
-          "hash": "7Ph8gT5YOG+3ey3O0OBnBw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Analytics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Analytics.html",
-          "hash": "EOHY16H5Rb0oRoymk7TdAw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Cursor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Cursor.html",
-          "hash": "QIX9k1KOW+myaVVI5AhSSA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_CursorType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_CursorType.html",
-          "hash": "ufd8zRscZX5X+Uvg8kV/aQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorCode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorCode.html",
-          "hash": "FXCQq+FaWx1dUbxQgqsaUw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorFactory.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ErrorFactory.html",
-          "hash": "qYkV4rCH5n2Z1ND5jRAzwA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Gender.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Gender.html",
-          "hash": "MtZbfVRmnvzgLkcaBkoaVQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetProfileImageUrlResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetProfileImageUrlResult.html",
-          "hash": "Pz860EOg3B79z/Gaf+/o4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetUserResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GetUserResult.html",
-          "hash": "K+6m9dIpiJ5zaiZauOa1bw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphAPI.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphAPI.html",
-          "hash": "mNdT9evemn1g4225GDp/Uw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphFriendsListResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphFriendsListResult.html",
-          "hash": "G6yLVUZljgtxB39/hBWXJQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphInvitableFriendsListResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphInvitableFriendsListResult.html",
-          "hash": "DGnyUSxLaTup6dlkUh3SSg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_GraphResult.html",
-          "hash": "ddKVRke/LK9XFqrD3YXYnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginResult.html",
-          "hash": "Mn7hKq2DDfcgQT11jA6pBg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtil.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtil.html",
-          "hash": "KIXINgsZ6UcmJv4f7Vv6Iw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtilResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_LoginUtilResult.html",
-          "hash": "KcXeVOkCLsgYe0sfkjf2PQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Permissions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Permissions.html",
-          "hash": "td4yNBAvBLPgUs+EMQBVpA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ProfileImageSize.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_ProfileImageSize.html",
-          "hash": "w/9AaehI3MEsSq+2dXop4w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_RequestBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_RequestBuilder.html",
-          "hash": "6otMB3PfdBu/h9pvUqBsGQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Result.html",
-          "hash": "B8rSEtNImE5bvuxuZTHW5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Settings.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_Settings.html",
-          "hash": "g7OrL5MhFdVjlC8+3p8sag=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.SA_FB_User.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.SA_FB_User.html",
-          "hash": "Rn7UeKGRQX93mwhYJTdf6w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "log_codes": [
-        "DuplicateUids"
-      ],
-      "type": "ManagedReference",
-      "source_relative_path": "ultimate-mobile/SA.Facebook.yml",
-      "output": {
-        ".html": {
-          "relative_path": "ultimate-mobile/SA.Facebook.html",
-          "hash": "lBUrD83cB/hwHPNV2+nqEA=="
         }
       },
       "is_incremental": false,
@@ -8725,7 +8326,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/toc.html",
-          "hash": "CLp07VHcMoe2h1eN2QXJ5g=="
+          "hash": "vhUnapL/5rYHWfpfqaqWGQ=="
         }
       },
       "is_incremental": false,
@@ -8752,7 +8353,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 703,
+          "total_file_count": 670,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
