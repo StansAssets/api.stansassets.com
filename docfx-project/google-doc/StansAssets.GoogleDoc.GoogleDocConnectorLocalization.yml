@@ -17,7 +17,7 @@ items:
   source:
     id: GoogleDocConnectorLocalization
     path: ''
-    startLine: 2979
+    startLine: 3081
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -57,7 +57,7 @@ items:
   source:
     id: SpreadsheetId
     path: ''
-    startLine: 2984
+    startLine: 3086
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -92,7 +92,7 @@ items:
   source:
     id: SpreadsheetIdSet
     path: ''
-    startLine: 2990
+    startLine: 3092
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

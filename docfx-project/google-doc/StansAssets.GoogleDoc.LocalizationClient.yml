@@ -17,6 +17,7 @@ items:
   - StansAssets.GoogleDoc.LocalizationClient.Languages
   - StansAssets.GoogleDoc.LocalizationClient.OnLanguageChanged
   - StansAssets.GoogleDoc.LocalizationClient.SetLanguage(System.String)
+  - StansAssets.GoogleDoc.LocalizationClient.Sheets
   langs:
   - csharp
   - vb
@@ -27,7 +28,7 @@ items:
   source:
     id: LocalizationClient
     path: ''
-    startLine: 1237
+    startLine: 1306
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -64,7 +65,7 @@ items:
   source:
     id: OnLanguageChanged
     path: ''
-    startLine: 1242
+    startLine: 1311
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -93,7 +94,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 1247
+    startLine: 1316
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -106,6 +107,39 @@ items:
       type: List{System.String}
     content.vb: Public ReadOnly Property Languages As List(Of String)
   overload: StansAssets.GoogleDoc.LocalizationClient.Languages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.LocalizationClient.Sheets
+  commentId: P:StansAssets.GoogleDoc.LocalizationClient.Sheets
+  id: Sheets
+  parent: StansAssets.GoogleDoc.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: Sheets
+  nameWithType: LocalizationClient.Sheets
+  fullName: StansAssets.GoogleDoc.LocalizationClient.Sheets
+  type: Property
+  source:
+    id: Sheets
+    path: ''
+    startLine: 1321
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nAvailable Spreadsheet sheet names\n"
+  example: []
+  syntax:
+    content: public List<string> Sheets { get; }
+    parameters: []
+    return:
+      type: List{System.String}
+    content.vb: Public ReadOnly Property Sheets As List(Of String)
+  overload: StansAssets.GoogleDoc.LocalizationClient.Sheets*
   modifiers.csharp:
   - public
   - get
@@ -126,7 +160,7 @@ items:
   source:
     id: DefaultLanguage
     path: ''
-    startLine: 1253
+    startLine: 1327
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -159,7 +193,7 @@ items:
   source:
     id: CurrentLanguage
     path: ''
-    startLine: 1258
+    startLine: 1332
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -192,7 +226,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1278
+    startLine: 1352
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -220,7 +254,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1322
+    startLine: 1408
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -255,7 +289,7 @@ items:
   source:
     id: SetLanguage
     path: ''
-    startLine: 1346
+    startLine: 1432
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -286,7 +320,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1364
+    startLine: 1450
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -320,7 +354,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1382
+    startLine: 1468
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -357,7 +391,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1396
+    startLine: 1482
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -394,7 +428,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1422
+    startLine: 1508
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -434,7 +468,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1434
+    startLine: 1520
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -928,6 +962,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: StansAssets.GoogleDoc.LocalizationClient.Sheets*
+  commentId: Overload:StansAssets.GoogleDoc.LocalizationClient.Sheets
+  name: Sheets
+  nameWithType: LocalizationClient.Sheets
+  fullName: StansAssets.GoogleDoc.LocalizationClient.Sheets
 - uid: StansAssets.GoogleDoc.LocalizationClient.DefaultLanguage*
   commentId: Overload:StansAssets.GoogleDoc.LocalizationClient.DefaultLanguage
   name: DefaultLanguage

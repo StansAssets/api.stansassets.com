@@ -7,6 +7,7 @@ items:
   children:
   - StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheet(System.String)
   - StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
+  - StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet(System.String)
   langs:
   - csharp
   - vb
@@ -17,7 +18,7 @@ items:
   source:
     id: GoogleDocConnector
     path: ''
-    startLine: 2907
+    startLine: 2999
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -57,7 +58,7 @@ items:
   source:
     id: GetSpreadsheet
     path: ''
-    startLine: 2920
+    startLine: 3012
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -80,6 +81,43 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet(System.String)
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet(System.String)
+  id: HasSpreadsheet(System.String)
+  parent: StansAssets.GoogleDoc.GoogleDocConnector
+  langs:
+  - csharp
+  - vb
+  name: HasSpreadsheet(String)
+  nameWithType: GoogleDocConnector.HasSpreadsheet(String)
+  fullName: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet(System.String)
+  type: Method
+  source:
+    id: HasSpreadsheet
+    path: ''
+    startLine: 3022
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nSpreadsheet exists by it&apos;s id \n"
+  example: []
+  syntax:
+    content: public static bool HasSpreadsheet(string id)
+    parameters:
+    - id: id
+      type: System.String
+      description: An id of the spreadsheet.
+    return:
+      type: System.Boolean
+      description: True if the spreadsheet exists; otherwise false
+    content.vb: Public Shared Function HasSpreadsheet(id As String) As Boolean
+  overload: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
   commentId: M:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl(System.String)
   id: GetSpreadsheetWebUrl(System.String)
@@ -94,7 +132,7 @@ items:
   source:
     id: GetSpreadsheetWebUrl
     path: ''
-    startLine: 2930
+    startLine: 3032
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -433,6 +471,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet
+  name: HasSpreadsheet
+  nameWithType: GoogleDocConnector.HasSpreadsheet
+  fullName: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl*
   commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnector.GetSpreadsheetWebUrl
   name: GetSpreadsheetWebUrl
