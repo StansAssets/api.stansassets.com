@@ -16,7 +16,7 @@ items:
   source:
     id: BuildSettings
     path: ''
-    startLine: 715
+    startLine: 658
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -50,7 +50,7 @@ items:
   source:
     id: BuildAlias
     path: ''
-    startLine: 717
+    startLine: 660
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

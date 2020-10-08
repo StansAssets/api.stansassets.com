@@ -114,7 +114,7 @@
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_Start_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Start_System_Collections_Generic_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)">Start(IEnumerator)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Start_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)">Start(IEnumerator)</h4>
   <div class="markdown level1 summary"><p>Starts a Coroutine.
 An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html">MonoBehaviour.StartCoroutine</a></p>
 <p>The execution of a coroutine can be paused at any point using the yield statement.
@@ -125,7 +125,7 @@ The StartCoroutine method returns upon the first yield return, however you can y
 which waits until the coroutine has finished execution.
 There is no guarantee coroutines end in the same order they started, even if they finish in the same frame.</p>
 <p>Yielding of any type, including null, results in the execution coming back on a later frame, unless the coroutine is stopped or has completed.</p>
-<p><strong>Note:</strong> You can stop a coroutine using <a class="xref" href="StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_Generic_IEnumerator_">Stop(IEnumerator)</a></p>
+<p><strong>Note:</strong> You can stop a coroutine using <a class="xref" href="StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_">Stop(IEnumerator)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,7 +143,7 @@ There is no guarantee coroutines end in the same order they started, even if the
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td><span class="parametername">routine</span></td>
         <td><p>The <see cref="!:IEnumerator"></see> routine you would like to start.</p>
 </td>
@@ -169,7 +169,7 @@ There is no guarantee coroutines end in the same order they started, even if the
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_Stop_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_Generic_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)">Stop(IEnumerator)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)">Stop(IEnumerator)</h4>
   <div class="markdown level1 summary"><p>Stops the coroutine.
 An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine</a></p>
 </div>
@@ -189,7 +189,7 @@ An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviou
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span></td>
+        <td><span class="xref">IEnumerator</span></td>
         <td><span class="parametername">routine</span></td>
         <td><p>The <see cref="!:IEnumerator"></see> routine you would like to stop.</p>
 </td>
@@ -199,7 +199,7 @@ An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviou
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_WaitForEndOfFrame_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForEndOfFrame_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(Action)">WaitForEndOfFrame(Action)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForEndOfFrame_System_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(System.Action)">WaitForEndOfFrame(Action)</h4>
   <div class="markdown level1 summary"><p>Waits until the end of the frame after Unity has rendered every Camera and GUI, just before displaying the frame on screen.
 Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForEndOfFrame.html">WaitForEndOfFrame</a></p>
 </div>
@@ -219,7 +219,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForEndOfFram
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>The callback action.</p>
 </td>
@@ -229,7 +229,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForEndOfFram
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_WaitForFixedUpdate_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForFixedUpdate_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(Action)">WaitForFixedUpdate(Action)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForFixedUpdate_System_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(System.Action)">WaitForFixedUpdate(Action)</h4>
   <div class="markdown level1 summary"><p>Waits until next fixed frame rate update function.
 Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForFixedUpdate.html">WaitForFixedUpdate</a>
 <param name="action">The callback action.</p>
@@ -250,7 +250,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForFixedUpda
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
@@ -259,7 +259,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForFixedUpda
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSeconds_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSeconds_System_Single_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,Action)">WaitForSeconds(Single, Action)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSeconds_System_Single_System_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,System.Action)">WaitForSeconds(Single, Action)</h4>
   <div class="markdown level1 summary"><p>Wait for a given number of seconds using scaled time.
 Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSeconds.html">WaitForSeconds</a>
 <param name="seconds">Delay execution by the amount of time in seconds.
@@ -286,7 +286,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSeconds.h
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
@@ -295,7 +295,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSeconds.h
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsRealtime_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsRealtime_System_Single_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,Action)">WaitForSecondsRealtime(Single, Action)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsRealtime_System_Single_System_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,System.Action)">WaitForSecondsRealtime(Single, Action)</h4>
   <div class="markdown level1 summary"><p>Wait for a given number of seconds realtime.
 Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSecondsRealtime.html">WaitForSecondsRealtime</a></p>
 </div>
@@ -321,7 +321,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSecondsRe
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>The callback action.</p>
 </td>
@@ -331,7 +331,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSecondsRe
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsWithRandomInterval_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsWithRandomInterval_System_Single_System_Single_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,Action)">WaitForSecondsWithRandomInterval(Single, Single, Action)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsWithRandomInterval_System_Single_System_Single_System_Action_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,System.Action)">WaitForSecondsWithRandomInterval(Single, Single, Action)</h4>
   <div class="markdown level1 summary"><p>Wait for a random number of seconds between min <em>inclusive</em> and max <em>inclusive</em> interval, using scaled time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -362,7 +362,7 @@ Learn more at <a href="https://docs.unity3d.com/ScriptReference/WaitForSecondsRe
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span></td>
+        <td><span class="xref">System.Action</span></td>
         <td><span class="parametername">action</span></td>
         <td><p>The callback action.</p>
 </td>

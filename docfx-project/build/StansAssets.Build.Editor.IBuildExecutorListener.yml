@@ -17,7 +17,7 @@ items:
   source:
     id: IBuildExecutorListener
     path: ''
-    startLine: 476
+    startLine: 641
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -46,7 +46,7 @@ items:
   source:
     id: Active
     path: ''
-    startLine: 481
+    startLine: 646
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -77,7 +77,7 @@ items:
   source:
     id: Register
     path: ''
-    startLine: 487
+    startLine: 652
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

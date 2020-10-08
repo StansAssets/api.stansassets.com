@@ -32602,11 +32602,11 @@ references:
   commentId: T:StansAssets.Foundation.Async.CoroutineUtility
   fullName: StansAssets.Foundation.Async.CoroutineUtility
   nameWithType: CoroutineUtility
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
   name: Start(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_System_Collections_Generic_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.Generic.IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
   nameWithType: CoroutineUtility.Start(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Start*
   name: Start
@@ -32615,11 +32615,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.Start
   nameWithType: CoroutineUtility.Start
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
   name: Stop(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_Generic_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.Generic.IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
   nameWithType: CoroutineUtility.Stop(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Stop*
   name: Stop
@@ -32628,11 +32628,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop
   nameWithType: CoroutineUtility.Stop
-- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(Action)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(System.Action)
   name: WaitForEndOfFrame(Action)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForEndOfFrame_Action_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(Action)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(Action)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForEndOfFrame_System_Action_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(System.Action)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame(System.Action)
   nameWithType: CoroutineUtility.WaitForEndOfFrame(Action)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame*
   name: WaitForEndOfFrame
@@ -32641,11 +32641,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForEndOfFrame
   nameWithType: CoroutineUtility.WaitForEndOfFrame
-- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(Action)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(System.Action)
   name: WaitForFixedUpdate(Action)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForFixedUpdate_Action_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(Action)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(Action)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForFixedUpdate_System_Action_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(System.Action)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate(System.Action)
   nameWithType: CoroutineUtility.WaitForFixedUpdate(Action)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate*
   name: WaitForFixedUpdate
@@ -32654,11 +32654,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForFixedUpdate
   nameWithType: CoroutineUtility.WaitForFixedUpdate
-- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,Action)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,System.Action)
   name: WaitForSeconds(Single, Action)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSeconds_System_Single_Action_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,Action)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single, Action)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSeconds_System_Single_System_Action_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single,System.Action)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds(System.Single, System.Action)
   nameWithType: CoroutineUtility.WaitForSeconds(Single, Action)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds*
   name: WaitForSeconds
@@ -32667,11 +32667,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSeconds
   nameWithType: CoroutineUtility.WaitForSeconds
-- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,Action)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,System.Action)
   name: WaitForSecondsRealtime(Single, Action)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsRealtime_System_Single_Action_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,Action)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single, Action)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsRealtime_System_Single_System_Action_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single,System.Action)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime(System.Single, System.Action)
   nameWithType: CoroutineUtility.WaitForSecondsRealtime(Single, Action)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime*
   name: WaitForSecondsRealtime
@@ -32680,11 +32680,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsRealtime
   nameWithType: CoroutineUtility.WaitForSecondsRealtime
-- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,Action)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,System.Action)
   name: WaitForSecondsWithRandomInterval(Single, Single, Action)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsWithRandomInterval_System_Single_System_Single_Action_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,Action)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single, System.Single, Action)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_WaitForSecondsWithRandomInterval_System_Single_System_Single_System_Action_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single,System.Single,System.Action)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval(System.Single, System.Single, System.Action)
   nameWithType: CoroutineUtility.WaitForSecondsWithRandomInterval(Single, Single, Action)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.WaitForSecondsWithRandomInterval*
   name: WaitForSecondsWithRandomInterval
@@ -32699,11 +32699,11 @@ references:
   commentId: T:StansAssets.Foundation.Async.MainThreadDispatcher
   fullName: StansAssets.Foundation.Async.MainThreadDispatcher
   nameWithType: MainThreadDispatcher
-- uid: StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(Action)
+- uid: StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(System.Action)
   name: Enqueue(Action)
-  href: foundation/StansAssets.Foundation.Async.MainThreadDispatcher.html#StansAssets_Foundation_Async_MainThreadDispatcher_Enqueue_Action_
-  commentId: M:StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(Action)
-  fullName: StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(Action)
+  href: foundation/StansAssets.Foundation.Async.MainThreadDispatcher.html#StansAssets_Foundation_Async_MainThreadDispatcher_Enqueue_System_Action_
+  commentId: M:StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(System.Action)
+  fullName: StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue(System.Action)
   nameWithType: MainThreadDispatcher.Enqueue(Action)
 - uid: StansAssets.Foundation.Async.MainThreadDispatcher.Enqueue*
   name: Enqueue
@@ -32799,13 +32799,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.CachedWebRequest.ClearCache
   nameWithType: CachedWebRequest.ClearCache
-- uid: StansAssets.Foundation.CachedWebRequest.Get(System.String,Action{UnityWebRequest})
+- uid: StansAssets.Foundation.CachedWebRequest.Get(System.String,System.Action{UnityWebRequest})
   name: Get(String, Action<UnityWebRequest>)
-  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_Get_System_String_Action_UnityWebRequest__
-  commentId: M:StansAssets.Foundation.CachedWebRequest.Get(System.String,Action{UnityWebRequest})
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_Get_System_String_System_Action_UnityWebRequest__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.Get(System.String,System.Action{UnityWebRequest})
   name.vb: Get(String, Action(Of UnityWebRequest))
-  fullName: StansAssets.Foundation.CachedWebRequest.Get(System.String, Action<UnityWebRequest>)
-  fullName.vb: StansAssets.Foundation.CachedWebRequest.Get(System.String, Action(Of UnityWebRequest))
+  fullName: StansAssets.Foundation.CachedWebRequest.Get(System.String, System.Action<UnityWebRequest>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.Get(System.String, System.Action(Of UnityWebRequest))
   nameWithType: CachedWebRequest.Get(String, Action<UnityWebRequest>)
   nameWithType.vb: CachedWebRequest.Get(String, Action(Of UnityWebRequest))
 - uid: StansAssets.Foundation.CachedWebRequest.Get*
@@ -32815,13 +32815,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.CachedWebRequest.Get
   nameWithType: CachedWebRequest.Get
-- uid: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,Action{AudioClip})
+- uid: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,System.Action{AudioClip})
   name: GetAudioClip(String, Action<AudioClip>)
-  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetAudioClip_System_String_Action_AudioClip__
-  commentId: M:StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,Action{AudioClip})
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetAudioClip_System_String_System_Action_AudioClip__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String,System.Action{AudioClip})
   name.vb: GetAudioClip(String, Action(Of AudioClip))
-  fullName: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, Action<AudioClip>)
-  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, Action(Of AudioClip))
+  fullName: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, System.Action<AudioClip>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetAudioClip(System.String, System.Action(Of AudioClip))
   nameWithType: CachedWebRequest.GetAudioClip(String, Action<AudioClip>)
   nameWithType.vb: CachedWebRequest.GetAudioClip(String, Action(Of AudioClip))
 - uid: StansAssets.Foundation.CachedWebRequest.GetAudioClip*
@@ -32831,13 +32831,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.CachedWebRequest.GetAudioClip
   nameWithType: CachedWebRequest.GetAudioClip
-- uid: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,Action{Texture2D})
+- uid: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,System.Action{Texture2D})
   name: GetTexture2D(String, Action<Texture2D>)
-  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetTexture2D_System_String_Action_Texture2D__
-  commentId: M:StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,Action{Texture2D})
+  href: foundation/StansAssets.Foundation.CachedWebRequest.html#StansAssets_Foundation_CachedWebRequest_GetTexture2D_System_String_System_Action_Texture2D__
+  commentId: M:StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String,System.Action{Texture2D})
   name.vb: GetTexture2D(String, Action(Of Texture2D))
-  fullName: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, Action<Texture2D>)
-  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, Action(Of Texture2D))
+  fullName: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, System.Action<Texture2D>)
+  fullName.vb: StansAssets.Foundation.CachedWebRequest.GetTexture2D(System.String, System.Action(Of Texture2D))
   nameWithType: CachedWebRequest.GetTexture2D(String, Action<Texture2D>)
   nameWithType.vb: CachedWebRequest.GetTexture2D(String, Action(Of Texture2D))
 - uid: StansAssets.Foundation.CachedWebRequest.GetTexture2D*
@@ -32884,11 +32884,11 @@ references:
   commentId: T:StansAssets.Foundation.Editor.AssetDatabaseUtility
   fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility
   nameWithType: AssetDatabaseUtility
-- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(System.Object)
   name: GetLocalIdentifierInFile(Object)
-  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetLocalIdentifierInFile_Object_
-  commentId: M:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
-  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetLocalIdentifierInFile_System_Object_
+  commentId: M:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(System.Object)
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(System.Object)
   nameWithType: AssetDatabaseUtility.GetLocalIdentifierInFile(Object)
 - uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile*
   name: GetLocalIdentifierInFile
@@ -33220,13 +33220,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Manifest
   nameWithType: Manifest.Manifest
-- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
   name: AddScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
   name.vb: AddScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
   nameWithType: Manifest.AddScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: Manifest.AddScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*
@@ -33480,22 +33480,22 @@ references:
   commentId: T:StansAssets.Foundation.Editor.ScopeRegistry
   fullName: StansAssets.Foundation.Editor.ScopeRegistry
   nameWithType: ScopeRegistry
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
   name: ScopeRegistry(Dictionary<String, Object>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_Collections_Generic_Dictionary_System_String_System_Object__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_Dictionary_System_String_System_Object__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
   name.vb: ScopeRegistry(Dictionary(Of String, Object))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary<System.String, System.Object>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary<System.String, System.Object>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary(Of System.String, System.Object))
   nameWithType: ScopeRegistry.ScopeRegistry(Dictionary<String, Object>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(Dictionary(Of String, Object))
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
   name: ScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
   name.vb: ScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
   nameWithType: ScopeRegistry.ScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor*
@@ -33979,11 +33979,11 @@ references:
   commentId: T:StansAssets.Foundation.Extensions.DateTimeExtensions
   fullName: StansAssets.Foundation.Extensions.DateTimeExtensions
   nameWithType: DateTimeExtensions
-- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+- uid: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(System.DateTime)
   name: DateTimeToUnixTimestamp(DateTime)
-  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_DateTimeToUnixTimestamp_DateTime_
-  commentId: M:StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
-  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
+  href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html#StansAssets_Foundation_Extensions_DateTimeExtensions_DateTimeToUnixTimestamp_System_DateTime_
+  commentId: M:StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(System.DateTime)
+  fullName: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp(System.DateTime)
   nameWithType: DateTimeExtensions.DateTimeToUnixTimestamp(DateTime)
 - uid: StansAssets.Foundation.Extensions.DateTimeExtensions.DateTimeToUnixTimestamp*
   name: DateTimeToUnixTimestamp
@@ -34050,13 +34050,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone
   nameWithType: ListExtensions.Clone
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
   name: Clone<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_System_Collections_Generic_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
   name.vb: Clone(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(System.Collections.Generic.List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(System.Collections.Generic.List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
   nameWithType: ListExtensions.Clone<T>(List<T>)
   nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
@@ -34066,13 +34066,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize
   nameWithType: ListExtensions.Resize
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
   name: Resize<T>(List<T>, Int32, T)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_System_Collections_Generic_List___0__System_Int32___0_
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
   name.vb: Resize(Of T)(List(Of T), Int32, T)
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(System.Collections.Generic.List<T>, System.Int32, T)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(System.Collections.Generic.List(Of T), System.Int32, T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(List<T>, System.Int32, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(List(Of T), System.Int32, T)
   nameWithType: ListExtensions.Resize<T>(List<T>, Int32, T)
   nameWithType.vb: ListExtensions.Resize(Of T)(List(Of T), Int32, T)
 - uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
@@ -34082,13 +34082,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
   nameWithType: ListExtensions.ShallowCopy
-- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
   name: ShallowCopy<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_System_Collections_Generic_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
   name.vb: ShallowCopy(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(System.Collections.Generic.List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(System.Collections.Generic.List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(List(Of T))
   nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
   nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.MaterialExtensions
@@ -34116,11 +34116,11 @@ references:
   commentId: T:StansAssets.Foundation.Extensions.ObjectExtensions
   fullName: StansAssets.Foundation.Extensions.ObjectExtensions
   nameWithType: ObjectExtensions
-- uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(Object)
+- uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(System.Object)
   name: IsNotNull(Object)
-  href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html#StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_Object_
-  commentId: M:StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(Object)
-  fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(Object)
+  href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html#StansAssets_Foundation_Extensions_ObjectExtensions_IsNotNull_System_Object_
+  commentId: M:StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(System.Object)
+  fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull(System.Object)
   nameWithType: ObjectExtensions.IsNotNull(Object)
 - uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull*
   name: IsNotNull
@@ -34129,11 +34129,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNotNull
   nameWithType: ObjectExtensions.IsNotNull
-- uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(Object)
+- uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(System.Object)
   name: IsNull(Object)
-  href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html#StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_Object_
-  commentId: M:StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(Object)
-  fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(Object)
+  href: foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html#StansAssets_Foundation_Extensions_ObjectExtensions_IsNull_System_Object_
+  commentId: M:StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(System.Object)
+  fullName: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull(System.Object)
   nameWithType: ObjectExtensions.IsNull(Object)
 - uid: StansAssets.Foundation.Extensions.ObjectExtensions.IsNull*
   name: IsNull
@@ -34250,11 +34250,11 @@ references:
   commentId: T:StansAssets.Foundation.Extensions.StringExtensions
   fullName: StansAssets.Foundation.Extensions.StringExtensions
   nameWithType: StringExtensions
-- uid: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
+- uid: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,System.StringComparison)
   name: AllIndexesOf(String, String, StringComparison)
-  href: foundation/StansAssets.Foundation.Extensions.StringExtensions.html#StansAssets_Foundation_Extensions_StringExtensions_AllIndexesOf_System_String_System_String_StringComparison_
-  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,StringComparison)
-  fullName: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String, System.String, StringComparison)
+  href: foundation/StansAssets.Foundation.Extensions.StringExtensions.html#StansAssets_Foundation_Extensions_StringExtensions_AllIndexesOf_System_String_System_String_System_StringComparison_
+  commentId: M:StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String,System.String,System.StringComparison)
+  fullName: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf(System.String, System.String, System.StringComparison)
   nameWithType: StringExtensions.AllIndexesOf(String, String, StringComparison)
 - uid: StansAssets.Foundation.Extensions.StringExtensions.AllIndexesOf*
   name: AllIndexesOf
@@ -34777,11 +34777,11 @@ references:
   commentId: T:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
   fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
   nameWithType: IReadOnlyServiceLocator
-- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(System.Type)
   name: Get(Type)
-  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_Get_Type_
-  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
-  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_Get_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(System.Type)
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(System.Type)
   nameWithType: IReadOnlyServiceLocator.Get(Type)
 - uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get*
   name: Get
@@ -34799,11 +34799,11 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.Get(Of T)()
   nameWithType: IReadOnlyServiceLocator.Get<T>()
   nameWithType.vb: IReadOnlyServiceLocator.Get(Of T)()
-- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(System.Type)
   name: IsRegistered(Type)
-  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_IsRegistered_Type_
-  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
-  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html#StansAssets_Foundation_Patterns_IReadOnlyServiceLocator_IsRegistered_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(System.Type)
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered(System.Type)
   nameWithType: IReadOnlyServiceLocator.IsRegistered(Type)
 - uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.IsRegistered*
   name: IsRegistered
@@ -34840,11 +34840,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Patterns.IServiceLocator.Clear
   nameWithType: IServiceLocator.Clear
-- uid: StansAssets.Foundation.Patterns.IServiceLocator.Register(Type,System.Object)
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Register(System.Type,System.Object)
   name: Register(Type, Object)
-  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Register_Type_System_Object_
-  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Register(Type,System.Object)
-  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Register(Type, System.Object)
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Register_System_Type_System_Object_
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Register(System.Type,System.Object)
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Register(System.Type, System.Object)
   nameWithType: IServiceLocator.Register(Type, Object)
 - uid: StansAssets.Foundation.Patterns.IServiceLocator.Register*
   name: Register
@@ -34862,11 +34862,11 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.IServiceLocator.Register(Of T)(T)
   nameWithType: IServiceLocator.Register<T>(T)
   nameWithType.vb: IServiceLocator.Register(Of T)(T)
-- uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
+- uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(System.Type)
   name: Unregister(Type)
-  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Unregister_Type_
-  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
-  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(Type)
+  href: foundation/StansAssets.Foundation.Patterns.IServiceLocator.html#StansAssets_Foundation_Patterns_IServiceLocator_Unregister_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.IServiceLocator.Unregister(System.Type)
+  fullName: StansAssets.Foundation.Patterns.IServiceLocator.Unregister(System.Type)
   nameWithType: IServiceLocator.Unregister(Type)
 - uid: StansAssets.Foundation.Patterns.IServiceLocator.Unregister*
   name: Unregister
@@ -35030,13 +35030,13 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T)
   nameWithType: ObjectPool<T>
   nameWithType.vb: ObjectPool(Of T)
-- uid: StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(Func{`0},Action{`0},Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)
   name: ObjectPool(Func<T>, Action<T>, Action<T>, Boolean, Boolean, Int32, UInt32)
-  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1__ctor_Func__0__Action__0__Action__0__System_Boolean_System_Boolean_System_Int32_System_UInt32_
-  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(Func{`0},Action{`0},Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1__ctor_System_Func__0__System_Action__0__System_Action__0__System_Boolean_System_Boolean_System_Int32_System_UInt32_
+  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)
   name.vb: ObjectPool(Func(Of T), Action(Of T), Action(Of T), Boolean, Boolean, Int32, UInt32)
-  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.ObjectPool(Func<T>, Action<T>, Action<T>, System.Boolean, System.Boolean, System.Int32, System.UInt32)
-  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).ObjectPool(Func(Of T), Action(Of T), Action(Of T), System.Boolean, System.Boolean, System.Int32, System.UInt32)
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.ObjectPool(System.Func<T>, System.Action<T>, System.Action<T>, System.Boolean, System.Boolean, System.Int32, System.UInt32)
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).ObjectPool(System.Func(Of T), System.Action(Of T), System.Action(Of T), System.Boolean, System.Boolean, System.Int32, System.UInt32)
   nameWithType: ObjectPool<T>.ObjectPool(Func<T>, Action<T>, Action<T>, Boolean, Boolean, Int32, UInt32)
   nameWithType.vb: ObjectPool(Of T).ObjectPool(Func(Of T), Action(Of T), Action(Of T), Boolean, Boolean, Int32, UInt32)
 - uid: StansAssets.Foundation.Patterns.ObjectPool`1.#ctor*
@@ -35194,6 +35194,25 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject.GetHashCode
   nameWithType: ObjectPool<T>.PooledObject.GetHashCode
   nameWithType.vb: ObjectPool(Of T).PooledObject.GetHashCode
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose
+  name: IDisposable.Dispose()
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html#StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose
+  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose
+  name.vb: System.IDisposable.Dispose()
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.PooledObject.System.IDisposable.Dispose()
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject.System.IDisposable.Dispose()
+  nameWithType: ObjectPool<T>.PooledObject.IDisposable.Dispose()
+  nameWithType.vb: ObjectPool(Of T).PooledObject.System.IDisposable.Dispose()
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose*
+  name: IDisposable.Dispose
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html#StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose_
+  commentId: Overload:StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose
+  isSpec: "True"
+  name.vb: System.IDisposable.Dispose
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.PooledObject.System.IDisposable.Dispose
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject.System.IDisposable.Dispose
+  nameWithType: ObjectPool<T>.PooledObject.IDisposable.Dispose
+  nameWithType.vb: ObjectPool(Of T).PooledObject.System.IDisposable.Dispose
 - uid: StansAssets.Foundation.Patterns.ObjectPool`1.PreWarm(System.Int32)
   name: PreWarm(Int32)
   href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1_PreWarm_System_Int32_
@@ -35228,13 +35247,13 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).Release
   nameWithType: ObjectPool<T>.Release
   nameWithType.vb: ObjectPool(Of T).Release
-- uid: StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(Predicate{`0},`0@)
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)
   name: TryGet(Predicate<T>, out T)
-  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_Predicate__0___0__
-  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(Predicate{`0},`0@)
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html#StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_System_Predicate__0___0__
+  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)
   name.vb: TryGet(Predicate(Of T), ByRef T)
-  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.TryGet(Predicate<T>, out T)
-  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).TryGet(Predicate(Of T), ByRef T)
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.TryGet(System.Predicate<T>, out T)
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).TryGet(System.Predicate(Of T), ByRef T)
   nameWithType: ObjectPool<T>.TryGet(Predicate<T>, out T)
   nameWithType.vb: ObjectPool(Of T).TryGet(Predicate(Of T), ByRef T)
 - uid: StansAssets.Foundation.Patterns.ObjectPool`1.TryGet*
@@ -35284,11 +35303,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Patterns.ServiceLocator.Clear
   nameWithType: ServiceLocator.Clear
-- uid: StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Get(System.Type)
   name: Get(Type)
-  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Get_Type_
-  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
-  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Get(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Get_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Get(System.Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Get(System.Type)
   nameWithType: ServiceLocator.Get(Type)
 - uid: StansAssets.Foundation.Patterns.ServiceLocator.Get*
   name: Get
@@ -35306,11 +35325,11 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.Get(Of T)()
   nameWithType: ServiceLocator.Get<T>()
   nameWithType.vb: ServiceLocator.Get(Of T)()
-- uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(System.Type)
   name: IsRegistered(Type)
-  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_IsRegistered_Type_
-  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
-  fullName: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_IsRegistered_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(System.Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(System.Type)
   nameWithType: ServiceLocator.IsRegistered(Type)
 - uid: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered*
   name: IsRegistered
@@ -35328,11 +35347,11 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.IsRegistered(Of T)()
   nameWithType: ServiceLocator.IsRegistered<T>()
   nameWithType.vb: ServiceLocator.IsRegistered(Of T)()
-- uid: StansAssets.Foundation.Patterns.ServiceLocator.Register(Type,System.Object)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Register(System.Type,System.Object)
   name: Register(Type, Object)
-  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Register_Type_System_Object_
-  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Register(Type,System.Object)
-  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Register(Type, System.Object)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Register_System_Type_System_Object_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Register(System.Type,System.Object)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Register(System.Type, System.Object)
   nameWithType: ServiceLocator.Register(Type, Object)
 - uid: StansAssets.Foundation.Patterns.ServiceLocator.Register*
   name: Register
@@ -35350,11 +35369,11 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ServiceLocator.Register(Of T)(T)
   nameWithType: ServiceLocator.Register<T>(T)
   nameWithType.vb: ServiceLocator.Register(Of T)(T)
-- uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
+- uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(System.Type)
   name: Unregister(Type)
-  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Unregister_Type_
-  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
-  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(Type)
+  href: foundation/StansAssets.Foundation.Patterns.ServiceLocator.html#StansAssets_Foundation_Patterns_ServiceLocator_Unregister_System_Type_
+  commentId: M:StansAssets.Foundation.Patterns.ServiceLocator.Unregister(System.Type)
+  fullName: StansAssets.Foundation.Patterns.ServiceLocator.Unregister(System.Type)
   nameWithType: ServiceLocator.Unregister(Type)
 - uid: StansAssets.Foundation.Patterns.ServiceLocator.Unregister*
   name: Unregister
@@ -35611,11 +35630,11 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.TimeUtility.StartTimer
   nameWithType: TimeUtility.StartTimer
-- uid: StansAssets.Foundation.TimeUtility.ToUnixTime(DateTime)
+- uid: StansAssets.Foundation.TimeUtility.ToUnixTime(System.DateTime)
   name: ToUnixTime(DateTime)
-  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_ToUnixTime_DateTime_
-  commentId: M:StansAssets.Foundation.TimeUtility.ToUnixTime(DateTime)
-  fullName: StansAssets.Foundation.TimeUtility.ToUnixTime(DateTime)
+  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_ToUnixTime_System_DateTime_
+  commentId: M:StansAssets.Foundation.TimeUtility.ToUnixTime(System.DateTime)
+  fullName: StansAssets.Foundation.TimeUtility.ToUnixTime(System.DateTime)
   nameWithType: TimeUtility.ToUnixTime(DateTime)
 - uid: StansAssets.Foundation.TimeUtility.ToUnixTime*
   name: ToUnixTime
@@ -35630,11 +35649,11 @@ references:
   commentId: T:StansAssets.Foundation.TypeConversion
   fullName: StansAssets.Foundation.TypeConversion
   nameWithType: TypeConversion
-- uid: StansAssets.Foundation.TypeConversion.Convert(System.Object,Type)
+- uid: StansAssets.Foundation.TypeConversion.Convert(System.Object,System.Type)
   name: Convert(Object, Type)
-  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert_System_Object_Type_
-  commentId: M:StansAssets.Foundation.TypeConversion.Convert(System.Object,Type)
-  fullName: StansAssets.Foundation.TypeConversion.Convert(System.Object, Type)
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Convert_System_Object_System_Type_
+  commentId: M:StansAssets.Foundation.TypeConversion.Convert(System.Object,System.Type)
+  fullName: StansAssets.Foundation.TypeConversion.Convert(System.Object, System.Type)
   nameWithType: TypeConversion.Convert(Object, Type)
 - uid: StansAssets.Foundation.TypeConversion.Convert*
   name: Convert
@@ -35668,13 +35687,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.TypeConversion.Register
   nameWithType: TypeConversion.Register
-- uid: StansAssets.Foundation.TypeConversion.Register``2(Func{``0,``1})
+- uid: StansAssets.Foundation.TypeConversion.Register``2(System.Func{``0,``1})
   name: Register<TSource, TDestination>(Func<TSource, TDestination>)
-  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Register__2_Func___0___1__
-  commentId: M:StansAssets.Foundation.TypeConversion.Register``2(Func{``0,``1})
+  href: foundation/StansAssets.Foundation.TypeConversion.html#StansAssets_Foundation_TypeConversion_Register__2_System_Func___0___1__
+  commentId: M:StansAssets.Foundation.TypeConversion.Register``2(System.Func{``0,``1})
   name.vb: Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
-  fullName: StansAssets.Foundation.TypeConversion.Register<TSource, TDestination>(Func<TSource, TDestination>)
-  fullName.vb: StansAssets.Foundation.TypeConversion.Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
+  fullName: StansAssets.Foundation.TypeConversion.Register<TSource, TDestination>(System.Func<TSource, TDestination>)
+  fullName.vb: StansAssets.Foundation.TypeConversion.Register(Of TSource, TDestination)(System.Func(Of TSource, TDestination))
   nameWithType: TypeConversion.Register<TSource, TDestination>(Func<TSource, TDestination>)
   nameWithType.vb: TypeConversion.Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
 - uid: StansAssets.Foundation.TypeConversion.TryConvert*
@@ -35731,11 +35750,11 @@ references:
   fullName.vb: StansAssets.Foundation.TypeConversionInstance.Convert(Of TSource, TDestination)(TSource)
   nameWithType: TypeConversionInstance.Convert<TSource, TDestination>(TSource)
   nameWithType.vb: TypeConversionInstance.Convert(Of TSource, TDestination)(TSource)
-- uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type,Type)
+- uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor(System.Type,System.Type)
   name: HasConvertor(Type, Type)
-  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_HasConvertor_Type_Type_
-  commentId: M:StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type,Type)
-  fullName: StansAssets.Foundation.TypeConversionInstance.HasConvertor(Type, Type)
+  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_HasConvertor_System_Type_System_Type_
+  commentId: M:StansAssets.Foundation.TypeConversionInstance.HasConvertor(System.Type,System.Type)
+  fullName: StansAssets.Foundation.TypeConversionInstance.HasConvertor(System.Type, System.Type)
   nameWithType: TypeConversionInstance.HasConvertor(Type, Type)
 - uid: StansAssets.Foundation.TypeConversionInstance.HasConvertor*
   name: HasConvertor
@@ -35760,13 +35779,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.TypeConversionInstance.Register
   nameWithType: TypeConversionInstance.Register
-- uid: StansAssets.Foundation.TypeConversionInstance.Register``2(Func{``0,``1})
+- uid: StansAssets.Foundation.TypeConversionInstance.Register``2(System.Func{``0,``1})
   name: Register<TSource, TDestination>(Func<TSource, TDestination>)
-  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_Register__2_Func___0___1__
-  commentId: M:StansAssets.Foundation.TypeConversionInstance.Register``2(Func{``0,``1})
+  href: foundation/StansAssets.Foundation.TypeConversionInstance.html#StansAssets_Foundation_TypeConversionInstance_Register__2_System_Func___0___1__
+  commentId: M:StansAssets.Foundation.TypeConversionInstance.Register``2(System.Func{``0,``1})
   name.vb: Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
-  fullName: StansAssets.Foundation.TypeConversionInstance.Register<TSource, TDestination>(Func<TSource, TDestination>)
-  fullName.vb: StansAssets.Foundation.TypeConversionInstance.Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
+  fullName: StansAssets.Foundation.TypeConversionInstance.Register<TSource, TDestination>(System.Func<TSource, TDestination>)
+  fullName.vb: StansAssets.Foundation.TypeConversionInstance.Register(Of TSource, TDestination)(System.Func(Of TSource, TDestination))
   nameWithType: TypeConversionInstance.Register<TSource, TDestination>(Func<TSource, TDestination>)
   nameWithType.vb: TypeConversionInstance.Register(Of TSource, TDestination)(Func(Of TSource, TDestination))
 - uid: StansAssets.Foundation.UIElements

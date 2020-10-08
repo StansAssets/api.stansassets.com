@@ -19,7 +19,7 @@ items:
   source:
     id: BuildExecutor
     path: ''
-    startLine: 530
+    startLine: 422
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -59,7 +59,7 @@ items:
   source:
     id: RegisterStep
     path: ''
-    startLine: 543
+    startLine: 435
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -93,7 +93,7 @@ items:
   source:
     id: RegisterScenePostprocessTask
     path: ''
-    startLine: 552
+    startLine: 444
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -127,7 +127,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 561
+    startLine: 453
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -161,7 +161,7 @@ items:
   source:
     id: Settings
     path: ''
-    startLine: 680
+    startLine: 572
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

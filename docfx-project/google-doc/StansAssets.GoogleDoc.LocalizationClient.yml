@@ -27,7 +27,7 @@ items:
   source:
     id: LocalizationClient
     path: ''
-    startLine: 1384
+    startLine: 1237
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -64,7 +64,7 @@ items:
   source:
     id: OnLanguageChanged
     path: ''
-    startLine: 1389
+    startLine: 1242
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -93,7 +93,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 1394
+    startLine: 1247
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -126,7 +126,7 @@ items:
   source:
     id: DefaultLanguage
     path: ''
-    startLine: 1400
+    startLine: 1253
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -159,7 +159,7 @@ items:
   source:
     id: CurrentLanguage
     path: ''
-    startLine: 1405
+    startLine: 1258
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -192,7 +192,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1425
+    startLine: 1278
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -220,7 +220,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1469
+    startLine: 1322
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -255,7 +255,7 @@ items:
   source:
     id: SetLanguage
     path: ''
-    startLine: 1493
+    startLine: 1346
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -286,7 +286,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1511
+    startLine: 1364
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -320,7 +320,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1529
+    startLine: 1382
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -357,7 +357,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1543
+    startLine: 1396
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -394,7 +394,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1569
+    startLine: 1422
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -434,7 +434,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1581
+    startLine: 1434
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

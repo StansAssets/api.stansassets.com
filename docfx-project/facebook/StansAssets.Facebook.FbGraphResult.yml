@@ -26,7 +26,7 @@ items:
   source:
     id: FbGraphResult
     path: ''
-    startLine: 89
+    startLine: 1431
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -78,7 +78,7 @@ items:
   source:
     id: ParsePaginatedResult
     path: ''
-    startLine: 94
+    startLine: 1436
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -107,7 +107,7 @@ items:
   source:
     id: ParseResultId
     path: ''
-    startLine: 108
+    startLine: 1450
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -136,7 +136,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 116
+    startLine: 1458
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -169,7 +169,7 @@ items:
   source:
     id: Next
     path: ''
-    startLine: 121
+    startLine: 1463
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -202,7 +202,7 @@ items:
   source:
     id: HasNext
     path: ''
-    startLine: 126
+    startLine: 1468
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -235,7 +235,7 @@ items:
   source:
     id: Previous
     path: ''
-    startLine: 131
+    startLine: 1473
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -268,7 +268,7 @@ items:
   source:
     id: HasPrevious
     path: ''
-    startLine: 136
+    startLine: 1478
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -301,7 +301,7 @@ items:
   source:
     id: Before
     path: ''
-    startLine: 141
+    startLine: 1483
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -334,7 +334,7 @@ items:
   source:
     id: After
     path: ''
-    startLine: 146
+    startLine: 1488
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -367,7 +367,7 @@ items:
   source:
     id: BeforeFbCursorPointer
     path: ''
-    startLine: 151
+    startLine: 1493
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -400,7 +400,7 @@ items:
   source:
     id: AfterFbCursorPointer
     path: ''
-    startLine: 156
+    startLine: 1498
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
