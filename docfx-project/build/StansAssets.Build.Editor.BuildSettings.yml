@@ -5,82 +5,209 @@ items:
   id: BuildSettings
   parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Editor.BuildSettings.BuildAlias
+  - StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  - StansAssets.Build.Editor.BuildSettings.AddData``1(System.String,``0)
+  - StansAssets.Build.Editor.BuildSettings.TryGetData(System.String,System.Object@)
+  - StansAssets.Build.Editor.BuildSettings.TryGetData``1(System.String,``0@)
   langs:
   - csharp
   - vb
   name: BuildSettings
   nameWithType: BuildSettings
   fullName: StansAssets.Build.Editor.BuildSettings
-  type: Struct
+  type: Class
   source:
     id: BuildSettings
     path: ''
-    startLine: 658
+    startLine: 677
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
   syntax:
-    content: public struct BuildSettings
-    content.vb: Public Structure BuildSettings
+    content: public class BuildSettings
+    content.vb: Public Class BuildSettings
+  inheritance:
+  - System.Object
   inheritedMembers:
-  - System.ValueType.Equals(System.Object)
-  - System.ValueType.GetHashCode
-  - System.ValueType.ToString
+  - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
   - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
-  - struct
+  - class
   modifiers.vb:
   - Public
-  - Structure
-- uid: StansAssets.Build.Editor.BuildSettings.BuildAlias
-  commentId: F:StansAssets.Build.Editor.BuildSettings.BuildAlias
-  id: BuildAlias
+  - Class
+- uid: StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  commentId: M:StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  id: AddData(System.String,System.Object)
   parent: StansAssets.Build.Editor.BuildSettings
   langs:
   - csharp
   - vb
-  name: BuildAlias
-  nameWithType: BuildSettings.BuildAlias
-  fullName: StansAssets.Build.Editor.BuildSettings.BuildAlias
-  type: Field
+  name: AddData(String, Object)
+  nameWithType: BuildSettings.AddData(String, Object)
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData(System.String, System.Object)
+  type: Method
   source:
-    id: BuildAlias
+    id: AddData
     path: ''
-    startLine: 660
+    startLine: 681
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
   syntax:
-    content: public string BuildAlias
-    return:
+    content: public void AddData(string key, object data)
+    parameters:
+    - id: key
       type: System.String
-    content.vb: Public BuildAlias As String
+    - id: data
+      type: System.Object
+    content.vb: Public Sub AddData(key As String, data As Object)
+  overload: StansAssets.Build.Editor.BuildSettings.AddData*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
+- uid: StansAssets.Build.Editor.BuildSettings.AddData``1(System.String,``0)
+  commentId: M:StansAssets.Build.Editor.BuildSettings.AddData``1(System.String,``0)
+  id: AddData``1(System.String,``0)
+  parent: StansAssets.Build.Editor.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: AddData<T>(String, T)
+  nameWithType: BuildSettings.AddData<T>(String, T)
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData<T>(System.String, T)
+  type: Method
+  source:
+    id: AddData
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public void AddData<T>(string key, T data)
+    parameters:
+    - id: key
+      type: System.String
+    - id: data
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub AddData(Of T)(key As String, data As T)
+  overload: StansAssets.Build.Editor.BuildSettings.AddData*
+  nameWithType.vb: BuildSettings.AddData(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.AddData(Of T)(System.String, T)
+  name.vb: AddData(Of T)(String, T)
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String,System.Object@)
+  commentId: M:StansAssets.Build.Editor.BuildSettings.TryGetData(System.String,System.Object@)
+  id: TryGetData(System.String,System.Object@)
+  parent: StansAssets.Build.Editor.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: TryGetData(String, out Object)
+  nameWithType: BuildSettings.TryGetData(String, out Object)
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String, out System.Object)
+  type: Method
+  source:
+    id: TryGetData
+    path: ''
+    startLine: 691
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public bool TryGetData(string key, out object data)
+    parameters:
+    - id: key
+      type: System.String
+    - id: data
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetData(key As String, ByRef data As Object) As Boolean
+  overload: StansAssets.Build.Editor.BuildSettings.TryGetData*
+  nameWithType.vb: BuildSettings.TryGetData(String, ByRef Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String, ByRef System.Object)
+  name.vb: TryGetData(String, ByRef Object)
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData``1(System.String,``0@)
+  commentId: M:StansAssets.Build.Editor.BuildSettings.TryGetData``1(System.String,``0@)
+  id: TryGetData``1(System.String,``0@)
+  parent: StansAssets.Build.Editor.BuildSettings
+  langs:
+  - csharp
+  - vb
+  name: TryGetData<T>(String, out T)
+  nameWithType: BuildSettings.TryGetData<T>(String, out T)
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData<T>(System.String, out T)
+  type: Method
+  source:
+    id: TryGetData
+    path: ''
+    startLine: 696
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public bool TryGetData<T>(string key, out T data)
+    parameters:
+    - id: key
+      type: System.String
+    - id: data
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetData(Of T)(key As String, ByRef data As T) As Boolean
+  overload: StansAssets.Build.Editor.BuildSettings.TryGetData*
+  nameWithType.vb: BuildSettings.TryGetData(Of T)(String, ByRef T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.TryGetData(Of T)(System.String, ByRef T)
+  name.vb: TryGetData(Of T)(String, ByRef T)
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
   name: StansAssets.Build.Editor
   nameWithType: StansAssets.Build.Editor
   fullName: StansAssets.Build.Editor
-- uid: System.ValueType.Equals(System.Object)
-  commentId: M:System.ValueType.Equals(System.Object)
-  parent: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
   name: Equals(Object)
-  nameWithType: ValueType.Equals(Object)
-  fullName: System.ValueType.Equals(System.Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
   spec.csharp:
-  - uid: System.ValueType.Equals(System.Object)
+  - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
     isExternal: true
   - name: (
     nameWithType: (
@@ -94,10 +221,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.ValueType.Equals(System.Object)
+  - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
     isExternal: true
   - name: (
     nameWithType: (
@@ -107,68 +234,6 @@ references:
     nameWithType: Object
     fullName: System.Object
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.ValueType.GetHashCode
-  commentId: M:System.ValueType.GetHashCode
-  parent: System.ValueType
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: ValueType.GetHashCode()
-  fullName: System.ValueType.GetHashCode()
-  spec.csharp:
-  - uid: System.ValueType.GetHashCode
-    name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.GetHashCode
-    name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.ValueType.ToString
-  commentId: M:System.ValueType.ToString
-  parent: System.ValueType
-  isExternal: true
-  name: ToString()
-  nameWithType: ValueType.ToString()
-  fullName: System.ValueType.ToString()
-  spec.csharp:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
   - name: )
     nameWithType: )
     fullName: )
@@ -229,6 +294,37 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
@@ -253,6 +349,68 @@ references:
     name: GetType
     nameWithType: Object.GetType
     fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
     isExternal: true
   - name: (
     nameWithType: (
@@ -317,26 +475,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.ValueType
-  commentId: T:System.ValueType
-  parent: System
-  isExternal: true
-  name: ValueType
-  nameWithType: ValueType
-  fullName: System.ValueType
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.Build.Editor.BuildSettings.AddData*
+  commentId: Overload:StansAssets.Build.Editor.BuildSettings.AddData
+  name: AddData
+  nameWithType: BuildSettings.AddData
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -344,3 +493,25 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData*
+  commentId: Overload:StansAssets.Build.Editor.BuildSettings.TryGetData
+  name: TryGetData
+  nameWithType: BuildSettings.TryGetData
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

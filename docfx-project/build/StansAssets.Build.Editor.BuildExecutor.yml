@@ -19,7 +19,7 @@ items:
   source:
     id: BuildExecutor
     path: ''
-    startLine: 422
+    startLine: 413
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -59,7 +59,7 @@ items:
   source:
     id: RegisterStep
     path: ''
-    startLine: 435
+    startLine: 433
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -93,7 +93,7 @@ items:
   source:
     id: RegisterScenePostprocessTask
     path: ''
-    startLine: 444
+    startLine: 442
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -127,7 +127,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 453
+    startLine: 451
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -161,27 +161,27 @@ items:
   source:
     id: Settings
     path: ''
-    startLine: 572
+    startLine: 580
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nPlease use this property to set BuildSettings before build started\n"
+  summary: "\nPlease use this property to pass data during build pipeline. Check <xref href=\"StansAssets.Build.Editor.BuildSettings.AddData(System.String%2cSystem.Object)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   example: []
   syntax:
-    content: public static BuildSettings Settings { get; set; }
+    content: public static BuildSettings Settings { get; }
     parameters: []
     return:
       type: StansAssets.Build.Editor.BuildSettings
-    content.vb: Public Shared Property Settings As BuildSettings
+    content.vb: Public Shared ReadOnly Property Settings As BuildSettings
   overload: StansAssets.Build.Editor.BuildExecutor.Settings*
   modifiers.csharp:
   - public
   - static
   - get
-  - set
   modifiers.vb:
   - Public
   - Shared
+  - ReadOnly
 references:
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
@@ -513,6 +513,9 @@ references:
   name: IBuildContext
   nameWithType: IBuildContext
   fullName: StansAssets.Build.Editor.IBuildContext
+- uid: StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  commentId: M:StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  isExternal: true
 - uid: StansAssets.Build.Editor.BuildExecutor.Settings*
   commentId: Overload:StansAssets.Build.Editor.BuildExecutor.Settings
   name: Settings

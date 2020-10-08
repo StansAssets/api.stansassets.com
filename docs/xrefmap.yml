@@ -30813,12 +30813,53 @@ references:
   commentId: T:StansAssets.Build.Editor.BuildSettings
   fullName: StansAssets.Build.Editor.BuildSettings
   nameWithType: BuildSettings
-- uid: StansAssets.Build.Editor.BuildSettings.BuildAlias
-  name: BuildAlias
-  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_BuildAlias
-  commentId: F:StansAssets.Build.Editor.BuildSettings.BuildAlias
-  fullName: StansAssets.Build.Editor.BuildSettings.BuildAlias
-  nameWithType: BuildSettings.BuildAlias
+- uid: StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  name: AddData(String, Object)
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_AddData_System_String_System_Object_
+  commentId: M:StansAssets.Build.Editor.BuildSettings.AddData(System.String,System.Object)
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData(System.String, System.Object)
+  nameWithType: BuildSettings.AddData(String, Object)
+- uid: StansAssets.Build.Editor.BuildSettings.AddData*
+  name: AddData
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_AddData_
+  commentId: Overload:StansAssets.Build.Editor.BuildSettings.AddData
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData
+  nameWithType: BuildSettings.AddData
+- uid: StansAssets.Build.Editor.BuildSettings.AddData``1(System.String,``0)
+  name: AddData<T>(String, T)
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_AddData__1_System_String___0_
+  commentId: M:StansAssets.Build.Editor.BuildSettings.AddData``1(System.String,``0)
+  name.vb: AddData(Of T)(String, T)
+  fullName: StansAssets.Build.Editor.BuildSettings.AddData<T>(System.String, T)
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.AddData(Of T)(System.String, T)
+  nameWithType: BuildSettings.AddData<T>(String, T)
+  nameWithType.vb: BuildSettings.AddData(Of T)(String, T)
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String,System.Object@)
+  name: TryGetData(String, out Object)
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_TryGetData_System_String_System_Object__
+  commentId: M:StansAssets.Build.Editor.BuildSettings.TryGetData(System.String,System.Object@)
+  name.vb: TryGetData(String, ByRef Object)
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String, out System.Object)
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.TryGetData(System.String, ByRef System.Object)
+  nameWithType: BuildSettings.TryGetData(String, out Object)
+  nameWithType.vb: BuildSettings.TryGetData(String, ByRef Object)
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData*
+  name: TryGetData
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_TryGetData_
+  commentId: Overload:StansAssets.Build.Editor.BuildSettings.TryGetData
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData
+  nameWithType: BuildSettings.TryGetData
+- uid: StansAssets.Build.Editor.BuildSettings.TryGetData``1(System.String,``0@)
+  name: TryGetData<T>(String, out T)
+  href: build/StansAssets.Build.Editor.BuildSettings.html#StansAssets_Build_Editor_BuildSettings_TryGetData__1_System_String___0__
+  commentId: M:StansAssets.Build.Editor.BuildSettings.TryGetData``1(System.String,``0@)
+  name.vb: TryGetData(Of T)(String, ByRef T)
+  fullName: StansAssets.Build.Editor.BuildSettings.TryGetData<T>(System.String, out T)
+  fullName.vb: StansAssets.Build.Editor.BuildSettings.TryGetData(Of T)(System.String, ByRef T)
+  nameWithType: BuildSettings.TryGetData<T>(String, out T)
+  nameWithType.vb: BuildSettings.TryGetData(Of T)(String, ByRef T)
 - uid: StansAssets.Build.Editor.BuildStepResultArgs
   name: BuildStepResultArgs
   href: build/StansAssets.Build.Editor.BuildStepResultArgs.html
@@ -30947,6 +30988,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.IBuildExecutorListener.Active
   nameWithType: IBuildExecutorListener.Active
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Priority
+  name: Priority
+  href: build/StansAssets.Build.Editor.IBuildExecutorListener.html#StansAssets_Build_Editor_IBuildExecutorListener_Priority
+  commentId: P:StansAssets.Build.Editor.IBuildExecutorListener.Priority
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Priority
+  nameWithType: IBuildExecutorListener.Priority
+- uid: StansAssets.Build.Editor.IBuildExecutorListener.Priority*
+  name: Priority
+  href: build/StansAssets.Build.Editor.IBuildExecutorListener.html#StansAssets_Build_Editor_IBuildExecutorListener_Priority_
+  commentId: Overload:StansAssets.Build.Editor.IBuildExecutorListener.Priority
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.IBuildExecutorListener.Priority
+  nameWithType: IBuildExecutorListener.Priority
 - uid: StansAssets.Build.Editor.IBuildExecutorListener.Register(StansAssets.Build.Editor.IBuildContext)
   name: Register(IBuildContext)
   href: build/StansAssets.Build.Editor.IBuildExecutorListener.html#StansAssets_Build_Editor_IBuildExecutorListener_Register_StansAssets_Build_Editor_IBuildContext_
