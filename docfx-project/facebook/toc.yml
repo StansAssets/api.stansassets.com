@@ -40,8 +40,3 @@
     name: FbSettings
   - uid: StansAssets.Facebook.FbUser
     name: FbUser
-- uid: StansAssets.Facebook.Editor
-  name: StansAssets.Facebook.Editor
-  items:
-  - uid: StansAssets.Facebook.Editor.FbEditorWindow
-    name: FbEditorWindow

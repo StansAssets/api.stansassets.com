@@ -11,15 +11,16 @@ items:
   - StansAssets.Facebook.Fb.API(System.String,HttpMethod,FacebookDelegate{IGraphResult},IDictionary{System.String,System.String})
   - StansAssets.Facebook.Fb.ClientToken
   - StansAssets.Facebook.Fb.FbGraphApi
-  - StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  - StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  - StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
   - StansAssets.Facebook.Fb.Init(InitDelegate,HideUnityDelegate,System.String)
   - StansAssets.Facebook.Fb.Init(System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,HideUnityDelegate,InitDelegate)
   - StansAssets.Facebook.Fb.IsInitialized
   - StansAssets.Facebook.Fb.IsLoggedIn
-  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
-  - StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  - StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  - StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
   - StansAssets.Facebook.Fb.LogOut
   langs:
   - csharp
@@ -31,7 +32,7 @@ items:
   source:
     id: Fb
     path: ''
-    startLine: 555
+    startLine: 605
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -69,7 +70,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 571
+    startLine: 621
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -109,7 +110,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 606
+    startLine: 656
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -159,21 +160,21 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  id: LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
   parent: StansAssets.Facebook.Fb
   langs:
   - csharp
   - vb
   name: LogInWithPublishPermissions(Action<FbLoginResult>)
   nameWithType: Fb.LogInWithPublishPermissions(Action<FbLoginResult>)
-  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action<StansAssets.Facebook.FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action<StansAssets.Facebook.FbLoginResult>)
   type: Method
   source:
     id: LogInWithPublishPermissions
     path: ''
-    startLine: 628
+    startLine: 678
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -183,7 +184,7 @@ items:
     content: public static void LogInWithPublishPermissions(Action<FbLoginResult> callback)
     parameters:
     - id: callback
-      type: Action{StansAssets.Facebook.FbLoginResult}
+      type: System.Action{StansAssets.Facebook.FbLoginResult}
       description: A delegate that will be called with the result of the Login Dialog.
     content.vb: Public Shared Sub LogInWithPublishPermissions(callback As Action(Of FbLoginResult))
   overload: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
@@ -194,23 +195,23 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action(Of StansAssets.Facebook.FbLoginResult))
   name.vb: LogInWithPublishPermissions(Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
-  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
-  id: LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   parent: StansAssets.Facebook.Fb
   langs:
   - csharp
   - vb
   name: LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
   nameWithType: Fb.LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
-  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable<System.String>, System.Action<StansAssets.Facebook.FbLoginResult>)
   type: Method
   source:
     id: LogInWithPublishPermissions
     path: ''
-    startLine: 647
+    startLine: 697
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -223,7 +224,7 @@ items:
       type: IEnumerable{System.String}
       description: A list of Facebook permissions requested from the user
     - id: callback
-      type: Action{StansAssets.Facebook.FbLoginResult}
+      type: System.Action{StansAssets.Facebook.FbLoginResult}
       description: A delegate that will be called with the result of the Login Dialog.
     content.vb: Public Shared Sub LogInWithPublishPermissions(permissions As IEnumerable(Of String), callback As Action(Of FbLoginResult))
   overload: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
@@ -234,23 +235,23 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable(Of System.String), System.Action(Of StansAssets.Facebook.FbLoginResult))
   name.vb: LogInWithPublishPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  id: LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
   parent: StansAssets.Facebook.Fb
   langs:
   - csharp
   - vb
   name: LogInWithReadPermissions(Action<FbLoginResult>)
   nameWithType: Fb.LogInWithReadPermissions(Action<FbLoginResult>)
-  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action<StansAssets.Facebook.FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action<StansAssets.Facebook.FbLoginResult>)
   type: Method
   source:
     id: LogInWithReadPermissions
     path: ''
-    startLine: 663
+    startLine: 713
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -260,7 +261,7 @@ items:
     content: public static void LogInWithReadPermissions(Action<FbLoginResult> callback)
     parameters:
     - id: callback
-      type: Action{StansAssets.Facebook.FbLoginResult}
+      type: System.Action{StansAssets.Facebook.FbLoginResult}
       description: A delegate that will be called with the result of the Login Dialog.
     content.vb: Public Shared Sub LogInWithReadPermissions(callback As Action(Of FbLoginResult))
   overload: StansAssets.Facebook.Fb.LogInWithReadPermissions*
@@ -271,23 +272,23 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action(Of StansAssets.Facebook.FbLoginResult))
   name.vb: LogInWithReadPermissions(Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
-  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
-  id: LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
+  id: LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   parent: StansAssets.Facebook.Fb
   langs:
   - csharp
   - vb
   name: LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
   nameWithType: Fb.LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
-  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable<System.String>, System.Action<StansAssets.Facebook.FbLoginResult>)
   type: Method
   source:
     id: LogInWithReadPermissions
     path: ''
-    startLine: 680
+    startLine: 730
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -300,7 +301,7 @@ items:
       type: IEnumerable{System.String}
       description: A list of Facebook permissions requested from the user
     - id: callback
-      type: Action{StansAssets.Facebook.FbLoginResult}
+      type: System.Action{StansAssets.Facebook.FbLoginResult}
       description: A delegate that will be called with the result of the Login Dialog.
     content.vb: Public Shared Sub LogInWithReadPermissions(permissions As IEnumerable(Of String), callback As Action(Of FbLoginResult))
   overload: StansAssets.Facebook.Fb.LogInWithReadPermissions*
@@ -311,23 +312,23 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable(Of System.String), System.Action(Of StansAssets.Facebook.FbLoginResult))
   name.vb: LogInWithReadPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
-  commentId: M:StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
-  id: GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
+  commentId: M:StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
+  id: GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
   parent: StansAssets.Facebook.Fb
   langs:
   - csharp
   - vb
   name: GetLoggedInUserInfo(Action<FbGetUserResult>)
   nameWithType: Fb.GetLoggedInUserInfo(Action<FbGetUserResult>)
-  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action<StansAssets.Facebook.FbGetUserResult>)
+  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action<StansAssets.Facebook.FbGetUserResult>)
   type: Method
   source:
     id: GetLoggedInUserInfo
     path: ''
-    startLine: 711
+    startLine: 761
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -337,7 +338,7 @@ items:
     content: public static void GetLoggedInUserInfo(Action<FbGetUserResult> callback)
     parameters:
     - id: callback
-      type: Action{StansAssets.Facebook.FbGetUserResult}
+      type: System.Action{StansAssets.Facebook.FbGetUserResult}
       description: ''
     content.vb: Public Shared Sub GetLoggedInUserInfo(callback As Action(Of FbGetUserResult))
   overload: StansAssets.Facebook.Fb.GetLoggedInUserInfo*
@@ -348,7 +349,7 @@ items:
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action(Of StansAssets.Facebook.FbGetUserResult))
+  fullName.vb: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action(Of StansAssets.Facebook.FbGetUserResult))
   name.vb: GetLoggedInUserInfo(Action(Of FbGetUserResult))
 - uid: StansAssets.Facebook.Fb.LogOut
   commentId: M:StansAssets.Facebook.Fb.LogOut
@@ -364,7 +365,7 @@ items:
   source:
     id: LogOut
     path: ''
-    startLine: 725
+    startLine: 775
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -394,7 +395,7 @@ items:
   source:
     id: API
     path: ''
-    startLine: 743
+    startLine: 793
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -420,6 +421,48 @@ items:
   - Shared
   fullName.vb: StansAssets.Facebook.Fb.API(System.String, HttpMethod, FacebookDelegate(Of IGraphResult), IDictionary(Of System.String, System.String))
   name.vb: API(String, HttpMethod, FacebookDelegate(Of IGraphResult), IDictionary(Of String, String))
+- uid: StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  commentId: M:StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  id: GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  parent: StansAssets.Facebook.Fb
+  langs:
+  - csharp
+  - vb
+  name: GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
+  nameWithType: Fb.GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
+  fullName: StansAssets.Facebook.Fb.GetFriends(System.Int32, System.Action<StansAssets.Facebook.FbGraphFriendsListResult>, StansAssets.Facebook.FbCursor)
+  type: Method
+  source:
+    id: GetFriends
+    path: ''
+    startLine: 809
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThis edge allows you to:\nget the User&apos;s friends who have installed the app making the query\nget the User&apos;s total number of friends (including those who have not installed the app making the query)\n<p>Requires  <strong>&quot;user_friends&quot; </strong> permission\n<a href=\"https://developers.facebook.com/docs/graph-api/reference/user/friends\">https://developers.facebook.com/docs/graph-api/reference/user/friends</a> for information </p>\n"
+  example: []
+  syntax:
+    content: public static void GetFriends(int limit, Action<FbGraphFriendsListResult> callback, FbCursor cursor)
+    parameters:
+    - id: limit
+      type: System.Int32
+      description: 'Result limit '
+    - id: callback
+      type: System.Action{StansAssets.Facebook.FbGraphFriendsListResult}
+      description: 'Request callback '
+    - id: cursor
+      type: StansAssets.Facebook.FbCursor
+    content.vb: Public Shared Sub GetFriends(limit As Integer, callback As Action(Of FbGraphFriendsListResult), cursor As FbCursor)
+  overload: StansAssets.Facebook.Fb.GetFriends*
+  nameWithType.vb: Fb.GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: StansAssets.Facebook.Fb.GetFriends(System.Int32, System.Action(Of StansAssets.Facebook.FbGraphFriendsListResult), StansAssets.Facebook.FbCursor)
+  name.vb: GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
 - uid: StansAssets.Facebook.Fb.ActivateApp
   commentId: M:StansAssets.Facebook.Fb.ActivateApp
   id: ActivateApp
@@ -434,7 +477,7 @@ items:
   source:
     id: ActivateApp
     path: ''
-    startLine: 753
+    startLine: 818
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -464,7 +507,7 @@ items:
   source:
     id: IsLoggedIn
     path: ''
-    startLine: 758
+    startLine: 823
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -499,7 +542,7 @@ items:
   source:
     id: IsInitialized
     path: ''
-    startLine: 763
+    startLine: 828
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -534,7 +577,7 @@ items:
   source:
     id: FbGraphApi
     path: ''
-    startLine: 768
+    startLine: 833
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -569,7 +612,7 @@ items:
   source:
     id: AccessToken
     path: ''
-    startLine: 774
+    startLine: 839
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -604,7 +647,7 @@ items:
   source:
     id: AccessTokenString
     path: ''
-    startLine: 780
+    startLine: 845
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -639,7 +682,7 @@ items:
   source:
     id: ClientToken
     path: ''
-    startLine: 786
+    startLine: 851
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -995,20 +1038,21 @@ references:
   name: LogInWithPublishPermissions
   nameWithType: Fb.LogInWithPublishPermissions
   fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions
-- uid: Action{StansAssets.Facebook.FbLoginResult}
-  commentId: '!:Action{StansAssets.Facebook.FbLoginResult}'
-  definition: Action`1
+- uid: System.Action{StansAssets.Facebook.FbLoginResult}
+  commentId: T:System.Action{StansAssets.Facebook.FbLoginResult}
+  parent: System
+  definition: System.Action`1
   name: Action<FbLoginResult>
   nameWithType: Action<FbLoginResult>
-  fullName: Action<StansAssets.Facebook.FbLoginResult>
+  fullName: System.Action<StansAssets.Facebook.FbLoginResult>
   nameWithType.vb: Action(Of FbLoginResult)
-  fullName.vb: Action(Of StansAssets.Facebook.FbLoginResult)
+  fullName.vb: System.Action(Of StansAssets.Facebook.FbLoginResult)
   name.vb: Action(Of FbLoginResult)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -1021,10 +1065,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1036,41 +1080,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Action`1
+- uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: Action(Of )
-  name.vb: Action(Of )
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -1171,20 +1216,21 @@ references:
   name: GetLoggedInUserInfo
   nameWithType: Fb.GetLoggedInUserInfo
   fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo
-- uid: Action{StansAssets.Facebook.FbGetUserResult}
-  commentId: '!:Action{StansAssets.Facebook.FbGetUserResult}'
-  definition: Action`1
+- uid: System.Action{StansAssets.Facebook.FbGetUserResult}
+  commentId: T:System.Action{StansAssets.Facebook.FbGetUserResult}
+  parent: System
+  definition: System.Action`1
   name: Action<FbGetUserResult>
   nameWithType: Action<FbGetUserResult>
-  fullName: Action<StansAssets.Facebook.FbGetUserResult>
+  fullName: System.Action<StansAssets.Facebook.FbGetUserResult>
   nameWithType.vb: Action(Of FbGetUserResult)
-  fullName.vb: Action(Of StansAssets.Facebook.FbGetUserResult)
+  fullName.vb: System.Action(Of StansAssets.Facebook.FbGetUserResult)
   name.vb: Action(Of FbGetUserResult)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -1197,10 +1243,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -1419,6 +1465,66 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: StansAssets.Facebook.Fb.GetFriends*
+  commentId: Overload:StansAssets.Facebook.Fb.GetFriends
+  name: GetFriends
+  nameWithType: Fb.GetFriends
+  fullName: StansAssets.Facebook.Fb.GetFriends
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Action{StansAssets.Facebook.FbGraphFriendsListResult}
+  commentId: T:System.Action{StansAssets.Facebook.FbGraphFriendsListResult}
+  parent: System
+  definition: System.Action`1
+  name: Action<FbGraphFriendsListResult>
+  nameWithType: Action<FbGraphFriendsListResult>
+  fullName: System.Action<StansAssets.Facebook.FbGraphFriendsListResult>
+  nameWithType.vb: Action(Of FbGraphFriendsListResult)
+  fullName.vb: System.Action(Of StansAssets.Facebook.FbGraphFriendsListResult)
+  name.vb: Action(Of FbGraphFriendsListResult)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.Facebook.FbGraphFriendsListResult
+    name: FbGraphFriendsListResult
+    nameWithType: FbGraphFriendsListResult
+    fullName: StansAssets.Facebook.FbGraphFriendsListResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.Facebook.FbGraphFriendsListResult
+    name: FbGraphFriendsListResult
+    nameWithType: FbGraphFriendsListResult
+    fullName: StansAssets.Facebook.FbGraphFriendsListResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbCursor
+  commentId: T:StansAssets.Facebook.FbCursor
+  parent: StansAssets.Facebook
+  name: FbCursor
+  nameWithType: FbCursor
+  fullName: StansAssets.Facebook.FbCursor
 - uid: StansAssets.Facebook.Fb.ActivateApp*
   commentId: Overload:StansAssets.Facebook.Fb.ActivateApp
   name: ActivateApp

@@ -10,8 +10,8 @@ items:
   - StansAssets.Facebook.FbUser.Email
   - StansAssets.Facebook.FbUser.FirstName
   - StansAssets.Facebook.FbUser.Gender
-  - StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
-  - StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  - StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
+  - StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
   - StansAssets.Facebook.FbUser.Id
   - StansAssets.Facebook.FbUser.LastName
   - StansAssets.Facebook.FbUser.Location
@@ -29,7 +29,7 @@ items:
   source:
     id: FbUser
     path: ''
-    startLine: 245
+    startLine: 295
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -68,7 +68,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 250
+    startLine: 300
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -101,7 +101,7 @@ items:
   source:
     id: Birthday
     path: ''
-    startLine: 255
+    startLine: 305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -111,8 +111,8 @@ items:
     content: public DateTime Birthday { get; set; }
     parameters: []
     return:
-      type: DateTime
-    content.vb: Public Property Birthday As DateTime
+      type: System.DateTime
+    content.vb: Public Property Birthday As Date
   overload: StansAssets.Facebook.FbUser.Birthday*
   modifiers.csharp:
   - public
@@ -134,7 +134,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 260
+    startLine: 310
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -167,7 +167,7 @@ items:
   source:
     id: FirstName
     path: ''
-    startLine: 265
+    startLine: 315
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -200,7 +200,7 @@ items:
   source:
     id: LastName
     path: ''
-    startLine: 270
+    startLine: 320
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -233,7 +233,7 @@ items:
   source:
     id: ProfileUrl
     path: ''
-    startLine: 276
+    startLine: 326
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -266,7 +266,7 @@ items:
   source:
     id: Email
     path: ''
-    startLine: 282
+    startLine: 332
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -299,7 +299,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 287
+    startLine: 337
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -332,7 +332,7 @@ items:
   source:
     id: Gender
     path: ''
-    startLine: 295
+    startLine: 345
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -365,7 +365,7 @@ items:
   source:
     id: RawGenderString
     path: ''
-    startLine: 300
+    startLine: 350
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -398,7 +398,7 @@ items:
   source:
     id: AgeRange
     path: ''
-    startLine: 305
+    startLine: 355
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -431,7 +431,7 @@ items:
   source:
     id: PictureUrl
     path: ''
-    startLine: 310
+    startLine: 360
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -450,21 +450,21 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
-  commentId: M:StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
-  id: GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+- uid: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
+  id: GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
   parent: StansAssets.Facebook.FbUser
   langs:
   - csharp
   - vb
   name: GetProfileUrl(FbProfileImageSize, Action<String>)
   nameWithType: FbUser.GetProfileUrl(FbProfileImageSize, Action<String>)
-  fullName: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action<System.String>)
+  fullName: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, System.Action<System.String>)
   type: Method
   source:
     id: GetProfileUrl
     path: ''
-    startLine: 324
+    startLine: 374
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -477,7 +477,7 @@ items:
       type: StansAssets.Facebook.FbProfileImageSize
       description: Requested profile image size.
     - id: callback
-      type: Action{System.String}
+      type: System.Action{System.String}
       description: Request callback.
     content.vb: Public Sub GetProfileUrl(size As FbProfileImageSize, callback As Action(Of String))
   overload: StansAssets.Facebook.FbUser.GetProfileUrl*
@@ -486,23 +486,23 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action(Of System.String))
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, System.Action(Of System.String))
   name.vb: GetProfileUrl(FbProfileImageSize, Action(Of String))
-- uid: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
-  commentId: M:StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
-  id: GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+- uid: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
+  id: GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
   parent: StansAssets.Facebook.FbUser
   langs:
   - csharp
   - vb
   name: GetProfileImage(FbProfileImageSize, Action<Texture2D>)
   nameWithType: FbUser.GetProfileImage(FbProfileImageSize, Action<Texture2D>)
-  fullName: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action<Texture2D>)
+  fullName: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, System.Action<Texture2D>)
   type: Method
   source:
     id: GetProfileImage
     path: ''
-    startLine: 344
+    startLine: 394
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -515,7 +515,7 @@ items:
       type: StansAssets.Facebook.FbProfileImageSize
       description: Requested profile image size
     - id: callback
-      type: Action{Texture2D}
+      type: System.Action{Texture2D}
       description: Callback with user Texture2D profile image
     content.vb: Public Sub GetProfileImage(size As FbProfileImageSize, callback As Action(Of Texture2D))
   overload: StansAssets.Facebook.FbUser.GetProfileImage*
@@ -524,7 +524,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action(Of Texture2D))
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, System.Action(Of Texture2D))
   name.vb: GetProfileImage(FbProfileImageSize, Action(Of Texture2D))
 references:
 - uid: StansAssets.Facebook
@@ -841,12 +841,13 @@ references:
   name: Birthday
   nameWithType: FbUser.Birthday
   fullName: StansAssets.Facebook.FbUser.Birthday
-- uid: DateTime
-  commentId: '!:DateTime'
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
   isExternal: true
   name: DateTime
   nameWithType: DateTime
-  fullName: DateTime
+  fullName: System.DateTime
 - uid: StansAssets.Facebook.FbUser.Name*
   commentId: Overload:StansAssets.Facebook.FbUser.Name
   name: Name
@@ -926,20 +927,21 @@ references:
   name: FbProfileImageSize
   nameWithType: FbProfileImageSize
   fullName: StansAssets.Facebook.FbProfileImageSize
-- uid: Action{System.String}
-  commentId: '!:Action{System.String}'
-  definition: Action`1
+- uid: System.Action{System.String}
+  commentId: T:System.Action{System.String}
+  parent: System
+  definition: System.Action`1
   name: Action<String>
   nameWithType: Action<String>
-  fullName: Action<System.String>
+  fullName: System.Action<System.String>
   nameWithType.vb: Action(Of String)
-  fullName.vb: Action(Of System.String)
+  fullName.vb: System.Action(Of System.String)
   name.vb: Action(Of String)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -953,10 +955,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -969,41 +971,42 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: Action`1
+- uid: System.Action`1
+  commentId: T:System.Action`1
   isExternal: true
-  name: Action<>
-  nameWithType: Action<>
-  fullName: Action<>
-  nameWithType.vb: Action(Of )
-  fullName.vb: Action(Of )
-  name.vb: Action(Of )
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )
@@ -1012,20 +1015,21 @@ references:
   name: GetProfileImage
   nameWithType: FbUser.GetProfileImage
   fullName: StansAssets.Facebook.FbUser.GetProfileImage
-- uid: Action{Texture2D}
-  commentId: '!:Action{Texture2D}'
-  definition: Action`1
+- uid: System.Action{Texture2D}
+  commentId: T:System.Action{Texture2D}
+  parent: System
+  definition: System.Action`1
   name: Action<Texture2D>
   nameWithType: Action<Texture2D>
-  fullName: Action<Texture2D>
+  fullName: System.Action<Texture2D>
   nameWithType.vb: Action(Of Texture2D)
-  fullName.vb: Action(Of Texture2D)
+  fullName.vb: System.Action(Of Texture2D)
   name.vb: Action(Of Texture2D)
   spec.csharp:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: <
     nameWithType: <
@@ -1039,10 +1043,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: Action`1
+  - uid: System.Action`1
     name: Action
     nameWithType: Action
-    fullName: Action
+    fullName: System.Action
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '

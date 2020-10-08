@@ -31430,13 +31430,29 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.Fb.FbGraphApi
   nameWithType: Fb.FbGraphApi
-- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+- uid: StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  name: GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_GetFriends_System_Int32_System_Action_StansAssets_Facebook_FbGraphFriendsListResult__StansAssets_Facebook_FbCursor_
+  commentId: M:StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  name.vb: GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
+  fullName: StansAssets.Facebook.Fb.GetFriends(System.Int32, System.Action<StansAssets.Facebook.FbGraphFriendsListResult>, StansAssets.Facebook.FbCursor)
+  fullName.vb: StansAssets.Facebook.Fb.GetFriends(System.Int32, System.Action(Of StansAssets.Facebook.FbGraphFriendsListResult), StansAssets.Facebook.FbCursor)
+  nameWithType: Fb.GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
+  nameWithType.vb: Fb.GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
+- uid: StansAssets.Facebook.Fb.GetFriends*
+  name: GetFriends
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_GetFriends_
+  commentId: Overload:StansAssets.Facebook.Fb.GetFriends
+  isSpec: "True"
+  fullName: StansAssets.Facebook.Fb.GetFriends
+  nameWithType: Fb.GetFriends
+- uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
   name: GetLoggedInUserInfo(Action<FbGetUserResult>)
-  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_GetLoggedInUserInfo_Action_StansAssets_Facebook_FbGetUserResult__
-  commentId: M:StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_GetLoggedInUserInfo_System_Action_StansAssets_Facebook_FbGetUserResult__
+  commentId: M:StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})
   name.vb: GetLoggedInUserInfo(Action(Of FbGetUserResult))
-  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action<StansAssets.Facebook.FbGetUserResult>)
-  fullName.vb: StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action(Of StansAssets.Facebook.FbGetUserResult))
+  fullName: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action<StansAssets.Facebook.FbGetUserResult>)
+  fullName.vb: StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action(Of StansAssets.Facebook.FbGetUserResult))
   nameWithType: Fb.GetLoggedInUserInfo(Action<FbGetUserResult>)
   nameWithType.vb: Fb.GetLoggedInUserInfo(Action(Of FbGetUserResult))
 - uid: StansAssets.Facebook.Fb.GetLoggedInUserInfo*
@@ -31491,24 +31507,24 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.Fb.IsLoggedIn
   nameWithType: Fb.IsLoggedIn
-- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  name: LogInWithPublishPermissions(Action<FbLoginResult>)
-  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithPublishPermissions_Action_StansAssets_Facebook_FbLoginResult__
-  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  name.vb: LogInWithPublishPermissions(Action(Of FbLoginResult))
-  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action<StansAssets.Facebook.FbLoginResult>)
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
-  nameWithType: Fb.LogInWithPublishPermissions(Action<FbLoginResult>)
-  nameWithType.vb: Fb.LogInWithPublishPermissions(Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   name: LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
-  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithPublishPermissions_IEnumerable_System_String__Action_StansAssets_Facebook_FbLoginResult__
-  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithPublishPermissions_IEnumerable_System_String__System_Action_StansAssets_Facebook_FbLoginResult__
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   name.vb: LogInWithPublishPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
-  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable<System.String>, System.Action<StansAssets.Facebook.FbLoginResult>)
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable(Of System.String), System.Action(Of StansAssets.Facebook.FbLoginResult))
   nameWithType: Fb.LogInWithPublishPermissions(IEnumerable<String>, Action<FbLoginResult>)
   nameWithType.vb: Fb.LogInWithPublishPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  name: LogInWithPublishPermissions(Action<FbLoginResult>)
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithPublishPermissions_System_Action_StansAssets_Facebook_FbLoginResult__
+  commentId: M:StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  name.vb: LogInWithPublishPermissions(Action(Of FbLoginResult))
+  fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action<StansAssets.Facebook.FbLoginResult>)
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action(Of StansAssets.Facebook.FbLoginResult))
+  nameWithType: Fb.LogInWithPublishPermissions(Action<FbLoginResult>)
+  nameWithType.vb: Fb.LogInWithPublishPermissions(Action(Of FbLoginResult))
 - uid: StansAssets.Facebook.Fb.LogInWithPublishPermissions*
   name: LogInWithPublishPermissions
   href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithPublishPermissions_
@@ -31516,24 +31532,24 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.Fb.LogInWithPublishPermissions
   nameWithType: Fb.LogInWithPublishPermissions
-- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  name: LogInWithReadPermissions(Action<FbLoginResult>)
-  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithReadPermissions_Action_StansAssets_Facebook_FbLoginResult__
-  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})
-  name.vb: LogInWithReadPermissions(Action(Of FbLoginResult))
-  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action<StansAssets.Facebook.FbLoginResult>)
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(Action(Of StansAssets.Facebook.FbLoginResult))
-  nameWithType: Fb.LogInWithReadPermissions(Action<FbLoginResult>)
-  nameWithType.vb: Fb.LogInWithReadPermissions(Action(Of FbLoginResult))
-- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   name: LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
-  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithReadPermissions_IEnumerable_System_String__Action_StansAssets_Facebook_FbLoginResult__
-  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithReadPermissions_IEnumerable_System_String__System_Action_StansAssets_Facebook_FbLoginResult__
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})
   name.vb: LogInWithReadPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
-  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable<System.String>, Action<StansAssets.Facebook.FbLoginResult>)
-  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable(Of System.String), Action(Of StansAssets.Facebook.FbLoginResult))
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable<System.String>, System.Action<StansAssets.Facebook.FbLoginResult>)
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable(Of System.String), System.Action(Of StansAssets.Facebook.FbLoginResult))
   nameWithType: Fb.LogInWithReadPermissions(IEnumerable<String>, Action<FbLoginResult>)
   nameWithType.vb: Fb.LogInWithReadPermissions(IEnumerable(Of String), Action(Of FbLoginResult))
+- uid: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  name: LogInWithReadPermissions(Action<FbLoginResult>)
+  href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithReadPermissions_System_Action_StansAssets_Facebook_FbLoginResult__
+  commentId: M:StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})
+  name.vb: LogInWithReadPermissions(Action(Of FbLoginResult))
+  fullName: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action<StansAssets.Facebook.FbLoginResult>)
+  fullName.vb: StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action(Of StansAssets.Facebook.FbLoginResult))
+  nameWithType: Fb.LogInWithReadPermissions(Action<FbLoginResult>)
+  nameWithType.vb: Fb.LogInWithReadPermissions(Action(Of FbLoginResult))
 - uid: StansAssets.Facebook.Fb.LogInWithReadPermissions*
   name: LogInWithReadPermissions
   href: facebook/StansAssets.Facebook.Fb.html#StansAssets_Facebook_Fb_LogInWithReadPermissions_
@@ -31704,13 +31720,13 @@ references:
   commentId: T:StansAssets.Facebook.FbGraphAPI
   fullName: StansAssets.Facebook.FbGraphAPI
   nameWithType: FbGraphAPI
-- uid: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32,Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+- uid: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
   name: GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
-  href: facebook/StansAssets.Facebook.FbGraphAPI.html#StansAssets_Facebook_FbGraphAPI_GetFriends_System_Int32_Action_StansAssets_Facebook_FbGraphFriendsListResult__StansAssets_Facebook_FbCursor_
-  commentId: M:StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32,Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
+  href: facebook/StansAssets.Facebook.FbGraphAPI.html#StansAssets_Facebook_FbGraphAPI_GetFriends_System_Int32_System_Action_StansAssets_Facebook_FbGraphFriendsListResult__StansAssets_Facebook_FbCursor_
+  commentId: M:StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)
   name.vb: GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
-  fullName: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32, Action<StansAssets.Facebook.FbGraphFriendsListResult>, StansAssets.Facebook.FbCursor)
-  fullName.vb: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32, Action(Of StansAssets.Facebook.FbGraphFriendsListResult), StansAssets.Facebook.FbCursor)
+  fullName: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32, System.Action<StansAssets.Facebook.FbGraphFriendsListResult>, StansAssets.Facebook.FbCursor)
+  fullName.vb: StansAssets.Facebook.FbGraphAPI.GetFriends(System.Int32, System.Action(Of StansAssets.Facebook.FbGraphFriendsListResult), StansAssets.Facebook.FbCursor)
   nameWithType: FbGraphAPI.GetFriends(Int32, Action<FbGraphFriendsListResult>, FbCursor)
   nameWithType.vb: FbGraphAPI.GetFriends(Int32, Action(Of FbGraphFriendsListResult), FbCursor)
 - uid: StansAssets.Facebook.FbGraphAPI.GetFriends*
@@ -31965,13 +31981,13 @@ references:
   commentId: T:StansAssets.Facebook.FbLoginUtil
   fullName: StansAssets.Facebook.FbLoginUtil
   nameWithType: FbLoginUtil
-- uid: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean,Action{StansAssets.Facebook.FbLoginUtilResult})
+- uid: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean,System.Action{StansAssets.Facebook.FbLoginUtilResult})
   name: ConfirmLoginStatus(Boolean, Action<FbLoginUtilResult>)
-  href: facebook/StansAssets.Facebook.FbLoginUtil.html#StansAssets_Facebook_FbLoginUtil_ConfirmLoginStatus_System_Boolean_Action_StansAssets_Facebook_FbLoginUtilResult__
-  commentId: M:StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean,Action{StansAssets.Facebook.FbLoginUtilResult})
+  href: facebook/StansAssets.Facebook.FbLoginUtil.html#StansAssets_Facebook_FbLoginUtil_ConfirmLoginStatus_System_Boolean_System_Action_StansAssets_Facebook_FbLoginUtilResult__
+  commentId: M:StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean,System.Action{StansAssets.Facebook.FbLoginUtilResult})
   name.vb: ConfirmLoginStatus(Boolean, Action(Of FbLoginUtilResult))
-  fullName: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean, Action<StansAssets.Facebook.FbLoginUtilResult>)
-  fullName.vb: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean, Action(Of StansAssets.Facebook.FbLoginUtilResult))
+  fullName: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean, System.Action<StansAssets.Facebook.FbLoginUtilResult>)
+  fullName.vb: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus(System.Boolean, System.Action(Of StansAssets.Facebook.FbLoginUtilResult))
   nameWithType: FbLoginUtil.ConfirmLoginStatus(Boolean, Action<FbLoginUtilResult>)
   nameWithType.vb: FbLoginUtil.ConfirmLoginStatus(Boolean, Action(Of FbLoginUtilResult))
 - uid: StansAssets.Facebook.FbLoginUtil.ConfirmLoginStatus*
@@ -32515,13 +32531,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.FbUser.Gender
   nameWithType: FbUser.Gender
-- uid: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+- uid: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
   name: GetProfileImage(FbProfileImageSize, Action<Texture2D>)
-  href: facebook/StansAssets.Facebook.FbUser.html#StansAssets_Facebook_FbUser_GetProfileImage_StansAssets_Facebook_FbProfileImageSize_Action_Texture2D__
-  commentId: M:StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,Action{Texture2D})
+  href: facebook/StansAssets.Facebook.FbUser.html#StansAssets_Facebook_FbUser_GetProfileImage_StansAssets_Facebook_FbProfileImageSize_System_Action_Texture2D__
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize,System.Action{Texture2D})
   name.vb: GetProfileImage(FbProfileImageSize, Action(Of Texture2D))
-  fullName: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action<Texture2D>)
-  fullName.vb: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, Action(Of Texture2D))
+  fullName: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, System.Action<Texture2D>)
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileImage(StansAssets.Facebook.FbProfileImageSize, System.Action(Of Texture2D))
   nameWithType: FbUser.GetProfileImage(FbProfileImageSize, Action<Texture2D>)
   nameWithType.vb: FbUser.GetProfileImage(FbProfileImageSize, Action(Of Texture2D))
 - uid: StansAssets.Facebook.FbUser.GetProfileImage*
@@ -32531,13 +32547,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.FbUser.GetProfileImage
   nameWithType: FbUser.GetProfileImage
-- uid: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+- uid: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
   name: GetProfileUrl(FbProfileImageSize, Action<String>)
-  href: facebook/StansAssets.Facebook.FbUser.html#StansAssets_Facebook_FbUser_GetProfileUrl_StansAssets_Facebook_FbProfileImageSize_Action_System_String__
-  commentId: M:StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,Action{System.String})
+  href: facebook/StansAssets.Facebook.FbUser.html#StansAssets_Facebook_FbUser_GetProfileUrl_StansAssets_Facebook_FbProfileImageSize_System_Action_System_String__
+  commentId: M:StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize,System.Action{System.String})
   name.vb: GetProfileUrl(FbProfileImageSize, Action(Of String))
-  fullName: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action<System.String>)
-  fullName.vb: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, Action(Of System.String))
+  fullName: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, System.Action<System.String>)
+  fullName.vb: StansAssets.Facebook.FbUser.GetProfileUrl(StansAssets.Facebook.FbProfileImageSize, System.Action(Of System.String))
   nameWithType: FbUser.GetProfileUrl(FbProfileImageSize, Action<String>)
   nameWithType.vb: FbUser.GetProfileUrl(FbProfileImageSize, Action(Of String))
 - uid: StansAssets.Facebook.FbUser.GetProfileUrl*
