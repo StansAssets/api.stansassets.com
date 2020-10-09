@@ -33235,6 +33235,93 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.EditorDefinesUtility.RemoveCompileDefine
   nameWithType: EditorDefinesUtility.RemoveCompileDefine
+- uid: StansAssets.Foundation.Editor.EditorWebRequest
+  name: EditorWebRequest
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html
+  commentId: T:StansAssets.Foundation.Editor.EditorWebRequest
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest
+  nameWithType: EditorWebRequest
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.#ctor(UnityWebRequest)
+  name: EditorWebRequest(UnityWebRequest)
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest__ctor_UnityWebRequest_
+  commentId: M:StansAssets.Foundation.Editor.EditorWebRequest.#ctor(UnityWebRequest)
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.EditorWebRequest(UnityWebRequest)
+  nameWithType: EditorWebRequest.EditorWebRequest(UnityWebRequest)
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.#ctor*
+  name: EditorWebRequest
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest__ctor_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.EditorWebRequest
+  nameWithType: EditorWebRequest.EditorWebRequest
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog(System.String)
+  name: AddEditorProgressDialog(String)
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_AddEditorProgressDialog_System_String_
+  commentId: M:StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog(System.String)
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog(System.String)
+  nameWithType: EditorWebRequest.AddEditorProgressDialog(String)
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog*
+  name: AddEditorProgressDialog
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_AddEditorProgressDialog_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.AddEditorProgressDialog
+  nameWithType: EditorWebRequest.AddEditorProgressDialog
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.DataAsText
+  name: DataAsText
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_DataAsText
+  commentId: P:StansAssets.Foundation.Editor.EditorWebRequest.DataAsText
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.DataAsText
+  nameWithType: EditorWebRequest.DataAsText
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.DataAsText*
+  name: DataAsText
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_DataAsText_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.DataAsText
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.DataAsText
+  nameWithType: EditorWebRequest.DataAsText
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.Get(System.String)
+  name: Get(String)
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_Get_System_String_
+  commentId: M:StansAssets.Foundation.Editor.EditorWebRequest.Get(System.String)
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.Get(System.String)
+  nameWithType: EditorWebRequest.Get(String)
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.Get*
+  name: Get
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_Get_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.Get
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.Get
+  nameWithType: EditorWebRequest.Get
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.Send(System.Action{UnityWebRequest})
+  name: Send(Action<UnityWebRequest>)
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_Send_System_Action_UnityWebRequest__
+  commentId: M:StansAssets.Foundation.Editor.EditorWebRequest.Send(System.Action{UnityWebRequest})
+  name.vb: Send(Action(Of UnityWebRequest))
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.Send(System.Action<UnityWebRequest>)
+  fullName.vb: StansAssets.Foundation.Editor.EditorWebRequest.Send(System.Action(Of UnityWebRequest))
+  nameWithType: EditorWebRequest.Send(Action<UnityWebRequest>)
+  nameWithType.vb: EditorWebRequest.Send(Action(Of UnityWebRequest))
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.Send*
+  name: Send
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_Send_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.Send
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.Send
+  nameWithType: EditorWebRequest.Send
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest
+  name: UnityRequest
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_UnityRequest
+  commentId: P:StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest
+  nameWithType: EditorWebRequest.UnityRequest
+- uid: StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest*
+  name: UnityRequest
+  href: foundation/StansAssets.Foundation.Editor.EditorWebRequest.html#StansAssets_Foundation_Editor_EditorWebRequest_UnityRequest_
+  commentId: Overload:StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.EditorWebRequest.UnityRequest
+  nameWithType: EditorWebRequest.UnityRequest
 - uid: StansAssets.Foundation.Editor.FoundationConstants
   name: FoundationConstants
   href: foundation/StansAssets.Foundation.Editor.FoundationConstants.html
