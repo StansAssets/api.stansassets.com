@@ -3868,6 +3868,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.EventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.EventBus.html",
+          "hash": "psLFGYeeriA5MjBoG3yprQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.IEvent.html",
+          "hash": "RcLO6jAXc+EXxyIt8jj7yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IEventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.IEventBus.html",
+          "hash": "Shjg2FJ8UF1yPFvGgjibHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html",
+          "hash": "FMnp81PIX7kceWmmLpZ84g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.yml",
       "output": {
         ".html": {
@@ -3920,7 +3968,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html",
-          "hash": "dnIH8+YzgTZkiL4WBye5Mg=="
+          "hash": "66nzgTed+BDG/cscKZbyCA=="
         }
       },
       "is_incremental": false,
@@ -3976,11 +4024,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.StaticBus-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.StaticBus-1.html",
+          "hash": "PyilKiKP4lMIDHDZ3H3i4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.yml",
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.html",
-          "hash": "lfE9+yQVUMfAnT4GM65NzQ=="
+          "hash": "Z/QZmi9YaprlsOFxfwZvuQ=="
         }
       },
       "is_incremental": false,
@@ -4124,7 +4184,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "Wh3cvLDMKc+1BqAqW6H8Zw=="
+          "hash": "UvdAsIjK/Sr+CypbFLQmWw=="
         }
       },
       "is_incremental": false,
@@ -8329,7 +8389,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 668,
+          "total_file_count": 673,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

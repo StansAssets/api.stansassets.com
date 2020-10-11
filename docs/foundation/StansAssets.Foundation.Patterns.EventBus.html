@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct ObjectPool&lt;T&gt;.PooledObject
+    <title>Class EventBus
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct ObjectPool&lt;T&gt;.PooledObject
+    <meta name="title" content="Class EventBus
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -66,36 +66,43 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Patterns.EventBus">
   
   
-  <h1 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject" class="text-break">Struct ObjectPool&lt;T&gt;.PooledObject
+  <h1 id="StansAssets_Foundation_Patterns_EventBus" data-uid="StansAssets.Foundation.Patterns.EventBus" class="text-break">Class EventBus
   </h1>
-  <div class="markdown level0 summary"><p>A Pooled object wraps a reference to an instance that will be returned to the pool when the Pooled object is disposed.
-The purpose is to automate the return of references so that they do not need to be returned manually.
-A PooledObject can be used like so:</p>
-<pre><code>MyClass myInstance;
-using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be returned to the pool.
-{
-    // Do something with myInstance
-}</code></pre>
+  <div class="markdown level0 summary"><p>Basic implementation of the <a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EventBus</span></div>
+  </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool.PooledObject</a>&lt;&gt;&gt;</div>
+    <div><a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a></div>
+    <div><a class="xref" href="StansAssets.Foundation.Patterns.IReadOnlyEventBus.html">IReadOnlyEventBus</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.ToString()</span>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
       <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
@@ -103,22 +110,23 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Patterns.html">StansAssets.Foundation.Patterns</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_syntax">Syntax</h5>
+  <h5 id="StansAssets_Foundation_Patterns_EventBus_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct PooledObject : IDisposable, IEquatable&lt;ObjectPool&lt;T&gt;.PooledObject&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class EventBus : IEventBus, IReadOnlyEventBus</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject__ctor_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject__ctor__0_StansAssets_Foundation_Patterns_ObjectPool__0__" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor(`0,StansAssets.Foundation.Patterns.ObjectPool{`0})">PooledObject(T, ObjectPool&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Creates <code>IDisposable</code> wrapper around poolable object.</p>
+  <a id="StansAssets_Foundation_Patterns_EventBus_Post_" data-uid="StansAssets.Foundation.Patterns.EventBus.Post*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_EventBus_Post__1___0_" data-uid="StansAssets.Foundation.Patterns.EventBus.Post``1(``0)">Post&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Posts and event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PooledObject(T value, ObjectPool&lt;T&gt; pool)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Post&lt;T&gt;(T event)
+    where T : IEvent</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,27 +140,39 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
     <tbody>
       <tr>
         <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.html">ObjectPool</a>&lt;T&gt;</td>
-        <td><span class="parametername">pool</span></td>
-        <td></td>
+        <td><span class="parametername">event</span></td>
+        <td><p>An event instance to post.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Event Type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_Equals_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.Equals*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_Equals_StansAssets_Foundation_Patterns_ObjectPool__0__PooledObject_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.Equals(StansAssets.Foundation.Patterns.ObjectPool{`0}.PooledObject)">Equals(ObjectPool&lt;T&gt;.PooledObject)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="StansAssets_Foundation_Patterns_EventBus_Subscribe_" data-uid="StansAssets.Foundation.Patterns.EventBus.Subscribe*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_EventBus_Subscribe__1_System_Action___0__" data-uid="StansAssets.Foundation.Patterns.EventBus.Subscribe``1(System.Action{``0})">Subscribe&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Subscribes listener to a certain event type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(ObjectPool&lt;T&gt;.PooledObject other)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Subscribe&lt;T&gt;(Action&lt;T&gt; listener)
+    where T : IEvent</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,36 +185,40 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool.PooledObject</a>&lt;&gt;</td>
-        <td><span class="parametername">other</span></td>
-        <td></td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Listener instance.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>An event type to subscribe for.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_Equals_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.Equals*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_Equals_System_Object_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="StansAssets_Foundation_Patterns_EventBus_Unsubscribe_" data-uid="StansAssets.Foundation.Patterns.EventBus.Unsubscribe*"></a>
+  <h4 id="StansAssets_Foundation_Patterns_EventBus_Unsubscribe__1_System_Action___0__" data-uid="StansAssets.Foundation.Patterns.EventBus.Unsubscribe``1(System.Action{``0})">Unsubscribe&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Unsubscribes listener to a certain event type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Unsubscribe&lt;T&gt;(Action&lt;T&gt; listener)
+    where T : IEvent</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,74 +231,35 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">listener</span></td>
+        <td><p>Listener instance.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><span class="parametername">T</span></td>
+        <td><p>An event type to unsubscribe for.</p>
+</td>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
-  
-  
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_GetHashCode_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.GetHashCode*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_GetHashCode" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a>
   </div>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
+      <a class="xref" href="StansAssets.Foundation.Patterns.IReadOnlyEventBus.html">IReadOnlyEventBus</a>
   </div>
 </article>
           </div>

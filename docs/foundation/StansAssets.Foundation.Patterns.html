@@ -84,6 +84,9 @@
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.DictionaryPool-2.html">DictionaryPool&lt;TKey, TValue&gt;</a></h4>
       <section><p><code>Dictionary</code> Pool.</p>
 </section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.EventBus.html">EventBus</a></h4>
+      <section><p>Basic implementation of the <a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a>.</p>
+</section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.ListPool-1.html">ListPool&lt;T&gt;</a></h4>
       <section><p><code>List</code> pool.</p>
 </section>
@@ -112,6 +115,12 @@ Few articles we think it worth reading before using this pattern.</p>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.Singleton-1.html">Singleton&lt;T&gt;</a></h4>
       <section><p>Singleton pattern implementation.</p>
 </section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.StaticBus-1.html">StaticBus&lt;T&gt;</a></h4>
+      <section><p>This is the simplest an fastest implementation for the event bus pattern.
+Since this is static bus DO NOT USE it when you making a package,
+Since it may conflict with user project.</p>
+<p>It only make sense to use it inside the project you maintain and own.</p>
+</section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool&lt;T&gt;.PooledObject</a></h4>
@@ -126,6 +135,16 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.IEvent.html">IEvent</a></h4>
+      <section><p>Interface represents and even distributed via <a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a></p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.IEventBus.html">IEventBus</a></h4>
+      <section><p>An interface for the event bus pattern.</p>
+</section>
+      <h4><a class="xref" href="StansAssets.Foundation.Patterns.IReadOnlyEventBus.html">IReadOnlyEventBus</a></h4>
+      <section><p>Interface allows to subscribe and unsubscribe from event bus events.
+But hides and ability to dispatch an event.</p>
+</section>
       <h4><a class="xref" href="StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html">IReadOnlyServiceLocator</a></h4>
       <section><p>The read only interfaces for the <a class="xref" href="StansAssets.Foundation.Patterns.IServiceLocator.html">IServiceLocator</a> pattern.
 Should be used if you would only like to retrieve services,

@@ -34910,6 +34910,126 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.DictionaryPool(Of TKey, TValue)
   nameWithType: DictionaryPool<TKey, TValue>
   nameWithType.vb: DictionaryPool(Of TKey, TValue)
+- uid: StansAssets.Foundation.Patterns.EventBus
+  name: EventBus
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html
+  commentId: T:StansAssets.Foundation.Patterns.EventBus
+  fullName: StansAssets.Foundation.Patterns.EventBus
+  nameWithType: EventBus
+- uid: StansAssets.Foundation.Patterns.EventBus.Post*
+  name: Post
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Post_
+  commentId: Overload:StansAssets.Foundation.Patterns.EventBus.Post
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.EventBus.Post
+  nameWithType: EventBus.Post
+- uid: StansAssets.Foundation.Patterns.EventBus.Post``1(``0)
+  name: Post<T>(T)
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Post__1___0_
+  commentId: M:StansAssets.Foundation.Patterns.EventBus.Post``1(``0)
+  name.vb: Post(Of T)(T)
+  fullName: StansAssets.Foundation.Patterns.EventBus.Post<T>(T)
+  fullName.vb: StansAssets.Foundation.Patterns.EventBus.Post(Of T)(T)
+  nameWithType: EventBus.Post<T>(T)
+  nameWithType.vb: EventBus.Post(Of T)(T)
+- uid: StansAssets.Foundation.Patterns.EventBus.Subscribe*
+  name: Subscribe
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Subscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.EventBus.Subscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.EventBus.Subscribe
+  nameWithType: EventBus.Subscribe
+- uid: StansAssets.Foundation.Patterns.EventBus.Subscribe``1(System.Action{``0})
+  name: Subscribe<T>(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Subscribe__1_System_Action___0__
+  commentId: M:StansAssets.Foundation.Patterns.EventBus.Subscribe``1(System.Action{``0})
+  name.vb: Subscribe(Of T)(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.EventBus.Subscribe<T>(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.EventBus.Subscribe(Of T)(System.Action(Of T))
+  nameWithType: EventBus.Subscribe<T>(Action<T>)
+  nameWithType.vb: EventBus.Subscribe(Of T)(Action(Of T))
+- uid: StansAssets.Foundation.Patterns.EventBus.Unsubscribe*
+  name: Unsubscribe
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Unsubscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.EventBus.Unsubscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.EventBus.Unsubscribe
+  nameWithType: EventBus.Unsubscribe
+- uid: StansAssets.Foundation.Patterns.EventBus.Unsubscribe``1(System.Action{``0})
+  name: Unsubscribe<T>(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.EventBus.html#StansAssets_Foundation_Patterns_EventBus_Unsubscribe__1_System_Action___0__
+  commentId: M:StansAssets.Foundation.Patterns.EventBus.Unsubscribe``1(System.Action{``0})
+  name.vb: Unsubscribe(Of T)(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.EventBus.Unsubscribe<T>(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.EventBus.Unsubscribe(Of T)(System.Action(Of T))
+  nameWithType: EventBus.Unsubscribe<T>(Action<T>)
+  nameWithType.vb: EventBus.Unsubscribe(Of T)(Action(Of T))
+- uid: StansAssets.Foundation.Patterns.IEvent
+  name: IEvent
+  href: foundation/StansAssets.Foundation.Patterns.IEvent.html
+  commentId: T:StansAssets.Foundation.Patterns.IEvent
+  fullName: StansAssets.Foundation.Patterns.IEvent
+  nameWithType: IEvent
+- uid: StansAssets.Foundation.Patterns.IEventBus
+  name: IEventBus
+  href: foundation/StansAssets.Foundation.Patterns.IEventBus.html
+  commentId: T:StansAssets.Foundation.Patterns.IEventBus
+  fullName: StansAssets.Foundation.Patterns.IEventBus
+  nameWithType: IEventBus
+- uid: StansAssets.Foundation.Patterns.IEventBus.Post*
+  name: Post
+  href: foundation/StansAssets.Foundation.Patterns.IEventBus.html#StansAssets_Foundation_Patterns_IEventBus_Post_
+  commentId: Overload:StansAssets.Foundation.Patterns.IEventBus.Post
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IEventBus.Post
+  nameWithType: IEventBus.Post
+- uid: StansAssets.Foundation.Patterns.IEventBus.Post``1(``0)
+  name: Post<T>(T)
+  href: foundation/StansAssets.Foundation.Patterns.IEventBus.html#StansAssets_Foundation_Patterns_IEventBus_Post__1___0_
+  commentId: M:StansAssets.Foundation.Patterns.IEventBus.Post``1(``0)
+  name.vb: Post(Of T)(T)
+  fullName: StansAssets.Foundation.Patterns.IEventBus.Post<T>(T)
+  fullName.vb: StansAssets.Foundation.Patterns.IEventBus.Post(Of T)(T)
+  nameWithType: IEventBus.Post<T>(T)
+  nameWithType.vb: IEventBus.Post(Of T)(T)
+- uid: StansAssets.Foundation.Patterns.IReadOnlyEventBus
+  name: IReadOnlyEventBus
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html
+  commentId: T:StansAssets.Foundation.Patterns.IReadOnlyEventBus
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyEventBus
+  nameWithType: IReadOnlyEventBus
+- uid: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe*
+  name: Subscribe
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html#StansAssets_Foundation_Patterns_IReadOnlyEventBus_Subscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe
+  nameWithType: IReadOnlyEventBus.Subscribe
+- uid: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe``1(System.Action{``0})
+  name: Subscribe<T>(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html#StansAssets_Foundation_Patterns_IReadOnlyEventBus_Subscribe__1_System_Action___0__
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe``1(System.Action{``0})
+  name.vb: Subscribe(Of T)(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe<T>(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Subscribe(Of T)(System.Action(Of T))
+  nameWithType: IReadOnlyEventBus.Subscribe<T>(Action<T>)
+  nameWithType.vb: IReadOnlyEventBus.Subscribe(Of T)(Action(Of T))
+- uid: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe*
+  name: Unsubscribe
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html#StansAssets_Foundation_Patterns_IReadOnlyEventBus_Unsubscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe
+  nameWithType: IReadOnlyEventBus.Unsubscribe
+- uid: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe``1(System.Action{``0})
+  name: Unsubscribe<T>(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html#StansAssets_Foundation_Patterns_IReadOnlyEventBus_Unsubscribe__1_System_Action___0__
+  commentId: M:StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe``1(System.Action{``0})
+  name.vb: Unsubscribe(Of T)(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe<T>(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.IReadOnlyEventBus.Unsubscribe(Of T)(System.Action(Of T))
+  nameWithType: IReadOnlyEventBus.Unsubscribe<T>(Action<T>)
+  nameWithType.vb: IReadOnlyEventBus.Unsubscribe(Of T)(Action(Of T))
 - uid: StansAssets.Foundation.Patterns.IReadOnlyServiceLocator
   name: IReadOnlyServiceLocator
   href: foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html
@@ -35290,6 +35410,24 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject
   nameWithType: ObjectPool<T>.PooledObject
   nameWithType.vb: ObjectPool(Of T).PooledObject
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor(`0,StansAssets.Foundation.Patterns.ObjectPool{`0})
+  name: PooledObject(T, ObjectPool<T>)
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html#StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject__ctor__0_StansAssets_Foundation_Patterns_ObjectPool__0__
+  commentId: M:StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor(`0,StansAssets.Foundation.Patterns.ObjectPool{`0})
+  name.vb: PooledObject(T, ObjectPool(Of T))
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.PooledObject.PooledObject(T, StansAssets.Foundation.Patterns.ObjectPool<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject.PooledObject(T, StansAssets.Foundation.Patterns.ObjectPool(Of T))
+  nameWithType: ObjectPool<T>.PooledObject.PooledObject(T, ObjectPool<T>)
+  nameWithType.vb: ObjectPool(Of T).PooledObject.PooledObject(T, ObjectPool(Of T))
+- uid: StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor*
+  name: PooledObject
+  href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html#StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject__ctor_
+  commentId: Overload:StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ObjectPool<T>.PooledObject.PooledObject
+  fullName.vb: StansAssets.Foundation.Patterns.ObjectPool(Of T).PooledObject.PooledObject
+  nameWithType: ObjectPool<T>.PooledObject.PooledObject
+  nameWithType.vb: ObjectPool(Of T).PooledObject.PooledObject
 - uid: StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.Equals(StansAssets.Foundation.Patterns.ObjectPool{`0}.PooledObject)
   name: Equals(ObjectPool<T>.PooledObject)
   href: foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html#StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_Equals_StansAssets_Foundation_Patterns_ObjectPool__0__PooledObject_
@@ -35556,6 +35694,68 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.Singleton(Of T).Instance
   nameWithType: Singleton<T>.Instance
   nameWithType.vb: Singleton(Of T).Instance
+- uid: StansAssets.Foundation.Patterns.StaticBus`1
+  name: StaticBus<T>
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html
+  commentId: T:StansAssets.Foundation.Patterns.StaticBus`1
+  name.vb: StaticBus(Of T)
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T)
+  nameWithType: StaticBus<T>
+  nameWithType.vb: StaticBus(Of T)
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Post(`0)
+  name: Post(T)
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Post__0_
+  commentId: M:StansAssets.Foundation.Patterns.StaticBus`1.Post(`0)
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Post(T)
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Post(T)
+  nameWithType: StaticBus<T>.Post(T)
+  nameWithType.vb: StaticBus(Of T).Post(T)
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Post*
+  name: Post
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Post_
+  commentId: Overload:StansAssets.Foundation.Patterns.StaticBus`1.Post
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Post
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Post
+  nameWithType: StaticBus<T>.Post
+  nameWithType.vb: StaticBus(Of T).Post
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Subscribe(System.Action{`0})
+  name: Subscribe(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Subscribe_System_Action__0__
+  commentId: M:StansAssets.Foundation.Patterns.StaticBus`1.Subscribe(System.Action{`0})
+  name.vb: Subscribe(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Subscribe(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Subscribe(System.Action(Of T))
+  nameWithType: StaticBus<T>.Subscribe(Action<T>)
+  nameWithType.vb: StaticBus(Of T).Subscribe(Action(Of T))
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Subscribe*
+  name: Subscribe
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Subscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.StaticBus`1.Subscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Subscribe
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Subscribe
+  nameWithType: StaticBus<T>.Subscribe
+  nameWithType.vb: StaticBus(Of T).Subscribe
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Unsubscribe(System.Action{`0})
+  name: Unsubscribe(Action<T>)
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Unsubscribe_System_Action__0__
+  commentId: M:StansAssets.Foundation.Patterns.StaticBus`1.Unsubscribe(System.Action{`0})
+  name.vb: Unsubscribe(Action(Of T))
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Unsubscribe(System.Action<T>)
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Unsubscribe(System.Action(Of T))
+  nameWithType: StaticBus<T>.Unsubscribe(Action<T>)
+  nameWithType.vb: StaticBus(Of T).Unsubscribe(Action(Of T))
+- uid: StansAssets.Foundation.Patterns.StaticBus`1.Unsubscribe*
+  name: Unsubscribe
+  href: foundation/StansAssets.Foundation.Patterns.StaticBus-1.html#StansAssets_Foundation_Patterns_StaticBus_1_Unsubscribe_
+  commentId: Overload:StansAssets.Foundation.Patterns.StaticBus`1.Unsubscribe
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.StaticBus<T>.Unsubscribe
+  fullName.vb: StansAssets.Foundation.Patterns.StaticBus(Of T).Unsubscribe
+  nameWithType: StaticBus<T>.Unsubscribe
+  nameWithType.vb: StaticBus(Of T).Unsubscribe
 - uid: StansAssets.Foundation.RectTransformUtility
   name: RectTransformUtility
   href: foundation/StansAssets.Foundation.RectTransformUtility.html
