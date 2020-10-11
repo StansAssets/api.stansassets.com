@@ -34080,6 +34080,25 @@ references:
   fullName.vb: StansAssets.Foundation.Extensions.ArrayExtensions.SwapElements(Of T)(T(), System.Int32, System.Int32)
   nameWithType: ArrayExtensions.SwapElements<T>(T[], Int32, Int32)
   nameWithType.vb: ArrayExtensions.SwapElements(Of T)(T(), Int32, Int32)
+- uid: StansAssets.Foundation.Extensions.ComponentExtensions
+  name: ComponentExtensions
+  href: foundation/StansAssets.Foundation.Extensions.ComponentExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.ComponentExtensions
+  fullName: StansAssets.Foundation.Extensions.ComponentExtensions
+  nameWithType: ComponentExtensions
+- uid: StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile(Component)
+  name: GetLocalIdentifierInFile(Component)
+  href: foundation/StansAssets.Foundation.Extensions.ComponentExtensions.html#StansAssets_Foundation_Extensions_ComponentExtensions_GetLocalIdentifierInFile_Component_
+  commentId: M:StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile(Component)
+  fullName: StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile(Component)
+  nameWithType: ComponentExtensions.GetLocalIdentifierInFile(Component)
+- uid: StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile*
+  name: GetLocalIdentifierInFile
+  href: foundation/StansAssets.Foundation.Extensions.ComponentExtensions.html#StansAssets_Foundation_Extensions_ComponentExtensions_GetLocalIdentifierInFile_
+  commentId: Overload:StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.ComponentExtensions.GetLocalIdentifierInFile
+  nameWithType: ComponentExtensions.GetLocalIdentifierInFile
 - uid: StansAssets.Foundation.Extensions.DateTimeExtensions
   name: DateTimeExtensions
   href: foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html
@@ -34118,6 +34137,19 @@ references:
   commentId: T:StansAssets.Foundation.Extensions.GameObjectExtensions
   fullName: StansAssets.Foundation.Extensions.GameObjectExtensions
   nameWithType: GameObjectExtensions
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile(GameObject)
+  name: GetLocalIdentifierInFile(GameObject)
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_GetLocalIdentifierInFile_GameObject_
+  commentId: M:StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile(GameObject)
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile(GameObject)
+  nameWithType: GameObjectExtensions.GetLocalIdentifierInFile(GameObject)
+- uid: StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile*
+  name: GetLocalIdentifierInFile
+  href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_GetLocalIdentifierInFile_
+  commentId: Overload:StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.GameObjectExtensions.GetLocalIdentifierInFile
+  nameWithType: GameObjectExtensions.GetLocalIdentifierInFile
 - uid: StansAssets.Foundation.Extensions.GameObjectExtensions.GetRendererBounds(GameObject)
   name: GetRendererBounds(GameObject)
   href: foundation/StansAssets.Foundation.Extensions.GameObjectExtensions.html#StansAssets_Foundation_Extensions_GameObjectExtensions_GetRendererBounds_GameObject_
