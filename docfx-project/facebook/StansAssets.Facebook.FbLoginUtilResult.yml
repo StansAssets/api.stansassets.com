@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbLoginUtilResult
+  commentId: T:StansAssets.Facebook.FbLoginUtilResult
+  id: FbLoginUtilResult
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbLoginUtilResult.Cancelled
+  - StansAssets.Facebook.FbLoginUtilResult.Error
+  - StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+  - StansAssets.Facebook.FbLoginUtilResult.RawResult
+  - StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+  - StansAssets.Facebook.FbLoginUtilResult.ResultList
+  - StansAssets.Facebook.FbLoginUtilResult.Texture
+  langs:
+  - csharp
+  - vb
+  name: FbLoginUtilResult
+  nameWithType: FbLoginUtilResult
+  fullName: StansAssets.Facebook.FbLoginUtilResult
+  type: Class
+  source:
+    id: FbLoginUtilResult
+    path: ''
+    startLine: 178
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: 'public class FbLoginUtilResult : IGraphResult'
+    content.vb: >-
+      Public Class FbLoginUtilResult
+          Inherits IGraphResult
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+  id: IsSucceeded
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: IsSucceeded
+  nameWithType: FbLoginUtilResult.IsSucceeded
+  fullName: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+  type: Property
+  source:
+    id: IsSucceeded
+    path: ''
+    startLine: 189
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public bool IsSucceeded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSucceeded As Boolean
+  overload: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.Error
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.Error
+  id: Error
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: FbLoginUtilResult.Error
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Error
+  type: Property
+  source:
+    id: Error
+    path: ''
+    startLine: 191
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public string Error { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Error As String
+  overload: StansAssets.Facebook.FbLoginUtilResult.Error*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+  id: ResultDictionary
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: ResultDictionary
+  nameWithType: FbLoginUtilResult.ResultDictionary
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+  type: Property
+  source:
+    id: ResultDictionary
+    path: ''
+    startLine: 193
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public IDictionary<string, object> ResultDictionary { get; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.Object}
+    content.vb: Public ReadOnly Property ResultDictionary As IDictionary(Of String, Object)
+  overload: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.RawResult
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.RawResult
+  id: RawResult
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: RawResult
+  nameWithType: FbLoginUtilResult.RawResult
+  fullName: StansAssets.Facebook.FbLoginUtilResult.RawResult
+  type: Property
+  source:
+    id: RawResult
+    path: ''
+    startLine: 195
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public string RawResult { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RawResult As String
+  overload: StansAssets.Facebook.FbLoginUtilResult.RawResult*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.Cancelled
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.Cancelled
+  id: Cancelled
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: FbLoginUtilResult.Cancelled
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Cancelled
+  type: Property
+  source:
+    id: Cancelled
+    path: ''
+    startLine: 197
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public bool Cancelled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Cancelled As Boolean
+  overload: StansAssets.Facebook.FbLoginUtilResult.Cancelled*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.ResultList
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.ResultList
+  id: ResultList
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: ResultList
+  nameWithType: FbLoginUtilResult.ResultList
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ResultList
+  type: Property
+  source:
+    id: ResultList
+    path: ''
+    startLine: 199
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public IList<object> ResultList { get; }
+    parameters: []
+    return:
+      type: IList{System.Object}
+    content.vb: Public ReadOnly Property ResultList As IList(Of Object)
+  overload: StansAssets.Facebook.FbLoginUtilResult.ResultList*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.Texture
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.Texture
+  id: Texture
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: Texture
+  nameWithType: FbLoginUtilResult.Texture
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Texture
+  type: Property
+  source:
+    id: Texture
+    path: ''
+    startLine: 201
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public Texture2D Texture { get; }
+    parameters: []
+    return:
+      type: Texture2D
+    content.vb: Public ReadOnly Property Texture As Texture2D
+  overload: StansAssets.Facebook.FbLoginUtilResult.Texture*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+  name: IsSucceeded
+  nameWithType: FbLoginUtilResult.IsSucceeded
+  fullName: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.Facebook.FbLoginUtilResult.Error*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.Error
+  name: Error
+  nameWithType: FbLoginUtilResult.Error
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Error
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+  name: ResultDictionary
+  nameWithType: FbLoginUtilResult.ResultDictionary
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
+- uid: IDictionary{System.String,System.Object}
+  commentId: '!:IDictionary{System.String,System.Object}'
+  definition: IDictionary`2
+  name: IDictionary<String, Object>
+  nameWithType: IDictionary<String, Object>
+  fullName: IDictionary<System.String, System.Object>
+  nameWithType.vb: IDictionary(Of String, Object)
+  fullName.vb: IDictionary(Of System.String, System.Object)
+  name.vb: IDictionary(Of String, Object)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbLoginUtilResult.RawResult*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.RawResult
+  name: RawResult
+  nameWithType: FbLoginUtilResult.RawResult
+  fullName: StansAssets.Facebook.FbLoginUtilResult.RawResult
+- uid: StansAssets.Facebook.FbLoginUtilResult.Cancelled*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.Cancelled
+  name: Cancelled
+  nameWithType: FbLoginUtilResult.Cancelled
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Cancelled
+- uid: StansAssets.Facebook.FbLoginUtilResult.ResultList*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.ResultList
+  name: ResultList
+  nameWithType: FbLoginUtilResult.ResultList
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ResultList
+- uid: IList{System.Object}
+  commentId: '!:IList{System.Object}'
+  definition: IList`1
+  name: IList<Object>
+  nameWithType: IList<Object>
+  fullName: IList<System.Object>
+  nameWithType.vb: IList(Of Object)
+  fullName.vb: IList(Of System.Object)
+  name.vb: IList(Of Object)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  commentId: '!:IList`1'
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbLoginUtilResult.Texture*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.Texture
+  name: Texture
+  nameWithType: FbLoginUtilResult.Texture
+  fullName: StansAssets.Facebook.FbLoginUtilResult.Texture
+- uid: Texture2D
+  commentId: '!:Texture2D'
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D

@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Facebook.FbSettings
+  commentId: T:StansAssets.Facebook.FbSettings
+  id: FbSettings
+  parent: StansAssets.Facebook
+  children:
+  - StansAssets.Facebook.FbSettings.Permissions
+  - StansAssets.Facebook.FbSettings.PermissionsStringsList
+  - StansAssets.Facebook.FbSettings.Save
+  - StansAssets.Facebook.FbSettings.SetAppId(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FbSettings
+  nameWithType: FbSettings
+  fullName: StansAssets.Facebook.FbSettings
+  type: Class
+  source:
+    id: FbSettings
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public static class FbSettings
+    content.vb: Public Module FbSettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.Facebook.FbSettings.Permissions
+  commentId: P:StansAssets.Facebook.FbSettings.Permissions
+  id: Permissions
+  parent: StansAssets.Facebook.FbSettings
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: FbSettings.Permissions
+  fullName: StansAssets.Facebook.FbSettings.Permissions
+  type: Property
+  source:
+    id: Permissions
+    path: ''
+    startLine: 960
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nWhen a person logs into your app via Facebook Login you can access a subset of that person&apos;s data stored on Facebook.\nPermissions or &quot;Scopes&quot; are how you ask someone if you can access that data.\nA person&apos;s privacy settings combined with what you ask for will determine what you can access.\n"
+  example: []
+  syntax:
+    content: public static List<FbPermissions> Permissions { get; }
+    parameters: []
+    return:
+      type: List{StansAssets.Facebook.FbPermissions}
+    content.vb: Public Shared ReadOnly Property Permissions As List(Of FbPermissions)
+  overload: StansAssets.Facebook.FbSettings.Permissions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.FbSettings.PermissionsStringsList
+  commentId: P:StansAssets.Facebook.FbSettings.PermissionsStringsList
+  id: PermissionsStringsList
+  parent: StansAssets.Facebook.FbSettings
+  langs:
+  - csharp
+  - vb
+  name: PermissionsStringsList
+  nameWithType: FbSettings.PermissionsStringsList
+  fullName: StansAssets.Facebook.FbSettings.PermissionsStringsList
+  type: Property
+  source:
+    id: PermissionsStringsList
+    path: ''
+    startLine: 965
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nThe <xref href=\"StansAssets.Facebook.FbSettings.Permissions\" data-throw-if-not-resolved=\"false\"></xref> list repressed with strings.\n"
+  example: []
+  syntax:
+    content: public static List<string> PermissionsStringsList { get; }
+    parameters: []
+    return:
+      type: List{System.String}
+    content.vb: Public Shared ReadOnly Property PermissionsStringsList As List(Of String)
+  overload: StansAssets.Facebook.FbSettings.PermissionsStringsList*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.Facebook.FbSettings.SetAppId(System.String)
+  commentId: M:StansAssets.Facebook.FbSettings.SetAppId(System.String)
+  id: SetAppId(System.String)
+  parent: StansAssets.Facebook.FbSettings
+  langs:
+  - csharp
+  - vb
+  name: SetAppId(String)
+  nameWithType: FbSettings.SetAppId(String)
+  fullName: StansAssets.Facebook.FbSettings.SetAppId(System.String)
+  type: Method
+  source:
+    id: SetAppId
+    path: ''
+    startLine: 971
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nSet&apos;s the Facebook App Id, the same operation can be made using the editor settings\n"
+  example: []
+  syntax:
+    content: public static void SetAppId(string appId)
+    parameters:
+    - id: appId
+      type: System.String
+      description: ''
+    content.vb: Public Shared Sub SetAppId(appId As String)
+  overload: StansAssets.Facebook.FbSettings.SetAppId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Facebook.FbSettings.Save
+  commentId: M:StansAssets.Facebook.FbSettings.Save
+  id: Save
+  parent: StansAssets.Facebook.FbSettings
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: FbSettings.Save()
+  fullName: StansAssets.Facebook.FbSettings.Save()
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 979
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  summary: "\nScene settings changes.\n"
+  example: []
+  syntax:
+    content: public static void Save()
+    content.vb: Public Shared Sub Save
+  overload: StansAssets.Facebook.FbSettings.Save*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.Facebook
+  commentId: N:StansAssets.Facebook
+  name: StansAssets.Facebook
+  nameWithType: StansAssets.Facebook
+  fullName: StansAssets.Facebook
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Facebook.FbSettings.Permissions*
+  commentId: Overload:StansAssets.Facebook.FbSettings.Permissions
+  name: Permissions
+  nameWithType: FbSettings.Permissions
+  fullName: StansAssets.Facebook.FbSettings.Permissions
+- uid: List{StansAssets.Facebook.FbPermissions}
+  commentId: '!:List{StansAssets.Facebook.FbPermissions}'
+  definition: List`1
+  name: List<FbPermissions>
+  nameWithType: List<FbPermissions>
+  fullName: List<StansAssets.Facebook.FbPermissions>
+  nameWithType.vb: List(Of FbPermissions)
+  fullName.vb: List(Of StansAssets.Facebook.FbPermissions)
+  name.vb: List(Of FbPermissions)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.Facebook.FbPermissions
+    name: FbPermissions
+    nameWithType: FbPermissions
+    fullName: StansAssets.Facebook.FbPermissions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.Facebook.FbPermissions
+    name: FbPermissions
+    nameWithType: FbPermissions
+    fullName: StansAssets.Facebook.FbPermissions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbSettings.Permissions
+  commentId: P:StansAssets.Facebook.FbSettings.Permissions
+  isExternal: true
+- uid: StansAssets.Facebook.FbSettings.PermissionsStringsList*
+  commentId: Overload:StansAssets.Facebook.FbSettings.PermissionsStringsList
+  name: PermissionsStringsList
+  nameWithType: FbSettings.PermissionsStringsList
+  fullName: StansAssets.Facebook.FbSettings.PermissionsStringsList
+- uid: List{System.String}
+  commentId: '!:List{System.String}'
+  definition: List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.Facebook.FbSettings.SetAppId*
+  commentId: Overload:StansAssets.Facebook.FbSettings.SetAppId
+  name: SetAppId
+  nameWithType: FbSettings.SetAppId
+  fullName: StansAssets.Facebook.FbSettings.SetAppId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Facebook.FbSettings.Save*
+  commentId: Overload:StansAssets.Facebook.FbSettings.Save
+  name: Save
+  nameWithType: FbSettings.Save
+  fullName: StansAssets.Facebook.FbSettings.Save

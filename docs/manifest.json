@@ -2969,54 +2969,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "facebook/SA.Facebook.FbEditorWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "facebook/SA.Facebook.FbEditorWindow.html",
-          "hash": "LtHWfIv9WM8WxcZ+CbRwKA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "facebook/SA.Facebook.yml",
-      "output": {
-        ".html": {
-          "relative_path": "facebook/SA.Facebook.html",
-          "hash": "y6L5DlG5u+a/sQ7aUHjeMA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "facebook/StansAssets.Facebook.Editor.FbEditorWindow.yml",
-      "output": {
-        ".html": {
-          "relative_path": "facebook/StansAssets.Facebook.Editor.FbEditorWindow.html",
-          "hash": "rO7RIvD4Xr3w28qNonOoDQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "facebook/StansAssets.Facebook.Editor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "facebook/StansAssets.Facebook.Editor.html",
-          "hash": "XDqcthF64zZi6se4ijNR6A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "facebook/StansAssets.Facebook.Fb.yml",
       "output": {
         ".html": {
@@ -8365,7 +8317,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 671,
+          "total_file_count": 667,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
