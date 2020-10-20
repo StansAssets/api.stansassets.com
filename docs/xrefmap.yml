@@ -20233,6 +20233,36 @@ references:
   commentId: N:SA.iOS.CloudKit
   fullName: SA.iOS.CloudKit
   nameWithType: SA.iOS.CloudKit
+- uid: SA.iOS.CloudKit.ISN_CKAccountStatus
+  name: ISN_CKAccountStatus
+  href: ios-native/SA.iOS.CloudKit.ISN_CKAccountStatus.html
+  commentId: T:SA.iOS.CloudKit.ISN_CKAccountStatus
+  fullName: SA.iOS.CloudKit.ISN_CKAccountStatus
+  nameWithType: ISN_CKAccountStatus
+- uid: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusAvailable
+  name: CKAccountStatusAvailable
+  href: ios-native/SA.iOS.CloudKit.ISN_CKAccountStatus.html#SA_iOS_CloudKit_ISN_CKAccountStatus_CKAccountStatusAvailable
+  commentId: F:SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusAvailable
+  fullName: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusAvailable
+  nameWithType: ISN_CKAccountStatus.CKAccountStatusAvailable
+- uid: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusCouldNotDetermine
+  name: CKAccountStatusCouldNotDetermine
+  href: ios-native/SA.iOS.CloudKit.ISN_CKAccountStatus.html#SA_iOS_CloudKit_ISN_CKAccountStatus_CKAccountStatusCouldNotDetermine
+  commentId: F:SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusCouldNotDetermine
+  fullName: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusCouldNotDetermine
+  nameWithType: ISN_CKAccountStatus.CKAccountStatusCouldNotDetermine
+- uid: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusNoAccount
+  name: CKAccountStatusNoAccount
+  href: ios-native/SA.iOS.CloudKit.ISN_CKAccountStatus.html#SA_iOS_CloudKit_ISN_CKAccountStatus_CKAccountStatusNoAccount
+  commentId: F:SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusNoAccount
+  fullName: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusNoAccount
+  nameWithType: ISN_CKAccountStatus.CKAccountStatusNoAccount
+- uid: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusRestricted
+  name: CKAccountStatusRestricted
+  href: ios-native/SA.iOS.CloudKit.ISN_CKAccountStatus.html#SA_iOS_CloudKit_ISN_CKAccountStatus_CKAccountStatusRestricted
+  commentId: F:SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusRestricted
+  fullName: SA.iOS.CloudKit.ISN_CKAccountStatus.CKAccountStatusRestricted
+  nameWithType: ISN_CKAccountStatus.CKAccountStatusRestricted
 - uid: SA.iOS.CloudKit.ISN_CKAsset
   name: ISN_CKAsset
   href: ios-native/SA.iOS.CloudKit.ISN_CKAsset.html
@@ -20332,6 +20362,22 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKDatabase.SaveRecord
   nameWithType: ISN_CKDatabase.SaveRecord
+- uid: SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord(SA.iOS.CloudKit.ISN_CKRecord,SA.iOS.CloudKit.ISN_CKRecordSavePolicy,Action{SA.iOS.CloudKit.ISN_CKResult})
+  name: UpdateRecord(ISN_CKRecord, ISN_CKRecordSavePolicy, Action<ISN_CKResult>)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKDatabase.html#SA_iOS_CloudKit_ISN_CKDatabase_UpdateRecord_SA_iOS_CloudKit_ISN_CKRecord_SA_iOS_CloudKit_ISN_CKRecordSavePolicy_Action_SA_iOS_CloudKit_ISN_CKResult__
+  commentId: M:SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord(SA.iOS.CloudKit.ISN_CKRecord,SA.iOS.CloudKit.ISN_CKRecordSavePolicy,Action{SA.iOS.CloudKit.ISN_CKResult})
+  name.vb: UpdateRecord(ISN_CKRecord, ISN_CKRecordSavePolicy, Action(Of ISN_CKResult))
+  fullName: SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord(SA.iOS.CloudKit.ISN_CKRecord, SA.iOS.CloudKit.ISN_CKRecordSavePolicy, Action<SA.iOS.CloudKit.ISN_CKResult>)
+  fullName.vb: SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord(SA.iOS.CloudKit.ISN_CKRecord, SA.iOS.CloudKit.ISN_CKRecordSavePolicy, Action(Of SA.iOS.CloudKit.ISN_CKResult))
+  nameWithType: ISN_CKDatabase.UpdateRecord(ISN_CKRecord, ISN_CKRecordSavePolicy, Action<ISN_CKResult>)
+  nameWithType.vb: ISN_CKDatabase.UpdateRecord(ISN_CKRecord, ISN_CKRecordSavePolicy, Action(Of ISN_CKResult))
+- uid: SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord*
+  name: UpdateRecord
+  href: ios-native/SA.iOS.CloudKit.ISN_CKDatabase.html#SA_iOS_CloudKit_ISN_CKDatabase_UpdateRecord_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKDatabase.UpdateRecord
+  nameWithType: ISN_CKDatabase.UpdateRecord
 - uid: SA.iOS.CloudKit.ISN_CKDatabaseType
   name: ISN_CKDatabaseType
   href: ios-native/SA.iOS.CloudKit.ISN_CKDatabaseType.html
@@ -20519,12 +20565,24 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecord.GetStringValue
   nameWithType: ISN_CKRecord.GetStringValue
-- uid: SA.iOS.CloudKit.ISN_CKRecord.m_fields
-  name: m_fields
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_fields
-  commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_fields
-  fullName: SA.iOS.CloudKit.ISN_CKRecord.m_fields
-  nameWithType: ISN_CKRecord.m_fields
+- uid: SA.iOS.CloudKit.ISN_CKRecord.m_Fields
+  name: m_Fields
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_Fields
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_Fields
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.m_Fields
+  nameWithType: ISN_CKRecord.m_Fields
+- uid: SA.iOS.CloudKit.ISN_CKRecord.m_OwnerName
+  name: m_OwnerName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_OwnerName
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_OwnerName
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.m_OwnerName
+  nameWithType: ISN_CKRecord.m_OwnerName
+- uid: SA.iOS.CloudKit.ISN_CKRecord.m_RecordChangeTag
+  name: m_RecordChangeTag
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_RecordChangeTag
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_RecordChangeTag
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.m_RecordChangeTag
+  nameWithType: ISN_CKRecord.m_RecordChangeTag
 - uid: SA.iOS.CloudKit.ISN_CKRecord.m_RecordName
   name: m_RecordName
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_RecordName
@@ -20537,6 +20595,12 @@ references:
   commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_RecordType
   fullName: SA.iOS.CloudKit.ISN_CKRecord.m_RecordType
   nameWithType: ISN_CKRecord.m_RecordType
+- uid: SA.iOS.CloudKit.ISN_CKRecord.m_ZoneName
+  name: m_ZoneName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_m_ZoneName
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecord.m_ZoneName
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.m_ZoneName
+  nameWithType: ISN_CKRecord.m_ZoneName
 - uid: SA.iOS.CloudKit.ISN_CKRecord.Pointers
   name: Pointers
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_Pointers
@@ -20550,6 +20614,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecord.Pointers
   nameWithType: ISN_CKRecord.Pointers
+- uid: SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag
+  name: RecordChangeTag
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_RecordChangeTag
+  commentId: P:SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag
+  nameWithType: ISN_CKRecord.RecordChangeTag
+- uid: SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag*
+  name: RecordChangeTag
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_RecordChangeTag_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag
+  nameWithType: ISN_CKRecord.RecordChangeTag
 - uid: SA.iOS.CloudKit.ISN_CKRecord.RecordID
   name: RecordID
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_RecordID
@@ -20576,6 +20653,59 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecord.RecordType
   nameWithType: ISN_CKRecord.RecordType
+- uid: SA.iOS.CloudKit.ISN_CKRecord.Reset
+  name: Reset()
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_Reset
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.Reset
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.Reset()
+  nameWithType: ISN_CKRecord.Reset()
+- uid: SA.iOS.CloudKit.ISN_CKRecord.Reset*
+  name: Reset
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_Reset_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecord.Reset
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.Reset
+  nameWithType: ISN_CKRecord.Reset
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,DateTime)
+  name: UpdateField(String, DateTime)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_DateTime_
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,DateTime)
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, DateTime)
+  nameWithType: ISN_CKRecord.UpdateField(String, DateTime)
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,SA.iOS.CloudKit.ISN_CKAsset)
+  name: UpdateField(String, ISN_CKAsset)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_SA_iOS_CloudKit_ISN_CKAsset_
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,SA.iOS.CloudKit.ISN_CKAsset)
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, SA.iOS.CloudKit.ISN_CKAsset)
+  nameWithType: ISN_CKRecord.UpdateField(String, ISN_CKAsset)
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Byte[])
+  name: UpdateField(String, Byte[])
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_Byte___
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Byte[])
+  name.vb: UpdateField(String, Byte())
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, System.Byte[])
+  fullName.vb: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, System.Byte())
+  nameWithType: ISN_CKRecord.UpdateField(String, Byte[])
+  nameWithType.vb: ISN_CKRecord.UpdateField(String, Byte())
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Int32)
+  name: UpdateField(String, Int32)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_Int32_
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Int32)
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, System.Int32)
+  nameWithType: ISN_CKRecord.UpdateField(String, Int32)
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.String)
+  name: UpdateField(String, String)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_String_
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.String)
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String, System.String)
+  nameWithType: ISN_CKRecord.UpdateField(String, String)
+- uid: SA.iOS.CloudKit.ISN_CKRecord.UpdateField*
+  name: UpdateField
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecord.html#SA_iOS_CloudKit_ISN_CKRecord_UpdateField_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecord.UpdateField
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKRecord.UpdateField
+  nameWithType: ISN_CKRecord.UpdateField
 - uid: SA.iOS.CloudKit.ISN_CKRecordField
   name: ISN_CKRecordField
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html
@@ -20669,24 +20799,37 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecordField.Key
   nameWithType: ISN_CKRecordField.Key
-- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_key
-  name: m_key
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_key
-  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_key
-  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_key
-  nameWithType: ISN_CKRecordField.m_key
-- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_type
-  name: m_type
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_type
-  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_type
-  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_type
-  nameWithType: ISN_CKRecordField.m_type
-- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_value
-  name: m_value
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_value
-  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_value
-  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_value
-  nameWithType: ISN_CKRecordField.m_value
+- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_Key
+  name: m_Key
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_Key
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_Key
+  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_Key
+  nameWithType: ISN_CKRecordField.m_Key
+- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_Type
+  name: m_Type
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_Type
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_Type
+  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_Type
+  nameWithType: ISN_CKRecordField.m_Type
+- uid: SA.iOS.CloudKit.ISN_CKRecordField.m_Value
+  name: m_Value
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_m_Value
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordField.m_Value
+  fullName: SA.iOS.CloudKit.ISN_CKRecordField.m_Value
+  nameWithType: ISN_CKRecordField.m_Value
+- uid: SA.iOS.CloudKit.ISN_CKRecordField.Reset
+  name: Reset()
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_Reset
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecordField.Reset
+  fullName: SA.iOS.CloudKit.ISN_CKRecordField.Reset()
+  nameWithType: ISN_CKRecordField.Reset()
+- uid: SA.iOS.CloudKit.ISN_CKRecordField.Reset*
+  name: Reset
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_Reset_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecordField.Reset
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKRecordField.Reset
+  nameWithType: ISN_CKRecordField.Reset
 - uid: SA.iOS.CloudKit.ISN_CKRecordField.StringValue
   name: StringValue
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecordField.html#SA_iOS_CloudKit_ISN_CKRecordField_StringValue
@@ -20767,6 +20910,12 @@ references:
   commentId: M:SA.iOS.CloudKit.ISN_CKRecordID.#ctor(System.String)
   fullName: SA.iOS.CloudKit.ISN_CKRecordID.ISN_CKRecordID(System.String)
   nameWithType: ISN_CKRecordID.ISN_CKRecordID(String)
+- uid: SA.iOS.CloudKit.ISN_CKRecordID.#ctor(System.String,SA.iOS.CloudKit.ISN_CKZoneID)
+  name: ISN_CKRecordID(String, ISN_CKZoneID)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID__ctor_System_String_SA_iOS_CloudKit_ISN_CKZoneID_
+  commentId: M:SA.iOS.CloudKit.ISN_CKRecordID.#ctor(System.String,SA.iOS.CloudKit.ISN_CKZoneID)
+  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ISN_CKRecordID(System.String, SA.iOS.CloudKit.ISN_CKZoneID)
+  nameWithType: ISN_CKRecordID.ISN_CKRecordID(String, ISN_CKZoneID)
 - uid: SA.iOS.CloudKit.ISN_CKRecordID.#ctor*
   name: ISN_CKRecordID
   href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID__ctor_
@@ -20787,25 +20936,62 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKRecordID.RecordName
   nameWithType: ISN_CKRecordID.RecordName
-- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
-  name: ZoneId
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneId
-  commentId: P:SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
-  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
-  nameWithType: ISN_CKRecordID.ZoneId
-- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId*
-  name: ZoneId
-  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneId_
-  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
+- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneID
+  name: ZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneID
+  commentId: P:SA.iOS.CloudKit.ISN_CKRecordID.ZoneID
+  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneID
+  nameWithType: ISN_CKRecordID.ZoneID
+- uid: SA.iOS.CloudKit.ISN_CKRecordID.ZoneID*
+  name: ZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordID.html#SA_iOS_CloudKit_ISN_CKRecordID_ZoneID_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKRecordID.ZoneID
   isSpec: "True"
-  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneId
-  nameWithType: ISN_CKRecordID.ZoneId
+  fullName: SA.iOS.CloudKit.ISN_CKRecordID.ZoneID
+  nameWithType: ISN_CKRecordID.ZoneID
+- uid: SA.iOS.CloudKit.ISN_CKRecordSavePolicy
+  name: ISN_CKRecordSavePolicy
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordSavePolicy.html
+  commentId: T:SA.iOS.CloudKit.ISN_CKRecordSavePolicy
+  fullName: SA.iOS.CloudKit.ISN_CKRecordSavePolicy
+  nameWithType: ISN_CKRecordSavePolicy
+- uid: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveAllKeys
+  name: CKRecordSaveAllKeys
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordSavePolicy.html#SA_iOS_CloudKit_ISN_CKRecordSavePolicy_CKRecordSaveAllKeys
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveAllKeys
+  fullName: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveAllKeys
+  nameWithType: ISN_CKRecordSavePolicy.CKRecordSaveAllKeys
+- uid: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveChangedKeys
+  name: CKRecordSaveChangedKeys
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordSavePolicy.html#SA_iOS_CloudKit_ISN_CKRecordSavePolicy_CKRecordSaveChangedKeys
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveChangedKeys
+  fullName: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveChangedKeys
+  nameWithType: ISN_CKRecordSavePolicy.CKRecordSaveChangedKeys
+- uid: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveIfServerRecordUnchanged
+  name: CKRecordSaveIfServerRecordUnchanged
+  href: ios-native/SA.iOS.CloudKit.ISN_CKRecordSavePolicy.html#SA_iOS_CloudKit_ISN_CKRecordSavePolicy_CKRecordSaveIfServerRecordUnchanged
+  commentId: F:SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveIfServerRecordUnchanged
+  fullName: SA.iOS.CloudKit.ISN_CKRecordSavePolicy.CKRecordSaveIfServerRecordUnchanged
+  nameWithType: ISN_CKRecordSavePolicy.CKRecordSaveIfServerRecordUnchanged
 - uid: SA.iOS.CloudKit.ISN_CKResult
   name: ISN_CKResult
   href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html
   commentId: T:SA.iOS.CloudKit.ISN_CKResult
   fullName: SA.iOS.CloudKit.ISN_CKResult
   nameWithType: ISN_CKResult
+- uid: SA.iOS.CloudKit.ISN_CKResult.AccountState
+  name: AccountState
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_AccountState
+  commentId: P:SA.iOS.CloudKit.ISN_CKResult.AccountState
+  fullName: SA.iOS.CloudKit.ISN_CKResult.AccountState
+  nameWithType: ISN_CKResult.AccountState
+- uid: SA.iOS.CloudKit.ISN_CKResult.AccountState*
+  name: AccountState
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_AccountState_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKResult.AccountState
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKResult.AccountState
+  nameWithType: ISN_CKResult.AccountState
 - uid: SA.iOS.CloudKit.ISN_CKResult.Description
   name: Description
   href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_Description
@@ -20819,24 +21005,43 @@ references:
   isSpec: "True"
   fullName: SA.iOS.CloudKit.ISN_CKResult.Description
   nameWithType: ISN_CKResult.Description
-- uid: SA.iOS.CloudKit.ISN_CKResult.m_description
-  name: m_description
-  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_description
-  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_description
-  fullName: SA.iOS.CloudKit.ISN_CKResult.m_description
-  nameWithType: ISN_CKResult.m_description
-- uid: SA.iOS.CloudKit.ISN_CKResult.m_record
-  name: m_record
-  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_record
-  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_record
-  fullName: SA.iOS.CloudKit.ISN_CKResult.m_record
-  nameWithType: ISN_CKResult.m_record
-- uid: SA.iOS.CloudKit.ISN_CKResult.m_state
-  name: m_state
-  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_state
-  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_state
-  fullName: SA.iOS.CloudKit.ISN_CKResult.m_state
-  nameWithType: ISN_CKResult.m_state
+- uid: SA.iOS.CloudKit.ISN_CKResult.ErrorCode
+  name: ErrorCode
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_ErrorCode
+  commentId: P:SA.iOS.CloudKit.ISN_CKResult.ErrorCode
+  fullName: SA.iOS.CloudKit.ISN_CKResult.ErrorCode
+  nameWithType: ISN_CKResult.ErrorCode
+- uid: SA.iOS.CloudKit.ISN_CKResult.ErrorCode*
+  name: ErrorCode
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_ErrorCode_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKResult.ErrorCode
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKResult.ErrorCode
+  nameWithType: ISN_CKResult.ErrorCode
+- uid: SA.iOS.CloudKit.ISN_CKResult.m_Description
+  name: m_Description
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_Description
+  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_Description
+  fullName: SA.iOS.CloudKit.ISN_CKResult.m_Description
+  nameWithType: ISN_CKResult.m_Description
+- uid: SA.iOS.CloudKit.ISN_CKResult.m_ErrorCode
+  name: m_ErrorCode
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_ErrorCode
+  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_ErrorCode
+  fullName: SA.iOS.CloudKit.ISN_CKResult.m_ErrorCode
+  nameWithType: ISN_CKResult.m_ErrorCode
+- uid: SA.iOS.CloudKit.ISN_CKResult.m_Record
+  name: m_Record
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_Record
+  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_Record
+  fullName: SA.iOS.CloudKit.ISN_CKResult.m_Record
+  nameWithType: ISN_CKResult.m_Record
+- uid: SA.iOS.CloudKit.ISN_CKResult.m_State
+  name: m_State
+  href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_m_State
+  commentId: F:SA.iOS.CloudKit.ISN_CKResult.m_State
+  fullName: SA.iOS.CloudKit.ISN_CKResult.m_State
+  nameWithType: ISN_CKResult.m_State
 - uid: SA.iOS.CloudKit.ISN_CKResult.Record
   name: Record
   href: ios-native/SA.iOS.CloudKit.ISN_CKResult.html#SA_iOS_CloudKit_ISN_CKResult_Record
@@ -20881,12 +21086,105 @@ references:
   commentId: F:SA.iOS.CloudKit.ISN_CKResultType.Success
   fullName: SA.iOS.CloudKit.ISN_CKResultType.Success
   nameWithType: ISN_CKResultType.Success
+- uid: SA.iOS.CloudKit.ISN_CKZoneID
+  name: ISN_CKZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html
+  commentId: T:SA.iOS.CloudKit.ISN_CKZoneID
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID
+  nameWithType: ISN_CKZoneID
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.#ctor(System.String,System.String)
+  name: ISN_CKZoneID(String, String)
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID__ctor_System_String_System_String_
+  commentId: M:SA.iOS.CloudKit.ISN_CKZoneID.#ctor(System.String,System.String)
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.ISN_CKZoneID(System.String, System.String)
+  nameWithType: ISN_CKZoneID.ISN_CKZoneID(String, String)
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.#ctor*
+  name: ISN_CKZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID__ctor_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKZoneID.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.ISN_CKZoneID
+  nameWithType: ISN_CKZoneID.ISN_CKZoneID
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID
+  name: DefaultZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_DefaultZoneID
+  commentId: P:SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID
+  nameWithType: ISN_CKZoneID.DefaultZoneID
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID*
+  name: DefaultZoneID
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_DefaultZoneID_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.DefaultZoneID
+  nameWithType: ISN_CKZoneID.DefaultZoneID
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.OwnerName
+  name: OwnerName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_OwnerName
+  commentId: P:SA.iOS.CloudKit.ISN_CKZoneID.OwnerName
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.OwnerName
+  nameWithType: ISN_CKZoneID.OwnerName
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.OwnerName*
+  name: OwnerName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_OwnerName_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKZoneID.OwnerName
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.OwnerName
+  nameWithType: ISN_CKZoneID.OwnerName
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.ZoneName
+  name: ZoneName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_ZoneName
+  commentId: P:SA.iOS.CloudKit.ISN_CKZoneID.ZoneName
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.ZoneName
+  nameWithType: ISN_CKZoneID.ZoneName
+- uid: SA.iOS.CloudKit.ISN_CKZoneID.ZoneName*
+  name: ZoneName
+  href: ios-native/SA.iOS.CloudKit.ISN_CKZoneID.html#SA_iOS_CloudKit_ISN_CKZoneID_ZoneName_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CKZoneID.ZoneName
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CKZoneID.ZoneName
+  nameWithType: ISN_CKZoneID.ZoneName
 - uid: SA.iOS.CloudKit.ISN_CloudKitContainer
   name: ISN_CloudKitContainer
   href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html
   commentId: T:SA.iOS.CloudKit.ISN_CloudKitContainer
   fullName: SA.iOS.CloudKit.ISN_CloudKitContainer
   nameWithType: ISN_CloudKitContainer
+- uid: SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate
+  name: ISN_CloudKitContainer.AccountStatusDelegate
+  href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate.html
+  commentId: T:SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate
+  fullName: SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate
+  nameWithType: ISN_CloudKitContainer.AccountStatusDelegate
+- uid: SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus(Action{SA.iOS.CloudKit.ISN_CKResult})
+  name: GetAccountStatus(Action<ISN_CKResult>)
+  href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html#SA_iOS_CloudKit_ISN_CloudKitContainer_GetAccountStatus_Action_SA_iOS_CloudKit_ISN_CKResult__
+  commentId: M:SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus(Action{SA.iOS.CloudKit.ISN_CKResult})
+  name.vb: GetAccountStatus(Action(Of ISN_CKResult))
+  fullName: SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus(Action<SA.iOS.CloudKit.ISN_CKResult>)
+  fullName.vb: SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus(Action(Of SA.iOS.CloudKit.ISN_CKResult))
+  nameWithType: ISN_CloudKitContainer.GetAccountStatus(Action<ISN_CKResult>)
+  nameWithType.vb: ISN_CloudKitContainer.GetAccountStatus(Action(Of ISN_CKResult))
+- uid: SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus*
+  name: GetAccountStatus
+  href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html#SA_iOS_CloudKit_ISN_CloudKitContainer_GetAccountStatus_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CloudKitContainer.GetAccountStatus
+  nameWithType: ISN_CloudKitContainer.GetAccountStatus
+- uid: SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback(SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate)
+  name: InitAccoutStatusNotificationCallback(ISN_CloudKitContainer.AccountStatusDelegate)
+  href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html#SA_iOS_CloudKit_ISN_CloudKitContainer_InitAccoutStatusNotificationCallback_SA_iOS_CloudKit_ISN_CloudKitContainer_AccountStatusDelegate_
+  commentId: M:SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback(SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate)
+  fullName: SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback(SA.iOS.CloudKit.ISN_CloudKitContainer.AccountStatusDelegate)
+  nameWithType: ISN_CloudKitContainer.InitAccoutStatusNotificationCallback(ISN_CloudKitContainer.AccountStatusDelegate)
+- uid: SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback*
+  name: InitAccoutStatusNotificationCallback
+  href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html#SA_iOS_CloudKit_ISN_CloudKitContainer_InitAccoutStatusNotificationCallback_
+  commentId: Overload:SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback
+  isSpec: "True"
+  fullName: SA.iOS.CloudKit.ISN_CloudKitContainer.InitAccoutStatusNotificationCallback
+  nameWithType: ISN_CloudKitContainer.InitAccoutStatusNotificationCallback
 - uid: SA.iOS.CloudKit.ISN_CloudKitContainer.Private
   name: Private
   href: ios-native/SA.iOS.CloudKit.ISN_CloudKitContainer.html#SA_iOS_CloudKit_ISN_CloudKitContainer_Private

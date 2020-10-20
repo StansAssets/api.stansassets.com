@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ISN_CKRecord
    ">
-    <meta name="generator" content="docfx 2.56.3.0">
+    <meta name="generator" content="docfx 2.56.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -71,11 +71,7 @@
   
   <h1 id="SA_iOS_CloudKit_ISN_CKRecord" data-uid="SA.iOS.CloudKit.ISN_CKRecord" class="text-break">Class ISN_CKRecord
   </h1>
-  <div class="markdown level0 summary"><p>An object of key-value pairs that you use to fetch and save your app&apos;s data.
-Records are the fundamental objects you use to manage data in CloudKit.
-You may define any number of record types for your app, with each record type corresponding to a different type of information you need.
-Within a given record type, you then define one or more fields, each of which has a name and a data value.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -118,8 +114,7 @@ Within a given record type, you then define one or more fields, each of which ha
   
   <a id="SA_iOS_CloudKit_ISN_CKRecord__ctor_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.#ctor*"></a>
   <h4 id="SA_iOS_CloudKit_ISN_CKRecord__ctor_System_String_SA_iOS_CloudKit_ISN_CKRecordID_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.#ctor(System.String,SA.iOS.CloudKit.ISN_CKRecordID)">ISN_CKRecord(String, ISN_CKRecordID)</h4>
-  <div class="markdown level1 summary"><p>Initializes and returns a record using an ID that you provide.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -138,21 +133,12 @@ Within a given record type, you then define one or more fields, each of which ha
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">recordType</span></td>
-        <td><p>A string reflecting the type of record that you want to create.
-Define the record types that your app supports, and use them to distinguish between records with different types of data.
-This parameter must not be nil or contain an empty string.
-Record type names consist of one or more alphanumeric characters and start with a letter.
-Type names may include underscore characters if they do not start with that character.
-Spaces are not allowed in record type names.</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="SA.iOS.CloudKit.ISN_CKRecordID.html">ISN_CKRecordID</a></td>
         <td><span class="parametername">recordID</span></td>
-        <td><p>The ID to assign to the record itself.
-When creating the ID, you can specify the zone in which to place the record.
-The ID cannot currently be in use by any other record and must not be <code>null</code>.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -160,12 +146,12 @@ The ID cannot currently be in use by any other record and must not be <code>null
   </h3>
   
   
-  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_m_fields" data-uid="SA.iOS.CloudKit.ISN_CKRecord.m_fields">m_fields</h4>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_m_Fields" data-uid="SA.iOS.CloudKit.ISN_CKRecord.m_Fields">m_Fields</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;ISN_CKRecordField&gt; m_fields</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;ISN_CKRecordField&gt; m_Fields</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -178,6 +164,54 @@ The ID cannot currently be in use by any other record and must not be <code>null
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<a class="xref" href="SA.iOS.CloudKit.ISN_CKRecordField.html">ISN_CKRecordField</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_m_OwnerName" data-uid="SA.iOS.CloudKit.ISN_CKRecord.m_OwnerName">m_OwnerName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string m_OwnerName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_m_RecordChangeTag" data-uid="SA.iOS.CloudKit.ISN_CKRecord.m_RecordChangeTag">m_RecordChangeTag</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string m_RecordChangeTag</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -214,6 +248,30 @@ The ID cannot currently be in use by any other record and must not be <code>null
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string m_RecordType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_m_ZoneName" data-uid="SA.iOS.CloudKit.ISN_CKRecord.m_ZoneName">m_ZoneName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string m_ZoneName</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,7 +325,7 @@ The ID cannot currently be in use by any other record and must not be <code>null
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int DataElementsAmount { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int DataElementsAmount { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -288,8 +346,7 @@ The ID cannot currently be in use by any other record and must not be <code>null
   
   <a id="SA_iOS_CloudKit_ISN_CKRecord_Fields_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Fields*"></a>
   <h4 id="SA_iOS_CloudKit_ISN_CKRecord_Fields" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Fields">Fields</h4>
-  <div class="markdown level1 summary"><p>Get record fields.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -319,7 +376,7 @@ The ID cannot currently be in use by any other record and must not be <code>null
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;IntPtr&gt; Pointers { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;IntPtr&gt; Pointers { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -332,6 +389,32 @@ The ID cannot currently be in use by any other record and must not be <code>null
     <tbody>
       <tr>
         <td><span class="xref">List</span>&lt;<span class="xref">IntPtr</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_RecordChangeTag_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_RecordChangeTag" data-uid="SA.iOS.CloudKit.ISN_CKRecord.RecordChangeTag">RecordChangeTag</h4>
+  <div class="markdown level1 summary"><p>Get recordChangeTag of this record</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RecordChangeTag { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -790,6 +873,273 @@ If we don&apos;t have value for given key, this method will return empty string.
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_Reset_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Reset*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_Reset" data-uid="SA.iOS.CloudKit.ISN_CKRecord.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Reset this record after we get it from iCloud.
+We need to do it in order to be able update it in iCloud.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_DateTime_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,DateTime)">UpdateField(String, DateTime)</h4>
+  <div class="markdown level1 summary"><p>Method for updaating field of the record.
+If we don&apos;t have this field in this redord, this method will return false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateField(string key, DateTime value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key for this field. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>DateTime value for this field. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_SA_iOS_CloudKit_ISN_CKAsset_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,SA.iOS.CloudKit.ISN_CKAsset)">UpdateField(String, ISN_CKAsset)</h4>
+  <div class="markdown level1 summary"><p>Method for updaating field of the record.
+If we don&apos;t have this field in this redord, this method will return false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateField(string key, ISN_CKAsset value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key for this field. </p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SA.iOS.CloudKit.ISN_CKAsset.html">ISN_CKAsset</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>DateTime value for this field. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_Byte___" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Byte[])">UpdateField(String, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Method for updaating field of the record.
+If we don&apos;t have this field in this redord, this method will return false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateField(string key, byte[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key for this field. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>byte array as value for this field. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_Int32_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.Int32)">UpdateField(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Method for updaating field of the record.
+If we don&apos;t have this field in this redord, this method will return false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateField(string key, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key for this field. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>int value for this field. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField*"></a>
+  <h4 id="SA_iOS_CloudKit_ISN_CKRecord_UpdateField_System_String_System_String_" data-uid="SA.iOS.CloudKit.ISN_CKRecord.UpdateField(System.String,System.String)">UpdateField(String, String)</h4>
+  <div class="markdown level1 summary"><p>Method for updaating field of the record.
+If we don&apos;t have this field in this redord, this method will return false.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateField(string key, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key for this field. </p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>string value for this field. </p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -800,7 +1150,8 @@ If we don&apos;t have value for given key, this method will return empty string.
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
