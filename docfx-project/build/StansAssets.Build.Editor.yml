@@ -23,6 +23,23 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.Build.Editor.IBuildStep
+  commentId: T:StansAssets.Build.Editor.IBuildStep
+  parent: StansAssets.Build.Editor
+  name: IBuildStep
+  nameWithType: IBuildStep
+  fullName: StansAssets.Build.Editor.IBuildStep
+- uid: StansAssets.Build.Editor.IBuildContext
+  commentId: T:StansAssets.Build.Editor.IBuildContext
+  parent: StansAssets.Build.Editor
+  name: IBuildContext
+  nameWithType: IBuildContext
+  fullName: StansAssets.Build.Editor.IBuildContext
+- uid: StansAssets.Build.Editor.BuildStepResultArgs
+  commentId: T:StansAssets.Build.Editor.BuildStepResultArgs
+  name: BuildStepResultArgs
+  nameWithType: BuildStepResultArgs
+  fullName: StansAssets.Build.Editor.BuildStepResultArgs
 - uid: StansAssets.Build.Editor.IBuildTask
   commentId: T:StansAssets.Build.Editor.IBuildTask
   parent: StansAssets.Build.Editor
@@ -34,6 +51,17 @@ references:
   name: BuildExecutor
   nameWithType: BuildExecutor
   fullName: StansAssets.Build.Editor.BuildExecutor
+- uid: StansAssets.Build.Editor.BuildSystemPackage
+  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildSystemPackage
+  nameWithType: BuildSystemPackage
+  fullName: StansAssets.Build.Editor.BuildSystemPackage
+- uid: StansAssets.Build.Editor.BuildSettings
+  commentId: T:StansAssets.Build.Editor.BuildSettings
+  parent: StansAssets.Build.Editor
+  name: BuildSettings
+  nameWithType: BuildSettings
+  fullName: StansAssets.Build.Editor.BuildSettings
 - uid: StansAssets.Build.Editor.StanAssetsPackages
   commentId: T:StansAssets.Build.Editor.StanAssetsPackages
   name: StanAssetsPackages
@@ -44,34 +72,6 @@ references:
   name: IBuildExecutorListener
   nameWithType: IBuildExecutorListener
   fullName: StansAssets.Build.Editor.IBuildExecutorListener
-- uid: StansAssets.Build.Editor.BuildSettings
-  commentId: T:StansAssets.Build.Editor.BuildSettings
-  parent: StansAssets.Build.Editor
-  name: BuildSettings
-  nameWithType: BuildSettings
-  fullName: StansAssets.Build.Editor.BuildSettings
-- uid: StansAssets.Build.Editor.BuildSystemPackage
-  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
-  name: BuildSystemPackage
-  nameWithType: BuildSystemPackage
-  fullName: StansAssets.Build.Editor.BuildSystemPackage
-- uid: StansAssets.Build.Editor.IBuildStep
-  commentId: T:StansAssets.Build.Editor.IBuildStep
-  parent: StansAssets.Build.Editor
-  name: IBuildStep
-  nameWithType: IBuildStep
-  fullName: StansAssets.Build.Editor.IBuildStep
-- uid: StansAssets.Build.Editor.BuildStepResultArgs
-  commentId: T:StansAssets.Build.Editor.BuildStepResultArgs
-  name: BuildStepResultArgs
-  nameWithType: BuildStepResultArgs
-  fullName: StansAssets.Build.Editor.BuildStepResultArgs
-- uid: StansAssets.Build.Editor.IBuildContext
-  commentId: T:StansAssets.Build.Editor.IBuildContext
-  parent: StansAssets.Build.Editor
-  name: IBuildContext
-  nameWithType: IBuildContext
-  fullName: StansAssets.Build.Editor.IBuildContext
 - uid: StansAssets.Build.Editor
   commentId: N:StansAssets.Build.Editor
   name: StansAssets.Build.Editor

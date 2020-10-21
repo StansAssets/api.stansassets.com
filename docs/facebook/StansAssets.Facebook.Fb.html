@@ -328,7 +328,7 @@ how much time they spend using it, and view other demographic information throug
   
   
   <a id="StansAssets_Facebook_Fb_GetFriends_" data-uid="StansAssets.Facebook.Fb.GetFriends*"></a>
-  <h4 id="StansAssets_Facebook_Fb_GetFriends_System_Int32_System_Action_StansAssets_Facebook_FbGraphFriendsListResult__StansAssets_Facebook_FbCursor_" data-uid="StansAssets.Facebook.Fb.GetFriends(System.Int32,System.Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)">GetFriends(Int32, Action&lt;FbGraphFriendsListResult&gt;, FbCursor)</h4>
+  <h4 id="StansAssets_Facebook_Fb_GetFriends_System_Int32_Action_StansAssets_Facebook_FbGraphFriendsListResult__StansAssets_Facebook_FbCursor_" data-uid="StansAssets.Facebook.Fb.GetFriends(System.Int32,Action{StansAssets.Facebook.FbGraphFriendsListResult},StansAssets.Facebook.FbCursor)">GetFriends(Int32, Action&lt;FbGraphFriendsListResult&gt;, FbCursor)</h4>
   <div class="markdown level1 summary"><p>This edge allows you to:
 get the User&apos;s friends who have installed the app making the query
 get the User&apos;s total number of friends (including those who have not installed the app making the query)
@@ -357,7 +357,7 @@ get the User&apos;s total number of friends (including those who have not instal
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbGraphFriendsListResult.html">FbGraphFriendsListResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbGraphFriendsListResult.html">FbGraphFriendsListResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>Request callback </p>
 </td>
@@ -372,7 +372,7 @@ get the User&apos;s total number of friends (including those who have not instal
   
   
   <a id="StansAssets_Facebook_Fb_GetLoggedInUserInfo_" data-uid="StansAssets.Facebook.Fb.GetLoggedInUserInfo*"></a>
-  <h4 id="StansAssets_Facebook_Fb_GetLoggedInUserInfo_System_Action_StansAssets_Facebook_FbGetUserResult__" data-uid="StansAssets.Facebook.Fb.GetLoggedInUserInfo(System.Action{StansAssets.Facebook.FbGetUserResult})">GetLoggedInUserInfo(Action&lt;FbGetUserResult&gt;)</h4>
+  <h4 id="StansAssets_Facebook_Fb_GetLoggedInUserInfo_Action_StansAssets_Facebook_FbGetUserResult__" data-uid="StansAssets.Facebook.Fb.GetLoggedInUserInfo(Action{StansAssets.Facebook.FbGetUserResult})">GetLoggedInUserInfo(Action&lt;FbGetUserResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Retries current logged user info.
 See <a class="xref" href="StansAssets.Facebook.FbUser.html">FbUser</a> for more details.</p>
 </div>
@@ -392,7 +392,7 @@ See <a class="xref" href="StansAssets.Facebook.FbUser.html">FbUser</a> for more 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbGetUserResult.html">FbGetUserResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbGetUserResult.html">FbGetUserResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -536,7 +536,43 @@ This function can only be called once during the lifetime of the object; later c
   
   
   <a id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions*"></a>
-  <h4 id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_IEnumerable_System_String__System_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})">LogInWithPublishPermissions(IEnumerable&lt;String&gt;, Action&lt;FbLoginResult&gt;)</h4>
+  <h4 id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions(Action{StansAssets.Facebook.FbLoginResult})">LogInWithPublishPermissions(Action&lt;FbLoginResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Prompts the user to authorize your application for publish permissions using the Login Dialog appropriate to the platform.
+If the user is already logged in and has authorized your application,
+checks whether all permissions in the permissions parameter have been granted, and if not, prompts the user for any that are newly requested.</p>
+<p>People are sensitive about granting publish permissions,
+so you should only ask for publish permissions once a person is ready to post something from your app and not during the initial login.</p>
+<p>In the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.
+Please note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,
+please use the <a href="https://developers.facebook.com/tools/explorer">Graph API Explorer</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void LogInWithPublishPermissions(Action&lt;FbLoginResult&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>A delegate that will be called with the result of the Login Dialog.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions*"></a>
+  <h4 id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_IEnumerable_System_String__Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})">LogInWithPublishPermissions(IEnumerable&lt;String&gt;, Action&lt;FbLoginResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Prompts the user to authorize your application for publish permissions using the Login Dialog appropriate to the platform.
 If the user is already logged in and has authorized your application,
 checks whether all permissions in the permissions parameter have been granted, and if not, prompts the user for any that are newly requested.</p>
@@ -568,7 +604,7 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>A delegate that will be called with the result of the Login Dialog.</p>
 </td>
@@ -577,13 +613,12 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
   </table>
   
   
-  <a id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions*"></a>
-  <h4 id="StansAssets_Facebook_Fb_LogInWithPublishPermissions_System_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithPublishPermissions(System.Action{StansAssets.Facebook.FbLoginResult})">LogInWithPublishPermissions(Action&lt;FbLoginResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Prompts the user to authorize your application for publish permissions using the Login Dialog appropriate to the platform.
+  <a id="StansAssets_Facebook_Fb_LogInWithReadPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions*"></a>
+  <h4 id="StansAssets_Facebook_Fb_LogInWithReadPermissions_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions(Action{StansAssets.Facebook.FbLoginResult})">LogInWithReadPermissions(Action&lt;FbLoginResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Prompts the user to authorize your application using the Login Dialog appropriate to the platform.
 If the user is already logged in and has authorized your application,
-checks whether all permissions in the permissions parameter have been granted, and if not, prompts the user for any that are newly requested.</p>
-<p>People are sensitive about granting publish permissions,
-so you should only ask for publish permissions once a person is ready to post something from your app and not during the initial login.</p>
+checks whether all permissions in the permissions parameter have been granted, and if not,
+prompts the user for any that are newly requested.</p>
 <p>In the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.
 Please note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,
 please use the <a href="https://developers.facebook.com/tools/explorer">Graph API Explorer</a>.</p>
@@ -591,7 +626,7 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogInWithPublishPermissions(Action&lt;FbLoginResult&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void LogInWithReadPermissions(Action&lt;FbLoginResult&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -604,7 +639,7 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>A delegate that will be called with the result of the Login Dialog.</p>
 </td>
@@ -614,7 +649,7 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
   
   
   <a id="StansAssets_Facebook_Fb_LogInWithReadPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions*"></a>
-  <h4 id="StansAssets_Facebook_Fb_LogInWithReadPermissions_IEnumerable_System_String__System_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},System.Action{StansAssets.Facebook.FbLoginResult})">LogInWithReadPermissions(IEnumerable&lt;String&gt;, Action&lt;FbLoginResult&gt;)</h4>
+  <h4 id="StansAssets_Facebook_Fb_LogInWithReadPermissions_IEnumerable_System_String__Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions(IEnumerable{System.String},Action{StansAssets.Facebook.FbLoginResult})">LogInWithReadPermissions(IEnumerable&lt;String&gt;, Action&lt;FbLoginResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Prompts the user to authorize your application using the Login Dialog appropriate to the platform.
 If the user is already logged in and has authorized your application,
 checks whether all permissions in the permissions parameter have been granted, and if not,
@@ -645,42 +680,7 @@ please use the <a href="https://developers.facebook.com/tools/explorer">Graph AP
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>A delegate that will be called with the result of the Login Dialog.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_Facebook_Fb_LogInWithReadPermissions_" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions*"></a>
-  <h4 id="StansAssets_Facebook_Fb_LogInWithReadPermissions_System_Action_StansAssets_Facebook_FbLoginResult__" data-uid="StansAssets.Facebook.Fb.LogInWithReadPermissions(System.Action{StansAssets.Facebook.FbLoginResult})">LogInWithReadPermissions(Action&lt;FbLoginResult&gt;)</h4>
-  <div class="markdown level1 summary"><p>Prompts the user to authorize your application using the Login Dialog appropriate to the platform.
-If the user is already logged in and has authorized your application,
-checks whether all permissions in the permissions parameter have been granted, and if not,
-prompts the user for any that are newly requested.</p>
-<p>In the Unity Editor, a stub function is called, which will prompt you to provide an access token from the Access Token Tool.
-Please note that this token will not necessarily contain the permissions you specified in FB.Login. To change this token&apos;s permissions,
-please use the <a href="https://developers.facebook.com/tools/explorer">Graph API Explorer</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LogInWithReadPermissions(Action&lt;FbLoginResult&gt; callback)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.Facebook.FbLoginResult.html">FbLoginResult</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>A delegate that will be called with the result of the Login Dialog.</p>
 </td>

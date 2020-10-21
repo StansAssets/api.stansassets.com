@@ -19,7 +19,7 @@ items:
   source:
     id: StanAssetsPackages
     path: ''
-    startLine: 592
+    startLine: 1430
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -57,7 +57,7 @@ items:
   source:
     id: GoogleDocConnectorProPackage
     path: ''
-    startLine: 594
+    startLine: 1432
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -88,7 +88,7 @@ items:
   source:
     id: GoogleDocConnectorProPackageVersion
     path: ''
-    startLine: 595
+    startLine: 1433
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -119,7 +119,7 @@ items:
   source:
     id: IsGoogleDocConnectorProInstalled
     path: ''
-    startLine: 604
+    startLine: 1442
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -152,7 +152,7 @@ items:
   source:
     id: AddStanAssetsPackage
     path: ''
-    startLine: 616
+    startLine: 1454
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

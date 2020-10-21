@@ -31,21 +31,35 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.GoogleDoc.Sheet
+  commentId: T:StansAssets.GoogleDoc.Sheet
+  parent: StansAssets.GoogleDoc
+  name: Sheet
+  nameWithType: Sheet
+  fullName: StansAssets.GoogleDoc.Sheet
+- uid: StansAssets.GoogleDoc.SheetMetadata
+  commentId: T:StansAssets.GoogleDoc.SheetMetadata
+  parent: StansAssets.GoogleDoc
+  name: SheetMetadata
+  nameWithType: SheetMetadata
+  fullName: StansAssets.GoogleDoc.SheetMetadata
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension
   commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
   name: SpreadsheetExtension
   nameWithType: SpreadsheetExtension
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension
-- uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorPackage
-  name: GoogleDocConnectorPackage
-  nameWithType: GoogleDocConnectorPackage
-  fullName: StansAssets.GoogleDoc.GoogleDocConnectorPackage
-- uid: StansAssets.GoogleDoc.LocalizationTab
-  commentId: T:StansAssets.GoogleDoc.LocalizationTab
-  name: LocalizationTab
-  nameWithType: LocalizationTab
-  fullName: StansAssets.GoogleDoc.LocalizationTab
+- uid: StansAssets.GoogleDoc.NamedRange
+  commentId: T:StansAssets.GoogleDoc.NamedRange
+  parent: StansAssets.GoogleDoc
+  name: NamedRange
+  nameWithType: NamedRange
+  fullName: StansAssets.GoogleDoc.NamedRange
+- uid: StansAssets.GoogleDoc.Cell
+  commentId: T:StansAssets.GoogleDoc.Cell
+  parent: StansAssets.GoogleDoc
+  name: Cell
+  nameWithType: Cell
+  fullName: StansAssets.GoogleDoc.Cell
 - uid: StansAssets.GoogleDoc.LocalizationClient
   commentId: T:StansAssets.GoogleDoc.LocalizationClient
   name: LocalizationClient
@@ -57,12 +71,12 @@ references:
   name: LocalizationClient.TextType
   nameWithType: LocalizationClient.TextType
   fullName: StansAssets.GoogleDoc.LocalizationClient.TextType
-- uid: StansAssets.GoogleDoc.SheetMetadata
-  commentId: T:StansAssets.GoogleDoc.SheetMetadata
+- uid: StansAssets.GoogleDoc.CellValue
+  commentId: T:StansAssets.GoogleDoc.CellValue
   parent: StansAssets.GoogleDoc
-  name: SheetMetadata
-  nameWithType: SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata
+  name: CellValue
+  nameWithType: CellValue
+  fullName: StansAssets.GoogleDoc.CellValue
 - uid: StansAssets.GoogleDoc.Spreadsheet
   commentId: T:StansAssets.GoogleDoc.Spreadsheet
   parent: StansAssets.GoogleDoc
@@ -80,52 +94,38 @@ references:
   name: RowData
   nameWithType: RowData
   fullName: StansAssets.GoogleDoc.RowData
-- uid: StansAssets.GoogleDoc.NamedRange
-  commentId: T:StansAssets.GoogleDoc.NamedRange
-  parent: StansAssets.GoogleDoc
-  name: NamedRange
-  nameWithType: NamedRange
-  fullName: StansAssets.GoogleDoc.NamedRange
-- uid: StansAssets.GoogleDoc.CellValue
-  commentId: T:StansAssets.GoogleDoc.CellValue
-  parent: StansAssets.GoogleDoc
-  name: CellValue
-  nameWithType: CellValue
-  fullName: StansAssets.GoogleDoc.CellValue
-- uid: StansAssets.GoogleDoc.Sheet
-  commentId: T:StansAssets.GoogleDoc.Sheet
-  parent: StansAssets.GoogleDoc
-  name: Sheet
-  nameWithType: Sheet
-  fullName: StansAssets.GoogleDoc.Sheet
 - uid: StansAssets.GoogleDoc.GridRange
   commentId: T:StansAssets.GoogleDoc.GridRange
   parent: StansAssets.GoogleDoc
   name: GridRange
   nameWithType: GridRange
   fullName: StansAssets.GoogleDoc.GridRange
-- uid: StansAssets.GoogleDoc.Cell
-  commentId: T:StansAssets.GoogleDoc.Cell
-  parent: StansAssets.GoogleDoc
-  name: Cell
-  nameWithType: Cell
-  fullName: StansAssets.GoogleDoc.Cell
-- uid: StansAssets.GoogleDoc.GoogleDocConnector
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnector
-  name: GoogleDocConnector
-  nameWithType: GoogleDocConnector
-  fullName: StansAssets.GoogleDoc.GoogleDocConnector
-- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
-  name: GoogleDocConnectorLocalization
-  nameWithType: GoogleDocConnectorLocalization
-  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
 - uid: StansAssets.GoogleDoc.ICellPointer
   commentId: T:StansAssets.GoogleDoc.ICellPointer
   parent: StansAssets.GoogleDoc
   name: ICellPointer
   nameWithType: ICellPointer
   fullName: StansAssets.GoogleDoc.ICellPointer
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+  name: GoogleDocConnectorLocalization
+  nameWithType: GoogleDocConnectorLocalization
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
+- uid: StansAssets.GoogleDoc.GoogleDocConnector
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnector
+  name: GoogleDocConnector
+  nameWithType: GoogleDocConnector
+  fullName: StansAssets.GoogleDoc.GoogleDocConnector
+- uid: StansAssets.GoogleDoc.LocalizationTab
+  commentId: T:StansAssets.GoogleDoc.LocalizationTab
+  name: LocalizationTab
+  nameWithType: LocalizationTab
+  fullName: StansAssets.GoogleDoc.LocalizationTab
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorPackage
+  name: GoogleDocConnectorPackage
+  nameWithType: GoogleDocConnectorPackage
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorPackage
 - uid: StansAssets.GoogleDoc
   commentId: N:StansAssets.GoogleDoc
   name: StansAssets.GoogleDoc

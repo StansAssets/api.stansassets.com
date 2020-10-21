@@ -20,7 +20,7 @@ items:
   source:
     id: FbRequestBuilder
     path: ''
-    startLine: 486
+    startLine: 136
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -59,7 +59,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 494
+    startLine: 144
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -91,7 +91,7 @@ items:
   source:
     id: AddCommand
     path: ''
-    startLine: 502
+    startLine: 152
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -127,7 +127,7 @@ items:
   source:
     id: AddLimit
     path: ''
-    startLine: 520
+    startLine: 170
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -158,7 +158,7 @@ items:
   source:
     id: AddCursor
     path: ''
-    startLine: 528
+    startLine: 178
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -189,7 +189,7 @@ items:
   source:
     id: RequestString
     path: ''
-    startLine: 536
+    startLine: 186
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
