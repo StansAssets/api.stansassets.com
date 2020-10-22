@@ -19,7 +19,7 @@ items:
   source:
     id: NamedRange
     path: ''
-    startLine: 647
+    startLine: 639
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -58,7 +58,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 653
+    startLine: 645
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -91,7 +91,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 658
+    startLine: 650
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -124,7 +124,7 @@ items:
   source:
     id: Cells
     path: ''
-    startLine: 663
+    startLine: 655
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -157,7 +157,7 @@ items:
   source:
     id: Range
     path: ''
-    startLine: 669
+    startLine: 661
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

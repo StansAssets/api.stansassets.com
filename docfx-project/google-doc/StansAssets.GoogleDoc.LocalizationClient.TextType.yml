@@ -20,7 +20,7 @@ items:
   source:
     id: TextType
     path: ''
-    startLine: 836
+    startLine: 828
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -47,7 +47,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 838
+    startLine: 830
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -75,7 +75,7 @@ items:
   source:
     id: ToUpper
     path: ''
-    startLine: 839
+    startLine: 831
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -103,7 +103,7 @@ items:
   source:
     id: ToLower
     path: ''
-    startLine: 840
+    startLine: 832
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -131,7 +131,7 @@ items:
   source:
     id: WithCapital
     path: ''
-    startLine: 841
+    startLine: 833
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -159,7 +159,7 @@ items:
   source:
     id: EachWithCapital
     path: ''
-    startLine: 842
+    startLine: 834
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
