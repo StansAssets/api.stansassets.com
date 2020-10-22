@@ -529,7 +529,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 1388
+    startLine: 1389
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -564,7 +564,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 1398
+    startLine: 1399
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -599,7 +599,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 1411
+    startLine: 1412
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -634,7 +634,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 1424
+    startLine: 1425
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
