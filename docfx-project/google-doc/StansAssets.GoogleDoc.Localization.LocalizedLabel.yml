@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizedLabel
+  id: LocalizedLabel
+  parent: StansAssets.GoogleDoc.Localization
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LocalizedLabel
+  nameWithType: LocalizedLabel
+  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel
+  type: Class
+  source:
+    id: LocalizedLabel
+    path: ''
+    startLine: 1625
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: 'public class LocalizedLabel : MonoBehaviour'
+    content.vb: >-
+      Public Class LocalizedLabel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

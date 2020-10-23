@@ -16,10 +16,6 @@
     name: GridRange
   - uid: StansAssets.GoogleDoc.ICellPointer
     name: ICellPointer
-  - uid: StansAssets.GoogleDoc.LocalizationClient
-    name: LocalizationClient
-  - uid: StansAssets.GoogleDoc.LocalizationClient.TextType
-    name: LocalizationClient.TextType
   - uid: StansAssets.GoogleDoc.LocalizationTab
     name: LocalizationTab
   - uid: StansAssets.GoogleDoc.NamedRange
@@ -36,6 +32,15 @@
     name: Spreadsheet.SyncState
   - uid: StansAssets.GoogleDoc.SpreadsheetExtension
     name: SpreadsheetExtension
+- uid: StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  items:
+  - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
+    name: LocalizationClient
+  - uid: StansAssets.GoogleDoc.Localization.LocalizedLabel
+    name: LocalizedLabel
+  - uid: StansAssets.GoogleDoc.Localization.TextType
+    name: TextType
 - uid: StansAssets.PackageSample
   name: StansAssets.PackageSample
   items:

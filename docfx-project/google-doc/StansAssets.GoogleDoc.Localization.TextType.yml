@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Localization.TextType
+  commentId: T:StansAssets.GoogleDoc.Localization.TextType
+  id: TextType
+  parent: StansAssets.GoogleDoc.Localization
+  children:
+  - StansAssets.GoogleDoc.Localization.TextType.Default
+  - StansAssets.GoogleDoc.Localization.TextType.EachWithCapital
+  - StansAssets.GoogleDoc.Localization.TextType.ToLower
+  - StansAssets.GoogleDoc.Localization.TextType.ToUpper
+  - StansAssets.GoogleDoc.Localization.TextType.WithCapital
+  langs:
+  - csharp
+  - vb
+  name: TextType
+  nameWithType: TextType
+  fullName: StansAssets.GoogleDoc.Localization.TextType
+  type: Enum
+  source:
+    id: TextType
+    path: ''
+    startLine: 1607
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public enum TextType
+    content.vb: Public Enum TextType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.GoogleDoc.Localization.TextType.Default
+  commentId: F:StansAssets.GoogleDoc.Localization.TextType.Default
+  id: Default
+  parent: StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: TextType.Default
+  fullName: StansAssets.GoogleDoc.Localization.TextType.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 1609
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: Default = 0
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Localization.TextType.ToUpper
+  commentId: F:StansAssets.GoogleDoc.Localization.TextType.ToUpper
+  id: ToUpper
+  parent: StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: ToUpper
+  nameWithType: TextType.ToUpper
+  fullName: StansAssets.GoogleDoc.Localization.TextType.ToUpper
+  type: Field
+  source:
+    id: ToUpper
+    path: ''
+    startLine: 1610
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: ToUpper = 1
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Localization.TextType.ToLower
+  commentId: F:StansAssets.GoogleDoc.Localization.TextType.ToLower
+  id: ToLower
+  parent: StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: ToLower
+  nameWithType: TextType.ToLower
+  fullName: StansAssets.GoogleDoc.Localization.TextType.ToLower
+  type: Field
+  source:
+    id: ToLower
+    path: ''
+    startLine: 1611
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: ToLower = 2
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Localization.TextType.WithCapital
+  commentId: F:StansAssets.GoogleDoc.Localization.TextType.WithCapital
+  id: WithCapital
+  parent: StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: WithCapital
+  nameWithType: TextType.WithCapital
+  fullName: StansAssets.GoogleDoc.Localization.TextType.WithCapital
+  type: Field
+  source:
+    id: WithCapital
+    path: ''
+    startLine: 1612
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: WithCapital = 3
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.GoogleDoc.Localization.TextType.EachWithCapital
+  commentId: F:StansAssets.GoogleDoc.Localization.TextType.EachWithCapital
+  id: EachWithCapital
+  parent: StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: EachWithCapital
+  nameWithType: TextType.EachWithCapital
+  fullName: StansAssets.GoogleDoc.Localization.TextType.EachWithCapital
+  type: Field
+  source:
+    id: EachWithCapital
+    path: ''
+    startLine: 1613
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: EachWithCapital = 4
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
+- uid: StansAssets.GoogleDoc.Localization.TextType
+  commentId: T:StansAssets.GoogleDoc.Localization.TextType
+  parent: StansAssets.GoogleDoc.Localization
+  name: TextType
+  nameWithType: TextType
+  fullName: StansAssets.GoogleDoc.Localization.TextType

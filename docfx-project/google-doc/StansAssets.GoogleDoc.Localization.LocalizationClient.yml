@@ -1,0 +1,929 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationClient
+  id: LocalizationClient
+  parent: StansAssets.GoogleDoc.Localization
+  children:
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,StansAssets.GoogleDoc.Localization.TextType)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,System.Object[])
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify(System.String)
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+  langs:
+  - csharp
+  - vb
+  name: LocalizationClient
+  nameWithType: LocalizationClient
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient
+  type: Class
+  source:
+    id: LocalizationClient
+    path: ''
+    startLine: 1302
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public class LocalizationClient
+    content.vb: Public Class LocalizationClient
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
+  commentId: E:StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
+  id: OnLanguageChanged
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: OnLanguageChanged
+  nameWithType: LocalizationClient.OnLanguageChanged
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
+  type: Event
+  source:
+    id: OnLanguageChanged
+    path: ''
+    startLine: 1307
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nAction is fired, when localization language changed\n"
+  example: []
+  syntax:
+    content: public event Action OnLanguageChanged
+    return:
+      type: Action
+    content.vb: Public Event OnLanguageChanged As Action
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+  id: Languages
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: LocalizationClient.Languages
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+  type: Property
+  source:
+    id: Languages
+    path: ''
+    startLine: 1312
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nAvailable Languages\n"
+  example: []
+  syntax:
+    content: public List<string> Languages { get; }
+    parameters: []
+    return:
+      type: List{System.String}
+    content.vb: Public ReadOnly Property Languages As List(Of String)
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.Languages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+  id: Sheets
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: Sheets
+  nameWithType: LocalizationClient.Sheets
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+  type: Property
+  source:
+    id: Sheets
+    path: ''
+    startLine: 1317
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nAvailable Spreadsheet sheet names\n"
+  example: []
+  syntax:
+    content: public List<string> Sheets { get; }
+    parameters: []
+    return:
+      type: List{System.String}
+    content.vb: Public ReadOnly Property Sheets As List(Of String)
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+  id: CurrentLanguage
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: CurrentLanguage
+  nameWithType: LocalizationClient.CurrentLanguage
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+  type: Property
+  source:
+    id: CurrentLanguage
+    path: ''
+    startLine: 1322
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nCurrent chosen language\n"
+  example: []
+  syntax:
+    content: public string CurrentLanguage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CurrentLanguage As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  id: Default
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: LocalizationClient.Default
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  type: Property
+  source:
+    id: Default
+    path: ''
+    startLine: 1330
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public static LocalizationClient Default { get; }
+    parameters: []
+    return:
+      type: StansAssets.GoogleDoc.Localization.LocalizationClient
+    content.vb: Public Shared ReadOnly Property Default As LocalizationClient
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.Default*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
+  id: SetLanguage(System.String)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: SetLanguage(String)
+  nameWithType: LocalizationClient.SetLanguage(String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
+  type: Method
+  source:
+    id: SetLanguage
+    path: ''
+    startLine: 1398
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nSet current chosen language\n"
+  example: []
+  syntax:
+    content: public void SetLanguage(string langCode)
+    parameters:
+    - id: langCode
+      type: System.String
+    content.vb: Public Sub SetLanguage(langCode As String)
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify(System.String)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify(System.String)
+  id: SetLanguageWithoutNotify(System.String)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: SetLanguageWithoutNotify(String)
+  nameWithType: LocalizationClient.SetLanguageWithoutNotify(String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify(System.String)
+  type: Method
+  source:
+    id: SetLanguageWithoutNotify
+    path: ''
+    startLine: 1404
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public void SetLanguageWithoutNotify(string langCode)
+    parameters:
+    - id: langCode
+      type: System.String
+    content.vb: Public Sub SetLanguageWithoutNotify(langCode As String)
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
+  id: GetLocalizedString(System.String)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(String)
+  nameWithType: LocalizationClient.GetLocalizedString(String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1421
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nReturns localized string by token\n"
+  example: []
+  syntax:
+    content: public string GetLocalizedString(string token)
+    parameters:
+    - id: token
+      type: System.String
+      description: Localization token
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As String) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,StansAssets.GoogleDoc.Localization.TextType)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,StansAssets.GoogleDoc.Localization.TextType)
+  id: GetLocalizedString(System.String,StansAssets.GoogleDoc.Localization.TextType)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(String, TextType)
+  nameWithType: LocalizationClient.GetLocalizedString(String, TextType)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, StansAssets.GoogleDoc.Localization.TextType)
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1439
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nReturns localized string by token\n"
+  example: []
+  syntax:
+    content: public string GetLocalizedString(string token, TextType textType)
+    parameters:
+    - id: token
+      type: System.String
+      description: Localization token
+    - id: textType
+      type: StansAssets.GoogleDoc.Localization.TextType
+      description: returns localized string in the text type
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As String, textType As TextType) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String)
+  id: GetLocalizedString(System.String,System.String)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(String, String)
+  nameWithType: LocalizationClient.GetLocalizedString(String, String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String)
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1453
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nReturns localized string by token\n"
+  example: []
+  syntax:
+    content: public string GetLocalizedString(string token, string section)
+    parameters:
+    - id: token
+      type: System.String
+      description: Localization token
+    - id: section
+      type: System.String
+      description: Spreadsheet sheet name
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As String, section As String) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
+  id: GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(String, String, TextType)
+  nameWithType: LocalizationClient.GetLocalizedString(String, String, TextType)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String, StansAssets.GoogleDoc.Localization.TextType)
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1479
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nReturns localized string by token\n"
+  example: []
+  syntax:
+    content: public string GetLocalizedString(string token, string section, TextType textType)
+    parameters:
+    - id: token
+      type: System.String
+      description: Localization token
+    - id: section
+      type: System.String
+      description: Spreadsheet sheet name
+    - id: textType
+      type: StansAssets.GoogleDoc.Localization.TextType
+      description: returns localized string in the text type
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As String, section As String, textType As TextType) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,System.Object[])
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,System.Object[])
+  id: GetLocalizedString(System.String,System.String,System.Object[])
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(String, String, Object[])
+  nameWithType: LocalizationClient.GetLocalizedString(String, String, Object[])
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String, System.Object[])
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1491
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  summary: "\nReturns localized string by token\n"
+  example: []
+  syntax:
+    content: public string GetLocalizedString(string token, string section, params object[] args)
+    parameters:
+    - id: token
+      type: System.String
+      description: Localization token
+    - id: section
+      type: System.String
+      description: Spreadsheet sheet name
+    - id: args
+      type: System.Object[]
+      description: Insert the args in a string
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As String, section As String, ParamArray args As Object()) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  nameWithType.vb: LocalizationClient.GetLocalizedString(String, String, Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String, System.Object())
+  name.vb: GetLocalizedString(String, String, Object())
+references:
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Action
+  commentId: '!:Action'
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Languages*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+  name: Languages
+  nameWithType: LocalizationClient.Languages
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Languages
+- uid: List{System.String}
+  commentId: '!:List{System.String}'
+  definition: List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+  name: Sheets
+  nameWithType: LocalizationClient.Sheets
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+  name: CurrentLanguage
+  nameWithType: LocalizationClient.CurrentLanguage
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Default*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  name: Default
+  nameWithType: LocalizationClient.Default
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationClient
+  parent: StansAssets.GoogleDoc.Localization
+  name: LocalizationClient
+  nameWithType: LocalizationClient
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage
+  name: SetLanguage
+  nameWithType: LocalizationClient.SetLanguage
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify
+  name: SetLanguageWithoutNotify
+  nameWithType: LocalizationClient.SetLanguageWithoutNotify
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString
+  name: GetLocalizedString
+  nameWithType: LocalizationClient.GetLocalizedString
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString
+- uid: StansAssets.GoogleDoc.Localization.TextType
+  commentId: T:StansAssets.GoogleDoc.Localization.TextType
+  parent: StansAssets.GoogleDoc.Localization
+  name: TextType
+  nameWithType: TextType
+  fullName: StansAssets.GoogleDoc.Localization.TextType
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

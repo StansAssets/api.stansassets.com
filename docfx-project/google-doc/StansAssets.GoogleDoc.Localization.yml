@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  id: StansAssets.GoogleDoc.Localization
+  children:
+  - StansAssets.GoogleDoc.Localization.LocalizationClient
+  - StansAssets.GoogleDoc.Localization.LocalizedLabel
+  - StansAssets.GoogleDoc.Localization.TextType
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationClient
+  parent: StansAssets.GoogleDoc.Localization
+  name: LocalizationClient
+  nameWithType: LocalizationClient
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient
+- uid: StansAssets.GoogleDoc.Localization.TextType
+  commentId: T:StansAssets.GoogleDoc.Localization.TextType
+  parent: StansAssets.GoogleDoc.Localization
+  name: TextType
+  nameWithType: TextType
+  fullName: StansAssets.GoogleDoc.Localization.TextType
+- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizedLabel
+  name: LocalizedLabel
+  nameWithType: LocalizedLabel
+  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
