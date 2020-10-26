@@ -4,8 +4,9 @@ items:
   commentId: N:StansAssets.GoogleDoc.Localization
   id: StansAssets.GoogleDoc.Localization
   children:
-  - StansAssets.GoogleDoc.Localization.ILocalizationLable
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken
   - StansAssets.GoogleDoc.Localization.LocalizationClient
+  - StansAssets.GoogleDoc.Localization.LocalizationToken
   - StansAssets.GoogleDoc.Localization.LocalizedLabel
   - StansAssets.GoogleDoc.Localization.TextType
   langs:
@@ -18,12 +19,17 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable
-  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationLable
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
   parent: StansAssets.GoogleDoc.Localization
-  name: ILocalizationLable
-  nameWithType: ILocalizationLable
-  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: ILocalizationToken
+  nameWithType: ILocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
+  name: LocalizationToken
+  nameWithType: LocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
   commentId: T:StansAssets.GoogleDoc.Localization.LocalizationClient
   parent: StansAssets.GoogleDoc.Localization

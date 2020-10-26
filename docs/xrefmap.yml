@@ -36910,6 +36910,77 @@ references:
   commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
   fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
   nameWithType: ILocalizationLable.Token
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: ILocalizationToken
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html
+  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  nameWithType: ILocalizationToken
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  name: Prefix
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Prefix
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  nameWithType: ILocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix*
+  name: Prefix
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Prefix_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  nameWithType: ILocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  name: Section
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Section
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  nameWithType: ILocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section*
+  name: Section
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Section_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  nameWithType: ILocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  name: Suffix
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Suffix
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  nameWithType: ILocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix*
+  name: Suffix
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Suffix_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  nameWithType: ILocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  name: TextType
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_TextType
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  nameWithType: ILocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType*
+  name: TextType
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_TextType_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  nameWithType: ILocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  name: Token
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Token
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  nameWithType: ILocalizationToken.Token
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token*
+  name: Token
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Token_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  nameWithType: ILocalizationToken.Token
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
   name: LocalizationClient
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html
@@ -36942,6 +37013,12 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Default
   nameWithType: LocalizationClient.Default
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  name: GetLocalizedString(ILocalizationToken)
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_StansAssets_GoogleDoc_Localization_ILocalizationToken_
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  nameWithType: LocalizationClient.GetLocalizedString(ILocalizationToken)
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
   name: GetLocalizedString(String)
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_
@@ -37040,25 +37117,83 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
   nameWithType: LocalizationClient.Sheets
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken
+  name: LocalizationToken
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
+  nameWithType: LocalizationToken
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  name: Prefix
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Prefix
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  nameWithType: LocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix*
+  name: Prefix
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Prefix_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  nameWithType: LocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  name: Section
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Section
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  nameWithType: LocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Section*
+  name: Section
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Section_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  nameWithType: LocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  name: Suffix
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Suffix
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  nameWithType: LocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix*
+  name: Suffix
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Suffix_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  nameWithType: LocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  name: TextType
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_TextType
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  nameWithType: LocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType*
+  name: TextType
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_TextType_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  nameWithType: LocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  name: Token
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Token
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  nameWithType: LocalizationToken.Token
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Token*
+  name: Token
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Token_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  nameWithType: LocalizationToken.Token
 - uid: StansAssets.GoogleDoc.Localization.LocalizedLabel
   name: LocalizedLabel
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizedLabel.html
   commentId: T:StansAssets.GoogleDoc.Localization.LocalizedLabel
   fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel
   nameWithType: LocalizedLabel
-- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)
-  name: LocalizedLabel(ILocalizationLable)
-  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizedLabel.html#StansAssets_GoogleDoc_Localization_LocalizedLabel__ctor_StansAssets_GoogleDoc_Localization_ILocalizationLable_
-  commentId: M:StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)
-  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel.LocalizedLabel(StansAssets.GoogleDoc.Localization.ILocalizationLable)
-  nameWithType: LocalizedLabel.LocalizedLabel(ILocalizationLable)
-- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor*
-  name: LocalizedLabel
-  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizedLabel.html#StansAssets_GoogleDoc_Localization_LocalizedLabel__ctor_
-  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel.LocalizedLabel
-  nameWithType: LocalizedLabel.LocalizedLabel
 - uid: StansAssets.GoogleDoc.Localization.TextType
   name: TextType
   href: google-doc/StansAssets.GoogleDoc.Localization.TextType.html

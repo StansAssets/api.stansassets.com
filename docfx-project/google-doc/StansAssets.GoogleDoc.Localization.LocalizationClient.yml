@@ -7,6 +7,7 @@ items:
   children:
   - StansAssets.GoogleDoc.Localization.LocalizationClient.CurrentLanguage
   - StansAssets.GoogleDoc.Localization.LocalizationClient.Default
+  - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
   - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
   - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,StansAssets.GoogleDoc.Localization.TextType)
   - StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String)
@@ -27,7 +28,7 @@ items:
   source:
     id: LocalizationClient
     path: ''
-    startLine: 1298
+    startLine: 1319
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -64,7 +65,7 @@ items:
   source:
     id: OnLanguageChanged
     path: ''
-    startLine: 1303
+    startLine: 1324
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -93,7 +94,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 1308
+    startLine: 1329
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -126,7 +127,7 @@ items:
   source:
     id: Sheets
     path: ''
-    startLine: 1313
+    startLine: 1334
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -159,7 +160,7 @@ items:
   source:
     id: CurrentLanguage
     path: ''
-    startLine: 1318
+    startLine: 1339
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -192,7 +193,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 1326
+    startLine: 1347
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -225,7 +226,7 @@ items:
   source:
     id: SetLanguage
     path: ''
-    startLine: 1400
+    startLine: 1421
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -256,7 +257,7 @@ items:
   source:
     id: SetLanguageWithoutNotify
     path: ''
-    startLine: 1406
+    startLine: 1427
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -285,7 +286,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1423
+    startLine: 1444
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -319,7 +320,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1441
+    startLine: 1462
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -356,7 +357,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1455
+    startLine: 1476
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -379,6 +380,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  id: GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  parent: StansAssets.GoogleDoc.Localization.LocalizationClient
+  langs:
+  - csharp
+  - vb
+  name: GetLocalizedString(ILocalizationToken)
+  nameWithType: LocalizationClient.GetLocalizedString(ILocalizationToken)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
+  type: Method
+  source:
+    id: GetLocalizedString
+    path: ''
+    startLine: 1494
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public string GetLocalizedString(ILocalizationToken token)
+    parameters:
+    - id: token
+      type: StansAssets.GoogleDoc.Localization.ILocalizationToken
+    return:
+      type: System.String
+    content.vb: Public Function GetLocalizedString(token As ILocalizationToken) As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
   commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
   id: GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
@@ -393,7 +425,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1499
+    startLine: 1528
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -433,7 +465,7 @@ items:
   source:
     id: GetLocalizedString
     path: ''
-    startLine: 1517
+    startLine: 1546
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -901,6 +933,12 @@ references:
   name: TextType
   nameWithType: TextType
   fullName: StansAssets.GoogleDoc.Localization.TextType
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
+  parent: StansAssets.GoogleDoc.Localization
+  name: ILocalizationToken
+  nameWithType: ILocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
 - uid: System.Object[]
   isExternal: true
   name: Object[]

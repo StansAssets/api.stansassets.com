@@ -4288,11 +4288,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html",
+          "hash": "oI/XohhhjEWVF9fjQd2KGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.yml",
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html",
-          "hash": "wx1PfzS//wjYubyscvtvpA=="
+          "hash": "Z1azhkmziSHF2m00Ft0piQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html",
+          "hash": "fTOfExmv4FhH4DpJYlGDQQ=="
         }
       },
       "is_incremental": false,
@@ -4304,7 +4328,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizedLabel.html",
-          "hash": "pyOUeGp4geWblQmDfWrqrQ=="
+          "hash": "yCUJS4qi5AEtz5Zbc3fHKQ=="
         }
       },
       "is_incremental": false,
@@ -4328,7 +4352,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.html",
-          "hash": "4cfJeI69tJU24pGX12O2aw=="
+          "hash": "9Nnjdwc45MVrciFq1ilmkQ=="
         }
       },
       "is_incremental": false,
@@ -4520,7 +4544,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "qvSzsh28VRgzNQL6rrbgnw=="
+          "hash": "QuLoz5oVyj/O/YZXm9VeZQ=="
         }
       },
       "is_incremental": false,
@@ -8509,7 +8533,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 683,
+          "total_file_count": 685,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

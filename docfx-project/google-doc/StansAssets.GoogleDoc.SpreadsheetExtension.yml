@@ -22,7 +22,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 1973
+    startLine: 1985
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -131,7 +131,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 1978
+    startLine: 1990
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -168,7 +168,7 @@ items:
   source:
     id: UpdateGoogleCell
     path: ''
-    startLine: 2012
+    startLine: 2024
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -211,7 +211,7 @@ items:
   source:
     id: AppendGoogleCell
     path: ''
-    startLine: 2023
+    startLine: 2035
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -257,7 +257,7 @@ items:
   source:
     id: CreateGoogleSheet
     path: ''
-    startLine: 2033
+    startLine: 2045
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -297,7 +297,7 @@ items:
   source:
     id: DeleteGoogleCell
     path: ''
-    startLine: 2043
+    startLine: 2055
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

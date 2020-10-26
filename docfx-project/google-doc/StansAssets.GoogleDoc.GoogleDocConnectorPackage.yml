@@ -18,7 +18,7 @@ items:
   source:
     id: GoogleDocConnectorPackage
     path: ''
-    startLine: 3304
+    startLine: 3301
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -58,7 +58,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 3309
+    startLine: 3306
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -89,7 +89,7 @@ items:
   source:
     id: RootPath
     path: ''
-    startLine: 3314
+    startLine: 3311
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -122,7 +122,7 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 3319
+    startLine: 3316
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

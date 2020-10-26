@@ -1,0 +1,586 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
+  id: LocalizationToken
+  parent: StansAssets.GoogleDoc.Localization
+  children:
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  langs:
+  - csharp
+  - vb
+  name: LocalizationToken
+  nameWithType: LocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
+  type: Class
+  source:
+    id: LocalizationToken
+    path: ''
+    startLine: 1287
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: 'public class LocalizationToken : ILocalizationToken'
+    content.vb: >-
+      Public Class LocalizationToken
+          Implements ILocalizationToken
+  inheritance:
+  - System.Object
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  id: Token
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: LocalizationToken.Token
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  type: Property
+  source:
+    id: Token
+    path: ''
+    startLine: 1305
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public string Token { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Token As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Token*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  id: Section
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: LocalizationToken.Section
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  type: Property
+  source:
+    id: Section
+    path: ''
+    startLine: 1306
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public string Section { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Section As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Section*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  id: TextType
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: TextType
+  nameWithType: LocalizationToken.TextType
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  type: Property
+  source:
+    id: TextType
+    path: ''
+    startLine: 1307
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public TextType TextType { get; }
+    parameters: []
+    return:
+      type: StansAssets.GoogleDoc.Localization.TextType
+    content.vb: Public ReadOnly Property TextType As TextType
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  id: Prefix
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: LocalizationToken.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  type: Property
+  source:
+    id: Prefix
+    path: ''
+    startLine: 1308
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public string Prefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Prefix As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  id: Suffix
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Suffix
+  nameWithType: LocalizationToken.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  type: Property
+  source:
+    id: Suffix
+    path: ''
+    startLine: 1309
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public string Suffix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Suffix As String
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.GoogleDoc.Localization
+  commentId: N:StansAssets.GoogleDoc.Localization
+  name: StansAssets.GoogleDoc.Localization
+  nameWithType: StansAssets.GoogleDoc.Localization
+  fullName: StansAssets.GoogleDoc.Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
+  parent: StansAssets.GoogleDoc.Localization
+  name: ILocalizationToken
+  nameWithType: ILocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Token*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+  name: Token
+  nameWithType: LocalizationToken.Token
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Token
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: Token
+  nameWithType: ILocalizationToken.Token
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Section*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+  name: Section
+  nameWithType: LocalizationToken.Section
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: Section
+  nameWithType: ILocalizationToken.Section
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+  name: TextType
+  nameWithType: LocalizationToken.TextType
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: TextType
+  nameWithType: ILocalizationToken.TextType
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
+- uid: StansAssets.GoogleDoc.Localization.TextType
+  commentId: T:StansAssets.GoogleDoc.Localization.TextType
+  parent: StansAssets.GoogleDoc.Localization
+  name: TextType
+  nameWithType: TextType
+  fullName: StansAssets.GoogleDoc.Localization.TextType
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+  name: Prefix
+  nameWithType: LocalizationToken.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: Prefix
+  nameWithType: ILocalizationToken.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+  name: Suffix
+  nameWithType: LocalizationToken.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: Suffix
+  nameWithType: ILocalizationToken.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix

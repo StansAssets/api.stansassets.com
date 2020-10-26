@@ -35,10 +35,12 @@
 - uid: StansAssets.GoogleDoc.Localization
   name: StansAssets.GoogleDoc.Localization
   items:
-  - uid: StansAssets.GoogleDoc.Localization.ILocalizationLable
-    name: ILocalizationLable
+  - uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
+    name: ILocalizationToken
   - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
     name: LocalizationClient
+  - uid: StansAssets.GoogleDoc.Localization.LocalizationToken
+    name: LocalizationToken
   - uid: StansAssets.GoogleDoc.Localization.LocalizedLabel
     name: LocalizedLabel
   - uid: StansAssets.GoogleDoc.Localization.TextType
