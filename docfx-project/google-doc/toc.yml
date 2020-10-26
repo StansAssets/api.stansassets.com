@@ -8,8 +8,6 @@
     name: CellValue
   - uid: StansAssets.GoogleDoc.GoogleDocConnector
     name: GoogleDocConnector
-  - uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
-    name: GoogleDocConnectorLocalization
   - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
     name: GoogleDocConnectorPackage
   - uid: StansAssets.GoogleDoc.GridRange
@@ -18,6 +16,8 @@
     name: ICellPointer
   - uid: StansAssets.GoogleDoc.LocalizationTab
     name: LocalizationTab
+  - uid: StansAssets.GoogleDoc.LocalizedLabelEditor
+    name: LocalizedLabelEditor
   - uid: StansAssets.GoogleDoc.NamedRange
     name: NamedRange
   - uid: StansAssets.GoogleDoc.RowData
@@ -35,6 +35,8 @@
 - uid: StansAssets.GoogleDoc.Localization
   name: StansAssets.GoogleDoc.Localization
   items:
+  - uid: StansAssets.GoogleDoc.Localization.ILocalizationLable
+    name: ILocalizationLable
   - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
     name: LocalizationClient
   - uid: StansAssets.GoogleDoc.Localization.LocalizedLabel

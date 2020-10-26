@@ -22,7 +22,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 1920
+    startLine: 1973
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -61,7 +61,7 @@ items:
   source:
     id: InitFromCache
     path: ''
-    startLine: 458
+    startLine: 459
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -96,7 +96,7 @@ items:
   source:
     id: CleanUpLocalCache
     path: ''
-    startLine: 468
+    startLine: 469
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -131,7 +131,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 1925
+    startLine: 1978
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -168,7 +168,7 @@ items:
   source:
     id: UpdateGoogleCell
     path: ''
-    startLine: 1959
+    startLine: 2012
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -211,7 +211,7 @@ items:
   source:
     id: AppendGoogleCell
     path: ''
-    startLine: 1970
+    startLine: 2023
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -257,7 +257,7 @@ items:
   source:
     id: CreateGoogleSheet
     path: ''
-    startLine: 1980
+    startLine: 2033
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -297,7 +297,7 @@ items:
   source:
     id: DeleteGoogleCell
     path: ''
-    startLine: 1990
+    startLine: 2043
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

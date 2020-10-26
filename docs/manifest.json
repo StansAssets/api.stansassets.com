@@ -4276,6 +4276,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Localization.ILocalizationLable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.ILocalizationLable.html",
+          "hash": "2qRCN7PVIbQpijbm6vYXaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.yml",
       "output": {
         ".html": {
@@ -4292,7 +4304,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.LocalizedLabel.html",
-          "hash": "yCUJS4qi5AEtz5Zbc3fHKQ=="
+          "hash": "pyOUeGp4geWblQmDfWrqrQ=="
         }
       },
       "is_incremental": false,
@@ -4316,7 +4328,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Localization.html",
-          "hash": "3l38Uh89oHXx36nayr7hdA=="
+          "hash": "4cfJeI69tJU24pGX12O2aw=="
         }
       },
       "is_incremental": false,
@@ -4353,6 +4365,18 @@
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.LocalizationTab.html",
           "hash": "NNADL63U7iBDH3QXx1ZX0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.LocalizedLabelEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.LocalizedLabelEditor.html",
+          "hash": "B7wMhtd4HgiD622HzCXwsA=="
         }
       },
       "is_incremental": false,
@@ -4448,7 +4472,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.html",
-          "hash": "svuiKtXK4qsX4NOAZnK1pQ=="
+          "hash": "TGIJvO91FDN+j7yQ2Ul+vw=="
         }
       },
       "is_incremental": false,
@@ -4496,7 +4520,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "sRSB/PGqXzO7XzPYXUDcZQ=="
+          "hash": "qvSzsh28VRgzNQL6rrbgnw=="
         }
       },
       "is_incremental": false,
@@ -8485,7 +8509,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 681,
+          "total_file_count": 683,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

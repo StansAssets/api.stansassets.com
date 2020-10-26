@@ -7,11 +7,11 @@ items:
   - StansAssets.GoogleDoc.Cell
   - StansAssets.GoogleDoc.CellValue
   - StansAssets.GoogleDoc.GoogleDocConnector
-  - StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   - StansAssets.GoogleDoc.GoogleDocConnectorPackage
   - StansAssets.GoogleDoc.GridRange
   - StansAssets.GoogleDoc.ICellPointer
   - StansAssets.GoogleDoc.LocalizationTab
+  - StansAssets.GoogleDoc.LocalizedLabelEditor
   - StansAssets.GoogleDoc.NamedRange
   - StansAssets.GoogleDoc.RowData
   - StansAssets.GoogleDoc.Sheet
@@ -93,11 +93,6 @@ references:
   name: ICellPointer
   nameWithType: ICellPointer
   fullName: StansAssets.GoogleDoc.ICellPointer
-- uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorLocalization
-  name: GoogleDocConnectorLocalization
-  nameWithType: GoogleDocConnectorLocalization
-  fullName: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
 - uid: StansAssets.GoogleDoc.GoogleDocConnector
   commentId: T:StansAssets.GoogleDoc.GoogleDocConnector
   name: GoogleDocConnector
@@ -108,6 +103,11 @@ references:
   name: LocalizationTab
   nameWithType: LocalizationTab
   fullName: StansAssets.GoogleDoc.LocalizationTab
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditor
+  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditor
+  name: LocalizedLabelEditor
+  nameWithType: LocalizedLabelEditor
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditor
 - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
   commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorPackage
   name: GoogleDocConnectorPackage

@@ -4,7 +4,8 @@ items:
   commentId: T:StansAssets.GoogleDoc.Localization.LocalizedLabel
   id: LocalizedLabel
   parent: StansAssets.GoogleDoc.Localization
-  children: []
+  children:
+  - StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)
   langs:
   - csharp
   - vb
@@ -15,23 +16,59 @@ items:
   source:
     id: LocalizedLabel
     path: ''
-    startLine: 1596
+    startLine: 1653
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: 'public class LocalizedLabel : MonoBehaviour'
+    content: 'public class LocalizedLabel : ILocalizationLable'
     content.vb: >-
       Public Class LocalizedLabel
-          Inherits MonoBehaviour
+          Inherits ILocalizationLable
   inheritance:
   - System.Object
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable
+  inheritedMembers:
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable.Section
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable.TextType
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable.Prefix
+  - StansAssets.GoogleDoc.Localization.ILocalizationLable.Suffix
   modifiers.csharp:
   - public
   - class
   modifiers.vb:
   - Public
   - Class
+- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)
+  id: '#ctor(StansAssets.GoogleDoc.Localization.ILocalizationLable)'
+  parent: StansAssets.GoogleDoc.Localization.LocalizedLabel
+  langs:
+  - csharp
+  - vb
+  name: LocalizedLabel(ILocalizationLable)
+  nameWithType: LocalizedLabel.LocalizedLabel(ILocalizationLable)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel.LocalizedLabel(StansAssets.GoogleDoc.Localization.ILocalizationLable)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1662
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public LocalizedLabel(ILocalizationLable label)
+    parameters:
+    - id: label
+      type: StansAssets.GoogleDoc.Localization.ILocalizationLable
+    content.vb: Public Sub New(label As ILocalizationLable)
+  overload: StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: StansAssets.GoogleDoc.Localization
   commentId: N:StansAssets.GoogleDoc.Localization
@@ -45,9 +82,50 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationLable
+  parent: StansAssets.GoogleDoc.Localization
+  name: ILocalizationLable
+  nameWithType: ILocalizationLable
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
+  commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: Token
+  nameWithType: ILocalizationLable.Token
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.Token
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable.Section
+  commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.Section
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: Section
+  nameWithType: ILocalizationLable.Section
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.Section
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable.TextType
+  commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.TextType
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: TextType
+  nameWithType: ILocalizationLable.TextType
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.TextType
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable.Prefix
+  commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.Prefix
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: Prefix
+  nameWithType: ILocalizationLable.Prefix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.Prefix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationLable.Suffix
+  commentId: F:StansAssets.GoogleDoc.Localization.ILocalizationLable.Suffix
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationLable
+  name: Suffix
+  nameWithType: ILocalizationLable.Suffix
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationLable.Suffix
 - uid: System
   commentId: N:System
   isExternal: true
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizedLabel.#ctor
+  name: LocalizedLabel
+  nameWithType: LocalizedLabel.LocalizedLabel
+  fullName: StansAssets.GoogleDoc.Localization.LocalizedLabel.LocalizedLabel

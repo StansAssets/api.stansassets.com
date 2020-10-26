@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditor
+  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditor
+  id: LocalizedLabelEditor
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: LocalizedLabelEditor
+  nameWithType: LocalizedLabelEditor
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditor
+  type: Class
+  source:
+    id: LocalizedLabelEditor
+    path: ''
+    startLine: 2652
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: 'public class LocalizedLabelEditor : Editor'
+    content.vb: >-
+      Public Class LocalizedLabelEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
+  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: StansAssets.GoogleDoc.LocalizedLabelEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: LocalizedLabelEditor.OnInspectorGUI()
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 2680
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI*
+  commentId: Overload:StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: LocalizedLabelEditor.OnInspectorGUI
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
