@@ -37078,6 +37078,19 @@ references:
   commentId: E:StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
   nameWithType: LocalizationClient.OnLanguageChanged
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
+  name: Refresh()
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh()
+  nameWithType: LocalizationClient.Refresh()
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh*
+  name: Refresh
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
+  nameWithType: LocalizationClient.Refresh
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
   name: SetLanguage(String)
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_SetLanguage_System_String_

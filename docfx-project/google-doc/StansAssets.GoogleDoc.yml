@@ -98,16 +98,16 @@ references:
   name: GoogleDocConnector
   nameWithType: GoogleDocConnector
   fullName: StansAssets.GoogleDoc.GoogleDocConnector
-- uid: StansAssets.GoogleDoc.LocalizationTab
-  commentId: T:StansAssets.GoogleDoc.LocalizationTab
-  name: LocalizationTab
-  nameWithType: LocalizationTab
-  fullName: StansAssets.GoogleDoc.LocalizationTab
 - uid: StansAssets.GoogleDoc.LocalizedLabelEditor
   commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditor
   name: LocalizedLabelEditor
   nameWithType: LocalizedLabelEditor
   fullName: StansAssets.GoogleDoc.LocalizedLabelEditor
+- uid: StansAssets.GoogleDoc.LocalizationTab
+  commentId: T:StansAssets.GoogleDoc.LocalizationTab
+  name: LocalizationTab
+  nameWithType: LocalizationTab
+  fullName: StansAssets.GoogleDoc.LocalizationTab
 - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
   commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorPackage
   name: GoogleDocConnectorPackage
