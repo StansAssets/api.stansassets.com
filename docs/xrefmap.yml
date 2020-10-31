@@ -416,18 +416,6 @@ references:
   isSpec: "True"
   fullName: SA.Android.App.AN_Activity.GetPackageManager
   nameWithType: AN_Activity.GetPackageManager
-- uid: SA.Android.App.AN_Activity.m_classId
-  name: m_classId
-  href: android-native/SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_m_classId
-  commentId: F:SA.Android.App.AN_Activity.m_classId
-  fullName: SA.Android.App.AN_Activity.m_classId
-  nameWithType: AN_Activity.m_classId
-- uid: SA.Android.App.AN_Activity.m_instanceId
-  name: m_instanceId
-  href: android-native/SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_m_instanceId
-  commentId: F:SA.Android.App.AN_Activity.m_instanceId
-  fullName: SA.Android.App.AN_Activity.m_instanceId
-  nameWithType: AN_Activity.m_instanceId
 - uid: SA.Android.App.AN_Activity.MoveTaskToBack(System.Boolean)
   name: MoveTaskToBack(Boolean)
   href: android-native/SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_MoveTaskToBack_System_Boolean_
@@ -2812,6 +2800,31 @@ references:
   isSpec: "True"
   fullName: SA.Android.Content.AN_Context.GetPackageManager
   nameWithType: AN_Context.GetPackageManager
+- uid: SA.Android.Content.AN_Context.GetResources
+  name: GetResources()
+  href: android-native/SA.Android.Content.AN_Context.html#SA_Android_Content_AN_Context_GetResources
+  commentId: M:SA.Android.Content.AN_Context.GetResources
+  fullName: SA.Android.Content.AN_Context.GetResources()
+  nameWithType: AN_Context.GetResources()
+- uid: SA.Android.Content.AN_Context.GetResources*
+  name: GetResources
+  href: android-native/SA.Android.Content.AN_Context.html#SA_Android_Content_AN_Context_GetResources_
+  commentId: Overload:SA.Android.Content.AN_Context.GetResources
+  isSpec: "True"
+  fullName: SA.Android.Content.AN_Context.GetResources
+  nameWithType: AN_Context.GetResources
+- uid: SA.Android.Content.AN_Context.m_classId
+  name: m_classId
+  href: android-native/SA.Android.Content.AN_Context.html#SA_Android_Content_AN_Context_m_classId
+  commentId: F:SA.Android.Content.AN_Context.m_classId
+  fullName: SA.Android.Content.AN_Context.m_classId
+  nameWithType: AN_Context.m_classId
+- uid: SA.Android.Content.AN_Context.m_instanceId
+  name: m_instanceId
+  href: android-native/SA.Android.Content.AN_Context.html#SA_Android_Content_AN_Context_m_instanceId
+  commentId: F:SA.Android.Content.AN_Context.m_instanceId
+  fullName: SA.Android.Content.AN_Context.m_instanceId
+  nameWithType: AN_Context.m_instanceId
 - uid: SA.Android.Content.AN_Intent
   name: AN_Intent
   href: android-native/SA.Android.Content.AN_Intent.html
@@ -5726,6 +5739,74 @@ references:
   commentId: T:SA.Android.Content.Pm.AN_ServiceInfo
   fullName: SA.Android.Content.Pm.AN_ServiceInfo
   nameWithType: AN_ServiceInfo
+- uid: SA.Android.Content.Res
+  name: SA.Android.Content.Res
+  href: android-native/SA.Android.Content.Res.html
+  commentId: N:SA.Android.Content.Res
+  fullName: SA.Android.Content.Res
+  nameWithType: SA.Android.Content.Res
+- uid: SA.Android.Content.Res.AN_Configuration
+  name: AN_Configuration
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html
+  commentId: T:SA.Android.Content.Res.AN_Configuration
+  fullName: SA.Android.Content.Res.AN_Configuration
+  nameWithType: AN_Configuration
+- uid: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_MASK
+  name: UI_MODE_NIGHT_MASK
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UI_MODE_NIGHT_MASK
+  commentId: F:SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_MASK
+  fullName: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_MASK
+  nameWithType: AN_Configuration.UI_MODE_NIGHT_MASK
+- uid: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_NO
+  name: UI_MODE_NIGHT_NO
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UI_MODE_NIGHT_NO
+  commentId: F:SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_NO
+  fullName: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_NO
+  nameWithType: AN_Configuration.UI_MODE_NIGHT_NO
+- uid: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_UNDEFINED
+  name: UI_MODE_NIGHT_UNDEFINED
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UI_MODE_NIGHT_UNDEFINED
+  commentId: F:SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_UNDEFINED
+  fullName: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_UNDEFINED
+  nameWithType: AN_Configuration.UI_MODE_NIGHT_UNDEFINED
+- uid: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_YES
+  name: UI_MODE_NIGHT_YES
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UI_MODE_NIGHT_YES
+  commentId: F:SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_YES
+  fullName: SA.Android.Content.Res.AN_Configuration.UI_MODE_NIGHT_YES
+  nameWithType: AN_Configuration.UI_MODE_NIGHT_YES
+- uid: SA.Android.Content.Res.AN_Configuration.UIMode
+  name: UIMode
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UIMode
+  commentId: P:SA.Android.Content.Res.AN_Configuration.UIMode
+  fullName: SA.Android.Content.Res.AN_Configuration.UIMode
+  nameWithType: AN_Configuration.UIMode
+- uid: SA.Android.Content.Res.AN_Configuration.UIMode*
+  name: UIMode
+  href: android-native/SA.Android.Content.Res.AN_Configuration.html#SA_Android_Content_Res_AN_Configuration_UIMode_
+  commentId: Overload:SA.Android.Content.Res.AN_Configuration.UIMode
+  isSpec: "True"
+  fullName: SA.Android.Content.Res.AN_Configuration.UIMode
+  nameWithType: AN_Configuration.UIMode
+- uid: SA.Android.Content.Res.AN_Resources
+  name: AN_Resources
+  href: android-native/SA.Android.Content.Res.AN_Resources.html
+  commentId: T:SA.Android.Content.Res.AN_Resources
+  fullName: SA.Android.Content.Res.AN_Resources
+  nameWithType: AN_Resources
+- uid: SA.Android.Content.Res.AN_Resources.GetConfiguration
+  name: GetConfiguration()
+  href: android-native/SA.Android.Content.Res.AN_Resources.html#SA_Android_Content_Res_AN_Resources_GetConfiguration
+  commentId: M:SA.Android.Content.Res.AN_Resources.GetConfiguration
+  fullName: SA.Android.Content.Res.AN_Resources.GetConfiguration()
+  nameWithType: AN_Resources.GetConfiguration()
+- uid: SA.Android.Content.Res.AN_Resources.GetConfiguration*
+  name: GetConfiguration
+  href: android-native/SA.Android.Content.Res.AN_Resources.html#SA_Android_Content_Res_AN_Resources_GetConfiguration_
+  commentId: Overload:SA.Android.Content.Res.AN_Resources.GetConfiguration
+  isSpec: "True"
+  fullName: SA.Android.Content.Res.AN_Resources.GetConfiguration
+  nameWithType: AN_Resources.GetConfiguration
 - uid: SA.Android.Editor
   name: SA.Android.Editor
   href: android-native/SA.Android.Editor.html
@@ -11728,6 +11809,12 @@ references:
   commentId: F:SA.Android.OS.AN_Build.VERSION_CODES.P
   fullName: SA.Android.OS.AN_Build.VERSION_CODES.P
   nameWithType: AN_Build.VERSION_CODES.P
+- uid: SA.Android.OS.AN_Build.VERSION_CODES.Q
+  name: Q
+  href: android-native/SA.Android.OS.AN_Build.VERSION_CODES.html#SA_Android_OS_AN_Build_VERSION_CODES_Q
+  commentId: F:SA.Android.OS.AN_Build.VERSION_CODES.Q
+  fullName: SA.Android.OS.AN_Build.VERSION_CODES.Q
+  nameWithType: AN_Build.VERSION_CODES.Q
 - uid: SA.Android.OS.AN_Bundle
   name: AN_Bundle
   href: android-native/SA.Android.OS.AN_Bundle.html
@@ -15219,6 +15306,19 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_Application.GalleryService
   nameWithType: UM_Application.GalleryService
+- uid: SA.CrossPlatform.App.UM_Application.IsDarkMode
+  name: IsDarkMode
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_Application.html#SA_CrossPlatform_App_UM_Application_IsDarkMode
+  commentId: P:SA.CrossPlatform.App.UM_Application.IsDarkMode
+  fullName: SA.CrossPlatform.App.UM_Application.IsDarkMode
+  nameWithType: UM_Application.IsDarkMode
+- uid: SA.CrossPlatform.App.UM_Application.IsDarkMode*
+  name: IsDarkMode
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_Application.html#SA_CrossPlatform_App_UM_Application_IsDarkMode_
+  commentId: Overload:SA.CrossPlatform.App.UM_Application.IsDarkMode
+  isSpec: "True"
+  fullName: SA.CrossPlatform.App.UM_Application.IsDarkMode
+  nameWithType: UM_Application.IsDarkMode
 - uid: SA.CrossPlatform.App.UM_Application.SendToBackground
   name: SendToBackground()
   href: ultimate-mobile/SA.CrossPlatform.App.UM_Application.html#SA_CrossPlatform_App_UM_Application_SendToBackground

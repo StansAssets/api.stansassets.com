@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.AN_Activity.html",
-          "hash": "R4nWZFMSyt9urQu0VBLx5g=="
+          "hash": "6JgJWK1y5ScwXTtrz/eRGg=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.AN_ActivityId.html",
-          "hash": "M0bwakLmFhKVCqvDaW9YJg=="
+          "hash": "XGJkLH/l+MNmnLeoasvoDw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.AN_MainActivity.html",
-          "hash": "tpI6ZkY9V19jQ61qVOiUqg=="
+          "hash": "0HuJtQqU0T0PtZsUO8FgLg=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.AN_ProxyActivity.html",
-          "hash": "mLHam9EklGhWGpWXrZTk6g=="
+          "hash": "BKGBi3aN4qBANiI/XmKsmQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.App.html",
-          "hash": "aBFEb6UJDGV6JKpflaI21w=="
+          "hash": "N38ammuHIdt7AOavkyGxjQ=="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Content.AN_Context.html",
-          "hash": "QtRBZ0SgAS8/NEIw2udqcg=="
+          "hash": "EDfaQap8W13EgMRw57HX6w=="
         }
       },
       "is_incremental": false,
@@ -730,6 +730,42 @@
         ".html": {
           "relative_path": "android-native/SA.Android.Content.Pm.html",
           "hash": "lewHxIEWEISn8TrrjFQf6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.Content.Res.AN_Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.Content.Res.AN_Configuration.html",
+          "hash": "4Kciy4g2Nzv/TjBduiOSVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.Content.Res.AN_Resources.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.Content.Res.AN_Resources.html",
+          "hash": "EWiwGfxkgSTQXcqNroqx8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.Content.Res.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.Content.Res.html",
+          "hash": "ZPpotuwL2Jb0/4E5ClrvSA=="
         }
       },
       "is_incremental": false,
@@ -1929,7 +1965,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.OS.AN_Build.VERSION_CODES.html",
-          "hash": "zS4me4SieIplQNLvdkNdIQ=="
+          "hash": "PkGgrwtW64WhmQcY6Si+Mg=="
         }
       },
       "is_incremental": false,
@@ -1977,7 +2013,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Provider.AN_Settings.html",
-          "hash": "dwSJUMTCfff7MEWYCyiR7w=="
+          "hash": "UrAx0U331KrdNhzooYtbIw=="
         }
       },
       "is_incremental": false,
@@ -2637,7 +2673,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/toc.html",
-          "hash": "aDlztCKMHZhOn5MweJoTIQ=="
+          "hash": "BARDZEE0dKJSHMWi0nUCfA=="
         }
       },
       "is_incremental": false,
@@ -7474,7 +7510,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.App.UM_Application.html",
-          "hash": "OLXi5XhFSOcnPLR6elSPRQ=="
+          "hash": "+NNRx0F8l5wIvtqLyyXifQ=="
         }
       },
       "is_incremental": false,
@@ -8533,7 +8569,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 685,
+          "total_file_count": 688,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

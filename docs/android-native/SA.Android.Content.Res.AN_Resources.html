@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class AN_MainActivity
+    <title>Class AN_Resources
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class AN_MainActivity
+    <meta name="title" content="Class AN_Resources
    ">
     <meta name="generator" content="docfx 2.56.4.0">
     
@@ -66,58 +66,50 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SA.Android.App.AN_MainActivity">
+            <article class="content wrap" id="_content" data-uid="SA.Android.Content.Res.AN_Resources">
   
   
-  <h1 id="SA_Android_App_AN_MainActivity" data-uid="SA.Android.App.AN_MainActivity" class="text-break">Class AN_MainActivity
+  <h1 id="SA_Android_Content_Res_AN_Resources" data-uid="SA.Android.Content.Res.AN_Resources" class="text-break">Class AN_Resources
   </h1>
-  <div class="markdown level0 summary"><p>Unity Android application main activity.</p>
+  <div class="markdown level0 summary"><p>Class for accessing an application&apos;s resources.</p>
+<p>The Android SDK tools compile your application&apos;s resources into the application binary at build time.
+To use a resource, you must install it correctly in the source tree (inside your project&apos;s res/ directory) and build your application. As part of the build process,
+the SDK tools generate symbols for each resource,
+which you can use in your application code to access the resources.</p>
+<p>Using application resources makes it easy to update various characteristics
+of your application without modifying code, and—by providing sets of alternative resources—enables
+you to optimize your application for a variety
+of device configurations (such as for different languages and screen sizes).
+This is an important aspect of developing Android applications that are compatible
+on different types of devices.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="SA.Android.App.AN_Activity.html">AN_Activity</a></div>
-    <div class="level2"><span class="xref">AN_MainActivity</span></div>
+    <div class="level1"><span class="xref">AN_Resources</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_StartActivity_AN_Intent_">AN_Activity.StartActivity(AN_Intent)</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_StartActivityForResult_AN_Intent_Action_SA_Android_App_AN_ActivityResult__">AN_Activity.StartActivityForResult(AN_Intent, Action&lt;AN_ActivityResult&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_Finish">AN_Activity.Finish()</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_MoveTaskToBack_System_Boolean_">AN_Activity.MoveTaskToBack(Boolean)</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.Android.App.AN_Activity.html#SA_Android_App_AN_Activity_GetPackageManager">AN_Activity.GetPackageManager()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.App.html">SA.Android.App</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.Android.Content.Res.html">SA.Android.Content.Res</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="SA_Android_App_AN_MainActivity_syntax">Syntax</h5>
+  <h5 id="SA_Android_Content_Res_AN_Resources_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AN_MainActivity : AN_Activity</code></pre>
+    <pre><code class="lang-csharp hljs">public class AN_Resources : AN_LinkedObject</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="SA_Android_App_AN_MainActivity_Instance_" data-uid="SA.Android.App.AN_MainActivity.Instance*"></a>
-  <h4 id="SA_Android_App_AN_MainActivity_Instance" data-uid="SA.Android.App.AN_MainActivity.Instance">Instance</h4>
-  <div class="markdown level1 summary"><p>Returns a singleton class instance</p>
+  <a id="SA_Android_Content_Res_AN_Resources_GetConfiguration_" data-uid="SA.Android.Content.Res.AN_Resources.GetConfiguration*"></a>
+  <h4 id="SA_Android_Content_Res_AN_Resources_GetConfiguration" data-uid="SA.Android.Content.Res.AN_Resources.GetConfiguration">GetConfiguration()</h4>
+  <div class="markdown level1 summary"><p>Return the current configuration that is in effect for this resource object.
+The returned object should be treated as read-only.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AN_MainActivity Instance { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public AN_Configuration GetConfiguration()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -127,8 +119,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="SA.Android.App.AN_MainActivity.html">AN_MainActivity</a></td>
-        <td></td>
+        <td><a class="xref" href="SA.Android.Content.Res.AN_Configuration.html">AN_Configuration</a></td>
+        <td><p>The <a class="xref" href="SA.Android.Content.Res.AN_Configuration.html">AN_Configuration</a> instance.</p>
+</td>
       </tr>
     </tbody>
   </table>
