@@ -3280,66 +3280,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "foundation/Models.Error.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/Models.Error.html",
-          "hash": "XshH2LFzhJj7nmCe2NF3JQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/Models.IError.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/Models.IError.html",
-          "hash": "Y0Hro8U8vr7amecIwzks5A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/Models.IResult.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/Models.IResult.html",
-          "hash": "qio4f8hXge5tG197TOZ3AQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/Models.Result.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/Models.Result.html",
-          "hash": "9qidAlYAyOJ9ZID4EJAAOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "foundation/Models.yml",
-      "output": {
-        ".html": {
-          "relative_path": "foundation/Models.html",
-          "hash": "VT1qq7DtMEU/e+wccOTEGA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Async.CoroutineUtility.yml",
       "output": {
         ".html": {
@@ -3844,6 +3784,66 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Models.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Models.Error.html",
+          "hash": "23HVeEzt8ev2AE7zcOe/JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Models.IError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Models.IError.html",
+          "hash": "e5/zQeT08nzmfaj5hAbKMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Models.IResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Models.IResult.html",
+          "hash": "Wggaez17YNttJpilZS+pkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Models.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Models.Result.html",
+          "hash": "KgecUz/WMiO241G+WoyuFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Models.html",
+          "hash": "uQ31dsYBHYKrRrdPfX13+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.OperatingSystem.FilesBrowser.yml",
       "output": {
         ".html": {
@@ -4220,7 +4220,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "UvdAsIjK/Sr+CypbFLQmWw=="
+          "hash": "u9Vn21AP91vRm47oMQv5Lw=="
         }
       },
       "is_incremental": false,
