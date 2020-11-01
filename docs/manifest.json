@@ -821,6 +821,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "android-native/SA.Android.Editor.AN_CodeBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "android-native/SA.Android.Editor.AN_CodeBuilder.html",
+          "hash": "K2UunX/S8X5VH2fxkkNTCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "android-native/SA.Android.Editor.AN_FirebaseResolver.yml",
       "output": {
         ".html": {
@@ -849,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Editor.html",
-          "hash": "fTYPxKV7DqyVP2fHV5A5pA=="
+          "hash": "t/LYT5WTyb6j+/I/eJ5zaw=="
         }
       },
       "is_incremental": false,
@@ -2673,7 +2685,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/toc.html",
-          "hash": "BARDZEE0dKJSHMWi0nUCfA=="
+          "hash": "ehRgHKfGc9GUF6Z7HHa4VA=="
         }
       },
       "is_incremental": false,
@@ -8569,7 +8581,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 688,
+          "total_file_count": 689,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
