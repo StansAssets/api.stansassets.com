@@ -4456,6 +4456,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html",
+          "hash": "A/cvwbFUeDdWdDCB/WXw1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "google-doc/StansAssets.GoogleDoc.NamedRange.yml",
       "output": {
         ".html": {
@@ -4544,7 +4556,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.html",
-          "hash": "TGIJvO91FDN+j7yQ2Ul+vw=="
+          "hash": "C5KxdqO2SUYD0yjucdlVhA=="
         }
       },
       "is_incremental": false,
@@ -4592,7 +4604,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "QuLoz5oVyj/O/YZXm9VeZQ=="
+          "hash": "dfAowG81AyoNoT0dTIgwMQ=="
         }
       },
       "is_incremental": false,
@@ -8581,7 +8593,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 689,
+          "total_file_count": 690,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

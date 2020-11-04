@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  id: LocalizedLabelEditorUI
+  parent: StansAssets.GoogleDoc
+  children:
+  - StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  langs:
+  - csharp
+  - vb
+  name: LocalizedLabelEditorUI
+  nameWithType: LocalizedLabelEditorUI
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  type: Class
+  source:
+    id: LocalizedLabelEditorUI
+    path: ''
+    startLine: 2218
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: 'public class LocalizedLabelEditorUI : BaseTab'
+    content.vb: >-
+      Public Class LocalizedLabelEditorUI
+          Inherits BaseTab
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  id: '#ctor(LocalizedLabel)'
+  parent: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  langs:
+  - csharp
+  - vb
+  name: LocalizedLabelEditorUI(LocalizedLabel)
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2226
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public LocalizedLabelEditorUI(LocalizedLabel localizedLabel)
+    parameters:
+    - id: localizedLabel
+      type: LocalizedLabel
+    content.vb: Public Sub New(localizedLabel As LocalizedLabel)
+  overload: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.GoogleDoc
+  commentId: N:StansAssets.GoogleDoc
+  name: StansAssets.GoogleDoc
+  nameWithType: StansAssets.GoogleDoc
+  fullName: StansAssets.GoogleDoc
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor*
+  commentId: Overload:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor
+  name: LocalizedLabelEditorUI
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI
+- uid: LocalizedLabel
+  commentId: '!:LocalizedLabel'
+  isExternal: true
+  name: LocalizedLabel
+  nameWithType: LocalizedLabel
+  fullName: LocalizedLabel

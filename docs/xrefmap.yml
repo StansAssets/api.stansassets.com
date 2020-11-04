@@ -37630,6 +37630,25 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.LocalizedLabelEditor.OnInspectorGUI
   nameWithType: LocalizedLabelEditor.OnInspectorGUI
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  name: LocalizedLabelEditorUI
+  href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html
+  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  nameWithType: LocalizedLabelEditorUI
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  name: LocalizedLabelEditorUI(LocalizedLabel)
+  href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html#StansAssets_GoogleDoc_LocalizedLabelEditorUI__ctor_LocalizedLabel_
+  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor*
+  name: LocalizedLabelEditorUI
+  href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html#StansAssets_GoogleDoc_LocalizedLabelEditorUI__ctor_
+  commentId: Overload:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI
 - uid: StansAssets.GoogleDoc.NamedRange
   name: NamedRange
   href: google-doc/StansAssets.GoogleDoc.NamedRange.html

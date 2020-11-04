@@ -12,6 +12,7 @@ items:
   - StansAssets.GoogleDoc.ICellPointer
   - StansAssets.GoogleDoc.LocalizationTab
   - StansAssets.GoogleDoc.LocalizedLabelEditor
+  - StansAssets.GoogleDoc.LocalizedLabelEditorUI
   - StansAssets.GoogleDoc.NamedRange
   - StansAssets.GoogleDoc.RowData
   - StansAssets.GoogleDoc.Sheet
@@ -103,6 +104,11 @@ references:
   name: LocalizedLabelEditor
   nameWithType: LocalizedLabelEditor
   fullName: StansAssets.GoogleDoc.LocalizedLabelEditor
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditorUI
+  name: LocalizedLabelEditorUI
+  nameWithType: LocalizedLabelEditorUI
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI
 - uid: StansAssets.GoogleDoc.LocalizationTab
   commentId: T:StansAssets.GoogleDoc.LocalizationTab
   name: LocalizationTab

@@ -18,6 +18,8 @@
     name: LocalizationTab
   - uid: StansAssets.GoogleDoc.LocalizedLabelEditor
     name: LocalizedLabelEditor
+  - uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
+    name: LocalizedLabelEditorUI
   - uid: StansAssets.GoogleDoc.NamedRange
     name: NamedRange
   - uid: StansAssets.GoogleDoc.RowData
