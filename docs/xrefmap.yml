@@ -1807,6 +1807,19 @@ references:
   commentId: T:SA.Android.App.AN_WheelPickerResult
   fullName: SA.Android.App.AN_WheelPickerResult
   nameWithType: AN_WheelPickerResult
+- uid: SA.Android.App.AN_WheelPickerResult.State
+  name: State
+  href: android-native/SA.Android.App.AN_WheelPickerResult.html#SA_Android_App_AN_WheelPickerResult_State
+  commentId: P:SA.Android.App.AN_WheelPickerResult.State
+  fullName: SA.Android.App.AN_WheelPickerResult.State
+  nameWithType: AN_WheelPickerResult.State
+- uid: SA.Android.App.AN_WheelPickerResult.State*
+  name: State
+  href: android-native/SA.Android.App.AN_WheelPickerResult.html#SA_Android_App_AN_WheelPickerResult_State_
+  commentId: Overload:SA.Android.App.AN_WheelPickerResult.State
+  isSpec: "True"
+  fullName: SA.Android.App.AN_WheelPickerResult.State
+  nameWithType: AN_WheelPickerResult.State
 - uid: SA.Android.App.AN_WheelPickerResult.Value
   name: Value
   href: android-native/SA.Android.App.AN_WheelPickerResult.html#SA_Android_App_AN_WheelPickerResult_Value
@@ -1820,6 +1833,30 @@ references:
   isSpec: "True"
   fullName: SA.Android.App.AN_WheelPickerResult.Value
   nameWithType: AN_WheelPickerResult.Value
+- uid: SA.Android.App.AN_WheelPickerState
+  name: AN_WheelPickerState
+  href: android-native/SA.Android.App.AN_WheelPickerState.html
+  commentId: T:SA.Android.App.AN_WheelPickerState
+  fullName: SA.Android.App.AN_WheelPickerState
+  nameWithType: AN_WheelPickerState
+- uid: SA.Android.App.AN_WheelPickerState.Canceled
+  name: Canceled
+  href: android-native/SA.Android.App.AN_WheelPickerState.html#SA_Android_App_AN_WheelPickerState_Canceled
+  commentId: F:SA.Android.App.AN_WheelPickerState.Canceled
+  fullName: SA.Android.App.AN_WheelPickerState.Canceled
+  nameWithType: AN_WheelPickerState.Canceled
+- uid: SA.Android.App.AN_WheelPickerState.Done
+  name: Done
+  href: android-native/SA.Android.App.AN_WheelPickerState.html#SA_Android_App_AN_WheelPickerState_Done
+  commentId: F:SA.Android.App.AN_WheelPickerState.Done
+  fullName: SA.Android.App.AN_WheelPickerState.Done
+  nameWithType: AN_WheelPickerState.Done
+- uid: SA.Android.App.AN_WheelPickerState.InProgress
+  name: InProgress
+  href: android-native/SA.Android.App.AN_WheelPickerState.html#SA_Android_App_AN_WheelPickerState_InProgress
+  commentId: F:SA.Android.App.AN_WheelPickerState.InProgress
+  fullName: SA.Android.App.AN_WheelPickerState.InProgress
+  nameWithType: AN_WheelPickerState.InProgress
 - uid: SA.Android.App.View
   name: SA.Android.App.View
   href: android-native/SA.Android.App.View.html
@@ -15359,15 +15396,15 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iContactsService.GetContactsCount
   nameWithType: UM_iContactsService.GetContactsCount
-- uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult})
-  name: Retrieve(Action<UM_ContactsResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_Retrieve_Action_SA_CrossPlatform_App_UM_ContactsResult__
-  commentId: M:SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult})
-  name.vb: Retrieve(Action(Of UM_ContactsResult))
-  fullName: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action<SA.CrossPlatform.App.UM_ContactsResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action(Of SA.CrossPlatform.App.UM_ContactsResult))
-  nameWithType: UM_iContactsService.Retrieve(Action<UM_ContactsResult>)
-  nameWithType.vb: UM_iContactsService.Retrieve(Action(Of UM_ContactsResult))
+- uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
+  name: Retrieve(Action<UM_ContactsResult>, Boolean)
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_Retrieve_Action_SA_CrossPlatform_App_UM_ContactsResult__System_Boolean_
+  commentId: M:SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
+  name.vb: Retrieve(Action(Of UM_ContactsResult), Boolean)
+  fullName: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action<SA.CrossPlatform.App.UM_ContactsResult>, System.Boolean)
+  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action(Of SA.CrossPlatform.App.UM_ContactsResult), System.Boolean)
+  nameWithType: UM_iContactsService.Retrieve(Action<UM_ContactsResult>, Boolean)
+  nameWithType.vb: UM_iContactsService.Retrieve(Action(Of UM_ContactsResult), Boolean)
 - uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve*
   name: Retrieve
   href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_Retrieve_
@@ -18983,6 +19020,19 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_WheelPickerResult
   fullName: SA.CrossPlatform.UI.UM_WheelPickerResult
   nameWithType: UM_WheelPickerResult
+- uid: SA.CrossPlatform.UI.UM_WheelPickerResult.State
+  name: State
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerResult.html#SA_CrossPlatform_UI_UM_WheelPickerResult_State
+  commentId: P:SA.CrossPlatform.UI.UM_WheelPickerResult.State
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerResult.State
+  nameWithType: UM_WheelPickerResult.State
+- uid: SA.CrossPlatform.UI.UM_WheelPickerResult.State*
+  name: State
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerResult.html#SA_CrossPlatform_UI_UM_WheelPickerResult_State_
+  commentId: Overload:SA.CrossPlatform.UI.UM_WheelPickerResult.State
+  isSpec: "True"
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerResult.State
+  nameWithType: UM_WheelPickerResult.State
 - uid: SA.CrossPlatform.UI.UM_WheelPickerResult.Value
   name: Value
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerResult.html#SA_CrossPlatform_UI_UM_WheelPickerResult_Value
@@ -18996,6 +19046,30 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_WheelPickerResult.Value
   nameWithType: UM_WheelPickerResult.Value
+- uid: SA.CrossPlatform.UI.UM_WheelPickerState
+  name: UM_WheelPickerState
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerState.html
+  commentId: T:SA.CrossPlatform.UI.UM_WheelPickerState
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerState
+  nameWithType: UM_WheelPickerState
+- uid: SA.CrossPlatform.UI.UM_WheelPickerState.Canceled
+  name: Canceled
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerState.html#SA_CrossPlatform_UI_UM_WheelPickerState_Canceled
+  commentId: F:SA.CrossPlatform.UI.UM_WheelPickerState.Canceled
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerState.Canceled
+  nameWithType: UM_WheelPickerState.Canceled
+- uid: SA.CrossPlatform.UI.UM_WheelPickerState.Done
+  name: Done
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerState.html#SA_CrossPlatform_UI_UM_WheelPickerState_Done
+  commentId: F:SA.CrossPlatform.UI.UM_WheelPickerState.Done
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerState.Done
+  nameWithType: UM_WheelPickerState.Done
+- uid: SA.CrossPlatform.UI.UM_WheelPickerState.InProgress
+  name: InProgress
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerState.html#SA_CrossPlatform_UI_UM_WheelPickerState_InProgress
+  commentId: F:SA.CrossPlatform.UI.UM_WheelPickerState.InProgress
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerState.InProgress
+  nameWithType: UM_WheelPickerState.InProgress
 - uid: SA.CrossPlatform.UI.UN_DatePickerResult
   name: UN_DatePickerResult
   href: ultimate-mobile/SA.CrossPlatform.UI.UN_DatePickerResult.html
@@ -21313,15 +21387,15 @@ references:
   commentId: T:SA.iOS.Contacts.ISN_CNContactStore
   fullName: SA.iOS.Contacts.ISN_CNContactStore
   nameWithType: ISN_CNContactStore
-- uid: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action{SA.iOS.Contacts.ISN_CNContactsResult})
-  name: FetchPhoneContacts(Action<ISN_CNContactsResult>)
-  href: ios-native/SA.iOS.Contacts.ISN_CNContactStore.html#SA_iOS_Contacts_ISN_CNContactStore_FetchPhoneContacts_Action_SA_iOS_Contacts_ISN_CNContactsResult__
-  commentId: M:SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action{SA.iOS.Contacts.ISN_CNContactsResult})
-  name.vb: FetchPhoneContacts(Action(Of ISN_CNContactsResult))
-  fullName: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action<SA.iOS.Contacts.ISN_CNContactsResult>)
-  fullName.vb: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action(Of SA.iOS.Contacts.ISN_CNContactsResult))
-  nameWithType: ISN_CNContactStore.FetchPhoneContacts(Action<ISN_CNContactsResult>)
-  nameWithType.vb: ISN_CNContactStore.FetchPhoneContacts(Action(Of ISN_CNContactsResult))
+- uid: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action{SA.iOS.Contacts.ISN_CNContactsResult},System.Boolean)
+  name: FetchPhoneContacts(Action<ISN_CNContactsResult>, Boolean)
+  href: ios-native/SA.iOS.Contacts.ISN_CNContactStore.html#SA_iOS_Contacts_ISN_CNContactStore_FetchPhoneContacts_Action_SA_iOS_Contacts_ISN_CNContactsResult__System_Boolean_
+  commentId: M:SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action{SA.iOS.Contacts.ISN_CNContactsResult},System.Boolean)
+  name.vb: FetchPhoneContacts(Action(Of ISN_CNContactsResult), Boolean)
+  fullName: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action<SA.iOS.Contacts.ISN_CNContactsResult>, System.Boolean)
+  fullName.vb: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts(Action(Of SA.iOS.Contacts.ISN_CNContactsResult), System.Boolean)
+  nameWithType: ISN_CNContactStore.FetchPhoneContacts(Action<ISN_CNContactsResult>, Boolean)
+  nameWithType.vb: ISN_CNContactStore.FetchPhoneContacts(Action(Of ISN_CNContactsResult), Boolean)
 - uid: SA.iOS.Contacts.ISN_CNContactStore.FetchPhoneContacts*
   name: FetchPhoneContacts
   href: ios-native/SA.iOS.Contacts.ISN_CNContactStore.html#SA_iOS_Contacts_ISN_CNContactStore_FetchPhoneContacts_
