@@ -19387,6 +19387,77 @@ references:
   isSpec: "True"
   fullName: SA.iOS.AdSupport.ISN_ASIdentifierManager.SharedManager
   nameWithType: ISN_ASIdentifierManager.SharedManager
+- uid: SA.iOS.AppTrackingTransparency
+  name: SA.iOS.AppTrackingTransparency
+  href: ios-native/SA.iOS.AppTrackingTransparency.html
+  commentId: N:SA.iOS.AppTrackingTransparency
+  fullName: SA.iOS.AppTrackingTransparency
+  nameWithType: SA.iOS.AppTrackingTransparency
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager
+  name: ISN_ATTrackingManager
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html
+  commentId: T:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager
+  nameWithType: ISN_ATTrackingManager
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus
+  name: ISN_ATTrackingManager.AuthorizationStatus
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html
+  commentId: T:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus
+  nameWithType: ISN_ATTrackingManager.AuthorizationStatus
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Authorized
+  name: Authorized
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_AuthorizationStatus_Authorized
+  commentId: F:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Authorized
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Authorized
+  nameWithType: ISN_ATTrackingManager.AuthorizationStatus.Authorized
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Denied
+  name: Denied
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_AuthorizationStatus_Denied
+  commentId: F:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Denied
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Denied
+  nameWithType: ISN_ATTrackingManager.AuthorizationStatus.Denied
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.NotDetermined
+  name: NotDetermined
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_AuthorizationStatus_NotDetermined
+  commentId: F:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.NotDetermined
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.NotDetermined
+  nameWithType: ISN_ATTrackingManager.AuthorizationStatus.NotDetermined
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Restricted
+  name: Restricted
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_AuthorizationStatus_Restricted
+  commentId: F:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Restricted
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.Restricted
+  nameWithType: ISN_ATTrackingManager.AuthorizationStatus.Restricted
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization(Action{SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus})
+  name: RequestTrackingAuthorization(Action<ISN_ATTrackingManager.AuthorizationStatus>)
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_RequestTrackingAuthorization_Action_SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_AuthorizationStatus__
+  commentId: M:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization(Action{SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus})
+  name.vb: RequestTrackingAuthorization(Action(Of ISN_ATTrackingManager.AuthorizationStatus))
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization(Action<SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus>)
+  fullName.vb: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization(Action(Of SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus))
+  nameWithType: ISN_ATTrackingManager.RequestTrackingAuthorization(Action<ISN_ATTrackingManager.AuthorizationStatus>)
+  nameWithType.vb: ISN_ATTrackingManager.RequestTrackingAuthorization(Action(Of ISN_ATTrackingManager.AuthorizationStatus))
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization*
+  name: RequestTrackingAuthorization
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_RequestTrackingAuthorization_
+  commentId: Overload:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization
+  isSpec: "True"
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.RequestTrackingAuthorization
+  nameWithType: ISN_ATTrackingManager.RequestTrackingAuthorization
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus
+  name: TrackingAuthorizationStatus
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_TrackingAuthorizationStatus
+  commentId: P:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus
+  nameWithType: ISN_ATTrackingManager.TrackingAuthorizationStatus
+- uid: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus*
+  name: TrackingAuthorizationStatus
+  href: ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html#SA_iOS_AppTrackingTransparency_ISN_ATTrackingManager_TrackingAuthorizationStatus_
+  commentId: Overload:SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus
+  isSpec: "True"
+  fullName: SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.TrackingAuthorizationStatus
+  nameWithType: ISN_ATTrackingManager.TrackingAuthorizationStatus
 - uid: SA.iOS.AuthenticationServices
   name: SA.iOS.AuthenticationServices
   href: ios-native/SA.iOS.AuthenticationServices.html

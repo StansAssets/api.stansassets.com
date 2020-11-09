@@ -4827,6 +4827,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.AuthorizationStatus.html",
+          "hash": "2aETzDqiAH/a6CN9isXqiQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AppTrackingTransparency.ISN_ATTrackingManager.html",
+          "hash": "yaRjEyCI8HlMUe2a/oFHrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AppTrackingTransparency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AppTrackingTransparency.html",
+          "hash": "jFKslUmaGhRCubKu12VkfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDCredential.yml",
       "output": {
         ".html": {
@@ -7327,7 +7363,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "WDySk/lwc8A4yOMyB7EOpg=="
+          "hash": "BTBq24zKHTq2Kn8GJ7tuDg=="
         }
       },
       "is_incremental": false,
@@ -8617,7 +8653,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 692,
+          "total_file_count": 695,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
