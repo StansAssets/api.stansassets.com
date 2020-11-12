@@ -5,6 +5,7 @@ items:
   id: LocalizationToken
   parent: StansAssets.GoogleDoc.Localization
   children:
+  - StansAssets.GoogleDoc.Localization.LocalizationToken.Args
   - StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
   - StansAssets.GoogleDoc.Localization.LocalizationToken.Section
   - StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
@@ -20,7 +21,7 @@ items:
   source:
     id: LocalizationToken
     path: ''
-    startLine: 1287
+    startLine: 1341
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -61,25 +62,25 @@ items:
   source:
     id: Token
     path: ''
-    startLine: 1305
+    startLine: 1362
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: public string Token { get; }
+    content: public string Token { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public ReadOnly Property Token As String
+    content.vb: Public Property Token As String
   overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Token*
   implements:
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Token
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Section
   commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Section
   id: Section
@@ -94,25 +95,25 @@ items:
   source:
     id: Section
     path: ''
-    startLine: 1306
+    startLine: 1368
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: public string Section { get; }
+    content: public string Section { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public ReadOnly Property Section As String
+    content.vb: Public Property Section As String
   overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Section*
   implements:
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
   commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.TextType
   id: TextType
@@ -127,25 +128,25 @@ items:
   source:
     id: TextType
     path: ''
-    startLine: 1307
+    startLine: 1374
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: public TextType TextType { get; }
+    content: public TextType TextType { get; set; }
     parameters: []
     return:
       type: StansAssets.GoogleDoc.Localization.TextType
-    content.vb: Public ReadOnly Property TextType As TextType
+    content.vb: Public Property TextType As TextType
   overload: StansAssets.GoogleDoc.Localization.LocalizationToken.TextType*
   implements:
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.TextType
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
   commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
   id: Prefix
@@ -160,25 +161,25 @@ items:
   source:
     id: Prefix
     path: ''
-    startLine: 1308
+    startLine: 1380
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: public string Prefix { get; }
+    content: public string Prefix { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public ReadOnly Property Prefix As String
+    content.vb: Public Property Prefix As String
   overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix*
   implements:
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
   commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix
   id: Suffix
@@ -193,25 +194,58 @@ items:
   source:
     id: Suffix
     path: ''
-    startLine: 1309
+    startLine: 1386
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
   syntax:
-    content: public string Suffix { get; }
+    content: public string Suffix { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public ReadOnly Property Suffix As String
+    content.vb: Public Property Suffix As String
   overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Suffix*
   implements:
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
   modifiers.csharp:
   - public
   - get
+  - set
   modifiers.vb:
   - Public
-  - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  id: Args
+  parent: StansAssets.GoogleDoc.Localization.LocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Args
+  nameWithType: LocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  type: Property
+  source:
+    id: Args
+    path: ''
+    startLine: 1392
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: public object[] Args { get; set; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: Public Property Args As Object()
+  overload: StansAssets.GoogleDoc.Localization.LocalizationToken.Args*
+  implements:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 references:
 - uid: StansAssets.GoogleDoc.Localization
   commentId: N:StansAssets.GoogleDoc.Localization
@@ -584,3 +618,40 @@ references:
   name: Suffix
   nameWithType: ILocalizationToken.Suffix
   fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Args*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  name: Args
+  nameWithType: LocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  name: Args
+  nameWithType: ILocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

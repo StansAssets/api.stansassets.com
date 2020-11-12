@@ -5,6 +5,7 @@ items:
   id: ILocalizationToken
   parent: StansAssets.GoogleDoc.Localization
   children:
+  - StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Section
   - StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
@@ -178,6 +179,35 @@ items:
   - get
   modifiers.vb:
   - ReadOnly
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  id: Args
+  parent: StansAssets.GoogleDoc.Localization.ILocalizationToken
+  langs:
+  - csharp
+  - vb
+  name: Args
+  nameWithType: ILocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  type: Property
+  source:
+    id: Args
+    path: ''
+    startLine: 1279
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Localization
+  syntax:
+    content: object[] Args { get; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: ReadOnly Property Args As Object()
+  overload: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
 references:
 - uid: StansAssets.GoogleDoc.Localization
   commentId: N:StansAssets.GoogleDoc.Localization
@@ -228,3 +258,34 @@ references:
   name: Suffix
   nameWithType: ILocalizationToken.Suffix
   fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Suffix
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args*
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  name: Args
+  nameWithType: ILocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -165,8 +165,7 @@
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_Languages_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Languages*"></a>
   <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_Languages" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Languages">Languages</h4>
-  <div class="markdown level1 summary"><p>Available Languages</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -191,8 +190,7 @@
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_Sheets_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets*"></a>
   <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_Sheets" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets">Sheets</h4>
-  <div class="markdown level1 summary"><p>Available Spreadsheet sheet names</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -219,7 +217,8 @@
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*"></a>
   <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_StansAssets_GoogleDoc_Localization_ILocalizationToken_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)">GetLocalizedString(ILocalizationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns localized string by token</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -238,7 +237,56 @@
       <tr>
         <td><a class="xref" href="StansAssets.GoogleDoc.Localization.ILocalizationToken.html">ILocalizationToken</a></td>
         <td><span class="parametername">token</span></td>
+        <td><a class="xref" href="StansAssets.GoogleDoc.Localization.ILocalizationToken.html">ILocalizationToken</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*"></a>
+  <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_StansAssets_GoogleDoc_Localization_ILocalizationToken_System_String_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken,System.String)">GetLocalizedString(ILocalizationToken, String)</h4>
+  <div class="markdown level1 summary"><p>Returns localized string by token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetLocalizedString(ILocalizationToken localizationToken, string langCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.GoogleDoc.Localization.ILocalizationToken.html">ILocalizationToken</a></td>
+        <td><span class="parametername">localizationToken</span></td>
+        <td><a class="xref" href="StansAssets.GoogleDoc.Localization.ILocalizationToken.html">ILocalizationToken</a></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">langCode</span></td>
+        <td><p>Chosen language</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -460,6 +508,68 @@
   
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*"></a>
+  <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_System_String_StansAssets_GoogleDoc_Localization_TextType_System_String_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType,System.String)">GetLocalizedString(String, String, TextType, String)</h4>
+  <div class="markdown level1 summary"><p>Returns localized string by token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetLocalizedString(string token, string section, TextType textType, string langCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>Localization token</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">section</span></td>
+        <td><p>Spreadsheet sheet name</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="StansAssets.GoogleDoc.Localization.TextType.html">TextType</a></td>
+        <td><span class="parametername">textType</span></td>
+        <td><p>returns localized string in the text type</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">langCode</span></td>
+        <td><p>Chosen language</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString*"></a>
   <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_System_String_System_Object___" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,System.Object[])">GetLocalizedString(String, String, Object[])</h4>
   <div class="markdown level1 summary"><p>Returns localized string by token</p>
 </div>
@@ -516,15 +626,33 @@
   
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh*"></a>
-  <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh">Refresh()</h4>
+  <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh_StansAssets_GoogleDoc_Spreadsheet_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh(StansAssets.GoogleDoc.Spreadsheet)">Refresh(Spreadsheet)</h4>
   <div class="markdown level1 summary"><p>Refresh all cached values.
 Method call will also trigger OnLanguageChanged callback</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Refresh(Spreadsheet spreadsheet)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a></td>
+        <td><span class="parametername">spreadsheet</span></td>
+        <td><p>This spreadsheet to update localizer data</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_SetLanguage_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage*"></a>
@@ -557,7 +685,8 @@ Method call will also trigger OnLanguageChanged callback</p>
   
   <a id="StansAssets_GoogleDoc_Localization_LocalizationClient_SetLanguageWithoutNotify_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify*"></a>
   <h4 id="StansAssets_GoogleDoc_Localization_LocalizationClient_SetLanguageWithoutNotify_System_String_" data-uid="StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify(System.String)">SetLanguageWithoutNotify(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Set current chosen language without notification from Action OnLanguageChanged</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

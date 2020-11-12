@@ -37238,6 +37238,19 @@ references:
   commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
   fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
   nameWithType: ILocalizationToken
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  name: Args
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Args
+  commentId: P:StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  nameWithType: ILocalizationToken.Args
+- uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args*
+  name: Args
+  href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Args_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken.Args
+  nameWithType: ILocalizationToken.Args
 - uid: StansAssets.GoogleDoc.Localization.ILocalizationToken.Prefix
   name: Prefix
   href: google-doc/StansAssets.GoogleDoc.Localization.ILocalizationToken.html#StansAssets_GoogleDoc_Localization_ILocalizationToken_Prefix
@@ -37341,6 +37354,12 @@ references:
   commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken)
   nameWithType: LocalizationClient.GetLocalizedString(ILocalizationToken)
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken,System.String)
+  name: GetLocalizedString(ILocalizationToken, String)
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_StansAssets_GoogleDoc_Localization_ILocalizationToken_System_String_
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken,System.String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(StansAssets.GoogleDoc.Localization.ILocalizationToken, System.String)
+  nameWithType: LocalizationClient.GetLocalizedString(ILocalizationToken, String)
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String)
   name: GetLocalizedString(String)
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_
@@ -37365,6 +37384,12 @@ references:
   commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType)
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String, StansAssets.GoogleDoc.Localization.TextType)
   nameWithType: LocalizationClient.GetLocalizedString(String, String, TextType)
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType,System.String)
+  name: GetLocalizedString(String, String, TextType, String)
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_System_String_StansAssets_GoogleDoc_Localization_TextType_System_String_
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,StansAssets.GoogleDoc.Localization.TextType,System.String)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String, System.String, StansAssets.GoogleDoc.Localization.TextType, System.String)
+  nameWithType: LocalizationClient.GetLocalizedString(String, String, TextType, String)
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.GetLocalizedString(System.String,System.String,System.Object[])
   name: GetLocalizedString(String, String, Object[])
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_GetLocalizedString_System_String_System_String_System_Object___
@@ -37400,12 +37425,12 @@ references:
   commentId: E:StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.OnLanguageChanged
   nameWithType: LocalizationClient.OnLanguageChanged
-- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
-  name: Refresh()
-  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh
-  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
-  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh()
-  nameWithType: LocalizationClient.Refresh()
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh(StansAssets.GoogleDoc.Spreadsheet)
+  name: Refresh(Spreadsheet)
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh_StansAssets_GoogleDoc_Spreadsheet_
+  commentId: M:StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh(StansAssets.GoogleDoc.Spreadsheet)
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh(StansAssets.GoogleDoc.Spreadsheet)
+  nameWithType: LocalizationClient.Refresh(Spreadsheet)
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh*
   name: Refresh
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Refresh_
@@ -37458,6 +37483,19 @@ references:
   commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
   fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
   nameWithType: LocalizationToken
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  name: Args
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Args
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  nameWithType: LocalizationToken.Args
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Args*
+  name: Args
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Args_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken.Args
+  nameWithType: LocalizationToken.Args
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken.Prefix
   name: Prefix
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html#StansAssets_GoogleDoc_Localization_LocalizationToken_Prefix
