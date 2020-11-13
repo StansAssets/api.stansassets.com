@@ -5,7 +5,7 @@ items:
   id: LocalizedLabelEditorUI
   parent: StansAssets.GoogleDoc
   children:
-  - StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
+  - StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel,SerializedObject)
   langs:
   - csharp
   - vb
@@ -33,30 +33,32 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
-  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
-  id: '#ctor(LocalizedLabel)'
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel,SerializedObject)
+  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel,SerializedObject)
+  id: '#ctor(LocalizedLabel,SerializedObject)'
   parent: StansAssets.GoogleDoc.LocalizedLabelEditorUI
   langs:
   - csharp
   - vb
-  name: LocalizedLabelEditorUI(LocalizedLabel)
-  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
-  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+  name: LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 2396
+    startLine: 2398
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
   syntax:
-    content: public LocalizedLabelEditorUI(LocalizedLabel localizedLabel)
+    content: public LocalizedLabelEditorUI(LocalizedLabel localizedLabel, SerializedObject serializedObject)
     parameters:
     - id: localizedLabel
       type: LocalizedLabel
-    content.vb: Public Sub New(localizedLabel As LocalizedLabel)
+    - id: serializedObject
+      type: SerializedObject
+    content.vb: Public Sub New(localizedLabel As LocalizedLabel, serializedObject As SerializedObject)
   overload: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor*
   modifiers.csharp:
   - public
@@ -92,3 +94,9 @@ references:
   name: LocalizedLabel
   nameWithType: LocalizedLabel
   fullName: LocalizedLabel
+- uid: SerializedObject
+  commentId: '!:SerializedObject'
+  isExternal: true
+  name: SerializedObject
+  nameWithType: SerializedObject
+  fullName: SerializedObject

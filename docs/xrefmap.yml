@@ -37819,12 +37819,12 @@ references:
   commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditorUI
   fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI
   nameWithType: LocalizedLabelEditorUI
-- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
-  name: LocalizedLabelEditorUI(LocalizedLabel)
-  href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html#StansAssets_GoogleDoc_LocalizedLabelEditorUI__ctor_LocalizedLabel_
-  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel)
-  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
-  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel)
+- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel,SerializedObject)
+  name: LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
+  href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html#StansAssets_GoogleDoc_LocalizedLabelEditorUI__ctor_LocalizedLabel_SerializedObject_
+  commentId: M:StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor(LocalizedLabel,SerializedObject)
+  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
+  nameWithType: LocalizedLabelEditorUI.LocalizedLabelEditorUI(LocalizedLabel, SerializedObject)
 - uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI.#ctor*
   name: LocalizedLabelEditorUI
   href: google-doc/StansAssets.GoogleDoc.LocalizedLabelEditorUI.html#StansAssets_GoogleDoc_LocalizedLabelEditorUI__ctor_
