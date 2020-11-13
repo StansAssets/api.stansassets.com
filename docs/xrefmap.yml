@@ -37438,6 +37438,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Refresh
   nameWithType: LocalizationClient.Refresh
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sections
+  name: Sections
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Sections
+  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.Sections
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sections
+  nameWithType: LocalizationClient.Sections
+- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sections*
+  name: Sections
+  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Sections_
+  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Sections
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sections
+  nameWithType: LocalizationClient.Sections
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguage(System.String)
   name: SetLanguage(String)
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_SetLanguage_System_String_
@@ -37464,19 +37477,6 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.SetLanguageWithoutNotify
   nameWithType: LocalizationClient.SetLanguageWithoutNotify
-- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
-  name: Sheets
-  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Sheets
-  commentId: P:StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
-  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
-  nameWithType: LocalizationClient.Sheets
-- uid: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets*
-  name: Sheets
-  href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationClient.html#StansAssets_GoogleDoc_Localization_LocalizationClient_Sheets_
-  commentId: Overload:StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
-  isSpec: "True"
-  fullName: StansAssets.GoogleDoc.Localization.LocalizationClient.Sheets
-  nameWithType: LocalizationClient.Sheets
 - uid: StansAssets.GoogleDoc.Localization.LocalizationToken
   name: LocalizationToken
   href: google-doc/StansAssets.GoogleDoc.Localization.LocalizationToken.html
