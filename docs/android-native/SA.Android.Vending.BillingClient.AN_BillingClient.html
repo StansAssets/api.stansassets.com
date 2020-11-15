@@ -339,46 +339,6 @@ The result will be delivered via the <a class="xref" href="SA.Android.Vending.Bi
   </table>
   
   
-  <a id="SA_Android_Vending_BillingClient_AN_BillingClient_LoadRewardedSku_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LoadRewardedSku*"></a>
-  <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_LoadRewardedSku_SA_Android_Vending_BillingClient_AN_RewardLoadParams_SA_Android_Vending_BillingClient_AN_iRewardResponseListener_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.LoadRewardedSku(SA.Android.Vending.BillingClient.AN_RewardLoadParams,SA.Android.Vending.BillingClient.AN_iRewardResponseListener)">LoadRewardedSku(AN_RewardLoadParams, AN_iRewardResponseListener)</h4>
-  <div class="markdown level1 summary"><p>Loads a rewarded sku in the background and returns the result asynchronously.</p>
-<p>If the rewarded sku is available, the response will be BILLING_RESULT_OK.
-Otherwise the response will be ITEM_UNAVAILABLE.
-There is no guarantee that a rewarded sku will always be available.
-After a successful response, only then should the offer be given to a user
-to obtain a rewarded item and call launchBillingFlow.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void LoadRewardedSku(AN_RewardLoadParams params, AN_iRewardResponseListener listener)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_RewardLoadParams.html">AN_RewardLoadParams</a></td>
-        <td><span class="parametername">params</span></td>
-        <td><p>params specific to this load request <a class="xref" href="SA.Android.Vending.BillingClient.AN_RewardLoadParams.html">AN_RewardLoadParams</a></p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="SA.Android.Vending.BillingClient.AN_iRewardResponseListener.html">AN_iRewardResponseListener</a></td>
-        <td><span class="parametername">listener</span></td>
-        <td><p>Implement it to get the result of the load operation returned asynchronously through the callback.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="SA_Android_Vending_BillingClient_AN_BillingClient_NewBuilder_" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.NewBuilder*"></a>
   <h4 id="SA_Android_Vending_BillingClient_AN_BillingClient_NewBuilder" data-uid="SA.Android.Vending.BillingClient.AN_BillingClient.NewBuilder">NewBuilder()</h4>
   <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="SA.Android.Vending.BillingClient.AN_BillingClient.Builder.html">AN_BillingClient.Builder</a> instance.</p>
