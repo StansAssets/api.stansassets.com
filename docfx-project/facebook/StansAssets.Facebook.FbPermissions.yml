@@ -27,7 +27,7 @@ items:
   source:
     id: FbPermissions
     path: ''
-    startLine: 820
+    startLine: 293
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -56,7 +56,7 @@ items:
   source:
     id: instagram_basic
     path: ''
-    startLine: 829
+    startLine: 302
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -86,7 +86,7 @@ items:
   source:
     id: email
     path: ''
-    startLine: 835
+    startLine: 308
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -116,7 +116,7 @@ items:
   source:
     id: public_profile
     path: ''
-    startLine: 849
+    startLine: 322
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -146,7 +146,7 @@ items:
   source:
     id: user_birthday
     path: ''
-    startLine: 856
+    startLine: 329
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -176,7 +176,7 @@ items:
   source:
     id: user_friends
     path: ''
-    startLine: 865
+    startLine: 338
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -206,7 +206,7 @@ items:
   source:
     id: user_hometown
     path: ''
-    startLine: 872
+    startLine: 345
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -236,7 +236,7 @@ items:
   source:
     id: user_location
     path: ''
-    startLine: 879
+    startLine: 352
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -266,7 +266,7 @@ items:
   source:
     id: user_likes
     path: ''
-    startLine: 890
+    startLine: 363
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -296,7 +296,7 @@ items:
   source:
     id: user_photos
     path: ''
-    startLine: 897
+    startLine: 370
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -326,7 +326,7 @@ items:
   source:
     id: user_posts
     path: ''
-    startLine: 904
+    startLine: 377
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -356,7 +356,7 @@ items:
   source:
     id: user_videos
     path: ''
-    startLine: 911
+    startLine: 384
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -386,7 +386,7 @@ items:
   source:
     id: user_age_range
     path: ''
-    startLine: 918
+    startLine: 391
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

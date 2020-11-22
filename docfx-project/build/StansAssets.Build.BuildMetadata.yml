@@ -26,7 +26,7 @@ items:
   source:
     id: BuildMetadata
     path: ''
-    startLine: 58
+    startLine: 1372
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -59,7 +59,7 @@ items:
   source:
     id: HasChangesInWorkingCopy
     path: ''
-    startLine: 72
+    startLine: 1386
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -92,7 +92,7 @@ items:
   source:
     id: BranchName
     path: ''
-    startLine: 78
+    startLine: 1392
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -125,7 +125,7 @@ items:
   source:
     id: CommitHash
     path: ''
-    startLine: 84
+    startLine: 1398
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -158,7 +158,7 @@ items:
   source:
     id: CommitShortHash
     path: ''
-    startLine: 90
+    startLine: 1404
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -191,7 +191,7 @@ items:
   source:
     id: CommitMessage
     path: ''
-    startLine: 96
+    startLine: 1410
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -224,7 +224,7 @@ items:
   source:
     id: Note
     path: ''
-    startLine: 102
+    startLine: 1416
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -257,7 +257,7 @@ items:
   source:
     id: MachineName
     path: ''
-    startLine: 108
+    startLine: 1422
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -290,7 +290,7 @@ items:
   source:
     id: BuildTime
     path: ''
-    startLine: 116
+    startLine: 1430
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -323,7 +323,7 @@ items:
   source:
     id: CommitTime
     path: ''
-    startLine: 134
+    startLine: 1448
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -356,7 +356,7 @@ items:
   source:
     id: Version
     path: ''
-    startLine: 151
+    startLine: 1465
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -389,7 +389,7 @@ items:
   source:
     id: BuildNumber
     path: ''
-    startLine: 157
+    startLine: 1471
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build

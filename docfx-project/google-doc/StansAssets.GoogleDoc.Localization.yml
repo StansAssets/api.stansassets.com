@@ -19,17 +19,17 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.GoogleDoc.Localization.LocalizationToken
+  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
+  name: LocalizationToken
+  nameWithType: LocalizationToken
+  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
 - uid: StansAssets.GoogleDoc.Localization.ILocalizationToken
   commentId: T:StansAssets.GoogleDoc.Localization.ILocalizationToken
   parent: StansAssets.GoogleDoc.Localization
   name: ILocalizationToken
   nameWithType: ILocalizationToken
   fullName: StansAssets.GoogleDoc.Localization.ILocalizationToken
-- uid: StansAssets.GoogleDoc.Localization.LocalizationToken
-  commentId: T:StansAssets.GoogleDoc.Localization.LocalizationToken
-  name: LocalizationToken
-  nameWithType: LocalizationToken
-  fullName: StansAssets.GoogleDoc.Localization.LocalizationToken
 - uid: StansAssets.GoogleDoc.Localization.LocalizationClient
   commentId: T:StansAssets.GoogleDoc.Localization.LocalizationClient
   parent: StansAssets.GoogleDoc.Localization

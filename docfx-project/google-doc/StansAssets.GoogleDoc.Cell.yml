@@ -20,7 +20,7 @@ items:
   source:
     id: Cell
     path: ''
-    startLine: 700
+    startLine: 2798
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -63,7 +63,7 @@ items:
   source:
     id: Row
     path: ''
-    startLine: 706
+    startLine: 2804
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -98,7 +98,7 @@ items:
   source:
     id: Column
     path: ''
-    startLine: 711
+    startLine: 2809
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -133,7 +133,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 717
+    startLine: 2815
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -166,7 +166,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 722
+    startLine: 2820
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -199,7 +199,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 763
+    startLine: 2861
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

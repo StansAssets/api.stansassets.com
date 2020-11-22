@@ -16,7 +16,7 @@ items:
   source:
     id: MyPublicRuntimeExampleClass
     path: ''
-    startLine: 19
+    startLine: 1620
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.PackageSample
@@ -56,7 +56,7 @@ items:
   source:
     id: CountThingsAndDoStuff
     path: ''
-    startLine: 28
+    startLine: 1629
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.PackageSample
