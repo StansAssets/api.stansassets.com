@@ -14735,12 +14735,15 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.OnServiceUI
   nameWithType: UM_AdvertisementUI.OnServiceUI
-- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(IMGUILayoutElement)
-  name: RegisterAdMobUILayout(IMGUILayoutElement)
-  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterAdMobUILayout_IMGUILayoutElement_
-  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(IMGUILayoutElement)
-  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(IMGUILayoutElement)
-  nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout(IMGUILayoutElement)
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func{IMGUILayoutElement})
+  name: RegisterAdMobUILayout(Func<IMGUILayoutElement>)
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterAdMobUILayout_Func_IMGUILayoutElement__
+  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func{IMGUILayoutElement})
+  name.vb: RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func<IMGUILayoutElement>)
+  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
+  nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout(Func<IMGUILayoutElement>)
+  nameWithType.vb: UM_AdvertisementUI.RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
 - uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout*
   name: RegisterAdMobUILayout
   href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterAdMobUILayout_
@@ -14748,12 +14751,15 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout
   nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout
-- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(IMGUILayoutElement)
-  name: RegisterUnityAdsUILayout(IMGUILayoutElement)
-  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_IMGUILayoutElement_
-  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(IMGUILayoutElement)
-  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(IMGUILayoutElement)
-  nameWithType: UM_AdvertisementUI.RegisterUnityAdsUILayout(IMGUILayoutElement)
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func{IMGUILayoutElement})
+  name: RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_Func_IMGUILayoutElement__
+  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func{IMGUILayoutElement})
+  name.vb: RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
+  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
+  nameWithType: UM_AdvertisementUI.RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
+  nameWithType.vb: UM_AdvertisementUI.RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
 - uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout*
   name: RegisterUnityAdsUILayout
   href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_
