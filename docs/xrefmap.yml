@@ -29816,6 +29816,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.BuildMetadata.CommitTime
   nameWithType: BuildMetadata.CommitTime
+- uid: StansAssets.Build.BuildMetadata.GitCommitHubHash
+  name: GitCommitHubHash
+  href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_GitCommitHubHash
+  commentId: P:StansAssets.Build.BuildMetadata.GitCommitHubHash
+  fullName: StansAssets.Build.BuildMetadata.GitCommitHubHash
+  nameWithType: BuildMetadata.GitCommitHubHash
+- uid: StansAssets.Build.BuildMetadata.GitCommitHubHash*
+  name: GitCommitHubHash
+  href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_GitCommitHubHash_
+  commentId: Overload:StansAssets.Build.BuildMetadata.GitCommitHubHash
+  isSpec: "True"
+  fullName: StansAssets.Build.BuildMetadata.GitCommitHubHash
+  nameWithType: BuildMetadata.GitCommitHubHash
 - uid: StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
   name: HasChangesInWorkingCopy
   href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_HasChangesInWorkingCopy
