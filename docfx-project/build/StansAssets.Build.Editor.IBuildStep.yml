@@ -18,7 +18,7 @@ items:
   source:
     id: IBuildStep
     path: ''
-    startLine: 901
+    startLine: 931
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -47,7 +47,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 908
+    startLine: 938
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -81,7 +81,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 914
+    startLine: 944
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -112,7 +112,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 919
+    startLine: 949
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
