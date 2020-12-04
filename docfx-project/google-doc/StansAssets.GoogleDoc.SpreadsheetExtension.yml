@@ -22,7 +22,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 3310
+    startLine: 3693
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -46,6 +46,76 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  id: InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: InitFromCache(Spreadsheet)
+  nameWithType: SpreadsheetExtension.InitFromCache(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: InitFromCache
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static void InitFromCache(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub InitFromCache(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  id: CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  isExtensionMethod: true
+  parent: StansAssets.GoogleDoc.SpreadsheetExtension
+  langs:
+  - csharp
+  - vb
+  name: CleanUpLocalCache(Spreadsheet)
+  nameWithType: SpreadsheetExtension.CleanUpLocalCache(Spreadsheet)
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
+  type: Method
+  source:
+    id: CleanUpLocalCache
+    path: ''
+    startLine: 963
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  syntax:
+    content: public static void CleanUpLocalCache(this Spreadsheet spreadsheet)
+    parameters:
+    - id: spreadsheet
+      type: StansAssets.GoogleDoc.Spreadsheet
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub CleanUpLocalCache(spreadsheet As Spreadsheet)
+  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
   commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.Load(StansAssets.GoogleDoc.Spreadsheet)
   id: Load(StansAssets.GoogleDoc.Spreadsheet)
@@ -61,7 +131,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 876
+    startLine: 3698
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -98,7 +168,7 @@ items:
   source:
     id: UpdateGoogleCell
     path: ''
-    startLine: 910
+    startLine: 3732
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -141,7 +211,7 @@ items:
   source:
     id: AppendGoogleCell
     path: ''
-    startLine: 921
+    startLine: 3743
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -187,7 +257,7 @@ items:
   source:
     id: CreateGoogleSheet
     path: ''
-    startLine: 931
+    startLine: 3753
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -227,7 +297,7 @@ items:
   source:
     id: DeleteGoogleCell
     path: ''
-    startLine: 941
+    startLine: 3763
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -246,76 +316,6 @@ items:
 
       Public Shared Sub DeleteGoogleCell(spreadsheet As Spreadsheet, range As String)
   overload: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
-  id: InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
-  isExtensionMethod: true
-  parent: StansAssets.GoogleDoc.SpreadsheetExtension
-  langs:
-  - csharp
-  - vb
-  name: InitFromCache(Spreadsheet)
-  nameWithType: SpreadsheetExtension.InitFromCache(Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache(StansAssets.GoogleDoc.Spreadsheet)
-  type: Method
-  source:
-    id: InitFromCache
-    path: ''
-    startLine: 3312
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: public static void InitFromCache(this Spreadsheet spreadsheet)
-    parameters:
-    - id: spreadsheet
-      type: StansAssets.GoogleDoc.Spreadsheet
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub InitFromCache(spreadsheet As Spreadsheet)
-  overload: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
-  commentId: M:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
-  id: CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
-  isExtensionMethod: true
-  parent: StansAssets.GoogleDoc.SpreadsheetExtension
-  langs:
-  - csharp
-  - vb
-  name: CleanUpLocalCache(Spreadsheet)
-  nameWithType: SpreadsheetExtension.CleanUpLocalCache(Spreadsheet)
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache(StansAssets.GoogleDoc.Spreadsheet)
-  type: Method
-  source:
-    id: CleanUpLocalCache
-    path: ''
-    startLine: 3322
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: public static void CleanUpLocalCache(this Spreadsheet spreadsheet)
-    parameters:
-    - id: spreadsheet
-      type: StansAssets.GoogleDoc.Spreadsheet
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Sub CleanUpLocalCache(spreadsheet As Spreadsheet)
-  overload: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
   modifiers.csharp:
   - public
   - static
@@ -620,17 +620,27 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Load*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Load
-  name: Load
-  nameWithType: SpreadsheetExtension.Load
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
+  name: InitFromCache
+  nameWithType: SpreadsheetExtension.InitFromCache
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
 - uid: StansAssets.GoogleDoc.Spreadsheet
   commentId: T:StansAssets.GoogleDoc.Spreadsheet
   parent: StansAssets.GoogleDoc
   name: Spreadsheet
   nameWithType: Spreadsheet
   fullName: StansAssets.GoogleDoc.Spreadsheet
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache
+  name: CleanUpLocalCache
+  nameWithType: SpreadsheetExtension.CleanUpLocalCache
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension.Load*
+  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.Load
+  name: Load
+  nameWithType: SpreadsheetExtension.Load
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.Load
 - uid: StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell*
   commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.UpdateGoogleCell
   name: UpdateGoogleCell
@@ -739,13 +749,3 @@ references:
   name: DeleteGoogleCell
   nameWithType: SpreadsheetExtension.DeleteGoogleCell
   fullName: StansAssets.GoogleDoc.SpreadsheetExtension.DeleteGoogleCell
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
-  name: InitFromCache
-  nameWithType: SpreadsheetExtension.InitFromCache
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.InitFromCache
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache*
-  commentId: Overload:StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache
-  name: CleanUpLocalCache
-  nameWithType: SpreadsheetExtension.CleanUpLocalCache
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension.CleanUpLocalCache

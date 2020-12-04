@@ -30251,13 +30251,13 @@ references:
   commentId: T:StansAssets.Build.Editor.IBuildStep
   fullName: StansAssets.Build.Editor.IBuildStep
   nameWithType: IBuildStep
-- uid: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+- uid: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,System.Action{StansAssets.Build.Editor.BuildStepResultArgs})
   name: Execute(IBuildContext, Action<BuildStepResultArgs>)
-  href: build/StansAssets.Build.Editor.IBuildStep.html#StansAssets_Build_Editor_IBuildStep_Execute_StansAssets_Build_Editor_IBuildContext_Action_StansAssets_Build_Editor_BuildStepResultArgs__
-  commentId: M:StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  href: build/StansAssets.Build.Editor.IBuildStep.html#StansAssets_Build_Editor_IBuildStep_Execute_StansAssets_Build_Editor_IBuildContext_System_Action_StansAssets_Build_Editor_BuildStepResultArgs__
+  commentId: M:StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,System.Action{StansAssets.Build.Editor.BuildStepResultArgs})
   name.vb: Execute(IBuildContext, Action(Of BuildStepResultArgs))
-  fullName: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action<StansAssets.Build.Editor.BuildStepResultArgs>)
-  fullName.vb: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action(Of StansAssets.Build.Editor.BuildStepResultArgs))
+  fullName: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, System.Action<StansAssets.Build.Editor.BuildStepResultArgs>)
+  fullName.vb: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, System.Action(Of StansAssets.Build.Editor.BuildStepResultArgs))
   nameWithType: IBuildStep.Execute(IBuildContext, Action<BuildStepResultArgs>)
   nameWithType.vb: IBuildStep.Execute(IBuildContext, Action(Of BuildStepResultArgs))
 - uid: StansAssets.Build.Editor.IBuildStep.Execute*

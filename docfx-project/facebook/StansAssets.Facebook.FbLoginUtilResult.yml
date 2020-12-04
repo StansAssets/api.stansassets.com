@@ -22,7 +22,7 @@ items:
   source:
     id: FbLoginUtilResult
     path: ''
-    startLine: 1478
+    startLine: 1131
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -53,7 +53,7 @@ items:
   source:
     id: IsSucceeded
     path: ''
-    startLine: 1489
+    startLine: 1142
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -84,7 +84,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 1491
+    startLine: 1144
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -115,7 +115,7 @@ items:
   source:
     id: ResultDictionary
     path: ''
-    startLine: 1493
+    startLine: 1146
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -146,7 +146,7 @@ items:
   source:
     id: RawResult
     path: ''
-    startLine: 1495
+    startLine: 1148
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -177,7 +177,7 @@ items:
   source:
     id: Cancelled
     path: ''
-    startLine: 1497
+    startLine: 1150
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -208,7 +208,7 @@ items:
   source:
     id: ResultList
     path: ''
-    startLine: 1499
+    startLine: 1152
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -239,7 +239,7 @@ items:
   source:
     id: Texture
     path: ''
-    startLine: 1501
+    startLine: 1154
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

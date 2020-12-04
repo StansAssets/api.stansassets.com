@@ -15,7 +15,7 @@ items:
   source:
     id: LocalizedLabel
     path: ''
-    startLine: 2246
+    startLine: 741
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization

@@ -16,7 +16,7 @@ items:
   source:
     id: LocalizedLabelEditorUI
     path: ''
-    startLine: 117
+    startLine: 3534
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -47,7 +47,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 127
+    startLine: 3544
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

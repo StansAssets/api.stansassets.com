@@ -21,7 +21,7 @@ items:
   source:
     id: LocalizationToken
     path: ''
-    startLine: 1640
+    startLine: 822
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -62,7 +62,7 @@ items:
   source:
     id: Token
     path: ''
-    startLine: 1660
+    startLine: 842
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -95,7 +95,7 @@ items:
   source:
     id: Section
     path: ''
-    startLine: 1666
+    startLine: 848
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -128,7 +128,7 @@ items:
   source:
     id: TextType
     path: ''
-    startLine: 1672
+    startLine: 854
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -161,7 +161,7 @@ items:
   source:
     id: Prefix
     path: ''
-    startLine: 1678
+    startLine: 860
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -194,7 +194,7 @@ items:
   source:
     id: Suffix
     path: ''
-    startLine: 1684
+    startLine: 866
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
@@ -227,7 +227,7 @@ items:
   source:
     id: Args
     path: ''
-    startLine: 1690
+    startLine: 872
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Localization
