@@ -33,7 +33,7 @@ items:
   source:
     id: Spreadsheet
     path: ''
-    startLine: 1464
+    startLine: 1468
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -72,7 +72,7 @@ items:
   source:
     id: OnSyncStateChange
     path: ''
-    startLine: 1502
+    startLine: 1506
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -101,11 +101,11 @@ items:
   source:
     id: State
     path: ''
-    startLine: 1510
+    startLine: 1513
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nThe spreadsheet sync state. \n"
+  summary: "\nThe spreadsheet sync state.\n"
   example: []
   syntax:
     content: public Spreadsheet.SyncState State { get; }
@@ -134,7 +134,7 @@ items:
   source:
     id: SyncErrorMassage
     path: ''
-    startLine: 1520
+    startLine: 1522
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -167,7 +167,7 @@ items:
   source:
     id: Sheets
     path: ''
-    startLine: 1528
+    startLine: 1529
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -233,7 +233,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 1546
+    startLine: 1545
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -266,7 +266,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1554
+    startLine: 1552
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -299,11 +299,11 @@ items:
   source:
     id: LastSyncMachineName
     path: ''
-    startLine: 1562
+    startLine: 1559
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nThe name of the Machine where last sync was performed. \n"
+  summary: "\nThe name of the Machine where last sync was performed.\n"
   example: []
   syntax:
     content: public string LastSyncMachineName { get; }
@@ -332,7 +332,7 @@ items:
   source:
     id: Synced
     path: ''
-    startLine: 1570
+    startLine: 1566
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -365,7 +365,7 @@ items:
   source:
     id: InProgress
     path: ''
-    startLine: 1575
+    startLine: 1571
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -398,7 +398,7 @@ items:
   source:
     id: NotSynced
     path: ''
-    startLine: 1580
+    startLine: 1576
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -431,7 +431,7 @@ items:
   source:
     id: SyncedWithError
     path: ''
-    startLine: 1585
+    startLine: 1581
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -464,18 +464,18 @@ items:
   source:
     id: SyncDateTime
     path: ''
-    startLine: 1590
+    startLine: 1586
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
   summary: "\nThe <see cref=\"!:DateTime\"></see> value when the last sync was performed.\n"
   example: []
   syntax:
-    content: public DateTime? SyncDateTime { get; set; }
+    content: public DateTime SyncDateTime { get; set; }
     parameters: []
     return:
-      type: System.Nullable{DateTime}
-    content.vb: Public Property SyncDateTime As DateTime?
+      type: DateTime
+    content.vb: Public Property SyncDateTime As DateTime
   overload: StansAssets.GoogleDoc.Spreadsheet.SyncDateTime*
   modifiers.csharp:
   - public
@@ -497,7 +497,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1610
+    startLine: 1616
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -529,7 +529,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 1658
+    startLine: 1664
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -564,7 +564,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 1668
+    startLine: 1674
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -599,7 +599,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 1681
+    startLine: 1687
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -634,7 +634,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 1694
+    startLine: 1700
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -1207,89 +1207,12 @@ references:
   name: SyncDateTime
   nameWithType: Spreadsheet.SyncDateTime
   fullName: StansAssets.GoogleDoc.Spreadsheet.SyncDateTime
-- uid: System.Nullable{DateTime}
-  commentId: T:System.Nullable{DateTime}
-  parent: System
-  definition: System.Nullable`1
-  name: Nullable<DateTime>
-  nameWithType: Nullable<DateTime>
-  fullName: System.Nullable<DateTime>
-  nameWithType.vb: Nullable(Of DateTime)
-  fullName.vb: System.Nullable(Of DateTime)
-  name.vb: Nullable(Of DateTime)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: DateTime
-    isExternal: true
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: DateTime
-    name: DateTime
-    nameWithType: DateTime
-    fullName: DateTime
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Nullable`1
-  commentId: T:System.Nullable`1
+- uid: DateTime
+  commentId: '!:DateTime'
   isExternal: true
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-  nameWithType.vb: Nullable(Of T)
-  fullName.vb: System.Nullable(Of T)
-  name.vb: Nullable(Of T)
-  spec.csharp:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: System.Nullable`1
-    name: Nullable
-    nameWithType: Nullable
-    fullName: System.Nullable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
 - uid: StansAssets.GoogleDoc.Spreadsheet.#ctor*
   commentId: Overload:StansAssets.GoogleDoc.Spreadsheet.#ctor
   name: Spreadsheet
