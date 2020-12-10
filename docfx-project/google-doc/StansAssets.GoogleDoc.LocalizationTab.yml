@@ -16,7 +16,7 @@ items:
   source:
     id: LocalizationTab
     path: ''
-    startLine: 2873
+    startLine: 2976
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -47,7 +47,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2902
+    startLine: 3005
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
