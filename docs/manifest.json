@@ -885,7 +885,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.html",
-          "hash": "rS52A6UvkGa/06P4aFwf0g=="
+          "hash": "drtQ+tXaWvfYXthOpppY7g=="
         }
       },
       "is_incremental": false,
@@ -909,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "android-native/SA.Android.Firebase.Messaging.AN_FirebaseMessage.html",
-          "hash": "dXgkhdIl3hZDfWtfpW8Kfg=="
+          "hash": "anv8Vuybo45dvDMwSOJ32w=="
         }
       },
       "is_incremental": false,
@@ -7366,7 +7366,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.UM_AnalyticsService.html",
-          "hash": "JHMmHAgQE00M+P+clPQtEg=="
+          "hash": "OhsQkl2UnGB/bzJWnxQnLw=="
         }
       },
       "is_incremental": false,
@@ -7398,11 +7398,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.html",
+          "hash": "D1CV/MKI2xExcbImImJ62A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.yml",
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.Analytics.html",
-          "hash": "oimL01af0vCHxl+oDW66zg=="
+          "hash": "HY7fG/LB/TYHSCg1VaJNdQ=="
         }
       },
       "is_incremental": false,
@@ -8458,7 +8470,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/toc.html",
-          "hash": "JIk2N4/7cDg5kf+97HlrBw=="
+          "hash": "vxVlD0x2N77sHoot3OI0XQ=="
         }
       },
       "is_incremental": false,
@@ -8485,7 +8497,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 681,
+          "total_file_count": 682,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

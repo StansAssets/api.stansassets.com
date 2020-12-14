@@ -6084,6 +6084,19 @@ references:
   commentId: T:SA.Android.Firebase.Analytics.AN_FirebaseAnalytics
   fullName: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics
   nameWithType: AN_FirebaseAnalytics
+- uid: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable
+  name: IsAvailable
+  href: android-native/SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.html#SA_Android_Firebase_Analytics_AN_FirebaseAnalytics_IsAvailable
+  commentId: P:SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable
+  fullName: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable
+  nameWithType: AN_FirebaseAnalytics.IsAvailable
+- uid: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable*
+  name: IsAvailable
+  href: android-native/SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.html#SA_Android_Firebase_Analytics_AN_FirebaseAnalytics_IsAvailable_
+  commentId: Overload:SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable
+  isSpec: "True"
+  fullName: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.IsAvailable
+  nameWithType: AN_FirebaseAnalytics.IsAvailable
 - uid: SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.LogEvent(System.String)
   name: LogEvent(String)
   href: android-native/SA.Android.Firebase.Analytics.AN_FirebaseAnalytics.html#SA_Android_Firebase_Analytics_AN_FirebaseAnalytics_LogEvent_System_String_
@@ -13986,6 +13999,25 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Transaction
   nameWithType: UM_IAnalyticsClient.Transaction
+- uid: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient
+  name: UM_IMasterAnalyticsClient
+  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.html
+  commentId: T:SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient
+  fullName: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient
+  nameWithType: UM_IMasterAnalyticsClient
+- uid: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient(SA.CrossPlatform.Analytics.UM_IAnalyticsClient)
+  name: RegisterClient(UM_IAnalyticsClient)
+  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IMasterAnalyticsClient_RegisterClient_SA_CrossPlatform_Analytics_UM_IAnalyticsClient_
+  commentId: M:SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient(SA.CrossPlatform.Analytics.UM_IAnalyticsClient)
+  fullName: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient(SA.CrossPlatform.Analytics.UM_IAnalyticsClient)
+  nameWithType: UM_IMasterAnalyticsClient.RegisterClient(UM_IAnalyticsClient)
+- uid: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient*
+  name: RegisterClient
+  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IMasterAnalyticsClient_RegisterClient_
+  commentId: Overload:SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient
+  isSpec: "True"
+  fullName: SA.CrossPlatform.Analytics.UM_IMasterAnalyticsClient.RegisterClient
+  nameWithType: UM_IMasterAnalyticsClient.RegisterClient
 - uid: SA.CrossPlatform.App
   name: SA.CrossPlatform.App
   href: ultimate-mobile/SA.CrossPlatform.App.html
