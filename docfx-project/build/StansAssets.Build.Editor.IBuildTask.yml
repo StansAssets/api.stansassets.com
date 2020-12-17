@@ -21,7 +21,7 @@ items:
   source:
     id: IBuildTask
     path: ''
-    startLine: 498
+    startLine: 695
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -50,7 +50,7 @@ items:
   source:
     id: SetContext
     path: ''
-    startLine: 503
+    startLine: 700
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -77,7 +77,7 @@ items:
   source:
     id: OnPostprocessScene
     path: ''
-    startLine: 508
+    startLine: 705
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -104,7 +104,7 @@ items:
   source:
     id: OnPostprocessGameObject
     path: ''
-    startLine: 515
+    startLine: 712
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -138,7 +138,7 @@ items:
   source:
     id: OnBuildFinished
     path: ''
-    startLine: 520
+    startLine: 717
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -162,7 +162,7 @@ items:
   source:
     id: Priority
     path: ''
-    startLine: 526
+    startLine: 723
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -193,7 +193,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 531
+    startLine: 728
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

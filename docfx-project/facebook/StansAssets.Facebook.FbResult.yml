@@ -21,7 +21,7 @@ items:
   source:
     id: FbResult
     path: ''
-    startLine: 227
+    startLine: 146
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -66,7 +66,7 @@ items:
   source:
     id: State
     path: ''
-    startLine: 232
+    startLine: 151
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -99,7 +99,7 @@ items:
   source:
     id: IsSucceeded
     path: ''
-    startLine: 238
+    startLine: 157
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -133,7 +133,7 @@ items:
   source:
     id: IsFailed
     path: ''
-    startLine: 244
+    startLine: 163
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -167,7 +167,7 @@ items:
   source:
     id: RawResult
     path: ''
-    startLine: 249
+    startLine: 168
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -200,7 +200,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 254
+    startLine: 173
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -233,7 +233,7 @@ items:
   source:
     id: OnDataReady
     path: ''
-    startLine: 280
+    startLine: 199
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
