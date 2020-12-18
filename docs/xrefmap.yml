@@ -35545,6 +35545,32 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.TimeUtility.GetTime
   nameWithType: TimeUtility.GetTime
+- uid: StansAssets.Foundation.TimeUtility.HasTimer(System.String)
+  name: HasTimer(String)
+  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_HasTimer_System_String_
+  commentId: M:StansAssets.Foundation.TimeUtility.HasTimer(System.String)
+  fullName: StansAssets.Foundation.TimeUtility.HasTimer(System.String)
+  nameWithType: TimeUtility.HasTimer(String)
+- uid: StansAssets.Foundation.TimeUtility.HasTimer*
+  name: HasTimer
+  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_HasTimer_
+  commentId: Overload:StansAssets.Foundation.TimeUtility.HasTimer
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TimeUtility.HasTimer
+  nameWithType: TimeUtility.HasTimer
+- uid: StansAssets.Foundation.TimeUtility.RemoveTimer(System.String)
+  name: RemoveTimer(String)
+  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_RemoveTimer_System_String_
+  commentId: M:StansAssets.Foundation.TimeUtility.RemoveTimer(System.String)
+  fullName: StansAssets.Foundation.TimeUtility.RemoveTimer(System.String)
+  nameWithType: TimeUtility.RemoveTimer(String)
+- uid: StansAssets.Foundation.TimeUtility.RemoveTimer*
+  name: RemoveTimer
+  href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_RemoveTimer_
+  commentId: Overload:StansAssets.Foundation.TimeUtility.RemoveTimer
+  isSpec: "True"
+  fullName: StansAssets.Foundation.TimeUtility.RemoveTimer
+  nameWithType: TimeUtility.RemoveTimer
 - uid: StansAssets.Foundation.TimeUtility.StartTimer(System.String)
   name: StartTimer(String)
   href: foundation/StansAssets.Foundation.TimeUtility.html#StansAssets_Foundation_TimeUtility_StartTimer_System_String_
