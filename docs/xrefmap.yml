@@ -29848,6 +29848,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.BuildMetadata.CommitTime
   nameWithType: BuildMetadata.CommitTime
+- uid: StansAssets.Build.BuildMetadata.FullUnityVersion
+  name: FullUnityVersion
+  href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_FullUnityVersion
+  commentId: P:StansAssets.Build.BuildMetadata.FullUnityVersion
+  fullName: StansAssets.Build.BuildMetadata.FullUnityVersion
+  nameWithType: BuildMetadata.FullUnityVersion
+- uid: StansAssets.Build.BuildMetadata.FullUnityVersion*
+  name: FullUnityVersion
+  href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_FullUnityVersion_
+  commentId: Overload:StansAssets.Build.BuildMetadata.FullUnityVersion
+  isSpec: "True"
+  fullName: StansAssets.Build.BuildMetadata.FullUnityVersion
+  nameWithType: BuildMetadata.FullUnityVersion
 - uid: StansAssets.Build.BuildMetadata.GitCommitHubHash
   name: GitCommitHubHash
   href: build/StansAssets.Build.BuildMetadata.html#StansAssets_Build_BuildMetadata_GitCommitHubHash
@@ -30506,6 +30519,51 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.StanAssetsPackages.IsGoogleDocConnectorProInstalled
   nameWithType: StanAssetsPackages.IsGoogleDocConnectorProInstalled
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks
+  name: UnityCloudBuildHooks
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html
+  commentId: T:StansAssets.Build.Editor.UnityCloudBuildHooks
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks
+  nameWithType: UnityCloudBuildHooks
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  name: IsRunningOnUnityCloud
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_IsRunningOnUnityCloud
+  commentId: P:StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  nameWithType: UnityCloudBuildHooks.IsRunningOnUnityCloud
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud*
+  name: IsRunningOnUnityCloud
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_IsRunningOnUnityCloud_
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  nameWithType: UnityCloudBuildHooks.IsRunningOnUnityCloud
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  name: PostExport(String)
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_PostExport_System_String_
+  commentId: M:StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  nameWithType: UnityCloudBuildHooks.PostExport(String)
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport*
+  name: PostExport
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_PostExport_
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport
+  nameWithType: UnityCloudBuildHooks.PostExport
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  name: PreExport(BuildManifestObject)
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_PreExport_UnityEngine_CloudBuild_BuildManifestObject_
+  commentId: M:StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  nameWithType: UnityCloudBuildHooks.PreExport(BuildManifestObject)
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport*
+  name: PreExport
+  href: build/StansAssets.Build.Editor.UnityCloudBuildHooks.html#StansAssets_Build_Editor_UnityCloudBuildHooks_PreExport_
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport
+  nameWithType: UnityCloudBuildHooks.PreExport
 - uid: StansAssets.Build.IBuildMetadataProvider
   name: IBuildMetadataProvider
   href: build/StansAssets.Build.IBuildMetadataProvider.html
@@ -37571,3 +37629,128 @@ references:
   isSpec: "True"
   fullName: StansAssets.PackageSample.MyPublicRuntimeExampleClass.CountThingsAndDoStuff
   nameWithType: MyPublicRuntimeExampleClass.CountThingsAndDoStuff
+- uid: UnityEngine.CloudBuild
+  name: UnityEngine.CloudBuild
+  href: build/UnityEngine.CloudBuild.html
+  commentId: N:UnityEngine.CloudBuild
+  fullName: UnityEngine.CloudBuild
+  nameWithType: UnityEngine.CloudBuild
+- uid: UnityEngine.CloudBuild.BuildManifestObject
+  name: BuildManifestObject
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html
+  commentId: T:UnityEngine.CloudBuild.BuildManifestObject
+  fullName: UnityEngine.CloudBuild.BuildManifestObject
+  nameWithType: BuildManifestObject
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ClearValues
+  name: ClearValues()
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ClearValues
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.ClearValues
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ClearValues()
+  nameWithType: BuildManifestObject.ClearValues()
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ClearValues*
+  name: ClearValues
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ClearValues_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.ClearValues
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ClearValues
+  nameWithType: BuildManifestObject.ClearValues
+- uid: UnityEngine.CloudBuild.BuildManifestObject.GetValue*
+  name: GetValue
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_GetValue_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.GetValue
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.GetValue
+  nameWithType: BuildManifestObject.GetValue
+- uid: UnityEngine.CloudBuild.BuildManifestObject.GetValue``1(System.String)
+  name: GetValue<T>(String)
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_GetValue__1_System_String_
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.GetValue``1(System.String)
+  name.vb: GetValue(Of T)(String)
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.GetValue<T>(System.String)
+  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.GetValue(Of T)(System.String)
+  nameWithType: BuildManifestObject.GetValue<T>(String)
+  nameWithType.vb: BuildManifestObject.GetValue(Of T)(String)
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValue(System.String,System.Object)
+  name: SetValue(String, Object)
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValue_System_String_System_Object_
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValue(System.String,System.Object)
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValue(System.String, System.Object)
+  nameWithType: BuildManifestObject.SetValue(String, Object)
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValue*
+  name: SetValue
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValue_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.SetValue
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValue
+  nameWithType: BuildManifestObject.SetValue
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+  name: SetValues(Dictionary<String, Object>)
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValues_Dictionary_System_String_System_Object__
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+  name.vb: SetValues(Dictionary(Of String, Object))
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary<System.String, System.Object>)
+  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary(Of System.String, System.Object))
+  nameWithType: BuildManifestObject.SetValues(Dictionary<String, Object>)
+  nameWithType.vb: BuildManifestObject.SetValues(Dictionary(Of String, Object))
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues*
+  name: SetValues
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValues_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.SetValues
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues
+  nameWithType: BuildManifestObject.SetValues
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToDictionary
+  name: ToDictionary()
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToDictionary
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.ToDictionary
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToDictionary()
+  nameWithType: BuildManifestObject.ToDictionary()
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToDictionary*
+  name: ToDictionary
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToDictionary_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.ToDictionary
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToDictionary
+  nameWithType: BuildManifestObject.ToDictionary
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToJson
+  name: ToJson()
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToJson
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.ToJson
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToJson()
+  nameWithType: BuildManifestObject.ToJson()
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToJson*
+  name: ToJson
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToJson_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.ToJson
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToJson
+  nameWithType: BuildManifestObject.ToJson
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToString
+  name: ToString()
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToString
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.ToString
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToString()
+  nameWithType: BuildManifestObject.ToString()
+- uid: UnityEngine.CloudBuild.BuildManifestObject.ToString*
+  name: ToString
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_ToString_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.ToString
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.ToString
+  nameWithType: BuildManifestObject.ToString
+- uid: UnityEngine.CloudBuild.BuildManifestObject.TryGetValue*
+  name: TryGetValue
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_TryGetValue_
+  commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.TryGetValue
+  isSpec: "True"
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.TryGetValue
+  nameWithType: BuildManifestObject.TryGetValue
+- uid: UnityEngine.CloudBuild.BuildManifestObject.TryGetValue``1(System.String,``0@)
+  name: TryGetValue<T>(String, out T)
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_TryGetValue__1_System_String___0__
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.TryGetValue``1(System.String,``0@)
+  name.vb: TryGetValue(Of T)(String, ByRef T)
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.TryGetValue<T>(System.String, out T)
+  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.TryGetValue(Of T)(System.String, ByRef T)
+  nameWithType: BuildManifestObject.TryGetValue<T>(String, out T)
+  nameWithType.vb: BuildManifestObject.TryGetValue(Of T)(String, ByRef T)

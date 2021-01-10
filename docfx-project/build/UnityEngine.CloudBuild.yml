@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.CloudBuild
+  commentId: N:UnityEngine.CloudBuild
+  id: UnityEngine.CloudBuild
+  children:
+  - UnityEngine.CloudBuild.BuildManifestObject
+  langs:
+  - csharp
+  - vb
+  name: UnityEngine.CloudBuild
+  nameWithType: UnityEngine.CloudBuild
+  fullName: UnityEngine.CloudBuild
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: UnityEngine.CloudBuild.BuildManifestObject
+  commentId: T:UnityEngine.CloudBuild.BuildManifestObject
+  parent: UnityEngine.CloudBuild
+  name: BuildManifestObject
+  nameWithType: BuildManifestObject
+  fullName: UnityEngine.CloudBuild.BuildManifestObject
+- uid: UnityEngine.CloudBuild
+  commentId: N:UnityEngine.CloudBuild
+  name: UnityEngine.CloudBuild
+  nameWithType: UnityEngine.CloudBuild
+  fullName: UnityEngine.CloudBuild

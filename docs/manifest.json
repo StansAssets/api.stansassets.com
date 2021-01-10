@@ -2613,7 +2613,7 @@
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.BuildMetadata.html",
-          "hash": "yHzIWxRrL5V9I59iNeI/pg=="
+          "hash": "wX2i/aO7aqHzn+cXeydyYA=="
         }
       },
       "is_incremental": false,
@@ -2777,11 +2777,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "build/StansAssets.Build.Editor.UnityCloudBuildHooks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/StansAssets.Build.Editor.UnityCloudBuildHooks.html",
+          "hash": "L2nlDOWIyqHC7TGpNgusYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "build/StansAssets.Build.Editor.yml",
       "output": {
         ".html": {
           "relative_path": "build/StansAssets.Build.Editor.html",
-          "hash": "g/7i/1VBelQrqm4tfkRImw=="
+          "hash": "KDuDRkxtsuJNUAucj7vGdA=="
         }
       },
       "is_incremental": false,
@@ -2836,6 +2848,30 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "build/UnityEngine.CloudBuild.BuildManifestObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/UnityEngine.CloudBuild.BuildManifestObject.html",
+          "hash": "R3v0elBi3enxltDwD0ld5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "build/UnityEngine.CloudBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "build/UnityEngine.CloudBuild.html",
+          "hash": "kJQ/1tA1mn4Zok4XhMEl3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "build/index.md",
       "output": {
@@ -2853,7 +2889,7 @@
       "output": {
         ".html": {
           "relative_path": "build/toc.html",
-          "hash": "jMrxryIk54greHHu8mTZ3g=="
+          "hash": "aCP166ifcBs9bnt2LfkX0A=="
         }
       },
       "is_incremental": false,
@@ -8497,7 +8533,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 682,
+          "total_file_count": 685,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

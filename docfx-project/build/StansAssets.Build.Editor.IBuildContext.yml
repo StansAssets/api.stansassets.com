@@ -19,7 +19,7 @@ items:
   source:
     id: IBuildContext
     path: ''
-    startLine: 495
+    startLine: 703
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -48,7 +48,7 @@ items:
   source:
     id: TargetPlatform
     path: ''
-    startLine: 500
+    startLine: 708
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -79,7 +79,7 @@ items:
   source:
     id: BuildPlayerOptions
     path: ''
-    startLine: 505
+    startLine: 713
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -110,7 +110,7 @@ items:
   source:
     id: BuildSettings
     path: ''
-    startLine: 510
+    startLine: 718
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -141,7 +141,7 @@ items:
   source:
     id: SetScenes
     path: ''
-    startLine: 516
+    startLine: 724
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

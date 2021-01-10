@@ -13,6 +13,7 @@ items:
   - StansAssets.Build.Editor.IBuildStep
   - StansAssets.Build.Editor.IBuildTask
   - StansAssets.Build.Editor.StanAssetsPackages
+  - StansAssets.Build.Editor.UnityCloudBuildHooks
   langs:
   - csharp
   - vb
@@ -23,6 +24,11 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks
+  commentId: T:StansAssets.Build.Editor.UnityCloudBuildHooks
+  name: UnityCloudBuildHooks
+  nameWithType: UnityCloudBuildHooks
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks
 - uid: StansAssets.Build.Editor.IBuildContext
   commentId: T:StansAssets.Build.Editor.IBuildContext
   parent: StansAssets.Build.Editor

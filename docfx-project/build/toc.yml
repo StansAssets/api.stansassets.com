@@ -27,3 +27,10 @@
     name: IBuildTask
   - uid: StansAssets.Build.Editor.StanAssetsPackages
     name: StanAssetsPackages
+  - uid: StansAssets.Build.Editor.UnityCloudBuildHooks
+    name: UnityCloudBuildHooks
+- uid: UnityEngine.CloudBuild
+  name: UnityEngine.CloudBuild
+  items:
+  - uid: UnityEngine.CloudBuild.BuildManifestObject
+    name: BuildManifestObject

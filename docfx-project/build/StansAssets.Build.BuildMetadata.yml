@@ -12,6 +12,7 @@ items:
   - StansAssets.Build.BuildMetadata.CommitMessage
   - StansAssets.Build.BuildMetadata.CommitShortHash
   - StansAssets.Build.BuildMetadata.CommitTime
+  - StansAssets.Build.BuildMetadata.FullUnityVersion
   - StansAssets.Build.BuildMetadata.GitCommitHubHash
   - StansAssets.Build.BuildMetadata.HasChangesInWorkingCopy
   - StansAssets.Build.BuildMetadata.MachineName
@@ -310,6 +311,39 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: StansAssets.Build.BuildMetadata.FullUnityVersion
+  commentId: P:StansAssets.Build.BuildMetadata.FullUnityVersion
+  id: FullUnityVersion
+  parent: StansAssets.Build.BuildMetadata
+  langs:
+  - csharp
+  - vb
+  name: FullUnityVersion
+  nameWithType: BuildMetadata.FullUnityVersion
+  fullName: StansAssets.Build.BuildMetadata.FullUnityVersion
+  type: Property
+  source:
+    id: FullUnityVersion
+    path: ''
+    startLine: 102
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build
+  summary: "\nThe full Unity version string. See `InternalEditorUtility.GetFullUnityVersion()` for more details.\n"
+  example: []
+  syntax:
+    content: public string FullUnityVersion { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullUnityVersion As String
+  overload: StansAssets.Build.BuildMetadata.FullUnityVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: StansAssets.Build.BuildMetadata.BuildTime
   commentId: P:StansAssets.Build.BuildMetadata.BuildTime
   id: BuildTime
@@ -324,7 +358,7 @@ items:
   source:
     id: BuildTime
     path: ''
-    startLine: 104
+    startLine: 110
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -357,7 +391,7 @@ items:
   source:
     id: CommitTime
     path: ''
-    startLine: 122
+    startLine: 128
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -390,7 +424,7 @@ items:
   source:
     id: Version
     path: ''
-    startLine: 139
+    startLine: 145
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -423,7 +457,7 @@ items:
   source:
     id: BuildNumber
     path: ''
-    startLine: 145
+    startLine: 151
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -515,6 +549,11 @@ references:
   name: MachineName
   nameWithType: BuildMetadata.MachineName
   fullName: StansAssets.Build.BuildMetadata.MachineName
+- uid: StansAssets.Build.BuildMetadata.FullUnityVersion*
+  commentId: Overload:StansAssets.Build.BuildMetadata.FullUnityVersion
+  name: FullUnityVersion
+  nameWithType: BuildMetadata.FullUnityVersion
+  fullName: StansAssets.Build.BuildMetadata.FullUnityVersion
 - uid: StansAssets.Build.BuildMetadata.BuildTime*
   commentId: Overload:StansAssets.Build.BuildMetadata.BuildTime
   name: BuildTime

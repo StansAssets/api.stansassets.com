@@ -1,30 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.Build.Build
-  commentId: T:StansAssets.Build.Build
-  id: Build
-  parent: StansAssets.Build
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks
+  commentId: T:StansAssets.Build.Editor.UnityCloudBuildHooks
+  id: UnityCloudBuildHooks
+  parent: StansAssets.Build.Editor
   children:
-  - StansAssets.Build.Build.Metadata
+  - StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  - StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  - StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
   langs:
   - csharp
   - vb
-  name: Build
-  nameWithType: Build
-  fullName: StansAssets.Build.Build
+  name: UnityCloudBuildHooks
+  nameWithType: UnityCloudBuildHooks
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks
   type: Class
   source:
-    id: Build
+    id: UnityCloudBuildHooks
     path: ''
-    startLine: 171
+    startLine: 613
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Build
-  summary: "\nAccesses point to to the build system API.\n"
+  namespace: StansAssets.Build.Editor
+  summary: "\nUsed, just to demo of how to work with cloud builds APi\n"
   example: []
   syntax:
-    content: public static class Build
-    content.vb: Public Module Build
+    content: public static class UnityCloudBuildHooks
+    content.vb: Public Module UnityCloudBuildHooks
   inheritance:
   - System.Object
   inheritedMembers:
@@ -42,33 +44,93 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: StansAssets.Build.Build.Metadata
-  commentId: P:StansAssets.Build.Build.Metadata
-  id: Metadata
-  parent: StansAssets.Build.Build
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  commentId: M:StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  id: PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  parent: StansAssets.Build.Editor.UnityCloudBuildHooks
   langs:
   - csharp
   - vb
-  name: Metadata
-  nameWithType: Build.Metadata
-  fullName: StansAssets.Build.Build.Metadata
-  type: Property
+  name: PreExport(BuildManifestObject)
+  nameWithType: UnityCloudBuildHooks.PreExport(BuildManifestObject)
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport(UnityEngine.CloudBuild.BuildManifestObject)
+  type: Method
   source:
-    id: Metadata
+    id: PreExport
     path: ''
-    startLine: 186
+    startLine: 618
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.Build
-  summary: "\nCurrent build metadata.\n"
-  example: []
+  namespace: StansAssets.Build.Editor
   syntax:
-    content: public static BuildMetadata Metadata { get; }
+    content: public static void PreExport(BuildManifestObject manifest)
+    parameters:
+    - id: manifest
+      type: UnityEngine.CloudBuild.BuildManifestObject
+    content.vb: Public Shared Sub PreExport(manifest As BuildManifestObject)
+  overload: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  commentId: M:StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  id: PostExport(System.String)
+  parent: StansAssets.Build.Editor.UnityCloudBuildHooks
+  langs:
+  - csharp
+  - vb
+  name: PostExport(String)
+  nameWithType: UnityCloudBuildHooks.PostExport(String)
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport(System.String)
+  type: Method
+  source:
+    id: PostExport
+    path: ''
+    startLine: 629
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public static void PostExport(string exportPath)
+    parameters:
+    - id: exportPath
+      type: System.String
+    content.vb: Public Shared Sub PostExport(exportPath As String)
+  overload: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  commentId: P:StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  id: IsRunningOnUnityCloud
+  parent: StansAssets.Build.Editor.UnityCloudBuildHooks
+  langs:
+  - csharp
+  - vb
+  name: IsRunningOnUnityCloud
+  nameWithType: UnityCloudBuildHooks.IsRunningOnUnityCloud
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  type: Property
+  source:
+    id: IsRunningOnUnityCloud
+    path: ''
+    startLine: 691
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public static bool IsRunningOnUnityCloud { get; }
     parameters: []
     return:
-      type: StansAssets.Build.BuildMetadata
-    content.vb: Public Shared ReadOnly Property Metadata As BuildMetadata
-  overload: StansAssets.Build.Build.Metadata*
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property IsRunningOnUnityCloud As Boolean
+  overload: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud*
   modifiers.csharp:
   - public
   - static
@@ -78,11 +140,11 @@ items:
   - Shared
   - ReadOnly
 references:
-- uid: StansAssets.Build
-  commentId: N:StansAssets.Build
-  name: StansAssets.Build
-  nameWithType: StansAssets.Build
-  fullName: StansAssets.Build
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -375,14 +437,43 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: StansAssets.Build.Build.Metadata*
-  commentId: Overload:StansAssets.Build.Build.Metadata
-  name: Metadata
-  nameWithType: Build.Metadata
-  fullName: StansAssets.Build.Build.Metadata
-- uid: StansAssets.Build.BuildMetadata
-  commentId: T:StansAssets.Build.BuildMetadata
-  parent: StansAssets.Build
-  name: BuildMetadata
-  nameWithType: BuildMetadata
-  fullName: StansAssets.Build.BuildMetadata
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport*
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport
+  name: PreExport
+  nameWithType: UnityCloudBuildHooks.PreExport
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PreExport
+- uid: UnityEngine.CloudBuild.BuildManifestObject
+  commentId: T:UnityEngine.CloudBuild.BuildManifestObject
+  parent: UnityEngine.CloudBuild
+  name: BuildManifestObject
+  nameWithType: BuildManifestObject
+  fullName: UnityEngine.CloudBuild.BuildManifestObject
+- uid: UnityEngine.CloudBuild
+  commentId: N:UnityEngine.CloudBuild
+  name: UnityEngine.CloudBuild
+  nameWithType: UnityEngine.CloudBuild
+  fullName: UnityEngine.CloudBuild
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport*
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport
+  name: PostExport
+  nameWithType: UnityCloudBuildHooks.PostExport
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.PostExport
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud*
+  commentId: Overload:StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+  name: IsRunningOnUnityCloud
+  nameWithType: UnityCloudBuildHooks.IsRunningOnUnityCloud
+  fullName: StansAssets.Build.Editor.UnityCloudBuildHooks.IsRunningOnUnityCloud
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
