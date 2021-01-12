@@ -37,3 +37,4 @@ Static site will be hoster from the `master` branch /  `master` branch docs fold
 * [Using custom domain for GitHub pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a)
 
 * [Does GitHub Pages Support HTTPS for www and @ subdomains?](https://github.community/t5/GitHub-Pages/Does-GitHub-Pages-Support-HTTPS-for-www-and-subdomains/td-p/7116)
+
