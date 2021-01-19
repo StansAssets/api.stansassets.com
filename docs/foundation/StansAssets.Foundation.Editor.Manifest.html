@@ -174,7 +174,7 @@ Can be used for adding dependencies, scopeRegistries, etc to .json file</p>
   
   
   <a id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*"></a>
-  <h4 id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})">AddScopeRegistry(String, String, IEnumerable&lt;String&gt;)</h4>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})">AddScopeRegistry(String, String, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with the provided properties. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> with given url,
 provided scopes will be merged with existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> scopes.
 Name of existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a> won&apos;t be updated.</p>
@@ -207,7 +207,7 @@ Name of existing <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegist
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">scopes</span></td>
         <td><p>Scope registry scopes.</p>
 </td>
@@ -274,7 +274,7 @@ already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegist
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a>&gt;</td>
         <td><p>Dependencies of the manifest.</p>
 </td>
       </tr>
@@ -346,7 +346,7 @@ already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegist
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="StansAssets.Foundation.Editor.ScopeRegistry.html">ScopeRegistry</a>&gt;</td>
         <td><p>Scope registries of the manifest.</p>
 </td>
       </tr>
@@ -596,22 +596,6 @@ will be placed into the <a class="xref" href="StansAssets.Foundation.Editor.Mani
       <tr>
         <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
         <td><p>New or existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Thrown when dependency fullName has wrong format</p>
 </td>
       </tr>
     </tbody>

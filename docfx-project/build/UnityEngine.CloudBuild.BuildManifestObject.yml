@@ -23,7 +23,7 @@ items:
   source:
     id: BuildManifestObject
     path: ''
-    startLine: 527
+    startLine: 1707
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -54,7 +54,7 @@ items:
   source:
     id: TryGetValue
     path: ''
-    startLine: 536
+    startLine: 1716
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -98,7 +98,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 548
+    startLine: 1728
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -139,7 +139,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 558
+    startLine: 1738
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -174,7 +174,7 @@ items:
   source:
     id: SetValues
     path: ''
-    startLine: 564
+    startLine: 1744
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -209,7 +209,7 @@ items:
   source:
     id: ClearValues
     path: ''
-    startLine: 569
+    startLine: 1749
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -237,7 +237,7 @@ items:
   source:
     id: ToDictionary
     path: ''
-    startLine: 576
+    startLine: 1756
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -268,7 +268,7 @@ items:
   source:
     id: ToJson
     path: ''
-    startLine: 586
+    startLine: 1766
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -299,7 +299,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 596
+    startLine: 1776
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild

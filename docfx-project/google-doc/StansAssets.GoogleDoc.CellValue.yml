@@ -21,7 +21,7 @@ items:
   source:
     id: CellValue
     path: ''
-    startLine: 1731
+    startLine: 1484
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -60,7 +60,7 @@ items:
   source:
     id: FormattedValue
     path: ''
-    startLine: 1737
+    startLine: 1490
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -93,7 +93,7 @@ items:
   source:
     id: FormulaValue
     path: ''
-    startLine: 1744
+    startLine: 1497
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -126,7 +126,7 @@ items:
   source:
     id: StringValue
     path: ''
-    startLine: 1751
+    startLine: 1504
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -159,7 +159,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1755
+    startLine: 1508
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -185,7 +185,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1762
+    startLine: 1515
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -223,7 +223,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 1777
+    startLine: 1530
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

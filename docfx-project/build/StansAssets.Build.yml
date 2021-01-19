@@ -16,17 +16,17 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.Build.Build
+  commentId: T:StansAssets.Build.Build
+  name: Build
+  nameWithType: Build
+  fullName: StansAssets.Build.Build
 - uid: StansAssets.Build.BuildMetadata
   commentId: T:StansAssets.Build.BuildMetadata
   parent: StansAssets.Build
   name: BuildMetadata
   nameWithType: BuildMetadata
   fullName: StansAssets.Build.BuildMetadata
-- uid: StansAssets.Build.Build
-  commentId: T:StansAssets.Build.Build
-  name: Build
-  nameWithType: Build
-  fullName: StansAssets.Build.Build
 - uid: StansAssets.Build
   commentId: N:StansAssets.Build
   name: StansAssets.Build
