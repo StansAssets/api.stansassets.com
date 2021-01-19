@@ -7,6 +7,7 @@ items:
   children:
   - StansAssets.Facebook.FbLoginUtilResult.Cancelled
   - StansAssets.Facebook.FbLoginUtilResult.Error
+  - StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
   - StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
   - StansAssets.Facebook.FbLoginUtilResult.RawResult
   - StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
@@ -53,7 +54,7 @@ items:
   source:
     id: IsSucceeded
     path: ''
-    startLine: 1026
+    startLine: 1023
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -84,7 +85,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 1028
+    startLine: 1025
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -95,6 +96,37 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property Error As String
   overload: StansAssets.Facebook.FbLoginUtilResult.Error*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  id: ErrorDictionary
+  parent: StansAssets.Facebook.FbLoginUtilResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorDictionary
+  nameWithType: FbLoginUtilResult.ErrorDictionary
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  type: Property
+  source:
+    id: ErrorDictionary
+    path: ''
+    startLine: 1027
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Facebook
+  syntax:
+    content: public IDictionary<string, string> ErrorDictionary { get; }
+    parameters: []
+    return:
+      type: IDictionary{System.String,System.String}
+    content.vb: Public ReadOnly Property ErrorDictionary As IDictionary(Of String, String)
+  overload: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary*
   modifiers.csharp:
   - public
   - get
@@ -115,7 +147,7 @@ items:
   source:
     id: ResultDictionary
     path: ''
-    startLine: 1030
+    startLine: 1029
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -146,7 +178,7 @@ items:
   source:
     id: RawResult
     path: ''
-    startLine: 1032
+    startLine: 1031
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -177,7 +209,7 @@ items:
   source:
     id: Cancelled
     path: ''
-    startLine: 1034
+    startLine: 1033
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -208,7 +240,7 @@ items:
   source:
     id: ResultList
     path: ''
-    startLine: 1036
+    startLine: 1035
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -239,7 +271,7 @@ items:
   source:
     id: Texture
     path: ''
-    startLine: 1038
+    startLine: 1037
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -299,6 +331,120 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary*
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  name: ErrorDictionary
+  nameWithType: FbLoginUtilResult.ErrorDictionary
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+- uid: IDictionary{System.String,System.String}
+  commentId: '!:IDictionary{System.String,System.String}'
+  definition: IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: StansAssets.Facebook.FbLoginUtilResult.ResultDictionary*
   commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.ResultDictionary
   name: ResultDictionary
@@ -360,56 +506,6 @@ references:
     nameWithType: Object
     fullName: System.Object
     isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: IDictionary`2
-  isExternal: true
-  name: IDictionary<, >
-  nameWithType: IDictionary<, >
-  fullName: IDictionary<, >
-  nameWithType.vb: IDictionary(Of , )
-  fullName.vb: IDictionary(Of , )
-  name.vb: IDictionary(Of , )
-  spec.csharp:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  spec.vb:
-  - uid: IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: ''
-    nameWithType: ''
-    fullName: ''
   - name: )
     nameWithType: )
     fullName: )

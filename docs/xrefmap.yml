@@ -31325,6 +31325,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Facebook.FbLoginUtilResult.Error
   nameWithType: FbLoginUtilResult.Error
+- uid: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  name: ErrorDictionary
+  href: facebook/StansAssets.Facebook.FbLoginUtilResult.html#StansAssets_Facebook_FbLoginUtilResult_ErrorDictionary
+  commentId: P:StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  nameWithType: FbLoginUtilResult.ErrorDictionary
+- uid: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary*
+  name: ErrorDictionary
+  href: facebook/StansAssets.Facebook.FbLoginUtilResult.html#StansAssets_Facebook_FbLoginUtilResult_ErrorDictionary_
+  commentId: Overload:StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  isSpec: "True"
+  fullName: StansAssets.Facebook.FbLoginUtilResult.ErrorDictionary
+  nameWithType: FbLoginUtilResult.ErrorDictionary
 - uid: StansAssets.Facebook.FbLoginUtilResult.IsSucceeded
   name: IsSucceeded
   href: facebook/StansAssets.Facebook.FbLoginUtilResult.html#StansAssets_Facebook_FbLoginUtilResult_IsSucceeded
