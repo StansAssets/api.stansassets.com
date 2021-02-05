@@ -36088,6 +36088,51 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.GoogleDocConnector.HasSpreadsheet
   nameWithType: GoogleDocConnector.HasSpreadsheet
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  name: GoogleDocConnectorEditor
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  nameWithType: GoogleDocConnectorEditor
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  name: GetAllSpreadsheets()
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_GetAllSpreadsheets
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets()
+  nameWithType: GoogleDocConnectorEditor.GetAllSpreadsheets()
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets*
+  name: GetAllSpreadsheets
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_GetAllSpreadsheets_
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  nameWithType: GoogleDocConnectorEditor.GetAllSpreadsheets
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  name: UpdateAllSpreadsheets()
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_UpdateAllSpreadsheets
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets()
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets()
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets*
+  name: UpdateAllSpreadsheets
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_UpdateAllSpreadsheets_
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  name: UpdateSpreadsheet(String)
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_UpdateSpreadsheet_System_String_
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet(String)
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet*
+  name: UpdateSpreadsheet
+  href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_GoogleDocConnectorEditor_UpdateSpreadsheet_
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet
 - uid: StansAssets.GoogleDoc.GoogleDocConnectorLocalization
   name: GoogleDocConnectorLocalization
   href: google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.html

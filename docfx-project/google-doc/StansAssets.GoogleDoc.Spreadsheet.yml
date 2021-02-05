@@ -33,7 +33,7 @@ items:
   source:
     id: Spreadsheet
     path: ''
-    startLine: 2835
+    startLine: 2861
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -72,7 +72,7 @@ items:
   source:
     id: OnSyncStateChange
     path: ''
-    startLine: 2873
+    startLine: 2899
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -101,7 +101,7 @@ items:
   source:
     id: State
     path: ''
-    startLine: 2880
+    startLine: 2906
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -134,7 +134,7 @@ items:
   source:
     id: SyncErrorMassage
     path: ''
-    startLine: 2889
+    startLine: 2915
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -167,7 +167,7 @@ items:
   source:
     id: Sheets
     path: ''
-    startLine: 2896
+    startLine: 2922
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -200,7 +200,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 2905
+    startLine: 2931
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -233,7 +233,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 2912
+    startLine: 2938
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -266,7 +266,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2919
+    startLine: 2945
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -299,7 +299,7 @@ items:
   source:
     id: LastSyncMachineName
     path: ''
-    startLine: 2926
+    startLine: 2952
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -332,7 +332,7 @@ items:
   source:
     id: Synced
     path: ''
-    startLine: 2933
+    startLine: 2959
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -365,7 +365,7 @@ items:
   source:
     id: InProgress
     path: ''
-    startLine: 2938
+    startLine: 2964
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -398,7 +398,7 @@ items:
   source:
     id: NotSynced
     path: ''
-    startLine: 2943
+    startLine: 2969
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -431,7 +431,7 @@ items:
   source:
     id: SyncedWithError
     path: ''
-    startLine: 2948
+    startLine: 2974
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -464,7 +464,7 @@ items:
   source:
     id: SyncDateTime
     path: ''
-    startLine: 2953
+    startLine: 2979
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -497,7 +497,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2983
+    startLine: 3009
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -529,7 +529,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 3031
+    startLine: 3057
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -564,7 +564,7 @@ items:
   source:
     id: HasSheet
     path: ''
-    startLine: 3041
+    startLine: 3067
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -599,7 +599,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 3054
+    startLine: 3080
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -634,7 +634,7 @@ items:
   source:
     id: GetSheet
     path: ''
-    startLine: 3067
+    startLine: 3093
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

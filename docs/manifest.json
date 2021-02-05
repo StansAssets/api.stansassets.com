@@ -4156,6 +4156,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorEditor.html",
+          "hash": "dwgrEZgLJUNUI6zi3dJ7gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnectorLocalization.yml",
       "output": {
         ".html": {
@@ -4376,7 +4388,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.Sheet.html",
-          "hash": "3GWBFuizW9XNjY51LHhL9w=="
+          "hash": "8KnhCyBgzTEDxlbfEoQMmQ=="
         }
       },
       "is_incremental": false,
@@ -4436,7 +4448,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.html",
-          "hash": "jv87yA7zVXpuDYaM5lMkdQ=="
+          "hash": "51BOMumiu9MTpU6uJzngcg=="
         }
       },
       "is_incremental": false,
@@ -4484,7 +4496,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "dfAowG81AyoNoT0dTIgwMQ=="
+          "hash": "ot/R88ddDBoDPigQeymOzw=="
         }
       },
       "is_incremental": false,
@@ -8533,7 +8545,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 685,
+          "total_file_count": 686,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -1,38 +1,32 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.GoogleDoc.SheetMetadata
-  commentId: T:StansAssets.GoogleDoc.SheetMetadata
-  id: SheetMetadata
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  id: GoogleDocConnectorEditor
   parent: StansAssets.GoogleDoc
   children:
-  - StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  - StansAssets.GoogleDoc.SheetMetadata.Id
-  - StansAssets.GoogleDoc.SheetMetadata.m_Id
-  - StansAssets.GoogleDoc.SheetMetadata.m_Name
-  - StansAssets.GoogleDoc.SheetMetadata.Name
+  - StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  - StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  - StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
   langs:
   - csharp
   - vb
-  name: SheetMetadata
-  nameWithType: SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata
+  name: GoogleDocConnectorEditor
+  nameWithType: GoogleDocConnectorEditor
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor
   type: Class
   source:
-    id: SheetMetadata
+    id: GoogleDocConnectorEditor
     path: ''
-    startLine: 3888
+    startLine: 1291
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  summary: "\nSheet metadata\n"
-  example: []
   syntax:
-    content: public class SheetMetadata
-    content.vb: Public Class SheetMetadata
+    content: public static class GoogleDocConnectorEditor
+    content.vb: Public Module GoogleDocConnectorEditor
   inheritance:
   - System.Object
-  derivedClasses:
-  - StansAssets.GoogleDoc.Sheet
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -43,165 +37,107 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: StansAssets.GoogleDoc.SheetMetadata.m_Name
-  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Name
-  id: m_Name
-  parent: StansAssets.GoogleDoc.SheetMetadata
+  - Module
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  id: GetAllSpreadsheets
+  parent: StansAssets.GoogleDoc.GoogleDocConnectorEditor
   langs:
   - csharp
   - vb
-  name: m_Name
-  nameWithType: SheetMetadata.m_Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Name
-  type: Field
+  name: GetAllSpreadsheets()
+  nameWithType: GoogleDocConnectorEditor.GetAllSpreadsheets()
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets()
+  type: Method
   source:
-    id: m_Name
+    id: GetAllSpreadsheets
     path: ''
-    startLine: 3892
+    startLine: 1310
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  syntax:
-    content: protected string m_Name
-    return:
-      type: System.String
-    content.vb: Protected m_Name As String
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: StansAssets.GoogleDoc.SheetMetadata.Name
-  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Name
-  id: Name
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: Name
-  nameWithType: SheetMetadata.Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
-  type: Property
-  source:
-    id: Name
-    path: ''
-    startLine: 3897
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nThe name of the sheet.\n"
+  summary: "\nGet all currently configured spreadsheets.\n"
   example: []
   syntax:
-    content: public string Name { get; }
-    parameters: []
+    content: public static IEnumerable<Spreadsheet> GetAllSpreadsheets()
     return:
-      type: System.String
-    content.vb: Public ReadOnly Property Name As String
-  overload: StansAssets.GoogleDoc.SheetMetadata.Name*
+      type: IEnumerable{StansAssets.GoogleDoc.Spreadsheet}
+    content.vb: Public Shared Function GetAllSpreadsheets As IEnumerable(Of Spreadsheet)
+  overload: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets*
   modifiers.csharp:
   - public
-  - get
+  - static
   modifiers.vb:
   - Public
-  - ReadOnly
-- uid: StansAssets.GoogleDoc.SheetMetadata.m_Id
-  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Id
-  id: m_Id
-  parent: StansAssets.GoogleDoc.SheetMetadata
+  - Shared
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  id: UpdateSpreadsheet(System.String)
+  parent: StansAssets.GoogleDoc.GoogleDocConnectorEditor
   langs:
   - csharp
   - vb
-  name: m_Id
-  nameWithType: SheetMetadata.m_Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Id
-  type: Field
+  name: UpdateSpreadsheet(String)
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet(String)
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
+  type: Method
   source:
-    id: m_Id
+    id: UpdateSpreadsheet
     path: ''
-    startLine: 3900
+    startLine: 1318
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
-  syntax:
-    content: protected int m_Id
-    return:
-      type: System.Int32
-    content.vb: Protected m_Id As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: StansAssets.GoogleDoc.SheetMetadata.Id
-  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Id
-  id: Id
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: Id
-  nameWithType: SheetMetadata.Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
-  type: Property
-  source:
-    id: Id
-    path: ''
-    startLine: 3905
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nThe ID of the sheet.\n"
+  summary: "\nAsync update spreadsheet by spreadsheet id\n"
   example: []
   syntax:
-    content: public int Id { get; }
-    parameters: []
-    return:
-      type: System.Int32
-    content.vb: Public ReadOnly Property Id As Integer
-  overload: StansAssets.GoogleDoc.SheetMetadata.Id*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  commentId: M:StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  id: '#ctor(System.Int32,System.String)'
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: SheetMetadata(Int32, String)
-  nameWithType: SheetMetadata.SheetMetadata(Int32, String)
-  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata(System.Int32, System.String)
-  type: Constructor
-  source:
-    id: .ctor
-    path: ''
-    startLine: 3912
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\n\n"
-  example: []
-  syntax:
-    content: public SheetMetadata(int id, string name)
+    content: public static void UpdateSpreadsheet(string id)
     parameters:
     - id: id
-      type: System.Int32
-      description: The ID of the sheet.
-    - id: name
       type: System.String
-      description: The name of the sheet.
-    content.vb: Public Sub New(id As Integer, name As String)
-  overload: StansAssets.GoogleDoc.SheetMetadata.#ctor*
+      description: An id of the spreadsheet
+    content.vb: Public Shared Sub UpdateSpreadsheet(id As String)
+  overload: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet*
   modifiers.csharp:
   - public
+  - static
   modifiers.vb:
   - Public
+  - Shared
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  commentId: M:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  id: UpdateAllSpreadsheets
+  parent: StansAssets.GoogleDoc.GoogleDocConnectorEditor
+  langs:
+  - csharp
+  - vb
+  name: UpdateAllSpreadsheets()
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets()
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets()
+  type: Method
+  source:
+    id: UpdateAllSpreadsheets
+    path: ''
+    startLine: 1326
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc
+  summary: "\nAsync update all added spreadsheets \n"
+  example: []
+  syntax:
+    content: public static void UpdateAllSpreadsheets()
+    content.vb: Public Shared Sub UpdateAllSpreadsheets
+  overload: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: StansAssets.GoogleDoc
   commentId: N:StansAssets.GoogleDoc
@@ -500,6 +436,95 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+  name: GetAllSpreadsheets
+  nameWithType: GoogleDocConnectorEditor.GetAllSpreadsheets
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.GetAllSpreadsheets
+- uid: IEnumerable{StansAssets.GoogleDoc.Spreadsheet}
+  commentId: '!:IEnumerable{StansAssets.GoogleDoc.Spreadsheet}'
+  definition: IEnumerable`1
+  name: IEnumerable<Spreadsheet>
+  nameWithType: IEnumerable<Spreadsheet>
+  fullName: IEnumerable<StansAssets.GoogleDoc.Spreadsheet>
+  nameWithType.vb: IEnumerable(Of Spreadsheet)
+  fullName.vb: IEnumerable(Of StansAssets.GoogleDoc.Spreadsheet)
+  name.vb: IEnumerable(Of Spreadsheet)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.GoogleDoc.Spreadsheet
+    name: Spreadsheet
+    nameWithType: Spreadsheet
+    fullName: StansAssets.GoogleDoc.Spreadsheet
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.GoogleDoc.Spreadsheet
+    name: Spreadsheet
+    nameWithType: Spreadsheet
+    fullName: StansAssets.GoogleDoc.Spreadsheet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet
+  name: UpdateSpreadsheet
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateSpreadsheet
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -507,25 +532,8 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: StansAssets.GoogleDoc.SheetMetadata.Name*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Name
-  name: Name
-  nameWithType: SheetMetadata.Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: StansAssets.GoogleDoc.SheetMetadata.Id*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Id
-  name: Id
-  nameWithType: SheetMetadata.Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
-- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.#ctor
-  name: SheetMetadata
-  nameWithType: SheetMetadata.SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata
+- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets*
+  commentId: Overload:StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  name: UpdateAllSpreadsheets
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets
+  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor.UpdateAllSpreadsheets

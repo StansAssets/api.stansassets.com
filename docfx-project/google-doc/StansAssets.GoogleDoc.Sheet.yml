@@ -33,7 +33,7 @@ items:
   source:
     id: Sheet
     path: ''
-    startLine: 3176
+    startLine: 3202
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -79,7 +79,7 @@ items:
   source:
     id: NamedRanges
     path: ''
-    startLine: 3184
+    startLine: 3210
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -112,7 +112,7 @@ items:
   source:
     id: Rows
     path: ''
-    startLine: 3189
+    startLine: 3215
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -145,7 +145,7 @@ items:
   source:
     id: HasNamedRange
     path: ''
-    startLine: 3230
+    startLine: 3256
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -180,7 +180,7 @@ items:
   source:
     id: GetNamedRange
     path: ''
-    startLine: 3240
+    startLine: 3266
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -215,19 +215,24 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 3258
+    startLine: 3284
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
+  summary: "\nGets cell from specified row and column\n"
+  example: []
   syntax:
     content: public Cell GetCell(int row, int column)
     parameters:
     - id: row
       type: System.Int32
+      description: 'Row index. Index starts from 0 '
     - id: column
       type: System.Int32
+      description: 'Column index. Index starts from 0 '
     return:
       type: StansAssets.GoogleDoc.Cell
+      description: Cell object or cell with empty cell value if cell wasn&apos;t found.
     content.vb: Public Function GetCell(row As Integer, column As Integer) As Cell
   overload: StansAssets.GoogleDoc.Sheet.GetCell*
   modifiers.csharp:
@@ -248,7 +253,7 @@ items:
   source:
     id: GetCell
     path: ''
-    startLine: 3277
+    startLine: 3305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -262,7 +267,7 @@ items:
       description: The name of the cell.
     return:
       type: StansAssets.GoogleDoc.Cell
-      description: Cell objects or `null` if cell wasn&apos;t found.
+      description: Cell object or cell with empty cell value if cell wasn&apos;t found.
     content.vb: Public Function GetCell(name As String) As Cell
   overload: StansAssets.GoogleDoc.Sheet.GetCell*
   modifiers.csharp:
@@ -283,7 +288,7 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 3300
+    startLine: 3329
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -321,7 +326,7 @@ items:
   source:
     id: GetCellValue
     path: ''
-    startLine: 3311
+    startLine: 3340
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -362,7 +367,7 @@ items:
   source:
     id: GetRow
     path: ''
-    startLine: 3321
+    startLine: 3350
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -397,7 +402,7 @@ items:
   source:
     id: GetRowValues
     path: ''
-    startLine: 3338
+    startLine: 3367
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -438,7 +443,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 3348
+    startLine: 3377
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -473,7 +478,7 @@ items:
   source:
     id: GetColumn
     path: ''
-    startLine: 3364
+    startLine: 3393
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -508,7 +513,7 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 3380
+    startLine: 3409
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -549,7 +554,7 @@ items:
   source:
     id: GetColumnValues
     path: ''
-    startLine: 3391
+    startLine: 3420
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -590,7 +595,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 3402
+    startLine: 3431
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -625,7 +630,7 @@ items:
   source:
     id: GetRange
     path: ''
-    startLine: 3470
+    startLine: 3499
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -660,7 +665,7 @@ items:
   source:
     id: GetNamedRangeCells
     path: ''
-    startLine: 3488
+    startLine: 3517
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -694,7 +699,7 @@ items:
   source:
     id: GetNamedRangeValues
     path: ''
-    startLine: 3502
+    startLine: 3531
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

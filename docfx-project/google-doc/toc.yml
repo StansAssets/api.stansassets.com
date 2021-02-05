@@ -8,6 +8,8 @@
     name: CellValue
   - uid: StansAssets.GoogleDoc.GoogleDocConnector
     name: GoogleDocConnector
+  - uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor
+    name: GoogleDocConnectorEditor
   - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
     name: GoogleDocConnectorPackage
   - uid: StansAssets.GoogleDoc.GridRange
