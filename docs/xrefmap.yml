@@ -13432,13 +13432,13 @@ references:
   commentId: T:SA.CrossPlatform.Advertisement.UM_AbstractAdsClient
   fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient
   nameWithType: UM_AbstractAdsClient
-- uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String,System.Action{SA_Result})
   name: ConnectToService(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.html#SA_CrossPlatform_Advertisement_UM_AbstractAdsClient_ConnectToService_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.html#SA_CrossPlatform_Advertisement_UM_AbstractAdsClient_ConnectToService_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String,System.Action{SA_Result})
   name.vb: ConnectToService(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService(System.String, System.Action(Of SA_Result))
   nameWithType: UM_AbstractAdsClient.ConnectToService(String, Action<SA_Result>)
   nameWithType.vb: UM_AbstractAdsClient.ConnectToService(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService*
@@ -13448,13 +13448,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.ConnectToService
   nameWithType: UM_AbstractAdsClient.ConnectToService
-- uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String,System.Action{SA_Result})
   name: Initialize(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.html#SA_CrossPlatform_Advertisement_UM_AbstractAdsClient_Initialize_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.html#SA_CrossPlatform_Advertisement_UM_AbstractAdsClient_Initialize_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String,System.Action{SA_Result})
   name.vb: Initialize(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize(System.String, System.Action(Of SA_Result))
   nameWithType: UM_AbstractAdsClient.Initialize(String, Action<SA_Result>)
   nameWithType.vb: UM_AbstractAdsClient.Initialize(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Advertisement.UM_AbstractAdsClient.Initialize*
@@ -13583,22 +13583,22 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.Banner
   nameWithType: UM_iAdsClient.Banner
-- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.Action{SA_Result})
   name: Initialize(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_Initialize_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_Initialize_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.Action{SA_Result})
   name.vb: Initialize(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.Action(Of SA_Result))
   nameWithType: UM_iAdsClient.Initialize(Action<SA_Result>)
   nameWithType.vb: UM_iAdsClient.Initialize(Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String,System.Action{SA_Result})
   name: Initialize(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_Initialize_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iAdsClient.html#SA_CrossPlatform_Advertisement_UM_iAdsClient_Initialize_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String,System.Action{SA_Result})
   name.vb: Initialize(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize(System.String, System.Action(Of SA_Result))
   nameWithType: UM_iAdsClient.Initialize(String, Action<SA_Result>)
   nameWithType.vb: UM_iAdsClient.Initialize(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Advertisement.UM_iAdsClient.Initialize*
@@ -13679,22 +13679,22 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.IsReady
   nameWithType: UM_IAdvertisement.IsReady
-- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.Action{SA_Result})
   name: Load(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.Action{SA_Result})
   name.vb: Load(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.Action(Of SA_Result))
   nameWithType: UM_IAdvertisement.Load(Action<SA_Result>)
   nameWithType.vb: UM_IAdvertisement.Load(Action(Of SA_Result))
-- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,System.Action{SA_Result})
   name: Load(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String,System.Action{SA_Result})
   name.vb: Load(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load(System.String, System.Action(Of SA_Result))
   nameWithType: UM_IAdvertisement.Load(String, Action<SA_Result>)
   nameWithType.vb: UM_IAdvertisement.Load(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Advertisement.UM_IAdvertisement.Load*
@@ -13736,11 +13736,11 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Hide
   nameWithType: UM_iBannerAds.Hide
-- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(Action)
+- uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(System.Action)
   name: Show(Action)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Show_Action_
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(Action)
-  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(Action)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iBannerAds.html#SA_CrossPlatform_Advertisement_UM_iBannerAds_Show_System_Action_
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(System.Action)
+  fullName: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show(System.Action)
   nameWithType: UM_iBannerAds.Show(Action)
 - uid: SA.CrossPlatform.Advertisement.UM_iBannerAds.Show*
   name: Show
@@ -13755,11 +13755,11 @@ references:
   commentId: T:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds
   fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds
   nameWithType: UM_iNonRewardedAds
-- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(Action)
+- uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(System.Action)
   name: Show(Action)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_Action_
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(Action)
-  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(Action)
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_System_Action_
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(System.Action)
+  fullName: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(System.Action)
   nameWithType: UM_iNonRewardedAds.Show(Action)
 - uid: SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show*
   name: Show
@@ -13774,13 +13774,13 @@ references:
   commentId: T:SA.CrossPlatform.Advertisement.UM_iRewardedAds
   fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds
   nameWithType: UM_iRewardedAds
-- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(Action{SA.CrossPlatform.Advertisement.UM_RewardedAdsResult})
+- uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(System.Action{SA.CrossPlatform.Advertisement.UM_RewardedAdsResult})
   name: Show(Action<UM_RewardedAdsResult>)
-  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Show_Action_SA_CrossPlatform_Advertisement_UM_RewardedAdsResult__
-  commentId: M:SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(Action{SA.CrossPlatform.Advertisement.UM_RewardedAdsResult})
+  href: ultimate-mobile/SA.CrossPlatform.Advertisement.UM_iRewardedAds.html#SA_CrossPlatform_Advertisement_UM_iRewardedAds_Show_System_Action_SA_CrossPlatform_Advertisement_UM_RewardedAdsResult__
+  commentId: M:SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(System.Action{SA.CrossPlatform.Advertisement.UM_RewardedAdsResult})
   name.vb: Show(Action(Of UM_RewardedAdsResult))
-  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(Action<SA.CrossPlatform.Advertisement.UM_RewardedAdsResult>)
-  fullName.vb: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(Action(Of SA.CrossPlatform.Advertisement.UM_RewardedAdsResult))
+  fullName: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(System.Action<SA.CrossPlatform.Advertisement.UM_RewardedAdsResult>)
+  fullName.vb: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show(System.Action(Of SA.CrossPlatform.Advertisement.UM_RewardedAdsResult))
   nameWithType: UM_iRewardedAds.Show(Action<UM_RewardedAdsResult>)
   nameWithType.vb: UM_iRewardedAds.Show(Action(Of UM_RewardedAdsResult))
 - uid: SA.CrossPlatform.Advertisement.UM_iRewardedAds.Show*
@@ -14211,13 +14211,13 @@ references:
   commentId: T:SA.CrossPlatform.App.UM_iCameraService
   fullName: SA.CrossPlatform.App.UM_iCameraService
   nameWithType: UM_iCameraService
-- uid: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+- uid: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name: TakePicture(Int32, Action<UM_MediaResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iCameraService.html#SA_CrossPlatform_App_UM_iCameraService_TakePicture_System_Int32_Action_SA_CrossPlatform_App_UM_MediaResult__
-  commentId: M:SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iCameraService.html#SA_CrossPlatform_App_UM_iCameraService_TakePicture_System_Int32_System_Action_SA_CrossPlatform_App_UM_MediaResult__
+  commentId: M:SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name.vb: TakePicture(Int32, Action(Of UM_MediaResult))
-  fullName: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32, Action<SA.CrossPlatform.App.UM_MediaResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32, Action(Of SA.CrossPlatform.App.UM_MediaResult))
+  fullName: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32, System.Action<SA.CrossPlatform.App.UM_MediaResult>)
+  fullName.vb: SA.CrossPlatform.App.UM_iCameraService.TakePicture(System.Int32, System.Action(Of SA.CrossPlatform.App.UM_MediaResult))
   nameWithType: UM_iCameraService.TakePicture(Int32, Action<UM_MediaResult>)
   nameWithType.vb: UM_iCameraService.TakePicture(Int32, Action(Of UM_MediaResult))
 - uid: SA.CrossPlatform.App.UM_iCameraService.TakePicture*
@@ -14227,13 +14227,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iCameraService.TakePicture
   nameWithType: UM_iCameraService.TakePicture
-- uid: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+- uid: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name: TakeVideo(Int32, Action<UM_MediaResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iCameraService.html#SA_CrossPlatform_App_UM_iCameraService_TakeVideo_System_Int32_Action_SA_CrossPlatform_App_UM_MediaResult__
-  commentId: M:SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iCameraService.html#SA_CrossPlatform_App_UM_iCameraService_TakeVideo_System_Int32_System_Action_SA_CrossPlatform_App_UM_MediaResult__
+  commentId: M:SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name.vb: TakeVideo(Int32, Action(Of UM_MediaResult))
-  fullName: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32, Action<SA.CrossPlatform.App.UM_MediaResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32, Action(Of SA.CrossPlatform.App.UM_MediaResult))
+  fullName: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32, System.Action<SA.CrossPlatform.App.UM_MediaResult>)
+  fullName.vb: SA.CrossPlatform.App.UM_iCameraService.TakeVideo(System.Int32, System.Action(Of SA.CrossPlatform.App.UM_MediaResult))
   nameWithType: UM_iCameraService.TakeVideo(Int32, Action<UM_MediaResult>)
   nameWithType.vb: UM_iCameraService.TakeVideo(Int32, Action(Of UM_MediaResult))
 - uid: SA.CrossPlatform.App.UM_iCameraService.TakeVideo*
@@ -14346,13 +14346,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iContactsService.GetContactsCount
   nameWithType: UM_iContactsService.GetContactsCount
-- uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
+- uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve(System.Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
   name: Retrieve(Action<UM_ContactsResult>, Boolean)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_Retrieve_Action_SA_CrossPlatform_App_UM_ContactsResult__System_Boolean_
-  commentId: M:SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_Retrieve_System_Action_SA_CrossPlatform_App_UM_ContactsResult__System_Boolean_
+  commentId: M:SA.CrossPlatform.App.UM_iContactsService.Retrieve(System.Action{SA.CrossPlatform.App.UM_ContactsResult},System.Boolean)
   name.vb: Retrieve(Action(Of UM_ContactsResult), Boolean)
-  fullName: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action<SA.CrossPlatform.App.UM_ContactsResult>, System.Boolean)
-  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.Retrieve(Action(Of SA.CrossPlatform.App.UM_ContactsResult), System.Boolean)
+  fullName: SA.CrossPlatform.App.UM_iContactsService.Retrieve(System.Action<SA.CrossPlatform.App.UM_ContactsResult>, System.Boolean)
+  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.Retrieve(System.Action(Of SA.CrossPlatform.App.UM_ContactsResult), System.Boolean)
   nameWithType: UM_iContactsService.Retrieve(Action<UM_ContactsResult>, Boolean)
   nameWithType.vb: UM_iContactsService.Retrieve(Action(Of UM_ContactsResult), Boolean)
 - uid: SA.CrossPlatform.App.UM_iContactsService.Retrieve*
@@ -14362,13 +14362,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iContactsService.Retrieve
   nameWithType: UM_iContactsService.Retrieve
-- uid: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32,System.Int32,Action{SA.CrossPlatform.App.UM_ContactsResult})
+- uid: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32,System.Int32,System.Action{SA.CrossPlatform.App.UM_ContactsResult})
   name: RetrieveContacts(Int32, Int32, Action<UM_ContactsResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_RetrieveContacts_System_Int32_System_Int32_Action_SA_CrossPlatform_App_UM_ContactsResult__
-  commentId: M:SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32,System.Int32,Action{SA.CrossPlatform.App.UM_ContactsResult})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iContactsService.html#SA_CrossPlatform_App_UM_iContactsService_RetrieveContacts_System_Int32_System_Int32_System_Action_SA_CrossPlatform_App_UM_ContactsResult__
+  commentId: M:SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32,System.Int32,System.Action{SA.CrossPlatform.App.UM_ContactsResult})
   name.vb: RetrieveContacts(Int32, Int32, Action(Of UM_ContactsResult))
-  fullName: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32, System.Int32, Action<SA.CrossPlatform.App.UM_ContactsResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32, System.Int32, Action(Of SA.CrossPlatform.App.UM_ContactsResult))
+  fullName: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32, System.Int32, System.Action<SA.CrossPlatform.App.UM_ContactsResult>)
+  fullName.vb: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts(System.Int32, System.Int32, System.Action(Of SA.CrossPlatform.App.UM_ContactsResult))
   nameWithType: UM_iContactsService.RetrieveContacts(Int32, Int32, Action<UM_ContactsResult>)
   nameWithType.vb: UM_iContactsService.RetrieveContacts(Int32, Int32, Action(Of UM_ContactsResult))
 - uid: SA.CrossPlatform.App.UM_iContactsService.RetrieveContacts*
@@ -14384,13 +14384,13 @@ references:
   commentId: T:SA.CrossPlatform.App.UM_iGalleryService
   fullName: SA.CrossPlatform.App.UM_iGalleryService
   nameWithType: UM_iGalleryService
-- uid: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+- uid: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name: PickImage(Int32, Action<UM_MediaResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_PickImage_System_Int32_Action_SA_CrossPlatform_App_UM_MediaResult__
-  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_PickImage_System_Int32_System_Action_SA_CrossPlatform_App_UM_MediaResult__
+  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name.vb: PickImage(Int32, Action(Of UM_MediaResult))
-  fullName: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32, Action<SA.CrossPlatform.App.UM_MediaResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32, Action(Of SA.CrossPlatform.App.UM_MediaResult))
+  fullName: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32, System.Action<SA.CrossPlatform.App.UM_MediaResult>)
+  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.PickImage(System.Int32, System.Action(Of SA.CrossPlatform.App.UM_MediaResult))
   nameWithType: UM_iGalleryService.PickImage(Int32, Action<UM_MediaResult>)
   nameWithType.vb: UM_iGalleryService.PickImage(Int32, Action(Of UM_MediaResult))
 - uid: SA.CrossPlatform.App.UM_iGalleryService.PickImage*
@@ -14400,13 +14400,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iGalleryService.PickImage
   nameWithType: UM_iGalleryService.PickImage
-- uid: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+- uid: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name: PickVideo(Int32, Action<UM_MediaResult>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_PickVideo_System_Int32_Action_SA_CrossPlatform_App_UM_MediaResult__
-  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32,Action{SA.CrossPlatform.App.UM_MediaResult})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_PickVideo_System_Int32_System_Action_SA_CrossPlatform_App_UM_MediaResult__
+  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32,System.Action{SA.CrossPlatform.App.UM_MediaResult})
   name.vb: PickVideo(Int32, Action(Of UM_MediaResult))
-  fullName: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32, Action<SA.CrossPlatform.App.UM_MediaResult>)
-  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32, Action(Of SA.CrossPlatform.App.UM_MediaResult))
+  fullName: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32, System.Action<SA.CrossPlatform.App.UM_MediaResult>)
+  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.PickVideo(System.Int32, System.Action(Of SA.CrossPlatform.App.UM_MediaResult))
   nameWithType: UM_iGalleryService.PickVideo(Int32, Action<UM_MediaResult>)
   nameWithType.vb: UM_iGalleryService.PickVideo(Int32, Action(Of UM_MediaResult))
 - uid: SA.CrossPlatform.App.UM_iGalleryService.PickVideo*
@@ -14416,13 +14416,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iGalleryService.PickVideo
   nameWithType: UM_iGalleryService.PickVideo
-- uid: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D,System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D,System.String,System.Action{SA_Result})
   name: SaveImage(Texture2D, String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_SaveImage_Texture2D_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D,System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_SaveImage_Texture2D_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D,System.String,System.Action{SA_Result})
   name.vb: SaveImage(Texture2D, String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D, System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D, System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D, System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.SaveImage(Texture2D, System.String, System.Action(Of SA_Result))
   nameWithType: UM_iGalleryService.SaveImage(Texture2D, String, Action<SA_Result>)
   nameWithType.vb: UM_iGalleryService.SaveImage(Texture2D, String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.App.UM_iGalleryService.SaveImage*
@@ -14432,13 +14432,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_iGalleryService.SaveImage
   nameWithType: UM_iGalleryService.SaveImage
-- uid: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String,System.Action{SA_Result})
   name: SaveScreenshot(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_SaveScreenshot_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_iGalleryService.html#SA_CrossPlatform_App_UM_iGalleryService_SaveScreenshot_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String,System.Action{SA_Result})
   name.vb: SaveScreenshot(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot(System.String, System.Action(Of SA_Result))
   nameWithType: UM_iGalleryService.SaveScreenshot(String, Action<SA_Result>)
   nameWithType.vb: UM_iGalleryService.SaveScreenshot(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.App.UM_iGalleryService.SaveScreenshot*
@@ -14454,13 +14454,13 @@ references:
   commentId: T:SA.CrossPlatform.App.UM_IPermission
   fullName: SA.CrossPlatform.App.UM_IPermission
   nameWithType: UM_IPermission
-- uid: SA.CrossPlatform.App.UM_IPermission.RequestAccess(Action{SA.CrossPlatform.App.UM_AuthorizationStatus})
+- uid: SA.CrossPlatform.App.UM_IPermission.RequestAccess(System.Action{SA.CrossPlatform.App.UM_AuthorizationStatus})
   name: RequestAccess(Action<UM_AuthorizationStatus>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_IPermission.html#SA_CrossPlatform_App_UM_IPermission_RequestAccess_Action_SA_CrossPlatform_App_UM_AuthorizationStatus__
-  commentId: M:SA.CrossPlatform.App.UM_IPermission.RequestAccess(Action{SA.CrossPlatform.App.UM_AuthorizationStatus})
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_IPermission.html#SA_CrossPlatform_App_UM_IPermission_RequestAccess_System_Action_SA_CrossPlatform_App_UM_AuthorizationStatus__
+  commentId: M:SA.CrossPlatform.App.UM_IPermission.RequestAccess(System.Action{SA.CrossPlatform.App.UM_AuthorizationStatus})
   name.vb: RequestAccess(Action(Of UM_AuthorizationStatus))
-  fullName: SA.CrossPlatform.App.UM_IPermission.RequestAccess(Action<SA.CrossPlatform.App.UM_AuthorizationStatus>)
-  fullName.vb: SA.CrossPlatform.App.UM_IPermission.RequestAccess(Action(Of SA.CrossPlatform.App.UM_AuthorizationStatus))
+  fullName: SA.CrossPlatform.App.UM_IPermission.RequestAccess(System.Action<SA.CrossPlatform.App.UM_AuthorizationStatus>)
+  fullName.vb: SA.CrossPlatform.App.UM_IPermission.RequestAccess(System.Action(Of SA.CrossPlatform.App.UM_AuthorizationStatus))
   nameWithType: UM_IPermission.RequestAccess(Action<UM_AuthorizationStatus>)
   nameWithType.vb: UM_IPermission.RequestAccess(Action(Of UM_AuthorizationStatus))
 - uid: SA.CrossPlatform.App.UM_IPermission.RequestAccess*
@@ -14767,13 +14767,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.OnServiceUI
   nameWithType: UM_AdvertisementUI.OnServiceUI
-- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func{IMGUILayoutElement})
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(System.Func{IMGUILayoutElement})
   name: RegisterAdMobUILayout(Func<IMGUILayoutElement>)
-  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterAdMobUILayout_Func_IMGUILayoutElement__
-  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func{IMGUILayoutElement})
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterAdMobUILayout_System_Func_IMGUILayoutElement__
+  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(System.Func{IMGUILayoutElement})
   name.vb: RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
-  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func<IMGUILayoutElement>)
-  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(System.Func<IMGUILayoutElement>)
+  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout(System.Func(Of IMGUILayoutElement))
   nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout(Func<IMGUILayoutElement>)
   nameWithType.vb: UM_AdvertisementUI.RegisterAdMobUILayout(Func(Of IMGUILayoutElement))
 - uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout*
@@ -14783,13 +14783,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterAdMobUILayout
   nameWithType: UM_AdvertisementUI.RegisterAdMobUILayout
-- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func{IMGUILayoutElement})
+- uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(System.Func{IMGUILayoutElement})
   name: RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
-  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_Func_IMGUILayoutElement__
-  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func{IMGUILayoutElement})
+  href: ultimate-mobile/SA.CrossPlatform.Editor.UM_AdvertisementUI.html#SA_CrossPlatform_Editor_UM_AdvertisementUI_RegisterUnityAdsUILayout_System_Func_IMGUILayoutElement__
+  commentId: M:SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(System.Func{IMGUILayoutElement})
   name.vb: RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
-  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
-  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
+  fullName: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(System.Func<IMGUILayoutElement>)
+  fullName.vb: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout(System.Func(Of IMGUILayoutElement))
   nameWithType: UM_AdvertisementUI.RegisterUnityAdsUILayout(Func<IMGUILayoutElement>)
   nameWithType.vb: UM_AdvertisementUI.RegisterUnityAdsUILayout(Func(Of IMGUILayoutElement))
 - uid: SA.CrossPlatform.Editor.UM_AdvertisementUI.RegisterUnityAdsUILayout*
@@ -15175,13 +15175,13 @@ references:
   commentId: T:SA.CrossPlatform.GameServices.UM_iAchievementsClient
   fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient
   nameWithType: UM_iAchievementsClient
-- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String,System.Int32,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String,System.Int32,System.Action{SA_Result})
   name: Increment(String, Int32, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Increment_System_String_System_Int32_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String,System.Int32,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Increment_System_String_System_Int32_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String,System.Int32,System.Action{SA_Result})
   name.vb: Increment(String, Int32, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String, System.Int32, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String, System.Int32, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String, System.Int32, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment(System.String, System.Int32, System.Action(Of SA_Result))
   nameWithType: UM_iAchievementsClient.Increment(String, Int32, Action<SA_Result>)
   nameWithType.vb: UM_iAchievementsClient.Increment(String, Int32, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment*
@@ -15191,13 +15191,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Increment
   nameWithType: UM_iAchievementsClient.Increment
-- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(Action{SA.CrossPlatform.GameServices.UM_AchievementsLoadResult})
+- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(System.Action{SA.CrossPlatform.GameServices.UM_AchievementsLoadResult})
   name: Load(Action<UM_AchievementsLoadResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Load_Action_SA_CrossPlatform_GameServices_UM_AchievementsLoadResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(Action{SA.CrossPlatform.GameServices.UM_AchievementsLoadResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Load_System_Action_SA_CrossPlatform_GameServices_UM_AchievementsLoadResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(System.Action{SA.CrossPlatform.GameServices.UM_AchievementsLoadResult})
   name.vb: Load(Action(Of UM_AchievementsLoadResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(Action<SA.CrossPlatform.GameServices.UM_AchievementsLoadResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(Action(Of SA.CrossPlatform.GameServices.UM_AchievementsLoadResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(System.Action<SA.CrossPlatform.GameServices.UM_AchievementsLoadResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load(System.Action(Of SA.CrossPlatform.GameServices.UM_AchievementsLoadResult))
   nameWithType: UM_iAchievementsClient.Load(Action<UM_AchievementsLoadResult>)
   nameWithType.vb: UM_iAchievementsClient.Load(Action(Of UM_AchievementsLoadResult))
 - uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load*
@@ -15207,13 +15207,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Load
   nameWithType: UM_iAchievementsClient.Load
-- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String,System.Action{SA_Result})
   name: Reveal(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Reveal_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Reveal_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String,System.Action{SA_Result})
   name.vb: Reveal(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal(System.String, System.Action(Of SA_Result))
   nameWithType: UM_iAchievementsClient.Reveal(String, Action<SA_Result>)
   nameWithType.vb: UM_iAchievementsClient.Reveal(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal*
@@ -15223,13 +15223,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Reveal
   nameWithType: UM_iAchievementsClient.Reveal
-- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(System.Action{SA_Result})
   name: ShowUI(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_ShowUI_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_ShowUI_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(System.Action{SA_Result})
   name.vb: ShowUI(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI(System.Action(Of SA_Result))
   nameWithType: UM_iAchievementsClient.ShowUI(Action<SA_Result>)
   nameWithType.vb: UM_iAchievementsClient.ShowUI(Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI*
@@ -15239,13 +15239,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.ShowUI
   nameWithType: UM_iAchievementsClient.ShowUI
-- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String,System.Action{SA_Result})
   name: Unlock(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Unlock_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iAchievementsClient.html#SA_CrossPlatform_GameServices_UM_iAchievementsClient_Unlock_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String,System.Action{SA_Result})
   name.vb: Unlock(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock(System.String, System.Action(Of SA_Result))
   nameWithType: UM_iAchievementsClient.Unlock(String, Action<SA_Result>)
   nameWithType.vb: UM_iAchievementsClient.Unlock(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iAchievementsClient.Unlock*
@@ -15293,13 +15293,13 @@ references:
   commentId: T:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient
   fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient
   nameWithType: UM_iLeaderboardsClient
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,SA.CrossPlatform.GameServices.UM_LeaderboardCollection,Action{SA.CrossPlatform.GameServices.UM_ScoreLoadResult})
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,SA.CrossPlatform.GameServices.UM_LeaderboardCollection,System.Action{SA.CrossPlatform.GameServices.UM_ScoreLoadResult})
   name: LoadCurrentPlayerScore(String, UM_LeaderboardTimeSpan, UM_LeaderboardCollection, Action<UM_ScoreLoadResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadCurrentPlayerScore_System_String_SA_CrossPlatform_GameServices_UM_LeaderboardTimeSpan_SA_CrossPlatform_GameServices_UM_LeaderboardCollection_Action_SA_CrossPlatform_GameServices_UM_ScoreLoadResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,SA.CrossPlatform.GameServices.UM_LeaderboardCollection,Action{SA.CrossPlatform.GameServices.UM_ScoreLoadResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadCurrentPlayerScore_System_String_SA_CrossPlatform_GameServices_UM_LeaderboardTimeSpan_SA_CrossPlatform_GameServices_UM_LeaderboardCollection_System_Action_SA_CrossPlatform_GameServices_UM_ScoreLoadResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,SA.CrossPlatform.GameServices.UM_LeaderboardCollection,System.Action{SA.CrossPlatform.GameServices.UM_ScoreLoadResult})
   name.vb: LoadCurrentPlayerScore(String, UM_LeaderboardTimeSpan, UM_LeaderboardCollection, Action(Of UM_ScoreLoadResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, SA.CrossPlatform.GameServices.UM_LeaderboardCollection, Action<SA.CrossPlatform.GameServices.UM_ScoreLoadResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, SA.CrossPlatform.GameServices.UM_LeaderboardCollection, Action(Of SA.CrossPlatform.GameServices.UM_ScoreLoadResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, SA.CrossPlatform.GameServices.UM_LeaderboardCollection, System.Action<SA.CrossPlatform.GameServices.UM_ScoreLoadResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, SA.CrossPlatform.GameServices.UM_LeaderboardCollection, System.Action(Of SA.CrossPlatform.GameServices.UM_ScoreLoadResult))
   nameWithType: UM_iLeaderboardsClient.LoadCurrentPlayerScore(String, UM_LeaderboardTimeSpan, UM_LeaderboardCollection, Action<UM_ScoreLoadResult>)
   nameWithType.vb: UM_iLeaderboardsClient.LoadCurrentPlayerScore(String, UM_LeaderboardTimeSpan, UM_LeaderboardCollection, Action(Of UM_ScoreLoadResult))
 - uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore*
@@ -15309,13 +15309,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadCurrentPlayerScore
   nameWithType: UM_iLeaderboardsClient.LoadCurrentPlayerScore
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action{SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult})
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(System.Action{SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult})
   name: LoadLeaderboardsMetadata(Action<UM_LoadLeaderboardsMetaResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadLeaderboardsMetadata_Action_SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action{SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_LoadLeaderboardsMetadata_System_Action_SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(System.Action{SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult})
   name.vb: LoadLeaderboardsMetadata(Action(Of UM_LoadLeaderboardsMetaResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action<SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action(Of SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(System.Action<SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata(System.Action(Of SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult))
   nameWithType: UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action<UM_LoadLeaderboardsMetaResult>)
   nameWithType.vb: UM_iLeaderboardsClient.LoadLeaderboardsMetadata(Action(Of UM_LoadLeaderboardsMetaResult))
 - uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata*
@@ -15325,33 +15325,33 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.LoadLeaderboardsMetadata
   nameWithType: UM_iLeaderboardsClient.LoadLeaderboardsMetadata
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.Action{SA_Result})
   name: ShowUI(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.Action{SA_Result})
   name.vb: ShowUI(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.Action(Of SA_Result))
   nameWithType: UM_iLeaderboardsClient.ShowUI(Action<SA_Result>)
   nameWithType.vb: UM_iLeaderboardsClient.ShowUI(Action(Of SA_Result))
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,Action{SA_Result})
-  name: ShowUI(String, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_System_String_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,Action{SA_Result})
-  name.vb: ShowUI(String, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, Action(Of SA_Result))
-  nameWithType: UM_iLeaderboardsClient.ShowUI(String, Action<SA_Result>)
-  nameWithType.vb: UM_iLeaderboardsClient.ShowUI(String, Action(Of SA_Result))
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,System.Action{SA_Result})
   name: ShowUI(String, UM_LeaderboardTimeSpan, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_System_String_SA_CrossPlatform_GameServices_UM_LeaderboardTimeSpan_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_System_String_SA_CrossPlatform_GameServices_UM_LeaderboardTimeSpan_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan,System.Action{SA_Result})
   name.vb: ShowUI(String, UM_LeaderboardTimeSpan, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, SA.CrossPlatform.GameServices.UM_LeaderboardTimeSpan, System.Action(Of SA_Result))
   nameWithType: UM_iLeaderboardsClient.ShowUI(String, UM_LeaderboardTimeSpan, Action<SA_Result>)
   nameWithType.vb: UM_iLeaderboardsClient.ShowUI(String, UM_LeaderboardTimeSpan, Action(Of SA_Result))
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,System.Action{SA_Result})
+  name: ShowUI(String, Action<SA_Result>)
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_System_String_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String,System.Action{SA_Result})
+  name.vb: ShowUI(String, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI(System.String, System.Action(Of SA_Result))
+  nameWithType: UM_iLeaderboardsClient.ShowUI(String, Action<SA_Result>)
+  nameWithType.vb: UM_iLeaderboardsClient.ShowUI(String, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI*
   name: ShowUI
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_ShowUI_
@@ -15359,13 +15359,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.ShowUI
   nameWithType: UM_iLeaderboardsClient.ShowUI
-- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt64,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt64,System.Action{SA_Result})
   name: SubmitScore(String, Int64, UInt64, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_UInt64_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt64,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.html#SA_CrossPlatform_GameServices_UM_iLeaderboardsClient_SubmitScore_System_String_System_Int64_System_UInt64_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String,System.Int64,System.UInt64,System.Action{SA_Result})
   name.vb: SubmitScore(String, Int64, UInt64, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt64, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt64, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt64, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore(System.String, System.Int64, System.UInt64, System.Action(Of SA_Result))
   nameWithType: UM_iLeaderboardsClient.SubmitScore(String, Int64, UInt64, Action<SA_Result>)
   nameWithType.vb: UM_iLeaderboardsClient.SubmitScore(String, Int64, UInt64, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iLeaderboardsClient.SubmitScore*
@@ -15407,13 +15407,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iPlayer.DisplayName
   nameWithType: UM_iPlayer.DisplayName
-- uid: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(Action{Texture2D})
+- uid: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(System.Action{Texture2D})
   name: GetAvatar(Action<Texture2D>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iPlayer.html#SA_CrossPlatform_GameServices_UM_iPlayer_GetAvatar_Action_Texture2D__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(Action{Texture2D})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iPlayer.html#SA_CrossPlatform_GameServices_UM_iPlayer_GetAvatar_System_Action_Texture2D__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(System.Action{Texture2D})
   name.vb: GetAvatar(Action(Of Texture2D))
-  fullName: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(Action<Texture2D>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(Action(Of Texture2D))
+  fullName: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(System.Action<Texture2D>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar(System.Action(Of Texture2D))
   nameWithType: UM_iPlayer.GetAvatar(Action<Texture2D>)
   nameWithType.vb: UM_iPlayer.GetAvatar(Action(Of Texture2D))
 - uid: SA.CrossPlatform.GameServices.UM_iPlayer.GetAvatar*
@@ -15474,13 +15474,13 @@ references:
   commentId: T:SA.CrossPlatform.GameServices.UM_iSavedGamesClient
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient
   nameWithType: UM_iSavedGamesClient
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA_Result})
   name: Delete(UM_iSavedGameMetadata, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_Delete_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_Delete_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA_Result})
   name.vb: Delete(UM_iSavedGameMetadata, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action(Of SA_Result))
   nameWithType: UM_iSavedGamesClient.Delete(UM_iSavedGameMetadata, Action<SA_Result>)
   nameWithType.vb: UM_iSavedGamesClient.Delete(UM_iSavedGameMetadata, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete*
@@ -15490,13 +15490,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.Delete
   nameWithType: UM_iSavedGamesClient.Delete
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(Action{SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(System.Action{SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult})
   name: FetchSavedGames(Action<UM_SavedGamesMetadataResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_FetchSavedGames_Action_SA_CrossPlatform_GameServices_UM_SavedGamesMetadataResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(Action{SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_FetchSavedGames_System_Action_SA_CrossPlatform_GameServices_UM_SavedGamesMetadataResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(System.Action{SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult})
   name.vb: FetchSavedGames(Action(Of UM_SavedGamesMetadataResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(Action<SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(Action(Of SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(System.Action<SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames(System.Action(Of SA.CrossPlatform.GameServices.UM_SavedGamesMetadataResult))
   nameWithType: UM_iSavedGamesClient.FetchSavedGames(Action<UM_SavedGamesMetadataResult>)
   nameWithType.vb: UM_iSavedGamesClient.FetchSavedGames(Action(Of UM_SavedGamesMetadataResult))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames*
@@ -15506,13 +15506,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.FetchSavedGames
   nameWithType: UM_iSavedGamesClient.FetchSavedGames
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
   name: LoadGameData(UM_iSavedGameMetadata, Action<UM_SavedGameDataLoadResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_LoadGameData_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_Action_SA_CrossPlatform_GameServices_UM_SavedGameDataLoadResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_LoadGameData_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_System_Action_SA_CrossPlatform_GameServices_UM_SavedGameDataLoadResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
   name.vb: LoadGameData(UM_iSavedGameMetadata, Action(Of UM_SavedGameDataLoadResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action<SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action(Of SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action<SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action(Of SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult))
   nameWithType: UM_iSavedGamesClient.LoadGameData(UM_iSavedGameMetadata, Action<UM_SavedGameDataLoadResult>)
   nameWithType.vb: UM_iSavedGamesClient.LoadGameData(UM_iSavedGameMetadata, Action(Of UM_SavedGameDataLoadResult))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData*
@@ -15522,13 +15522,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameData
   nameWithType: UM_iSavedGamesClient.LoadGameData
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
   name: LoadGameWithMeta(UM_iSavedGameMetadata, Action<UM_SavedGameDataLoadResult>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_LoadGameWithMeta_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_Action_SA_CrossPlatform_GameServices_UM_SavedGameDataLoadResult__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_LoadGameWithMeta_SA_CrossPlatform_GameServices_UM_iSavedGameMetadata_System_Action_SA_CrossPlatform_GameServices_UM_SavedGameDataLoadResult__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata,System.Action{SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult})
   name.vb: LoadGameWithMeta(UM_iSavedGameMetadata, Action(Of UM_SavedGameDataLoadResult))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action<SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, Action(Of SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action<SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta(SA.CrossPlatform.GameServices.UM_iSavedGameMetadata, System.Action(Of SA.CrossPlatform.GameServices.UM_SavedGameDataLoadResult))
   nameWithType: UM_iSavedGamesClient.LoadGameWithMeta(UM_iSavedGameMetadata, Action<UM_SavedGameDataLoadResult>)
   nameWithType.vb: UM_iSavedGamesClient.LoadGameWithMeta(UM_iSavedGameMetadata, Action(Of UM_SavedGameDataLoadResult))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta*
@@ -15538,13 +15538,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.LoadGameWithMeta
   nameWithType: UM_iSavedGamesClient.LoadGameWithMeta
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String,System.Byte[],Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String,System.Byte[],System.Action{SA_Result})
   name: SaveGame(String, Byte[], Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_SaveGame_System_String_System_Byte___Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String,System.Byte[],Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_SaveGame_System_String_System_Byte___System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String,System.Byte[],System.Action{SA_Result})
   name.vb: SaveGame(String, Byte(), Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String, System.Byte[], Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String, System.Byte(), Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String, System.Byte[], System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame(System.String, System.Byte(), System.Action(Of SA_Result))
   nameWithType: UM_iSavedGamesClient.SaveGame(String, Byte[], Action<SA_Result>)
   nameWithType.vb: UM_iSavedGamesClient.SaveGame(String, Byte(), Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame*
@@ -15554,13 +15554,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGame
   nameWithType: UM_iSavedGamesClient.SaveGame
-- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String,System.Byte[],SA.CrossPlatform.GameServices.UM_SaveInfo,Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String,System.Byte[],SA.CrossPlatform.GameServices.UM_SaveInfo,System.Action{SA_Result})
   name: SaveGameWithMeta(String, Byte[], UM_SaveInfo, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_SaveGameWithMeta_System_String_System_Byte___SA_CrossPlatform_GameServices_UM_SaveInfo_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String,System.Byte[],SA.CrossPlatform.GameServices.UM_SaveInfo,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSavedGamesClient.html#SA_CrossPlatform_GameServices_UM_iSavedGamesClient_SaveGameWithMeta_System_String_System_Byte___SA_CrossPlatform_GameServices_UM_SaveInfo_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String,System.Byte[],SA.CrossPlatform.GameServices.UM_SaveInfo,System.Action{SA_Result})
   name.vb: SaveGameWithMeta(String, Byte(), UM_SaveInfo, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String, System.Byte[], SA.CrossPlatform.GameServices.UM_SaveInfo, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String, System.Byte(), SA.CrossPlatform.GameServices.UM_SaveInfo, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String, System.Byte[], SA.CrossPlatform.GameServices.UM_SaveInfo, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta(System.String, System.Byte(), SA.CrossPlatform.GameServices.UM_SaveInfo, System.Action(Of SA_Result))
   nameWithType: UM_iSavedGamesClient.SaveGameWithMeta(String, Byte[], UM_SaveInfo, Action<SA_Result>)
   nameWithType.vb: UM_iSavedGamesClient.SaveGameWithMeta(String, Byte(), UM_SaveInfo, Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSavedGamesClient.SaveGameWithMeta*
@@ -15673,13 +15673,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.PlayerInfo
   nameWithType: UM_iSignInClient.PlayerInfo
-- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(System.Action{SA_Result})
   name: SignIn(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SignIn_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SignIn_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(System.Action{SA_Result})
   name.vb: SignIn(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn(System.Action(Of SA_Result))
   nameWithType: UM_iSignInClient.SignIn(Action<SA_Result>)
   nameWithType.vb: UM_iSignInClient.SignIn(Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn*
@@ -15689,13 +15689,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignIn
   nameWithType: UM_iSignInClient.SignIn
-- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(System.Action{SA_Result})
   name: SignOut(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SignOut_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SignOut_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(System.Action{SA_Result})
   name.vb: SignOut(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut(System.Action(Of SA_Result))
   nameWithType: UM_iSignInClient.SignOut(Action<SA_Result>)
   nameWithType.vb: UM_iSignInClient.SignOut(Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut*
@@ -15705,13 +15705,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SignOut
   nameWithType: UM_iSignInClient.SignOut
-- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action{SA_Result})
+- uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(System.Action{SA_Result})
   name: SingIn(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_iSignInClient.html#SA_CrossPlatform_GameServices_UM_iSignInClient_SingIn_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(System.Action{SA_Result})
   name.vb: SingIn(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn(System.Action(Of SA_Result))
   nameWithType: UM_iSignInClient.SingIn(Action<SA_Result>)
   nameWithType.vb: UM_iSignInClient.SingIn(Action(Of SA_Result))
 - uid: SA.CrossPlatform.GameServices.UM_iSignInClient.SingIn*
@@ -16036,13 +16036,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.GameServices.UM_SaveInfo.Description
   nameWithType: UM_SaveInfo.Description
-- uid: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(Action{Texture2D})
+- uid: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(System.Action{Texture2D})
   name: LoadCoverImage(Action<Texture2D>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_SaveInfo.html#SA_CrossPlatform_GameServices_UM_SaveInfo_LoadCoverImage_Action_Texture2D__
-  commentId: M:SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(Action{Texture2D})
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_SaveInfo.html#SA_CrossPlatform_GameServices_UM_SaveInfo_LoadCoverImage_System_Action_Texture2D__
+  commentId: M:SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(System.Action{Texture2D})
   name.vb: LoadCoverImage(Action(Of Texture2D))
-  fullName: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(Action<Texture2D>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(Action(Of Texture2D))
+  fullName: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(System.Action<Texture2D>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage(System.Action(Of Texture2D))
   nameWithType: UM_SaveInfo.LoadCoverImage(Action<Texture2D>)
   nameWithType.vb: UM_SaveInfo.LoadCoverImage(Action(Of Texture2D))
 - uid: SA.CrossPlatform.GameServices.UM_SaveInfo.LoadCoverImage*
@@ -16296,24 +16296,24 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.InApp.UM_iInAppClient.AddPayment
   nameWithType: UM_iInAppClient.AddPayment
-- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action{SA_iResult})
-  name: Connect(Action<SA_iResult>)
-  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_Action_SA_iResult__
-  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action{SA_iResult})
-  name.vb: Connect(Action(Of SA_iResult))
-  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action<SA_iResult>)
-  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action(Of SA_iResult))
-  nameWithType: UM_iInAppClient.Connect(Action<SA_iResult>)
-  nameWithType.vb: UM_iInAppClient.Connect(Action(Of SA_iResult))
-- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
   name: Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
-  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__Action_SA_iResult__
-  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__System_Action_SA_iResult__
+  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
   name.vb: Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
-  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, Action<SA_iResult>)
-  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), Action(Of SA_iResult))
+  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, System.Action<SA_iResult>)
+  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), System.Action(Of SA_iResult))
   nameWithType: UM_iInAppClient.Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
   nameWithType.vb: UM_iInAppClient.Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
+- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action{SA_iResult})
+  name: Connect(Action<SA_iResult>)
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_System_Action_SA_iResult__
+  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action{SA_iResult})
+  name.vb: Connect(Action(Of SA_iResult))
+  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action<SA_iResult>)
+  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action(Of SA_iResult))
+  nameWithType: UM_iInAppClient.Connect(Action<SA_iResult>)
+  nameWithType.vb: UM_iInAppClient.Connect(Action(Of SA_iResult))
 - uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect*
   name: Connect
   href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_
@@ -16785,11 +16785,11 @@ references:
   commentId: T:SA.CrossPlatform.Media.UM_MediaPlayer
   fullName: SA.CrossPlatform.Media.UM_MediaPlayer
   nameWithType: UM_MediaPlayer
-- uid: SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String,Action)
+- uid: SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String,System.Action)
   name: ShowRemoteVideo(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.Media.UM_MediaPlayer.html#SA_CrossPlatform_Media_UM_MediaPlayer_ShowRemoteVideo_System_String_Action_
-  commentId: M:SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String,Action)
-  fullName: SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.Media.UM_MediaPlayer.html#SA_CrossPlatform_Media_UM_MediaPlayer_ShowRemoteVideo_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String,System.Action)
+  fullName: SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo(System.String, System.Action)
   nameWithType: UM_MediaPlayer.ShowRemoteVideo(String, Action)
 - uid: SA.CrossPlatform.Media.UM_MediaPlayer.ShowRemoteVideo*
   name: ShowRemoteVideo
@@ -16810,13 +16810,13 @@ references:
   commentId: T:SA.CrossPlatform.Notifications.UM_iNotificationsClient
   fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient
   nameWithType: UM_iNotificationsClient
-- uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest,Action{SA_Result})
+- uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest,System.Action{SA_Result})
   name: AddNotificationRequest(UM_NotificationRequest, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Notifications.UM_iNotificationsClient.html#SA_CrossPlatform_Notifications_UM_iNotificationsClient_AddNotificationRequest_SA_CrossPlatform_Notifications_UM_NotificationRequest_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Notifications.UM_iNotificationsClient.html#SA_CrossPlatform_Notifications_UM_iNotificationsClient_AddNotificationRequest_SA_CrossPlatform_Notifications_UM_NotificationRequest_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest,System.Action{SA_Result})
   name.vb: AddNotificationRequest(UM_NotificationRequest, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest(SA.CrossPlatform.Notifications.UM_NotificationRequest, System.Action(Of SA_Result))
   nameWithType: UM_iNotificationsClient.AddNotificationRequest(UM_NotificationRequest, Action<SA_Result>)
   nameWithType.vb: UM_iNotificationsClient.AddNotificationRequest(UM_NotificationRequest, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.AddNotificationRequest*
@@ -16917,13 +16917,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RemovePendingNotification
   nameWithType: UM_iNotificationsClient.RemovePendingNotification
-- uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(Action{SA_Result})
+- uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(System.Action{SA_Result})
   name: RequestAuthorization(Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Notifications.UM_iNotificationsClient.html#SA_CrossPlatform_Notifications_UM_iNotificationsClient_RequestAuthorization_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Notifications.UM_iNotificationsClient.html#SA_CrossPlatform_Notifications_UM_iNotificationsClient_RequestAuthorization_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(System.Action{SA_Result})
   name.vb: RequestAuthorization(Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization(System.Action(Of SA_Result))
   nameWithType: UM_iNotificationsClient.RequestAuthorization(Action<SA_Result>)
   nameWithType.vb: UM_iNotificationsClient.RequestAuthorization(Action(Of SA_Result))
 - uid: SA.CrossPlatform.Notifications.UM_iNotificationsClient.RequestAuthorization*
@@ -17306,13 +17306,13 @@ references:
   commentId: T:SA.CrossPlatform.Social.UM_iNativeSharingClient
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient
   nameWithType: UM_iNativeSharingClient
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name: ShareToFacebook(UM_ShareDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToFacebook_SA_CrossPlatform_Social_UM_ShareDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToFacebook_SA_CrossPlatform_Social_UM_ShareDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name.vb: ShareToFacebook(UM_ShareDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.ShareToFacebook(UM_ShareDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.ShareToFacebook(UM_ShareDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook*
@@ -17322,13 +17322,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToFacebook
   nameWithType: UM_iNativeSharingClient.ShareToFacebook
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name: ShareToInstagram(UM_ShareDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToInstagram_SA_CrossPlatform_Social_UM_ShareDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToInstagram_SA_CrossPlatform_Social_UM_ShareDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name.vb: ShareToInstagram(UM_ShareDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.ShareToInstagram(UM_ShareDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.ShareToInstagram(UM_ShareDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram*
@@ -17338,13 +17338,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToInstagram
   nameWithType: UM_iNativeSharingClient.ShareToInstagram
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name: ShareToTwitter(UM_ShareDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToTwitter_SA_CrossPlatform_Social_UM_ShareDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToTwitter_SA_CrossPlatform_Social_UM_ShareDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name.vb: ShareToTwitter(UM_ShareDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.ShareToTwitter(UM_ShareDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.ShareToTwitter(UM_ShareDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter*
@@ -17354,13 +17354,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToTwitter
   nameWithType: UM_iNativeSharingClient.ShareToTwitter
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name: ShareToWhatsapp(UM_ShareDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToWhatsapp_SA_CrossPlatform_Social_UM_ShareDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShareToWhatsapp_SA_CrossPlatform_Social_UM_ShareDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name.vb: ShareToWhatsapp(UM_ShareDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.ShareToWhatsapp(UM_ShareDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.ShareToWhatsapp(UM_ShareDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp*
@@ -17370,13 +17370,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShareToWhatsapp
   nameWithType: UM_iNativeSharingClient.ShareToWhatsapp
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder,System.Action{SA_Result})
   name: ShowSendMailDialog(UM_EmailDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShowSendMailDialog_SA_CrossPlatform_Social_UM_EmailDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_ShowSendMailDialog_SA_CrossPlatform_Social_UM_EmailDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder,System.Action{SA_Result})
   name.vb: ShowSendMailDialog(UM_EmailDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog(SA.CrossPlatform.Social.UM_EmailDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.ShowSendMailDialog(UM_EmailDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.ShowSendMailDialog(UM_EmailDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog*
@@ -17386,13 +17386,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.ShowSendMailDialog
   nameWithType: UM_iNativeSharingClient.ShowSendMailDialog
-- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+- uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name: SystemSharingDialog(UM_ShareDialogBuilder, Action<SA_Result>)
-  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_SystemSharingDialog_SA_CrossPlatform_Social_UM_ShareDialogBuilder_Action_SA_Result__
-  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder,Action{SA_Result})
+  href: ultimate-mobile/SA.CrossPlatform.Social.UM_iNativeSharingClient.html#SA_CrossPlatform_Social_UM_iNativeSharingClient_SystemSharingDialog_SA_CrossPlatform_Social_UM_ShareDialogBuilder_System_Action_SA_Result__
+  commentId: M:SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder,System.Action{SA_Result})
   name.vb: SystemSharingDialog(UM_ShareDialogBuilder, Action(Of SA_Result))
-  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action<SA_Result>)
-  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder, Action(Of SA_Result))
+  fullName: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action<SA_Result>)
+  fullName.vb: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog(SA.CrossPlatform.Social.UM_ShareDialogBuilder, System.Action(Of SA_Result))
   nameWithType: UM_iNativeSharingClient.SystemSharingDialog(UM_ShareDialogBuilder, Action<SA_Result>)
   nameWithType.vb: UM_iNativeSharingClient.SystemSharingDialog(UM_ShareDialogBuilder, Action(Of SA_Result))
 - uid: SA.CrossPlatform.Social.UM_iNativeSharingClient.SystemSharingDialog*
@@ -17543,13 +17543,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_DatePickerDialog.UM_DatePickerDialog
   nameWithType: UM_DatePickerDialog.UM_DatePickerDialog
-- uid: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(Action{SA.CrossPlatform.UI.UN_DatePickerResult})
+- uid: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(System.Action{SA.CrossPlatform.UI.UN_DatePickerResult})
   name: Show(Action<UN_DatePickerResult>)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html#SA_CrossPlatform_UI_UM_DatePickerDialog_Show_Action_SA_CrossPlatform_UI_UN_DatePickerResult__
-  commentId: M:SA.CrossPlatform.UI.UM_DatePickerDialog.Show(Action{SA.CrossPlatform.UI.UN_DatePickerResult})
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html#SA_CrossPlatform_UI_UM_DatePickerDialog_Show_System_Action_SA_CrossPlatform_UI_UN_DatePickerResult__
+  commentId: M:SA.CrossPlatform.UI.UM_DatePickerDialog.Show(System.Action{SA.CrossPlatform.UI.UN_DatePickerResult})
   name.vb: Show(Action(Of UN_DatePickerResult))
-  fullName: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(Action<SA.CrossPlatform.UI.UN_DatePickerResult>)
-  fullName.vb: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(Action(Of SA.CrossPlatform.UI.UN_DatePickerResult))
+  fullName: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(System.Action<SA.CrossPlatform.UI.UN_DatePickerResult>)
+  fullName.vb: SA.CrossPlatform.UI.UM_DatePickerDialog.Show(System.Action(Of SA.CrossPlatform.UI.UN_DatePickerResult))
   nameWithType: UM_DatePickerDialog.Show(Action<UN_DatePickerResult>)
   nameWithType.vb: UM_DatePickerDialog.Show(Action(Of UN_DatePickerResult))
 - uid: SA.CrossPlatform.UI.UM_DatePickerDialog.Show*
@@ -17674,11 +17674,11 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button
   fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button
   nameWithType: UM_NativeDialogBuilder.Button
-- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.#ctor(System.String,Action)
+- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.#ctor(System.String,System.Action)
   name: Button(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_Button__ctor_System_String_Action_
-  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.#ctor(System.String,Action)
-  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.Button(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_Button__ctor_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.#ctor(System.String,System.Action)
+  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.Button(System.String, System.Action)
   nameWithType: UM_NativeDialogBuilder.Button.Button(String, Action)
 - uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.Button.#ctor*
   name: Button
@@ -17764,11 +17764,11 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.PositiveButton
   nameWithType: UM_NativeDialogBuilder.PositiveButton
-- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String,Action)
+- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String,System.Action)
   name: SetDestructiveButton(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetDestructiveButton_System_String_Action_
-  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String,Action)
-  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetDestructiveButton_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String,System.Action)
+  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton(System.String, System.Action)
   nameWithType: UM_NativeDialogBuilder.SetDestructiveButton(String, Action)
 - uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetDestructiveButton*
   name: SetDestructiveButton
@@ -17790,11 +17790,11 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetMessage
   nameWithType: UM_NativeDialogBuilder.SetMessage
-- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String,Action)
+- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String,System.Action)
   name: SetNegativeButton(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetNegativeButton_System_String_Action_
-  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String,Action)
-  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetNegativeButton_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String,System.Action)
+  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton(System.String, System.Action)
   nameWithType: UM_NativeDialogBuilder.SetNegativeButton(String, Action)
 - uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton*
   name: SetNegativeButton
@@ -17803,11 +17803,11 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNegativeButton
   nameWithType: UM_NativeDialogBuilder.SetNegativeButton
-- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String,Action)
+- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String,System.Action)
   name: SetNeutralButton(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetNeutralButton_System_String_Action_
-  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String,Action)
-  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetNeutralButton_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String,System.Action)
+  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton(System.String, System.Action)
   nameWithType: UM_NativeDialogBuilder.SetNeutralButton(String, Action)
 - uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton*
   name: SetNeutralButton
@@ -17816,11 +17816,11 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetNeutralButton
   nameWithType: UM_NativeDialogBuilder.SetNeutralButton
-- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String,Action)
+- uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String,System.Action)
   name: SetPositiveButton(String, Action)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetPositiveButton_System_String_Action_
-  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String,Action)
-  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String, Action)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_NativeDialogBuilder.html#SA_CrossPlatform_UI_UM_NativeDialogBuilder_SetPositiveButton_System_String_System_Action_
+  commentId: M:SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String,System.Action)
+  fullName: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton(System.String, System.Action)
   nameWithType: UM_NativeDialogBuilder.SetPositiveButton(String, Action)
 - uid: SA.CrossPlatform.UI.UM_NativeDialogBuilder.SetPositiveButton*
   name: SetPositiveButton
@@ -17941,13 +17941,13 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.DefaultValueIndex
   nameWithType: UM_WheelPickerDialog.DefaultValueIndex
-- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(Action{SA.CrossPlatform.UI.UM_WheelPickerResult})
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(System.Action{SA.CrossPlatform.UI.UM_WheelPickerResult})
   name: Show(Action<UM_WheelPickerResult>)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_Show_Action_SA_CrossPlatform_UI_UM_WheelPickerResult__
-  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(Action{SA.CrossPlatform.UI.UM_WheelPickerResult})
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog_Show_System_Action_SA_CrossPlatform_UI_UM_WheelPickerResult__
+  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(System.Action{SA.CrossPlatform.UI.UM_WheelPickerResult})
   name.vb: Show(Action(Of UM_WheelPickerResult))
-  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(Action<SA.CrossPlatform.UI.UM_WheelPickerResult>)
-  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(Action(Of SA.CrossPlatform.UI.UM_WheelPickerResult))
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(System.Action<SA.CrossPlatform.UI.UM_WheelPickerResult>)
+  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show(System.Action(Of SA.CrossPlatform.UI.UM_WheelPickerResult))
   nameWithType: UM_WheelPickerDialog.Show(Action<UM_WheelPickerResult>)
   nameWithType.vb: UM_WheelPickerDialog.Show(Action(Of UM_WheelPickerResult))
 - uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.Show*
@@ -30296,13 +30296,13 @@ references:
   commentId: T:StansAssets.Build.Editor.IBuildStep
   fullName: StansAssets.Build.Editor.IBuildStep
   nameWithType: IBuildStep
-- uid: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+- uid: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,System.Action{StansAssets.Build.Editor.BuildStepResultArgs})
   name: Execute(IBuildContext, Action<BuildStepResultArgs>)
-  href: build/StansAssets.Build.Editor.IBuildStep.html#StansAssets_Build_Editor_IBuildStep_Execute_StansAssets_Build_Editor_IBuildContext_Action_StansAssets_Build_Editor_BuildStepResultArgs__
-  commentId: M:StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,Action{StansAssets.Build.Editor.BuildStepResultArgs})
+  href: build/StansAssets.Build.Editor.IBuildStep.html#StansAssets_Build_Editor_IBuildStep_Execute_StansAssets_Build_Editor_IBuildContext_System_Action_StansAssets_Build_Editor_BuildStepResultArgs__
+  commentId: M:StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext,System.Action{StansAssets.Build.Editor.BuildStepResultArgs})
   name.vb: Execute(IBuildContext, Action(Of BuildStepResultArgs))
-  fullName: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action<StansAssets.Build.Editor.BuildStepResultArgs>)
-  fullName.vb: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, Action(Of StansAssets.Build.Editor.BuildStepResultArgs))
+  fullName: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, System.Action<StansAssets.Build.Editor.BuildStepResultArgs>)
+  fullName.vb: StansAssets.Build.Editor.IBuildStep.Execute(StansAssets.Build.Editor.IBuildContext, System.Action(Of StansAssets.Build.Editor.BuildStepResultArgs))
   nameWithType: IBuildStep.Execute(IBuildContext, Action<BuildStepResultArgs>)
   nameWithType.vb: IBuildStep.Execute(IBuildContext, Action(Of BuildStepResultArgs))
 - uid: StansAssets.Build.Editor.IBuildStep.Execute*
@@ -30370,13 +30370,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.IBuildTask.OnBuildFinished
   nameWithType: IBuildTask.OnBuildFinished
-- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
   name: OnPostprocessGameObject(GameObject, List<Component>)
-  href: build/StansAssets.Build.Editor.IBuildTask.html#StansAssets_Build_Editor_IBuildTask_OnPostprocessGameObject_GameObject_List_Component__
-  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  href: build/StansAssets.Build.Editor.IBuildTask.html#StansAssets_Build_Editor_IBuildTask_OnPostprocessGameObject_GameObject_System_Collections_Generic_List_Component__
+  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
   name.vb: OnPostprocessGameObject(GameObject, List(Of Component))
-  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
-  fullName.vb: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, System.Collections.Generic.List<Component>)
+  fullName.vb: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, System.Collections.Generic.List(Of Component))
   nameWithType: IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
   nameWithType.vb: IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
 - uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject*
@@ -37718,13 +37718,13 @@ references:
   isSpec: "True"
   fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValue
   nameWithType: BuildManifestObject.SetValue
-- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
   name: SetValues(Dictionary<String, Object>)
-  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValues_Dictionary_System_String_System_Object__
-  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+  href: build/UnityEngine.CloudBuild.BuildManifestObject.html#UnityEngine_CloudBuild_BuildManifestObject_SetValues_System_Collections_Generic_Dictionary_System_String_System_Object__
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
   name.vb: SetValues(Dictionary(Of String, Object))
-  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary<System.String, System.Object>)
-  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary(Of System.String, System.Object))
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary(Of System.String, System.Object))
   nameWithType: BuildManifestObject.SetValues(Dictionary<String, Object>)
   nameWithType.vb: BuildManifestObject.SetValues(Dictionary(Of String, Object))
 - uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues*
