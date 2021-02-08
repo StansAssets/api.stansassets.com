@@ -17,7 +17,7 @@ items:
   source:
     id: ICellPointer
     path: ''
-    startLine: 2336
+    startLine: 2305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -44,7 +44,7 @@ items:
   source:
     id: Row
     path: ''
-    startLine: 2338
+    startLine: 2307
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -73,7 +73,7 @@ items:
   source:
     id: Column
     path: ''
-    startLine: 2339
+    startLine: 2308
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

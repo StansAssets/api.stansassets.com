@@ -4144,6 +4144,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html",
+          "hash": "X0l2bPBjB4ev10WqP1tp5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.html",
+          "hash": "N7lhtVqpXta9bn+T4o3vMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "google-doc/StansAssets.GoogleDoc.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "google-doc/StansAssets.GoogleDoc.Editor.html",
+          "hash": "efpVCZjLvKOU6Vix64ggiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "google-doc/StansAssets.GoogleDoc.GoogleDocConnector.yml",
       "output": {
         ".html": {
@@ -4436,7 +4472,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.SpreadsheetExtension.html",
-          "hash": "E1lX1llpHT7g/PRG7yWLxg=="
+          "hash": "dqLtD3iV3ib/tzSgXWc9Qg=="
         }
       },
       "is_incremental": false,
@@ -4448,7 +4484,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/StansAssets.GoogleDoc.html",
-          "hash": "51BOMumiu9MTpU6uJzngcg=="
+          "hash": "ceo6SvXOKhN8Lu0vWbsujg=="
         }
       },
       "is_incremental": false,
@@ -4496,7 +4532,7 @@
       "output": {
         ".html": {
           "relative_path": "google-doc/toc.html",
-          "hash": "ot/R88ddDBoDPigQeymOzw=="
+          "hash": "Boqvxw7AU9nq2EhMWpUkZA=="
         }
       },
       "is_incremental": false,
@@ -8545,7 +8581,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 686,
+          "total_file_count": 689,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

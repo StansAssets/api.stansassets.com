@@ -8,20 +8,10 @@
     name: CellValue
   - uid: StansAssets.GoogleDoc.GoogleDocConnector
     name: GoogleDocConnector
-  - uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor
-    name: GoogleDocConnectorEditor
-  - uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
-    name: GoogleDocConnectorPackage
   - uid: StansAssets.GoogleDoc.GridRange
     name: GridRange
   - uid: StansAssets.GoogleDoc.ICellPointer
     name: ICellPointer
-  - uid: StansAssets.GoogleDoc.LocalizationTab
-    name: LocalizationTab
-  - uid: StansAssets.GoogleDoc.LocalizedLabelEditor
-    name: LocalizedLabelEditor
-  - uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
-    name: LocalizedLabelEditorUI
   - uid: StansAssets.GoogleDoc.NamedRange
     name: NamedRange
   - uid: StansAssets.GoogleDoc.RowData
@@ -36,6 +26,13 @@
     name: Spreadsheet.SyncState
   - uid: StansAssets.GoogleDoc.SpreadsheetExtension
     name: SpreadsheetExtension
+- uid: StansAssets.GoogleDoc.Editor
+  name: StansAssets.GoogleDoc.Editor
+  items:
+  - uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+    name: GoogleDocConnectorEditor
+  - uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+    name: GoogleDocConnectorPackage
 - uid: StansAssets.GoogleDoc.Localization
   name: StansAssets.GoogleDoc.Localization
   items:
@@ -49,8 +46,3 @@
     name: LocalizedLabel
   - uid: StansAssets.GoogleDoc.Localization.TextType
     name: TextType
-- uid: StansAssets.PackageSample
-  name: StansAssets.PackageSample
-  items:
-  - uid: StansAssets.PackageSample.MyPublicRuntimeExampleClass
-    name: MyPublicRuntimeExampleClass

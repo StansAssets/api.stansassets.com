@@ -1,38 +1,34 @@
 ### YamlMime:ManagedReference
 items:
-- uid: StansAssets.GoogleDoc.SheetMetadata
-  commentId: T:StansAssets.GoogleDoc.SheetMetadata
-  id: SheetMetadata
-  parent: StansAssets.GoogleDoc
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  id: GoogleDocConnectorPackage
+  parent: StansAssets.GoogleDoc.Editor
   children:
-  - StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  - StansAssets.GoogleDoc.SheetMetadata.Id
-  - StansAssets.GoogleDoc.SheetMetadata.m_Id
-  - StansAssets.GoogleDoc.SheetMetadata.m_Name
-  - StansAssets.GoogleDoc.SheetMetadata.Name
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.DisplayName
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.Info
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.RootPath
   langs:
   - csharp
   - vb
-  name: SheetMetadata
-  nameWithType: SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata
+  name: GoogleDocConnectorPackage
+  nameWithType: GoogleDocConnectorPackage
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
   type: Class
   source:
-    id: SheetMetadata
+    id: GoogleDocConnectorPackage
     path: ''
-    startLine: 3856
+    startLine: 957
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nSheet metadata\n"
+  namespace: StansAssets.GoogleDoc.Editor
+  summary: "\nGoogle Doc Connector Package Static info.\n"
   example: []
   syntax:
-    content: public class SheetMetadata
-    content.vb: Public Class SheetMetadata
+    content: public static class GoogleDocConnectorPackage
+    content.vb: Public Module GoogleDocConnectorPackage
   inheritance:
   - System.Object
-  derivedClasses:
-  - StansAssets.GoogleDoc.Sheet
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -43,171 +39,114 @@ items:
   - System.Object.ReferenceEquals(System.Object,System.Object)
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
-- uid: StansAssets.GoogleDoc.SheetMetadata.m_Name
-  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Name
-  id: m_Name
-  parent: StansAssets.GoogleDoc.SheetMetadata
+  - Module
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.DisplayName
+  commentId: F:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.DisplayName
+  id: DisplayName
+  parent: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
   langs:
   - csharp
   - vb
-  name: m_Name
-  nameWithType: SheetMetadata.m_Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Name
+  name: DisplayName
+  nameWithType: GoogleDocConnectorPackage.DisplayName
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.DisplayName
   type: Field
   source:
-    id: m_Name
+    id: DisplayName
     path: ''
-    startLine: 3860
+    startLine: 962
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: protected string m_Name
-    return:
-      type: System.String
-    content.vb: Protected m_Name As String
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: StansAssets.GoogleDoc.SheetMetadata.Name
-  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Name
-  id: Name
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: Name
-  nameWithType: SheetMetadata.Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
-  type: Property
-  source:
-    id: Name
-    path: ''
-    startLine: 3865
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nThe name of the sheet.\n"
+  namespace: StansAssets.GoogleDoc.Editor
+  summary: "\nThe package name\n"
   example: []
   syntax:
-    content: public string Name { get; }
-    parameters: []
+    content: public const string DisplayName = "Google Doc Connector"
     return:
       type: System.String
-    content.vb: Public ReadOnly Property Name As String
-  overload: StansAssets.GoogleDoc.SheetMetadata.Name*
+    content.vb: Public Const DisplayName As String = "Google Doc Connector"
   modifiers.csharp:
   - public
-  - get
+  - const
   modifiers.vb:
   - Public
-  - ReadOnly
-- uid: StansAssets.GoogleDoc.SheetMetadata.m_Id
-  commentId: F:StansAssets.GoogleDoc.SheetMetadata.m_Id
-  id: m_Id
-  parent: StansAssets.GoogleDoc.SheetMetadata
+  - Const
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.RootPath
+  commentId: F:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.RootPath
+  id: RootPath
+  parent: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
   langs:
   - csharp
   - vb
-  name: m_Id
-  nameWithType: SheetMetadata.m_Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.m_Id
+  name: RootPath
+  nameWithType: GoogleDocConnectorPackage.RootPath
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.RootPath
   type: Field
   source:
-    id: m_Id
+    id: RootPath
     path: ''
-    startLine: 3868
+    startLine: 967
   assemblies:
   - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  syntax:
-    content: protected int m_Id
-    return:
-      type: System.Int32
-    content.vb: Protected m_Id As Integer
-  modifiers.csharp:
-  - protected
-  modifiers.vb:
-  - Protected
-- uid: StansAssets.GoogleDoc.SheetMetadata.Id
-  commentId: P:StansAssets.GoogleDoc.SheetMetadata.Id
-  id: Id
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: Id
-  nameWithType: SheetMetadata.Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
-  type: Property
-  source:
-    id: Id
-    path: ''
-    startLine: 3873
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\nThe ID of the sheet.\n"
+  namespace: StansAssets.GoogleDoc.Editor
+  summary: "\nFoundation package root path.\n"
   example: []
   syntax:
-    content: public int Id { get; }
-    parameters: []
+    content: public static readonly string RootPath
     return:
-      type: System.Int32
-    content.vb: Public ReadOnly Property Id As Integer
-  overload: StansAssets.GoogleDoc.SheetMetadata.Id*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  commentId: M:StansAssets.GoogleDoc.SheetMetadata.#ctor(System.Int32,System.String)
-  id: '#ctor(System.Int32,System.String)'
-  parent: StansAssets.GoogleDoc.SheetMetadata
-  langs:
-  - csharp
-  - vb
-  name: SheetMetadata(Int32, String)
-  nameWithType: SheetMetadata.SheetMetadata(Int32, String)
-  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata(System.Int32, System.String)
-  type: Constructor
-  source:
-    id: .ctor
-    path: ''
-    startLine: 3880
-  assemblies:
-  - cs.temp.dll
-  namespace: StansAssets.GoogleDoc
-  summary: "\n\n"
-  example: []
-  syntax:
-    content: public SheetMetadata(int id, string name)
-    parameters:
-    - id: id
-      type: System.Int32
-      description: The ID of the sheet.
-    - id: name
       type: System.String
-      description: The name of the sheet.
-    content.vb: Public Sub New(id As Integer, name As String)
-  overload: StansAssets.GoogleDoc.SheetMetadata.#ctor*
+    content.vb: Public Shared ReadOnly RootPath As String
   modifiers.csharp:
   - public
+  - static
+  - readonly
   modifiers.vb:
   - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.Info
+  commentId: F:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.Info
+  id: Info
+  parent: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: GoogleDocConnectorPackage.Info
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 972
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.GoogleDoc.Editor
+  summary: "\nGoogle Doc Connector package info.\n"
+  example: []
+  syntax:
+    content: public static readonly PackageInfo Info
+    return:
+      type: PackageInfo
+    content.vb: Public Shared ReadOnly Info As PackageInfo
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 references:
-- uid: StansAssets.GoogleDoc
-  commentId: N:StansAssets.GoogleDoc
-  name: StansAssets.GoogleDoc
-  nameWithType: StansAssets.GoogleDoc
-  fullName: StansAssets.GoogleDoc
+- uid: StansAssets.GoogleDoc.Editor
+  commentId: N:StansAssets.GoogleDoc.Editor
+  name: StansAssets.GoogleDoc.Editor
+  nameWithType: StansAssets.GoogleDoc.Editor
+  fullName: StansAssets.GoogleDoc.Editor
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -507,25 +446,9 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: StansAssets.GoogleDoc.SheetMetadata.Name*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Name
-  name: Name
-  nameWithType: SheetMetadata.Name
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Name
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
+- uid: PackageInfo
+  commentId: '!:PackageInfo'
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: StansAssets.GoogleDoc.SheetMetadata.Id*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.Id
-  name: Id
-  nameWithType: SheetMetadata.Id
-  fullName: StansAssets.GoogleDoc.SheetMetadata.Id
-- uid: StansAssets.GoogleDoc.SheetMetadata.#ctor*
-  commentId: Overload:StansAssets.GoogleDoc.SheetMetadata.#ctor
-  name: SheetMetadata
-  nameWithType: SheetMetadata.SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata.SheetMetadata
+  name: PackageInfo
+  nameWithType: PackageInfo
+  fullName: PackageInfo

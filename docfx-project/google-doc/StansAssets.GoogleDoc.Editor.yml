@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.GoogleDoc.Editor
+  commentId: N:StansAssets.GoogleDoc.Editor
+  id: StansAssets.GoogleDoc.Editor
+  children:
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  langs:
+  - csharp
+  - vb
+  name: StansAssets.GoogleDoc.Editor
+  nameWithType: StansAssets.GoogleDoc.Editor
+  fullName: StansAssets.GoogleDoc.Editor
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+  name: GoogleDocConnectorPackage
+  nameWithType: GoogleDocConnectorPackage
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+  commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+  name: GoogleDocConnectorEditor
+  nameWithType: GoogleDocConnectorEditor
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor

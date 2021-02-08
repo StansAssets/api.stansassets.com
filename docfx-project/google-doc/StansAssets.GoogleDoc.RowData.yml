@@ -17,7 +17,7 @@ items:
   source:
     id: RowData
     path: ''
-    startLine: 2577
+    startLine: 2545
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -54,7 +54,7 @@ items:
   source:
     id: Cells
     path: ''
-    startLine: 2580
+    startLine: 2548
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -85,7 +85,7 @@ items:
   source:
     id: AddCell
     path: ''
-    startLine: 2582
+    startLine: 2550
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

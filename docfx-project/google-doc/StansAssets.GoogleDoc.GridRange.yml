@@ -24,7 +24,7 @@ items:
   source:
     id: GridRange
     path: ''
-    startLine: 2594
+    startLine: 2562
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -61,7 +61,7 @@ items:
   source:
     id: EndColumnIndex
     path: ''
-    startLine: 2599
+    startLine: 2567
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -94,7 +94,7 @@ items:
   source:
     id: EndRowIndex
     path: ''
-    startLine: 2604
+    startLine: 2572
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -127,7 +127,7 @@ items:
   source:
     id: StartColumnIndex
     path: ''
-    startLine: 2609
+    startLine: 2577
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -160,7 +160,7 @@ items:
   source:
     id: StartRowIndex
     path: ''
-    startLine: 2614
+    startLine: 2582
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -193,7 +193,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2620
+    startLine: 2588
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -226,7 +226,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2623
+    startLine: 2591
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -252,7 +252,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2640
+    startLine: 2608
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -284,7 +284,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2691
+    startLine: 2659
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -325,7 +325,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2717
+    startLine: 2685
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc

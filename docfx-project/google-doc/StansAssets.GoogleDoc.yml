@@ -7,13 +7,8 @@ items:
   - StansAssets.GoogleDoc.Cell
   - StansAssets.GoogleDoc.CellValue
   - StansAssets.GoogleDoc.GoogleDocConnector
-  - StansAssets.GoogleDoc.GoogleDocConnectorEditor
-  - StansAssets.GoogleDoc.GoogleDocConnectorPackage
   - StansAssets.GoogleDoc.GridRange
   - StansAssets.GoogleDoc.ICellPointer
-  - StansAssets.GoogleDoc.LocalizationTab
-  - StansAssets.GoogleDoc.LocalizedLabelEditor
-  - StansAssets.GoogleDoc.LocalizedLabelEditorUI
   - StansAssets.GoogleDoc.NamedRange
   - StansAssets.GoogleDoc.RowData
   - StansAssets.GoogleDoc.Sheet
@@ -31,36 +26,6 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: StansAssets.GoogleDoc.LocalizationTab
-  commentId: T:StansAssets.GoogleDoc.LocalizationTab
-  name: LocalizationTab
-  nameWithType: LocalizationTab
-  fullName: StansAssets.GoogleDoc.LocalizationTab
-- uid: StansAssets.GoogleDoc.LocalizedLabelEditor
-  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditor
-  name: LocalizedLabelEditor
-  nameWithType: LocalizedLabelEditor
-  fullName: StansAssets.GoogleDoc.LocalizedLabelEditor
-- uid: StansAssets.GoogleDoc.LocalizedLabelEditorUI
-  commentId: T:StansAssets.GoogleDoc.LocalizedLabelEditorUI
-  name: LocalizedLabelEditorUI
-  nameWithType: LocalizedLabelEditorUI
-  fullName: StansAssets.GoogleDoc.LocalizedLabelEditorUI
-- uid: StansAssets.GoogleDoc.GoogleDocConnectorPackage
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorPackage
-  name: GoogleDocConnectorPackage
-  nameWithType: GoogleDocConnectorPackage
-  fullName: StansAssets.GoogleDoc.GoogleDocConnectorPackage
-- uid: StansAssets.GoogleDoc.GoogleDocConnectorEditor
-  commentId: T:StansAssets.GoogleDoc.GoogleDocConnectorEditor
-  name: GoogleDocConnectorEditor
-  nameWithType: GoogleDocConnectorEditor
-  fullName: StansAssets.GoogleDoc.GoogleDocConnectorEditor
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension
-  commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
-  name: SpreadsheetExtension
-  nameWithType: SpreadsheetExtension
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension
 - uid: StansAssets.GoogleDoc.ICellPointer
   commentId: T:StansAssets.GoogleDoc.ICellPointer
   parent: StansAssets.GoogleDoc
@@ -83,6 +48,11 @@ references:
   name: GridRange
   nameWithType: GridRange
   fullName: StansAssets.GoogleDoc.GridRange
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension
+  commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
+  name: SpreadsheetExtension
+  nameWithType: SpreadsheetExtension
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension
 - uid: StansAssets.GoogleDoc.Spreadsheet
   commentId: T:StansAssets.GoogleDoc.Spreadsheet
   parent: StansAssets.GoogleDoc
