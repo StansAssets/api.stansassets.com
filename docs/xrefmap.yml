@@ -36068,12 +36068,12 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.GetAllSpreadsheets
   nameWithType: GoogleDocConnectorEditor.GetAllSpreadsheets
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets
-  name: UpdateAllSpreadsheets()
-  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAllSpreadsheets
-  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets()
-  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets()
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets(System.Boolean)
+  name: UpdateAllSpreadsheets(Boolean)
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAllSpreadsheets_System_Boolean_
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets(System.Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets(System.Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets(Boolean)
 - uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets*
   name: UpdateAllSpreadsheets
   href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAllSpreadsheets_
@@ -36081,12 +36081,41 @@ references:
   isSpec: "True"
   fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets
   nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheets
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
-  name: UpdateSpreadsheet(String)
-  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateSpreadsheet_System_String_
-  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String)
-  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet(String)
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
+  name: UpdateAsyncAllSpreadsheets(Boolean)
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncAllSpreadsheets_System_Boolean_
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(Boolean)
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets*
+  name: UpdateAsyncAllSpreadsheets
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncAllSpreadsheets_
+  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
+  nameWithType: GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+  name: UpdateAsyncSpreadsheet(String, Action<Spreadsheet>, Boolean)
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncSpreadsheet_System_String_Action_StansAssets_GoogleDoc_Spreadsheet__System_Boolean_
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+  name.vb: UpdateAsyncSpreadsheet(String, Action(Of Spreadsheet), Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String, Action<StansAssets.GoogleDoc.Spreadsheet>, System.Boolean)
+  fullName.vb: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String, Action(Of StansAssets.GoogleDoc.Spreadsheet), System.Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(String, Action<Spreadsheet>, Boolean)
+  nameWithType.vb: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(String, Action(Of Spreadsheet), Boolean)
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet*
+  name: UpdateAsyncSpreadsheet
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncSpreadsheet_
+  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
+  isSpec: "True"
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
+  nameWithType: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String,System.Boolean)
+  name: UpdateSpreadsheet(String, Boolean)
+  href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateSpreadsheet_System_String_System_Boolean_
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String,System.Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String, System.Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheet(String, Boolean)
 - uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet*
   name: UpdateSpreadsheet
   href: google-doc/StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.html#StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateSpreadsheet_

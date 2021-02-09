@@ -20,7 +20,7 @@ items:
   source:
     id: SheetMetadata
     path: ''
-    startLine: 3856
+    startLine: 3905
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -61,7 +61,7 @@ items:
   source:
     id: m_Name
     path: ''
-    startLine: 3860
+    startLine: 3909
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -88,7 +88,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 3865
+    startLine: 3914
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -121,7 +121,7 @@ items:
   source:
     id: m_Id
     path: ''
-    startLine: 3868
+    startLine: 3917
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -148,7 +148,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 3873
+    startLine: 3922
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -181,7 +181,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3880
+    startLine: 3929
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
