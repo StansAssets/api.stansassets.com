@@ -32263,6 +32263,19 @@ references:
   commentId: T:StansAssets.Foundation.Editor.AssetDatabaseUtility
   fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility
   nameWithType: AssetDatabaseUtility
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath(System.Object)
+  name: GetAssetAbsolutePath(Object)
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetAssetAbsolutePath_System_Object_
+  commentId: M:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath(System.Object)
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath(System.Object)
+  nameWithType: AssetDatabaseUtility.GetAssetAbsolutePath(Object)
+- uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath*
+  name: GetAssetAbsolutePath
+  href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetAssetAbsolutePath_
+  commentId: Overload:StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetAssetAbsolutePath
+  nameWithType: AssetDatabaseUtility.GetAssetAbsolutePath
 - uid: StansAssets.Foundation.Editor.AssetDatabaseUtility.GetLocalIdentifierInFile(System.Object)
   name: GetLocalIdentifierInFile(Object)
   href: foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html#StansAssets_Foundation_Editor_AssetDatabaseUtility_GetLocalIdentifierInFile_System_Object_
