@@ -8,7 +8,7 @@ items:
   - UnityEngine.CloudBuild.BuildManifestObject.ClearValues
   - UnityEngine.CloudBuild.BuildManifestObject.GetValue``1(System.String)
   - UnityEngine.CloudBuild.BuildManifestObject.SetValue(System.String,System.Object)
-  - UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
+  - UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
   - UnityEngine.CloudBuild.BuildManifestObject.ToDictionary
   - UnityEngine.CloudBuild.BuildManifestObject.ToJson
   - UnityEngine.CloudBuild.BuildManifestObject.ToString
@@ -23,7 +23,7 @@ items:
   source:
     id: BuildManifestObject
     path: ''
-    startLine: 781
+    startLine: 887
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -54,7 +54,7 @@ items:
   source:
     id: TryGetValue
     path: ''
-    startLine: 790
+    startLine: 896
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -98,7 +98,7 @@ items:
   source:
     id: GetValue
     path: ''
-    startLine: 802
+    startLine: 908
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -139,7 +139,7 @@ items:
   source:
     id: SetValue
     path: ''
-    startLine: 812
+    startLine: 918
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -160,21 +160,21 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
-  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
-  id: SetValues(System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+  commentId: M:UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary{System.String,System.Object})
+  id: SetValues(Dictionary{System.String,System.Object})
   parent: UnityEngine.CloudBuild.BuildManifestObject
   langs:
   - csharp
   - vb
   name: SetValues(Dictionary<String, Object>)
   nameWithType: BuildManifestObject.SetValues(Dictionary<String, Object>)
-  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary<System.String, System.Object>)
+  fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary<System.String, System.Object>)
   type: Method
   source:
     id: SetValues
     path: ''
-    startLine: 818
+    startLine: 924
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -184,7 +184,7 @@ items:
     content: public void SetValues(Dictionary<string, object> source)
     parameters:
     - id: source
-      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      type: Dictionary{System.String,System.Object}
       description: Source <xref href="System.Collections.Generic.Dictionary" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Sub SetValues(source As Dictionary(Of String, Object))
   overload: UnityEngine.CloudBuild.BuildManifestObject.SetValues*
@@ -193,7 +193,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.SetValues(System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  fullName.vb: UnityEngine.CloudBuild.BuildManifestObject.SetValues(Dictionary(Of System.String, System.Object))
   name.vb: SetValues(Dictionary(Of String, Object))
 - uid: UnityEngine.CloudBuild.BuildManifestObject.ClearValues
   commentId: M:UnityEngine.CloudBuild.BuildManifestObject.ClearValues
@@ -209,7 +209,7 @@ items:
   source:
     id: ClearValues
     path: ''
-    startLine: 823
+    startLine: 929
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -237,7 +237,7 @@ items:
   source:
     id: ToDictionary
     path: ''
-    startLine: 830
+    startLine: 936
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -246,7 +246,7 @@ items:
   syntax:
     content: public Dictionary<string, object> ToDictionary()
     return:
-      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      type: Dictionary{System.String,System.Object}
       description: The <xref href="System.Collections.Generic.Dictionary" data-throw-if-not-resolved="false"></xref>.
     content.vb: Public Function ToDictionary As Dictionary(Of String, Object)
   overload: UnityEngine.CloudBuild.BuildManifestObject.ToDictionary*
@@ -268,7 +268,7 @@ items:
   source:
     id: ToJson
     path: ''
-    startLine: 840
+    startLine: 946
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -299,7 +299,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 850
+    startLine: 956
   assemblies:
   - cs.temp.dll
   namespace: UnityEngine.CloudBuild
@@ -384,21 +384,20 @@ references:
   name: SetValues
   nameWithType: BuildManifestObject.SetValues
   fullName: UnityEngine.CloudBuild.BuildManifestObject.SetValues
-- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
+- uid: Dictionary{System.String,System.Object}
+  commentId: '!:Dictionary{System.String,System.Object}'
+  definition: Dictionary`2
   name: Dictionary<String, Object>
   nameWithType: Dictionary<String, Object>
-  fullName: System.Collections.Generic.Dictionary<System.String, System.Object>
+  fullName: Dictionary<System.String, System.Object>
   nameWithType.vb: Dictionary(Of String, Object)
-  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Object)
+  fullName.vb: Dictionary(Of System.String, System.Object)
   name.vb: Dictionary(Of String, Object)
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+    fullName: Dictionary
     isExternal: true
   - name: <
     nameWithType: <
@@ -420,10 +419,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+    fullName: Dictionary
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -444,63 +443,56 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
+- uid: Dictionary`2
   isExternal: true
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
   spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+    fullName: Dictionary
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
+  - uid: Dictionary`2
     name: Dictionary
     nameWithType: Dictionary
-    fullName: System.Collections.Generic.Dictionary
+    fullName: Dictionary
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: ', '
     nameWithType: ', '
     fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: UnityEngine.CloudBuild.BuildManifestObject.ClearValues*
   commentId: Overload:UnityEngine.CloudBuild.BuildManifestObject.ClearValues
   name: ClearValues

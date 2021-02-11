@@ -182,14 +182,14 @@
   </table>
   
   
-  <a id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncAllSpreadsheets_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets*"></a>
-  <h4 id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncAllSpreadsheets_System_Boolean_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)">UpdateAsyncAllSpreadsheets(Boolean)</h4>
+  <a id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAllSpreadsheetsAsync_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync*"></a>
+  <h4 id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAllSpreadsheetsAsync_System_Boolean_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(System.Boolean)">UpdateAllSpreadsheetsAsync(Boolean)</h4>
   <div class="markdown level1 summary"><p>Async update all added spreadsheets </p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;List&lt;Spreadsheet&gt;&gt; UpdateAsyncAllSpreadsheets(bool saveSpreadsheet = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;List&lt;Spreadsheet&gt;&gt; UpdateAllSpreadsheetsAsync(bool saveSpreadsheet = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -221,47 +221,6 @@
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a>&gt;&gt;</td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncSpreadsheet_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet*"></a>
-  <h4 id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateAsyncSpreadsheet_System_String_Action_StansAssets_GoogleDoc_Spreadsheet__System_Boolean_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)">UpdateAsyncSpreadsheet(String, Action&lt;Spreadsheet&gt;, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Async update spreadsheet by spreadsheet id</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateAsyncSpreadsheet(string id, Action&lt;Spreadsheet&gt; callback, bool saveSpreadsheet = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>An id of the spreadsheet</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a>&gt;</td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>return updated spreadsheet</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">saveSpreadsheet</span></td>
-        <td><p>Save spreadsheet in local cache, default = true</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -312,6 +271,47 @@
       <tr>
         <td><a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateSpreadsheetAsync_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync*"></a>
+  <h4 id="StansAssets_GoogleDoc_Editor_GoogleDocConnectorEditor_UpdateSpreadsheetAsync_System_String_Action_StansAssets_GoogleDoc_Spreadsheet__System_Boolean_" data-uid="StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)">UpdateSpreadsheetAsync(String, Action&lt;Spreadsheet&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Async update spreadsheet by spreadsheet id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateSpreadsheetAsync(string id, Action&lt;Spreadsheet&gt; callback, bool saveSpreadsheet = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>An id of the spreadsheet</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="StansAssets.GoogleDoc.Spreadsheet.html">Spreadsheet</a>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>return updated spreadsheet</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">saveSpreadsheet</span></td>
+        <td><p>Save spreadsheet in local cache, default = true</p>
+</td>
       </tr>
     </tbody>
   </table>

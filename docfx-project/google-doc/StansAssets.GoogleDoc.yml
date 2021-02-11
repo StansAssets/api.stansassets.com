@@ -37,22 +37,18 @@ references:
   name: GoogleDocConnector
   nameWithType: GoogleDocConnector
   fullName: StansAssets.GoogleDoc.GoogleDocConnector
-- uid: StansAssets.GoogleDoc.RowData
-  commentId: T:StansAssets.GoogleDoc.RowData
-  name: RowData
-  nameWithType: RowData
-  fullName: StansAssets.GoogleDoc.RowData
-- uid: StansAssets.GoogleDoc.GridRange
-  commentId: T:StansAssets.GoogleDoc.GridRange
+- uid: StansAssets.GoogleDoc.SheetMetadata
+  commentId: T:StansAssets.GoogleDoc.SheetMetadata
   parent: StansAssets.GoogleDoc
-  name: GridRange
-  nameWithType: GridRange
-  fullName: StansAssets.GoogleDoc.GridRange
-- uid: StansAssets.GoogleDoc.SpreadsheetExtension
-  commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
-  name: SpreadsheetExtension
-  nameWithType: SpreadsheetExtension
-  fullName: StansAssets.GoogleDoc.SpreadsheetExtension
+  name: SheetMetadata
+  nameWithType: SheetMetadata
+  fullName: StansAssets.GoogleDoc.SheetMetadata
+- uid: StansAssets.GoogleDoc.Cell
+  commentId: T:StansAssets.GoogleDoc.Cell
+  parent: StansAssets.GoogleDoc
+  name: Cell
+  nameWithType: Cell
+  fullName: StansAssets.GoogleDoc.Cell
 - uid: StansAssets.GoogleDoc.Spreadsheet
   commentId: T:StansAssets.GoogleDoc.Spreadsheet
   parent: StansAssets.GoogleDoc
@@ -65,36 +61,40 @@ references:
   name: Spreadsheet.SyncState
   nameWithType: Spreadsheet.SyncState
   fullName: StansAssets.GoogleDoc.Spreadsheet.SyncState
-- uid: StansAssets.GoogleDoc.NamedRange
-  commentId: T:StansAssets.GoogleDoc.NamedRange
-  parent: StansAssets.GoogleDoc
-  name: NamedRange
-  nameWithType: NamedRange
-  fullName: StansAssets.GoogleDoc.NamedRange
-- uid: StansAssets.GoogleDoc.Sheet
-  commentId: T:StansAssets.GoogleDoc.Sheet
-  parent: StansAssets.GoogleDoc
-  name: Sheet
-  nameWithType: Sheet
-  fullName: StansAssets.GoogleDoc.Sheet
-- uid: StansAssets.GoogleDoc.Cell
-  commentId: T:StansAssets.GoogleDoc.Cell
-  parent: StansAssets.GoogleDoc
-  name: Cell
-  nameWithType: Cell
-  fullName: StansAssets.GoogleDoc.Cell
 - uid: StansAssets.GoogleDoc.CellValue
   commentId: T:StansAssets.GoogleDoc.CellValue
   parent: StansAssets.GoogleDoc
   name: CellValue
   nameWithType: CellValue
   fullName: StansAssets.GoogleDoc.CellValue
-- uid: StansAssets.GoogleDoc.SheetMetadata
-  commentId: T:StansAssets.GoogleDoc.SheetMetadata
+- uid: StansAssets.GoogleDoc.Sheet
+  commentId: T:StansAssets.GoogleDoc.Sheet
   parent: StansAssets.GoogleDoc
-  name: SheetMetadata
-  nameWithType: SheetMetadata
-  fullName: StansAssets.GoogleDoc.SheetMetadata
+  name: Sheet
+  nameWithType: Sheet
+  fullName: StansAssets.GoogleDoc.Sheet
+- uid: StansAssets.GoogleDoc.GridRange
+  commentId: T:StansAssets.GoogleDoc.GridRange
+  parent: StansAssets.GoogleDoc
+  name: GridRange
+  nameWithType: GridRange
+  fullName: StansAssets.GoogleDoc.GridRange
+- uid: StansAssets.GoogleDoc.SpreadsheetExtension
+  commentId: T:StansAssets.GoogleDoc.SpreadsheetExtension
+  name: SpreadsheetExtension
+  nameWithType: SpreadsheetExtension
+  fullName: StansAssets.GoogleDoc.SpreadsheetExtension
+- uid: StansAssets.GoogleDoc.NamedRange
+  commentId: T:StansAssets.GoogleDoc.NamedRange
+  parent: StansAssets.GoogleDoc
+  name: NamedRange
+  nameWithType: NamedRange
+  fullName: StansAssets.GoogleDoc.NamedRange
+- uid: StansAssets.GoogleDoc.RowData
+  commentId: T:StansAssets.GoogleDoc.RowData
+  name: RowData
+  nameWithType: RowData
+  fullName: StansAssets.GoogleDoc.RowData
 - uid: StansAssets.GoogleDoc
   commentId: N:StansAssets.GoogleDoc
   name: StansAssets.GoogleDoc

@@ -7,9 +7,9 @@ items:
   children:
   - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.GetAllSpreadsheets
   - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheets(System.Boolean)
-  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
-  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(System.Boolean)
   - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheet(System.String,System.Boolean)
+  - StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
   langs:
   - csharp
   - vb
@@ -20,7 +20,7 @@ items:
   source:
     id: GoogleDocConnectorEditor
     path: ''
-    startLine: 1307
+    startLine: 3704
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -58,7 +58,7 @@ items:
   source:
     id: GetAllSpreadsheets
     path: ''
-    startLine: 1327
+    startLine: 3724
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -76,28 +76,28 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
-  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
-  id: UpdateAsyncSpreadsheet(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
+  id: UpdateSpreadsheetAsync(System.String,Action{StansAssets.GoogleDoc.Spreadsheet},System.Boolean)
   parent: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
   langs:
   - csharp
   - vb
-  name: UpdateAsyncSpreadsheet(String, Action<Spreadsheet>, Boolean)
-  nameWithType: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(String, Action<Spreadsheet>, Boolean)
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String, Action<StansAssets.GoogleDoc.Spreadsheet>, System.Boolean)
+  name: UpdateSpreadsheetAsync(String, Action<Spreadsheet>, Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheetAsync(String, Action<Spreadsheet>, Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String, Action<StansAssets.GoogleDoc.Spreadsheet>, System.Boolean)
   type: Method
   source:
-    id: UpdateAsyncSpreadsheet
+    id: UpdateSpreadsheetAsync
     path: ''
-    startLine: 1337
+    startLine: 3734
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
   summary: "\nAsync update spreadsheet by spreadsheet id\n"
   example: []
   syntax:
-    content: public static void UpdateAsyncSpreadsheet(string id, Action<Spreadsheet> callback, bool saveSpreadsheet = true)
+    content: public static void UpdateSpreadsheetAsync(string id, Action<Spreadsheet> callback, bool saveSpreadsheet = true)
     parameters:
     - id: id
       type: System.String
@@ -108,47 +108,47 @@ items:
     - id: saveSpreadsheet
       type: System.Boolean
       description: Save spreadsheet in local cache, default = true
-    content.vb: Public Shared Sub UpdateAsyncSpreadsheet(id As String, callback As Action(Of Spreadsheet), saveSpreadsheet As Boolean = True)
-  overload: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet*
-  nameWithType.vb: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(String, Action(Of Spreadsheet), Boolean)
+    content.vb: Public Shared Sub UpdateSpreadsheetAsync(id As String, callback As Action(Of Spreadsheet), saveSpreadsheet As Boolean = True)
+  overload: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync*
+  nameWithType.vb: GoogleDocConnectorEditor.UpdateSpreadsheetAsync(String, Action(Of Spreadsheet), Boolean)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-  fullName.vb: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet(System.String, Action(Of StansAssets.GoogleDoc.Spreadsheet), System.Boolean)
-  name.vb: UpdateAsyncSpreadsheet(String, Action(Of Spreadsheet), Boolean)
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
-  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
-  id: UpdateAsyncAllSpreadsheets(System.Boolean)
+  fullName.vb: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync(System.String, Action(Of StansAssets.GoogleDoc.Spreadsheet), System.Boolean)
+  name.vb: UpdateSpreadsheetAsync(String, Action(Of Spreadsheet), Boolean)
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(System.Boolean)
+  commentId: M:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(System.Boolean)
+  id: UpdateAllSpreadsheetsAsync(System.Boolean)
   parent: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
   langs:
   - csharp
   - vb
-  name: UpdateAsyncAllSpreadsheets(Boolean)
-  nameWithType: GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(Boolean)
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets(System.Boolean)
+  name: UpdateAllSpreadsheetsAsync(Boolean)
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(Boolean)
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync(System.Boolean)
   type: Method
   source:
-    id: UpdateAsyncAllSpreadsheets
+    id: UpdateAllSpreadsheetsAsync
     path: ''
-    startLine: 1346
+    startLine: 3743
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
   summary: "\nAsync update all added spreadsheets \n"
   example: []
   syntax:
-    content: public static Task<List<Spreadsheet>> UpdateAsyncAllSpreadsheets(bool saveSpreadsheet = true)
+    content: public static Task<List<Spreadsheet>> UpdateAllSpreadsheetsAsync(bool saveSpreadsheet = true)
     parameters:
     - id: saveSpreadsheet
       type: System.Boolean
       description: Save spreadsheet in local cache, default = true
     return:
       type: Task{List{StansAssets.GoogleDoc.Spreadsheet}}
-    content.vb: Public Shared Function UpdateAsyncAllSpreadsheets(saveSpreadsheet As Boolean = True) As Task(Of List(Of Spreadsheet))
-  overload: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets*
+    content.vb: Public Shared Function UpdateAllSpreadsheetsAsync(saveSpreadsheet As Boolean = True) As Task(Of List(Of Spreadsheet))
+  overload: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync*
   modifiers.csharp:
   - public
   - static
@@ -169,7 +169,7 @@ items:
   source:
     id: UpdateSpreadsheet
     path: ''
-    startLine: 1360
+    startLine: 3757
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -208,7 +208,7 @@ items:
   source:
     id: UpdateAllSpreadsheets
     path: ''
-    startLine: 1370
+    startLine: 3767
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -612,11 +612,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet*
-  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
-  name: UpdateAsyncSpreadsheet
-  nameWithType: GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncSpreadsheet
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync*
+  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync
+  name: UpdateSpreadsheetAsync
+  nameWithType: GoogleDocConnectorEditor.UpdateSpreadsheetAsync
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateSpreadsheetAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -710,11 +710,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets*
-  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
-  name: UpdateAsyncAllSpreadsheets
-  nameWithType: GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAsyncAllSpreadsheets
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync*
+  commentId: Overload:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync
+  name: UpdateAllSpreadsheetsAsync
+  nameWithType: GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor.UpdateAllSpreadsheetsAsync
 - uid: Task{List{StansAssets.GoogleDoc.Spreadsheet}}
   commentId: '!:Task{List{StansAssets.GoogleDoc.Spreadsheet}}'
   definition: Task`1
