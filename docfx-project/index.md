@@ -33,3 +33,9 @@ The Android plugin follows the same principles as the iOS plugin above. Tons of 
 The plugin allows you to use Google Sheets as a configuration repository for your game. And also use Google Sheets as a repository for localization.
 
 [API Reference](https://api.stansassets.com/google-doc/StansAssets.GoogleDoc.html) | [Get From Github](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro) | [Tutorials & Documentation](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki) |
+
+### XCode Project
+The purpose of this template is to give you a head start when creating a new package for Unity. You'll find the repository structure description below as well as why it was built this way.
+I assume you already have some basic understanding of what the UPM package is and why you would like to build one.  If not, please check out  [Creating custom packages](https://docs.unity3d.com/Manual/CustomPackages.html)
+
+[API Reference](https://api.stansassets.com/xcode-project/StansAssets.IOS.XCode.html) | [Get From Github](https://github.com/StansAssets/com.stansassets.xcode-project)

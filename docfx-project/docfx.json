@@ -85,6 +85,18 @@
             }
          ],
          "dest":"google-doc"
+      },
+      {
+         "src":[
+            {
+               "files":[
+                  "Editor/**.cs",
+                  "Runtime/**.cs"
+               ],
+               "src":"../../com.stansassets.xcode-project/"
+            }
+         ],
+         "dest":"xcode-project"
       }
    ],
    "build":{
@@ -97,7 +109,8 @@
                "foundation/**.yml",
                "facebook/**.yml",
                "build/**.yml",
-               "google-doc/**.yml"
+               "google-doc/**.yml",
+               "xcode-project/**.yml"
             ]
          },
          {
@@ -111,6 +124,7 @@
                "facebook/**.md",
                "build/**.md",
                "google-doc/**.md",
+               "xcode-project/**.md",
                "toc.yml",
                "*.md"
             ],
