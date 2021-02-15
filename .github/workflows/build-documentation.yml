@@ -54,6 +54,13 @@ jobs:
         repository: StansAssets/com.stansassets.google-doc-connector-pro
         path: com.stansassets.google-doc-connector-pro
 
+    - name: Checkout com.stansassets.xcode-project
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.DOC_MGMT_TOKEN }}
+        repository: StansAssets/com.stansassets.xcode-project
+        path: com.stansassets.xcode-project
+
     - name: List work directory content
       run: ls
    
