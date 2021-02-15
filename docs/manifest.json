@@ -5631,6 +5631,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.GameKit.GKAccessPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.GameKit.GKAccessPoint.html",
+          "hash": "bQHFDILIwGLSLGIKhbVMLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.GameKit.GKAccessPointLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.GameKit.GKAccessPointLocation.html",
+          "hash": "38ZREBJqGQunwz/BJ5CR1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "ios-native/SA.iOS.GameKit.GKPhotoSize.yml",
       "output": {
         ".html": {
@@ -5887,7 +5911,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.GameKit.html",
-          "hash": "12BPURwP+n72Ldzun0apmw=="
+          "hash": "2ebGigrtopxOb87UueB9aQ=="
         }
       },
       "is_incremental": false,
@@ -7279,7 +7303,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "BTBq24zKHTq2Kn8GJ7tuDg=="
+          "hash": "5mAlqB0E8p+XyjZRNue1pg=="
         }
       },
       "is_incremental": false,
@@ -8593,7 +8617,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 689,
+          "total_file_count": 691,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
