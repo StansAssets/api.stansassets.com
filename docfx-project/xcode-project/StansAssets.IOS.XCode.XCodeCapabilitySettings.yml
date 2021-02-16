@@ -1,0 +1,932 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings
+  id: XCodeCapabilitySettings
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroups
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePay
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomains
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModes
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.DataProtection
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.GameCenter
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.HealthKit
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.HomeKit
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloud
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.InAppPurchase
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.InterAppAudio
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharing
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.Maps
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.PersonalVPN
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotifications
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.SignInWithApple
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.Siri
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.Wallet
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
+  langs:
+  - csharp
+  - vb
+  name: XCodeCapabilitySettings
+  nameWithType: XCodeCapabilitySettings
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  type: Class
+  source:
+    id: XCodeCapabilitySettings
+    path: ''
+    startLine: 1558
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nDefines XCode project capability settings.\n"
+  example: []
+  syntax:
+    content: public class XCodeCapabilitySettings
+    content.vb: Public Class XCodeCapabilitySettings
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloud
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloud
+  id: iCloud
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: iCloud
+  nameWithType: XCodeCapabilitySettings.iCloud
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloud
+  type: Field
+  source:
+    id: iCloud
+    path: ''
+    startLine: 1663
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.iCloudCapability iCloud
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability
+    content.vb: Public iCloud As XCodeCapabilitySettings.iCloudCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotifications
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotifications
+  id: PushNotifications
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: PushNotifications
+  nameWithType: XCodeCapabilitySettings.PushNotifications
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotifications
+  type: Field
+  source:
+    id: PushNotifications
+    path: ''
+    startLine: 1664
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.PushNotificationsCapability PushNotifications
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability
+    content.vb: Public PushNotifications As XCodeCapabilitySettings.PushNotificationsCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.GameCenter
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.GameCenter
+  id: GameCenter
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: GameCenter
+  nameWithType: XCodeCapabilitySettings.GameCenter
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.GameCenter
+  type: Field
+  source:
+    id: GameCenter
+    path: ''
+    startLine: 1665
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability GameCenter
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public GameCenter As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.SignInWithApple
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.SignInWithApple
+  id: SignInWithApple
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: SignInWithApple
+  nameWithType: XCodeCapabilitySettings.SignInWithApple
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.SignInWithApple
+  type: Field
+  source:
+    id: SignInWithApple
+    path: ''
+    startLine: 1666
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability SignInWithApple
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public SignInWithApple As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.Wallet
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.Wallet
+  id: Wallet
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: Wallet
+  nameWithType: XCodeCapabilitySettings.Wallet
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.Wallet
+  type: Field
+  source:
+    id: Wallet
+    path: ''
+    startLine: 1667
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.WalletCapability Wallet
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
+    content.vb: Public Wallet As XCodeCapabilitySettings.WalletCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.Siri
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.Siri
+  id: Siri
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: Siri
+  nameWithType: XCodeCapabilitySettings.Siri
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.Siri
+  type: Field
+  source:
+    id: Siri
+    path: ''
+    startLine: 1668
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability Siri
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public Siri As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePay
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePay
+  id: ApplePay
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: ApplePay
+  nameWithType: XCodeCapabilitySettings.ApplePay
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePay
+  type: Field
+  source:
+    id: ApplePay
+    path: ''
+    startLine: 1669
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.ApplePayCapability ApplePay
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability
+    content.vb: Public ApplePay As XCodeCapabilitySettings.ApplePayCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.InAppPurchase
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.InAppPurchase
+  id: InAppPurchase
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: InAppPurchase
+  nameWithType: XCodeCapabilitySettings.InAppPurchase
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.InAppPurchase
+  type: Field
+  source:
+    id: InAppPurchase
+    path: ''
+    startLine: 1670
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability InAppPurchase
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public InAppPurchase As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.Maps
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.Maps
+  id: Maps
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: Maps
+  nameWithType: XCodeCapabilitySettings.Maps
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.Maps
+  type: Field
+  source:
+    id: Maps
+    path: ''
+    startLine: 1671
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.MapsCapability Maps
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability
+    content.vb: Public Maps As XCodeCapabilitySettings.MapsCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.PersonalVPN
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.PersonalVPN
+  id: PersonalVPN
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: PersonalVPN
+  nameWithType: XCodeCapabilitySettings.PersonalVPN
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.PersonalVPN
+  type: Field
+  source:
+    id: PersonalVPN
+    path: ''
+    startLine: 1672
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability PersonalVPN
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public PersonalVPN As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModes
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModes
+  id: BackgroundModes
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: BackgroundModes
+  nameWithType: XCodeCapabilitySettings.BackgroundModes
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModes
+  type: Field
+  source:
+    id: BackgroundModes
+    path: ''
+    startLine: 1673
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.BackgroundModesCapability BackgroundModes
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability
+    content.vb: Public BackgroundModes As XCodeCapabilitySettings.BackgroundModesCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.InterAppAudio
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.InterAppAudio
+  id: InterAppAudio
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: InterAppAudio
+  nameWithType: XCodeCapabilitySettings.InterAppAudio
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.InterAppAudio
+  type: Field
+  source:
+    id: InterAppAudio
+    path: ''
+    startLine: 1674
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability InterAppAudio
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public InterAppAudio As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharing
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharing
+  id: KeychainSharing
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: KeychainSharing
+  nameWithType: XCodeCapabilitySettings.KeychainSharing
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharing
+  type: Field
+  source:
+    id: KeychainSharing
+    path: ''
+    startLine: 1675
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.KeychainSharingCapability KeychainSharing
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability
+    content.vb: Public KeychainSharing As XCodeCapabilitySettings.KeychainSharingCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomains
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomains
+  id: AssociatedDomains
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: AssociatedDomains
+  nameWithType: XCodeCapabilitySettings.AssociatedDomains
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomains
+  type: Field
+  source:
+    id: AssociatedDomains
+    path: ''
+    startLine: 1676
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.AssociatedDomainsCapability AssociatedDomains
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability
+    content.vb: Public AssociatedDomains As XCodeCapabilitySettings.AssociatedDomainsCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroups
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroups
+  id: AppGroups
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: AppGroups
+  nameWithType: XCodeCapabilitySettings.AppGroups
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroups
+  type: Field
+  source:
+    id: AppGroups
+    path: ''
+    startLine: 1677
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.AppGroupsCapability AppGroups
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability
+    content.vb: Public AppGroups As XCodeCapabilitySettings.AppGroupsCapability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.DataProtection
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.DataProtection
+  id: DataProtection
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: DataProtection
+  nameWithType: XCodeCapabilitySettings.DataProtection
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.DataProtection
+  type: Field
+  source:
+    id: DataProtection
+    path: ''
+    startLine: 1678
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability DataProtection
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public DataProtection As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.HomeKit
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.HomeKit
+  id: HomeKit
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: HomeKit
+  nameWithType: XCodeCapabilitySettings.HomeKit
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.HomeKit
+  type: Field
+  source:
+    id: HomeKit
+    path: ''
+    startLine: 1679
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability HomeKit
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public HomeKit As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.HealthKit
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.HealthKit
+  id: HealthKit
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: HealthKit
+  nameWithType: XCodeCapabilitySettings.HealthKit
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.HealthKit
+  type: Field
+  source:
+    id: HealthKit
+    path: ''
+    startLine: 1680
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability HealthKit
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public HealthKit As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
+  id: WirelessAccessoryConfiguration
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  langs:
+  - csharp
+  - vb
+  name: WirelessAccessoryConfiguration
+  nameWithType: XCodeCapabilitySettings.WirelessAccessoryConfiguration
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
+  type: Field
+  source:
+    id: WirelessAccessoryConfiguration
+    path: ''
+    startLine: 1681
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeCapabilitySettings.Capability WirelessAccessoryConfiguration
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    content.vb: Public WirelessAccessoryConfiguration As XCodeCapabilitySettings.Capability
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.iCloudCapability
+  nameWithType: XCodeCapabilitySettings.iCloudCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.PushNotificationsCapability
+  nameWithType: XCodeCapabilitySettings.PushNotificationsCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.Capability
+  nameWithType: XCodeCapabilitySettings.Capability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.WalletCapability
+  nameWithType: XCodeCapabilitySettings.WalletCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.ApplePayCapability
+  nameWithType: XCodeCapabilitySettings.ApplePayCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.MapsCapability
+  nameWithType: XCodeCapabilitySettings.MapsCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.BackgroundModesCapability
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.KeychainSharingCapability
+  nameWithType: XCodeCapabilitySettings.KeychainSharingCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.AssociatedDomainsCapability
+  nameWithType: XCodeCapabilitySettings.AssociatedDomainsCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.AppGroupsCapability
+  nameWithType: XCodeCapabilitySettings.AppGroupsCapability
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability

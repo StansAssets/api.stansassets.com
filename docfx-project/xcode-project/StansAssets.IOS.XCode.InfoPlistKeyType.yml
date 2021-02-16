@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
+  id: InfoPlistKeyType
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.InfoPlistKeyType.Array
+  - StansAssets.IOS.XCode.InfoPlistKeyType.Boolean
+  - StansAssets.IOS.XCode.InfoPlistKeyType.Dictionary
+  - StansAssets.IOS.XCode.InfoPlistKeyType.Integer
+  - StansAssets.IOS.XCode.InfoPlistKeyType.String
+  langs:
+  - csharp
+  - vb
+  name: InfoPlistKeyType
+  nameWithType: InfoPlistKeyType
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType
+  type: Enum
+  source:
+    id: InfoPlistKeyType
+    path: ''
+    startLine: 485
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nThe info.plist support key types.\n"
+  example: []
+  syntax:
+    content: public enum InfoPlistKeyType
+    content.vb: Public Enum InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType.String
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKeyType.String
+  id: String
+  parent: StansAssets.IOS.XCode.InfoPlistKeyType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: InfoPlistKeyType.String
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType.String
+  type: Field
+  source:
+    id: String
+    path: ''
+    startLine: 490
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nString value type.\n"
+  example: []
+  syntax:
+    content: String = 0
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType.Integer
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKeyType.Integer
+  id: Integer
+  parent: StansAssets.IOS.XCode.InfoPlistKeyType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: InfoPlistKeyType.Integer
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType.Integer
+  type: Field
+  source:
+    id: Integer
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInteger value type.\n"
+  example: []
+  syntax:
+    content: Integer = 1
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType.Boolean
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKeyType.Boolean
+  id: Boolean
+  parent: StansAssets.IOS.XCode.InfoPlistKeyType
+  langs:
+  - csharp
+  - vb
+  name: Boolean
+  nameWithType: InfoPlistKeyType.Boolean
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType.Boolean
+  type: Field
+  source:
+    id: Boolean
+    path: ''
+    startLine: 500
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nBool value type.\n"
+  example: []
+  syntax:
+    content: Boolean = 2
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType.Array
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKeyType.Array
+  id: Array
+  parent: StansAssets.IOS.XCode.InfoPlistKeyType
+  langs:
+  - csharp
+  - vb
+  name: Array
+  nameWithType: InfoPlistKeyType.Array
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType.Array
+  type: Field
+  source:
+    id: Array
+    path: ''
+    startLine: 505
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nArray value type.\n"
+  example: []
+  syntax:
+    content: Array = 3
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType.Dictionary
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKeyType.Dictionary
+  id: Dictionary
+  parent: StansAssets.IOS.XCode.InfoPlistKeyType
+  langs:
+  - csharp
+  - vb
+  name: Dictionary
+  nameWithType: InfoPlistKeyType.Dictionary
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType.Dictionary
+  type: Field
+  source:
+    id: Dictionary
+    path: ''
+    startLine: 510
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nDictionary value type.\n"
+  example: []
+  syntax:
+    content: Dictionary = 4
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKeyType
+  nameWithType: InfoPlistKeyType
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType

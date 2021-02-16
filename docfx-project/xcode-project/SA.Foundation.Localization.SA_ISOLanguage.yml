@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: SA.Foundation.Localization.SA_ISOLanguage
+  commentId: T:SA.Foundation.Localization.SA_ISOLanguage
+  id: SA_ISOLanguage
+  parent: SA.Foundation.Localization
+  children:
+  - SA.Foundation.Localization.SA_ISOLanguage.Code
+  - SA.Foundation.Localization.SA_ISOLanguage.Name
+  - SA.Foundation.Localization.SA_ISOLanguage.NativeName
+  langs:
+  - csharp
+  - vb
+  name: SA_ISOLanguage
+  nameWithType: SA_ISOLanguage
+  fullName: SA.Foundation.Localization.SA_ISOLanguage
+  type: Class
+  source:
+    id: SA_ISOLanguage
+    path: ''
+    startLine: 1988
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Localization
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SA_ISOLanguage
+    content.vb: >-
+      <Serializable>
+
+      Public Class SA_ISOLanguage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SA.Foundation.Localization.SA_ISOLanguage.Code
+  commentId: P:SA.Foundation.Localization.SA_ISOLanguage.Code
+  id: Code
+  parent: SA.Foundation.Localization.SA_ISOLanguage
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: SA_ISOLanguage.Code
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.Code
+  type: Property
+  source:
+    id: Code
+    path: ''
+    startLine: 2001
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Localization
+  summary: "\nISO Language code\n"
+  example: []
+  syntax:
+    content: public string Code { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Code As String
+  overload: SA.Foundation.Localization.SA_ISOLanguage.Code*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SA.Foundation.Localization.SA_ISOLanguage.Name
+  commentId: P:SA.Foundation.Localization.SA_ISOLanguage.Name
+  id: Name
+  parent: SA.Foundation.Localization.SA_ISOLanguage
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SA_ISOLanguage.Name
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2006
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Localization
+  summary: "\nFull Languages name. Example: Russian\n"
+  example: []
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SA.Foundation.Localization.SA_ISOLanguage.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SA.Foundation.Localization.SA_ISOLanguage.NativeName
+  commentId: P:SA.Foundation.Localization.SA_ISOLanguage.NativeName
+  id: NativeName
+  parent: SA.Foundation.Localization.SA_ISOLanguage
+  langs:
+  - csharp
+  - vb
+  name: NativeName
+  nameWithType: SA_ISOLanguage.NativeName
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.NativeName
+  type: Property
+  source:
+    id: NativeName
+    path: ''
+    startLine: 2011
+  assemblies:
+  - cs.temp.dll
+  namespace: SA.Foundation.Localization
+  summary: "\nFull Languages name. Example: Русский\n"
+  example: []
+  syntax:
+    content: public string NativeName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NativeName As String
+  overload: SA.Foundation.Localization.SA_ISOLanguage.NativeName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SA.Foundation.Localization
+  commentId: N:SA.Foundation.Localization
+  name: SA.Foundation.Localization
+  nameWithType: SA.Foundation.Localization
+  fullName: SA.Foundation.Localization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SA.Foundation.Localization.SA_ISOLanguage.Code*
+  commentId: Overload:SA.Foundation.Localization.SA_ISOLanguage.Code
+  name: Code
+  nameWithType: SA_ISOLanguage.Code
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.Code
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SA.Foundation.Localization.SA_ISOLanguage.Name*
+  commentId: Overload:SA.Foundation.Localization.SA_ISOLanguage.Name
+  name: Name
+  nameWithType: SA_ISOLanguage.Name
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.Name
+- uid: SA.Foundation.Localization.SA_ISOLanguage.NativeName*
+  commentId: Overload:SA.Foundation.Localization.SA_ISOLanguage.NativeName
+  name: NativeName
+  nameWithType: SA_ISOLanguage.NativeName
+  fullName: SA.Foundation.Localization.SA_ISOLanguage.NativeName

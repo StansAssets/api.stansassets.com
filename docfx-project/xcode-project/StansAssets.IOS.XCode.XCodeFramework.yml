@@ -1,0 +1,634 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeFramework
+  commentId: T:StansAssets.IOS.XCode.XCodeFramework
+  id: XCodeFramework
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeFramework.#ctor(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  - StansAssets.IOS.XCode.XCodeFramework.#ctor(System.String,System.Boolean)
+  - StansAssets.IOS.XCode.XCodeFramework.FrameworkName
+  - StansAssets.IOS.XCode.XCodeFramework.FullName
+  - StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+  - StansAssets.IOS.XCode.XCodeFramework.IsOptional
+  - StansAssets.IOS.XCode.XCodeFramework.Name
+  langs:
+  - csharp
+  - vb
+  name: XCodeFramework
+  nameWithType: XCodeFramework
+  fullName: StansAssets.IOS.XCode.XCodeFramework
+  type: Class
+  source:
+    id: XCodeFramework
+    path: ''
+    startLine: 2979
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXCode project library.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class XCodeFramework
+    content.vb: >-
+      <Serializable>
+
+      Public Class XCodeFramework
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.XCodeFramework.FrameworkName
+  commentId: F:StansAssets.IOS.XCode.XCodeFramework.FrameworkName
+  id: FrameworkName
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: FrameworkName
+  nameWithType: XCodeFramework.FrameworkName
+  fullName: StansAssets.IOS.XCode.XCodeFramework.FrameworkName
+  type: Field
+  source:
+    id: FrameworkName
+    path: ''
+    startLine: 2985
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public XCodeFrameworkName FrameworkName
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+    content.vb: Public FrameworkName As XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeFramework.Name
+  commentId: P:StansAssets.IOS.XCode.XCodeFramework.Name
+  id: Name
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: XCodeFramework.Name
+  fullName: StansAssets.IOS.XCode.XCodeFramework.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2990
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nLibrary Name.\n"
+  example: []
+  syntax:
+    content: public XCodeFrameworkName Name { get; }
+    parameters: []
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+    content.vb: Public ReadOnly Property Name As XCodeFrameworkName
+  overload: StansAssets.IOS.XCode.XCodeFramework.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeFramework.IsOptional
+  commentId: P:StansAssets.IOS.XCode.XCodeFramework.IsOptional
+  id: IsOptional
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: IsOptional
+  nameWithType: XCodeFramework.IsOptional
+  fullName: StansAssets.IOS.XCode.XCodeFramework.IsOptional
+  type: Property
+  source:
+    id: IsOptional
+    path: ''
+    startLine: 2999
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nDefines if dependency is optional or not.\n"
+  example: []
+  syntax:
+    content: public bool IsOptional { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOptional As Boolean
+  overload: StansAssets.IOS.XCode.XCodeFramework.IsOptional*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+  commentId: P:StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+  id: IsEmbeded
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: IsEmbeded
+  nameWithType: XCodeFramework.IsEmbeded
+  fullName: StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+  type: Property
+  source:
+    id: IsEmbeded
+    path: ''
+    startLine: 3008
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nDefines if framework is embeded or not.\n"
+  example: []
+  syntax:
+    content: public bool IsEmbeded { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsEmbeded As Boolean
+  overload: StansAssets.IOS.XCode.XCodeFramework.IsEmbeded*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeFramework.FullName
+  commentId: P:StansAssets.IOS.XCode.XCodeFramework.FullName
+  id: FullName
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: XCodeFramework.FullName
+  fullName: StansAssets.IOS.XCode.XCodeFramework.FullName
+  type: Property
+  source:
+    id: FullName
+    path: ''
+    startLine: 3017
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nGets the full framework name.\n"
+  example: []
+  syntax:
+    content: public string FullName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property FullName As String
+  overload: StansAssets.IOS.XCode.XCodeFramework.FullName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeFramework.#ctor(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  commentId: M:StansAssets.IOS.XCode.XCodeFramework.#ctor(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  id: '#ctor(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)'
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: XCodeFramework(XCodeFrameworkName, Boolean)
+  nameWithType: XCodeFramework.XCodeFramework(XCodeFrameworkName, Boolean)
+  fullName: StansAssets.IOS.XCode.XCodeFramework.XCodeFramework(StansAssets.IOS.XCode.XCodeFrameworkName, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3024
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInitializes a new instance of the class.\n"
+  example: []
+  syntax:
+    content: public XCodeFramework(XCodeFrameworkName frameworkName, bool optional = false)
+    parameters:
+    - id: frameworkName
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+      description: Type.
+    - id: optional
+      type: System.Boolean
+      description: If set to <code>true</code> optional.
+    content.vb: Public Sub New(frameworkName As XCodeFrameworkName, optional As Boolean = False)
+  overload: StansAssets.IOS.XCode.XCodeFramework.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeFramework.#ctor(System.String,System.Boolean)
+  commentId: M:StansAssets.IOS.XCode.XCodeFramework.#ctor(System.String,System.Boolean)
+  id: '#ctor(System.String,System.Boolean)'
+  parent: StansAssets.IOS.XCode.XCodeFramework
+  langs:
+  - csharp
+  - vb
+  name: XCodeFramework(String, Boolean)
+  nameWithType: XCodeFramework.XCodeFramework(String, Boolean)
+  fullName: StansAssets.IOS.XCode.XCodeFramework.XCodeFramework(System.String, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3035
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInitializes a new instance of the <xref href=\"StansAssets.IOS.XCode.ISD_Framework\" data-throw-if-not-resolved=\"false\"></xref> class.\n"
+  example: []
+  syntax:
+    content: public XCodeFramework(string frameworkName, bool optional = false)
+    parameters:
+    - id: frameworkName
+      type: System.String
+      description: Framework name.
+    - id: optional
+      type: System.Boolean
+      description: If set to <code>true</code> optional.
+    content.vb: Public Sub New(frameworkName As String, optional As Boolean = False)
+  overload: StansAssets.IOS.XCode.XCodeFramework.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName
+  commentId: T:StansAssets.IOS.XCode.XCodeFrameworkName
+  parent: StansAssets.IOS.XCode
+  name: XCodeFrameworkName
+  nameWithType: XCodeFrameworkName
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName
+- uid: StansAssets.IOS.XCode.XCodeFramework.Name*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeFramework.Name
+  name: Name
+  nameWithType: XCodeFramework.Name
+  fullName: StansAssets.IOS.XCode.XCodeFramework.Name
+- uid: StansAssets.IOS.XCode.XCodeFramework.IsOptional*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeFramework.IsOptional
+  name: IsOptional
+  nameWithType: XCodeFramework.IsOptional
+  fullName: StansAssets.IOS.XCode.XCodeFramework.IsOptional
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.IOS.XCode.XCodeFramework.IsEmbeded*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+  name: IsEmbeded
+  nameWithType: XCodeFramework.IsEmbeded
+  fullName: StansAssets.IOS.XCode.XCodeFramework.IsEmbeded
+- uid: StansAssets.IOS.XCode.XCodeFramework.FullName*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeFramework.FullName
+  name: FullName
+  nameWithType: XCodeFramework.FullName
+  fullName: StansAssets.IOS.XCode.XCodeFramework.FullName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.XCodeFramework.#ctor*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeFramework.#ctor
+  name: XCodeFramework
+  nameWithType: XCodeFramework.XCodeFramework
+  fullName: StansAssets.IOS.XCode.XCodeFramework.XCodeFramework
+- uid: StansAssets.IOS.XCode.ISD_Framework
+  commentId: T:StansAssets.IOS.XCode.ISD_Framework
+  isExternal: true

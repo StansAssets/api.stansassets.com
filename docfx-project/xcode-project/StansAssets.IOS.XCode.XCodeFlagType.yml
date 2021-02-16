@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeFlagType
+  commentId: T:StansAssets.IOS.XCode.XCodeFlagType
+  id: XCodeFlagType
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeFlagType.CompilerFlag
+  - StansAssets.IOS.XCode.XCodeFlagType.LinkerFlag
+  langs:
+  - csharp
+  - vb
+  name: XCodeFlagType
+  nameWithType: XCodeFlagType
+  fullName: StansAssets.IOS.XCode.XCodeFlagType
+  type: Enum
+  source:
+    id: XCodeFlagType
+    path: ''
+    startLine: 126
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXCode Project flag types.\n"
+  example: []
+  syntax:
+    content: public enum XCodeFlagType
+    content.vb: Public Enum XCodeFlagType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.XCodeFlagType.CompilerFlag
+  commentId: F:StansAssets.IOS.XCode.XCodeFlagType.CompilerFlag
+  id: CompilerFlag
+  parent: StansAssets.IOS.XCode.XCodeFlagType
+  langs:
+  - csharp
+  - vb
+  name: CompilerFlag
+  nameWithType: XCodeFlagType.CompilerFlag
+  fullName: StansAssets.IOS.XCode.XCodeFlagType.CompilerFlag
+  type: Field
+  source:
+    id: CompilerFlag
+    path: ''
+    startLine: 131
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nFlags that are passed on to the compiler.\n"
+  example: []
+  syntax:
+    content: CompilerFlag = 0
+    return:
+      type: StansAssets.IOS.XCode.XCodeFlagType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFlagType.LinkerFlag
+  commentId: F:StansAssets.IOS.XCode.XCodeFlagType.LinkerFlag
+  id: LinkerFlag
+  parent: StansAssets.IOS.XCode.XCodeFlagType
+  langs:
+  - csharp
+  - vb
+  name: LinkerFlag
+  nameWithType: XCodeFlagType.LinkerFlag
+  fullName: StansAssets.IOS.XCode.XCodeFlagType.LinkerFlag
+  type: Field
+  source:
+    id: LinkerFlag
+    path: ''
+    startLine: 136
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nFlags that are passed on to the linker.\n"
+  example: []
+  syntax:
+    content: LinkerFlag = 1
+    return:
+      type: StansAssets.IOS.XCode.XCodeFlagType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.XCodeFlagType
+  commentId: T:StansAssets.IOS.XCode.XCodeFlagType
+  parent: StansAssets.IOS.XCode
+  name: XCodeFlagType
+  nameWithType: XCodeFlagType
+  fullName: StansAssets.IOS.XCode.XCodeFlagType

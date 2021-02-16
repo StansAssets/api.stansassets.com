@@ -1,0 +1,67 @@
+### YamlMime:TableOfContent
+- uid: SA.Foundation.Localization
+  name: SA.Foundation.Localization
+  items:
+  - uid: SA.Foundation.Localization.SA_ISOLanguage
+    name: SA_ISOLanguage
+  - uid: SA.Foundation.Localization.SA_ISOLanguagesList
+    name: SA_ISOLanguagesList
+  - uid: SA.Foundation.Localization.SA_LanguagesUtil
+    name: SA_LanguagesUtil
+- uid: StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  items:
+  - uid: StansAssets.IOS.XCode.FrameworkHandler
+    name: FrameworkHandler
+  - uid: StansAssets.IOS.XCode.InfoPlistKey
+    name: InfoPlistKey
+  - uid: StansAssets.IOS.XCode.InfoPlistKeyType
+    name: InfoPlistKeyType
+  - uid: StansAssets.IOS.XCode.LibraryHandler
+    name: LibraryHandler
+  - uid: StansAssets.IOS.XCode.XCodeAsset
+    name: XCodeAsset
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
+    name: XCodeCapabilitySettings
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability
+    name: XCodeCapabilitySettings.AppGroupsCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability
+    name: XCodeCapabilitySettings.ApplePayCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability
+    name: XCodeCapabilitySettings.AssociatedDomainsCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability
+    name: XCodeCapabilitySettings.BackgroundModesCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+    name: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability
+    name: XCodeCapabilitySettings.Capability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability
+    name: XCodeCapabilitySettings.iCloudCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability
+    name: XCodeCapabilitySettings.KeychainSharingCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability
+    name: XCodeCapabilitySettings.MapsCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+    name: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability
+    name: XCodeCapabilitySettings.PushNotificationsCapability
+  - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
+    name: XCodeCapabilitySettings.WalletCapability
+  - uid: StansAssets.IOS.XCode.XCodeFlagType
+    name: XCodeFlagType
+  - uid: StansAssets.IOS.XCode.XCodeFramework
+    name: XCodeFramework
+  - uid: StansAssets.IOS.XCode.XCodeFrameworkName
+    name: XCodeFrameworkName
+  - uid: StansAssets.IOS.XCode.XCodeLibrary
+    name: XCodeLibrary
+  - uid: StansAssets.IOS.XCode.XCodeLibraryName
+    name: XCodeLibraryName
+  - uid: StansAssets.IOS.XCode.XCodePackage
+    name: XCodePackage
+  - uid: StansAssets.IOS.XCode.XCodeProject
+    name: XCodeProject
+  - uid: StansAssets.IOS.XCode.XCodeProjectFlag
+    name: XCodeProjectFlag
+  - uid: StansAssets.IOS.XCode.XCodeProjectProperty
+    name: XCodeProjectProperty

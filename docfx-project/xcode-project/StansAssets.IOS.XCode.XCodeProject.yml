@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeProject
+  commentId: T:StansAssets.IOS.XCode.XCodeProject
+  id: XCodeProject
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeProject.AddFile(Object,System.String)
+  - StansAssets.IOS.XCode.XCodeProject.AddFile(StansAssets.IOS.XCode.XCodeAsset)
+  - StansAssets.IOS.XCode.XCodeProject.AddFlag(System.String,StansAssets.IOS.XCode.XCodeFlagType)
+  - StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFramework)
+  - StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  - StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibrary)
+  - StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibraryName,System.Boolean)
+  - StansAssets.IOS.XCode.XCodeProject.Capability
+  - StansAssets.IOS.XCode.XCodeProject.ContainsKey(System.String)
+  - StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey(System.String)
+  - StansAssets.IOS.XCode.XCodeProject.HasFile(Object)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(System.String)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveFlag(System.String)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveFramework(StansAssets.IOS.XCode.XCodeFrameworkName)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(System.String)
+  - StansAssets.IOS.XCode.XCodeProject.RemoveLibrary(StansAssets.IOS.XCode.XCodeLibraryName)
+  - StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  - StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
+  - StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  langs:
+  - csharp
+  - vb
+  name: XCodeProject
+  nameWithType: XCodeProject
+  fullName: StansAssets.IOS.XCode.XCodeProject
+  type: Class
+  source:
+    id: XCodeProject
+    path: ''
+    startLine: 2471
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nThe main enter point for the XCode project setup.\n"
+  example: []
+  syntax:
+    content: public static class XCodeProject
+    content.vb: Public Module XCodeProject
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: StansAssets.IOS.XCode.XCodeProject.Capability
+  commentId: P:StansAssets.IOS.XCode.XCodeProject.Capability
+  id: Capability
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: Capability
+  nameWithType: XCodeProject.Capability
+  fullName: StansAssets.IOS.XCode.XCodeProject.Capability
+  type: Property
+  source:
+    id: Capability
+    path: ''
+    startLine: 2476
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nCapability Settings.\n"
+  example: []
+  syntax:
+    content: public static XCodeCapabilitySettings Capability { get; }
+    parameters: []
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings
+    content.vb: Public Shared ReadOnly Property Capability As XCodeCapabilitySettings
+  overload: StansAssets.IOS.XCode.XCodeProject.Capability*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
+  id: SetBuildProperty(System.String,System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildProperty(String, String)
+  nameWithType: XCodeProject.SetBuildProperty(String, String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String, System.String)
+  type: Method
+  source:
+    id: SetBuildProperty
+    path: ''
+    startLine: 2483
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nSets a build property to the given value in all build configurations.\n"
+  example: []
+  syntax:
+    content: public static void SetBuildProperty(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+      description: 'The name of the build property. Example: &quot;ENABLE_BITCODE&quot;'
+    - id: value
+      type: System.String
+      description: 'The value of the build property.  Example: &quot;NO&quot;'
+    content.vb: Public Shared Sub SetBuildProperty(name As String, value As String)
+  overload: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  id: SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: SetBuildProperty(XCodeProjectProperty)
+  nameWithType: XCodeProject.SetBuildProperty(XCodeProjectProperty)
+  fullName: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  type: Method
+  source:
+    id: SetBuildProperty
+    path: ''
+    startLine: 2492
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nSets a build property to the given value in all build configurations.\n"
+  example: []
+  syntax:
+    content: public static void SetBuildProperty(XCodeProjectProperty property)
+    parameters:
+    - id: property
+      type: StansAssets.IOS.XCode.XCodeProjectProperty
+      description: Property object instance.
+    content.vb: Public Shared Sub SetBuildProperty(property As XCodeProjectProperty)
+  overload: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  id: RemoveBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveBuildProperty(XCodeProjectProperty)
+  nameWithType: XCodeProject.RemoveBuildProperty(XCodeProjectProperty)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
+  type: Method
+  source:
+    id: RemoveBuildProperty
+    path: ''
+    startLine: 2508
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves the build property.\n"
+  example: []
+  syntax:
+    content: public static void RemoveBuildProperty(XCodeProjectProperty property)
+    parameters:
+    - id: property
+      type: StansAssets.IOS.XCode.XCodeProjectProperty
+      description: Build property.
+    content.vb: Public Shared Sub RemoveBuildProperty(property As XCodeProjectProperty)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(System.String)
+  id: RemoveBuildProperty(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveBuildProperty(String)
+  nameWithType: XCodeProject.RemoveBuildProperty(String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty(System.String)
+  type: Method
+  source:
+    id: RemoveBuildProperty
+    path: ''
+    startLine: 2517
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves the build property.\n"
+  example: []
+  syntax:
+    content: public static void RemoveBuildProperty(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Property name.
+    content.vb: Public Shared Sub RemoveBuildProperty(name As String)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  id: SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: SetInfoPlistKey(InfoPlistKey)
+  nameWithType: XCodeProject.SetInfoPlistKey(InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  type: Method
+  source:
+    id: SetInfoPlistKey
+    path: ''
+    startLine: 2535
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nMethod will add or replace new <xref href=\"StansAssets.IOS.XCode.InfoPlistKey\" data-throw-if-not-resolved=\"false\"></xref> to the Info.plist keys\n"
+  example: []
+  syntax:
+    content: public static void SetInfoPlistKey(InfoPlistKey key)
+    parameters:
+    - id: key
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: Info.plist key name
+    content.vb: Public Shared Sub SetInfoPlistKey(key As InfoPlistKey)
+  overload: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey(System.String)
+  id: GetInfoPlistKey(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: GetInfoPlistKey(String)
+  nameWithType: XCodeProject.GetInfoPlistKey(String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey(System.String)
+  type: Method
+  source:
+    id: GetInfoPlistKey
+    path: ''
+    startLine: 2547
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nGet&apos;s <xref href=\"StansAssets.IOS.XCode.InfoPlistKey\" data-throw-if-not-resolved=\"false\"></xref> instance by it&apos;s name\n"
+  example: []
+  syntax:
+    content: public static InfoPlistKey GetInfoPlistKey(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Info.plist key name
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKey
+    content.vb: Public Shared Function GetInfoPlistKey(name As String) As InfoPlistKey
+  overload: StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.ContainsKey(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.ContainsKey(System.String)
+  id: ContainsKey(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: ContainsKey(String)
+  nameWithType: XCodeProject.ContainsKey(String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.ContainsKey(System.String)
+  type: Method
+  source:
+    id: ContainsKey
+    path: ''
+    startLine: 2559
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nReturns true if this key already exists inside Info.plist\n"
+  example: []
+  syntax:
+    content: public static bool ContainsKey(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Info.plist key name
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ContainsKey(name As String) As Boolean
+  overload: StansAssets.IOS.XCode.XCodeProject.ContainsKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  id: RemoveInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveInfoPlistKey(InfoPlistKey)
+  nameWithType: XCodeProject.RemoveInfoPlistKey(InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  type: Method
+  source:
+    id: RemoveInfoPlistKey
+    path: ''
+    startLine: 2568
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves Info.plist key\n"
+  example: []
+  syntax:
+    content: public static void RemoveInfoPlistKey(InfoPlistKey key)
+    parameters:
+    - id: key
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: Info.plist key
+    content.vb: Public Shared Sub RemoveInfoPlistKey(key As InfoPlistKey)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(System.String)
+  id: RemoveInfoPlistKey(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveInfoPlistKey(String)
+  nameWithType: XCodeProject.RemoveInfoPlistKey(String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey(System.String)
+  type: Method
+  source:
+    id: RemoveInfoPlistKey
+    path: ''
+    startLine: 2577
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves Info.plist key\n"
+  example: []
+  syntax:
+    content: public static void RemoveInfoPlistKey(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Info.plist key name
+    content.vb: Public Shared Sub RemoveInfoPlistKey(name As String)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFlag(System.String,StansAssets.IOS.XCode.XCodeFlagType)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddFlag(System.String,StansAssets.IOS.XCode.XCodeFlagType)
+  id: AddFlag(System.String,StansAssets.IOS.XCode.XCodeFlagType)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddFlag(String, XCodeFlagType)
+  nameWithType: XCodeProject.AddFlag(String, XCodeFlagType)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFlag(System.String, StansAssets.IOS.XCode.XCodeFlagType)
+  type: Method
+  source:
+    id: AddFlag
+    path: ''
+    startLine: 2588
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds compiler or linker flag to the build configuration\n"
+  example: []
+  syntax:
+    content: public static void AddFlag(string name, XCodeFlagType type)
+    parameters:
+    - id: name
+      type: System.String
+      description: flag name.
+    - id: type
+      type: StansAssets.IOS.XCode.XCodeFlagType
+      description: flag type.
+    content.vb: Public Shared Sub AddFlag(name As String, type As XCodeFlagType)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddFlag*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveFlag(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveFlag(System.String)
+  id: RemoveFlag(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveFlag(String)
+  nameWithType: XCodeProject.RemoveFlag(String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveFlag(System.String)
+  type: Method
+  source:
+    id: RemoveFlag
+    path: ''
+    startLine: 2605
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves the flag.\n"
+  example: []
+  syntax:
+    content: public static void RemoveFlag(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Flag name.
+    content.vb: Public Shared Sub RemoveFlag(name As String)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveFlag*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  id: AddFramework(StansAssets.IOS.XCode.XCodeFrameworkName,System.Boolean)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddFramework(XCodeFrameworkName, Boolean)
+  nameWithType: XCodeProject.AddFramework(XCodeFrameworkName, Boolean)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFrameworkName, System.Boolean)
+  type: Method
+  source:
+    id: AddFramework
+    path: ''
+    startLine: 2623
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds a system framework dependency.\n\nThe function assumes system frameworks are located in System/Library/Frameworks folder\nin the SDK source tree. The framework is added to Frameworks logical folder in the project.\n"
+  example: []
+  syntax:
+    content: public static void AddFramework(XCodeFrameworkName frameworkName, bool weak = false)
+    parameters:
+    - id: frameworkName
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+      description: The name of the framework.
+    - id: weak
+      type: System.Boolean
+      description: <code>True</code> if the framework is optional (i.e. weakly linked), <code>false</code> if the framework is required.
+    content.vb: Public Shared Sub AddFramework(frameworkName As XCodeFrameworkName, weak As Boolean = False)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddFramework*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFramework)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFramework)
+  id: AddFramework(StansAssets.IOS.XCode.XCodeFramework)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddFramework(XCodeFramework)
+  nameWithType: XCodeProject.AddFramework(XCodeFramework)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFramework(StansAssets.IOS.XCode.XCodeFramework)
+  type: Method
+  source:
+    id: AddFramework
+    path: ''
+    startLine: 2635
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds a system framework dependency.\n\nThe function assumes system frameworks are located in System/Library/Frameworks folder\nin the SDK source tree. The framework is added to Frameworks logical folder in the project.\n"
+  example: []
+  syntax:
+    content: public static void AddFramework(XCodeFramework framework)
+    parameters:
+    - id: framework
+      type: StansAssets.IOS.XCode.XCodeFramework
+      description: framework configuration object
+    content.vb: Public Shared Sub AddFramework(framework As XCodeFramework)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddFramework*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveFramework(StansAssets.IOS.XCode.XCodeFrameworkName)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveFramework(StansAssets.IOS.XCode.XCodeFrameworkName)
+  id: RemoveFramework(StansAssets.IOS.XCode.XCodeFrameworkName)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveFramework(XCodeFrameworkName)
+  nameWithType: XCodeProject.RemoveFramework(XCodeFrameworkName)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveFramework(StansAssets.IOS.XCode.XCodeFrameworkName)
+  type: Method
+  source:
+    id: RemoveFramework
+    path: ''
+    startLine: 2651
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves the framework.\n"
+  example: []
+  syntax:
+    content: public static void RemoveFramework(XCodeFrameworkName frameworkName)
+    parameters:
+    - id: frameworkName
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+      description: Framework type
+    content.vb: Public Shared Sub RemoveFramework(frameworkName As XCodeFrameworkName)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveFramework*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibraryName,System.Boolean)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibraryName,System.Boolean)
+  id: AddLibrary(StansAssets.IOS.XCode.XCodeLibraryName,System.Boolean)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddLibrary(XCodeLibraryName, Boolean)
+  nameWithType: XCodeProject.AddLibrary(XCodeLibraryName, Boolean)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibraryName, System.Boolean)
+  type: Method
+  source:
+    id: AddLibrary
+    path: ''
+    startLine: 2669
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds a system library dependency.\n\nThe function assumes system library are located in System/Library/Frameworks folder\nin the SDK source tree. The library is added to Frameworks logical folder in the project.\n"
+  example: []
+  syntax:
+    content: public static void AddLibrary(XCodeLibraryName libraryName, bool weak = false)
+    parameters:
+    - id: libraryName
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+      description: The name of the library.
+    - id: weak
+      type: System.Boolean
+      description: <code>True</code> if the framework is optional (i.e. weakly linked), <code>false</code> if the framework is required.
+    content.vb: Public Shared Sub AddLibrary(libraryName As XCodeLibraryName, weak As Boolean = False)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddLibrary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibrary)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibrary)
+  id: AddLibrary(StansAssets.IOS.XCode.XCodeLibrary)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddLibrary(XCodeLibrary)
+  nameWithType: XCodeProject.AddLibrary(XCodeLibrary)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddLibrary(StansAssets.IOS.XCode.XCodeLibrary)
+  type: Method
+  source:
+    id: AddLibrary
+    path: ''
+    startLine: 2681
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds a system library dependency.\n\nThe function assumes system library are located in System/Library/Frameworks folder\nin the SDK source tree. The library is added to Frameworks logical folder in the project.\n"
+  example: []
+  syntax:
+    content: public static void AddLibrary(XCodeLibrary library)
+    parameters:
+    - id: library
+      type: StansAssets.IOS.XCode.XCodeLibrary
+      description: library configuration object
+    content.vb: Public Shared Sub AddLibrary(library As XCodeLibrary)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddLibrary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveLibrary(StansAssets.IOS.XCode.XCodeLibraryName)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.RemoveLibrary(StansAssets.IOS.XCode.XCodeLibraryName)
+  id: RemoveLibrary(StansAssets.IOS.XCode.XCodeLibraryName)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: RemoveLibrary(XCodeLibraryName)
+  nameWithType: XCodeProject.RemoveLibrary(XCodeLibraryName)
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveLibrary(StansAssets.IOS.XCode.XCodeLibraryName)
+  type: Method
+  source:
+    id: RemoveLibrary
+    path: ''
+    startLine: 2697
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRemoves the library.\n"
+  example: []
+  syntax:
+    content: public static void RemoveLibrary(XCodeLibraryName libraryName)
+    parameters:
+    - id: libraryName
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+      description: Library type.
+    content.vb: Public Shared Sub RemoveLibrary(libraryName As XCodeLibraryName)
+  overload: StansAssets.IOS.XCode.XCodeProject.RemoveLibrary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.HasFile(Object)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.HasFile(Object)
+  id: HasFile(Object)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: HasFile(Object)
+  nameWithType: XCodeProject.HasFile(Object)
+  fullName: StansAssets.IOS.XCode.XCodeProject.HasFile(Object)
+  type: Method
+  source:
+    id: HasFile
+    path: ''
+    startLine: 2712
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nMethod that allow to check if certain asset was already added to the Xcode project.\n"
+  example: []
+  syntax:
+    content: public static bool HasFile(Object asset)
+    parameters:
+    - id: asset
+      type: Object
+      description: A reference to the asset.
+    return:
+      type: System.Boolean
+      description: 'Returns `true` if asset is added and `false` otherwise. '
+    content.vb: Public Shared Function HasFile(asset As Object) As Boolean
+  overload: StansAssets.IOS.XCode.XCodeProject.HasFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFile(Object,System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddFile(Object,System.String)
+  id: AddFile(Object,System.String)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddFile(Object, String)
+  nameWithType: XCodeProject.AddFile(Object, String)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFile(Object, System.String)
+  type: Method
+  source:
+    id: AddFile
+    path: ''
+    startLine: 2726
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds asset copy step.\n"
+  example: []
+  syntax:
+    content: public static void AddFile(Object asset, string xCodePath = "")
+    parameters:
+    - id: asset
+      type: Object
+      description: A reference to the asset that will be copied.
+    - id: xCodePath
+      type: System.String
+      description: The Xcode project related path of where to copy the file. Will copy in the project root by default.
+    content.vb: Public Shared Sub AddFile(asset As Object, xCodePath As String = "")
+  overload: StansAssets.IOS.XCode.XCodeProject.AddFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFile(StansAssets.IOS.XCode.XCodeAsset)
+  commentId: M:StansAssets.IOS.XCode.XCodeProject.AddFile(StansAssets.IOS.XCode.XCodeAsset)
+  id: AddFile(StansAssets.IOS.XCode.XCodeAsset)
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: AddFile(XCodeAsset)
+  nameWithType: XCodeProject.AddFile(XCodeAsset)
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFile(StansAssets.IOS.XCode.XCodeAsset)
+  type: Method
+  source:
+    id: AddFile
+    path: ''
+    startLine: 2739
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds asset copy step.\n"
+  example: []
+  syntax:
+    content: public static void AddFile(XCodeAsset asset)
+    parameters:
+    - id: asset
+      type: StansAssets.IOS.XCode.XCodeAsset
+      description: Asset model to copy.
+    content.vb: Public Shared Sub AddFile(asset As XCodeAsset)
+  overload: StansAssets.IOS.XCode.XCodeProject.AddFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.IOS.XCode.XCodeProject.Capability*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.Capability
+  name: Capability
+  nameWithType: XCodeProject.Capability
+  fullName: StansAssets.IOS.XCode.XCodeProject.Capability
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings
+  nameWithType: XCodeCapabilitySettings
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings
+- uid: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.SetBuildProperty
+  name: SetBuildProperty
+  nameWithType: XCodeProject.SetBuildProperty
+  fullName: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.XCodeProjectProperty
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectProperty
+  parent: StansAssets.IOS.XCode
+  name: XCodeProjectProperty
+  nameWithType: XCodeProjectProperty
+  fullName: StansAssets.IOS.XCode.XCodeProjectProperty
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty
+  name: RemoveBuildProperty
+  nameWithType: XCodeProject.RemoveBuildProperty
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveBuildProperty
+- uid: StansAssets.IOS.XCode.InfoPlistKey
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKey
+  nameWithType: InfoPlistKey
+  fullName: StansAssets.IOS.XCode.InfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey
+  name: SetInfoPlistKey
+  nameWithType: XCodeProject.SetInfoPlistKey
+  fullName: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey
+  name: GetInfoPlistKey
+  nameWithType: XCodeProject.GetInfoPlistKey
+  fullName: StansAssets.IOS.XCode.XCodeProject.GetInfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProject.ContainsKey*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.ContainsKey
+  name: ContainsKey
+  nameWithType: XCodeProject.ContainsKey
+  fullName: StansAssets.IOS.XCode.XCodeProject.ContainsKey
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey
+  name: RemoveInfoPlistKey
+  nameWithType: XCodeProject.RemoveInfoPlistKey
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveInfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFlag*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.AddFlag
+  name: AddFlag
+  nameWithType: XCodeProject.AddFlag
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFlag
+- uid: StansAssets.IOS.XCode.XCodeFlagType
+  commentId: T:StansAssets.IOS.XCode.XCodeFlagType
+  parent: StansAssets.IOS.XCode
+  name: XCodeFlagType
+  nameWithType: XCodeFlagType
+  fullName: StansAssets.IOS.XCode.XCodeFlagType
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveFlag*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.RemoveFlag
+  name: RemoveFlag
+  nameWithType: XCodeProject.RemoveFlag
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveFlag
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFramework*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.AddFramework
+  name: AddFramework
+  nameWithType: XCodeProject.AddFramework
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFramework
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName
+  commentId: T:StansAssets.IOS.XCode.XCodeFrameworkName
+  parent: StansAssets.IOS.XCode
+  name: XCodeFrameworkName
+  nameWithType: XCodeFrameworkName
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName
+- uid: StansAssets.IOS.XCode.XCodeFramework
+  commentId: T:StansAssets.IOS.XCode.XCodeFramework
+  parent: StansAssets.IOS.XCode
+  name: XCodeFramework
+  nameWithType: XCodeFramework
+  fullName: StansAssets.IOS.XCode.XCodeFramework
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveFramework*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.RemoveFramework
+  name: RemoveFramework
+  nameWithType: XCodeProject.RemoveFramework
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveFramework
+- uid: StansAssets.IOS.XCode.XCodeProject.AddLibrary*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.AddLibrary
+  name: AddLibrary
+  nameWithType: XCodeProject.AddLibrary
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddLibrary
+- uid: StansAssets.IOS.XCode.XCodeLibraryName
+  commentId: T:StansAssets.IOS.XCode.XCodeLibraryName
+  parent: StansAssets.IOS.XCode
+  name: XCodeLibraryName
+  nameWithType: XCodeLibraryName
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName
+- uid: StansAssets.IOS.XCode.XCodeLibrary
+  commentId: T:StansAssets.IOS.XCode.XCodeLibrary
+  parent: StansAssets.IOS.XCode
+  name: XCodeLibrary
+  nameWithType: XCodeLibrary
+  fullName: StansAssets.IOS.XCode.XCodeLibrary
+- uid: StansAssets.IOS.XCode.XCodeProject.RemoveLibrary*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.RemoveLibrary
+  name: RemoveLibrary
+  nameWithType: XCodeProject.RemoveLibrary
+  fullName: StansAssets.IOS.XCode.XCodeProject.RemoveLibrary
+- uid: StansAssets.IOS.XCode.XCodeProject.HasFile*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.HasFile
+  name: HasFile
+  nameWithType: XCodeProject.HasFile
+  fullName: StansAssets.IOS.XCode.XCodeProject.HasFile
+- uid: Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: Object
+- uid: StansAssets.IOS.XCode.XCodeProject.AddFile*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.AddFile
+  name: AddFile
+  nameWithType: XCodeProject.AddFile
+  fullName: StansAssets.IOS.XCode.XCodeProject.AddFile
+- uid: StansAssets.IOS.XCode.XCodeAsset
+  commentId: T:StansAssets.IOS.XCode.XCodeAsset
+  parent: StansAssets.IOS.XCode
+  name: XCodeAsset
+  nameWithType: XCodeAsset
+  fullName: StansAssets.IOS.XCode.XCodeAsset

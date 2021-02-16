@@ -1,0 +1,2828 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName
+  commentId: T:StansAssets.IOS.XCode.XCodeFrameworkName
+  id: XCodeFrameworkName
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Accelerate
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Accounts
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AddressBook
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AddressBookUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AdSupport
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AppTrackingTransparency
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ARKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AssetsLibrary
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AudioToolbox
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AudioUnit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AuthenticationServices
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AVFoundation
+  - StansAssets.IOS.XCode.XCodeFrameworkName.AVKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CallKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CFNetwork
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CloudKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Contacts
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ContactsUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudio
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudioKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreBluetooth
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreData
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreFoundation
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreGraphics
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreImage
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreLocation
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreMedia
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreMIDI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreMotion
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreSpotlight
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreTelephony
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreText
+  - StansAssets.IOS.XCode.XCodeFrameworkName.CoreVideo
+  - StansAssets.IOS.XCode.XCodeFrameworkName.DTPerformanceSession
+  - StansAssets.IOS.XCode.XCodeFrameworkName.EventKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.EventKitUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ExternalAccessory
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Foundation
+  - StansAssets.IOS.XCode.XCodeFrameworkName.GameController
+  - StansAssets.IOS.XCode.XCodeFrameworkName.GameKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.GameplayKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.GLKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.GSS
+  - StansAssets.IOS.XCode.XCodeFrameworkName.HealthKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.HealthKitUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.HomeKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ImageIO
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Intents
+  - StansAssets.IOS.XCode.XCodeFrameworkName.IntentsUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.InterfaceBuilderKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.IOKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.JavaScriptCore
+  - StansAssets.IOS.XCode.XCodeFrameworkName.LocalAuthentication
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MapKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MediaAccessibility
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MediaPlayer
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MediaToolbox
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Messages
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MessageUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Metal
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MetalKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MetalPerformanceShaders
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MobileCoreServices
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ModelIO
+  - StansAssets.IOS.XCode.XCodeFrameworkName.MultipeerConnectivity
+  - StansAssets.IOS.XCode.XCodeFrameworkName.NetworkExtension
+  - StansAssets.IOS.XCode.XCodeFrameworkName.NewsstandKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.NotificationCenter
+  - StansAssets.IOS.XCode.XCodeFrameworkName.OpenAL
+  - StansAssets.IOS.XCode.XCodeFrameworkName.OpenGLES
+  - StansAssets.IOS.XCode.XCodeFrameworkName.PassKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Photos
+  - StansAssets.IOS.XCode.XCodeFrameworkName.PhotosUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.PushKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.QuartzCore
+  - StansAssets.IOS.XCode.XCodeFrameworkName.QuickLook
+  - StansAssets.IOS.XCode.XCodeFrameworkName.ReplayKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.SafariServices
+  - StansAssets.IOS.XCode.XCodeFrameworkName.SceneKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Security
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Social
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Speech
+  - StansAssets.IOS.XCode.XCodeFrameworkName.SpriteKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.StoreKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.SystemConfiguration
+  - StansAssets.IOS.XCode.XCodeFrameworkName.Twitter
+  - StansAssets.IOS.XCode.XCodeFrameworkName.UIKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.UserNotifications
+  - StansAssets.IOS.XCode.XCodeFrameworkName.UserNotificationsUI
+  - StansAssets.IOS.XCode.XCodeFrameworkName.VideoSubscriberAccount
+  - StansAssets.IOS.XCode.XCodeFrameworkName.VideoToolbox
+  - StansAssets.IOS.XCode.XCodeFrameworkName.WatchConnectivity
+  - StansAssets.IOS.XCode.XCodeFrameworkName.WatchKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.WebKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.XcodeKit
+  - StansAssets.IOS.XCode.XCodeFrameworkName.XCTest
+  langs:
+  - csharp
+  - vb
+  name: XCodeFrameworkName
+  nameWithType: XCodeFrameworkName
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName
+  type: Enum
+  source:
+    id: XCodeFrameworkName
+    path: ''
+    startLine: 19
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXCode available project frameworks.\n"
+  example: []
+  syntax:
+    content: public enum XCodeFrameworkName
+    content.vb: Public Enum XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AuthenticationServices
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AuthenticationServices
+  id: AuthenticationServices
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationServices
+  nameWithType: XCodeFrameworkName.AuthenticationServices
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AuthenticationServices
+  type: Field
+  source:
+    id: AuthenticationServices
+    path: ''
+    startLine: 21
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AuthenticationServices = 0
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Accelerate
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Accelerate
+  id: Accelerate
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Accelerate
+  nameWithType: XCodeFrameworkName.Accelerate
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Accelerate
+  type: Field
+  source:
+    id: Accelerate
+    path: ''
+    startLine: 22
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Accelerate = 1
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Accounts
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Accounts
+  id: Accounts
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Accounts
+  nameWithType: XCodeFrameworkName.Accounts
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Accounts
+  type: Field
+  source:
+    id: Accounts
+    path: ''
+    startLine: 23
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Accounts = 2
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AddressBook
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AddressBook
+  id: AddressBook
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AddressBook
+  nameWithType: XCodeFrameworkName.AddressBook
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AddressBook
+  type: Field
+  source:
+    id: AddressBook
+    path: ''
+    startLine: 24
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AddressBook = 3
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AddressBookUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AddressBookUI
+  id: AddressBookUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AddressBookUI
+  nameWithType: XCodeFrameworkName.AddressBookUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AddressBookUI
+  type: Field
+  source:
+    id: AddressBookUI
+    path: ''
+    startLine: 25
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AddressBookUI = 4
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AdSupport
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AdSupport
+  id: AdSupport
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AdSupport
+  nameWithType: XCodeFrameworkName.AdSupport
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AdSupport
+  type: Field
+  source:
+    id: AdSupport
+    path: ''
+    startLine: 26
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AdSupport = 5
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AppTrackingTransparency
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AppTrackingTransparency
+  id: AppTrackingTransparency
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AppTrackingTransparency
+  nameWithType: XCodeFrameworkName.AppTrackingTransparency
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AppTrackingTransparency
+  type: Field
+  source:
+    id: AppTrackingTransparency
+    path: ''
+    startLine: 27
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AppTrackingTransparency = 6
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AssetsLibrary
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AssetsLibrary
+  id: AssetsLibrary
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AssetsLibrary
+  nameWithType: XCodeFrameworkName.AssetsLibrary
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AssetsLibrary
+  type: Field
+  source:
+    id: AssetsLibrary
+    path: ''
+    startLine: 28
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AssetsLibrary = 7
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AudioToolbox
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AudioToolbox
+  id: AudioToolbox
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AudioToolbox
+  nameWithType: XCodeFrameworkName.AudioToolbox
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AudioToolbox
+  type: Field
+  source:
+    id: AudioToolbox
+    path: ''
+    startLine: 29
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AudioToolbox = 8
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AudioUnit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AudioUnit
+  id: AudioUnit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AudioUnit
+  nameWithType: XCodeFrameworkName.AudioUnit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AudioUnit
+  type: Field
+  source:
+    id: AudioUnit
+    path: ''
+    startLine: 30
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AudioUnit = 9
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AVFoundation
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AVFoundation
+  id: AVFoundation
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AVFoundation
+  nameWithType: XCodeFrameworkName.AVFoundation
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AVFoundation
+  type: Field
+  source:
+    id: AVFoundation
+    path: ''
+    startLine: 31
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AVFoundation = 10
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.AVKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.AVKit
+  id: AVKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: AVKit
+  nameWithType: XCodeFrameworkName.AVKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.AVKit
+  type: Field
+  source:
+    id: AVKit
+    path: ''
+    startLine: 32
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AVKit = 11
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ARKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ARKit
+  id: ARKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ARKit
+  nameWithType: XCodeFrameworkName.ARKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ARKit
+  type: Field
+  source:
+    id: ARKit
+    path: ''
+    startLine: 33
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ARKit = 12
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CallKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CallKit
+  id: CallKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CallKit
+  nameWithType: XCodeFrameworkName.CallKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CallKit
+  type: Field
+  source:
+    id: CallKit
+    path: ''
+    startLine: 34
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CallKit = 13
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CFNetwork
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CFNetwork
+  id: CFNetwork
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CFNetwork
+  nameWithType: XCodeFrameworkName.CFNetwork
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CFNetwork
+  type: Field
+  source:
+    id: CFNetwork
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CFNetwork = 14
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CloudKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CloudKit
+  id: CloudKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CloudKit
+  nameWithType: XCodeFrameworkName.CloudKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CloudKit
+  type: Field
+  source:
+    id: CloudKit
+    path: ''
+    startLine: 36
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CloudKit = 15
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Contacts
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Contacts
+  id: Contacts
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Contacts
+  nameWithType: XCodeFrameworkName.Contacts
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Contacts
+  type: Field
+  source:
+    id: Contacts
+    path: ''
+    startLine: 37
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Contacts = 16
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ContactsUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ContactsUI
+  id: ContactsUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ContactsUI
+  nameWithType: XCodeFrameworkName.ContactsUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ContactsUI
+  type: Field
+  source:
+    id: ContactsUI
+    path: ''
+    startLine: 38
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ContactsUI = 17
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudio
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudio
+  id: CoreAudio
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreAudio
+  nameWithType: XCodeFrameworkName.CoreAudio
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudio
+  type: Field
+  source:
+    id: CoreAudio
+    path: ''
+    startLine: 39
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreAudio = 18
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudioKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudioKit
+  id: CoreAudioKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreAudioKit
+  nameWithType: XCodeFrameworkName.CoreAudioKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreAudioKit
+  type: Field
+  source:
+    id: CoreAudioKit
+    path: ''
+    startLine: 40
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreAudioKit = 19
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreBluetooth
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreBluetooth
+  id: CoreBluetooth
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreBluetooth
+  nameWithType: XCodeFrameworkName.CoreBluetooth
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreBluetooth
+  type: Field
+  source:
+    id: CoreBluetooth
+    path: ''
+    startLine: 41
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreBluetooth = 20
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreData
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreData
+  id: CoreData
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreData
+  nameWithType: XCodeFrameworkName.CoreData
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreData
+  type: Field
+  source:
+    id: CoreData
+    path: ''
+    startLine: 42
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreData = 21
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreFoundation
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreFoundation
+  id: CoreFoundation
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreFoundation
+  nameWithType: XCodeFrameworkName.CoreFoundation
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreFoundation
+  type: Field
+  source:
+    id: CoreFoundation
+    path: ''
+    startLine: 43
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreFoundation = 22
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreGraphics
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreGraphics
+  id: CoreGraphics
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreGraphics
+  nameWithType: XCodeFrameworkName.CoreGraphics
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreGraphics
+  type: Field
+  source:
+    id: CoreGraphics
+    path: ''
+    startLine: 44
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreGraphics = 23
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreImage
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreImage
+  id: CoreImage
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreImage
+  nameWithType: XCodeFrameworkName.CoreImage
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreImage
+  type: Field
+  source:
+    id: CoreImage
+    path: ''
+    startLine: 45
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreImage = 24
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreLocation
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreLocation
+  id: CoreLocation
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreLocation
+  nameWithType: XCodeFrameworkName.CoreLocation
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreLocation
+  type: Field
+  source:
+    id: CoreLocation
+    path: ''
+    startLine: 46
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreLocation = 25
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMedia
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreMedia
+  id: CoreMedia
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreMedia
+  nameWithType: XCodeFrameworkName.CoreMedia
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMedia
+  type: Field
+  source:
+    id: CoreMedia
+    path: ''
+    startLine: 47
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreMedia = 26
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMIDI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreMIDI
+  id: CoreMIDI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreMIDI
+  nameWithType: XCodeFrameworkName.CoreMIDI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMIDI
+  type: Field
+  source:
+    id: CoreMIDI
+    path: ''
+    startLine: 48
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreMIDI = 27
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMotion
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreMotion
+  id: CoreMotion
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreMotion
+  nameWithType: XCodeFrameworkName.CoreMotion
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreMotion
+  type: Field
+  source:
+    id: CoreMotion
+    path: ''
+    startLine: 49
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreMotion = 28
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreSpotlight
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreSpotlight
+  id: CoreSpotlight
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreSpotlight
+  nameWithType: XCodeFrameworkName.CoreSpotlight
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreSpotlight
+  type: Field
+  source:
+    id: CoreSpotlight
+    path: ''
+    startLine: 50
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreSpotlight = 29
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreTelephony
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreTelephony
+  id: CoreTelephony
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreTelephony
+  nameWithType: XCodeFrameworkName.CoreTelephony
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreTelephony
+  type: Field
+  source:
+    id: CoreTelephony
+    path: ''
+    startLine: 51
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreTelephony = 30
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreText
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreText
+  id: CoreText
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreText
+  nameWithType: XCodeFrameworkName.CoreText
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreText
+  type: Field
+  source:
+    id: CoreText
+    path: ''
+    startLine: 52
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreText = 31
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.CoreVideo
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.CoreVideo
+  id: CoreVideo
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: CoreVideo
+  nameWithType: XCodeFrameworkName.CoreVideo
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.CoreVideo
+  type: Field
+  source:
+    id: CoreVideo
+    path: ''
+    startLine: 53
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CoreVideo = 32
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.EventKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.EventKit
+  id: EventKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: EventKit
+  nameWithType: XCodeFrameworkName.EventKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.EventKit
+  type: Field
+  source:
+    id: EventKit
+    path: ''
+    startLine: 54
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: EventKit = 33
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.EventKitUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.EventKitUI
+  id: EventKitUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: EventKitUI
+  nameWithType: XCodeFrameworkName.EventKitUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.EventKitUI
+  type: Field
+  source:
+    id: EventKitUI
+    path: ''
+    startLine: 55
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: EventKitUI = 34
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ExternalAccessory
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ExternalAccessory
+  id: ExternalAccessory
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ExternalAccessory
+  nameWithType: XCodeFrameworkName.ExternalAccessory
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ExternalAccessory
+  type: Field
+  source:
+    id: ExternalAccessory
+    path: ''
+    startLine: 56
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ExternalAccessory = 35
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Foundation
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Foundation
+  id: Foundation
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Foundation
+  nameWithType: XCodeFrameworkName.Foundation
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Foundation
+  type: Field
+  source:
+    id: Foundation
+    path: ''
+    startLine: 57
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Foundation = 36
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.GameController
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.GameController
+  id: GameController
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: GameController
+  nameWithType: XCodeFrameworkName.GameController
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.GameController
+  type: Field
+  source:
+    id: GameController
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: GameController = 37
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.GameKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.GameKit
+  id: GameKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: GameKit
+  nameWithType: XCodeFrameworkName.GameKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.GameKit
+  type: Field
+  source:
+    id: GameKit
+    path: ''
+    startLine: 59
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: GameKit = 38
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.GameplayKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.GameplayKit
+  id: GameplayKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: GameplayKit
+  nameWithType: XCodeFrameworkName.GameplayKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.GameplayKit
+  type: Field
+  source:
+    id: GameplayKit
+    path: ''
+    startLine: 60
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: GameplayKit = 39
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.GLKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.GLKit
+  id: GLKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: GLKit
+  nameWithType: XCodeFrameworkName.GLKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.GLKit
+  type: Field
+  source:
+    id: GLKit
+    path: ''
+    startLine: 61
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: GLKit = 40
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.GSS
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.GSS
+  id: GSS
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: GSS
+  nameWithType: XCodeFrameworkName.GSS
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.GSS
+  type: Field
+  source:
+    id: GSS
+    path: ''
+    startLine: 62
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: GSS = 41
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.HealthKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.HealthKit
+  id: HealthKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: HealthKit
+  nameWithType: XCodeFrameworkName.HealthKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.HealthKit
+  type: Field
+  source:
+    id: HealthKit
+    path: ''
+    startLine: 63
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: HealthKit = 42
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.HealthKitUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.HealthKitUI
+  id: HealthKitUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: HealthKitUI
+  nameWithType: XCodeFrameworkName.HealthKitUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.HealthKitUI
+  type: Field
+  source:
+    id: HealthKitUI
+    path: ''
+    startLine: 64
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: HealthKitUI = 43
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.HomeKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.HomeKit
+  id: HomeKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: HomeKit
+  nameWithType: XCodeFrameworkName.HomeKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.HomeKit
+  type: Field
+  source:
+    id: HomeKit
+    path: ''
+    startLine: 65
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: HomeKit = 44
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ImageIO
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ImageIO
+  id: ImageIO
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ImageIO
+  nameWithType: XCodeFrameworkName.ImageIO
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ImageIO
+  type: Field
+  source:
+    id: ImageIO
+    path: ''
+    startLine: 66
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ImageIO = 45
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Intents
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Intents
+  id: Intents
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Intents
+  nameWithType: XCodeFrameworkName.Intents
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Intents
+  type: Field
+  source:
+    id: Intents
+    path: ''
+    startLine: 67
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Intents = 46
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.IntentsUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.IntentsUI
+  id: IntentsUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: IntentsUI
+  nameWithType: XCodeFrameworkName.IntentsUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.IntentsUI
+  type: Field
+  source:
+    id: IntentsUI
+    path: ''
+    startLine: 68
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: IntentsUI = 47
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.IOKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.IOKit
+  id: IOKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: IOKit
+  nameWithType: XCodeFrameworkName.IOKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.IOKit
+  type: Field
+  source:
+    id: IOKit
+    path: ''
+    startLine: 69
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: IOKit = 48
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.JavaScriptCore
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.JavaScriptCore
+  id: JavaScriptCore
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: JavaScriptCore
+  nameWithType: XCodeFrameworkName.JavaScriptCore
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.JavaScriptCore
+  type: Field
+  source:
+    id: JavaScriptCore
+    path: ''
+    startLine: 70
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: JavaScriptCore = 49
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.LocalAuthentication
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.LocalAuthentication
+  id: LocalAuthentication
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: LocalAuthentication
+  nameWithType: XCodeFrameworkName.LocalAuthentication
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.LocalAuthentication
+  type: Field
+  source:
+    id: LocalAuthentication
+    path: ''
+    startLine: 71
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: LocalAuthentication = 50
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MapKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MapKit
+  id: MapKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MapKit
+  nameWithType: XCodeFrameworkName.MapKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MapKit
+  type: Field
+  source:
+    id: MapKit
+    path: ''
+    startLine: 72
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MapKit = 51
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MediaAccessibility
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MediaAccessibility
+  id: MediaAccessibility
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MediaAccessibility
+  nameWithType: XCodeFrameworkName.MediaAccessibility
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MediaAccessibility
+  type: Field
+  source:
+    id: MediaAccessibility
+    path: ''
+    startLine: 73
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MediaAccessibility = 52
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MediaPlayer
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MediaPlayer
+  id: MediaPlayer
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MediaPlayer
+  nameWithType: XCodeFrameworkName.MediaPlayer
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MediaPlayer
+  type: Field
+  source:
+    id: MediaPlayer
+    path: ''
+    startLine: 74
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MediaPlayer = 53
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MediaToolbox
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MediaToolbox
+  id: MediaToolbox
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MediaToolbox
+  nameWithType: XCodeFrameworkName.MediaToolbox
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MediaToolbox
+  type: Field
+  source:
+    id: MediaToolbox
+    path: ''
+    startLine: 75
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MediaToolbox = 54
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Messages
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Messages
+  id: Messages
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Messages
+  nameWithType: XCodeFrameworkName.Messages
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Messages
+  type: Field
+  source:
+    id: Messages
+    path: ''
+    startLine: 76
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Messages = 55
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MessageUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MessageUI
+  id: MessageUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MessageUI
+  nameWithType: XCodeFrameworkName.MessageUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MessageUI
+  type: Field
+  source:
+    id: MessageUI
+    path: ''
+    startLine: 77
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MessageUI = 56
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Metal
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Metal
+  id: Metal
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Metal
+  nameWithType: XCodeFrameworkName.Metal
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Metal
+  type: Field
+  source:
+    id: Metal
+    path: ''
+    startLine: 78
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Metal = 57
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MetalKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MetalKit
+  id: MetalKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MetalKit
+  nameWithType: XCodeFrameworkName.MetalKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MetalKit
+  type: Field
+  source:
+    id: MetalKit
+    path: ''
+    startLine: 79
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MetalKit = 58
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MetalPerformanceShaders
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MetalPerformanceShaders
+  id: MetalPerformanceShaders
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MetalPerformanceShaders
+  nameWithType: XCodeFrameworkName.MetalPerformanceShaders
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MetalPerformanceShaders
+  type: Field
+  source:
+    id: MetalPerformanceShaders
+    path: ''
+    startLine: 80
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MetalPerformanceShaders = 59
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MobileCoreServices
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MobileCoreServices
+  id: MobileCoreServices
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MobileCoreServices
+  nameWithType: XCodeFrameworkName.MobileCoreServices
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MobileCoreServices
+  type: Field
+  source:
+    id: MobileCoreServices
+    path: ''
+    startLine: 81
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MobileCoreServices = 60
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ModelIO
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ModelIO
+  id: ModelIO
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ModelIO
+  nameWithType: XCodeFrameworkName.ModelIO
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ModelIO
+  type: Field
+  source:
+    id: ModelIO
+    path: ''
+    startLine: 82
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ModelIO = 61
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.MultipeerConnectivity
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.MultipeerConnectivity
+  id: MultipeerConnectivity
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: MultipeerConnectivity
+  nameWithType: XCodeFrameworkName.MultipeerConnectivity
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.MultipeerConnectivity
+  type: Field
+  source:
+    id: MultipeerConnectivity
+    path: ''
+    startLine: 83
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: MultipeerConnectivity = 62
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.NetworkExtension
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.NetworkExtension
+  id: NetworkExtension
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: NetworkExtension
+  nameWithType: XCodeFrameworkName.NetworkExtension
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.NetworkExtension
+  type: Field
+  source:
+    id: NetworkExtension
+    path: ''
+    startLine: 84
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: NetworkExtension = 63
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.NewsstandKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.NewsstandKit
+  id: NewsstandKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: NewsstandKit
+  nameWithType: XCodeFrameworkName.NewsstandKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.NewsstandKit
+  type: Field
+  source:
+    id: NewsstandKit
+    path: ''
+    startLine: 85
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: NewsstandKit = 64
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.NotificationCenter
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.NotificationCenter
+  id: NotificationCenter
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: NotificationCenter
+  nameWithType: XCodeFrameworkName.NotificationCenter
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.NotificationCenter
+  type: Field
+  source:
+    id: NotificationCenter
+    path: ''
+    startLine: 86
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: NotificationCenter = 65
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.OpenAL
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.OpenAL
+  id: OpenAL
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: OpenAL
+  nameWithType: XCodeFrameworkName.OpenAL
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.OpenAL
+  type: Field
+  source:
+    id: OpenAL
+    path: ''
+    startLine: 87
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: OpenAL = 66
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.OpenGLES
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.OpenGLES
+  id: OpenGLES
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: OpenGLES
+  nameWithType: XCodeFrameworkName.OpenGLES
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.OpenGLES
+  type: Field
+  source:
+    id: OpenGLES
+    path: ''
+    startLine: 88
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: OpenGLES = 67
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.PassKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.PassKit
+  id: PassKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: PassKit
+  nameWithType: XCodeFrameworkName.PassKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.PassKit
+  type: Field
+  source:
+    id: PassKit
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: PassKit = 68
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Photos
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Photos
+  id: Photos
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Photos
+  nameWithType: XCodeFrameworkName.Photos
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Photos
+  type: Field
+  source:
+    id: Photos
+    path: ''
+    startLine: 90
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Photos = 69
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.PhotosUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.PhotosUI
+  id: PhotosUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: PhotosUI
+  nameWithType: XCodeFrameworkName.PhotosUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.PhotosUI
+  type: Field
+  source:
+    id: PhotosUI
+    path: ''
+    startLine: 91
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: PhotosUI = 70
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.PushKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.PushKit
+  id: PushKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: PushKit
+  nameWithType: XCodeFrameworkName.PushKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.PushKit
+  type: Field
+  source:
+    id: PushKit
+    path: ''
+    startLine: 92
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: PushKit = 71
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.QuartzCore
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.QuartzCore
+  id: QuartzCore
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: QuartzCore
+  nameWithType: XCodeFrameworkName.QuartzCore
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.QuartzCore
+  type: Field
+  source:
+    id: QuartzCore
+    path: ''
+    startLine: 93
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: QuartzCore = 72
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.QuickLook
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.QuickLook
+  id: QuickLook
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: QuickLook
+  nameWithType: XCodeFrameworkName.QuickLook
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.QuickLook
+  type: Field
+  source:
+    id: QuickLook
+    path: ''
+    startLine: 94
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: QuickLook = 73
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.ReplayKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.ReplayKit
+  id: ReplayKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: ReplayKit
+  nameWithType: XCodeFrameworkName.ReplayKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.ReplayKit
+  type: Field
+  source:
+    id: ReplayKit
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ReplayKit = 74
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.SafariServices
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.SafariServices
+  id: SafariServices
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: SafariServices
+  nameWithType: XCodeFrameworkName.SafariServices
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.SafariServices
+  type: Field
+  source:
+    id: SafariServices
+    path: ''
+    startLine: 96
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: SafariServices = 75
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.SceneKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.SceneKit
+  id: SceneKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: SceneKit
+  nameWithType: XCodeFrameworkName.SceneKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.SceneKit
+  type: Field
+  source:
+    id: SceneKit
+    path: ''
+    startLine: 97
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: SceneKit = 76
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Security
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Security
+  id: Security
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Security
+  nameWithType: XCodeFrameworkName.Security
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Security
+  type: Field
+  source:
+    id: Security
+    path: ''
+    startLine: 98
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Security = 77
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Social
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Social
+  id: Social
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Social
+  nameWithType: XCodeFrameworkName.Social
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Social
+  type: Field
+  source:
+    id: Social
+    path: ''
+    startLine: 99
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Social = 78
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Speech
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Speech
+  id: Speech
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Speech
+  nameWithType: XCodeFrameworkName.Speech
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Speech
+  type: Field
+  source:
+    id: Speech
+    path: ''
+    startLine: 100
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Speech = 79
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.SpriteKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.SpriteKit
+  id: SpriteKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: SpriteKit
+  nameWithType: XCodeFrameworkName.SpriteKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.SpriteKit
+  type: Field
+  source:
+    id: SpriteKit
+    path: ''
+    startLine: 101
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: SpriteKit = 80
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.StoreKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.StoreKit
+  id: StoreKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: StoreKit
+  nameWithType: XCodeFrameworkName.StoreKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.StoreKit
+  type: Field
+  source:
+    id: StoreKit
+    path: ''
+    startLine: 102
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: StoreKit = 81
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.SystemConfiguration
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.SystemConfiguration
+  id: SystemConfiguration
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: SystemConfiguration
+  nameWithType: XCodeFrameworkName.SystemConfiguration
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.SystemConfiguration
+  type: Field
+  source:
+    id: SystemConfiguration
+    path: ''
+    startLine: 103
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: SystemConfiguration = 82
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.Twitter
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.Twitter
+  id: Twitter
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: Twitter
+  nameWithType: XCodeFrameworkName.Twitter
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.Twitter
+  type: Field
+  source:
+    id: Twitter
+    path: ''
+    startLine: 104
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Twitter = 83
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.UIKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.UIKit
+  id: UIKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: UIKit
+  nameWithType: XCodeFrameworkName.UIKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.UIKit
+  type: Field
+  source:
+    id: UIKit
+    path: ''
+    startLine: 105
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: UIKit = 84
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.UserNotifications
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.UserNotifications
+  id: UserNotifications
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: UserNotifications
+  nameWithType: XCodeFrameworkName.UserNotifications
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.UserNotifications
+  type: Field
+  source:
+    id: UserNotifications
+    path: ''
+    startLine: 106
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: UserNotifications = 85
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.UserNotificationsUI
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.UserNotificationsUI
+  id: UserNotificationsUI
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: UserNotificationsUI
+  nameWithType: XCodeFrameworkName.UserNotificationsUI
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.UserNotificationsUI
+  type: Field
+  source:
+    id: UserNotificationsUI
+    path: ''
+    startLine: 107
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: UserNotificationsUI = 86
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.VideoSubscriberAccount
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.VideoSubscriberAccount
+  id: VideoSubscriberAccount
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: VideoSubscriberAccount
+  nameWithType: XCodeFrameworkName.VideoSubscriberAccount
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.VideoSubscriberAccount
+  type: Field
+  source:
+    id: VideoSubscriberAccount
+    path: ''
+    startLine: 108
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: VideoSubscriberAccount = 87
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.VideoToolbox
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.VideoToolbox
+  id: VideoToolbox
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: VideoToolbox
+  nameWithType: XCodeFrameworkName.VideoToolbox
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.VideoToolbox
+  type: Field
+  source:
+    id: VideoToolbox
+    path: ''
+    startLine: 109
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: VideoToolbox = 88
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.WatchConnectivity
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.WatchConnectivity
+  id: WatchConnectivity
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: WatchConnectivity
+  nameWithType: XCodeFrameworkName.WatchConnectivity
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.WatchConnectivity
+  type: Field
+  source:
+    id: WatchConnectivity
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: WatchConnectivity = 89
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.WatchKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.WatchKit
+  id: WatchKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: WatchKit
+  nameWithType: XCodeFrameworkName.WatchKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.WatchKit
+  type: Field
+  source:
+    id: WatchKit
+    path: ''
+    startLine: 111
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: WatchKit = 90
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.WebKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.WebKit
+  id: WebKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: WebKit
+  nameWithType: XCodeFrameworkName.WebKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.WebKit
+  type: Field
+  source:
+    id: WebKit
+    path: ''
+    startLine: 112
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: WebKit = 91
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.DTPerformanceSession
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.DTPerformanceSession
+  id: DTPerformanceSession
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: DTPerformanceSession
+  nameWithType: XCodeFrameworkName.DTPerformanceSession
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.DTPerformanceSession
+  type: Field
+  source:
+    id: DTPerformanceSession
+    path: ''
+    startLine: 114
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: DTPerformanceSession = 92
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.InterfaceBuilderKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.InterfaceBuilderKit
+  id: InterfaceBuilderKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: InterfaceBuilderKit
+  nameWithType: XCodeFrameworkName.InterfaceBuilderKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.InterfaceBuilderKit
+  type: Field
+  source:
+    id: InterfaceBuilderKit
+    path: ''
+    startLine: 115
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: InterfaceBuilderKit = 93
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.XcodeKit
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.XcodeKit
+  id: XcodeKit
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: XcodeKit
+  nameWithType: XCodeFrameworkName.XcodeKit
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.XcodeKit
+  type: Field
+  source:
+    id: XcodeKit
+    path: ''
+    startLine: 116
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: XcodeKit = 94
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName.XCTest
+  commentId: F:StansAssets.IOS.XCode.XCodeFrameworkName.XCTest
+  id: XCTest
+  parent: StansAssets.IOS.XCode.XCodeFrameworkName
+  langs:
+  - csharp
+  - vb
+  name: XCTest
+  nameWithType: XCodeFrameworkName.XCTest
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName.XCTest
+  type: Field
+  source:
+    id: XCTest
+    path: ''
+    startLine: 117
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: XCTest = 95
+    return:
+      type: StansAssets.IOS.XCode.XCodeFrameworkName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.XCodeFrameworkName
+  commentId: T:StansAssets.IOS.XCode.XCodeFrameworkName
+  parent: StansAssets.IOS.XCode
+  name: XCodeFrameworkName
+  nameWithType: XCodeFrameworkName
+  fullName: StansAssets.IOS.XCode.XCodeFrameworkName

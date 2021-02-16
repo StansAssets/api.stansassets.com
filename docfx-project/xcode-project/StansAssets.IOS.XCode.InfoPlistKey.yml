@@ -1,0 +1,901 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.InfoPlistKey
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
+  id: InfoPlistKey
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.InfoPlistKey.AddChild(StansAssets.IOS.XCode.InfoPlistKey)
+  - StansAssets.IOS.XCode.InfoPlistKey.BooleanValue
+  - StansAssets.IOS.XCode.InfoPlistKey.Children
+  - StansAssets.IOS.XCode.InfoPlistKey.ChildrenIds
+  - StansAssets.IOS.XCode.InfoPlistKey.Clear
+  - StansAssets.IOS.XCode.InfoPlistKey.FloatValue
+  - StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue(System.String)
+  - StansAssets.IOS.XCode.InfoPlistKey.IntegerValue
+  - StansAssets.IOS.XCode.InfoPlistKey.Name
+  - StansAssets.IOS.XCode.InfoPlistKey.RemoveChild(StansAssets.IOS.XCode.InfoPlistKey)
+  - StansAssets.IOS.XCode.InfoPlistKey.StringValue
+  - StansAssets.IOS.XCode.InfoPlistKey.Type
+  langs:
+  - csharp
+  - vb
+  name: InfoPlistKey
+  nameWithType: InfoPlistKey
+  fullName: StansAssets.IOS.XCode.InfoPlistKey
+  type: Class
+  source:
+    id: InfoPlistKey
+    path: ''
+    startLine: 3061
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nRepresents XCode project info.plist key.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class InfoPlistKey
+    content.vb: >-
+      <Serializable>
+
+      Public Class InfoPlistKey
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Name
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.Name
+  id: Name
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: InfoPlistKey.Name
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 3071
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist Key name\n"
+  example: []
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Type
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.Type
+  id: Type
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: InfoPlistKey.Type
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Type
+  type: Field
+  source:
+    id: Type
+    path: ''
+    startLine: 3076
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist key type\n"
+  example: []
+  syntax:
+    content: public InfoPlistKeyType Type
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKeyType
+    content.vb: Public Type As InfoPlistKeyType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.StringValue
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.StringValue
+  id: StringValue
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: StringValue
+  nameWithType: InfoPlistKey.StringValue
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.StringValue
+  type: Field
+  source:
+    id: StringValue
+    path: ''
+    startLine: 3081
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist key string value\n"
+  example: []
+  syntax:
+    content: public string StringValue
+    return:
+      type: System.String
+    content.vb: Public StringValue As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.IntegerValue
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.IntegerValue
+  id: IntegerValue
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: IntegerValue
+  nameWithType: InfoPlistKey.IntegerValue
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.IntegerValue
+  type: Field
+  source:
+    id: IntegerValue
+    path: ''
+    startLine: 3086
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist key int value\n"
+  example: []
+  syntax:
+    content: public int IntegerValue
+    return:
+      type: System.Int32
+    content.vb: Public IntegerValue As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.FloatValue
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.FloatValue
+  id: FloatValue
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: FloatValue
+  nameWithType: InfoPlistKey.FloatValue
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.FloatValue
+  type: Field
+  source:
+    id: FloatValue
+    path: ''
+    startLine: 3091
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist key float value\n"
+  example: []
+  syntax:
+    content: public float FloatValue
+    return:
+      type: System.Single
+    content.vb: Public FloatValue As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.BooleanValue
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.BooleanValue
+  id: BooleanValue
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: BooleanValue
+  nameWithType: InfoPlistKey.BooleanValue
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.BooleanValue
+  type: Field
+  source:
+    id: BooleanValue
+    path: ''
+    startLine: 3096
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nInfo.plist key bool value\n"
+  example: []
+  syntax:
+    content: public bool BooleanValue
+    return:
+      type: System.Boolean
+    content.vb: Public BooleanValue As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.ChildrenIds
+  commentId: F:StansAssets.IOS.XCode.InfoPlistKey.ChildrenIds
+  id: ChildrenIds
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: ChildrenIds
+  nameWithType: InfoPlistKey.ChildrenIds
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.ChildrenIds
+  type: Field
+  source:
+    id: ChildrenIds
+    path: ''
+    startLine: 3101
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nId&apos;s of nested keys\n"
+  example: []
+  syntax:
+    content: public List<string> ChildrenIds
+    return:
+      type: List{System.String}
+    content.vb: Public ChildrenIds As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.AddChild(StansAssets.IOS.XCode.InfoPlistKey)
+  commentId: M:StansAssets.IOS.XCode.InfoPlistKey.AddChild(StansAssets.IOS.XCode.InfoPlistKey)
+  id: AddChild(StansAssets.IOS.XCode.InfoPlistKey)
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: AddChild(InfoPlistKey)
+  nameWithType: InfoPlistKey.AddChild(InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.AddChild(StansAssets.IOS.XCode.InfoPlistKey)
+  type: Method
+  source:
+    id: AddChild
+    path: ''
+    startLine: 3107
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nAdds child key\n"
+  example: []
+  syntax:
+    content: public void AddChild(InfoPlistKey childKey)
+    parameters:
+    - id: childKey
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: ''
+    content.vb: Public Sub AddChild(childKey As InfoPlistKey)
+  overload: StansAssets.IOS.XCode.InfoPlistKey.AddChild*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.RemoveChild(StansAssets.IOS.XCode.InfoPlistKey)
+  commentId: M:StansAssets.IOS.XCode.InfoPlistKey.RemoveChild(StansAssets.IOS.XCode.InfoPlistKey)
+  id: RemoveChild(StansAssets.IOS.XCode.InfoPlistKey)
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: RemoveChild(InfoPlistKey)
+  nameWithType: InfoPlistKey.RemoveChild(InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.RemoveChild(StansAssets.IOS.XCode.InfoPlistKey)
+  type: Method
+  source:
+    id: RemoveChild
+    path: ''
+    startLine: 3125
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public void RemoveChild(InfoPlistKey childKey)
+    parameters:
+    - id: childKey
+      type: StansAssets.IOS.XCode.InfoPlistKey
+    content.vb: Public Sub RemoveChild(childKey As InfoPlistKey)
+  overload: StansAssets.IOS.XCode.InfoPlistKey.RemoveChild*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue(System.String)
+  commentId: M:StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue(System.String)
+  id: GetChildByStringValue(System.String)
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: GetChildByStringValue(String)
+  nameWithType: InfoPlistKey.GetChildByStringValue(String)
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue(System.String)
+  type: Method
+  source:
+    id: GetChildByStringValue
+    path: ''
+    startLine: 3130
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public InfoPlistKey GetChildByStringValue(string val)
+    parameters:
+    - id: val
+      type: System.String
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKey
+    content.vb: Public Function GetChildByStringValue(val As String) As InfoPlistKey
+  overload: StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Children
+  commentId: P:StansAssets.IOS.XCode.InfoPlistKey.Children
+  id: Children
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: Children
+  nameWithType: InfoPlistKey.Children
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Children
+  type: Property
+  source:
+    id: Children
+    path: ''
+    startLine: 3139
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public List<InfoPlistKey> Children { get; }
+    parameters: []
+    return:
+      type: List{StansAssets.IOS.XCode.InfoPlistKey}
+    content.vb: Public ReadOnly Property Children As List(Of InfoPlistKey)
+  overload: StansAssets.IOS.XCode.InfoPlistKey.Children*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Clear
+  commentId: M:StansAssets.IOS.XCode.InfoPlistKey.Clear
+  id: Clear
+  parent: StansAssets.IOS.XCode.InfoPlistKey
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: InfoPlistKey.Clear()
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 3155
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: StansAssets.IOS.XCode.InfoPlistKey.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKeyType
+  nameWithType: InfoPlistKeyType
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: List{System.String}
+  commentId: '!:List{System.String}'
+  definition: List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.IOS.XCode.InfoPlistKey.AddChild*
+  commentId: Overload:StansAssets.IOS.XCode.InfoPlistKey.AddChild
+  name: AddChild
+  nameWithType: InfoPlistKey.AddChild
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.AddChild
+- uid: StansAssets.IOS.XCode.InfoPlistKey
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKey
+  nameWithType: InfoPlistKey
+  fullName: StansAssets.IOS.XCode.InfoPlistKey
+- uid: StansAssets.IOS.XCode.InfoPlistKey.RemoveChild*
+  commentId: Overload:StansAssets.IOS.XCode.InfoPlistKey.RemoveChild
+  name: RemoveChild
+  nameWithType: InfoPlistKey.RemoveChild
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.RemoveChild
+- uid: StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue*
+  commentId: Overload:StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue
+  name: GetChildByStringValue
+  nameWithType: InfoPlistKey.GetChildByStringValue
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.GetChildByStringValue
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Children*
+  commentId: Overload:StansAssets.IOS.XCode.InfoPlistKey.Children
+  name: Children
+  nameWithType: InfoPlistKey.Children
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Children
+- uid: List{StansAssets.IOS.XCode.InfoPlistKey}
+  commentId: '!:List{StansAssets.IOS.XCode.InfoPlistKey}'
+  definition: List`1
+  name: List<InfoPlistKey>
+  nameWithType: List<InfoPlistKey>
+  fullName: List<StansAssets.IOS.XCode.InfoPlistKey>
+  nameWithType.vb: List(Of InfoPlistKey)
+  fullName.vb: List(Of StansAssets.IOS.XCode.InfoPlistKey)
+  name.vb: List(Of InfoPlistKey)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.InfoPlistKey
+    name: InfoPlistKey
+    nameWithType: InfoPlistKey
+    fullName: StansAssets.IOS.XCode.InfoPlistKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.InfoPlistKey
+    name: InfoPlistKey
+    nameWithType: InfoPlistKey
+    fullName: StansAssets.IOS.XCode.InfoPlistKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.IOS.XCode.InfoPlistKey.Clear*
+  commentId: Overload:StansAssets.IOS.XCode.InfoPlistKey.Clear
+  name: Clear
+  nameWithType: InfoPlistKey.Clear
+  fullName: StansAssets.IOS.XCode.InfoPlistKey.Clear

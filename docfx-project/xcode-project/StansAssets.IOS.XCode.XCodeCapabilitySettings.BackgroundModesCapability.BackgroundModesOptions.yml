@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  id: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.AudioAirplayPiP
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.BackgroundFetch
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ExternalAccessoryCommunication
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.LocationUpdates
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.NewsstandDownloads
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.None
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.RemoteNotifications
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.UsesBluetoothLEAccessory
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.VoiceOverIP
+  langs:
+  - csharp
+  - vb
+  name: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  type: Enum
+  source:
+    id: BackgroundModesOptions
+    path: ''
+    startLine: 1623
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public enum BackgroundModesOptions
+    content.vb: Public Enum BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.None
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.None
+  id: None
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.None
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 1627
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: None = 0
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.AudioAirplayPiP
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.AudioAirplayPiP
+  id: AudioAirplayPiP
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: AudioAirplayPiP
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.AudioAirplayPiP
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.AudioAirplayPiP
+  type: Field
+  source:
+    id: AudioAirplayPiP
+    path: ''
+    startLine: 1628
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: AudioAirplayPiP = 1
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.LocationUpdates
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.LocationUpdates
+  id: LocationUpdates
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: LocationUpdates
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.LocationUpdates
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.LocationUpdates
+  type: Field
+  source:
+    id: LocationUpdates
+    path: ''
+    startLine: 1629
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: LocationUpdates = 2
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.VoiceOverIP
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.VoiceOverIP
+  id: VoiceOverIP
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: VoiceOverIP
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.VoiceOverIP
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.VoiceOverIP
+  type: Field
+  source:
+    id: VoiceOverIP
+    path: ''
+    startLine: 1630
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: VoiceOverIP = 4
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.NewsstandDownloads
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.NewsstandDownloads
+  id: NewsstandDownloads
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: NewsstandDownloads
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.NewsstandDownloads
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.NewsstandDownloads
+  type: Field
+  source:
+    id: NewsstandDownloads
+    path: ''
+    startLine: 1631
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: NewsstandDownloads = 8
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ExternalAccessoryCommunication
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ExternalAccessoryCommunication
+  id: ExternalAccessoryCommunication
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: ExternalAccessoryCommunication
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ExternalAccessoryCommunication
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ExternalAccessoryCommunication
+  type: Field
+  source:
+    id: ExternalAccessoryCommunication
+    path: ''
+    startLine: 1632
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ExternalAccessoryCommunication = 16
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.UsesBluetoothLEAccessory
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.UsesBluetoothLEAccessory
+  id: UsesBluetoothLEAccessory
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: UsesBluetoothLEAccessory
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.UsesBluetoothLEAccessory
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.UsesBluetoothLEAccessory
+  type: Field
+  source:
+    id: UsesBluetoothLEAccessory
+    path: ''
+    startLine: 1634
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: UsesBluetoothLEAccessory = 32
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  id: ActsAsABluetoothLEAccessory
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: ActsAsABluetoothLEAccessory
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.ActsAsABluetoothLEAccessory
+  type: Field
+  source:
+    id: ActsAsABluetoothLEAccessory
+    path: ''
+    startLine: 1636
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: ActsAsABluetoothLEAccessory = 64
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.BackgroundFetch
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.BackgroundFetch
+  id: BackgroundFetch
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: BackgroundFetch
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.BackgroundFetch
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.BackgroundFetch
+  type: Field
+  source:
+    id: BackgroundFetch
+    path: ''
+    startLine: 1637
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: BackgroundFetch = 128
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.RemoteNotifications
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.RemoteNotifications
+  id: RemoteNotifications
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  langs:
+  - csharp
+  - vb
+  name: RemoteNotifications
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.RemoteNotifications
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.RemoteNotifications
+  type: Field
+  source:
+    id: RemoteNotifications
+    path: ''
+    startLine: 1638
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: RemoteNotifications = 256
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  nameWithType: XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions

@@ -1,0 +1,4655 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeLibraryName
+  commentId: T:StansAssets.IOS.XCode.XCodeLibraryName
+  id: XCodeLibraryName
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeLibraryName.CarrierBundleUtilities
+  - StansAssets.IOS.XCode.XCodeLibraryName.IOABPLib
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAccessibility
+  - StansAssets.IOS.XCode.XCodeLibraryName.libacmobileshim
+  - StansAssets.IOS.XCode.XCodeLibraryName.libafc
+  - StansAssets.IOS.XCode.XCodeLibraryName.libamsupport
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAppPatch
+  - StansAssets.IOS.XCode.XCodeLibraryName.libarchive
+  - StansAssets.IOS.XCode.XCodeLibraryName.libarchive2
+  - StansAssets.IOS.XCode.XCodeLibraryName.libARI
+  - StansAssets.IOS.XCode.XCodeLibraryName.libARIServer
+  - StansAssets.IOS.XCode.XCodeLibraryName.libassertion_launchd
+  - StansAssets.IOS.XCode.XCodeLibraryName.libate
+  - StansAssets.IOS.XCode.XCodeLibraryName.libauthinstall
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufBluetooth
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetime
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetimeiMessage
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufGCK
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufLocation
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupport
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupportFramework
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAXSafeCategoryBundle
+  - StansAssets.IOS.XCode.XCodeLibraryName.libAXSpeechManager
+  - StansAssets.IOS.XCode.XCodeLibraryName.libBasebandManager
+  - StansAssets.IOS.XCode.XCodeLibraryName.libBasebandUSB
+  - StansAssets.IOS.XCode.XCodeLibraryName.libbsm
+  - StansAssets.IOS.XCode.XCodeLibraryName.libbsm0
+  - StansAssets.IOS.XCode.XCodeLibraryName.libbz2
+  - StansAssets.IOS.XCode.XCodeLibraryName.libbz210
+  - StansAssets.IOS.XCode.XCodeLibraryName.libc
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcharset
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcharset1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcharset100
+  - StansAssets.IOS.XCode.XCodeLibraryName.libChineseTokenizer
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcmph
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcompression
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcoretls
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcoretls_cfhelpers
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlusAbi
+  - StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite
+  - StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite012
+  - StansAssets.IOS.XCode.XCodeLibraryName.libCTLogHelper
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcupolicy
+  - StansAssets.IOS.XCode.XCodeLibraryName.libcurses
+  - StansAssets.IOS.XCode.XCodeLibraryName.libdbm
+  - StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServer
+  - StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServerA
+  - StansAssets.IOS.XCode.XCodeLibraryName.libdl
+  - StansAssets.IOS.XCode.XCodeLibraryName.libdns_services
+  - StansAssets.IOS.XCode.XCodeLibraryName.libdscsym
+  - StansAssets.IOS.XCode.XCodeLibraryName.libedit
+  - StansAssets.IOS.XCode.XCodeLibraryName.libedit2
+  - StansAssets.IOS.XCode.XCodeLibraryName.libedit3
+  - StansAssets.IOS.XCode.XCodeLibraryName.libedit30
+  - StansAssets.IOS.XCode.XCodeLibraryName.libenergytrace
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDIAGLoggingDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDLFDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADCoreDumpDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDMCDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLEFSDumpDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLSAHDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libETLTransportDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libexslt
+  - StansAssets.IOS.XCode.XCodeLibraryName.libexslt0
+  - StansAssets.IOS.XCode.XCodeLibraryName.libextension
+  - StansAssets.IOS.XCode.XCodeLibraryName.libform
+  - StansAssets.IOS.XCode.XCodeLibraryName.libform54
+  - StansAssets.IOS.XCode.XCodeLibraryName.libgcc_s1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libgermantok
+  - StansAssets.IOS.XCode.XCodeLibraryName.libH5Dynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libHDLCDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libheimdal_asn1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libiconv
+  - StansAssets.IOS.XCode.XCodeLibraryName.libiconv2
+  - StansAssets.IOS.XCode.XCodeLibraryName.libiconv240
+  - StansAssets.IOS.XCode.XCodeLibraryName.libicucore
+  - StansAssets.IOS.XCode.XCodeLibraryName.libicucoreA
+  - StansAssets.IOS.XCode.XCodeLibraryName.libInFieldCollection
+  - StansAssets.IOS.XCode.XCodeLibraryName.libinfo
+  - StansAssets.IOS.XCode.XCodeLibraryName.libIOAccessoryManager
+  - StansAssets.IOS.XCode.XCodeLibraryName.libipconfig
+  - StansAssets.IOS.XCode.XCodeLibraryName.libipsec
+  - StansAssets.IOS.XCode.XCodeLibraryName.libipsecA
+  - StansAssets.IOS.XCode.XCodeLibraryName.libktrace
+  - StansAssets.IOS.XCode.XCodeLibraryName.liblangid
+  - StansAssets.IOS.XCode.XCodeLibraryName.liblizma
+  - StansAssets.IOS.XCode.XCodeLibraryName.liblizma5
+  - StansAssets.IOS.XCode.XCodeLibraryName.libLLVM
+  - StansAssets.IOS.XCode.XCodeLibraryName.libLLVM_C
+  - StansAssets.IOS.XCode.XCodeLibraryName.liblockdown
+  - StansAssets.IOS.XCode.XCodeLibraryName.libm
+  - StansAssets.IOS.XCode.XCodeLibraryName.libmarisa
+  - StansAssets.IOS.XCode.XCodeLibraryName.libMatch
+  - StansAssets.IOS.XCode.XCodeLibraryName.libMatch1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libmav_ipc_router_dynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libmecab_em
+  - StansAssets.IOS.XCode.XCodeLibraryName.libmecabra
+  - StansAssets.IOS.XCode.XCodeLibraryName.libmis
+  - StansAssets.IOS.XCode.XCodeLibraryName.libMobileCheckpoint
+  - StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestalt
+  - StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestaltExtensions
+  - StansAssets.IOS.XCode.XCodeLibraryName.libncurses
+  - StansAssets.IOS.XCode.XCodeLibraryName.libncurses54
+  - StansAssets.IOS.XCode.XCodeLibraryName.libnework
+  - StansAssets.IOS.XCode.XCodeLibraryName.libnfshared
+  - StansAssets.IOS.XCode.XCodeLibraryName.libobjc
+  - StansAssets.IOS.XCode.XCodeLibraryName.libobjcA
+  - StansAssets.IOS.XCode.XCodeLibraryName.libomadm
+  - StansAssets.IOS.XCode.XCodeLibraryName.libPCITransport
+  - StansAssets.IOS.XCode.XCodeLibraryName.libpoll
+  - StansAssets.IOS.XCode.XCodeLibraryName.libPPM
+  - StansAssets.IOS.XCode.XCodeLibraryName.libprequelite
+  - StansAssets.IOS.XCode.XCodeLibraryName.libproc
+  - StansAssets.IOS.XCode.XCodeLibraryName.libprotobuf
+  - StansAssets.IOS.XCode.XCodeLibraryName.libpthead
+  - StansAssets.IOS.XCode.XCodeLibraryName.libQLCharts
+  - StansAssets.IOS.XCode.XCodeLibraryName.libresolv
+  - StansAssets.IOS.XCode.XCodeLibraryName.libresolv9
+  - StansAssets.IOS.XCode.XCodeLibraryName.librpcsvc
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsandbox
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsandbox1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsp
+  - StansAssets.IOS.XCode.XCodeLibraryName.libspindump
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsqlite3
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsqlite30
+  - StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus
+  - StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_6
+  - StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_609
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsysdiagnose
+  - StansAssets.IOS.XCode.XCodeLibraryName.libSystem
+  - StansAssets.IOS.XCode.XCodeLibraryName.libSystemB
+  - StansAssets.IOS.XCode.XCodeLibraryName.libsystemstats
+  - StansAssets.IOS.XCode.XCodeLibraryName.libtailspin
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandBulkUSBDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyDebugDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyIOKitDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUSBDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUtilDynamic
+  - StansAssets.IOS.XCode.XCodeLibraryName.libThaiTokenizer
+  - StansAssets.IOS.XCode.XCodeLibraryName.libtidy
+  - StansAssets.IOS.XCode.XCodeLibraryName.libtidyA
+  - StansAssets.IOS.XCode.XCodeLibraryName.libutil
+  - StansAssets.IOS.XCode.XCodeLibraryName.libutil_10
+  - StansAssets.IOS.XCode.XCodeLibraryName.libWAPI
+  - StansAssets.IOS.XCode.XCodeLibraryName.libxlm22
+  - StansAssets.IOS.XCode.XCodeLibraryName.libxml2
+  - StansAssets.IOS.XCode.XCodeLibraryName.libxslt
+  - StansAssets.IOS.XCode.XCodeLibraryName.libxslt1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libz
+  - StansAssets.IOS.XCode.XCodeLibraryName.libz1
+  - StansAssets.IOS.XCode.XCodeLibraryName.libz113
+  - StansAssets.IOS.XCode.XCodeLibraryName.libz125
+  - StansAssets.IOS.XCode.XCodeLibraryName.libz128
+  - StansAssets.IOS.XCode.XCodeLibraryName.libzupdate
+  langs:
+  - csharp
+  - vb
+  name: XCodeLibraryName
+  nameWithType: XCodeLibraryName
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName
+  type: Enum
+  source:
+    id: XCodeLibraryName
+    path: ''
+    startLine: 147
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXCode available project libraries.\n"
+  example: []
+  syntax:
+    content: public enum XCodeLibraryName
+    content.vb: Public Enum XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.CarrierBundleUtilities
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.CarrierBundleUtilities
+  id: CarrierBundleUtilities
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: CarrierBundleUtilities
+  nameWithType: XCodeLibraryName.CarrierBundleUtilities
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.CarrierBundleUtilities
+  type: Field
+  source:
+    id: CarrierBundleUtilities
+    path: ''
+    startLine: 150
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: CarrierBundleUtilities = 0
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.IOABPLib
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.IOABPLib
+  id: IOABPLib
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: IOABPLib
+  nameWithType: XCodeLibraryName.IOABPLib
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.IOABPLib
+  type: Field
+  source:
+    id: IOABPLib
+    path: ''
+    startLine: 152
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: IOABPLib = 1
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAccessibility
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAccessibility
+  id: libAccessibility
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAccessibility
+  nameWithType: XCodeLibraryName.libAccessibility
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAccessibility
+  type: Field
+  source:
+    id: libAccessibility
+    path: ''
+    startLine: 154
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAccessibility = 2
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libacmobileshim
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libacmobileshim
+  id: libacmobileshim
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libacmobileshim
+  nameWithType: XCodeLibraryName.libacmobileshim
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libacmobileshim
+  type: Field
+  source:
+    id: libacmobileshim
+    path: ''
+    startLine: 156
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libacmobileshim = 3
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libafc
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libafc
+  id: libafc
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libafc
+  nameWithType: XCodeLibraryName.libafc
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libafc
+  type: Field
+  source:
+    id: libafc
+    path: ''
+    startLine: 158
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libafc = 4
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libamsupport
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libamsupport
+  id: libamsupport
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libamsupport
+  nameWithType: XCodeLibraryName.libamsupport
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libamsupport
+  type: Field
+  source:
+    id: libamsupport
+    path: ''
+    startLine: 160
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libamsupport = 5
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAppPatch
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAppPatch
+  id: libAppPatch
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAppPatch
+  nameWithType: XCodeLibraryName.libAppPatch
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAppPatch
+  type: Field
+  source:
+    id: libAppPatch
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAppPatch = 6
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libarchive2
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libarchive2
+  id: libarchive2
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libarchive2
+  nameWithType: XCodeLibraryName.libarchive2
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libarchive2
+  type: Field
+  source:
+    id: libarchive2
+    path: ''
+    startLine: 164
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libarchive2 = 7
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libarchive
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libarchive
+  id: libarchive
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libarchive
+  nameWithType: XCodeLibraryName.libarchive
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libarchive
+  type: Field
+  source:
+    id: libarchive
+    path: ''
+    startLine: 166
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libarchive = 8
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libARI
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libARI
+  id: libARI
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libARI
+  nameWithType: XCodeLibraryName.libARI
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libARI
+  type: Field
+  source:
+    id: libARI
+    path: ''
+    startLine: 168
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libARI = 9
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libARIServer
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libARIServer
+  id: libARIServer
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libARIServer
+  nameWithType: XCodeLibraryName.libARIServer
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libARIServer
+  type: Field
+  source:
+    id: libARIServer
+    path: ''
+    startLine: 170
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libARIServer = 10
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libassertion_launchd
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libassertion_launchd
+  id: libassertion_launchd
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libassertion_launchd
+  nameWithType: XCodeLibraryName.libassertion_launchd
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libassertion_launchd
+  type: Field
+  source:
+    id: libassertion_launchd
+    path: ''
+    startLine: 172
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libassertion_launchd = 11
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libate
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libate
+  id: libate
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libate
+  nameWithType: XCodeLibraryName.libate
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libate
+  type: Field
+  source:
+    id: libate
+    path: ''
+    startLine: 174
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libate = 12
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libauthinstall
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libauthinstall
+  id: libauthinstall
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libauthinstall
+  nameWithType: XCodeLibraryName.libauthinstall
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libauthinstall
+  type: Field
+  source:
+    id: libauthinstall
+    path: ''
+    startLine: 176
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libauthinstall = 13
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufBluetooth
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufBluetooth
+  id: libAWDProtobufBluetooth
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDProtobufBluetooth
+  nameWithType: XCodeLibraryName.libAWDProtobufBluetooth
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufBluetooth
+  type: Field
+  source:
+    id: libAWDProtobufBluetooth
+    path: ''
+    startLine: 178
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDProtobufBluetooth = 14
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetime
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetime
+  id: libAWDProtobufFacetime
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDProtobufFacetime
+  nameWithType: XCodeLibraryName.libAWDProtobufFacetime
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetime
+  type: Field
+  source:
+    id: libAWDProtobufFacetime
+    path: ''
+    startLine: 180
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDProtobufFacetime = 15
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetimeiMessage
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetimeiMessage
+  id: libAWDProtobufFacetimeiMessage
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDProtobufFacetimeiMessage
+  nameWithType: XCodeLibraryName.libAWDProtobufFacetimeiMessage
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufFacetimeiMessage
+  type: Field
+  source:
+    id: libAWDProtobufFacetimeiMessage
+    path: ''
+    startLine: 182
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDProtobufFacetimeiMessage = 16
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufGCK
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufGCK
+  id: libAWDProtobufGCK
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDProtobufGCK
+  nameWithType: XCodeLibraryName.libAWDProtobufGCK
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufGCK
+  type: Field
+  source:
+    id: libAWDProtobufGCK
+    path: ''
+    startLine: 184
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDProtobufGCK = 17
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufLocation
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufLocation
+  id: libAWDProtobufLocation
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDProtobufLocation
+  nameWithType: XCodeLibraryName.libAWDProtobufLocation
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDProtobufLocation
+  type: Field
+  source:
+    id: libAWDProtobufLocation
+    path: ''
+    startLine: 186
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDProtobufLocation = 18
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupport
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupport
+  id: libAWDSupport
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDSupport
+  nameWithType: XCodeLibraryName.libAWDSupport
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupport
+  type: Field
+  source:
+    id: libAWDSupport
+    path: ''
+    startLine: 188
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDSupport = 19
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupportFramework
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupportFramework
+  id: libAWDSupportFramework
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAWDSupportFramework
+  nameWithType: XCodeLibraryName.libAWDSupportFramework
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAWDSupportFramework
+  type: Field
+  source:
+    id: libAWDSupportFramework
+    path: ''
+    startLine: 190
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAWDSupportFramework = 20
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAXSafeCategoryBundle
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAXSafeCategoryBundle
+  id: libAXSafeCategoryBundle
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAXSafeCategoryBundle
+  nameWithType: XCodeLibraryName.libAXSafeCategoryBundle
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAXSafeCategoryBundle
+  type: Field
+  source:
+    id: libAXSafeCategoryBundle
+    path: ''
+    startLine: 192
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAXSafeCategoryBundle = 21
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libAXSpeechManager
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libAXSpeechManager
+  id: libAXSpeechManager
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libAXSpeechManager
+  nameWithType: XCodeLibraryName.libAXSpeechManager
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libAXSpeechManager
+  type: Field
+  source:
+    id: libAXSpeechManager
+    path: ''
+    startLine: 194
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libAXSpeechManager = 22
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libBasebandManager
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libBasebandManager
+  id: libBasebandManager
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libBasebandManager
+  nameWithType: XCodeLibraryName.libBasebandManager
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libBasebandManager
+  type: Field
+  source:
+    id: libBasebandManager
+    path: ''
+    startLine: 196
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libBasebandManager = 23
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libBasebandUSB
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libBasebandUSB
+  id: libBasebandUSB
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libBasebandUSB
+  nameWithType: XCodeLibraryName.libBasebandUSB
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libBasebandUSB
+  type: Field
+  source:
+    id: libBasebandUSB
+    path: ''
+    startLine: 198
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libBasebandUSB = 24
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libbsm0
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libbsm0
+  id: libbsm0
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libbsm0
+  nameWithType: XCodeLibraryName.libbsm0
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libbsm0
+  type: Field
+  source:
+    id: libbsm0
+    path: ''
+    startLine: 200
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libbsm0 = 25
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libbsm
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libbsm
+  id: libbsm
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libbsm
+  nameWithType: XCodeLibraryName.libbsm
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libbsm
+  type: Field
+  source:
+    id: libbsm
+    path: ''
+    startLine: 202
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libbsm = 26
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libbz210
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libbz210
+  id: libbz210
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libbz210
+  nameWithType: XCodeLibraryName.libbz210
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libbz210
+  type: Field
+  source:
+    id: libbz210
+    path: ''
+    startLine: 204
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libbz210 = 27
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libbz2
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libbz2
+  id: libbz2
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libbz2
+  nameWithType: XCodeLibraryName.libbz2
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libbz2
+  type: Field
+  source:
+    id: libbz2
+    path: ''
+    startLine: 206
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libbz2 = 28
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus1
+  id: libcPlusPlus1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcPlusPlus1
+  nameWithType: XCodeLibraryName.libcPlusPlus1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus1
+  type: Field
+  source:
+    id: libcPlusPlus1
+    path: ''
+    startLine: 208
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcPlusPlus1 = 29
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus
+  id: libcPlusPlus
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcPlusPlus
+  nameWithType: XCodeLibraryName.libcPlusPlus
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlus
+  type: Field
+  source:
+    id: libcPlusPlus
+    path: ''
+    startLine: 210
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcPlusPlus = 30
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlusAbi
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlusAbi
+  id: libcPlusPlusAbi
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcPlusPlusAbi
+  nameWithType: XCodeLibraryName.libcPlusPlusAbi
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcPlusPlusAbi
+  type: Field
+  source:
+    id: libcPlusPlusAbi
+    path: ''
+    startLine: 212
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcPlusPlusAbi = 31
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libc
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libc
+  id: libc
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libc
+  nameWithType: XCodeLibraryName.libc
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libc
+  type: Field
+  source:
+    id: libc
+    path: ''
+    startLine: 214
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libc = 32
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcharset100
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcharset100
+  id: libcharset100
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcharset100
+  nameWithType: XCodeLibraryName.libcharset100
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcharset100
+  type: Field
+  source:
+    id: libcharset100
+    path: ''
+    startLine: 216
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcharset100 = 33
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcharset1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcharset1
+  id: libcharset1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcharset1
+  nameWithType: XCodeLibraryName.libcharset1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcharset1
+  type: Field
+  source:
+    id: libcharset1
+    path: ''
+    startLine: 218
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcharset1 = 34
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcharset
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcharset
+  id: libcharset
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcharset
+  nameWithType: XCodeLibraryName.libcharset
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcharset
+  type: Field
+  source:
+    id: libcharset
+    path: ''
+    startLine: 220
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcharset = 35
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libChineseTokenizer
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libChineseTokenizer
+  id: libChineseTokenizer
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libChineseTokenizer
+  nameWithType: XCodeLibraryName.libChineseTokenizer
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libChineseTokenizer
+  type: Field
+  source:
+    id: libChineseTokenizer
+    path: ''
+    startLine: 222
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libChineseTokenizer = 36
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcmph
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcmph
+  id: libcmph
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcmph
+  nameWithType: XCodeLibraryName.libcmph
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcmph
+  type: Field
+  source:
+    id: libcmph
+    path: ''
+    startLine: 224
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcmph = 37
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcompression
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcompression
+  id: libcompression
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcompression
+  nameWithType: XCodeLibraryName.libcompression
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcompression
+  type: Field
+  source:
+    id: libcompression
+    path: ''
+    startLine: 226
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcompression = 38
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcoretls
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcoretls
+  id: libcoretls
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcoretls
+  nameWithType: XCodeLibraryName.libcoretls
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcoretls
+  type: Field
+  source:
+    id: libcoretls
+    path: ''
+    startLine: 228
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcoretls = 39
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcoretls_cfhelpers
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcoretls_cfhelpers
+  id: libcoretls_cfhelpers
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcoretls_cfhelpers
+  nameWithType: XCodeLibraryName.libcoretls_cfhelpers
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcoretls_cfhelpers
+  type: Field
+  source:
+    id: libcoretls_cfhelpers
+    path: ''
+    startLine: 230
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcoretls_cfhelpers = 40
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite
+  id: libCRFSuite
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libCRFSuite
+  nameWithType: XCodeLibraryName.libCRFSuite
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite
+  type: Field
+  source:
+    id: libCRFSuite
+    path: ''
+    startLine: 232
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libCRFSuite = 41
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite012
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite012
+  id: libCRFSuite012
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libCRFSuite012
+  nameWithType: XCodeLibraryName.libCRFSuite012
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libCRFSuite012
+  type: Field
+  source:
+    id: libCRFSuite012
+    path: ''
+    startLine: 234
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libCRFSuite012 = 42
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libCTLogHelper
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libCTLogHelper
+  id: libCTLogHelper
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libCTLogHelper
+  nameWithType: XCodeLibraryName.libCTLogHelper
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libCTLogHelper
+  type: Field
+  source:
+    id: libCTLogHelper
+    path: ''
+    startLine: 236
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libCTLogHelper = 43
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcupolicy
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcupolicy
+  id: libcupolicy
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcupolicy
+  nameWithType: XCodeLibraryName.libcupolicy
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcupolicy
+  type: Field
+  source:
+    id: libcupolicy
+    path: ''
+    startLine: 238
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcupolicy = 44
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libcurses
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libcurses
+  id: libcurses
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libcurses
+  nameWithType: XCodeLibraryName.libcurses
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libcurses
+  type: Field
+  source:
+    id: libcurses
+    path: ''
+    startLine: 240
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libcurses = 45
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libdbm
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libdbm
+  id: libdbm
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libdbm
+  nameWithType: XCodeLibraryName.libdbm
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libdbm
+  type: Field
+  source:
+    id: libdbm
+    path: ''
+    startLine: 242
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libdbm = 46
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServerA
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServerA
+  id: libDHCPServerA
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libDHCPServerA
+  nameWithType: XCodeLibraryName.libDHCPServerA
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServerA
+  type: Field
+  source:
+    id: libDHCPServerA
+    path: ''
+    startLine: 244
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libDHCPServerA = 47
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServer
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServer
+  id: libDHCPServer
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libDHCPServer
+  nameWithType: XCodeLibraryName.libDHCPServer
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libDHCPServer
+  type: Field
+  source:
+    id: libDHCPServer
+    path: ''
+    startLine: 246
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libDHCPServer = 48
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libdl
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libdl
+  id: libdl
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libdl
+  nameWithType: XCodeLibraryName.libdl
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libdl
+  type: Field
+  source:
+    id: libdl
+    path: ''
+    startLine: 248
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libdl = 49
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libdns_services
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libdns_services
+  id: libdns_services
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libdns_services
+  nameWithType: XCodeLibraryName.libdns_services
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libdns_services
+  type: Field
+  source:
+    id: libdns_services
+    path: ''
+    startLine: 250
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libdns_services = 50
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libdscsym
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libdscsym
+  id: libdscsym
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libdscsym
+  nameWithType: XCodeLibraryName.libdscsym
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libdscsym
+  type: Field
+  source:
+    id: libdscsym
+    path: ''
+    startLine: 252
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libdscsym = 51
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libedit2
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libedit2
+  id: libedit2
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libedit2
+  nameWithType: XCodeLibraryName.libedit2
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libedit2
+  type: Field
+  source:
+    id: libedit2
+    path: ''
+    startLine: 254
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libedit2 = 52
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libedit30
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libedit30
+  id: libedit30
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libedit30
+  nameWithType: XCodeLibraryName.libedit30
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libedit30
+  type: Field
+  source:
+    id: libedit30
+    path: ''
+    startLine: 256
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libedit30 = 53
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libedit3
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libedit3
+  id: libedit3
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libedit3
+  nameWithType: XCodeLibraryName.libedit3
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libedit3
+  type: Field
+  source:
+    id: libedit3
+    path: ''
+    startLine: 258
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libedit3 = 54
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libedit
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libedit
+  id: libedit
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libedit
+  nameWithType: XCodeLibraryName.libedit
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libedit
+  type: Field
+  source:
+    id: libedit
+    path: ''
+    startLine: 260
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libedit = 55
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libenergytrace
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libenergytrace
+  id: libenergytrace
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libenergytrace
+  nameWithType: XCodeLibraryName.libenergytrace
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libenergytrace
+  type: Field
+  source:
+    id: libenergytrace
+    path: ''
+    startLine: 262
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libenergytrace = 56
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDIAGLoggingDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDIAGLoggingDynamic
+  id: libETLDIAGLoggingDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDIAGLoggingDynamic
+  nameWithType: XCodeLibraryName.libETLDIAGLoggingDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDIAGLoggingDynamic
+  type: Field
+  source:
+    id: libETLDIAGLoggingDynamic
+    path: ''
+    startLine: 264
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDIAGLoggingDynamic = 57
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLFDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDLFDynamic
+  id: libETLDLFDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDLFDynamic
+  nameWithType: XCodeLibraryName.libETLDLFDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLFDynamic
+  type: Field
+  source:
+    id: libETLDLFDynamic
+    path: ''
+    startLine: 266
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDLFDynamic = 58
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADCoreDumpDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADCoreDumpDynamic
+  id: libETLDLOADCoreDumpDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDLOADCoreDumpDynamic
+  nameWithType: XCodeLibraryName.libETLDLOADCoreDumpDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADCoreDumpDynamic
+  type: Field
+  source:
+    id: libETLDLOADCoreDumpDynamic
+    path: ''
+    startLine: 268
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDLOADCoreDumpDynamic = 59
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADDynamic
+  id: libETLDLOADDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDLOADDynamic
+  nameWithType: XCodeLibraryName.libETLDLOADDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDLOADDynamic
+  type: Field
+  source:
+    id: libETLDLOADDynamic
+    path: ''
+    startLine: 270
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDLOADDynamic = 60
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDMCDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDMCDynamic
+  id: libETLDMCDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDMCDynamic
+  nameWithType: XCodeLibraryName.libETLDMCDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDMCDynamic
+  type: Field
+  source:
+    id: libETLDMCDynamic
+    path: ''
+    startLine: 272
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDMCDynamic = 61
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLDynamic
+  id: libETLDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLDynamic
+  nameWithType: XCodeLibraryName.libETLDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLDynamic
+  type: Field
+  source:
+    id: libETLDynamic
+    path: ''
+    startLine: 274
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLDynamic = 62
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLEFSDumpDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLEFSDumpDynamic
+  id: libETLEFSDumpDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLEFSDumpDynamic
+  nameWithType: XCodeLibraryName.libETLEFSDumpDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLEFSDumpDynamic
+  type: Field
+  source:
+    id: libETLEFSDumpDynamic
+    path: ''
+    startLine: 276
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLEFSDumpDynamic = 63
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLSAHDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLSAHDynamic
+  id: libETLSAHDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLSAHDynamic
+  nameWithType: XCodeLibraryName.libETLSAHDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLSAHDynamic
+  type: Field
+  source:
+    id: libETLSAHDynamic
+    path: ''
+    startLine: 278
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLSAHDynamic = 64
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libETLTransportDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libETLTransportDynamic
+  id: libETLTransportDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libETLTransportDynamic
+  nameWithType: XCodeLibraryName.libETLTransportDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libETLTransportDynamic
+  type: Field
+  source:
+    id: libETLTransportDynamic
+    path: ''
+    startLine: 280
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libETLTransportDynamic = 65
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libexslt0
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libexslt0
+  id: libexslt0
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libexslt0
+  nameWithType: XCodeLibraryName.libexslt0
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libexslt0
+  type: Field
+  source:
+    id: libexslt0
+    path: ''
+    startLine: 282
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libexslt0 = 66
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libexslt
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libexslt
+  id: libexslt
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libexslt
+  nameWithType: XCodeLibraryName.libexslt
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libexslt
+  type: Field
+  source:
+    id: libexslt
+    path: ''
+    startLine: 284
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libexslt = 67
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libextension
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libextension
+  id: libextension
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libextension
+  nameWithType: XCodeLibraryName.libextension
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libextension
+  type: Field
+  source:
+    id: libextension
+    path: ''
+    startLine: 286
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libextension = 68
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libform54
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libform54
+  id: libform54
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libform54
+  nameWithType: XCodeLibraryName.libform54
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libform54
+  type: Field
+  source:
+    id: libform54
+    path: ''
+    startLine: 288
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libform54 = 69
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libform
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libform
+  id: libform
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libform
+  nameWithType: XCodeLibraryName.libform
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libform
+  type: Field
+  source:
+    id: libform
+    path: ''
+    startLine: 290
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libform = 70
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libgcc_s1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libgcc_s1
+  id: libgcc_s1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libgcc_s1
+  nameWithType: XCodeLibraryName.libgcc_s1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libgcc_s1
+  type: Field
+  source:
+    id: libgcc_s1
+    path: ''
+    startLine: 292
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libgcc_s1 = 71
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libgermantok
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libgermantok
+  id: libgermantok
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libgermantok
+  nameWithType: XCodeLibraryName.libgermantok
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libgermantok
+  type: Field
+  source:
+    id: libgermantok
+    path: ''
+    startLine: 294
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libgermantok = 72
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libH5Dynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libH5Dynamic
+  id: libH5Dynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libH5Dynamic
+  nameWithType: XCodeLibraryName.libH5Dynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libH5Dynamic
+  type: Field
+  source:
+    id: libH5Dynamic
+    path: ''
+    startLine: 296
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libH5Dynamic = 73
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libHDLCDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libHDLCDynamic
+  id: libHDLCDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libHDLCDynamic
+  nameWithType: XCodeLibraryName.libHDLCDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libHDLCDynamic
+  type: Field
+  source:
+    id: libHDLCDynamic
+    path: ''
+    startLine: 298
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libHDLCDynamic = 74
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libheimdal_asn1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libheimdal_asn1
+  id: libheimdal_asn1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libheimdal_asn1
+  nameWithType: XCodeLibraryName.libheimdal_asn1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libheimdal_asn1
+  type: Field
+  source:
+    id: libheimdal_asn1
+    path: ''
+    startLine: 300
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libheimdal_asn1 = 75
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libiconv240
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libiconv240
+  id: libiconv240
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libiconv240
+  nameWithType: XCodeLibraryName.libiconv240
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libiconv240
+  type: Field
+  source:
+    id: libiconv240
+    path: ''
+    startLine: 302
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libiconv240 = 76
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libiconv2
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libiconv2
+  id: libiconv2
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libiconv2
+  nameWithType: XCodeLibraryName.libiconv2
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libiconv2
+  type: Field
+  source:
+    id: libiconv2
+    path: ''
+    startLine: 304
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libiconv2 = 77
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libiconv
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libiconv
+  id: libiconv
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libiconv
+  nameWithType: XCodeLibraryName.libiconv
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libiconv
+  type: Field
+  source:
+    id: libiconv
+    path: ''
+    startLine: 306
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libiconv = 78
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libicucoreA
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libicucoreA
+  id: libicucoreA
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libicucoreA
+  nameWithType: XCodeLibraryName.libicucoreA
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libicucoreA
+  type: Field
+  source:
+    id: libicucoreA
+    path: ''
+    startLine: 308
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libicucoreA = 79
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libicucore
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libicucore
+  id: libicucore
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libicucore
+  nameWithType: XCodeLibraryName.libicucore
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libicucore
+  type: Field
+  source:
+    id: libicucore
+    path: ''
+    startLine: 310
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libicucore = 80
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libInFieldCollection
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libInFieldCollection
+  id: libInFieldCollection
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libInFieldCollection
+  nameWithType: XCodeLibraryName.libInFieldCollection
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libInFieldCollection
+  type: Field
+  source:
+    id: libInFieldCollection
+    path: ''
+    startLine: 312
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libInFieldCollection = 81
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libinfo
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libinfo
+  id: libinfo
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libinfo
+  nameWithType: XCodeLibraryName.libinfo
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libinfo
+  type: Field
+  source:
+    id: libinfo
+    path: ''
+    startLine: 314
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libinfo = 82
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libIOAccessoryManager
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libIOAccessoryManager
+  id: libIOAccessoryManager
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libIOAccessoryManager
+  nameWithType: XCodeLibraryName.libIOAccessoryManager
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libIOAccessoryManager
+  type: Field
+  source:
+    id: libIOAccessoryManager
+    path: ''
+    startLine: 316
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libIOAccessoryManager = 83
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libipconfig
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libipconfig
+  id: libipconfig
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libipconfig
+  nameWithType: XCodeLibraryName.libipconfig
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libipconfig
+  type: Field
+  source:
+    id: libipconfig
+    path: ''
+    startLine: 318
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libipconfig = 84
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libipsecA
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libipsecA
+  id: libipsecA
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libipsecA
+  nameWithType: XCodeLibraryName.libipsecA
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libipsecA
+  type: Field
+  source:
+    id: libipsecA
+    path: ''
+    startLine: 320
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libipsecA = 85
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libipsec
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libipsec
+  id: libipsec
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libipsec
+  nameWithType: XCodeLibraryName.libipsec
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libipsec
+  type: Field
+  source:
+    id: libipsec
+    path: ''
+    startLine: 322
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libipsec = 86
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libktrace
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libktrace
+  id: libktrace
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libktrace
+  nameWithType: XCodeLibraryName.libktrace
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libktrace
+  type: Field
+  source:
+    id: libktrace
+    path: ''
+    startLine: 324
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libktrace = 87
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.liblangid
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.liblangid
+  id: liblangid
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: liblangid
+  nameWithType: XCodeLibraryName.liblangid
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.liblangid
+  type: Field
+  source:
+    id: liblangid
+    path: ''
+    startLine: 326
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: liblangid = 88
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libLLVM_C
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libLLVM_C
+  id: libLLVM_C
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libLLVM_C
+  nameWithType: XCodeLibraryName.libLLVM_C
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libLLVM_C
+  type: Field
+  source:
+    id: libLLVM_C
+    path: ''
+    startLine: 328
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libLLVM_C = 89
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libLLVM
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libLLVM
+  id: libLLVM
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libLLVM
+  nameWithType: XCodeLibraryName.libLLVM
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libLLVM
+  type: Field
+  source:
+    id: libLLVM
+    path: ''
+    startLine: 330
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libLLVM = 90
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.liblockdown
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.liblockdown
+  id: liblockdown
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: liblockdown
+  nameWithType: XCodeLibraryName.liblockdown
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.liblockdown
+  type: Field
+  source:
+    id: liblockdown
+    path: ''
+    startLine: 332
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: liblockdown = 91
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.liblizma5
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.liblizma5
+  id: liblizma5
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: liblizma5
+  nameWithType: XCodeLibraryName.liblizma5
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.liblizma5
+  type: Field
+  source:
+    id: liblizma5
+    path: ''
+    startLine: 334
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: liblizma5 = 92
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.liblizma
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.liblizma
+  id: liblizma
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: liblizma
+  nameWithType: XCodeLibraryName.liblizma
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.liblizma
+  type: Field
+  source:
+    id: liblizma
+    path: ''
+    startLine: 336
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: liblizma = 93
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libm
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libm
+  id: libm
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libm
+  nameWithType: XCodeLibraryName.libm
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libm
+  type: Field
+  source:
+    id: libm
+    path: ''
+    startLine: 338
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libm = 94
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libmarisa
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libmarisa
+  id: libmarisa
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libmarisa
+  nameWithType: XCodeLibraryName.libmarisa
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libmarisa
+  type: Field
+  source:
+    id: libmarisa
+    path: ''
+    startLine: 340
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libmarisa = 95
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libMatch1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libMatch1
+  id: libMatch1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libMatch1
+  nameWithType: XCodeLibraryName.libMatch1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libMatch1
+  type: Field
+  source:
+    id: libMatch1
+    path: ''
+    startLine: 342
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libMatch1 = 96
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libMatch
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libMatch
+  id: libMatch
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libMatch
+  nameWithType: XCodeLibraryName.libMatch
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libMatch
+  type: Field
+  source:
+    id: libMatch
+    path: ''
+    startLine: 344
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libMatch = 97
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libmav_ipc_router_dynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libmav_ipc_router_dynamic
+  id: libmav_ipc_router_dynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libmav_ipc_router_dynamic
+  nameWithType: XCodeLibraryName.libmav_ipc_router_dynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libmav_ipc_router_dynamic
+  type: Field
+  source:
+    id: libmav_ipc_router_dynamic
+    path: ''
+    startLine: 346
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libmav_ipc_router_dynamic = 98
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libmecab_em
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libmecab_em
+  id: libmecab_em
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libmecab_em
+  nameWithType: XCodeLibraryName.libmecab_em
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libmecab_em
+  type: Field
+  source:
+    id: libmecab_em
+    path: ''
+    startLine: 348
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libmecab_em = 99
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libmecabra
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libmecabra
+  id: libmecabra
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libmecabra
+  nameWithType: XCodeLibraryName.libmecabra
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libmecabra
+  type: Field
+  source:
+    id: libmecabra
+    path: ''
+    startLine: 350
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libmecabra = 100
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libmis
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libmis
+  id: libmis
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libmis
+  nameWithType: XCodeLibraryName.libmis
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libmis
+  type: Field
+  source:
+    id: libmis
+    path: ''
+    startLine: 352
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libmis = 101
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libMobileCheckpoint
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libMobileCheckpoint
+  id: libMobileCheckpoint
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libMobileCheckpoint
+  nameWithType: XCodeLibraryName.libMobileCheckpoint
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libMobileCheckpoint
+  type: Field
+  source:
+    id: libMobileCheckpoint
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libMobileCheckpoint = 102
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestalt
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestalt
+  id: libMobileGestalt
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libMobileGestalt
+  nameWithType: XCodeLibraryName.libMobileGestalt
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestalt
+  type: Field
+  source:
+    id: libMobileGestalt
+    path: ''
+    startLine: 356
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libMobileGestalt = 103
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestaltExtensions
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestaltExtensions
+  id: libMobileGestaltExtensions
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libMobileGestaltExtensions
+  nameWithType: XCodeLibraryName.libMobileGestaltExtensions
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libMobileGestaltExtensions
+  type: Field
+  source:
+    id: libMobileGestaltExtensions
+    path: ''
+    startLine: 358
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libMobileGestaltExtensions = 104
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libncurses54
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libncurses54
+  id: libncurses54
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libncurses54
+  nameWithType: XCodeLibraryName.libncurses54
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libncurses54
+  type: Field
+  source:
+    id: libncurses54
+    path: ''
+    startLine: 360
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libncurses54 = 105
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libncurses
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libncurses
+  id: libncurses
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libncurses
+  nameWithType: XCodeLibraryName.libncurses
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libncurses
+  type: Field
+  source:
+    id: libncurses
+    path: ''
+    startLine: 362
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libncurses = 106
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libnework
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libnework
+  id: libnework
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libnework
+  nameWithType: XCodeLibraryName.libnework
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libnework
+  type: Field
+  source:
+    id: libnework
+    path: ''
+    startLine: 364
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libnework = 107
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libnfshared
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libnfshared
+  id: libnfshared
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libnfshared
+  nameWithType: XCodeLibraryName.libnfshared
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libnfshared
+  type: Field
+  source:
+    id: libnfshared
+    path: ''
+    startLine: 366
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libnfshared = 108
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libobjcA
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libobjcA
+  id: libobjcA
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libobjcA
+  nameWithType: XCodeLibraryName.libobjcA
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libobjcA
+  type: Field
+  source:
+    id: libobjcA
+    path: ''
+    startLine: 368
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libobjcA = 109
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libobjc
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libobjc
+  id: libobjc
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libobjc
+  nameWithType: XCodeLibraryName.libobjc
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libobjc
+  type: Field
+  source:
+    id: libobjc
+    path: ''
+    startLine: 370
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libobjc = 110
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libomadm
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libomadm
+  id: libomadm
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libomadm
+  nameWithType: XCodeLibraryName.libomadm
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libomadm
+  type: Field
+  source:
+    id: libomadm
+    path: ''
+    startLine: 372
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libomadm = 111
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libPCITransport
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libPCITransport
+  id: libPCITransport
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libPCITransport
+  nameWithType: XCodeLibraryName.libPCITransport
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libPCITransport
+  type: Field
+  source:
+    id: libPCITransport
+    path: ''
+    startLine: 374
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libPCITransport = 112
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libpoll
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libpoll
+  id: libpoll
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libpoll
+  nameWithType: XCodeLibraryName.libpoll
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libpoll
+  type: Field
+  source:
+    id: libpoll
+    path: ''
+    startLine: 376
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libpoll = 113
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libPPM
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libPPM
+  id: libPPM
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libPPM
+  nameWithType: XCodeLibraryName.libPPM
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libPPM
+  type: Field
+  source:
+    id: libPPM
+    path: ''
+    startLine: 378
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libPPM = 114
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libprequelite
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libprequelite
+  id: libprequelite
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libprequelite
+  nameWithType: XCodeLibraryName.libprequelite
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libprequelite
+  type: Field
+  source:
+    id: libprequelite
+    path: ''
+    startLine: 380
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libprequelite = 115
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libproc
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libproc
+  id: libproc
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libproc
+  nameWithType: XCodeLibraryName.libproc
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libproc
+  type: Field
+  source:
+    id: libproc
+    path: ''
+    startLine: 382
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libproc = 116
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libprotobuf
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libprotobuf
+  id: libprotobuf
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libprotobuf
+  nameWithType: XCodeLibraryName.libprotobuf
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libprotobuf
+  type: Field
+  source:
+    id: libprotobuf
+    path: ''
+    startLine: 384
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libprotobuf = 117
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libpthead
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libpthead
+  id: libpthead
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libpthead
+  nameWithType: XCodeLibraryName.libpthead
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libpthead
+  type: Field
+  source:
+    id: libpthead
+    path: ''
+    startLine: 386
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libpthead = 118
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libQLCharts
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libQLCharts
+  id: libQLCharts
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libQLCharts
+  nameWithType: XCodeLibraryName.libQLCharts
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libQLCharts
+  type: Field
+  source:
+    id: libQLCharts
+    path: ''
+    startLine: 388
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libQLCharts = 119
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libresolv9
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libresolv9
+  id: libresolv9
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libresolv9
+  nameWithType: XCodeLibraryName.libresolv9
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libresolv9
+  type: Field
+  source:
+    id: libresolv9
+    path: ''
+    startLine: 390
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libresolv9 = 120
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libresolv
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libresolv
+  id: libresolv
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libresolv
+  nameWithType: XCodeLibraryName.libresolv
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libresolv
+  type: Field
+  source:
+    id: libresolv
+    path: ''
+    startLine: 392
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libresolv = 121
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.librpcsvc
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.librpcsvc
+  id: librpcsvc
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: librpcsvc
+  nameWithType: XCodeLibraryName.librpcsvc
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.librpcsvc
+  type: Field
+  source:
+    id: librpcsvc
+    path: ''
+    startLine: 394
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: librpcsvc = 122
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsandbox1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsandbox1
+  id: libsandbox1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsandbox1
+  nameWithType: XCodeLibraryName.libsandbox1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsandbox1
+  type: Field
+  source:
+    id: libsandbox1
+    path: ''
+    startLine: 396
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsandbox1 = 123
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsandbox
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsandbox
+  id: libsandbox
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsandbox
+  nameWithType: XCodeLibraryName.libsandbox
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsandbox
+  type: Field
+  source:
+    id: libsandbox
+    path: ''
+    startLine: 398
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsandbox = 124
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsp
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsp
+  id: libsp
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsp
+  nameWithType: XCodeLibraryName.libsp
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsp
+  type: Field
+  source:
+    id: libsp
+    path: ''
+    startLine: 400
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsp = 125
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libspindump
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libspindump
+  id: libspindump
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libspindump
+  nameWithType: XCodeLibraryName.libspindump
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libspindump
+  type: Field
+  source:
+    id: libspindump
+    path: ''
+    startLine: 402
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libspindump = 126
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsqlite30
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsqlite30
+  id: libsqlite30
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsqlite30
+  nameWithType: XCodeLibraryName.libsqlite30
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsqlite30
+  type: Field
+  source:
+    id: libsqlite30
+    path: ''
+    startLine: 404
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsqlite30 = 127
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsqlite3
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsqlite3
+  id: libsqlite3
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsqlite3
+  nameWithType: XCodeLibraryName.libsqlite3
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsqlite3
+  type: Field
+  source:
+    id: libsqlite3
+    path: ''
+    startLine: 406
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsqlite3 = 128
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_609
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_609
+  id: libstdcPlusPlus_609
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libstdcPlusPlus_609
+  nameWithType: XCodeLibraryName.libstdcPlusPlus_609
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_609
+  type: Field
+  source:
+    id: libstdcPlusPlus_609
+    path: ''
+    startLine: 408
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libstdcPlusPlus_609 = 129
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_6
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_6
+  id: libstdcPlusPlus_6
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libstdcPlusPlus_6
+  nameWithType: XCodeLibraryName.libstdcPlusPlus_6
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus_6
+  type: Field
+  source:
+    id: libstdcPlusPlus_6
+    path: ''
+    startLine: 410
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libstdcPlusPlus_6 = 130
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus
+  id: libstdcPlusPlus
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libstdcPlusPlus
+  nameWithType: XCodeLibraryName.libstdcPlusPlus
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libstdcPlusPlus
+  type: Field
+  source:
+    id: libstdcPlusPlus
+    path: ''
+    startLine: 412
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libstdcPlusPlus = 131
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsysdiagnose
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsysdiagnose
+  id: libsysdiagnose
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsysdiagnose
+  nameWithType: XCodeLibraryName.libsysdiagnose
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsysdiagnose
+  type: Field
+  source:
+    id: libsysdiagnose
+    path: ''
+    startLine: 414
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsysdiagnose = 132
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libSystemB
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libSystemB
+  id: libSystemB
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libSystemB
+  nameWithType: XCodeLibraryName.libSystemB
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libSystemB
+  type: Field
+  source:
+    id: libSystemB
+    path: ''
+    startLine: 416
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libSystemB = 133
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libSystem
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libSystem
+  id: libSystem
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libSystem
+  nameWithType: XCodeLibraryName.libSystem
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libSystem
+  type: Field
+  source:
+    id: libSystem
+    path: ''
+    startLine: 418
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libSystem = 134
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libsystemstats
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libsystemstats
+  id: libsystemstats
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libsystemstats
+  nameWithType: XCodeLibraryName.libsystemstats
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libsystemstats
+  type: Field
+  source:
+    id: libsystemstats
+    path: ''
+    startLine: 420
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libsystemstats = 135
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libtailspin
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libtailspin
+  id: libtailspin
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libtailspin
+  nameWithType: XCodeLibraryName.libtailspin
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libtailspin
+  type: Field
+  source:
+    id: libtailspin
+    path: ''
+    startLine: 422
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libtailspin = 136
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandBulkUSBDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandBulkUSBDynamic
+  id: libTelephonyBasebandBulkUSBDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyBasebandBulkUSBDynamic
+  nameWithType: XCodeLibraryName.libTelephonyBasebandBulkUSBDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandBulkUSBDynamic
+  type: Field
+  source:
+    id: libTelephonyBasebandBulkUSBDynamic
+    path: ''
+    startLine: 424
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyBasebandBulkUSBDynamic = 137
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandDynamic
+  id: libTelephonyBasebandDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyBasebandDynamic
+  nameWithType: XCodeLibraryName.libTelephonyBasebandDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyBasebandDynamic
+  type: Field
+  source:
+    id: libTelephonyBasebandDynamic
+    path: ''
+    startLine: 426
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyBasebandDynamic = 138
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyDebugDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyDebugDynamic
+  id: libTelephonyDebugDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyDebugDynamic
+  nameWithType: XCodeLibraryName.libTelephonyDebugDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyDebugDynamic
+  type: Field
+  source:
+    id: libTelephonyDebugDynamic
+    path: ''
+    startLine: 428
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyDebugDynamic = 139
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyIOKitDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyIOKitDynamic
+  id: libTelephonyIOKitDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyIOKitDynamic
+  nameWithType: XCodeLibraryName.libTelephonyIOKitDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyIOKitDynamic
+  type: Field
+  source:
+    id: libTelephonyIOKitDynamic
+    path: ''
+    startLine: 430
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyIOKitDynamic = 140
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUSBDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUSBDynamic
+  id: libTelephonyUSBDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyUSBDynamic
+  nameWithType: XCodeLibraryName.libTelephonyUSBDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUSBDynamic
+  type: Field
+  source:
+    id: libTelephonyUSBDynamic
+    path: ''
+    startLine: 432
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyUSBDynamic = 141
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUtilDynamic
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUtilDynamic
+  id: libTelephonyUtilDynamic
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libTelephonyUtilDynamic
+  nameWithType: XCodeLibraryName.libTelephonyUtilDynamic
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libTelephonyUtilDynamic
+  type: Field
+  source:
+    id: libTelephonyUtilDynamic
+    path: ''
+    startLine: 434
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libTelephonyUtilDynamic = 142
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libThaiTokenizer
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libThaiTokenizer
+  id: libThaiTokenizer
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libThaiTokenizer
+  nameWithType: XCodeLibraryName.libThaiTokenizer
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libThaiTokenizer
+  type: Field
+  source:
+    id: libThaiTokenizer
+    path: ''
+    startLine: 436
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libThaiTokenizer = 143
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libtidyA
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libtidyA
+  id: libtidyA
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libtidyA
+  nameWithType: XCodeLibraryName.libtidyA
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libtidyA
+  type: Field
+  source:
+    id: libtidyA
+    path: ''
+    startLine: 438
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libtidyA = 144
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libtidy
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libtidy
+  id: libtidy
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libtidy
+  nameWithType: XCodeLibraryName.libtidy
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libtidy
+  type: Field
+  source:
+    id: libtidy
+    path: ''
+    startLine: 440
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libtidy = 145
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libzupdate
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libzupdate
+  id: libzupdate
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libzupdate
+  nameWithType: XCodeLibraryName.libzupdate
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libzupdate
+  type: Field
+  source:
+    id: libzupdate
+    path: ''
+    startLine: 442
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libzupdate = 146
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libutil
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libutil
+  id: libutil
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libutil
+  nameWithType: XCodeLibraryName.libutil
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libutil
+  type: Field
+  source:
+    id: libutil
+    path: ''
+    startLine: 444
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libutil = 147
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libutil_10
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libutil_10
+  id: libutil_10
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libutil_10
+  nameWithType: XCodeLibraryName.libutil_10
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libutil_10
+  type: Field
+  source:
+    id: libutil_10
+    path: ''
+    startLine: 446
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libutil_10 = 148
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libWAPI
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libWAPI
+  id: libWAPI
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libWAPI
+  nameWithType: XCodeLibraryName.libWAPI
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libWAPI
+  type: Field
+  source:
+    id: libWAPI
+    path: ''
+    startLine: 448
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libWAPI = 149
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libxlm22
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libxlm22
+  id: libxlm22
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libxlm22
+  nameWithType: XCodeLibraryName.libxlm22
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libxlm22
+  type: Field
+  source:
+    id: libxlm22
+    path: ''
+    startLine: 450
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libxlm22 = 150
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libxml2
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libxml2
+  id: libxml2
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libxml2
+  nameWithType: XCodeLibraryName.libxml2
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libxml2
+  type: Field
+  source:
+    id: libxml2
+    path: ''
+    startLine: 452
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libxml2 = 151
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libxslt1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libxslt1
+  id: libxslt1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libxslt1
+  nameWithType: XCodeLibraryName.libxslt1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libxslt1
+  type: Field
+  source:
+    id: libxslt1
+    path: ''
+    startLine: 454
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libxslt1 = 152
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libxslt
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libxslt
+  id: libxslt
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libxslt
+  nameWithType: XCodeLibraryName.libxslt
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libxslt
+  type: Field
+  source:
+    id: libxslt
+    path: ''
+    startLine: 456
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libxslt = 153
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libz113
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libz113
+  id: libz113
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libz113
+  nameWithType: XCodeLibraryName.libz113
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libz113
+  type: Field
+  source:
+    id: libz113
+    path: ''
+    startLine: 458
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libz113 = 154
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libz125
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libz125
+  id: libz125
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libz125
+  nameWithType: XCodeLibraryName.libz125
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libz125
+  type: Field
+  source:
+    id: libz125
+    path: ''
+    startLine: 460
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libz125 = 155
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libz128
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libz128
+  id: libz128
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libz128
+  nameWithType: XCodeLibraryName.libz128
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libz128
+  type: Field
+  source:
+    id: libz128
+    path: ''
+    startLine: 462
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libz128 = 156
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libz1
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libz1
+  id: libz1
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libz1
+  nameWithType: XCodeLibraryName.libz1
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libz1
+  type: Field
+  source:
+    id: libz1
+    path: ''
+    startLine: 464
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libz1 = 157
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeLibraryName.libz
+  commentId: F:StansAssets.IOS.XCode.XCodeLibraryName.libz
+  id: libz
+  parent: StansAssets.IOS.XCode.XCodeLibraryName
+  langs:
+  - csharp
+  - vb
+  name: libz
+  nameWithType: XCodeLibraryName.libz
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName.libz
+  type: Field
+  source:
+    id: libz
+    path: ''
+    startLine: 466
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: libz = 158
+    return:
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.XCodeLibraryName
+  commentId: T:StansAssets.IOS.XCode.XCodeLibraryName
+  parent: StansAssets.IOS.XCode
+  name: XCodeLibraryName
+  nameWithType: XCodeLibraryName
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName

@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.LibraryHandler
+  commentId: T:StansAssets.IOS.XCode.LibraryHandler
+  id: LibraryHandler
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+  - StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray
+  - StansAssets.IOS.XCode.LibraryHandler.EnumValueOf(System.String)
+  - StansAssets.IOS.XCode.LibraryHandler.StringValueOf(StansAssets.IOS.XCode.XCodeLibraryName)
+  langs:
+  - csharp
+  - vb
+  name: LibraryHandler
+  nameWithType: LibraryHandler
+  fullName: StansAssets.IOS.XCode.LibraryHandler
+  type: Class
+  source:
+    id: LibraryHandler
+    path: ''
+    startLine: 1899
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: 'public class LibraryHandler : MonoBehaviour'
+    content.vb: >-
+      Public Class LibraryHandler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+  commentId: P:StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+  id: AvailableLibraries
+  parent: StansAssets.IOS.XCode.LibraryHandler
+  langs:
+  - csharp
+  - vb
+  name: AvailableLibraries
+  nameWithType: LibraryHandler.AvailableLibraries
+  fullName: StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+  type: Property
+  source:
+    id: AvailableLibraries
+    path: ''
+    startLine: 1901
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public static List<XCodeLibrary> AvailableLibraries { get; }
+    parameters: []
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeLibrary}
+    content.vb: Public Shared ReadOnly Property AvailableLibraries As List(Of XCodeLibrary)
+  overload: StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray
+  commentId: M:StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray
+  id: BaseLibrariesArray
+  parent: StansAssets.IOS.XCode.LibraryHandler
+  langs:
+  - csharp
+  - vb
+  name: BaseLibrariesArray()
+  nameWithType: LibraryHandler.BaseLibrariesArray()
+  fullName: StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray()
+  type: Method
+  source:
+    id: BaseLibrariesArray
+    path: ''
+    startLine: 1918
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public static string[] BaseLibrariesArray()
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function BaseLibrariesArray As String()
+  overload: StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.LibraryHandler.StringValueOf(StansAssets.IOS.XCode.XCodeLibraryName)
+  commentId: M:StansAssets.IOS.XCode.LibraryHandler.StringValueOf(StansAssets.IOS.XCode.XCodeLibraryName)
+  id: StringValueOf(StansAssets.IOS.XCode.XCodeLibraryName)
+  parent: StansAssets.IOS.XCode.LibraryHandler
+  langs:
+  - csharp
+  - vb
+  name: StringValueOf(XCodeLibraryName)
+  nameWithType: LibraryHandler.StringValueOf(XCodeLibraryName)
+  fullName: StansAssets.IOS.XCode.LibraryHandler.StringValueOf(StansAssets.IOS.XCode.XCodeLibraryName)
+  type: Method
+  source:
+    id: StringValueOf
+    path: ''
+    startLine: 1925
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public static string StringValueOf(XCodeLibraryName value)
+    parameters:
+    - id: value
+      type: StansAssets.IOS.XCode.XCodeLibraryName
+    return:
+      type: System.String
+    content.vb: Public Shared Function StringValueOf(value As XCodeLibraryName) As String
+  overload: StansAssets.IOS.XCode.LibraryHandler.StringValueOf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: StansAssets.IOS.XCode.LibraryHandler.EnumValueOf(System.String)
+  commentId: M:StansAssets.IOS.XCode.LibraryHandler.EnumValueOf(System.String)
+  id: EnumValueOf(System.String)
+  parent: StansAssets.IOS.XCode.LibraryHandler
+  langs:
+  - csharp
+  - vb
+  name: EnumValueOf(String)
+  nameWithType: LibraryHandler.EnumValueOf(String)
+  fullName: StansAssets.IOS.XCode.LibraryHandler.EnumValueOf(System.String)
+  type: Method
+  source:
+    id: EnumValueOf
+    path: ''
+    startLine: 1940
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public static object EnumValueOf(string value)
+    parameters:
+    - id: value
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function EnumValueOf(value As String) As Object
+  overload: StansAssets.IOS.XCode.LibraryHandler.EnumValueOf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries*
+  commentId: Overload:StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+  name: AvailableLibraries
+  nameWithType: LibraryHandler.AvailableLibraries
+  fullName: StansAssets.IOS.XCode.LibraryHandler.AvailableLibraries
+- uid: List{StansAssets.IOS.XCode.XCodeLibrary}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeLibrary}'
+  definition: List`1
+  name: List<XCodeLibrary>
+  nameWithType: List<XCodeLibrary>
+  fullName: List<StansAssets.IOS.XCode.XCodeLibrary>
+  nameWithType.vb: List(Of XCodeLibrary)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeLibrary)
+  name.vb: List(Of XCodeLibrary)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeLibrary
+    name: XCodeLibrary
+    nameWithType: XCodeLibrary
+    fullName: StansAssets.IOS.XCode.XCodeLibrary
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeLibrary
+    name: XCodeLibrary
+    nameWithType: XCodeLibrary
+    fullName: StansAssets.IOS.XCode.XCodeLibrary
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray*
+  commentId: Overload:StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray
+  name: BaseLibrariesArray
+  nameWithType: LibraryHandler.BaseLibrariesArray
+  fullName: StansAssets.IOS.XCode.LibraryHandler.BaseLibrariesArray
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: StansAssets.IOS.XCode.LibraryHandler.StringValueOf*
+  commentId: Overload:StansAssets.IOS.XCode.LibraryHandler.StringValueOf
+  name: StringValueOf
+  nameWithType: LibraryHandler.StringValueOf
+  fullName: StansAssets.IOS.XCode.LibraryHandler.StringValueOf
+- uid: StansAssets.IOS.XCode.XCodeLibraryName
+  commentId: T:StansAssets.IOS.XCode.XCodeLibraryName
+  parent: StansAssets.IOS.XCode
+  name: XCodeLibraryName
+  nameWithType: XCodeLibraryName
+  fullName: StansAssets.IOS.XCode.XCodeLibraryName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.LibraryHandler.EnumValueOf*
+  commentId: Overload:StansAssets.IOS.XCode.LibraryHandler.EnumValueOf
+  name: EnumValueOf
+  nameWithType: LibraryHandler.EnumValueOf
+  fullName: StansAssets.IOS.XCode.LibraryHandler.EnumValueOf

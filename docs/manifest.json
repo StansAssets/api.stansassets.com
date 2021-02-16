@@ -8585,12 +8585,408 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/SA.Foundation.Localization.SA_ISOLanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/SA.Foundation.Localization.SA_ISOLanguage.html",
+          "hash": "Ox1wdUiRx7hP7ZmcoAGUrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/SA.Foundation.Localization.SA_ISOLanguagesList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/SA.Foundation.Localization.SA_ISOLanguagesList.html",
+          "hash": "XRu701L2Fwln+lPlXYvWgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/SA.Foundation.Localization.SA_LanguagesUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/SA.Foundation.Localization.SA_LanguagesUtil.html",
+          "hash": "kMge8PcWzpqjE1nIiUs/PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/SA.Foundation.Localization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/SA.Foundation.Localization.html",
+          "hash": "RJbHMkagYCxFjt8FajIovw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.FrameworkHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.FrameworkHandler.html",
+          "hash": "C7d+R66/xuDH9UQ4LEYp3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.InfoPlistKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.InfoPlistKey.html",
+          "hash": "9UtS81lfLqVIe5I9OOJFxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.InfoPlistKeyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.InfoPlistKeyType.html",
+          "hash": "Jdrc/+5NIXblKc0tv2tjAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.LibraryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.LibraryHandler.html",
+          "hash": "CaOZaelEu9Uye5Wl+qHNIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeAsset.html",
+          "hash": "9GL1KjOr5SnPd0Ha7311kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability.html",
+          "hash": "XZUS0nucMm6wREiKAlkwNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.ApplePayCapability.html",
+          "hash": "RrvZlGcMUQqw3+TtqHqWZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.AssociatedDomainsCapability.html",
+          "hash": "RcJNL6qMejvmpzBNLnFx7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.BackgroundModesOptions.html",
+          "hash": "FSxoPpZwkVmKWnOG5xcWDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.BackgroundModesCapability.html",
+          "hash": "+fecxn/mMcPYlBvZ1ywaIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.Capability.html",
+          "hash": "o8fvWhBLz9oCwUqpJyB1gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.KeychainSharingCapability.html",
+          "hash": "DmReAEAtQKjvUJs5pHWcsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.html",
+          "hash": "+1K3NngEyjR2mmuIq2Gz+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.html",
+          "hash": "Rp3+sm2OJlwD9+DMaZilWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.PushNotificationsCapability.html",
+          "hash": "lNu28AKOBs4MpLAxwruobg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability.html",
+          "hash": "YnVmrtvOmz+HnW7OBUZafw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.iCloudCapability.html",
+          "hash": "AMVRv2Ugbr1pivHezZ4X9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeCapabilitySettings.html",
+          "hash": "aR3+MnIW7MMlwI5TTSfNxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFlagType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFlagType.html",
+          "hash": "mt3BIUb0+IPbOyf3xeCNFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFramework.html",
+          "hash": "qRyUJlpM/qNkfGWMikqlMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFrameworkName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeFrameworkName.html",
+          "hash": "M3eGySRpROREXVVzF2DElQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeLibrary.html",
+          "hash": "cKogAg9EaUUz4pRa2gi06w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeLibraryName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeLibraryName.html",
+          "hash": "ZcW1KeAN8eLIUWo7owGTPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodePackage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodePackage.html",
+          "hash": "yuiSj0OQN78TCUWBe8kNOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProject.html",
+          "hash": "LpTxBVEiQZ/20M+lTDFOLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProjectFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProjectFlag.html",
+          "hash": "Ja0CGUGlReUEEuDyBJXVZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProjectProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.XCodeProjectProperty.html",
+          "hash": "0LtR09FZidwoo+29sD5BGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "xcode-project/StansAssets.IOS.XCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/StansAssets.IOS.XCode.html",
+          "hash": "78W6pmpvqkZr1H816+wkoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "xcode-project/index.md",
       "output": {
         ".html": {
           "relative_path": "xcode-project/index.html",
-          "hash": "EY3sX2Q1xcqrMzzdggEA8Q=="
+          "hash": "5MSz21i0FYgelxA5nI6vLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "xcode-project/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "xcode-project/toc.html",
+          "hash": "dmhEHQQO6AInU+ne5Wi1iw=="
         }
       },
       "is_incremental": false,
@@ -8617,7 +9013,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 691,
+          "total_file_count": 723,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

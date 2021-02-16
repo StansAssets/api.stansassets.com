@@ -1,0 +1,419 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  id: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Airplane
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bike
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bus
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Car
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Ferry
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.None
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Other
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Pedestrian
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.RideSharing
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.StreetCar
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Subway
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Taxi
+  - StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Train
+  langs:
+  - csharp
+  - vb
+  name: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  type: Enum
+  source:
+    id: MapsOptions
+    path: ''
+    startLine: 1598
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public enum MapsOptions
+    content.vb: Public Enum MapsOptions
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.None
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.None
+  id: None
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.None
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 1602
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: None = 0
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Airplane
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Airplane
+  id: Airplane
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Airplane
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Airplane
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Airplane
+  type: Field
+  source:
+    id: Airplane
+    path: ''
+    startLine: 1603
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Airplane = 1
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bike
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bike
+  id: Bike
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Bike
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Bike
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bike
+  type: Field
+  source:
+    id: Bike
+    path: ''
+    startLine: 1604
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Bike = 2
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bus
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bus
+  id: Bus
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Bus
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Bus
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Bus
+  type: Field
+  source:
+    id: Bus
+    path: ''
+    startLine: 1605
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Bus = 4
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Car
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Car
+  id: Car
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Car
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Car
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Car
+  type: Field
+  source:
+    id: Car
+    path: ''
+    startLine: 1606
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Car = 8
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Ferry
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Ferry
+  id: Ferry
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Ferry
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Ferry
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Ferry
+  type: Field
+  source:
+    id: Ferry
+    path: ''
+    startLine: 1607
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Ferry = 16
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Pedestrian
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Pedestrian
+  id: Pedestrian
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Pedestrian
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Pedestrian
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Pedestrian
+  type: Field
+  source:
+    id: Pedestrian
+    path: ''
+    startLine: 1608
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Pedestrian = 32
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.RideSharing
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.RideSharing
+  id: RideSharing
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: RideSharing
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.RideSharing
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.RideSharing
+  type: Field
+  source:
+    id: RideSharing
+    path: ''
+    startLine: 1609
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: RideSharing = 64
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.StreetCar
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.StreetCar
+  id: StreetCar
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: StreetCar
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.StreetCar
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.StreetCar
+  type: Field
+  source:
+    id: StreetCar
+    path: ''
+    startLine: 1610
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: StreetCar = 128
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Subway
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Subway
+  id: Subway
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Subway
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Subway
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Subway
+  type: Field
+  source:
+    id: Subway
+    path: ''
+    startLine: 1611
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Subway = 256
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Taxi
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Taxi
+  id: Taxi
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Taxi
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Taxi
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Taxi
+  type: Field
+  source:
+    id: Taxi
+    path: ''
+    startLine: 1612
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Taxi = 512
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Train
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Train
+  id: Train
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Train
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Train
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Train
+  type: Field
+  source:
+    id: Train
+    path: ''
+    startLine: 1613
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Train = 1024
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Other
+  commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Other
+  id: Other
+  parent: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions.Other
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions.Other
+  type: Field
+  source:
+    id: Other
+    path: ''
+    startLine: 1614
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Other = 2048
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  nameWithType: XCodeCapabilitySettings.MapsCapability.MapsOptions
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.MapsCapability.MapsOptions
