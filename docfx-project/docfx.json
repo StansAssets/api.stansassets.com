@@ -93,7 +93,7 @@
                   "Editor/**.cs",
                   "Runtime/**.cs"
                ],
-               "src":"../../com.stansassets.xcode-project/"
+               "src":"../../com.stansassets.xcode-project/com.stansassets.xcode-project/"
             }
          ],
          "dest":"xcode-project"
