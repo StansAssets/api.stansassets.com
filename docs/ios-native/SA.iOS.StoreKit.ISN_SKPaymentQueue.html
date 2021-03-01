@@ -262,6 +262,42 @@ only valid to use when <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.
   
   
   <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_SA_iOS_StoreKit_ISN_SKPayment_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(SA.iOS.StoreKit.ISN_SKPayment)">AddPayment(ISN_SKPayment)</h4>
+  <div class="markdown level1 summary"><p>Adds a payment request to the queue.</p>
+<p>An application should always have at least one observer of the payment queue before adding payment requests.
+The payment request must have a product identifier registered with the Apple App Store.</p>
+<p>When a payment request is added to the queue,
+the payment queue processes that request with the Apple App Store
+and arranges for payment from the user. When that transaction is complete or if a failure occurs,
+the payment queue sends the <span class="xref">SA.iOS.StoreKit.ISN_SKPaymentTransaction</span> object that encapsulates the request
+to all transaction observers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddPayment(ISN_SKPayment payment)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKPayment.html">ISN_SKPayment</a></td>
+        <td><span class="parametername">payment</span></td>
+        <td><p>A payment request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment*"></a>
   <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_System_String_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(System.String)">AddPayment(String)</h4>
   <div class="markdown level1 summary"><p>Adds a payment request to the queue.</p>
 <p>An application should always have at least one observer of the payment queue before adding payment requests.
@@ -418,12 +454,12 @@ it has successfully processed the transaction and unlocked the functionality pur
   
   
   <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init*"></a>
-  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_Action_SA_iOS_StoreKit_ISN_SKInitResult__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKInitResult})">Init(Action&lt;ISN_SKInitResult&gt;)</h4>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_Action_SA_iOS_StoreKit_ISN_SKProductsResponse__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKProductsResponse})">Init(Action&lt;ISN_SKProductsResponse&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Init(Action&lt;ISN_SKInitResult&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Init(Action&lt;ISN_SKProductsResponse&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -436,7 +472,7 @@ it has successfully processed the transaction and unlocked the functionality pur
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKInitResult.html">ISN_SKInitResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKProductsResponse.html">ISN_SKProductsResponse</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td></td>
       </tr>
@@ -445,7 +481,7 @@ it has successfully processed the transaction and unlocked the functionality pur
   
   
   <a id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init*"></a>
-  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_List_SA_iOS_StoreKit_ISN_SKProduct__Action_SA_iOS_StoreKit_ISN_SKInitResult__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKInitResult})">Init(List&lt;ISN_SKProduct&gt;, Action&lt;ISN_SKInitResult&gt;)</h4>
+  <h4 id="SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_List_SA_iOS_StoreKit_ISN_SKProduct__Action_SA_iOS_StoreKit_ISN_SKProductsResponse__" data-uid="SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKProductsResponse})">Init(List&lt;ISN_SKProduct&gt;, Action&lt;ISN_SKProductsResponse&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes the Store Kit with the set of previously defined product
 Products can be defined under the editor plugin settings: Stan&apos;s Assets-&gt;IOS Native-&gt;Edit Settings
 Or you can add product&apos;s via code using <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_RegisterProduct_SA_iOS_StoreKit_ISN_SKProduct_">RegisterProduct(ISN_SKProduct)</a></p>
@@ -453,7 +489,7 @@ Or you can add product&apos;s via code using <a class="xref" href="SA.iOS.StoreK
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Init(List&lt;ISN_SKProduct&gt; products, Action&lt;ISN_SKInitResult&gt; callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Init(List&lt;ISN_SKProduct&gt; products, Action&lt;ISN_SKProductsResponse&gt; callback)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -472,7 +508,7 @@ Or you can add product&apos;s via code using <a class="xref" href="SA.iOS.StoreK
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKInitResult.html">ISN_SKInitResult</a>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.StoreKit.ISN_SKProductsResponse.html">ISN_SKProductsResponse</a>&gt;</td>
         <td><span class="parametername">callback</span></td>
         <td><p>Callback with the initialization result.</p>
 </td>

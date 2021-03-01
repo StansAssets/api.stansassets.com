@@ -78,8 +78,18 @@
       <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKAppStoreReceipt.html">ISN_SKAppStoreReceipt</a></h4>
       <section><p>App Store receipt.</p>
 </section>
-      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKInitResult.html">ISN_SKInitResult</a></h4>
-      <section><p>The <a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentQueue.html">ISN_SKPaymentQueue</a> init result model.</p>
+      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKMutablePayment.html">ISN_SKMutablePayment</a></h4>
+      <section><p>A mutable request to the App Store to process payment for additional functionality offered by your app.</p>
+<p>A mutable payment object identifies a product and the quantity of that item the user would like to purchase.</p>
+<p>When a mutable payment is added to the payment queue, the payment queue copies the contents into an immutable request before queueing the request.
+Your app can safely change the contents of the mutable payment object.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKPayment.html">ISN_SKPayment</a></h4>
+      <section><p>A request to the App Store to process payment for additional functionality offered by your app.</p>
+<p>A payment object identifies a product and the quantity of those items the user would like to purchase.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentDiscount.html">ISN_SKPaymentDiscount</a></h4>
+      <section><p>The signed discount applied to a payment.</p>
 </section>
       <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKPaymentOriginalTransaction.html">ISN_SKPaymentOriginalTransaction</a></h4>
       <section><p>A payment transaction is created whenever a payment is added to the payment queue.
@@ -97,6 +107,12 @@ The contents of the queue are persistent between launches of your app.</p>
 </section>
       <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductDiscount.html">ISN_SKProductDiscount</a></h4>
       <section><p>The details of a discount offer for a subscription product.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductsRequest.html">ISN_SKProductsRequest</a></h4>
+      <section><p>An object that can retrieve localized information from the App Store about a specified list of products.</p>
+</section>
+      <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductsResponse.html">ISN_SKProductsResponse</a></h4>
+      <section><p>An App Store response to a request for information about a list of products.</p>
 </section>
       <h4><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductSubscriptionPeriod.html">ISN_SKProductSubscriptionPeriod</a></h4>
       <section><p>An object containing the subscription period duration information.</p>

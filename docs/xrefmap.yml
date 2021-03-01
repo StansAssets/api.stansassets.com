@@ -25891,60 +25891,76 @@ references:
   isSpec: "True"
   fullName: SA.iOS.StoreKit.ISN_SKAppStoreReceipt.Data
   nameWithType: ISN_SKAppStoreReceipt.Data
-- uid: SA.iOS.StoreKit.ISN_SKInitResult
-  name: ISN_SKInitResult
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html
-  commentId: T:SA.iOS.StoreKit.ISN_SKInitResult
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult
-  nameWithType: ISN_SKInitResult
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.#ctor(List{SA.iOS.StoreKit.ISN_SKProduct})
-  name: ISN_SKInitResult(List<ISN_SKProduct>)
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult__ctor_List_SA_iOS_StoreKit_ISN_SKProduct__
-  commentId: M:SA.iOS.StoreKit.ISN_SKInitResult.#ctor(List{SA.iOS.StoreKit.ISN_SKProduct})
-  name.vb: ISN_SKInitResult(List(Of ISN_SKProduct))
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.ISN_SKInitResult(List<SA.iOS.StoreKit.ISN_SKProduct>)
-  fullName.vb: SA.iOS.StoreKit.ISN_SKInitResult.ISN_SKInitResult(List(Of SA.iOS.StoreKit.ISN_SKProduct))
-  nameWithType: ISN_SKInitResult.ISN_SKInitResult(List<ISN_SKProduct>)
-  nameWithType.vb: ISN_SKInitResult.ISN_SKInitResult(List(Of ISN_SKProduct))
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.#ctor(SA_Error)
-  name: ISN_SKInitResult(SA_Error)
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult__ctor_SA_Error_
-  commentId: M:SA.iOS.StoreKit.ISN_SKInitResult.#ctor(SA_Error)
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.ISN_SKInitResult(SA_Error)
-  nameWithType: ISN_SKInitResult.ISN_SKInitResult(SA_Error)
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.#ctor*
-  name: ISN_SKInitResult
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult__ctor_
-  commentId: Overload:SA.iOS.StoreKit.ISN_SKInitResult.#ctor
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment
+  name: ISN_SKMutablePayment
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKMutablePayment
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment
+  nameWithType: ISN_SKMutablePayment
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.#ctor(SA.iOS.StoreKit.ISN_SKProduct)
+  name: ISN_SKMutablePayment(ISN_SKProduct)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment__ctor_SA_iOS_StoreKit_ISN_SKProduct_
+  commentId: M:SA.iOS.StoreKit.ISN_SKMutablePayment.#ctor(SA.iOS.StoreKit.ISN_SKProduct)
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.ISN_SKMutablePayment(SA.iOS.StoreKit.ISN_SKProduct)
+  nameWithType: ISN_SKMutablePayment.ISN_SKMutablePayment(ISN_SKProduct)
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.#ctor*
+  name: ISN_SKMutablePayment
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment__ctor_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKMutablePayment.#ctor
   isSpec: "True"
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.ISN_SKInitResult
-  nameWithType: ISN_SKInitResult.ISN_SKInitResult
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers
-  name: InvalidProductIdentifiers
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult_InvalidProductIdentifiers
-  commentId: P:SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers
-  nameWithType: ISN_SKInitResult.InvalidProductIdentifiers
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers*
-  name: InvalidProductIdentifiers
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult_InvalidProductIdentifiers_
-  commentId: Overload:SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.ISN_SKMutablePayment
+  nameWithType: ISN_SKMutablePayment.ISN_SKMutablePayment
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername
+  name: ApplicationUsername
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment_ApplicationUsername
+  commentId: P:SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername
+  nameWithType: ISN_SKMutablePayment.ApplicationUsername
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername*
+  name: ApplicationUsername
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment_ApplicationUsername_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername
   isSpec: "True"
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.InvalidProductIdentifiers
-  nameWithType: ISN_SKInitResult.InvalidProductIdentifiers
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.Products
-  name: Products
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult_Products
-  commentId: P:SA.iOS.StoreKit.ISN_SKInitResult.Products
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.Products
-  nameWithType: ISN_SKInitResult.Products
-- uid: SA.iOS.StoreKit.ISN_SKInitResult.Products*
-  name: Products
-  href: ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html#SA_iOS_StoreKit_ISN_SKInitResult_Products_
-  commentId: Overload:SA.iOS.StoreKit.ISN_SKInitResult.Products
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.ApplicationUsername
+  nameWithType: ISN_SKMutablePayment.ApplicationUsername
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount
+  name: PaymentDiscount
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment_PaymentDiscount
+  commentId: P:SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount
+  nameWithType: ISN_SKMutablePayment.PaymentDiscount
+- uid: SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount*
+  name: PaymentDiscount
+  href: ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html#SA_iOS_StoreKit_ISN_SKMutablePayment_PaymentDiscount_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount
   isSpec: "True"
-  fullName: SA.iOS.StoreKit.ISN_SKInitResult.Products
-  nameWithType: ISN_SKInitResult.Products
+  fullName: SA.iOS.StoreKit.ISN_SKMutablePayment.PaymentDiscount
+  nameWithType: ISN_SKMutablePayment.PaymentDiscount
+- uid: SA.iOS.StoreKit.ISN_SKPayment
+  name: ISN_SKPayment
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPayment.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKPayment
+  fullName: SA.iOS.StoreKit.ISN_SKPayment
+  nameWithType: ISN_SKPayment
+- uid: SA.iOS.StoreKit.ISN_SKPaymentDiscount
+  name: ISN_SKPaymentDiscount
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentDiscount.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKPaymentDiscount
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentDiscount
+  nameWithType: ISN_SKPaymentDiscount
+- uid: SA.iOS.StoreKit.ISN_SKPaymentDiscount.#ctor(System.String,System.String,System.String,System.String,System.UInt64)
+  name: ISN_SKPaymentDiscount(String, String, String, String, UInt64)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentDiscount.html#SA_iOS_StoreKit_ISN_SKPaymentDiscount__ctor_System_String_System_String_System_String_System_String_System_UInt64_
+  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentDiscount.#ctor(System.String,System.String,System.String,System.String,System.UInt64)
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentDiscount.ISN_SKPaymentDiscount(System.String, System.String, System.String, System.String, System.UInt64)
+  nameWithType: ISN_SKPaymentDiscount.ISN_SKPaymentDiscount(String, String, String, String, UInt64)
+- uid: SA.iOS.StoreKit.ISN_SKPaymentDiscount.#ctor*
+  name: ISN_SKPaymentDiscount
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentDiscount.html#SA_iOS_StoreKit_ISN_SKPaymentDiscount__ctor_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKPaymentDiscount.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentDiscount.ISN_SKPaymentDiscount
+  nameWithType: ISN_SKPaymentDiscount.ISN_SKPaymentDiscount
 - uid: SA.iOS.StoreKit.ISN_SKPaymentMode
   name: ISN_SKPaymentMode
   href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentMode.html
@@ -26059,6 +26075,12 @@ references:
   commentId: T:SA.iOS.StoreKit.ISN_SKPaymentQueue
   fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue
   nameWithType: ISN_SKPaymentQueue
+- uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(SA.iOS.StoreKit.ISN_SKPayment)
+  name: AddPayment(ISN_SKPayment)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_SA_iOS_StoreKit_ISN_SKPayment_
+  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(SA.iOS.StoreKit.ISN_SKPayment)
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(SA.iOS.StoreKit.ISN_SKPayment)
+  nameWithType: ISN_SKPaymentQueue.AddPayment(ISN_SKPayment)
 - uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.AddPayment(System.String)
   name: AddPayment(String)
   href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_AddPayment_System_String_
@@ -26137,24 +26159,24 @@ references:
   isSpec: "True"
   fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.GetProductById
   nameWithType: ISN_SKPaymentQueue.GetProductById
-- uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKInitResult})
-  name: Init(Action<ISN_SKInitResult>)
-  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_Action_SA_iOS_StoreKit_ISN_SKInitResult__
-  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKInitResult})
-  name.vb: Init(Action(Of ISN_SKInitResult))
-  fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action<SA.iOS.StoreKit.ISN_SKInitResult>)
-  fullName.vb: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action(Of SA.iOS.StoreKit.ISN_SKInitResult))
-  nameWithType: ISN_SKPaymentQueue.Init(Action<ISN_SKInitResult>)
-  nameWithType.vb: ISN_SKPaymentQueue.Init(Action(Of ISN_SKInitResult))
-- uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKInitResult})
-  name: Init(List<ISN_SKProduct>, Action<ISN_SKInitResult>)
-  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_List_SA_iOS_StoreKit_ISN_SKProduct__Action_SA_iOS_StoreKit_ISN_SKInitResult__
-  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKInitResult})
-  name.vb: Init(List(Of ISN_SKProduct), Action(Of ISN_SKInitResult))
-  fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List<SA.iOS.StoreKit.ISN_SKProduct>, Action<SA.iOS.StoreKit.ISN_SKInitResult>)
-  fullName.vb: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List(Of SA.iOS.StoreKit.ISN_SKProduct), Action(Of SA.iOS.StoreKit.ISN_SKInitResult))
-  nameWithType: ISN_SKPaymentQueue.Init(List<ISN_SKProduct>, Action<ISN_SKInitResult>)
-  nameWithType.vb: ISN_SKPaymentQueue.Init(List(Of ISN_SKProduct), Action(Of ISN_SKInitResult))
+- uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name: Init(Action<ISN_SKProductsResponse>)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_Action_SA_iOS_StoreKit_ISN_SKProductsResponse__
+  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name.vb: Init(Action(Of ISN_SKProductsResponse))
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action<SA.iOS.StoreKit.ISN_SKProductsResponse>)
+  fullName.vb: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(Action(Of SA.iOS.StoreKit.ISN_SKProductsResponse))
+  nameWithType: ISN_SKPaymentQueue.Init(Action<ISN_SKProductsResponse>)
+  nameWithType.vb: ISN_SKPaymentQueue.Init(Action(Of ISN_SKProductsResponse))
+- uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name: Init(List<ISN_SKProduct>, Action<ISN_SKProductsResponse>)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_List_SA_iOS_StoreKit_ISN_SKProduct__Action_SA_iOS_StoreKit_ISN_SKProductsResponse__
+  commentId: M:SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List{SA.iOS.StoreKit.ISN_SKProduct},Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name.vb: Init(List(Of ISN_SKProduct), Action(Of ISN_SKProductsResponse))
+  fullName: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List<SA.iOS.StoreKit.ISN_SKProduct>, Action<SA.iOS.StoreKit.ISN_SKProductsResponse>)
+  fullName.vb: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init(List(Of SA.iOS.StoreKit.ISN_SKProduct), Action(Of SA.iOS.StoreKit.ISN_SKProductsResponse))
+  nameWithType: ISN_SKPaymentQueue.Init(List<ISN_SKProduct>, Action<ISN_SKProductsResponse>)
+  nameWithType.vb: ISN_SKPaymentQueue.Init(List(Of ISN_SKProduct), Action(Of ISN_SKProductsResponse))
 - uid: SA.iOS.StoreKit.ISN_SKPaymentQueue.Init*
   name: Init
   href: ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html#SA_iOS_StoreKit_ISN_SKPaymentQueue_Init_
@@ -26295,6 +26317,19 @@ references:
   commentId: T:SA.iOS.StoreKit.ISN_SKProduct
   fullName: SA.iOS.StoreKit.ISN_SKProduct
   nameWithType: ISN_SKProduct
+- uid: SA.iOS.StoreKit.ISN_SKProduct.Discounts
+  name: Discounts
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProduct.html#SA_iOS_StoreKit_ISN_SKProduct_Discounts
+  commentId: P:SA.iOS.StoreKit.ISN_SKProduct.Discounts
+  fullName: SA.iOS.StoreKit.ISN_SKProduct.Discounts
+  nameWithType: ISN_SKProduct.Discounts
+- uid: SA.iOS.StoreKit.ISN_SKProduct.Discounts*
+  name: Discounts
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProduct.html#SA_iOS_StoreKit_ISN_SKProduct_Discounts_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProduct.Discounts
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProduct.Discounts
+  nameWithType: ISN_SKProduct.Discounts
 - uid: SA.iOS.StoreKit.ISN_SKProduct.Icon
   name: Icon
   href: ios-native/SA.iOS.StoreKit.ISN_SKProduct.html#SA_iOS_StoreKit_ISN_SKProduct_Icon
@@ -26552,6 +26587,76 @@ references:
   commentId: F:SA.iOS.StoreKit.ISN_SKProductPeriodUnit.Year
   fullName: SA.iOS.StoreKit.ISN_SKProductPeriodUnit.Year
   nameWithType: ISN_SKProductPeriodUnit.Year
+- uid: SA.iOS.StoreKit.ISN_SKProductsRequest
+  name: ISN_SKProductsRequest
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKProductsRequest
+  fullName: SA.iOS.StoreKit.ISN_SKProductsRequest
+  nameWithType: ISN_SKProductsRequest
+- uid: SA.iOS.StoreKit.ISN_SKProductsRequest.#ctor(List{System.String})
+  name: ISN_SKProductsRequest(List<String>)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html#SA_iOS_StoreKit_ISN_SKProductsRequest__ctor_List_System_String__
+  commentId: M:SA.iOS.StoreKit.ISN_SKProductsRequest.#ctor(List{System.String})
+  name.vb: ISN_SKProductsRequest(List(Of String))
+  fullName: SA.iOS.StoreKit.ISN_SKProductsRequest.ISN_SKProductsRequest(List<System.String>)
+  fullName.vb: SA.iOS.StoreKit.ISN_SKProductsRequest.ISN_SKProductsRequest(List(Of System.String))
+  nameWithType: ISN_SKProductsRequest.ISN_SKProductsRequest(List<String>)
+  nameWithType.vb: ISN_SKProductsRequest.ISN_SKProductsRequest(List(Of String))
+- uid: SA.iOS.StoreKit.ISN_SKProductsRequest.#ctor*
+  name: ISN_SKProductsRequest
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html#SA_iOS_StoreKit_ISN_SKProductsRequest__ctor_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductsRequest.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductsRequest.ISN_SKProductsRequest
+  nameWithType: ISN_SKProductsRequest.ISN_SKProductsRequest
+- uid: SA.iOS.StoreKit.ISN_SKProductsRequest.Start(Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name: Start(Action<ISN_SKProductsResponse>)
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html#SA_iOS_StoreKit_ISN_SKProductsRequest_Start_Action_SA_iOS_StoreKit_ISN_SKProductsResponse__
+  commentId: M:SA.iOS.StoreKit.ISN_SKProductsRequest.Start(Action{SA.iOS.StoreKit.ISN_SKProductsResponse})
+  name.vb: Start(Action(Of ISN_SKProductsResponse))
+  fullName: SA.iOS.StoreKit.ISN_SKProductsRequest.Start(Action<SA.iOS.StoreKit.ISN_SKProductsResponse>)
+  fullName.vb: SA.iOS.StoreKit.ISN_SKProductsRequest.Start(Action(Of SA.iOS.StoreKit.ISN_SKProductsResponse))
+  nameWithType: ISN_SKProductsRequest.Start(Action<ISN_SKProductsResponse>)
+  nameWithType.vb: ISN_SKProductsRequest.Start(Action(Of ISN_SKProductsResponse))
+- uid: SA.iOS.StoreKit.ISN_SKProductsRequest.Start*
+  name: Start
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html#SA_iOS_StoreKit_ISN_SKProductsRequest_Start_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductsRequest.Start
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductsRequest.Start
+  nameWithType: ISN_SKProductsRequest.Start
+- uid: SA.iOS.StoreKit.ISN_SKProductsResponse
+  name: ISN_SKProductsResponse
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKProductsResponse
+  fullName: SA.iOS.StoreKit.ISN_SKProductsResponse
+  nameWithType: ISN_SKProductsResponse
+- uid: SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers
+  name: InvalidProductIdentifiers
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html#SA_iOS_StoreKit_ISN_SKProductsResponse_InvalidProductIdentifiers
+  commentId: P:SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers
+  fullName: SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers
+  nameWithType: ISN_SKProductsResponse.InvalidProductIdentifiers
+- uid: SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers*
+  name: InvalidProductIdentifiers
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html#SA_iOS_StoreKit_ISN_SKProductsResponse_InvalidProductIdentifiers_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductsResponse.InvalidProductIdentifiers
+  nameWithType: ISN_SKProductsResponse.InvalidProductIdentifiers
+- uid: SA.iOS.StoreKit.ISN_SKProductsResponse.Products
+  name: Products
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html#SA_iOS_StoreKit_ISN_SKProductsResponse_Products
+  commentId: P:SA.iOS.StoreKit.ISN_SKProductsResponse.Products
+  fullName: SA.iOS.StoreKit.ISN_SKProductsResponse.Products
+  nameWithType: ISN_SKProductsResponse.Products
+- uid: SA.iOS.StoreKit.ISN_SKProductsResponse.Products*
+  name: Products
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html#SA_iOS_StoreKit_ISN_SKProductsResponse_Products_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductsResponse.Products
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductsResponse.Products
+  nameWithType: ISN_SKProductsResponse.Products
 - uid: SA.iOS.StoreKit.ISN_SKProductSubscriptionPeriod
   name: ISN_SKProductSubscriptionPeriod
   href: ios-native/SA.iOS.StoreKit.ISN_SKProductSubscriptionPeriod.html

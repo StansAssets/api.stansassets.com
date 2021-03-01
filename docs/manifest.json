@@ -6303,11 +6303,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKInitResult.yml",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.yml",
       "output": {
         ".html": {
-          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKInitResult.html",
-          "hash": "yBFfa6ZwijvV8vX2UVIMXQ=="
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKMutablePayment.html",
+          "hash": "+Tycw+hocQvNCDPga0fRPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKPayment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKPayment.html",
+          "hash": "/p4CHD4tDm4IB+y5CI5mnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKPaymentDiscount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKPaymentDiscount.html",
+          "hash": "Ow3dCfinjGW8XBBOAdo88w=="
         }
       },
       "is_incremental": false,
@@ -6343,7 +6367,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKPaymentQueue.html",
-          "hash": "+NcU1IUstGAzPqdQRYdowQ=="
+          "hash": "joDCE3yPZCFsj34c8G+YWg=="
         }
       },
       "is_incremental": false,
@@ -6367,7 +6391,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProduct.html",
-          "hash": "jSm7xuS7WPdLCKEq/ijQPQ=="
+          "hash": "zSRI96K/p440/VxwJJ2mUw=="
         }
       },
       "is_incremental": false,
@@ -6416,6 +6440,30 @@
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductType.html",
           "hash": "QTmmvzWYwEXDIRcW0xvAVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductsRequest.html",
+          "hash": "xqake0WNei39YDGPW0t7EA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductsResponse.html",
+          "hash": "BRvJxaAjX16FjDq0fy58Hg=="
         }
       },
       "is_incremental": false,
@@ -6535,7 +6583,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.html",
-          "hash": "GdKL94eEzg6fYKr+RLKJIw=="
+          "hash": "LIRzVfTHs4Dm/pdTp4YVMw=="
         }
       },
       "is_incremental": false,
@@ -7303,7 +7351,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "5mAlqB0E8p+XyjZRNue1pg=="
+          "hash": "Kkx7TvjyyFuCGMTTpjVoZQ=="
         }
       },
       "is_incremental": false,
@@ -9013,7 +9061,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 723,
+          "total_file_count": 727,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
