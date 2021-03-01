@@ -6687,6 +6687,22 @@ references:
   commentId: T:SA.Android.Gallery.AN_Media
   fullName: SA.Android.Gallery.AN_Media
   nameWithType: AN_Media
+- uid: SA.Android.Gallery.AN_Media.GetThumbnailAsync(Action{Texture2D})
+  name: GetThumbnailAsync(Action<Texture2D>)
+  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_GetThumbnailAsync_Action_Texture2D__
+  commentId: M:SA.Android.Gallery.AN_Media.GetThumbnailAsync(Action{Texture2D})
+  name.vb: GetThumbnailAsync(Action(Of Texture2D))
+  fullName: SA.Android.Gallery.AN_Media.GetThumbnailAsync(Action<Texture2D>)
+  fullName.vb: SA.Android.Gallery.AN_Media.GetThumbnailAsync(Action(Of Texture2D))
+  nameWithType: AN_Media.GetThumbnailAsync(Action<Texture2D>)
+  nameWithType.vb: AN_Media.GetThumbnailAsync(Action(Of Texture2D))
+- uid: SA.Android.Gallery.AN_Media.GetThumbnailAsync*
+  name: GetThumbnailAsync
+  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_GetThumbnailAsync_
+  commentId: Overload:SA.Android.Gallery.AN_Media.GetThumbnailAsync
+  isSpec: "True"
+  fullName: SA.Android.Gallery.AN_Media.GetThumbnailAsync
+  nameWithType: AN_Media.GetThumbnailAsync
 - uid: SA.Android.Gallery.AN_Media.Path
   name: Path
   href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_Path
