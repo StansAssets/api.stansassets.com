@@ -6716,32 +6716,6 @@ references:
   isSpec: "True"
   fullName: SA.Android.Gallery.AN_Media.Path
   nameWithType: AN_Media.Path
-- uid: SA.Android.Gallery.AN_Media.RawBytes
-  name: RawBytes
-  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_RawBytes
-  commentId: P:SA.Android.Gallery.AN_Media.RawBytes
-  fullName: SA.Android.Gallery.AN_Media.RawBytes
-  nameWithType: AN_Media.RawBytes
-- uid: SA.Android.Gallery.AN_Media.RawBytes*
-  name: RawBytes
-  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_RawBytes_
-  commentId: Overload:SA.Android.Gallery.AN_Media.RawBytes
-  isSpec: "True"
-  fullName: SA.Android.Gallery.AN_Media.RawBytes
-  nameWithType: AN_Media.RawBytes
-- uid: SA.Android.Gallery.AN_Media.Thumbnail
-  name: Thumbnail
-  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_Thumbnail
-  commentId: P:SA.Android.Gallery.AN_Media.Thumbnail
-  fullName: SA.Android.Gallery.AN_Media.Thumbnail
-  nameWithType: AN_Media.Thumbnail
-- uid: SA.Android.Gallery.AN_Media.Thumbnail*
-  name: Thumbnail
-  href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_Thumbnail_
-  commentId: Overload:SA.Android.Gallery.AN_Media.Thumbnail
-  isSpec: "True"
-  fullName: SA.Android.Gallery.AN_Media.Thumbnail
-  nameWithType: AN_Media.Thumbnail
 - uid: SA.Android.Gallery.AN_Media.Type
   name: Type
   href: android-native/SA.Android.Gallery.AN_Media.html#SA_Android_Gallery_AN_Media_Type
@@ -14511,15 +14485,12 @@ references:
   commentId: T:SA.CrossPlatform.App.UM_Media
   fullName: SA.CrossPlatform.App.UM_Media
   nameWithType: UM_Media
-- uid: SA.CrossPlatform.App.UM_Media.#ctor(Texture2D,System.Byte[],System.String,SA.CrossPlatform.App.UM_MediaType)
-  name: UM_Media(Texture2D, Byte[], String, UM_MediaType)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media__ctor_Texture2D_System_Byte___System_String_SA_CrossPlatform_App_UM_MediaType_
-  commentId: M:SA.CrossPlatform.App.UM_Media.#ctor(Texture2D,System.Byte[],System.String,SA.CrossPlatform.App.UM_MediaType)
-  name.vb: UM_Media(Texture2D, Byte(), String, UM_MediaType)
-  fullName: SA.CrossPlatform.App.UM_Media.UM_Media(Texture2D, System.Byte[], System.String, SA.CrossPlatform.App.UM_MediaType)
-  fullName.vb: SA.CrossPlatform.App.UM_Media.UM_Media(Texture2D, System.Byte(), System.String, SA.CrossPlatform.App.UM_MediaType)
-  nameWithType: UM_Media.UM_Media(Texture2D, Byte[], String, UM_MediaType)
-  nameWithType.vb: UM_Media.UM_Media(Texture2D, Byte(), String, UM_MediaType)
+- uid: SA.CrossPlatform.App.UM_Media.#ctor(Texture2D,System.String,SA.CrossPlatform.App.UM_MediaType)
+  name: UM_Media(Texture2D, String, UM_MediaType)
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media__ctor_Texture2D_System_String_SA_CrossPlatform_App_UM_MediaType_
+  commentId: M:SA.CrossPlatform.App.UM_Media.#ctor(Texture2D,System.String,SA.CrossPlatform.App.UM_MediaType)
+  fullName: SA.CrossPlatform.App.UM_Media.UM_Media(Texture2D, System.String, SA.CrossPlatform.App.UM_MediaType)
+  nameWithType: UM_Media.UM_Media(Texture2D, String, UM_MediaType)
 - uid: SA.CrossPlatform.App.UM_Media.#ctor*
   name: UM_Media
   href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media__ctor_
@@ -14540,19 +14511,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.App.UM_Media.Path
   nameWithType: UM_Media.Path
-- uid: SA.CrossPlatform.App.UM_Media.RawBytes
-  name: RawBytes
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media_RawBytes
-  commentId: P:SA.CrossPlatform.App.UM_Media.RawBytes
-  fullName: SA.CrossPlatform.App.UM_Media.RawBytes
-  nameWithType: UM_Media.RawBytes
-- uid: SA.CrossPlatform.App.UM_Media.RawBytes*
-  name: RawBytes
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media_RawBytes_
-  commentId: Overload:SA.CrossPlatform.App.UM_Media.RawBytes
-  isSpec: "True"
-  fullName: SA.CrossPlatform.App.UM_Media.RawBytes
-  nameWithType: UM_Media.RawBytes
 - uid: SA.CrossPlatform.App.UM_Media.Thumbnail
   name: Thumbnail
   href: ultimate-mobile/SA.CrossPlatform.App.UM_Media.html#SA_CrossPlatform_App_UM_Media_Thumbnail
