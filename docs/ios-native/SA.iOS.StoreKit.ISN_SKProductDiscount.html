@@ -113,6 +113,32 @@
   </h3>
   
   
+  <a id="SA_iOS_StoreKit_ISN_SKProductDiscount_Identifier_" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKProductDiscount_Identifier" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier">Identifier</h4>
+  <div class="markdown level1 summary"><p>A string used to uniquely identify a discount offer for a product.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Identifier { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="SA_iOS_StoreKit_ISN_SKProductDiscount_LocalizedPrice_" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.LocalizedPrice*"></a>
   <h4 id="SA_iOS_StoreKit_ISN_SKProductDiscount_LocalizedPrice" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.LocalizedPrice">LocalizedPrice</h4>
   <div class="markdown level1 summary"><p>The locale used to format the price of the product.</p>
@@ -133,6 +159,38 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKProductDiscount_NumberOfPeriods_" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKProductDiscount_NumberOfPeriods" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods">NumberOfPeriods</h4>
+  <div class="markdown level1 summary"><p>An integer that indicates the number of periods the product discount is available.</p>
+<p>A product discount may be available for one or more periods.
+The period, defined in <a class="xref" href="SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_SubscriptionPeriod">SubscriptionPeriod</a>, is a set number of days,
+weeks, months, or years.</p>
+<p>The total length of time that a product discount is available is calculated
+by multiplying the numberOfPeriods by the period.</p>
+<p>Note that the discount period is independent of the product subscription period.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NumberOfPeriods { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -263,6 +321,32 @@
     <tbody>
       <tr>
         <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductSubscriptionPeriod.html">ISN_SKProductSubscriptionPeriod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_StoreKit_ISN_SKProductDiscount_Type_" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.Type*"></a>
+  <h4 id="SA_iOS_StoreKit_ISN_SKProductDiscount_Type" data-uid="SA.iOS.StoreKit.ISN_SKProductDiscount.Type">Type</h4>
+  <div class="markdown level1 summary"><p>The type of discount offer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISN_SKProductDiscountType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SA.iOS.StoreKit.ISN_SKProductDiscountType.html">ISN_SKProductDiscountType</a></td>
         <td></td>
       </tr>
     </tbody>

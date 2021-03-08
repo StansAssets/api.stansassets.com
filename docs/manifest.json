@@ -6403,7 +6403,19 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html",
-          "hash": "HI+FnmUVgZstJOhhgS4ySQ=="
+          "hash": "+5n2kWrd+x3migX13lVzfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductDiscountType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.StoreKit.ISN_SKProductDiscountType.html",
+          "hash": "W0MzmM/hwgECPlwHl3EzTg=="
         }
       },
       "is_incremental": false,
@@ -6583,7 +6595,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.StoreKit.html",
-          "hash": "Ui163fyCyFwtfV6qln7wGA=="
+          "hash": "CTKXV7JiaA4T2WuSsV+aWA=="
         }
       },
       "is_incremental": false,
@@ -7351,7 +7363,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "Kkx7TvjyyFuCGMTTpjVoZQ=="
+          "hash": "oPozIvD1JMmp0m0PNhcM2Q=="
         }
       },
       "is_incremental": false,
@@ -9061,7 +9073,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 727,
+          "total_file_count": 728,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

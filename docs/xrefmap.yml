@@ -26453,6 +26453,19 @@ references:
   commentId: T:SA.iOS.StoreKit.ISN_SKProductDiscount
   fullName: SA.iOS.StoreKit.ISN_SKProductDiscount
   nameWithType: ISN_SKProductDiscount
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier
+  name: Identifier
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_Identifier
+  commentId: P:SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier
+  nameWithType: ISN_SKProductDiscount.Identifier
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier*
+  name: Identifier
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_Identifier_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.Identifier
+  nameWithType: ISN_SKProductDiscount.Identifier
 - uid: SA.iOS.StoreKit.ISN_SKProductDiscount.LocalizedPrice
   name: LocalizedPrice
   href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_LocalizedPrice
@@ -26466,6 +26479,19 @@ references:
   isSpec: "True"
   fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.LocalizedPrice
   nameWithType: ISN_SKProductDiscount.LocalizedPrice
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods
+  name: NumberOfPeriods
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_NumberOfPeriods
+  commentId: P:SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods
+  nameWithType: ISN_SKProductDiscount.NumberOfPeriods
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods*
+  name: NumberOfPeriods
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_NumberOfPeriods_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfPeriods
+  nameWithType: ISN_SKProductDiscount.NumberOfPeriods
 - uid: SA.iOS.StoreKit.ISN_SKProductDiscount.NumberOfUnits
   name: NumberOfUnits
   href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_NumberOfUnits
@@ -26531,6 +26557,37 @@ references:
   isSpec: "True"
   fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.SubscriptionPeriod
   nameWithType: ISN_SKProductDiscount.SubscriptionPeriod
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.Type
+  name: Type
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_Type
+  commentId: P:SA.iOS.StoreKit.ISN_SKProductDiscount.Type
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.Type
+  nameWithType: ISN_SKProductDiscount.Type
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscount.Type*
+  name: Type
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscount.html#SA_iOS_StoreKit_ISN_SKProductDiscount_Type_
+  commentId: Overload:SA.iOS.StoreKit.ISN_SKProductDiscount.Type
+  isSpec: "True"
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscount.Type
+  nameWithType: ISN_SKProductDiscount.Type
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscountType
+  name: ISN_SKProductDiscountType
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscountType.html
+  commentId: T:SA.iOS.StoreKit.ISN_SKProductDiscountType
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscountType
+  nameWithType: ISN_SKProductDiscountType
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscountType.Introductory
+  name: Introductory
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscountType.html#SA_iOS_StoreKit_ISN_SKProductDiscountType_Introductory
+  commentId: F:SA.iOS.StoreKit.ISN_SKProductDiscountType.Introductory
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscountType.Introductory
+  nameWithType: ISN_SKProductDiscountType.Introductory
+- uid: SA.iOS.StoreKit.ISN_SKProductDiscountType.Subscription
+  name: Subscription
+  href: ios-native/SA.iOS.StoreKit.ISN_SKProductDiscountType.html#SA_iOS_StoreKit_ISN_SKProductDiscountType_Subscription
+  commentId: F:SA.iOS.StoreKit.ISN_SKProductDiscountType.Subscription
+  fullName: SA.iOS.StoreKit.ISN_SKProductDiscountType.Subscription
+  nameWithType: ISN_SKProductDiscountType.Subscription
 - uid: SA.iOS.StoreKit.ISN_SKProductPeriodUnit
   name: ISN_SKProductPeriodUnit
   href: ios-native/SA.iOS.StoreKit.ISN_SKProductPeriodUnit.html
