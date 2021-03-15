@@ -4795,7 +4795,19 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.html",
-          "hash": "HShJLfH22TGTTDExOI18ZQ=="
+          "hash": "7g2/U2xb4jjM4LHWDoixdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html",
+          "hash": "j+M8K8AJ8lAllTDAF9Zmzg=="
         }
       },
       "is_incremental": false,
@@ -4832,6 +4844,18 @@
         ".html": {
           "relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationOpenIDRequest.html",
           "hash": "ugeIQqSFqByaZJ949iCTJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html",
+          "hash": "A4zeNPrAUI/nFGTAx7CQHw=="
         }
       },
       "is_incremental": false,
@@ -4915,7 +4939,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.AuthenticationServices.html",
-          "hash": "+Swh6wWE0l9PRlHclH6bIQ=="
+          "hash": "kg2OEkATp4hs7lYr0Y9b8A=="
         }
       },
       "is_incremental": false,
@@ -7363,7 +7387,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/toc.html",
-          "hash": "oPozIvD1JMmp0m0PNhcM2Q=="
+          "hash": "KDSG54o2wdTvW6F6Wh7H9A=="
         }
       },
       "is_incremental": false,
@@ -9073,7 +9097,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 728,
+          "total_file_count": 730,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

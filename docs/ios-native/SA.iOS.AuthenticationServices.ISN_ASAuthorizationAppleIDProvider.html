@@ -91,7 +91,8 @@
   
   <a id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider__ctor_" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.#ctor*"></a>
   <h4 id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider__ctor" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.#ctor">ISN_ASAuthorizationAppleIDProvider()</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Create Apple ID Provider instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -103,7 +104,7 @@
   
   <a id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_CreateRequest_" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.CreateRequest*"></a>
   <h4 id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_CreateRequest" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.CreateRequest">CreateRequest()</h4>
-  <div class="markdown level1 summary"><p>Creates a new Apple ID authorization request.</p>
+  <div class="markdown level1 summary"><p>Creates a new Apple ID auth request.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -122,6 +123,43 @@
       <tr>
         <td><a class="xref" href="SA.iOS.AuthenticationServices.ISN_IASAuthorizationAppleIDRequest.html">ISN_IASAuthorizationAppleIDRequest</a></td>
         <td><p>An Apple ID authorization request that you can configure and execute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_GetCredentialStateForUserID_" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID*"></a>
+  <h4 id="SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_GetCredentialStateForUserID_System_String_Action_SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_SA_iError__" data-uid="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(System.String,Action{SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState,SA_iError})">GetCredentialStateForUserID(String, Action&lt;ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the credential state for the given user in a completion handler.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetCredentialStateForUserID(string userID, Action&lt;ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">userID</span></td>
+        <td><p>An opaque string associated with the Apple ID that your app receives in the credential’s
+<a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDCredential.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDCredential_User">User</a> property
+after performing a successful authentication request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html">ISN_ASAuthorizationAppleIDProviderCredentialState</a>, <span class="xref">SA_iError</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>A block the method calls to report the state and an optional error condition.</p>
 </td>
       </tr>
     </tbody>

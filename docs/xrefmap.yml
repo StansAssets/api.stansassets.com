@@ -18612,6 +18612,52 @@ references:
   isSpec: "True"
   fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.CreateRequest
   nameWithType: ISN_ASAuthorizationAppleIDProvider.CreateRequest
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(System.String,Action{SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState,SA_iError})
+  name: GetCredentialStateForUserID(String, Action<ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError>)
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_GetCredentialStateForUserID_System_String_Action_SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_SA_iError__
+  commentId: M:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(System.String,Action{SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState,SA_iError})
+  name.vb: GetCredentialStateForUserID(String, Action(Of ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError))
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(System.String, Action<SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError>)
+  fullName.vb: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(System.String, Action(Of SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError))
+  nameWithType: ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(String, Action<ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError>)
+  nameWithType.vb: ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID(String, Action(Of ISN_ASAuthorizationAppleIDProviderCredentialState, SA_iError))
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID*
+  name: GetCredentialStateForUserID
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProvider_GetCredentialStateForUserID_
+  commentId: Overload:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID
+  isSpec: "True"
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID
+  nameWithType: ISN_ASAuthorizationAppleIDProvider.GetCredentialStateForUserID
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState
+  name: ISN_ASAuthorizationAppleIDProviderCredentialState
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html
+  commentId: T:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState
+  nameWithType: ISN_ASAuthorizationAppleIDProviderCredentialState
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Authorized
+  name: Authorized
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_Authorized
+  commentId: F:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Authorized
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Authorized
+  nameWithType: ISN_ASAuthorizationAppleIDProviderCredentialState.Authorized
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.NotFound
+  name: NotFound
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_NotFound
+  commentId: F:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.NotFound
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.NotFound
+  nameWithType: ISN_ASAuthorizationAppleIDProviderCredentialState.NotFound
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Revoked
+  name: Revoked
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_Revoked
+  commentId: F:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Revoked
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Revoked
+  nameWithType: ISN_ASAuthorizationAppleIDProviderCredentialState.Revoked
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Transferred
+  name: Transferred
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationAppleIDProviderCredentialState_Transferred
+  commentId: F:SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Transferred
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationAppleIDProviderCredentialState.Transferred
+  nameWithType: ISN_ASAuthorizationAppleIDProviderCredentialState.Transferred
 - uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationController
   name: ISN_ASAuthorizationController
   href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationController.html
@@ -18718,6 +18764,38 @@ references:
   isSpec: "True"
   fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationOpenIDRequest.SetRequestedScopes
   nameWithType: ISN_ASAuthorizationOpenIDRequest.SetRequestedScopes
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider
+  name: ISN_ASAuthorizationPasswordProvider
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html
+  commentId: T:SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider
+  nameWithType: ISN_ASAuthorizationPasswordProvider
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.#ctor
+  name: ISN_ASAuthorizationPasswordProvider()
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationPasswordProvider__ctor
+  commentId: M:SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.#ctor
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.ISN_ASAuthorizationPasswordProvider()
+  nameWithType: ISN_ASAuthorizationPasswordProvider.ISN_ASAuthorizationPasswordProvider()
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.#ctor*
+  name: ISN_ASAuthorizationPasswordProvider
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationPasswordProvider__ctor_
+  commentId: Overload:SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.#ctor
+  isSpec: "True"
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.ISN_ASAuthorizationPasswordProvider
+  nameWithType: ISN_ASAuthorizationPasswordProvider.ISN_ASAuthorizationPasswordProvider
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest
+  name: CreateRequest()
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationPasswordProvider_CreateRequest
+  commentId: M:SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest()
+  nameWithType: ISN_ASAuthorizationPasswordProvider.CreateRequest()
+- uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest*
+  name: CreateRequest
+  href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.html#SA_iOS_AuthenticationServices_ISN_ASAuthorizationPasswordProvider_CreateRequest_
+  commentId: Overload:SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest
+  isSpec: "True"
+  fullName: SA.iOS.AuthenticationServices.ISN_ASAuthorizationPasswordProvider.CreateRequest
+  nameWithType: ISN_ASAuthorizationPasswordProvider.CreateRequest
 - uid: SA.iOS.AuthenticationServices.ISN_ASAuthorizationRequest
   name: ISN_ASAuthorizationRequest
   href: ios-native/SA.iOS.AuthenticationServices.ISN_ASAuthorizationRequest.html
