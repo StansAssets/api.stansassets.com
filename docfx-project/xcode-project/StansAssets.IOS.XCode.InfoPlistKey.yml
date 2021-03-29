@@ -27,7 +27,7 @@ items:
   source:
     id: InfoPlistKey
     path: ''
-    startLine: 3061
+    startLine: 1911
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -76,7 +76,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 3071
+    startLine: 1921
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -105,7 +105,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 3076
+    startLine: 1926
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -134,7 +134,7 @@ items:
   source:
     id: StringValue
     path: ''
-    startLine: 3081
+    startLine: 1931
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -163,7 +163,7 @@ items:
   source:
     id: IntegerValue
     path: ''
-    startLine: 3086
+    startLine: 1936
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -192,7 +192,7 @@ items:
   source:
     id: FloatValue
     path: ''
-    startLine: 3091
+    startLine: 1941
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -221,7 +221,7 @@ items:
   source:
     id: BooleanValue
     path: ''
-    startLine: 3096
+    startLine: 1946
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -250,7 +250,7 @@ items:
   source:
     id: ChildrenIds
     path: ''
-    startLine: 3101
+    startLine: 1951
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -279,7 +279,7 @@ items:
   source:
     id: AddChild
     path: ''
-    startLine: 3107
+    startLine: 1957
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -311,7 +311,7 @@ items:
   source:
     id: RemoveChild
     path: ''
-    startLine: 3125
+    startLine: 1975
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -340,7 +340,7 @@ items:
   source:
     id: GetChildByStringValue
     path: ''
-    startLine: 3130
+    startLine: 1980
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -371,7 +371,7 @@ items:
   source:
     id: Children
     path: ''
-    startLine: 3139
+    startLine: 1989
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -402,7 +402,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 3155
+    startLine: 2005
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

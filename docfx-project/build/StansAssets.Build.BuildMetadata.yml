@@ -28,7 +28,7 @@ items:
   source:
     id: BuildMetadata
     path: ''
-    startLine: 9
+    startLine: 1726
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -61,7 +61,7 @@ items:
   source:
     id: HasChangesInWorkingCopy
     path: ''
-    startLine: 23
+    startLine: 1740
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -94,7 +94,7 @@ items:
   source:
     id: BranchName
     path: ''
-    startLine: 29
+    startLine: 1746
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -127,7 +127,7 @@ items:
   source:
     id: CommitHash
     path: ''
-    startLine: 35
+    startLine: 1752
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -160,7 +160,7 @@ items:
   source:
     id: CommitShortHash
     path: ''
-    startLine: 41
+    startLine: 1758
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -193,7 +193,7 @@ items:
   source:
     id: GitCommitHubHash
     path: ''
-    startLine: 47
+    startLine: 1764
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -226,7 +226,7 @@ items:
   source:
     id: CommitMessage
     path: ''
-    startLine: 53
+    startLine: 1770
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -259,7 +259,7 @@ items:
   source:
     id: Note
     path: ''
-    startLine: 59
+    startLine: 1776
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -292,7 +292,7 @@ items:
   source:
     id: MachineName
     path: ''
-    startLine: 65
+    startLine: 1782
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -325,7 +325,7 @@ items:
   source:
     id: FullUnityVersion
     path: ''
-    startLine: 71
+    startLine: 1788
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -358,7 +358,7 @@ items:
   source:
     id: BuildTime
     path: ''
-    startLine: 79
+    startLine: 1796
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -368,8 +368,8 @@ items:
     content: public DateTime BuildTime { get; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public ReadOnly Property BuildTime As Date
+      type: DateTime
+    content.vb: Public ReadOnly Property BuildTime As DateTime
   overload: StansAssets.Build.BuildMetadata.BuildTime*
   modifiers.csharp:
   - public
@@ -391,7 +391,7 @@ items:
   source:
     id: CommitTime
     path: ''
-    startLine: 97
+    startLine: 1814
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -401,8 +401,8 @@ items:
     content: public DateTime CommitTime { get; }
     parameters: []
     return:
-      type: System.DateTime
-    content.vb: Public ReadOnly Property CommitTime As Date
+      type: DateTime
+    content.vb: Public ReadOnly Property CommitTime As DateTime
   overload: StansAssets.Build.BuildMetadata.CommitTime*
   modifiers.csharp:
   - public
@@ -424,7 +424,7 @@ items:
   source:
     id: Version
     path: ''
-    startLine: 114
+    startLine: 1831
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -457,7 +457,7 @@ items:
   source:
     id: BuildNumber
     path: ''
-    startLine: 120
+    startLine: 1837
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -559,13 +559,11 @@ references:
   name: BuildTime
   nameWithType: BuildMetadata.BuildTime
   fullName: StansAssets.Build.BuildMetadata.BuildTime
-- uid: System.DateTime
-  commentId: T:System.DateTime
-  parent: System
+- uid: DateTime
   isExternal: true
   name: DateTime
   nameWithType: DateTime
-  fullName: System.DateTime
+  fullName: DateTime
 - uid: StansAssets.Build.BuildMetadata.CommitTime*
   commentId: Overload:StansAssets.Build.BuildMetadata.CommitTime
   name: CommitTime

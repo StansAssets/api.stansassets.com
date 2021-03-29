@@ -18,7 +18,7 @@ items:
   source:
     id: UnityCloudBuildHooks
     path: ''
-    startLine: 973
+    startLine: 327
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -58,7 +58,7 @@ items:
   source:
     id: PreExport
     path: ''
-    startLine: 978
+    startLine: 332
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -89,7 +89,7 @@ items:
   source:
     id: PostExport
     path: ''
-    startLine: 989
+    startLine: 343
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -120,7 +120,7 @@ items:
   source:
     id: IsRunningOnUnityCloud
     path: ''
-    startLine: 1051
+    startLine: 405
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

@@ -174,7 +174,7 @@ items:
   source:
     id: XCodeLibraryName
     path: ''
-    startLine: 147
+    startLine: 12
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -203,7 +203,7 @@ items:
   source:
     id: CarrierBundleUtilities
     path: ''
-    startLine: 150
+    startLine: 15
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -231,7 +231,7 @@ items:
   source:
     id: IOABPLib
     path: ''
-    startLine: 152
+    startLine: 17
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -259,7 +259,7 @@ items:
   source:
     id: libAccessibility
     path: ''
-    startLine: 154
+    startLine: 19
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -287,7 +287,7 @@ items:
   source:
     id: libacmobileshim
     path: ''
-    startLine: 156
+    startLine: 21
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -315,7 +315,7 @@ items:
   source:
     id: libafc
     path: ''
-    startLine: 158
+    startLine: 23
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -343,7 +343,7 @@ items:
   source:
     id: libamsupport
     path: ''
-    startLine: 160
+    startLine: 25
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -371,7 +371,7 @@ items:
   source:
     id: libAppPatch
     path: ''
-    startLine: 162
+    startLine: 27
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -399,7 +399,7 @@ items:
   source:
     id: libarchive2
     path: ''
-    startLine: 164
+    startLine: 29
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -427,7 +427,7 @@ items:
   source:
     id: libarchive
     path: ''
-    startLine: 166
+    startLine: 31
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -455,7 +455,7 @@ items:
   source:
     id: libARI
     path: ''
-    startLine: 168
+    startLine: 33
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -483,7 +483,7 @@ items:
   source:
     id: libARIServer
     path: ''
-    startLine: 170
+    startLine: 35
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -511,7 +511,7 @@ items:
   source:
     id: libassertion_launchd
     path: ''
-    startLine: 172
+    startLine: 37
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -539,7 +539,7 @@ items:
   source:
     id: libate
     path: ''
-    startLine: 174
+    startLine: 39
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -567,7 +567,7 @@ items:
   source:
     id: libauthinstall
     path: ''
-    startLine: 176
+    startLine: 41
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -595,7 +595,7 @@ items:
   source:
     id: libAWDProtobufBluetooth
     path: ''
-    startLine: 178
+    startLine: 43
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -623,7 +623,7 @@ items:
   source:
     id: libAWDProtobufFacetime
     path: ''
-    startLine: 180
+    startLine: 45
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -651,7 +651,7 @@ items:
   source:
     id: libAWDProtobufFacetimeiMessage
     path: ''
-    startLine: 182
+    startLine: 47
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -679,7 +679,7 @@ items:
   source:
     id: libAWDProtobufGCK
     path: ''
-    startLine: 184
+    startLine: 49
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -707,7 +707,7 @@ items:
   source:
     id: libAWDProtobufLocation
     path: ''
-    startLine: 186
+    startLine: 51
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -735,7 +735,7 @@ items:
   source:
     id: libAWDSupport
     path: ''
-    startLine: 188
+    startLine: 53
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -763,7 +763,7 @@ items:
   source:
     id: libAWDSupportFramework
     path: ''
-    startLine: 190
+    startLine: 55
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -791,7 +791,7 @@ items:
   source:
     id: libAXSafeCategoryBundle
     path: ''
-    startLine: 192
+    startLine: 57
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -819,7 +819,7 @@ items:
   source:
     id: libAXSpeechManager
     path: ''
-    startLine: 194
+    startLine: 59
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -847,7 +847,7 @@ items:
   source:
     id: libBasebandManager
     path: ''
-    startLine: 196
+    startLine: 61
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -875,7 +875,7 @@ items:
   source:
     id: libBasebandUSB
     path: ''
-    startLine: 198
+    startLine: 63
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -903,7 +903,7 @@ items:
   source:
     id: libbsm0
     path: ''
-    startLine: 200
+    startLine: 65
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -931,7 +931,7 @@ items:
   source:
     id: libbsm
     path: ''
-    startLine: 202
+    startLine: 67
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -959,7 +959,7 @@ items:
   source:
     id: libbz210
     path: ''
-    startLine: 204
+    startLine: 69
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -987,7 +987,7 @@ items:
   source:
     id: libbz2
     path: ''
-    startLine: 206
+    startLine: 71
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1015,7 +1015,7 @@ items:
   source:
     id: libcPlusPlus1
     path: ''
-    startLine: 208
+    startLine: 73
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1043,7 +1043,7 @@ items:
   source:
     id: libcPlusPlus
     path: ''
-    startLine: 210
+    startLine: 75
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1071,7 +1071,7 @@ items:
   source:
     id: libcPlusPlusAbi
     path: ''
-    startLine: 212
+    startLine: 77
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1099,7 +1099,7 @@ items:
   source:
     id: libc
     path: ''
-    startLine: 214
+    startLine: 79
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1127,7 +1127,7 @@ items:
   source:
     id: libcharset100
     path: ''
-    startLine: 216
+    startLine: 81
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1155,7 +1155,7 @@ items:
   source:
     id: libcharset1
     path: ''
-    startLine: 218
+    startLine: 83
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1183,7 +1183,7 @@ items:
   source:
     id: libcharset
     path: ''
-    startLine: 220
+    startLine: 85
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1211,7 +1211,7 @@ items:
   source:
     id: libChineseTokenizer
     path: ''
-    startLine: 222
+    startLine: 87
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1239,7 +1239,7 @@ items:
   source:
     id: libcmph
     path: ''
-    startLine: 224
+    startLine: 89
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1267,7 +1267,7 @@ items:
   source:
     id: libcompression
     path: ''
-    startLine: 226
+    startLine: 91
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1295,7 +1295,7 @@ items:
   source:
     id: libcoretls
     path: ''
-    startLine: 228
+    startLine: 93
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1323,7 +1323,7 @@ items:
   source:
     id: libcoretls_cfhelpers
     path: ''
-    startLine: 230
+    startLine: 95
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1351,7 +1351,7 @@ items:
   source:
     id: libCRFSuite
     path: ''
-    startLine: 232
+    startLine: 97
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1379,7 +1379,7 @@ items:
   source:
     id: libCRFSuite012
     path: ''
-    startLine: 234
+    startLine: 99
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1407,7 +1407,7 @@ items:
   source:
     id: libCTLogHelper
     path: ''
-    startLine: 236
+    startLine: 101
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1435,7 +1435,7 @@ items:
   source:
     id: libcupolicy
     path: ''
-    startLine: 238
+    startLine: 103
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1463,7 +1463,7 @@ items:
   source:
     id: libcurses
     path: ''
-    startLine: 240
+    startLine: 105
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1491,7 +1491,7 @@ items:
   source:
     id: libdbm
     path: ''
-    startLine: 242
+    startLine: 107
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1519,7 +1519,7 @@ items:
   source:
     id: libDHCPServerA
     path: ''
-    startLine: 244
+    startLine: 109
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1547,7 +1547,7 @@ items:
   source:
     id: libDHCPServer
     path: ''
-    startLine: 246
+    startLine: 111
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1575,7 +1575,7 @@ items:
   source:
     id: libdl
     path: ''
-    startLine: 248
+    startLine: 113
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1603,7 +1603,7 @@ items:
   source:
     id: libdns_services
     path: ''
-    startLine: 250
+    startLine: 115
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1631,7 +1631,7 @@ items:
   source:
     id: libdscsym
     path: ''
-    startLine: 252
+    startLine: 117
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1659,7 +1659,7 @@ items:
   source:
     id: libedit2
     path: ''
-    startLine: 254
+    startLine: 119
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1687,7 +1687,7 @@ items:
   source:
     id: libedit30
     path: ''
-    startLine: 256
+    startLine: 121
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1715,7 +1715,7 @@ items:
   source:
     id: libedit3
     path: ''
-    startLine: 258
+    startLine: 123
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1743,7 +1743,7 @@ items:
   source:
     id: libedit
     path: ''
-    startLine: 260
+    startLine: 125
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1771,7 +1771,7 @@ items:
   source:
     id: libenergytrace
     path: ''
-    startLine: 262
+    startLine: 127
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1799,7 +1799,7 @@ items:
   source:
     id: libETLDIAGLoggingDynamic
     path: ''
-    startLine: 264
+    startLine: 129
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1827,7 +1827,7 @@ items:
   source:
     id: libETLDLFDynamic
     path: ''
-    startLine: 266
+    startLine: 131
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1855,7 +1855,7 @@ items:
   source:
     id: libETLDLOADCoreDumpDynamic
     path: ''
-    startLine: 268
+    startLine: 133
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1883,7 +1883,7 @@ items:
   source:
     id: libETLDLOADDynamic
     path: ''
-    startLine: 270
+    startLine: 135
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1911,7 +1911,7 @@ items:
   source:
     id: libETLDMCDynamic
     path: ''
-    startLine: 272
+    startLine: 137
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1939,7 +1939,7 @@ items:
   source:
     id: libETLDynamic
     path: ''
-    startLine: 274
+    startLine: 139
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1967,7 +1967,7 @@ items:
   source:
     id: libETLEFSDumpDynamic
     path: ''
-    startLine: 276
+    startLine: 141
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1995,7 +1995,7 @@ items:
   source:
     id: libETLSAHDynamic
     path: ''
-    startLine: 278
+    startLine: 143
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2023,7 +2023,7 @@ items:
   source:
     id: libETLTransportDynamic
     path: ''
-    startLine: 280
+    startLine: 145
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2051,7 +2051,7 @@ items:
   source:
     id: libexslt0
     path: ''
-    startLine: 282
+    startLine: 147
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2079,7 +2079,7 @@ items:
   source:
     id: libexslt
     path: ''
-    startLine: 284
+    startLine: 149
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2107,7 +2107,7 @@ items:
   source:
     id: libextension
     path: ''
-    startLine: 286
+    startLine: 151
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2135,7 +2135,7 @@ items:
   source:
     id: libform54
     path: ''
-    startLine: 288
+    startLine: 153
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2163,7 +2163,7 @@ items:
   source:
     id: libform
     path: ''
-    startLine: 290
+    startLine: 155
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2191,7 +2191,7 @@ items:
   source:
     id: libgcc_s1
     path: ''
-    startLine: 292
+    startLine: 157
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2219,7 +2219,7 @@ items:
   source:
     id: libgermantok
     path: ''
-    startLine: 294
+    startLine: 159
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2247,7 +2247,7 @@ items:
   source:
     id: libH5Dynamic
     path: ''
-    startLine: 296
+    startLine: 161
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2275,7 +2275,7 @@ items:
   source:
     id: libHDLCDynamic
     path: ''
-    startLine: 298
+    startLine: 163
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2303,7 +2303,7 @@ items:
   source:
     id: libheimdal_asn1
     path: ''
-    startLine: 300
+    startLine: 165
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2331,7 +2331,7 @@ items:
   source:
     id: libiconv240
     path: ''
-    startLine: 302
+    startLine: 167
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2359,7 +2359,7 @@ items:
   source:
     id: libiconv2
     path: ''
-    startLine: 304
+    startLine: 169
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2387,7 +2387,7 @@ items:
   source:
     id: libiconv
     path: ''
-    startLine: 306
+    startLine: 171
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2415,7 +2415,7 @@ items:
   source:
     id: libicucoreA
     path: ''
-    startLine: 308
+    startLine: 173
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2443,7 +2443,7 @@ items:
   source:
     id: libicucore
     path: ''
-    startLine: 310
+    startLine: 175
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2471,7 +2471,7 @@ items:
   source:
     id: libInFieldCollection
     path: ''
-    startLine: 312
+    startLine: 177
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2499,7 +2499,7 @@ items:
   source:
     id: libinfo
     path: ''
-    startLine: 314
+    startLine: 179
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2527,7 +2527,7 @@ items:
   source:
     id: libIOAccessoryManager
     path: ''
-    startLine: 316
+    startLine: 181
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2555,7 +2555,7 @@ items:
   source:
     id: libipconfig
     path: ''
-    startLine: 318
+    startLine: 183
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2583,7 +2583,7 @@ items:
   source:
     id: libipsecA
     path: ''
-    startLine: 320
+    startLine: 185
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2611,7 +2611,7 @@ items:
   source:
     id: libipsec
     path: ''
-    startLine: 322
+    startLine: 187
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2639,7 +2639,7 @@ items:
   source:
     id: libktrace
     path: ''
-    startLine: 324
+    startLine: 189
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2667,7 +2667,7 @@ items:
   source:
     id: liblangid
     path: ''
-    startLine: 326
+    startLine: 191
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2695,7 +2695,7 @@ items:
   source:
     id: libLLVM_C
     path: ''
-    startLine: 328
+    startLine: 193
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2723,7 +2723,7 @@ items:
   source:
     id: libLLVM
     path: ''
-    startLine: 330
+    startLine: 195
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2751,7 +2751,7 @@ items:
   source:
     id: liblockdown
     path: ''
-    startLine: 332
+    startLine: 197
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2779,7 +2779,7 @@ items:
   source:
     id: liblizma5
     path: ''
-    startLine: 334
+    startLine: 199
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2807,7 +2807,7 @@ items:
   source:
     id: liblizma
     path: ''
-    startLine: 336
+    startLine: 201
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2835,7 +2835,7 @@ items:
   source:
     id: libm
     path: ''
-    startLine: 338
+    startLine: 203
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2863,7 +2863,7 @@ items:
   source:
     id: libmarisa
     path: ''
-    startLine: 340
+    startLine: 205
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2891,7 +2891,7 @@ items:
   source:
     id: libMatch1
     path: ''
-    startLine: 342
+    startLine: 207
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2919,7 +2919,7 @@ items:
   source:
     id: libMatch
     path: ''
-    startLine: 344
+    startLine: 209
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2947,7 +2947,7 @@ items:
   source:
     id: libmav_ipc_router_dynamic
     path: ''
-    startLine: 346
+    startLine: 211
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -2975,7 +2975,7 @@ items:
   source:
     id: libmecab_em
     path: ''
-    startLine: 348
+    startLine: 213
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3003,7 +3003,7 @@ items:
   source:
     id: libmecabra
     path: ''
-    startLine: 350
+    startLine: 215
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3031,7 +3031,7 @@ items:
   source:
     id: libmis
     path: ''
-    startLine: 352
+    startLine: 217
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3059,7 +3059,7 @@ items:
   source:
     id: libMobileCheckpoint
     path: ''
-    startLine: 354
+    startLine: 219
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3087,7 +3087,7 @@ items:
   source:
     id: libMobileGestalt
     path: ''
-    startLine: 356
+    startLine: 221
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3115,7 +3115,7 @@ items:
   source:
     id: libMobileGestaltExtensions
     path: ''
-    startLine: 358
+    startLine: 223
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3143,7 +3143,7 @@ items:
   source:
     id: libncurses54
     path: ''
-    startLine: 360
+    startLine: 225
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3171,7 +3171,7 @@ items:
   source:
     id: libncurses
     path: ''
-    startLine: 362
+    startLine: 227
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3199,7 +3199,7 @@ items:
   source:
     id: libnework
     path: ''
-    startLine: 364
+    startLine: 229
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3227,7 +3227,7 @@ items:
   source:
     id: libnfshared
     path: ''
-    startLine: 366
+    startLine: 231
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3255,7 +3255,7 @@ items:
   source:
     id: libobjcA
     path: ''
-    startLine: 368
+    startLine: 233
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3283,7 +3283,7 @@ items:
   source:
     id: libobjc
     path: ''
-    startLine: 370
+    startLine: 235
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3311,7 +3311,7 @@ items:
   source:
     id: libomadm
     path: ''
-    startLine: 372
+    startLine: 237
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3339,7 +3339,7 @@ items:
   source:
     id: libPCITransport
     path: ''
-    startLine: 374
+    startLine: 239
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3367,7 +3367,7 @@ items:
   source:
     id: libpoll
     path: ''
-    startLine: 376
+    startLine: 241
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3395,7 +3395,7 @@ items:
   source:
     id: libPPM
     path: ''
-    startLine: 378
+    startLine: 243
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3423,7 +3423,7 @@ items:
   source:
     id: libprequelite
     path: ''
-    startLine: 380
+    startLine: 245
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3451,7 +3451,7 @@ items:
   source:
     id: libproc
     path: ''
-    startLine: 382
+    startLine: 247
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3479,7 +3479,7 @@ items:
   source:
     id: libprotobuf
     path: ''
-    startLine: 384
+    startLine: 249
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3507,7 +3507,7 @@ items:
   source:
     id: libpthead
     path: ''
-    startLine: 386
+    startLine: 251
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3535,7 +3535,7 @@ items:
   source:
     id: libQLCharts
     path: ''
-    startLine: 388
+    startLine: 253
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3563,7 +3563,7 @@ items:
   source:
     id: libresolv9
     path: ''
-    startLine: 390
+    startLine: 255
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3591,7 +3591,7 @@ items:
   source:
     id: libresolv
     path: ''
-    startLine: 392
+    startLine: 257
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3619,7 +3619,7 @@ items:
   source:
     id: librpcsvc
     path: ''
-    startLine: 394
+    startLine: 259
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3647,7 +3647,7 @@ items:
   source:
     id: libsandbox1
     path: ''
-    startLine: 396
+    startLine: 261
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3675,7 +3675,7 @@ items:
   source:
     id: libsandbox
     path: ''
-    startLine: 398
+    startLine: 263
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3703,7 +3703,7 @@ items:
   source:
     id: libsp
     path: ''
-    startLine: 400
+    startLine: 265
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3731,7 +3731,7 @@ items:
   source:
     id: libspindump
     path: ''
-    startLine: 402
+    startLine: 267
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3759,7 +3759,7 @@ items:
   source:
     id: libsqlite30
     path: ''
-    startLine: 404
+    startLine: 269
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3787,7 +3787,7 @@ items:
   source:
     id: libsqlite3
     path: ''
-    startLine: 406
+    startLine: 271
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3815,7 +3815,7 @@ items:
   source:
     id: libstdcPlusPlus_609
     path: ''
-    startLine: 408
+    startLine: 273
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3843,7 +3843,7 @@ items:
   source:
     id: libstdcPlusPlus_6
     path: ''
-    startLine: 410
+    startLine: 275
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3871,7 +3871,7 @@ items:
   source:
     id: libstdcPlusPlus
     path: ''
-    startLine: 412
+    startLine: 277
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3899,7 +3899,7 @@ items:
   source:
     id: libsysdiagnose
     path: ''
-    startLine: 414
+    startLine: 279
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3927,7 +3927,7 @@ items:
   source:
     id: libSystemB
     path: ''
-    startLine: 416
+    startLine: 281
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3955,7 +3955,7 @@ items:
   source:
     id: libSystem
     path: ''
-    startLine: 418
+    startLine: 283
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -3983,7 +3983,7 @@ items:
   source:
     id: libsystemstats
     path: ''
-    startLine: 420
+    startLine: 285
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4011,7 +4011,7 @@ items:
   source:
     id: libtailspin
     path: ''
-    startLine: 422
+    startLine: 287
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4039,7 +4039,7 @@ items:
   source:
     id: libTelephonyBasebandBulkUSBDynamic
     path: ''
-    startLine: 424
+    startLine: 289
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4067,7 +4067,7 @@ items:
   source:
     id: libTelephonyBasebandDynamic
     path: ''
-    startLine: 426
+    startLine: 291
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4095,7 +4095,7 @@ items:
   source:
     id: libTelephonyDebugDynamic
     path: ''
-    startLine: 428
+    startLine: 293
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4123,7 +4123,7 @@ items:
   source:
     id: libTelephonyIOKitDynamic
     path: ''
-    startLine: 430
+    startLine: 295
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4151,7 +4151,7 @@ items:
   source:
     id: libTelephonyUSBDynamic
     path: ''
-    startLine: 432
+    startLine: 297
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4179,7 +4179,7 @@ items:
   source:
     id: libTelephonyUtilDynamic
     path: ''
-    startLine: 434
+    startLine: 299
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4207,7 +4207,7 @@ items:
   source:
     id: libThaiTokenizer
     path: ''
-    startLine: 436
+    startLine: 301
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4235,7 +4235,7 @@ items:
   source:
     id: libtidyA
     path: ''
-    startLine: 438
+    startLine: 303
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4263,7 +4263,7 @@ items:
   source:
     id: libtidy
     path: ''
-    startLine: 440
+    startLine: 305
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4291,7 +4291,7 @@ items:
   source:
     id: libzupdate
     path: ''
-    startLine: 442
+    startLine: 307
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4319,7 +4319,7 @@ items:
   source:
     id: libutil
     path: ''
-    startLine: 444
+    startLine: 309
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4347,7 +4347,7 @@ items:
   source:
     id: libutil_10
     path: ''
-    startLine: 446
+    startLine: 311
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4375,7 +4375,7 @@ items:
   source:
     id: libWAPI
     path: ''
-    startLine: 448
+    startLine: 313
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4403,7 +4403,7 @@ items:
   source:
     id: libxlm22
     path: ''
-    startLine: 450
+    startLine: 315
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4431,7 +4431,7 @@ items:
   source:
     id: libxml2
     path: ''
-    startLine: 452
+    startLine: 317
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4459,7 +4459,7 @@ items:
   source:
     id: libxslt1
     path: ''
-    startLine: 454
+    startLine: 319
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4487,7 +4487,7 @@ items:
   source:
     id: libxslt
     path: ''
-    startLine: 456
+    startLine: 321
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4515,7 +4515,7 @@ items:
   source:
     id: libz113
     path: ''
-    startLine: 458
+    startLine: 323
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4543,7 +4543,7 @@ items:
   source:
     id: libz125
     path: ''
-    startLine: 460
+    startLine: 325
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4571,7 +4571,7 @@ items:
   source:
     id: libz128
     path: ''
-    startLine: 462
+    startLine: 327
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4599,7 +4599,7 @@ items:
   source:
     id: libz1
     path: ''
-    startLine: 464
+    startLine: 329
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -4627,7 +4627,7 @@ items:
   source:
     id: libz
     path: ''
-    startLine: 466
+    startLine: 331
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

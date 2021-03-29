@@ -16,7 +16,7 @@ items:
   source:
     id: Build
     path: ''
-    startLine: 146
+    startLine: 1857
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build
@@ -56,7 +56,7 @@ items:
   source:
     id: Metadata
     path: ''
-    startLine: 161
+    startLine: 1872
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build

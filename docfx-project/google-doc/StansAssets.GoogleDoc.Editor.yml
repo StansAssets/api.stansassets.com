@@ -16,13 +16,13 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
-  commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
-  name: GoogleDocConnectorEditor
-  nameWithType: GoogleDocConnectorEditor
-  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
 - uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
   commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
   name: GoogleDocConnectorPackage
   nameWithType: GoogleDocConnectorPackage
   fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorPackage
+- uid: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+  commentId: T:StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
+  name: GoogleDocConnectorEditor
+  nameWithType: GoogleDocConnectorEditor
+  fullName: StansAssets.GoogleDoc.Editor.GoogleDocConnectorEditor
