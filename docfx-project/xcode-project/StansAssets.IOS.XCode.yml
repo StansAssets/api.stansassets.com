@@ -47,6 +47,12 @@ references:
   name: XCodeLibraryName
   nameWithType: XCodeLibraryName
   fullName: StansAssets.IOS.XCode.XCodeLibraryName
+- uid: StansAssets.IOS.XCode.InfoPlistKeyType
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKeyType
+  nameWithType: InfoPlistKeyType
+  fullName: StansAssets.IOS.XCode.InfoPlistKeyType
 - uid: StansAssets.IOS.XCode.XCodeFlagType
   commentId: T:StansAssets.IOS.XCode.XCodeFlagType
   parent: StansAssets.IOS.XCode
@@ -59,17 +65,11 @@ references:
   name: XCodeFrameworkName
   nameWithType: XCodeFrameworkName
   fullName: StansAssets.IOS.XCode.XCodeFrameworkName
-- uid: StansAssets.IOS.XCode.InfoPlistKeyType
-  commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
-  parent: StansAssets.IOS.XCode
-  name: InfoPlistKeyType
-  nameWithType: InfoPlistKeyType
-  fullName: StansAssets.IOS.XCode.InfoPlistKeyType
-- uid: StansAssets.IOS.XCode.XCodePackage
-  commentId: T:StansAssets.IOS.XCode.XCodePackage
-  name: XCodePackage
-  nameWithType: XCodePackage
-  fullName: StansAssets.IOS.XCode.XCodePackage
+- uid: StansAssets.IOS.XCode.XCodeProject
+  commentId: T:StansAssets.IOS.XCode.XCodeProject
+  name: XCodeProject
+  nameWithType: XCodeProject
+  fullName: StansAssets.IOS.XCode.XCodeProject
 - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
   commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings
   parent: StansAssets.IOS.XCode
@@ -148,11 +148,11 @@ references:
   name: XCodeCapabilitySettings.AppGroupsCapability
   nameWithType: XCodeCapabilitySettings.AppGroupsCapability
   fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.AppGroupsCapability
-- uid: StansAssets.IOS.XCode.XCodeProject
-  commentId: T:StansAssets.IOS.XCode.XCodeProject
-  name: XCodeProject
-  nameWithType: XCodeProject
-  fullName: StansAssets.IOS.XCode.XCodeProject
+- uid: StansAssets.IOS.XCode.XCodePackage
+  commentId: T:StansAssets.IOS.XCode.XCodePackage
+  name: XCodePackage
+  nameWithType: XCodePackage
+  fullName: StansAssets.IOS.XCode.XCodePackage
 - uid: StansAssets.IOS.XCode.FrameworkHandler
   commentId: T:StansAssets.IOS.XCode.FrameworkHandler
   name: FrameworkHandler
@@ -163,12 +163,30 @@ references:
   name: LibraryHandler
   nameWithType: LibraryHandler
   fullName: StansAssets.IOS.XCode.LibraryHandler
+- uid: StansAssets.IOS.XCode.XCodeAsset
+  commentId: T:StansAssets.IOS.XCode.XCodeAsset
+  parent: StansAssets.IOS.XCode
+  name: XCodeAsset
+  nameWithType: XCodeAsset
+  fullName: StansAssets.IOS.XCode.XCodeAsset
 - uid: StansAssets.IOS.XCode.XCodeFramework
   commentId: T:StansAssets.IOS.XCode.XCodeFramework
   parent: StansAssets.IOS.XCode
   name: XCodeFramework
   nameWithType: XCodeFramework
   fullName: StansAssets.IOS.XCode.XCodeFramework
+- uid: StansAssets.IOS.XCode.XCodeProjectProperty
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectProperty
+  parent: StansAssets.IOS.XCode
+  name: XCodeProjectProperty
+  nameWithType: XCodeProjectProperty
+  fullName: StansAssets.IOS.XCode.XCodeProjectProperty
+- uid: StansAssets.IOS.XCode.InfoPlistKey
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKey
+  nameWithType: InfoPlistKey
+  fullName: StansAssets.IOS.XCode.InfoPlistKey
 - uid: StansAssets.IOS.XCode.XCodeProjectFlag
   commentId: T:StansAssets.IOS.XCode.XCodeProjectFlag
   name: XCodeProjectFlag
@@ -180,24 +198,6 @@ references:
   name: XCodeLibrary
   nameWithType: XCodeLibrary
   fullName: StansAssets.IOS.XCode.XCodeLibrary
-- uid: StansAssets.IOS.XCode.InfoPlistKey
-  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
-  parent: StansAssets.IOS.XCode
-  name: InfoPlistKey
-  nameWithType: InfoPlistKey
-  fullName: StansAssets.IOS.XCode.InfoPlistKey
-- uid: StansAssets.IOS.XCode.XCodeProjectProperty
-  commentId: T:StansAssets.IOS.XCode.XCodeProjectProperty
-  parent: StansAssets.IOS.XCode
-  name: XCodeProjectProperty
-  nameWithType: XCodeProjectProperty
-  fullName: StansAssets.IOS.XCode.XCodeProjectProperty
-- uid: StansAssets.IOS.XCode.XCodeAsset
-  commentId: T:StansAssets.IOS.XCode.XCodeAsset
-  parent: StansAssets.IOS.XCode
-  name: XCodeAsset
-  nameWithType: XCodeAsset
-  fullName: StansAssets.IOS.XCode.XCodeAsset
 - uid: StansAssets.IOS.XCode
   commentId: N:StansAssets.IOS.XCode
   name: StansAssets.IOS.XCode

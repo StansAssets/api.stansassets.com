@@ -13895,13 +13895,13 @@ references:
   commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String)
   fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String)
   nameWithType: UM_IAnalyticsClient.Event(String)
-- uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,IDictionary{System.String,System.Object})
+- uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,System.Collections.IDictionary{System.String,System.Object})
   name: Event(String, IDictionary<String, Object>)
-  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IAnalyticsClient_Event_System_String_IDictionary_System_String_System_Object__
-  commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,IDictionary{System.String,System.Object})
+  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IAnalyticsClient_Event_System_String_System_Collections_IDictionary_System_String_System_Object__
+  commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,System.Collections.IDictionary{System.String,System.Object})
   name.vb: Event(String, IDictionary(Of String, Object))
-  fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, IDictionary<System.String, System.Object>)
-  fullName.vb: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, IDictionary(Of System.String, System.Object))
+  fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, System.Collections.IDictionary<System.String, System.Object>)
+  fullName.vb: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, System.Collections.IDictionary(Of System.String, System.Object))
   nameWithType: UM_IAnalyticsClient.Event(String, IDictionary<String, Object>)
   nameWithType.vb: UM_IAnalyticsClient.Event(String, IDictionary(Of String, Object))
 - uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event*
@@ -16279,13 +16279,13 @@ references:
   fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(Action(Of SA_iResult))
   nameWithType: UM_iInAppClient.Connect(Action<SA_iResult>)
   nameWithType.vb: UM_iInAppClient.Connect(Action(Of SA_iResult))
-- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
   name: Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
-  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__Action_SA_iResult__
-  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_System_Collections_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__Action_SA_iResult__
+  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},Action{SA_iResult})
   name.vb: Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
-  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, Action<SA_iResult>)
-  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), Action(Of SA_iResult))
+  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, Action<SA_iResult>)
+  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), Action(Of SA_iResult))
   nameWithType: UM_iInAppClient.Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
   nameWithType.vb: UM_iInAppClient.Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
 - uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect*

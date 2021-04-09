@@ -18,7 +18,7 @@ items:
   source:
     id: BuildStepResultArgs
     path: ''
-    startLine: 503
+    startLine: 1575
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -57,7 +57,7 @@ items:
   source:
     id: Step
     path: ''
-    startLine: 505
+    startLine: 1577
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -84,7 +84,7 @@ items:
   source:
     id: IsSuccess
     path: ''
-    startLine: 506
+    startLine: 1578
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -111,7 +111,7 @@ items:
   source:
     id: ResultMessage
     path: ''
-    startLine: 507
+    startLine: 1579
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

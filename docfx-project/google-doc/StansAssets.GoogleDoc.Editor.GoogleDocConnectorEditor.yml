@@ -20,7 +20,7 @@ items:
   source:
     id: GoogleDocConnectorEditor
     path: ''
-    startLine: 515
+    startLine: 477
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -58,7 +58,7 @@ items:
   source:
     id: GetAllSpreadsheets
     path: ''
-    startLine: 535
+    startLine: 497
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -90,7 +90,7 @@ items:
   source:
     id: UpdateSpreadsheetAsync
     path: ''
-    startLine: 545
+    startLine: 507
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -133,7 +133,7 @@ items:
   source:
     id: UpdateAllSpreadsheetsAsync
     path: ''
-    startLine: 554
+    startLine: 516
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -169,7 +169,7 @@ items:
   source:
     id: UpdateSpreadsheet
     path: ''
-    startLine: 568
+    startLine: 530
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
@@ -208,7 +208,7 @@ items:
   source:
     id: UpdateAllSpreadsheets
     path: ''
-    startLine: 578
+    startLine: 540
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc.Editor
