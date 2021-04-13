@@ -38156,6 +38156,24 @@ references:
   commentId: N:StansAssets.IOS.XCode
   fullName: StansAssets.IOS.XCode
   nameWithType: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  name: EntitlementsGenerationMode
+  href: xcode-project/StansAssets.IOS.XCode.EntitlementsGenerationMode.html
+  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  nameWithType: EntitlementsGenerationMode
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  name: Automatic
+  href: xcode-project/StansAssets.IOS.XCode.EntitlementsGenerationMode.html#StansAssets_IOS_XCode_EntitlementsGenerationMode_Automatic
+  commentId: F:StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  nameWithType: EntitlementsGenerationMode.Automatic
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  name: Manual
+  href: xcode-project/StansAssets.IOS.XCode.EntitlementsGenerationMode.html#StansAssets_IOS_XCode_EntitlementsGenerationMode_Manual
+  commentId: F:StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  nameWithType: EntitlementsGenerationMode.Manual
 - uid: StansAssets.IOS.XCode.FrameworkHandler
   name: FrameworkHandler
   href: xcode-project/StansAssets.IOS.XCode.FrameworkHandler.html
@@ -38408,6 +38426,24 @@ references:
   isSpec: "True"
   fullName: StansAssets.IOS.XCode.LibraryHandler.StringValueOf
   nameWithType: LibraryHandler.StringValueOf
+- uid: StansAssets.IOS.XCode.PlistKeyId
+  name: PlistKeyId
+  href: xcode-project/StansAssets.IOS.XCode.PlistKeyId.html
+  commentId: T:StansAssets.IOS.XCode.PlistKeyId
+  fullName: StansAssets.IOS.XCode.PlistKeyId
+  nameWithType: PlistKeyId
+- uid: StansAssets.IOS.XCode.PlistKeyId.uniqueIdKey
+  name: uniqueIdKey
+  href: xcode-project/StansAssets.IOS.XCode.PlistKeyId.html#StansAssets_IOS_XCode_PlistKeyId_uniqueIdKey
+  commentId: F:StansAssets.IOS.XCode.PlistKeyId.uniqueIdKey
+  fullName: StansAssets.IOS.XCode.PlistKeyId.uniqueIdKey
+  nameWithType: PlistKeyId.uniqueIdKey
+- uid: StansAssets.IOS.XCode.PlistKeyId.VariableValue
+  name: VariableValue
+  href: xcode-project/StansAssets.IOS.XCode.PlistKeyId.html#StansAssets_IOS_XCode_PlistKeyId_VariableValue
+  commentId: F:StansAssets.IOS.XCode.PlistKeyId.VariableValue
+  fullName: StansAssets.IOS.XCode.PlistKeyId.VariableValue
+  nameWithType: PlistKeyId.VariableValue
 - uid: StansAssets.IOS.XCode.XCodeAsset
   name: XCodeAsset
   href: xcode-project/StansAssets.IOS.XCode.XCodeAsset.html
@@ -38893,6 +38929,12 @@ references:
   commentId: F:StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
   fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings.WirelessAccessoryConfiguration
   nameWithType: XCodeCapabilitySettings.WirelessAccessoryConfiguration
+- uid: StansAssets.IOS.XCode.XCodeEmbedFramework
+  name: XCodeEmbedFramework
+  href: xcode-project/StansAssets.IOS.XCode.XCodeEmbedFramework.html
+  commentId: T:StansAssets.IOS.XCode.XCodeEmbedFramework
+  fullName: StansAssets.IOS.XCode.XCodeEmbedFramework
+  nameWithType: XCodeEmbedFramework
 - uid: StansAssets.IOS.XCode.XCodeFlagType
   name: XCodeFlagType
   href: xcode-project/StansAssets.IOS.XCode.XCodeFlagType.html
@@ -40855,6 +40897,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey
   nameWithType: XCodeProject.SetInfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProject.Settings
+  name: Settings
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProject.html#StansAssets_IOS_XCode_XCodeProject_Settings
+  commentId: P:StansAssets.IOS.XCode.XCodeProject.Settings
+  fullName: StansAssets.IOS.XCode.XCodeProject.Settings
+  nameWithType: XCodeProject.Settings
+- uid: StansAssets.IOS.XCode.XCodeProject.Settings*
+  name: Settings
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProject.html#StansAssets_IOS_XCode_XCodeProject_Settings_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.Settings
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProject.Settings
+  nameWithType: XCodeProject.Settings
 - uid: StansAssets.IOS.XCode.XCodeProjectFlag
   name: XCodeProjectFlag
   href: xcode-project/StansAssets.IOS.XCode.XCodeProjectFlag.html
@@ -40931,6 +40986,224 @@ references:
   isSpec: "True"
   fullName: StansAssets.IOS.XCode.XCodeProjectProperty.Value
   nameWithType: XCodeProjectProperty.Value
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings
+  name: XCodeProjectSettings
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectSettings
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings
+  nameWithType: XCodeProjectSettings
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  name: AddVariableToDictionary(String, InfoPlistKey)
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_AddVariableToDictionary_System_String_StansAssets_IOS_XCode_InfoPlistKey_
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String, StansAssets.IOS.XCode.InfoPlistKey)
+  nameWithType: XCodeProjectSettings.AddVariableToDictionary(String, InfoPlistKey)
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary*
+  name: AddVariableToDictionary
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_AddVariableToDictionary_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary
+  nameWithType: XCodeProjectSettings.AddVariableToDictionary
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  name: BuildProperties
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_BuildProperties
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  nameWithType: XCodeProjectSettings.BuildProperties
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties*
+  name: BuildProperties
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_BuildProperties_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  nameWithType: XCodeProjectSettings.BuildProperties
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  name: Capability
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Capability
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  nameWithType: XCodeProjectSettings.Capability
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  name: CfLocalizationsPlistKey
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_CfLocalizationsPlistKey
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  nameWithType: XCodeProjectSettings.CfLocalizationsPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  name: DefaultEntitlementsFileName
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_DefaultEntitlementsFileName
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  nameWithType: XCodeProjectSettings.DefaultEntitlementsFileName
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  name: EmbededFrameworks
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_EmbededFrameworks
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  nameWithType: XCodeProjectSettings.EmbededFrameworks
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  name: EntitlementsFile
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_EntitlementsFile
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  nameWithType: XCodeProjectSettings.EntitlementsFile
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  name: EntitlementsMode
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_EntitlementsMode
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  nameWithType: XCodeProjectSettings.EntitlementsMode
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  name: Files
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Files
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  nameWithType: XCodeProjectSettings.Files
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  name: Flags
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Flags
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  nameWithType: XCodeProjectSettings.Flags
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  name: Frameworks
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Frameworks
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  nameWithType: XCodeProjectSettings.Frameworks
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  name: GetVariableById(String)
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_GetVariableById_System_String_
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  nameWithType: XCodeProjectSettings.GetVariableById(String)
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById*
+  name: GetVariableById
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_GetVariableById_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById
+  nameWithType: XCodeProjectSettings.GetVariableById
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  name: IsEditorOnly
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_IsEditorOnly
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  nameWithType: XCodeProjectSettings.IsEditorOnly
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly*
+  name: IsEditorOnly
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_IsEditorOnly_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  nameWithType: XCodeProjectSettings.IsEditorOnly
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  name: Languages
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Languages
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  nameWithType: XCodeProjectSettings.Languages
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  name: Libraries
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_Libraries
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  nameWithType: XCodeProjectSettings.Libraries
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  name: PackageName
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_PackageName
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  nameWithType: XCodeProjectSettings.PackageName
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName*
+  name: PackageName
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_PackageName_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  nameWithType: XCodeProjectSettings.PackageName
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  name: PlistVariables
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_PlistVariables
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  nameWithType: XCodeProjectSettings.PlistVariables
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  name: PostProcessEnabled
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_PostProcessEnabled
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  nameWithType: XCodeProjectSettings.PostProcessEnabled
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled*
+  name: PostProcessEnabled
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_PostProcessEnabled_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  nameWithType: XCodeProjectSettings.PostProcessEnabled
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  name: RemoveVariable(InfoPlistKey, IList)
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_RemoveVariable_StansAssets_IOS_XCode_InfoPlistKey_IList_
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey, IList)
+  nameWithType: XCodeProjectSettings.RemoveVariable(InfoPlistKey, IList)
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable*
+  name: RemoveVariable
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_RemoveVariable_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable
+  nameWithType: XCodeProjectSettings.RemoveVariable
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  name: ShellScripts
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_ShellScripts
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  nameWithType: XCodeProjectSettings.ShellScripts
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  name: VariableDictionary
+  href: xcode-project/StansAssets.IOS.XCode.XCodeProjectSettings.html#StansAssets_IOS_XCode_XCodeProjectSettings_VariableDictionary
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  nameWithType: XCodeProjectSettings.VariableDictionary
+- uid: StansAssets.IOS.XCode.XCodeShellScript
+  name: XCodeShellScript
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html
+  commentId: T:StansAssets.IOS.XCode.XCodeShellScript
+  fullName: StansAssets.IOS.XCode.XCodeShellScript
+  nameWithType: XCodeShellScript
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Name
+  name: Name
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html#StansAssets_IOS_XCode_XCodeShellScript_Name
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Name
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Name
+  nameWithType: XCodeShellScript.Name
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Script
+  name: Script
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html#StansAssets_IOS_XCode_XCodeShellScript_Script
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Script
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Script
+  nameWithType: XCodeShellScript.Script
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Shell
+  name: Shell
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html#StansAssets_IOS_XCode_XCodeShellScript_Shell
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Shell
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Shell
+  nameWithType: XCodeShellScript.Shell
+- uid: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  name: ShellScriptPath
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html#StansAssets_IOS_XCode_XCodeShellScript_ShellScriptPath
+  commentId: P:StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  nameWithType: XCodeShellScript.ShellScriptPath
+- uid: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath*
+  name: ShellScriptPath
+  href: xcode-project/StansAssets.IOS.XCode.XCodeShellScript.html#StansAssets_IOS_XCode_XCodeShellScript_ShellScriptPath_
+  commentId: Overload:StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  isSpec: "True"
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  nameWithType: XCodeShellScript.ShellScriptPath
 - uid: StansAssets.PackageSample
   name: StansAssets.PackageSample
   href: google-doc/StansAssets.PackageSample.html

@@ -26,6 +26,7 @@ items:
   - StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(StansAssets.IOS.XCode.XCodeProjectProperty)
   - StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
   - StansAssets.IOS.XCode.XCodeProject.SetInfoPlistKey(StansAssets.IOS.XCode.InfoPlistKey)
+  - StansAssets.IOS.XCode.XCodeProject.Settings
   langs:
   - csharp
   - vb
@@ -97,6 +98,41 @@ items:
   - Public
   - Shared
   - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeProject.Settings
+  commentId: P:StansAssets.IOS.XCode.XCodeProject.Settings
+  id: Settings
+  parent: StansAssets.IOS.XCode.XCodeProject
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: XCodeProject.Settings
+  fullName: StansAssets.IOS.XCode.XCodeProject.Settings
+  type: Property
+  source:
+    id: Settings
+    path: ''
+    startLine: 1944
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nProject Settings.\n"
+  example: []
+  syntax:
+    content: public static XCodeProjectSettings Settings { get; }
+    parameters: []
+    return:
+      type: StansAssets.IOS.XCode.XCodeProjectSettings
+    content.vb: Public Shared ReadOnly Property Settings As XCodeProjectSettings
+  overload: StansAssets.IOS.XCode.XCodeProject.Settings*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
   commentId: M:StansAssets.IOS.XCode.XCodeProject.SetBuildProperty(System.String,System.String)
   id: SetBuildProperty(System.String,System.String)
@@ -111,7 +147,7 @@ items:
   source:
     id: SetBuildProperty
     path: ''
-    startLine: 1946
+    startLine: 1951
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -148,7 +184,7 @@ items:
   source:
     id: SetBuildProperty
     path: ''
-    startLine: 1955
+    startLine: 1960
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -182,7 +218,7 @@ items:
   source:
     id: RemoveBuildProperty
     path: ''
-    startLine: 1971
+    startLine: 1976
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -216,7 +252,7 @@ items:
   source:
     id: RemoveBuildProperty
     path: ''
-    startLine: 1980
+    startLine: 1985
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -250,7 +286,7 @@ items:
   source:
     id: SetInfoPlistKey
     path: ''
-    startLine: 1998
+    startLine: 2003
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -284,7 +320,7 @@ items:
   source:
     id: GetInfoPlistKey
     path: ''
-    startLine: 2010
+    startLine: 2015
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -320,7 +356,7 @@ items:
   source:
     id: ContainsKey
     path: ''
-    startLine: 2022
+    startLine: 2027
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -356,7 +392,7 @@ items:
   source:
     id: RemoveInfoPlistKey
     path: ''
-    startLine: 2031
+    startLine: 2036
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -390,7 +426,7 @@ items:
   source:
     id: RemoveInfoPlistKey
     path: ''
-    startLine: 2040
+    startLine: 2045
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -424,7 +460,7 @@ items:
   source:
     id: AddFlag
     path: ''
-    startLine: 2051
+    startLine: 2056
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -461,7 +497,7 @@ items:
   source:
     id: RemoveFlag
     path: ''
-    startLine: 2068
+    startLine: 2073
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -495,7 +531,7 @@ items:
   source:
     id: AddFramework
     path: ''
-    startLine: 2086
+    startLine: 2091
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -532,7 +568,7 @@ items:
   source:
     id: AddFramework
     path: ''
-    startLine: 2098
+    startLine: 2103
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -566,7 +602,7 @@ items:
   source:
     id: RemoveFramework
     path: ''
-    startLine: 2114
+    startLine: 2119
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -600,7 +636,7 @@ items:
   source:
     id: AddLibrary
     path: ''
-    startLine: 2132
+    startLine: 2137
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -637,7 +673,7 @@ items:
   source:
     id: AddLibrary
     path: ''
-    startLine: 2144
+    startLine: 2149
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -671,7 +707,7 @@ items:
   source:
     id: RemoveLibrary
     path: ''
-    startLine: 2160
+    startLine: 2165
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -705,7 +741,7 @@ items:
   source:
     id: HasFile
     path: ''
-    startLine: 2175
+    startLine: 2180
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -742,7 +778,7 @@ items:
   source:
     id: AddFile
     path: ''
-    startLine: 2189
+    startLine: 2194
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -779,7 +815,7 @@ items:
   source:
     id: AddFile
     path: ''
-    startLine: 2202
+    startLine: 2207
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -1108,6 +1144,17 @@ references:
   name: XCodeCapabilitySettings
   nameWithType: XCodeCapabilitySettings
   fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings
+- uid: StansAssets.IOS.XCode.XCodeProject.Settings*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProject.Settings
+  name: Settings
+  nameWithType: XCodeProject.Settings
+  fullName: StansAssets.IOS.XCode.XCodeProject.Settings
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectSettings
+  parent: StansAssets.IOS.XCode
+  name: XCodeProjectSettings
+  nameWithType: XCodeProjectSettings
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings
 - uid: StansAssets.IOS.XCode.XCodeProject.SetBuildProperty*
   commentId: Overload:StansAssets.IOS.XCode.XCodeProject.SetBuildProperty
   name: SetBuildProperty

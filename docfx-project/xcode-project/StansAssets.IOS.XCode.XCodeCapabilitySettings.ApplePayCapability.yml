@@ -16,7 +16,7 @@ items:
   source:
     id: ApplePayCapability
     path: ''
-    startLine: 2255
+    startLine: 2260
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Merchants
     path: ''
-    startLine: 2258
+    startLine: 2263
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

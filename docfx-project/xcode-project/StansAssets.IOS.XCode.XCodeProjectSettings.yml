@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectSettings
+  id: XCodeProjectSettings
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  - StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  - StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  - StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  - StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  - StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  - StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  - StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  - StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  - StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  - StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  - StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  - StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  - StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  - StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  - StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  langs:
+  - csharp
+  - vb
+  name: XCodeProjectSettings
+  nameWithType: XCodeProjectSettings
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings
+  type: Class
+  source:
+    id: XCodeProjectSettings
+    path: ''
+    startLine: 2376
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXcode projects settings object.\nThrough it you can get access to all frameworks, libraries plist.list variables and others settings.\n"
+  example: []
+  syntax:
+    content: 'public class XCodeProjectSettings : PackageScriptableSettingsSingleton<XCodeProjectSettings>'
+    content.vb: >-
+      Public Class XCodeProjectSettings
+          Inherits PackageScriptableSettingsSingleton(Of XCodeProjectSettings)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  id: PackageName
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: PackageName
+  nameWithType: XCodeProjectSettings.PackageName
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  type: Property
+  source:
+    id: PackageName
+    path: ''
+    startLine: 2381
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nName of the package.\n"
+  example: []
+  syntax:
+    content: public override string PackageName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property PackageName As String
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  id: IsEditorOnly
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: IsEditorOnly
+  nameWithType: XCodeProjectSettings.IsEditorOnly
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  type: Property
+  source:
+    id: IsEditorOnly
+    path: ''
+    startLine: 2382
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: protected override bool IsEditorOnly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property IsEditorOnly As Boolean
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  id: DefaultEntitlementsFileName
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: DefaultEntitlementsFileName
+  nameWithType: XCodeProjectSettings.DefaultEntitlementsFileName
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.DefaultEntitlementsFileName
+  type: Field
+  source:
+    id: DefaultEntitlementsFileName
+    path: ''
+    startLine: 2383
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public const string DefaultEntitlementsFileName = "default.entitlements"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultEntitlementsFileName As String = "default.entitlements"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  id: CfLocalizationsPlistKey
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: CfLocalizationsPlistKey
+  nameWithType: XCodeProjectSettings.CfLocalizationsPlistKey
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.CfLocalizationsPlistKey
+  type: Field
+  source:
+    id: CfLocalizationsPlistKey
+    path: ''
+    startLine: 2384
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public const string CfLocalizationsPlistKey = "CFBundleLocalizations"
+    return:
+      type: System.String
+    content.vb: Public Const CfLocalizationsPlistKey As String = "CFBundleLocalizations"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  id: Frameworks
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Frameworks
+  nameWithType: XCodeProjectSettings.Frameworks
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Frameworks
+  type: Field
+  source:
+    id: Frameworks
+    path: ''
+    startLine: 2390
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nEntry point for all frameworks in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<XCodeFramework> Frameworks
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeFramework}
+    content.vb: Public Frameworks As List(Of XCodeFramework)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  id: EmbededFrameworks
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: EmbededFrameworks
+  nameWithType: XCodeProjectSettings.EmbededFrameworks
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EmbededFrameworks
+  type: Field
+  source:
+    id: EmbededFrameworks
+    path: ''
+    startLine: 2394
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of all embedded frameworks in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<XCodeEmbedFramework> EmbededFrameworks
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeEmbedFramework}
+    content.vb: Public EmbededFrameworks As List(Of XCodeEmbedFramework)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  id: Libraries
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Libraries
+  nameWithType: XCodeProjectSettings.Libraries
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Libraries
+  type: Field
+  source:
+    id: Libraries
+    path: ''
+    startLine: 2398
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of all libraries in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<XCodeLibrary> Libraries
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeLibrary}
+    content.vb: Public Libraries As List(Of XCodeLibrary)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  id: Flags
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: XCodeProjectSettings.Flags
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Flags
+  type: Field
+  source:
+    id: Flags
+    path: ''
+    startLine: 2402
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of all flags in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<XCodeProjectFlag> Flags
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeProjectFlag}
+    content.vb: Public Flags As List(Of XCodeProjectFlag)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  id: PlistVariables
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: PlistVariables
+  nameWithType: XCodeProjectSettings.PlistVariables
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PlistVariables
+  type: Field
+  source:
+    id: PlistVariables
+    path: ''
+    startLine: 2406
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of info plist variables in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<InfoPlistKey> PlistVariables
+    return:
+      type: List{StansAssets.IOS.XCode.InfoPlistKey}
+    content.vb: Public PlistVariables As List(Of InfoPlistKey)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  id: VariableDictionary
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: VariableDictionary
+  nameWithType: XCodeProjectSettings.VariableDictionary
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.VariableDictionary
+  type: Field
+  source:
+    id: VariableDictionary
+    path: ''
+    startLine: 2410
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of plist id&apos;s variables in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<PlistKeyId> VariableDictionary
+    return:
+      type: List{StansAssets.IOS.XCode.PlistKeyId}
+    content.vb: Public VariableDictionary As List(Of PlistKeyId)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  id: Languages
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: XCodeProjectSettings.Languages
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Languages
+  type: Field
+  source:
+    id: Languages
+    path: ''
+    startLine: 2414
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of all languages in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<SA_ISOLanguage> Languages
+    return:
+      type: List{SA_ISOLanguage}
+    content.vb: Public Languages As List(Of SA_ISOLanguage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  id: ShellScripts
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: ShellScripts
+  nameWithType: XCodeProjectSettings.ShellScripts
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.ShellScripts
+  type: Field
+  source:
+    id: ShellScripts
+    path: ''
+    startLine: 2418
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nEntry point for all shell scripts in the xcode project.\n"
+  example: []
+  syntax:
+    content: public List<XCodeShellScript> ShellScripts
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeShellScript}
+    content.vb: Public ShellScripts As List(Of XCodeShellScript)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  id: PostProcessEnabled
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: PostProcessEnabled
+  nameWithType: XCodeProjectSettings.PostProcessEnabled
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  type: Property
+  source:
+    id: PostProcessEnabled
+    path: ''
+    startLine: 2426
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nIs Post Process Enabled.\n"
+  example: []
+  syntax:
+    content: public static bool PostProcessEnabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property PostProcessEnabled As Boolean
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  id: Capability
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Capability
+  nameWithType: XCodeProjectSettings.Capability
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Capability
+  type: Field
+  source:
+    id: Capability
+    path: ''
+    startLine: 2440
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nCapability Settings.\n"
+  example: []
+  syntax:
+    content: public XCodeCapabilitySettings Capability
+    return:
+      type: StansAssets.IOS.XCode.XCodeCapabilitySettings
+    content.vb: Public Capability As XCodeCapabilitySettings
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  id: Files
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: Files
+  nameWithType: XCodeProjectSettings.Files
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.Files
+  type: Field
+  source:
+    id: Files
+    path: ''
+    startLine: 2444
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nXcode assets.\n"
+  example: []
+  syntax:
+    content: public List<XCodeAsset> Files
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeAsset}
+    content.vb: Public Files As List(Of XCodeAsset)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  id: EntitlementsMode
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: EntitlementsMode
+  nameWithType: XCodeProjectSettings.EntitlementsMode
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsMode
+  type: Field
+  source:
+    id: EntitlementsMode
+    path: ''
+    startLine: 2445
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public EntitlementsGenerationMode EntitlementsMode
+    return:
+      type: StansAssets.IOS.XCode.EntitlementsGenerationMode
+    content.vb: Public EntitlementsMode As EntitlementsGenerationMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  commentId: F:StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  id: EntitlementsFile
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: EntitlementsFile
+  nameWithType: XCodeProjectSettings.EntitlementsFile
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.EntitlementsFile
+  type: Field
+  source:
+    id: EntitlementsFile
+    path: ''
+    startLine: 2446
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public Object EntitlementsFile
+    return:
+      type: Object
+    content.vb: Public EntitlementsFile As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  id: AddVariableToDictionary(System.String,StansAssets.IOS.XCode.InfoPlistKey)
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: AddVariableToDictionary(String, InfoPlistKey)
+  nameWithType: XCodeProjectSettings.AddVariableToDictionary(String, InfoPlistKey)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary(System.String, StansAssets.IOS.XCode.InfoPlistKey)
+  type: Method
+  source:
+    id: AddVariableToDictionary
+    path: ''
+    startLine: 2457
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nMethod for adding new variable into <code>VariableDictionary</code> list.\n"
+  example: []
+  syntax:
+    content: public void AddVariableToDictionary(string uniqueIdKey, InfoPlistKey var)
+    parameters:
+    - id: uniqueIdKey
+      type: System.String
+      description: Unique id key
+    - id: var
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: Info plist key value
+    content.vb: Public Sub AddVariableToDictionary(uniqueIdKey As String, var As InfoPlistKey)
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  id: RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey,IList)
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: RemoveVariable(InfoPlistKey, IList)
+  nameWithType: XCodeProjectSettings.RemoveVariable(InfoPlistKey, IList)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable(StansAssets.IOS.XCode.InfoPlistKey, IList)
+  type: Method
+  source:
+    id: RemoveVariable
+    path: ''
+    startLine: 2470
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nMethod that removes info plist key from <code>VariableDictionary</code> list.\n"
+  example: []
+  syntax:
+    content: public void RemoveVariable(InfoPlistKey v, IList listWithThisVariable)
+    parameters:
+    - id: v
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: Info plist key value.
+    - id: listWithThisVariable
+      type: IList
+      description: ''
+    content.vb: Public Sub RemoveVariable(v As InfoPlistKey, listWithThisVariable As IList)
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  commentId: M:StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  id: GetVariableById(System.String)
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: GetVariableById(String)
+  nameWithType: XCodeProjectSettings.GetVariableById(String)
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById(System.String)
+  type: Method
+  source:
+    id: GetVariableById
+    path: ''
+    startLine: 2525
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nMethod that returns info plist key by given key id.\n"
+  example: []
+  syntax:
+    content: public InfoPlistKey GetVariableById(string uniqueIdKey)
+    parameters:
+    - id: uniqueIdKey
+      type: System.String
+      description: Uniques id
+    return:
+      type: StansAssets.IOS.XCode.InfoPlistKey
+      description: <code>InfoPlistKey</code> or null if we couldn&apos;t find any.
+    content.vb: Public Function GetVariableById(uniqueIdKey As String) As InfoPlistKey
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  commentId: P:StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  id: BuildProperties
+  parent: StansAssets.IOS.XCode.XCodeProjectSettings
+  langs:
+  - csharp
+  - vb
+  name: BuildProperties
+  nameWithType: XCodeProjectSettings.BuildProperties
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  type: Property
+  source:
+    id: BuildProperties
+    path: ''
+    startLine: 2540
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  summary: "\nList of project build properties.\n"
+  example: []
+  syntax:
+    content: public List<XCodeProjectProperty> BuildProperties { get; }
+    parameters: []
+    return:
+      type: List{StansAssets.IOS.XCode.XCodeProjectProperty}
+    content.vb: Public ReadOnly Property BuildProperties As List(Of XCodeProjectProperty)
+  overload: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+  name: PackageName
+  nameWithType: XCodeProjectSettings.PackageName
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PackageName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+  name: IsEditorOnly
+  nameWithType: XCodeProjectSettings.IsEditorOnly
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.IsEditorOnly
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: List{StansAssets.IOS.XCode.XCodeFramework}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeFramework}'
+  definition: List`1
+  name: List<XCodeFramework>
+  nameWithType: List<XCodeFramework>
+  fullName: List<StansAssets.IOS.XCode.XCodeFramework>
+  nameWithType.vb: List(Of XCodeFramework)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeFramework)
+  name.vb: List(Of XCodeFramework)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeFramework
+    name: XCodeFramework
+    nameWithType: XCodeFramework
+    fullName: StansAssets.IOS.XCode.XCodeFramework
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeFramework
+    name: XCodeFramework
+    nameWithType: XCodeFramework
+    fullName: StansAssets.IOS.XCode.XCodeFramework
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.XCodeEmbedFramework}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeEmbedFramework}'
+  definition: List`1
+  name: List<XCodeEmbedFramework>
+  nameWithType: List<XCodeEmbedFramework>
+  fullName: List<StansAssets.IOS.XCode.XCodeEmbedFramework>
+  nameWithType.vb: List(Of XCodeEmbedFramework)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeEmbedFramework)
+  name.vb: List(Of XCodeEmbedFramework)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeEmbedFramework
+    name: XCodeEmbedFramework
+    nameWithType: XCodeEmbedFramework
+    fullName: StansAssets.IOS.XCode.XCodeEmbedFramework
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeEmbedFramework
+    name: XCodeEmbedFramework
+    nameWithType: XCodeEmbedFramework
+    fullName: StansAssets.IOS.XCode.XCodeEmbedFramework
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.XCodeLibrary}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeLibrary}'
+  definition: List`1
+  name: List<XCodeLibrary>
+  nameWithType: List<XCodeLibrary>
+  fullName: List<StansAssets.IOS.XCode.XCodeLibrary>
+  nameWithType.vb: List(Of XCodeLibrary)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeLibrary)
+  name.vb: List(Of XCodeLibrary)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeLibrary
+    name: XCodeLibrary
+    nameWithType: XCodeLibrary
+    fullName: StansAssets.IOS.XCode.XCodeLibrary
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeLibrary
+    name: XCodeLibrary
+    nameWithType: XCodeLibrary
+    fullName: StansAssets.IOS.XCode.XCodeLibrary
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.XCodeProjectFlag}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeProjectFlag}'
+  definition: List`1
+  name: List<XCodeProjectFlag>
+  nameWithType: List<XCodeProjectFlag>
+  fullName: List<StansAssets.IOS.XCode.XCodeProjectFlag>
+  nameWithType.vb: List(Of XCodeProjectFlag)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeProjectFlag)
+  name.vb: List(Of XCodeProjectFlag)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeProjectFlag
+    name: XCodeProjectFlag
+    nameWithType: XCodeProjectFlag
+    fullName: StansAssets.IOS.XCode.XCodeProjectFlag
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeProjectFlag
+    name: XCodeProjectFlag
+    nameWithType: XCodeProjectFlag
+    fullName: StansAssets.IOS.XCode.XCodeProjectFlag
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.InfoPlistKey}
+  commentId: '!:List{StansAssets.IOS.XCode.InfoPlistKey}'
+  definition: List`1
+  name: List<InfoPlistKey>
+  nameWithType: List<InfoPlistKey>
+  fullName: List<StansAssets.IOS.XCode.InfoPlistKey>
+  nameWithType.vb: List(Of InfoPlistKey)
+  fullName.vb: List(Of StansAssets.IOS.XCode.InfoPlistKey)
+  name.vb: List(Of InfoPlistKey)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.InfoPlistKey
+    name: InfoPlistKey
+    nameWithType: InfoPlistKey
+    fullName: StansAssets.IOS.XCode.InfoPlistKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.InfoPlistKey
+    name: InfoPlistKey
+    nameWithType: InfoPlistKey
+    fullName: StansAssets.IOS.XCode.InfoPlistKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.PlistKeyId}
+  commentId: '!:List{StansAssets.IOS.XCode.PlistKeyId}'
+  definition: List`1
+  name: List<PlistKeyId>
+  nameWithType: List<PlistKeyId>
+  fullName: List<StansAssets.IOS.XCode.PlistKeyId>
+  nameWithType.vb: List(Of PlistKeyId)
+  fullName.vb: List(Of StansAssets.IOS.XCode.PlistKeyId)
+  name.vb: List(Of PlistKeyId)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.PlistKeyId
+    name: PlistKeyId
+    nameWithType: PlistKeyId
+    fullName: StansAssets.IOS.XCode.PlistKeyId
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.PlistKeyId
+    name: PlistKeyId
+    nameWithType: PlistKeyId
+    fullName: StansAssets.IOS.XCode.PlistKeyId
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{SA_ISOLanguage}
+  commentId: '!:List{SA_ISOLanguage}'
+  definition: List`1
+  name: List<SA_ISOLanguage>
+  nameWithType: List<SA_ISOLanguage>
+  fullName: List<SA_ISOLanguage>
+  nameWithType.vb: List(Of SA_ISOLanguage)
+  fullName.vb: List(Of SA_ISOLanguage)
+  name.vb: List(Of SA_ISOLanguage)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SA_ISOLanguage
+    name: SA_ISOLanguage
+    nameWithType: SA_ISOLanguage
+    fullName: SA_ISOLanguage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SA_ISOLanguage
+    name: SA_ISOLanguage
+    nameWithType: SA_ISOLanguage
+    fullName: SA_ISOLanguage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List{StansAssets.IOS.XCode.XCodeShellScript}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeShellScript}'
+  definition: List`1
+  name: List<XCodeShellScript>
+  nameWithType: List<XCodeShellScript>
+  fullName: List<StansAssets.IOS.XCode.XCodeShellScript>
+  nameWithType.vb: List(Of XCodeShellScript)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeShellScript)
+  name.vb: List(Of XCodeShellScript)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeShellScript
+    name: XCodeShellScript
+    nameWithType: XCodeShellScript
+    fullName: StansAssets.IOS.XCode.XCodeShellScript
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeShellScript
+    name: XCodeShellScript
+    nameWithType: XCodeShellScript
+    fullName: StansAssets.IOS.XCode.XCodeShellScript
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+  name: PostProcessEnabled
+  nameWithType: XCodeProjectSettings.PostProcessEnabled
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.PostProcessEnabled
+- uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
+  commentId: T:StansAssets.IOS.XCode.XCodeCapabilitySettings
+  parent: StansAssets.IOS.XCode
+  name: XCodeCapabilitySettings
+  nameWithType: XCodeCapabilitySettings
+  fullName: StansAssets.IOS.XCode.XCodeCapabilitySettings
+- uid: List{StansAssets.IOS.XCode.XCodeAsset}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeAsset}'
+  definition: List`1
+  name: List<XCodeAsset>
+  nameWithType: List<XCodeAsset>
+  fullName: List<StansAssets.IOS.XCode.XCodeAsset>
+  nameWithType.vb: List(Of XCodeAsset)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeAsset)
+  name.vb: List(Of XCodeAsset)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeAsset
+    name: XCodeAsset
+    nameWithType: XCodeAsset
+    fullName: StansAssets.IOS.XCode.XCodeAsset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeAsset
+    name: XCodeAsset
+    nameWithType: XCodeAsset
+    fullName: StansAssets.IOS.XCode.XCodeAsset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
+  parent: StansAssets.IOS.XCode
+  name: EntitlementsGenerationMode
+  nameWithType: EntitlementsGenerationMode
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
+- uid: Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: Object
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary
+  name: AddVariableToDictionary
+  nameWithType: XCodeProjectSettings.AddVariableToDictionary
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.AddVariableToDictionary
+- uid: StansAssets.IOS.XCode.InfoPlistKey
+  commentId: T:StansAssets.IOS.XCode.InfoPlistKey
+  parent: StansAssets.IOS.XCode
+  name: InfoPlistKey
+  nameWithType: InfoPlistKey
+  fullName: StansAssets.IOS.XCode.InfoPlistKey
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable
+  name: RemoveVariable
+  nameWithType: XCodeProjectSettings.RemoveVariable
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.RemoveVariable
+- uid: IList
+  commentId: '!:IList'
+  isExternal: true
+  name: IList
+  nameWithType: IList
+  fullName: IList
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById
+  name: GetVariableById
+  nameWithType: XCodeProjectSettings.GetVariableById
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.GetVariableById
+- uid: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+  name: BuildProperties
+  nameWithType: XCodeProjectSettings.BuildProperties
+  fullName: StansAssets.IOS.XCode.XCodeProjectSettings.BuildProperties
+- uid: List{StansAssets.IOS.XCode.XCodeProjectProperty}
+  commentId: '!:List{StansAssets.IOS.XCode.XCodeProjectProperty}'
+  definition: List`1
+  name: List<XCodeProjectProperty>
+  nameWithType: List<XCodeProjectProperty>
+  fullName: List<StansAssets.IOS.XCode.XCodeProjectProperty>
+  nameWithType.vb: List(Of XCodeProjectProperty)
+  fullName.vb: List(Of StansAssets.IOS.XCode.XCodeProjectProperty)
+  name.vb: List(Of XCodeProjectProperty)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: StansAssets.IOS.XCode.XCodeProjectProperty
+    name: XCodeProjectProperty
+    nameWithType: XCodeProjectProperty
+    fullName: StansAssets.IOS.XCode.XCodeProjectProperty
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: StansAssets.IOS.XCode.XCodeProjectProperty
+    name: XCodeProjectProperty
+    nameWithType: XCodeProjectProperty
+    fullName: StansAssets.IOS.XCode.XCodeProjectProperty
+  - name: )
+    nameWithType: )
+    fullName: )

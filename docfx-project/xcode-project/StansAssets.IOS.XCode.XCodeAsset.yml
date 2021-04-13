@@ -22,7 +22,7 @@ items:
   source:
     id: XCodeAsset
     path: ''
-    startLine: 2773
+    startLine: 2841
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -39,6 +39,8 @@ items:
       Public Class XCodeAsset
   inheritance:
   - System.Object
+  derivedClasses:
+  - StansAssets.IOS.XCode.XCodeEmbedFramework
   inheritedMembers:
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -71,7 +73,7 @@ items:
   source:
     id: XCodePath
     path: ''
-    startLine: 2776
+    startLine: 2844
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -98,7 +100,7 @@ items:
   source:
     id: Asset
     path: ''
-    startLine: 2777
+    startLine: 2845
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -125,7 +127,7 @@ items:
   source:
     id: FileName
     path: ''
-    startLine: 2779
+    startLine: 2847
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -156,7 +158,7 @@ items:
   source:
     id: RelativeFilePath
     path: ''
-    startLine: 2789
+    startLine: 2857
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -187,7 +189,7 @@ items:
   source:
     id: AbsoluteFilePath
     path: ''
-    startLine: 2800
+    startLine: 2868
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -218,7 +220,7 @@ items:
   source:
     id: XCodeRelativePath
     path: ''
-    startLine: 2811
+    startLine: 2879
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -249,7 +251,7 @@ items:
   source:
     id: IsDirectory
     path: ''
-    startLine: 2813
+    startLine: 2881
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

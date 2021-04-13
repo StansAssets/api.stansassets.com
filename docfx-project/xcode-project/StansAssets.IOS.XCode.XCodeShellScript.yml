@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.XCodeShellScript
+  commentId: T:StansAssets.IOS.XCode.XCodeShellScript
+  id: XCodeShellScript
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.XCodeShellScript.Name
+  - StansAssets.IOS.XCode.XCodeShellScript.Script
+  - StansAssets.IOS.XCode.XCodeShellScript.Shell
+  - StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  langs:
+  - csharp
+  - vb
+  name: XCodeShellScript
+  nameWithType: XCodeShellScript
+  fullName: StansAssets.IOS.XCode.XCodeShellScript
+  type: Class
+  source:
+    id: XCodeShellScript
+    path: ''
+    startLine: 3219
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class XCodeShellScript
+    content.vb: >-
+      <Serializable>
+
+      Public Class XCodeShellScript
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Name
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Name
+  id: Name
+  parent: StansAssets.IOS.XCode.XCodeShellScript
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: XCodeShellScript.Name
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 3222
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Shell
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Shell
+  id: Shell
+  parent: StansAssets.IOS.XCode.XCodeShellScript
+  langs:
+  - csharp
+  - vb
+  name: Shell
+  nameWithType: XCodeShellScript.Shell
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Shell
+  type: Field
+  source:
+    id: Shell
+    path: ''
+    startLine: 3223
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public string Shell
+    return:
+      type: System.String
+    content.vb: Public Shell As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeShellScript.Script
+  commentId: F:StansAssets.IOS.XCode.XCodeShellScript.Script
+  id: Script
+  parent: StansAssets.IOS.XCode.XCodeShellScript
+  langs:
+  - csharp
+  - vb
+  name: Script
+  nameWithType: XCodeShellScript.Script
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.Script
+  type: Field
+  source:
+    id: Script
+    path: ''
+    startLine: 3224
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public string Script
+    return:
+      type: System.String
+    content.vb: Public Script As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  commentId: P:StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  id: ShellScriptPath
+  parent: StansAssets.IOS.XCode.XCodeShellScript
+  langs:
+  - csharp
+  - vb
+  name: ShellScriptPath
+  nameWithType: XCodeShellScript.ShellScriptPath
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  type: Property
+  source:
+    id: ShellScriptPath
+    path: ''
+    startLine: 3226
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public string ShellScriptPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ShellScriptPath As String
+  overload: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath*
+  commentId: Overload:StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath
+  name: ShellScriptPath
+  nameWithType: XCodeShellScript.ShellScriptPath
+  fullName: StansAssets.IOS.XCode.XCodeShellScript.ShellScriptPath

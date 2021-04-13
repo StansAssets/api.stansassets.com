@@ -11,6 +11,8 @@
 - uid: StansAssets.IOS.XCode
   name: StansAssets.IOS.XCode
   items:
+  - uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+    name: EntitlementsGenerationMode
   - uid: StansAssets.IOS.XCode.FrameworkHandler
     name: FrameworkHandler
   - uid: StansAssets.IOS.XCode.InfoPlistKey
@@ -19,6 +21,8 @@
     name: InfoPlistKeyType
   - uid: StansAssets.IOS.XCode.LibraryHandler
     name: LibraryHandler
+  - uid: StansAssets.IOS.XCode.PlistKeyId
+    name: PlistKeyId
   - uid: StansAssets.IOS.XCode.XCodeAsset
     name: XCodeAsset
   - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings
@@ -47,6 +51,8 @@
     name: XCodeCapabilitySettings.PushNotificationsCapability
   - uid: StansAssets.IOS.XCode.XCodeCapabilitySettings.WalletCapability
     name: XCodeCapabilitySettings.WalletCapability
+  - uid: StansAssets.IOS.XCode.XCodeEmbedFramework
+    name: XCodeEmbedFramework
   - uid: StansAssets.IOS.XCode.XCodeFlagType
     name: XCodeFlagType
   - uid: StansAssets.IOS.XCode.XCodeFramework
@@ -65,3 +71,7 @@
     name: XCodeProjectFlag
   - uid: StansAssets.IOS.XCode.XCodeProjectProperty
     name: XCodeProjectProperty
+  - uid: StansAssets.IOS.XCode.XCodeProjectSettings
+    name: XCodeProjectSettings
+  - uid: StansAssets.IOS.XCode.XCodeShellScript
+    name: XCodeShellScript

@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
+  id: EntitlementsGenerationMode
+  parent: StansAssets.IOS.XCode
+  children:
+  - StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  - StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  langs:
+  - csharp
+  - vb
+  name: EntitlementsGenerationMode
+  nameWithType: EntitlementsGenerationMode
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  type: Enum
+  source:
+    id: EntitlementsGenerationMode
+    path: ''
+    startLine: 1402
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: public enum EntitlementsGenerationMode
+    content.vb: Public Enum EntitlementsGenerationMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  commentId: F:StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  id: Automatic
+  parent: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  langs:
+  - csharp
+  - vb
+  name: Automatic
+  nameWithType: EntitlementsGenerationMode.Automatic
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode.Automatic
+  type: Field
+  source:
+    id: Automatic
+    path: ''
+    startLine: 1404
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Automatic = 0
+    return:
+      type: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  commentId: F:StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  id: Manual
+  parent: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: EntitlementsGenerationMode.Manual
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode.Manual
+  type: Field
+  source:
+    id: Manual
+    path: ''
+    startLine: 1405
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.IOS.XCode
+  syntax:
+    content: Manual = 1
+    return:
+      type: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: StansAssets.IOS.XCode
+  commentId: N:StansAssets.IOS.XCode
+  name: StansAssets.IOS.XCode
+  nameWithType: StansAssets.IOS.XCode
+  fullName: StansAssets.IOS.XCode
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
+  parent: StansAssets.IOS.XCode
+  name: EntitlementsGenerationMode
+  nameWithType: EntitlementsGenerationMode
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
