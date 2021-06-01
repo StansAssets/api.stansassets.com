@@ -25,7 +25,7 @@ items:
   source:
     id: BackgroundModesOptions
     path: ''
-    startLine: 2294
+    startLine: 1221
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -52,7 +52,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 2298
+    startLine: 1225
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -80,7 +80,7 @@ items:
   source:
     id: AudioAirplayPiP
     path: ''
-    startLine: 2299
+    startLine: 1226
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -108,7 +108,7 @@ items:
   source:
     id: LocationUpdates
     path: ''
-    startLine: 2300
+    startLine: 1227
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -136,7 +136,7 @@ items:
   source:
     id: VoiceOverIP
     path: ''
-    startLine: 2301
+    startLine: 1228
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -164,7 +164,7 @@ items:
   source:
     id: NewsstandDownloads
     path: ''
-    startLine: 2302
+    startLine: 1229
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -192,7 +192,7 @@ items:
   source:
     id: ExternalAccessoryCommunication
     path: ''
-    startLine: 2303
+    startLine: 1230
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -220,7 +220,7 @@ items:
   source:
     id: UsesBluetoothLEAccessory
     path: ''
-    startLine: 2305
+    startLine: 1232
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -248,7 +248,7 @@ items:
   source:
     id: ActsAsABluetoothLEAccessory
     path: ''
-    startLine: 2307
+    startLine: 1234
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -276,7 +276,7 @@ items:
   source:
     id: BackgroundFetch
     path: ''
-    startLine: 2308
+    startLine: 1235
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -304,7 +304,7 @@ items:
   source:
     id: RemoteNotifications
     path: ''
-    startLine: 2309
+    startLine: 1236
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

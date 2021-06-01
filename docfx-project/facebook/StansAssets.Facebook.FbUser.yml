@@ -29,7 +29,7 @@ items:
   source:
     id: FbUser
     path: ''
-    startLine: 1373
+    startLine: 256
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -68,7 +68,7 @@ items:
   source:
     id: Id
     path: ''
-    startLine: 1378
+    startLine: 261
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -101,7 +101,7 @@ items:
   source:
     id: Birthday
     path: ''
-    startLine: 1383
+    startLine: 266
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -134,7 +134,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1388
+    startLine: 271
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -167,7 +167,7 @@ items:
   source:
     id: FirstName
     path: ''
-    startLine: 1393
+    startLine: 276
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -200,7 +200,7 @@ items:
   source:
     id: LastName
     path: ''
-    startLine: 1398
+    startLine: 281
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -233,7 +233,7 @@ items:
   source:
     id: ProfileUrl
     path: ''
-    startLine: 1404
+    startLine: 287
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -266,7 +266,7 @@ items:
   source:
     id: Email
     path: ''
-    startLine: 1410
+    startLine: 293
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -299,7 +299,7 @@ items:
   source:
     id: Location
     path: ''
-    startLine: 1415
+    startLine: 298
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -332,7 +332,7 @@ items:
   source:
     id: Gender
     path: ''
-    startLine: 1423
+    startLine: 306
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -365,7 +365,7 @@ items:
   source:
     id: RawGenderString
     path: ''
-    startLine: 1428
+    startLine: 311
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -398,7 +398,7 @@ items:
   source:
     id: AgeRange
     path: ''
-    startLine: 1433
+    startLine: 316
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -431,7 +431,7 @@ items:
   source:
     id: PictureUrl
     path: ''
-    startLine: 1438
+    startLine: 321
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -464,7 +464,7 @@ items:
   source:
     id: GetProfileUrl
     path: ''
-    startLine: 1452
+    startLine: 335
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -502,7 +502,7 @@ items:
   source:
     id: GetProfileImage
     path: ''
-    startLine: 1472
+    startLine: 355
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

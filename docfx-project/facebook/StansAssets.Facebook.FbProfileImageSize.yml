@@ -19,7 +19,7 @@ items:
   source:
     id: FbProfileImageSize
     path: ''
-    startLine: 328
+    startLine: 739
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -46,7 +46,7 @@ items:
   source:
     id: Large
     path: ''
-    startLine: 333
+    startLine: 744
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -76,7 +76,7 @@ items:
   source:
     id: Normal
     path: ''
-    startLine: 338
+    startLine: 749
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -106,7 +106,7 @@ items:
   source:
     id: Small
     path: ''
-    startLine: 343
+    startLine: 754
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -136,7 +136,7 @@ items:
   source:
     id: Square
     path: ''
-    startLine: 348
+    startLine: 759
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

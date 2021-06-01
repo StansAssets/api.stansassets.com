@@ -17,7 +17,7 @@ items:
   source:
     id: SpreadsheetExtension
     path: ''
-    startLine: 3864
+    startLine: 2381
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -56,7 +56,7 @@ items:
   source:
     id: InitFromCache
     path: ''
-    startLine: 3866
+    startLine: 2383
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
@@ -91,7 +91,7 @@ items:
   source:
     id: CleanUpLocalCache
     path: ''
-    startLine: 3884
+    startLine: 2401
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.GoogleDoc
