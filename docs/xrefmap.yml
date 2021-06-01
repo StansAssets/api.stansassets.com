@@ -5852,6 +5852,12 @@ references:
   commentId: F:SA.Android.Editor.AN_BinaryDependency.BillingClient
   fullName: SA.Android.Editor.AN_BinaryDependency.BillingClient
   nameWithType: AN_BinaryDependency.BillingClient
+- uid: SA.Android.Editor.AN_BinaryDependency.Exifinterface
+  name: Exifinterface
+  href: android-native/SA.Android.Editor.AN_BinaryDependency.html#SA_Android_Editor_AN_BinaryDependency_Exifinterface
+  commentId: F:SA.Android.Editor.AN_BinaryDependency.Exifinterface
+  fullName: SA.Android.Editor.AN_BinaryDependency.Exifinterface
+  nameWithType: AN_BinaryDependency.Exifinterface
 - uid: SA.Android.Editor.AN_BinaryDependency.GSON
   name: GSON
   href: android-native/SA.Android.Editor.AN_BinaryDependency.html#SA_Android_Editor_AN_BinaryDependency_GSON
