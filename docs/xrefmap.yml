@@ -2059,15 +2059,6 @@ references:
   fullName.vb: SA.Android.Camera.AN_Camera.CaptureImage(Action(Of SA.Android.Camera.AN_CameraCaptureResult))
   nameWithType: AN_Camera.CaptureImage(Action<AN_CameraCaptureResult>)
   nameWithType.vb: AN_Camera.CaptureImage(Action(Of AN_CameraCaptureResult))
-- uid: SA.Android.Camera.AN_Camera.CaptureImage(System.Int32,Action{SA.Android.Camera.AN_CameraCaptureResult})
-  name: CaptureImage(Int32, Action<AN_CameraCaptureResult>)
-  href: android-native/SA.Android.Camera.AN_Camera.html#SA_Android_Camera_AN_Camera_CaptureImage_System_Int32_Action_SA_Android_Camera_AN_CameraCaptureResult__
-  commentId: M:SA.Android.Camera.AN_Camera.CaptureImage(System.Int32,Action{SA.Android.Camera.AN_CameraCaptureResult})
-  name.vb: CaptureImage(Int32, Action(Of AN_CameraCaptureResult))
-  fullName: SA.Android.Camera.AN_Camera.CaptureImage(System.Int32, Action<SA.Android.Camera.AN_CameraCaptureResult>)
-  fullName.vb: SA.Android.Camera.AN_Camera.CaptureImage(System.Int32, Action(Of SA.Android.Camera.AN_CameraCaptureResult))
-  nameWithType: AN_Camera.CaptureImage(Int32, Action<AN_CameraCaptureResult>)
-  nameWithType.vb: AN_Camera.CaptureImage(Int32, Action(Of AN_CameraCaptureResult))
 - uid: SA.Android.Camera.AN_Camera.CaptureImage*
   name: CaptureImage
   href: android-native/SA.Android.Camera.AN_Camera.html#SA_Android_Camera_AN_Camera_CaptureImage_
@@ -2084,15 +2075,6 @@ references:
   fullName.vb: SA.Android.Camera.AN_Camera.CaptureVideo(Action(Of SA.Android.Camera.AN_CameraCaptureResult))
   nameWithType: AN_Camera.CaptureVideo(Action<AN_CameraCaptureResult>)
   nameWithType.vb: AN_Camera.CaptureVideo(Action(Of AN_CameraCaptureResult))
-- uid: SA.Android.Camera.AN_Camera.CaptureVideo(System.Int32,Action{SA.Android.Camera.AN_CameraCaptureResult})
-  name: CaptureVideo(Int32, Action<AN_CameraCaptureResult>)
-  href: android-native/SA.Android.Camera.AN_Camera.html#SA_Android_Camera_AN_Camera_CaptureVideo_System_Int32_Action_SA_Android_Camera_AN_CameraCaptureResult__
-  commentId: M:SA.Android.Camera.AN_Camera.CaptureVideo(System.Int32,Action{SA.Android.Camera.AN_CameraCaptureResult})
-  name.vb: CaptureVideo(Int32, Action(Of AN_CameraCaptureResult))
-  fullName: SA.Android.Camera.AN_Camera.CaptureVideo(System.Int32, Action<SA.Android.Camera.AN_CameraCaptureResult>)
-  fullName.vb: SA.Android.Camera.AN_Camera.CaptureVideo(System.Int32, Action(Of SA.Android.Camera.AN_CameraCaptureResult))
-  nameWithType: AN_Camera.CaptureVideo(Int32, Action<AN_CameraCaptureResult>)
-  nameWithType.vb: AN_Camera.CaptureVideo(Int32, Action(Of AN_CameraCaptureResult))
 - uid: SA.Android.Camera.AN_Camera.CaptureVideo*
   name: CaptureVideo
   href: android-native/SA.Android.Camera.AN_Camera.html#SA_Android_Camera_AN_Camera_CaptureVideo_
