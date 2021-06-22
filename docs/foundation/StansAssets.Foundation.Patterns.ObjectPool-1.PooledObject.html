@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct ObjectPool&lt;T&gt;.PooledObject
    ">
-    <meta name="generator" content="docfx 2.57.2.0">
+    <meta name="generator" content="docfx 2.58.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,7 +105,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct PooledObject : IDisposable, IEquatable&lt;ObjectPool&lt;T&gt;.PooledObject&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly struct PooledObject : IDisposable, IEquatable&lt;ObjectPool&lt;T&gt;.PooledObject&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -152,7 +152,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(ObjectPool&lt;T&gt;.PooledObject other)</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(ObjectPool&lt;T&gt;.PooledObject other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,7 +194,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +238,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -267,7 +267,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void IDisposable.Dispose()</code></pre>
+    <pre><code class="lang-csharp hljs">readonly void IDisposable.Dispose()</code></pre>
   </div>
   <h3 id="implements">Implements</h3>
   <div>

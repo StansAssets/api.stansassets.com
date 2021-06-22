@@ -7,7 +7,7 @@ items:
   children:
   - StansAssets.Build.Editor.IBuildTask.Name
   - StansAssets.Build.Editor.IBuildTask.OnBuildFinished
-  - StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
+  - StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
   - StansAssets.Build.Editor.IBuildTask.OnPostprocessScene(Scene)
   - StansAssets.Build.Editor.IBuildTask.Priority
   - StansAssets.Build.Editor.IBuildTask.SetContext(StansAssets.Build.Editor.IBuildContext)
@@ -90,16 +90,16 @@ items:
       type: Scene
     content.vb: Sub OnPostprocessScene(scene As Scene)
   overload: StansAssets.Build.Editor.IBuildTask.OnPostprocessScene*
-- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
-  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
-  id: OnPostprocessGameObject(GameObject,System.Collections.Generic.List{Component})
+- uid: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  commentId: M:StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject,List{Component})
+  id: OnPostprocessGameObject(GameObject,List{Component})
   parent: StansAssets.Build.Editor.IBuildTask
   langs:
   - csharp
   - vb
   name: OnPostprocessGameObject(GameObject, List<Component>)
   nameWithType: IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
-  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, System.Collections.Generic.List<Component>)
+  fullName: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List<Component>)
   type: Method
   source:
     id: OnPostprocessGameObject
@@ -117,12 +117,12 @@ items:
       type: GameObject
       description: root GameObject
     - id: components
-      type: System.Collections.Generic.List{Component}
+      type: List{Component}
       description: components on object
     content.vb: Sub OnPostprocessGameObject(go As GameObject, components As List(Of Component))
   overload: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject*
   nameWithType.vb: IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
-  fullName.vb: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, System.Collections.Generic.List(Of Component))
+  fullName.vb: StansAssets.Build.Editor.IBuildTask.OnPostprocessGameObject(GameObject, List(Of Component))
   name.vb: OnPostprocessGameObject(GameObject, List(Of Component))
 - uid: StansAssets.Build.Editor.IBuildTask.OnBuildFinished
   commentId: M:StansAssets.Build.Editor.IBuildTask.OnBuildFinished
@@ -249,21 +249,20 @@ references:
   name: GameObject
   nameWithType: GameObject
   fullName: GameObject
-- uid: System.Collections.Generic.List{Component}
-  commentId: T:System.Collections.Generic.List{Component}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.List`1
+- uid: List{Component}
+  commentId: '!:List{Component}'
+  definition: List`1
   name: List<Component>
   nameWithType: List<Component>
-  fullName: System.Collections.Generic.List<Component>
+  fullName: List<Component>
   nameWithType.vb: List(Of Component)
-  fullName.vb: System.Collections.Generic.List(Of Component)
+  fullName.vb: List(Of Component)
   name.vb: List(Of Component)
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: List`1
     name: List
     nameWithType: List
-    fullName: System.Collections.Generic.List
+    fullName: List
     isExternal: true
   - name: <
     nameWithType: <
@@ -277,10 +276,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: List`1
     name: List
     nameWithType: List
-    fullName: System.Collections.Generic.List
+    fullName: List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
@@ -293,51 +292,45 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic.List`1
-  commentId: T:System.Collections.Generic.List`1
+- uid: List`1
+  commentId: '!:List`1'
   isExternal: true
-  name: List<T>
-  nameWithType: List<T>
-  fullName: System.Collections.Generic.List<T>
-  nameWithType.vb: List(Of T)
-  fullName.vb: System.Collections.Generic.List(Of T)
-  name.vb: List(Of T)
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
   spec.csharp:
-  - uid: System.Collections.Generic.List`1
+  - uid: List`1
     name: List
     nameWithType: List
-    fullName: System.Collections.Generic.List
+    fullName: List
     isExternal: true
   - name: <
     nameWithType: <
     fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: '>'
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: System.Collections.Generic.List`1
+  - uid: List`1
     name: List
     nameWithType: List
-    fullName: System.Collections.Generic.List
+    fullName: List
     isExternal: true
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
+  - name: ''
+    nameWithType: ''
+    fullName: ''
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
 - uid: StansAssets.Build.Editor.IBuildTask.OnBuildFinished*
   commentId: Overload:StansAssets.Build.Editor.IBuildTask.OnBuildFinished
   name: OnBuildFinished
