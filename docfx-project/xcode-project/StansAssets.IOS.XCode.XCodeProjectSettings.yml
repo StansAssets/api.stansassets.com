@@ -36,7 +36,7 @@ items:
   source:
     id: XCodeProjectSettings
     path: ''
-    startLine: 2660
+    startLine: 1262
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -69,7 +69,7 @@ items:
   source:
     id: PackageName
     path: ''
-    startLine: 2665
+    startLine: 1267
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -104,7 +104,7 @@ items:
   source:
     id: IsEditorOnly
     path: ''
-    startLine: 2666
+    startLine: 1268
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -137,7 +137,7 @@ items:
   source:
     id: DefaultEntitlementsFileName
     path: ''
-    startLine: 2667
+    startLine: 1269
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -166,7 +166,7 @@ items:
   source:
     id: CfLocalizationsPlistKey
     path: ''
-    startLine: 2668
+    startLine: 1270
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -195,7 +195,7 @@ items:
   source:
     id: Frameworks
     path: ''
-    startLine: 2674
+    startLine: 1276
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -224,7 +224,7 @@ items:
   source:
     id: EmbededFrameworks
     path: ''
-    startLine: 2678
+    startLine: 1280
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -253,7 +253,7 @@ items:
   source:
     id: Libraries
     path: ''
-    startLine: 2682
+    startLine: 1284
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -282,7 +282,7 @@ items:
   source:
     id: Flags
     path: ''
-    startLine: 2686
+    startLine: 1288
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -311,7 +311,7 @@ items:
   source:
     id: PlistVariables
     path: ''
-    startLine: 2690
+    startLine: 1292
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -340,7 +340,7 @@ items:
   source:
     id: VariableDictionary
     path: ''
-    startLine: 2694
+    startLine: 1296
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -369,7 +369,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 2698
+    startLine: 1300
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -398,7 +398,7 @@ items:
   source:
     id: ShellScripts
     path: ''
-    startLine: 2702
+    startLine: 1304
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -427,7 +427,7 @@ items:
   source:
     id: PostProcessEnabled
     path: ''
-    startLine: 2710
+    startLine: 1312
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -462,7 +462,7 @@ items:
   source:
     id: Capability
     path: ''
-    startLine: 2724
+    startLine: 1326
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -491,7 +491,7 @@ items:
   source:
     id: Files
     path: ''
-    startLine: 2728
+    startLine: 1330
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -520,7 +520,7 @@ items:
   source:
     id: EntitlementsMode
     path: ''
-    startLine: 2729
+    startLine: 1331
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -547,7 +547,7 @@ items:
   source:
     id: EntitlementsFile
     path: ''
-    startLine: 2730
+    startLine: 1332
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -574,7 +574,7 @@ items:
   source:
     id: AddVariableToDictionary
     path: ''
-    startLine: 2741
+    startLine: 1343
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -609,7 +609,7 @@ items:
   source:
     id: RemoveVariable
     path: ''
-    startLine: 2754
+    startLine: 1356
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -644,7 +644,7 @@ items:
   source:
     id: GetVariableById
     path: ''
-    startLine: 2809
+    startLine: 1411
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -679,7 +679,7 @@ items:
   source:
     id: BuildProperties
     path: ''
-    startLine: 2824
+    startLine: 1426
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

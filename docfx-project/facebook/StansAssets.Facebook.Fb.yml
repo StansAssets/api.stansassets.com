@@ -32,7 +32,7 @@ items:
   source:
     id: Fb
     path: ''
-    startLine: 594
+    startLine: 1292
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -70,7 +70,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 610
+    startLine: 1308
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -110,7 +110,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 645
+    startLine: 1343
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -174,7 +174,7 @@ items:
   source:
     id: LogInWithPublishPermissions
     path: ''
-    startLine: 667
+    startLine: 1365
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -211,7 +211,7 @@ items:
   source:
     id: LogInWithPublishPermissions
     path: ''
-    startLine: 686
+    startLine: 1384
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -251,7 +251,7 @@ items:
   source:
     id: LogInWithReadPermissions
     path: ''
-    startLine: 702
+    startLine: 1400
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -288,7 +288,7 @@ items:
   source:
     id: LogInWithReadPermissions
     path: ''
-    startLine: 719
+    startLine: 1417
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -328,7 +328,7 @@ items:
   source:
     id: GetLoggedInUserInfo
     path: ''
-    startLine: 750
+    startLine: 1448
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -365,7 +365,7 @@ items:
   source:
     id: LogOut
     path: ''
-    startLine: 764
+    startLine: 1462
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -395,7 +395,7 @@ items:
   source:
     id: API
     path: ''
-    startLine: 782
+    startLine: 1480
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -435,7 +435,7 @@ items:
   source:
     id: GetFriends
     path: ''
-    startLine: 798
+    startLine: 1496
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -477,7 +477,7 @@ items:
   source:
     id: ActivateApp
     path: ''
-    startLine: 807
+    startLine: 1505
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -507,7 +507,7 @@ items:
   source:
     id: IsLoggedIn
     path: ''
-    startLine: 812
+    startLine: 1510
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -542,7 +542,7 @@ items:
   source:
     id: IsInitialized
     path: ''
-    startLine: 817
+    startLine: 1515
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -577,7 +577,7 @@ items:
   source:
     id: FbGraphApi
     path: ''
-    startLine: 822
+    startLine: 1520
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -612,7 +612,7 @@ items:
   source:
     id: AccessToken
     path: ''
-    startLine: 828
+    startLine: 1526
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -647,7 +647,7 @@ items:
   source:
     id: AccessTokenString
     path: ''
-    startLine: 834
+    startLine: 1532
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -682,7 +682,7 @@ items:
   source:
     id: ClientToken
     path: ''
-    startLine: 840
+    startLine: 1538
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

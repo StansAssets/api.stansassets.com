@@ -19,7 +19,7 @@ items:
   source:
     id: BuildSettings
     path: ''
-    startLine: 1118
+    startLine: 1094
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -56,7 +56,7 @@ items:
   source:
     id: AddData
     path: ''
-    startLine: 1122
+    startLine: 1098
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -87,7 +87,7 @@ items:
   source:
     id: AddData
     path: ''
-    startLine: 1127
+    startLine: 1103
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -123,7 +123,7 @@ items:
   source:
     id: TryGetData
     path: ''
-    startLine: 1132
+    startLine: 1108
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -159,7 +159,7 @@ items:
   source:
     id: TryGetData
     path: ''
-    startLine: 1137
+    startLine: 1113
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
