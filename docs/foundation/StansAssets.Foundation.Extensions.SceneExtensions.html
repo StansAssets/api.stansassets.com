@@ -177,14 +177,14 @@ A component is returned only if it is found on an active GameObject.</p>
   
   
   <a id="StansAssets_Foundation_Extensions_SceneExtensions_GetComponentInChildren_" data-uid="StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_SceneExtensions_GetComponentInChildren__1_Scene_" data-uid="StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren``1(Scene)">GetComponentInChildren&lt;T&gt;(Scene)</h4>
+  <h4 id="StansAssets_Foundation_Extensions_SceneExtensions_GetComponentInChildren__1_Scene_System_Boolean_" data-uid="StansAssets.Foundation.Extensions.SceneExtensions.GetComponentInChildren``1(Scene,System.Boolean)">GetComponentInChildren&lt;T&gt;(Scene, Boolean)</h4>
   <div class="markdown level1 summary"><p>Returns the component of Type <code>type</code> in the located on scene root GameObject or any of its children using depth first search.
 A component is returned only if it is found on an active GameObject.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T GetComponentInChildren&lt;T&gt;(this Scene scene)
+    <pre><code class="lang-csharp hljs">public static T GetComponentInChildren&lt;T&gt;(this Scene scene, bool includeInactive = false)
     where T : class</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -201,6 +201,12 @@ A component is returned only if it is found on an active GameObject.</p>
         <td><span class="xref">Scene</span></td>
         <td><span class="parametername">scene</span></td>
         <td><p>Scene to operate with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">includeInactive</span></td>
+        <td><p>Should Components on inactive GameObjects be included in the found set?</p>
 </td>
       </tr>
     </tbody>
