@@ -34953,6 +34953,41 @@ references:
   fullName.vb: StansAssets.Foundation.Patterns.CollectionPool(Of TCollection, TItem).Release
   nameWithType: CollectionPool<TCollection, TItem>.Release
   nameWithType.vb: CollectionPool(Of TCollection, TItem).Release
+- uid: StansAssets.Foundation.Patterns.ComponentPool`1
+  name: ComponentPool<T>
+  href: foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html
+  commentId: T:StansAssets.Foundation.Patterns.ComponentPool`1
+  name.vb: ComponentPool(Of T)
+  fullName: StansAssets.Foundation.Patterns.ComponentPool<T>
+  fullName.vb: StansAssets.Foundation.Patterns.ComponentPool(Of T)
+  nameWithType: ComponentPool<T>
+  nameWithType.vb: ComponentPool(Of T)
+- uid: StansAssets.Foundation.Patterns.ComponentPool`1.#ctor(GameObject,System.Action{`0},System.Action{`0},System.Int32)
+  name: ComponentPool(GameObject, Action<T>, Action<T>, Int32)
+  href: foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html#StansAssets_Foundation_Patterns_ComponentPool_1__ctor_GameObject_System_Action__0__System_Action__0__System_Int32_
+  commentId: M:StansAssets.Foundation.Patterns.ComponentPool`1.#ctor(GameObject,System.Action{`0},System.Action{`0},System.Int32)
+  name.vb: ComponentPool(GameObject, Action(Of T), Action(Of T), Int32)
+  fullName: StansAssets.Foundation.Patterns.ComponentPool<T>.ComponentPool(GameObject, System.Action<T>, System.Action<T>, System.Int32)
+  fullName.vb: StansAssets.Foundation.Patterns.ComponentPool(Of T).ComponentPool(GameObject, System.Action(Of T), System.Action(Of T), System.Int32)
+  nameWithType: ComponentPool<T>.ComponentPool(GameObject, Action<T>, Action<T>, Int32)
+  nameWithType.vb: ComponentPool(Of T).ComponentPool(GameObject, Action(Of T), Action(Of T), Int32)
+- uid: StansAssets.Foundation.Patterns.ComponentPool`1.#ctor(GameObject,System.Int32)
+  name: ComponentPool(GameObject, Int32)
+  href: foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html#StansAssets_Foundation_Patterns_ComponentPool_1__ctor_GameObject_System_Int32_
+  commentId: M:StansAssets.Foundation.Patterns.ComponentPool`1.#ctor(GameObject,System.Int32)
+  fullName: StansAssets.Foundation.Patterns.ComponentPool<T>.ComponentPool(GameObject, System.Int32)
+  fullName.vb: StansAssets.Foundation.Patterns.ComponentPool(Of T).ComponentPool(GameObject, System.Int32)
+  nameWithType: ComponentPool<T>.ComponentPool(GameObject, Int32)
+  nameWithType.vb: ComponentPool(Of T).ComponentPool(GameObject, Int32)
+- uid: StansAssets.Foundation.Patterns.ComponentPool`1.#ctor*
+  name: ComponentPool
+  href: foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html#StansAssets_Foundation_Patterns_ComponentPool_1__ctor_
+  commentId: Overload:StansAssets.Foundation.Patterns.ComponentPool`1.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Patterns.ComponentPool<T>.ComponentPool
+  fullName.vb: StansAssets.Foundation.Patterns.ComponentPool(Of T).ComponentPool
+  nameWithType: ComponentPool<T>.ComponentPool
+  nameWithType.vb: ComponentPool(Of T).ComponentPool
 - uid: StansAssets.Foundation.Patterns.DefaultPool`1
   name: DefaultPool<T>
   href: foundation/StansAssets.Foundation.Patterns.DefaultPool-1.html

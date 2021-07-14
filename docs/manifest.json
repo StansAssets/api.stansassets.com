@@ -3772,6 +3772,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Patterns.ComponentPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html",
+          "hash": "v4UW+JgKc1PbOwIKCVRtmckyn73LAqPO1Qyk2SrZJTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Patterns.DefaultPool-1.yml",
       "output": {
         ".html": {
@@ -3908,7 +3920,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html",
-          "hash": "ohJRwve9u+7sVbm7VS3J7tzjdL/akLw7EhWwUO6EkYI="
+          "hash": "Oh+DZ5cYLN6OzgkbE56/EoqKyKQiNhbFWNOLMM67iTM="
         }
       },
       "is_incremental": false,
@@ -3968,7 +3980,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.html",
-          "hash": "pl3OIvudM41EfyzmpcdiLCntoC+VNNvqB07tJpTjUkA="
+          "hash": "N2dWYbNBf0N6Hp+Ucu61IkQRZU02s9EhhHgW6azVzw8="
         }
       },
       "is_incremental": false,
@@ -4112,7 +4124,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "5MserjhTf+UqDFzZrRI7hVexdM/LRzXkfz2zdFPz8r8="
+          "hash": "SlSEVcisUwRkfE2ngtItXdg1wonUCy2ka0fFq9CRWtI="
         }
       },
       "is_incremental": false,
@@ -9157,7 +9169,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 735,
+          "total_file_count": 736,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
