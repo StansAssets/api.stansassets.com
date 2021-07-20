@@ -3580,6 +3580,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "foundation/StansAssets.Foundation.Extensions.TextureExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "foundation/StansAssets.Foundation.Extensions.TextureExtensions.html",
+          "hash": "oNvV21YGQh2332K0uiG2Od7nUT2GEWOPP72sUNnAH7Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "foundation/StansAssets.Foundation.Extensions.TransformExtensions.yml",
       "output": {
         ".html": {
@@ -3620,7 +3632,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
-          "hash": "yIBFcGc9UP7LE7XhYzwWXeTfFCcViDti/kaRrQA+Vmk="
+          "hash": "tGC0JTe7fTyfSMLMln8lkf2pJVsGBsou/aPPRI0wYQ4="
         }
       },
       "is_incremental": false,
@@ -4124,7 +4136,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/toc.html",
-          "hash": "SlSEVcisUwRkfE2ngtItXdg1wonUCy2ka0fFq9CRWtI="
+          "hash": "+R8oMixWo/K9UvB6hBioIy+tHPZKFCEOQB78o5v/62Q="
         }
       },
       "is_incremental": false,
@@ -6799,7 +6811,7 @@
       "output": {
         ".html": {
           "relative_path": "ios-native/SA.iOS.UIKit.ISN_UICalendar.html",
-          "hash": "IfqAMMFk2cHFQogAwY5pFxs2RzhI8Fzu1VcjsR7qLmw="
+          "hash": "DWk4m84MSd4+dzG5eAl8nqNvgU6DZ24yWytV8tNLF7M="
         }
       },
       "is_incremental": false,
@@ -8470,7 +8482,7 @@
       "output": {
         ".html": {
           "relative_path": "ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html",
-          "hash": "afmi4EC2aWCCmKb3TGWLTZsJZtLz+huND/Zb7w03wfA="
+          "hash": "YskQn0xOqjqun7Om0bn4Y+RGcalzS7yQxWPlQWoufUw="
         }
       },
       "is_incremental": false,
@@ -9169,7 +9181,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 736,
+          "total_file_count": 737,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

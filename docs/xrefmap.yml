@@ -17492,12 +17492,12 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_DatePickerDialog
   fullName: SA.CrossPlatform.UI.UM_DatePickerDialog
   nameWithType: UM_DatePickerDialog
-- uid: SA.CrossPlatform.UI.UM_DatePickerDialog.#ctor(System.Int32)
-  name: UM_DatePickerDialog(Int32)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html#SA_CrossPlatform_UI_UM_DatePickerDialog__ctor_System_Int32_
-  commentId: M:SA.CrossPlatform.UI.UM_DatePickerDialog.#ctor(System.Int32)
-  fullName: SA.CrossPlatform.UI.UM_DatePickerDialog.UM_DatePickerDialog(System.Int32)
-  nameWithType: UM_DatePickerDialog.UM_DatePickerDialog(Int32)
+- uid: SA.CrossPlatform.UI.UM_DatePickerDialog.#ctor(System.Int32,System.Int32,System.Boolean)
+  name: UM_DatePickerDialog(Int32, Int32, Boolean)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html#SA_CrossPlatform_UI_UM_DatePickerDialog__ctor_System_Int32_System_Int32_System_Boolean_
+  commentId: M:SA.CrossPlatform.UI.UM_DatePickerDialog.#ctor(System.Int32,System.Int32,System.Boolean)
+  fullName: SA.CrossPlatform.UI.UM_DatePickerDialog.UM_DatePickerDialog(System.Int32, System.Int32, System.Boolean)
+  nameWithType: UM_DatePickerDialog.UM_DatePickerDialog(Int32, Int32, Boolean)
 - uid: SA.CrossPlatform.UI.UM_DatePickerDialog.#ctor*
   name: UM_DatePickerDialog
   href: ultimate-mobile/SA.CrossPlatform.UI.UM_DatePickerDialog.html#SA_CrossPlatform_UI_UM_DatePickerDialog__ctor_
@@ -27922,6 +27922,15 @@ references:
   fullName.vb: SA.iOS.UIKit.ISN_UICalendar.PickDate(Action(Of DateTime), System.Int32)
   nameWithType: ISN_UICalendar.PickDate(Action<DateTime>, Int32)
   nameWithType.vb: ISN_UICalendar.PickDate(Action(Of DateTime), Int32)
+- uid: SA.iOS.UIKit.ISN_UICalendar.PickDate(System.Int32,System.Int32,System.Boolean,Action{DateTime})
+  name: PickDate(Int32, Int32, Boolean, Action<DateTime>)
+  href: ios-native/SA.iOS.UIKit.ISN_UICalendar.html#SA_iOS_UIKit_ISN_UICalendar_PickDate_System_Int32_System_Int32_System_Boolean_Action_DateTime__
+  commentId: M:SA.iOS.UIKit.ISN_UICalendar.PickDate(System.Int32,System.Int32,System.Boolean,Action{DateTime})
+  name.vb: PickDate(Int32, Int32, Boolean, Action(Of DateTime))
+  fullName: SA.iOS.UIKit.ISN_UICalendar.PickDate(System.Int32, System.Int32, System.Boolean, Action<DateTime>)
+  fullName.vb: SA.iOS.UIKit.ISN_UICalendar.PickDate(System.Int32, System.Int32, System.Boolean, Action(Of DateTime))
+  nameWithType: ISN_UICalendar.PickDate(Int32, Int32, Boolean, Action<DateTime>)
+  nameWithType.vb: ISN_UICalendar.PickDate(Int32, Int32, Boolean, Action(Of DateTime))
 - uid: SA.iOS.UIKit.ISN_UICalendar.PickDate*
   name: PickDate
   href: ios-native/SA.iOS.UIKit.ISN_UICalendar.html#SA_iOS_UIKit_ISN_UICalendar_PickDate_
@@ -34302,6 +34311,25 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.Texture2DExtensions.ToBase64
   nameWithType: Texture2DExtensions.ToBase64
+- uid: StansAssets.Foundation.Extensions.TextureExtensions
+  name: TextureExtensions
+  href: foundation/StansAssets.Foundation.Extensions.TextureExtensions.html
+  commentId: T:StansAssets.Foundation.Extensions.TextureExtensions
+  fullName: StansAssets.Foundation.Extensions.TextureExtensions
+  nameWithType: TextureExtensions
+- uid: StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D(Texture)
+  name: ToTexture2D(Texture)
+  href: foundation/StansAssets.Foundation.Extensions.TextureExtensions.html#StansAssets_Foundation_Extensions_TextureExtensions_ToTexture2D_Texture_
+  commentId: M:StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D(Texture)
+  fullName: StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D(Texture)
+  nameWithType: TextureExtensions.ToTexture2D(Texture)
+- uid: StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D*
+  name: ToTexture2D
+  href: foundation/StansAssets.Foundation.Extensions.TextureExtensions.html#StansAssets_Foundation_Extensions_TextureExtensions_ToTexture2D_
+  commentId: Overload:StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.TextureExtensions.ToTexture2D
+  nameWithType: TextureExtensions.ToTexture2D
 - uid: StansAssets.Foundation.Extensions.TransformExtensions
   name: TransformExtensions
   href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html

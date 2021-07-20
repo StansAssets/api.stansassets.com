@@ -146,6 +146,53 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="SA_iOS_UIKit_ISN_UICalendar_PickDate_" data-uid="SA.iOS.UIKit.ISN_UICalendar.PickDate*"></a>
+  <h4 id="SA_iOS_UIKit_ISN_UICalendar_PickDate_System_Int32_System_Int32_System_Boolean_Action_DateTime__" data-uid="SA.iOS.UIKit.ISN_UICalendar.PickDate(System.Int32,System.Int32,System.Boolean,Action{DateTime})">PickDate(Int32, Int32, Boolean, Action&lt;DateTime&gt;)</h4>
+  <div class="markdown level1 summary"><p>Allows user to pick date using the native iOS calender view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PickDate(int startFromYear, int endYear, bool isStartsFromSunday, Action&lt;DateTime&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">startFromYear</span></td>
+        <td><p>Year the calendar will start from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">endYear</span></td>
+        <td><p>Year the calendar will start end.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isStartsFromSunday</span></td>
+        <td><p>Set is Sunday should ne first day of the week or not.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">DateTime</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>Callback with picked date once user is finished.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
