@@ -215,13 +215,13 @@
   
   
   <a id="StansAssets_Foundation_Extensions_TransformExtensions_Reset_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Reset*"></a>
-  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_Reset_Transform_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)">Reset(Transform)</h4>
+  <h4 id="StansAssets_Foundation_Extensions_TransformExtensions_Reset_Transform_Space_" data-uid="StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform,Space)">Reset(Transform, Space)</h4>
   <div class="markdown level1 summary"><p>Reset <see cref="!:Transform"></see> component position, scale and rotation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Reset(this Transform transform)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void Reset(this Transform transform, Space relativeTo = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,6 +237,15 @@
         <td><span class="xref">Transform</span></td>
         <td><span class="parametername">transform</span></td>
         <td><p>Transform component.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Space</span></td>
+        <td><span class="parametername">relativeTo</span></td>
+        <td><p>Space enum the Reset method relative to.
+Space.Self (default value) resets local space values.
+Space.World resets absolute world space values.
+Using World space may cause visual deformations, which depends on a parent&apos;s scale</p>
 </td>
       </tr>
     </tbody>

@@ -34362,12 +34362,12 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild
   nameWithType: TransformExtensions.FindOrCreateChild
-- uid: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
-  name: Reset(Transform)
-  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_Reset_Transform_
-  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
-  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform)
-  nameWithType: TransformExtensions.Reset(Transform)
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform,Space)
+  name: Reset(Transform, Space)
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_Reset_Transform_Space_
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform,Space)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.Reset(Transform, Space)
+  nameWithType: TransformExtensions.Reset(Transform, Space)
 - uid: StansAssets.Foundation.Extensions.TransformExtensions.Reset*
   name: Reset
   href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_Reset_
