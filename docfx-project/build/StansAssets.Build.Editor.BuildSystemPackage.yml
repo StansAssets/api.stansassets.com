@@ -7,6 +7,7 @@ items:
   children:
   - StansAssets.Build.Editor.BuildSystemPackage.DisplayName
   - StansAssets.Build.Editor.BuildSystemPackage.Info
+  - StansAssets.Build.Editor.BuildSystemPackage.PackageName
   - StansAssets.Build.Editor.BuildSystemPackage.RootPath
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   source:
     id: BuildSystemPackage
     path: ''
-    startLine: 1566
+    startLine: 71
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -44,6 +45,37 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  id: PackageName
+  parent: StansAssets.Build.Editor.BuildSystemPackage
+  langs:
+  - csharp
+  - vb
+  name: PackageName
+  nameWithType: BuildSystemPackage.PackageName
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  type: Field
+  source:
+    id: PackageName
+    path: ''
+    startLine: 76
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  summary: "\nThe package name.\n"
+  example: []
+  syntax:
+    content: public const string PackageName = "com.stansassets.build"
+    return:
+      type: System.String
+    content.vb: Public Const PackageName As String = "com.stansassets.build"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: StansAssets.Build.Editor.BuildSystemPackage.DisplayName
   commentId: F:StansAssets.Build.Editor.BuildSystemPackage.DisplayName
   id: DisplayName
@@ -58,11 +90,11 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 1571
+    startLine: 81
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
-  summary: "\nThe package name\n"
+  summary: "\nThe package display name\n"
   example: []
   syntax:
     content: public const string DisplayName = "Build System"
@@ -89,7 +121,7 @@ items:
   source:
     id: RootPath
     path: ''
-    startLine: 1576
+    startLine: 86
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -109,7 +141,7 @@ items:
   - Shared
   - ReadOnly
 - uid: StansAssets.Build.Editor.BuildSystemPackage.Info
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
+  commentId: P:StansAssets.Build.Editor.BuildSystemPackage.Info
   id: Info
   parent: StansAssets.Build.Editor.BuildSystemPackage
   langs:
@@ -118,25 +150,27 @@ items:
   name: Info
   nameWithType: BuildSystemPackage.Info
   fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
-  type: Field
+  type: Property
   source:
     id: Info
     path: ''
-    startLine: 1581
+    startLine: 91
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
   summary: "\nBuild System package info.\n"
   example: []
   syntax:
-    content: public static readonly PackageInfo Info
+    content: public static PackageInfo Info { get; }
+    parameters: []
     return:
       type: PackageInfo
-    content.vb: Public Shared ReadOnly Info As PackageInfo
+    content.vb: Public Shared ReadOnly Property Info As PackageInfo
+  overload: StansAssets.Build.Editor.BuildSystemPackage.Info*
   modifiers.csharp:
   - public
   - static
-  - readonly
+  - get
   modifiers.vb:
   - Public
   - Shared
@@ -446,6 +480,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: StansAssets.Build.Editor.BuildSystemPackage.Info*
+  commentId: Overload:StansAssets.Build.Editor.BuildSystemPackage.Info
+  name: Info
+  nameWithType: BuildSystemPackage.Info
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
 - uid: PackageInfo
   commentId: '!:PackageInfo'
   isExternal: true

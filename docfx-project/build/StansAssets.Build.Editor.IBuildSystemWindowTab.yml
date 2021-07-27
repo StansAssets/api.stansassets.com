@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab
+  commentId: T:StansAssets.Build.Editor.IBuildSystemWindowTab
+  id: IBuildSystemWindowTab
+  parent: StansAssets.Build.Editor
+  children:
+  - StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  - StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  langs:
+  - csharp
+  - vb
+  name: IBuildSystemWindowTab
+  nameWithType: IBuildSystemWindowTab
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab
+  type: Interface
+  source:
+    id: IBuildSystemWindowTab
+    path: ''
+    startLine: 56
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: public interface IBuildSystemWindowTab
+    content.vb: Public Interface IBuildSystemWindowTab
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  commentId: P:StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  id: Title
+  parent: StansAssets.Build.Editor.IBuildSystemWindowTab
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: IBuildSystemWindowTab.Title
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  type: Property
+  source:
+    id: Title
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: string Title { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Title As String
+  overload: StansAssets.Build.Editor.IBuildSystemWindowTab.Title*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  commentId: P:StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  id: Tab
+  parent: StansAssets.Build.Editor.IBuildSystemWindowTab
+  langs:
+  - csharp
+  - vb
+  name: Tab
+  nameWithType: IBuildSystemWindowTab.Tab
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  type: Property
+  source:
+    id: Tab
+    path: ''
+    startLine: 59
+  assemblies:
+  - cs.temp.dll
+  namespace: StansAssets.Build.Editor
+  syntax:
+    content: VisualElement Tab { get; }
+    parameters: []
+    return:
+      type: VisualElement
+    content.vb: ReadOnly Property Tab As VisualElement
+  overload: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: StansAssets.Build.Editor
+  commentId: N:StansAssets.Build.Editor
+  name: StansAssets.Build.Editor
+  nameWithType: StansAssets.Build.Editor
+  fullName: StansAssets.Build.Editor
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Title*
+  commentId: Overload:StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  name: Title
+  nameWithType: IBuildSystemWindowTab.Title
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab*
+  commentId: Overload:StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  name: Tab
+  nameWithType: IBuildSystemWindowTab.Tab
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+- uid: VisualElement
+  commentId: '!:VisualElement'
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: VisualElement

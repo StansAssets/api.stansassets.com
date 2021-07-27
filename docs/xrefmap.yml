@@ -30589,9 +30589,22 @@ references:
 - uid: StansAssets.Build.Editor.BuildSystemPackage.Info
   name: Info
   href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_Info
-  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.Info
+  commentId: P:StansAssets.Build.Editor.BuildSystemPackage.Info
   fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
   nameWithType: BuildSystemPackage.Info
+- uid: StansAssets.Build.Editor.BuildSystemPackage.Info*
+  name: Info
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_Info_
+  commentId: Overload:StansAssets.Build.Editor.BuildSystemPackage.Info
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.Info
+  nameWithType: BuildSystemPackage.Info
+- uid: StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  name: PackageName
+  href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_PackageName
+  commentId: F:StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  fullName: StansAssets.Build.Editor.BuildSystemPackage.PackageName
+  nameWithType: BuildSystemPackage.PackageName
 - uid: StansAssets.Build.Editor.BuildSystemPackage.RootPath
   name: RootPath
   href: build/StansAssets.Build.Editor.BuildSystemPackage.html#StansAssets_Build_Editor_BuildSystemPackage_RootPath
@@ -30752,6 +30765,38 @@ references:
   isSpec: "True"
   fullName: StansAssets.Build.Editor.IBuildStep.Priority
   nameWithType: IBuildStep.Priority
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab
+  name: IBuildSystemWindowTab
+  href: build/StansAssets.Build.Editor.IBuildSystemWindowTab.html
+  commentId: T:StansAssets.Build.Editor.IBuildSystemWindowTab
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab
+  nameWithType: IBuildSystemWindowTab
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  name: Tab
+  href: build/StansAssets.Build.Editor.IBuildSystemWindowTab.html#StansAssets_Build_Editor_IBuildSystemWindowTab_Tab
+  commentId: P:StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  nameWithType: IBuildSystemWindowTab.Tab
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab*
+  name: Tab
+  href: build/StansAssets.Build.Editor.IBuildSystemWindowTab.html#StansAssets_Build_Editor_IBuildSystemWindowTab_Tab_
+  commentId: Overload:StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Tab
+  nameWithType: IBuildSystemWindowTab.Tab
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  name: Title
+  href: build/StansAssets.Build.Editor.IBuildSystemWindowTab.html#StansAssets_Build_Editor_IBuildSystemWindowTab_Title
+  commentId: P:StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  nameWithType: IBuildSystemWindowTab.Title
+- uid: StansAssets.Build.Editor.IBuildSystemWindowTab.Title*
+  name: Title
+  href: build/StansAssets.Build.Editor.IBuildSystemWindowTab.html#StansAssets_Build_Editor_IBuildSystemWindowTab_Title_
+  commentId: Overload:StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  isSpec: "True"
+  fullName: StansAssets.Build.Editor.IBuildSystemWindowTab.Title
+  nameWithType: IBuildSystemWindowTab.Title
 - uid: StansAssets.Build.Editor.IBuildTask
   name: IBuildTask
   href: build/StansAssets.Build.Editor.IBuildTask.html
@@ -33984,6 +34029,40 @@ references:
   fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
   nameWithType: ListExtensions.Clone<T>(List<T>)
   nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap*
+  name: RemoveBySwap
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap_
+  commentId: Overload:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap
+  nameWithType: ListExtensions.RemoveBySwap
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},``0)
+  name: RemoveBySwap<T>(List<T>, T)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0____0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},``0)
+  name.vb: RemoveBySwap(Of T)(List(Of T), T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), T)
+  nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, T)
+  nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), T)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Int32)
+  name: RemoveBySwap<T>(List<T>, Int32)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0__System_Int32_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Int32)
+  name.vb: RemoveBySwap(Of T)(List(Of T), Int32)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, System.Int32)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), System.Int32)
+  nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, Int32)
+  nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), Int32)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Predicate{``0})
+  name: RemoveBySwap<T>(List<T>, Predicate<T>)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0__System_Predicate___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Predicate{``0})
+  name.vb: RemoveBySwap(Of T)(List(Of T), Predicate(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, System.Predicate<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), System.Predicate(Of T))
+  nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, Predicate<T>)
+  nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), Predicate(Of T))
 - uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
   name: Resize
   href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize_
