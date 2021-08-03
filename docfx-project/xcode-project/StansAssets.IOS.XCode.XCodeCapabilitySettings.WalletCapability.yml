@@ -16,7 +16,7 @@ items:
   source:
     id: WalletCapability
     path: ''
-    startLine: 1481
+    startLine: 2379
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: PassSubset
     path: ''
-    startLine: 1484
+    startLine: 2382
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

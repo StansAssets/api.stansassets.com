@@ -17,7 +17,7 @@ items:
   source:
     id: EntitlementsGenerationMode
     path: ''
-    startLine: 2018
+    startLine: 3223
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -44,7 +44,7 @@ items:
   source:
     id: Automatic
     path: ''
-    startLine: 2020
+    startLine: 3225
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -72,7 +72,7 @@ items:
   source:
     id: Manual
     path: ''
-    startLine: 2021
+    startLine: 3226
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

@@ -19,7 +19,7 @@ items:
   source:
     id: BuildSystemPackage
     path: ''
-    startLine: 71
+    startLine: 12
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -59,7 +59,7 @@ items:
   source:
     id: PackageName
     path: ''
-    startLine: 76
+    startLine: 17
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -90,7 +90,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 81
+    startLine: 22
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -121,7 +121,7 @@ items:
   source:
     id: RootPath
     path: ''
-    startLine: 86
+    startLine: 27
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -154,7 +154,7 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 91
+    startLine: 32
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor

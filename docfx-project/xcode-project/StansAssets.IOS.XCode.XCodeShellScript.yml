@@ -19,7 +19,7 @@ items:
   source:
     id: XCodeShellScript
     path: ''
-    startLine: 1813
+    startLine: 628
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -66,7 +66,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1816
+    startLine: 631
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -93,7 +93,7 @@ items:
   source:
     id: Shell
     path: ''
-    startLine: 1817
+    startLine: 632
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -120,7 +120,7 @@ items:
   source:
     id: Script
     path: ''
-    startLine: 1818
+    startLine: 633
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -147,7 +147,7 @@ items:
   source:
     id: ShellScriptPath
     path: ''
-    startLine: 1820
+    startLine: 635
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

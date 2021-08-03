@@ -18,7 +18,7 @@ items:
   source:
     id: XCodePackage
     path: ''
-    startLine: 1588
+    startLine: 2702
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -58,7 +58,7 @@ items:
   source:
     id: DisplayName
     path: ''
-    startLine: 1593
+    startLine: 2707
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -89,7 +89,7 @@ items:
   source:
     id: PackageName
     path: ''
-    startLine: 1598
+    startLine: 2712
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -120,7 +120,7 @@ items:
   source:
     id: DocumentationUrl
     path: ''
-    startLine: 1603
+    startLine: 2717
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
