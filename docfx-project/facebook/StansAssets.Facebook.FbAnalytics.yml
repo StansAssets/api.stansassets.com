@@ -62,7 +62,7 @@ items:
   summary: "\nPublishes an App Event. App Events allow you to measure the effectiveness of your Facebook app ads and better understand\nthe makeup of users engaging with your app. You can use one of 14 predefined events such as &apos;level achieved&apos;, or use custom\nevents you define.\n\nLog events that could help you understand player behavior and measure engagement coming from your App Ads on Facebook.\nHow often these events occur is reported in aggregate with through Facebook Analytics for Apps.\n<p> <a href=\"https://developers.facebook.com/docs/analytics\">https://developers.facebook.com/docs/analytics</a> for information </p>\n\nNote: Users do not need to be logged in with Facebook in order for you to log App Events.\nNote: Predefined events in Facebook.Unity.AppEventName\n"
   example: []
   syntax:
-    content: public static void LogAppEvent(string logEvent, float? valueToSum = default(float? ), Dictionary<string, object> parameters = null)
+    content: public static void LogAppEvent(string logEvent, float? valueToSum = null, Dictionary<string, object> parameters = null)
     parameters:
     - id: logEvent
       type: System.String

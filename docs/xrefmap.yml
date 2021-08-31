@@ -34428,6 +34428,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.TransformExtensions.Clear
   nameWithType: TransformExtensions.Clear
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively(Transform,System.String)
+  name: FindChildRecursively(Transform, String)
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_FindChildRecursively_Transform_System_String_
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively(Transform,System.String)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively(Transform, System.String)
+  nameWithType: TransformExtensions.FindChildRecursively(Transform, String)
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively*
+  name: FindChildRecursively
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_FindChildRecursively_
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.FindChildRecursively
+  nameWithType: TransformExtensions.FindChildRecursively
 - uid: StansAssets.Foundation.Extensions.TransformExtensions.FindOrCreateChild(Transform,System.String)
   name: FindOrCreateChild(Transform, String)
   href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_FindOrCreateChild_Transform_System_String_
@@ -34467,6 +34480,19 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetLossyScale
   nameWithType: TransformExtensions.SetLossyScale
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetStatic(Transform,System.Boolean)
+  name: SetStatic(Transform, Boolean)
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetStatic_Transform_System_Boolean_
+  commentId: M:StansAssets.Foundation.Extensions.TransformExtensions.SetStatic(Transform,System.Boolean)
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetStatic(Transform, System.Boolean)
+  nameWithType: TransformExtensions.SetStatic(Transform, Boolean)
+- uid: StansAssets.Foundation.Extensions.TransformExtensions.SetStatic*
+  name: SetStatic
+  href: foundation/StansAssets.Foundation.Extensions.TransformExtensions.html#StansAssets_Foundation_Extensions_TransformExtensions_SetStatic_
+  commentId: Overload:StansAssets.Foundation.Extensions.TransformExtensions.SetStatic
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Extensions.TransformExtensions.SetStatic
+  nameWithType: TransformExtensions.SetStatic
 - uid: StansAssets.Foundation.Extensions.Vector2Extensions
   name: Vector2Extensions
   href: foundation/StansAssets.Foundation.Extensions.Vector2Extensions.html
