@@ -6752,19 +6752,6 @@ references:
   isSpec: "True"
   fullName: SA.Android.Gallery.AN_MediaPicker.AllowMultiSelect
   nameWithType: AN_MediaPicker.AllowMultiSelect
-- uid: SA.Android.Gallery.AN_MediaPicker.MaxSize
-  name: MaxSize
-  href: android-native/SA.Android.Gallery.AN_MediaPicker.html#SA_Android_Gallery_AN_MediaPicker_MaxSize
-  commentId: P:SA.Android.Gallery.AN_MediaPicker.MaxSize
-  fullName: SA.Android.Gallery.AN_MediaPicker.MaxSize
-  nameWithType: AN_MediaPicker.MaxSize
-- uid: SA.Android.Gallery.AN_MediaPicker.MaxSize*
-  name: MaxSize
-  href: android-native/SA.Android.Gallery.AN_MediaPicker.html#SA_Android_Gallery_AN_MediaPicker_MaxSize_
-  commentId: Overload:SA.Android.Gallery.AN_MediaPicker.MaxSize
-  isSpec: "True"
-  fullName: SA.Android.Gallery.AN_MediaPicker.MaxSize
-  nameWithType: AN_MediaPicker.MaxSize
 - uid: SA.Android.Gallery.AN_MediaPicker.Show(Action{SA.Android.Gallery.AN_GalleryPickResult})
   name: Show(Action<AN_GalleryPickResult>)
   href: android-native/SA.Android.Gallery.AN_MediaPicker.html#SA_Android_Gallery_AN_MediaPicker_Show_Action_SA_Android_Gallery_AN_GalleryPickResult__
