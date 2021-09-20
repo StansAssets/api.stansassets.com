@@ -19,23 +19,23 @@ At Stan's Assets, we make Plugins, SDKs, Games, VR & AR Applications. Do not hes
 Guides & Tutorials
 -------------------
 #### Install
- | [NPM](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki#install-from-npm)
+ [NPM](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki#install-from-npm)
  | [OpenUPM](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki#install-from-openupm)
  | [Git URL](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki#install-from-a-git-url)
  | [Referencing packages from private repositories by SSH](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki#referencing-packages-from-private-repositories-by-ssh)
 
 #### Start work
- | [Setup](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Setup)
+ [Setup](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Setup)
  | [Add first spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Setup:-First-add-a-spreadsheet-or-update)
  | [Update Google spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Update-Google-spreadsheet)
 
 #### Use localization client
- | [Google spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Localization-Client#google-spreadsheet)
+ [Google spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Localization-Client#google-spreadsheet)
  | [Adding your Localization spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Localization-Client#adding-your-localization-spreadsheet)
  | [Use Localization Client](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Localization-Client#use-localization-client)
 
 #### Use data from spreadsheet
- | [Add update spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Add-update-spreadsheet)
+ [Add update spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Add-update-spreadsheet)
  | [Get data from spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Get-data-from-spreadsheet)
  | [Get spreadsheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Get-data-from-spreadsheet#get-spreadsheet)
  | [Get sheet](https://github.com/StansAssets/com.stansassets.google-doc-connector-pro/wiki/Get-data-from-spreadsheet#get-sheet)
