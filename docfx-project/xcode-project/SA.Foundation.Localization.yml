@@ -17,22 +17,22 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: SA.Foundation.Localization.SA_ISOLanguage
-  commentId: T:SA.Foundation.Localization.SA_ISOLanguage
-  name: SA_ISOLanguage
-  nameWithType: SA_ISOLanguage
-  fullName: SA.Foundation.Localization.SA_ISOLanguage
-- uid: SA.Foundation.Localization.SA_LanguagesUtil
-  commentId: T:SA.Foundation.Localization.SA_LanguagesUtil
-  name: SA_LanguagesUtil
-  nameWithType: SA_LanguagesUtil
-  fullName: SA.Foundation.Localization.SA_LanguagesUtil
 - uid: SA.Foundation.Localization.SA_ISOLanguagesList
   commentId: T:SA.Foundation.Localization.SA_ISOLanguagesList
   parent: SA.Foundation.Localization
   name: SA_ISOLanguagesList
   nameWithType: SA_ISOLanguagesList
   fullName: SA.Foundation.Localization.SA_ISOLanguagesList
+- uid: SA.Foundation.Localization.SA_LanguagesUtil
+  commentId: T:SA.Foundation.Localization.SA_LanguagesUtil
+  name: SA_LanguagesUtil
+  nameWithType: SA_LanguagesUtil
+  fullName: SA.Foundation.Localization.SA_LanguagesUtil
+- uid: SA.Foundation.Localization.SA_ISOLanguage
+  commentId: T:SA.Foundation.Localization.SA_ISOLanguage
+  name: SA_ISOLanguage
+  nameWithType: SA_ISOLanguage
+  fullName: SA.Foundation.Localization.SA_ISOLanguage
 - uid: SA.Foundation.Localization
   commentId: N:SA.Foundation.Localization
   name: SA.Foundation.Localization

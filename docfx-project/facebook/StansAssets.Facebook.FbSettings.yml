@@ -19,7 +19,7 @@ items:
   source:
     id: FbSettings
     path: ''
-    startLine: 1339
+    startLine: 185
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -57,7 +57,7 @@ items:
   source:
     id: Permissions
     path: ''
-    startLine: 1346
+    startLine: 192
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -92,7 +92,7 @@ items:
   source:
     id: PermissionsStringsList
     path: ''
-    startLine: 1351
+    startLine: 197
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -127,7 +127,7 @@ items:
   source:
     id: SetAppId
     path: ''
-    startLine: 1357
+    startLine: 203
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -161,7 +161,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 1365
+    startLine: 211
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

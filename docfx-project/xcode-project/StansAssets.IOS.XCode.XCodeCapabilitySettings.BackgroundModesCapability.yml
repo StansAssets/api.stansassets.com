@@ -16,7 +16,7 @@ items:
   source:
     id: BackgroundModesCapability
     path: ''
-    startLine: 2416
+    startLine: 75
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Options
     path: ''
-    startLine: 2437
+    startLine: 96
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

@@ -20,7 +20,7 @@ items:
   source:
     id: InfoPlistKeyType
     path: ''
-    startLine: 3066
+    startLine: 2869
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -49,7 +49,7 @@ items:
   source:
     id: String
     path: ''
-    startLine: 3071
+    startLine: 2874
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -79,7 +79,7 @@ items:
   source:
     id: Integer
     path: ''
-    startLine: 3076
+    startLine: 2879
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -109,7 +109,7 @@ items:
   source:
     id: Boolean
     path: ''
-    startLine: 3081
+    startLine: 2884
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -139,7 +139,7 @@ items:
   source:
     id: Array
     path: ''
-    startLine: 3086
+    startLine: 2889
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -169,7 +169,7 @@ items:
   source:
     id: Dictionary
     path: ''
-    startLine: 3091
+    startLine: 2894
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

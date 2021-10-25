@@ -37,7 +37,7 @@ items:
   source:
     id: XCodeProject
     path: ''
-    startLine: 1648
+    startLine: 798
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -77,7 +77,7 @@ items:
   source:
     id: Capability
     path: ''
-    startLine: 1653
+    startLine: 803
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -112,7 +112,7 @@ items:
   source:
     id: Settings
     path: ''
-    startLine: 1658
+    startLine: 808
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -147,7 +147,7 @@ items:
   source:
     id: SetBuildProperty
     path: ''
-    startLine: 1665
+    startLine: 815
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -184,7 +184,7 @@ items:
   source:
     id: SetBuildProperty
     path: ''
-    startLine: 1674
+    startLine: 824
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -218,7 +218,7 @@ items:
   source:
     id: RemoveBuildProperty
     path: ''
-    startLine: 1690
+    startLine: 840
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -252,7 +252,7 @@ items:
   source:
     id: RemoveBuildProperty
     path: ''
-    startLine: 1699
+    startLine: 849
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -286,7 +286,7 @@ items:
   source:
     id: SetInfoPlistKey
     path: ''
-    startLine: 1717
+    startLine: 867
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -320,7 +320,7 @@ items:
   source:
     id: GetInfoPlistKey
     path: ''
-    startLine: 1729
+    startLine: 879
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -356,7 +356,7 @@ items:
   source:
     id: ContainsKey
     path: ''
-    startLine: 1741
+    startLine: 891
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -392,7 +392,7 @@ items:
   source:
     id: RemoveInfoPlistKey
     path: ''
-    startLine: 1750
+    startLine: 900
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -426,7 +426,7 @@ items:
   source:
     id: RemoveInfoPlistKey
     path: ''
-    startLine: 1759
+    startLine: 909
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -460,7 +460,7 @@ items:
   source:
     id: AddFlag
     path: ''
-    startLine: 1770
+    startLine: 920
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -497,7 +497,7 @@ items:
   source:
     id: RemoveFlag
     path: ''
-    startLine: 1787
+    startLine: 937
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -531,7 +531,7 @@ items:
   source:
     id: AddFramework
     path: ''
-    startLine: 1805
+    startLine: 955
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -568,7 +568,7 @@ items:
   source:
     id: AddFramework
     path: ''
-    startLine: 1817
+    startLine: 967
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -602,7 +602,7 @@ items:
   source:
     id: RemoveFramework
     path: ''
-    startLine: 1833
+    startLine: 983
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -636,7 +636,7 @@ items:
   source:
     id: AddLibrary
     path: ''
-    startLine: 1851
+    startLine: 1001
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -673,7 +673,7 @@ items:
   source:
     id: AddLibrary
     path: ''
-    startLine: 1863
+    startLine: 1013
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -707,7 +707,7 @@ items:
   source:
     id: RemoveLibrary
     path: ''
-    startLine: 1879
+    startLine: 1029
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -741,7 +741,7 @@ items:
   source:
     id: HasFile
     path: ''
-    startLine: 1894
+    startLine: 1044
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -778,7 +778,7 @@ items:
   source:
     id: AddFile
     path: ''
-    startLine: 1908
+    startLine: 1058
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -815,7 +815,7 @@ items:
   source:
     id: AddFile
     path: ''
-    startLine: 1921
+    startLine: 1071
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

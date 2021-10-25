@@ -25,7 +25,7 @@ items:
   source:
     id: BackgroundModesOptions
     path: ''
-    startLine: 2419
+    startLine: 78
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -52,7 +52,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 2423
+    startLine: 82
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -80,7 +80,7 @@ items:
   source:
     id: AudioAirplayPiP
     path: ''
-    startLine: 2424
+    startLine: 83
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -108,7 +108,7 @@ items:
   source:
     id: LocationUpdates
     path: ''
-    startLine: 2425
+    startLine: 84
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -136,7 +136,7 @@ items:
   source:
     id: VoiceOverIP
     path: ''
-    startLine: 2426
+    startLine: 85
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -164,7 +164,7 @@ items:
   source:
     id: NewsstandDownloads
     path: ''
-    startLine: 2427
+    startLine: 86
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -192,7 +192,7 @@ items:
   source:
     id: ExternalAccessoryCommunication
     path: ''
-    startLine: 2428
+    startLine: 87
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -220,7 +220,7 @@ items:
   source:
     id: UsesBluetoothLEAccessory
     path: ''
-    startLine: 2430
+    startLine: 89
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -248,7 +248,7 @@ items:
   source:
     id: ActsAsABluetoothLEAccessory
     path: ''
-    startLine: 2432
+    startLine: 91
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -276,7 +276,7 @@ items:
   source:
     id: BackgroundFetch
     path: ''
-    startLine: 2433
+    startLine: 92
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -304,7 +304,7 @@ items:
   source:
     id: RemoteNotifications
     path: ''
-    startLine: 2434
+    startLine: 93
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
