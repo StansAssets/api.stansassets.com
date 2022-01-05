@@ -13870,13 +13870,13 @@ references:
   commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String)
   fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String)
   nameWithType: UM_IAnalyticsClient.Event(String)
-- uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,IDictionary{System.String,System.Object})
+- uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
   name: Event(String, IDictionary<String, Object>)
-  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IAnalyticsClient_Event_System_String_IDictionary_System_String_System_Object__
-  commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,IDictionary{System.String,System.Object})
+  href: ultimate-mobile/SA.CrossPlatform.Analytics.UM_IAnalyticsClient.html#SA_CrossPlatform_Analytics_UM_IAnalyticsClient_Event_System_String_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})
   name.vb: Event(String, IDictionary(Of String, Object))
-  fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, IDictionary<System.String, System.Object>)
-  fullName.vb: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, IDictionary(Of System.String, System.Object))
+  fullName: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event(System.String, System.Collections.Generic.IDictionary(Of System.String, System.Object))
   nameWithType: UM_IAnalyticsClient.Event(String, IDictionary<String, Object>)
   nameWithType.vb: UM_IAnalyticsClient.Event(String, IDictionary(Of String, Object))
 - uid: SA.CrossPlatform.Analytics.UM_IAnalyticsClient.Event*
@@ -14103,21 +14103,21 @@ references:
   commentId: T:SA.CrossPlatform.App.UM_ContactsResult
   fullName: SA.CrossPlatform.App.UM_ContactsResult
   nameWithType: UM_ContactsResult
-- uid: SA.CrossPlatform.App.UM_ContactsResult.#ctor(List{SA.CrossPlatform.App.UM_iContact})
-  name: UM_ContactsResult(List<UM_iContact>)
-  href: ultimate-mobile/SA.CrossPlatform.App.UM_ContactsResult.html#SA_CrossPlatform_App_UM_ContactsResult__ctor_List_SA_CrossPlatform_App_UM_iContact__
-  commentId: M:SA.CrossPlatform.App.UM_ContactsResult.#ctor(List{SA.CrossPlatform.App.UM_iContact})
-  name.vb: UM_ContactsResult(List(Of UM_iContact))
-  fullName: SA.CrossPlatform.App.UM_ContactsResult.UM_ContactsResult(List<SA.CrossPlatform.App.UM_iContact>)
-  fullName.vb: SA.CrossPlatform.App.UM_ContactsResult.UM_ContactsResult(List(Of SA.CrossPlatform.App.UM_iContact))
-  nameWithType: UM_ContactsResult.UM_ContactsResult(List<UM_iContact>)
-  nameWithType.vb: UM_ContactsResult.UM_ContactsResult(List(Of UM_iContact))
 - uid: SA.CrossPlatform.App.UM_ContactsResult.#ctor(SA_Error)
   name: UM_ContactsResult(SA_Error)
   href: ultimate-mobile/SA.CrossPlatform.App.UM_ContactsResult.html#SA_CrossPlatform_App_UM_ContactsResult__ctor_SA_Error_
   commentId: M:SA.CrossPlatform.App.UM_ContactsResult.#ctor(SA_Error)
   fullName: SA.CrossPlatform.App.UM_ContactsResult.UM_ContactsResult(SA_Error)
   nameWithType: UM_ContactsResult.UM_ContactsResult(SA_Error)
+- uid: SA.CrossPlatform.App.UM_ContactsResult.#ctor(System.Collections.Generic.List{SA.CrossPlatform.App.UM_iContact})
+  name: UM_ContactsResult(List<UM_iContact>)
+  href: ultimate-mobile/SA.CrossPlatform.App.UM_ContactsResult.html#SA_CrossPlatform_App_UM_ContactsResult__ctor_System_Collections_Generic_List_SA_CrossPlatform_App_UM_iContact__
+  commentId: M:SA.CrossPlatform.App.UM_ContactsResult.#ctor(System.Collections.Generic.List{SA.CrossPlatform.App.UM_iContact})
+  name.vb: UM_ContactsResult(List(Of UM_iContact))
+  fullName: SA.CrossPlatform.App.UM_ContactsResult.UM_ContactsResult(System.Collections.Generic.List<SA.CrossPlatform.App.UM_iContact>)
+  fullName.vb: SA.CrossPlatform.App.UM_ContactsResult.UM_ContactsResult(System.Collections.Generic.List(Of SA.CrossPlatform.App.UM_iContact))
+  nameWithType: UM_ContactsResult.UM_ContactsResult(List<UM_iContact>)
+  nameWithType.vb: UM_ContactsResult.UM_ContactsResult(List(Of UM_iContact))
 - uid: SA.CrossPlatform.App.UM_ContactsResult.#ctor*
   name: UM_ContactsResult
   href: ultimate-mobile/SA.CrossPlatform.App.UM_ContactsResult.html#SA_CrossPlatform_App_UM_ContactsResult__ctor_
@@ -15763,21 +15763,21 @@ references:
   commentId: T:SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult
   fullName: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult
   nameWithType: UM_LoadLeaderboardsMetaResult
-- uid: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(List{SA.CrossPlatform.GameServices.UM_iLeaderboard})
-  name: UM_LoadLeaderboardsMetaResult(List<UM_iLeaderboard>)
-  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.html#SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__ctor_List_SA_CrossPlatform_GameServices_UM_iLeaderboard__
-  commentId: M:SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(List{SA.CrossPlatform.GameServices.UM_iLeaderboard})
-  name.vb: UM_LoadLeaderboardsMetaResult(List(Of UM_iLeaderboard))
-  fullName: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List<SA.CrossPlatform.GameServices.UM_iLeaderboard>)
-  fullName.vb: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List(Of SA.CrossPlatform.GameServices.UM_iLeaderboard))
-  nameWithType: UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List<UM_iLeaderboard>)
-  nameWithType.vb: UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List(Of UM_iLeaderboard))
 - uid: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(SA_Error)
   name: UM_LoadLeaderboardsMetaResult(SA_Error)
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.html#SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__ctor_SA_Error_
   commentId: M:SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(SA_Error)
   fullName: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(SA_Error)
   nameWithType: UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(SA_Error)
+- uid: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(System.Collections.Generic.List{SA.CrossPlatform.GameServices.UM_iLeaderboard})
+  name: UM_LoadLeaderboardsMetaResult(List<UM_iLeaderboard>)
+  href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.html#SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__ctor_System_Collections_Generic_List_SA_CrossPlatform_GameServices_UM_iLeaderboard__
+  commentId: M:SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor(System.Collections.Generic.List{SA.CrossPlatform.GameServices.UM_iLeaderboard})
+  name.vb: UM_LoadLeaderboardsMetaResult(List(Of UM_iLeaderboard))
+  fullName: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(System.Collections.Generic.List<SA.CrossPlatform.GameServices.UM_iLeaderboard>)
+  fullName.vb: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(System.Collections.Generic.List(Of SA.CrossPlatform.GameServices.UM_iLeaderboard))
+  nameWithType: UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List<UM_iLeaderboard>)
+  nameWithType.vb: UM_LoadLeaderboardsMetaResult.UM_LoadLeaderboardsMetaResult(List(Of UM_iLeaderboard))
 - uid: SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.#ctor*
   name: UM_LoadLeaderboardsMetaResult
   href: ultimate-mobile/SA.CrossPlatform.GameServices.UM_LoadLeaderboardsMetaResult.html#SA_CrossPlatform_GameServices_UM_LoadLeaderboardsMetaResult__ctor_
@@ -16245,15 +16245,6 @@ references:
   isSpec: "True"
   fullName: SA.CrossPlatform.InApp.UM_iInAppClient.AddPayment
   nameWithType: UM_iInAppClient.AddPayment
-- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
-  name: Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
-  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__System_Action_SA_iResult__
-  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
-  name.vb: Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
-  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, System.Action<SA_iResult>)
-  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), System.Action(Of SA_iResult))
-  nameWithType: UM_iInAppClient.Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
-  nameWithType.vb: UM_iInAppClient.Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
 - uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action{SA_iResult})
   name: Connect(Action<SA_iResult>)
   href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_System_Action_SA_iResult__
@@ -16263,6 +16254,15 @@ references:
   fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Action(Of SA_iResult))
   nameWithType: UM_iInAppClient.Connect(Action<SA_iResult>)
   nameWithType.vb: UM_iInAppClient.Connect(Action(Of SA_iResult))
+- uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.Generic.IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
+  name: Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
+  href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_System_Collections_Generic_IEnumerable_SA_CrossPlatform_InApp_UM_ProductTemplate__System_Action_SA_iResult__
+  commentId: M:SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.Generic.IEnumerable{SA.CrossPlatform.InApp.UM_ProductTemplate},System.Action{SA_iResult})
+  name.vb: Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
+  fullName: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.Generic.IEnumerable<SA.CrossPlatform.InApp.UM_ProductTemplate>, System.Action<SA_iResult>)
+  fullName.vb: SA.CrossPlatform.InApp.UM_iInAppClient.Connect(System.Collections.Generic.IEnumerable(Of SA.CrossPlatform.InApp.UM_ProductTemplate), System.Action(Of SA_iResult))
+  nameWithType: UM_iInAppClient.Connect(IEnumerable<UM_ProductTemplate>, Action<SA_iResult>)
+  nameWithType.vb: UM_iInAppClient.Connect(IEnumerable(Of UM_ProductTemplate), Action(Of SA_iResult))
 - uid: SA.CrossPlatform.InApp.UM_iInAppClient.Connect*
   name: Connect
   href: ultimate-mobile/SA.CrossPlatform.InApp.UM_iInAppClient.html#SA_CrossPlatform_InApp_UM_iInAppClient_Connect_
@@ -17861,13 +17861,13 @@ references:
   commentId: T:SA.CrossPlatform.UI.UM_WheelPickerDialog
   fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog
   nameWithType: UM_WheelPickerDialog
-- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+- uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(System.Collections.Generic.List{System.String},System.Int32)
   name: UM_WheelPickerDialog(List<String>, Int32)
-  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog__ctor_List_System_String__System_Int32_
-  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(List{System.String},System.Int32)
+  href: ultimate-mobile/SA.CrossPlatform.UI.UM_WheelPickerDialog.html#SA_CrossPlatform_UI_UM_WheelPickerDialog__ctor_System_Collections_Generic_List_System_String__System_Int32_
+  commentId: M:SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor(System.Collections.Generic.List{System.String},System.Int32)
   name.vb: UM_WheelPickerDialog(List(Of String), Int32)
-  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List<System.String>, System.Int32)
-  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of System.String), System.Int32)
+  fullName: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(System.Collections.Generic.List<System.String>, System.Int32)
+  fullName.vb: SA.CrossPlatform.UI.UM_WheelPickerDialog.UM_WheelPickerDialog(System.Collections.Generic.List(Of System.String), System.Int32)
   nameWithType: UM_WheelPickerDialog.UM_WheelPickerDialog(List<String>, Int32)
   nameWithType.vb: UM_WheelPickerDialog.UM_WheelPickerDialog(List(Of String), Int32)
 - uid: SA.CrossPlatform.UI.UM_WheelPickerDialog.#ctor*

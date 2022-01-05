@@ -25,7 +25,7 @@ items:
   source:
     id: BackgroundModesOptions
     path: ''
-    startLine: 78
+    startLine: 284
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -52,7 +52,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 82
+    startLine: 288
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -80,7 +80,7 @@ items:
   source:
     id: AudioAirplayPiP
     path: ''
-    startLine: 83
+    startLine: 289
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -108,7 +108,7 @@ items:
   source:
     id: LocationUpdates
     path: ''
-    startLine: 84
+    startLine: 290
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -136,7 +136,7 @@ items:
   source:
     id: VoiceOverIP
     path: ''
-    startLine: 85
+    startLine: 291
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -164,7 +164,7 @@ items:
   source:
     id: NewsstandDownloads
     path: ''
-    startLine: 86
+    startLine: 292
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -192,7 +192,7 @@ items:
   source:
     id: ExternalAccessoryCommunication
     path: ''
-    startLine: 87
+    startLine: 293
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -220,7 +220,7 @@ items:
   source:
     id: UsesBluetoothLEAccessory
     path: ''
-    startLine: 89
+    startLine: 295
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -248,7 +248,7 @@ items:
   source:
     id: ActsAsABluetoothLEAccessory
     path: ''
-    startLine: 91
+    startLine: 297
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -276,7 +276,7 @@ items:
   source:
     id: BackgroundFetch
     path: ''
-    startLine: 92
+    startLine: 298
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -304,7 +304,7 @@ items:
   source:
     id: RemoteNotifications
     path: ''
-    startLine: 93
+    startLine: 299
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

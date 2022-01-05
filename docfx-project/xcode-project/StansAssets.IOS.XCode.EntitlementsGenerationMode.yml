@@ -17,7 +17,7 @@ items:
   source:
     id: EntitlementsGenerationMode
     path: ''
-    startLine: 1107
+    startLine: 1740
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -44,7 +44,7 @@ items:
   source:
     id: Automatic
     path: ''
-    startLine: 1109
+    startLine: 1742
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -72,7 +72,7 @@ items:
   source:
     id: Manual
     path: ''
-    startLine: 1110
+    startLine: 1743
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

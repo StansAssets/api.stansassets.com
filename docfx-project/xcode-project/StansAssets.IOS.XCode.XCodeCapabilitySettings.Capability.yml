@@ -16,7 +16,7 @@ items:
   source:
     id: Capability
     path: ''
-    startLine: 16
+    startLine: 222
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -63,7 +63,7 @@ items:
   source:
     id: Enabled
     path: ''
-    startLine: 19
+    startLine: 225
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
