@@ -16,7 +16,7 @@ items:
   source:
     id: AssociatedDomainsCapability
     path: ''
-    startLine: 311
+    startLine: 1251
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Domains
     path: ''
-    startLine: 314
+    startLine: 1254
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

@@ -46,6 +46,21 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: StansAssets.IOS.XCode.FrameworkHandler
+  commentId: T:StansAssets.IOS.XCode.FrameworkHandler
+  name: FrameworkHandler
+  nameWithType: FrameworkHandler
+  fullName: StansAssets.IOS.XCode.FrameworkHandler
+- uid: StansAssets.IOS.XCode.LibraryHandler
+  commentId: T:StansAssets.IOS.XCode.LibraryHandler
+  name: LibraryHandler
+  nameWithType: LibraryHandler
+  fullName: StansAssets.IOS.XCode.LibraryHandler
+- uid: StansAssets.IOS.XCode.XCodeProject
+  commentId: T:StansAssets.IOS.XCode.XCodeProject
+  name: XCodeProject
+  nameWithType: XCodeProject
+  fullName: StansAssets.IOS.XCode.XCodeProject
 - uid: StansAssets.IOS.XCode.XCodeProjectSettings
   commentId: T:StansAssets.IOS.XCode.XCodeProjectSettings
   parent: StansAssets.IOS.XCode
@@ -135,6 +150,27 @@ references:
   name: XCodePackage
   nameWithType: XCodePackage
   fullName: StansAssets.IOS.XCode.XCodePackage
+- uid: StansAssets.IOS.XCode.XCodeShellScript
+  commentId: T:StansAssets.IOS.XCode.XCodeShellScript
+  name: XCodeShellScript
+  nameWithType: XCodeShellScript
+  fullName: StansAssets.IOS.XCode.XCodeShellScript
+- uid: StansAssets.IOS.XCode.XCodeProjectFlag
+  commentId: T:StansAssets.IOS.XCode.XCodeProjectFlag
+  name: XCodeProjectFlag
+  nameWithType: XCodeProjectFlag
+  fullName: StansAssets.IOS.XCode.XCodeProjectFlag
+- uid: StansAssets.IOS.XCode.PlistKeyId
+  commentId: T:StansAssets.IOS.XCode.PlistKeyId
+  name: PlistKeyId
+  nameWithType: PlistKeyId
+  fullName: StansAssets.IOS.XCode.PlistKeyId
+- uid: StansAssets.IOS.XCode.XCodeAsset
+  commentId: T:StansAssets.IOS.XCode.XCodeAsset
+  parent: StansAssets.IOS.XCode
+  name: XCodeAsset
+  nameWithType: XCodeAsset
+  fullName: StansAssets.IOS.XCode.XCodeAsset
 - uid: StansAssets.IOS.XCode.InfoPlistKey
   commentId: T:StansAssets.IOS.XCode.InfoPlistKey
   parent: StansAssets.IOS.XCode
@@ -147,77 +183,41 @@ references:
   name: XCodeProjectProperty
   nameWithType: XCodeProjectProperty
   fullName: StansAssets.IOS.XCode.XCodeProjectProperty
-- uid: StansAssets.IOS.XCode.XCodeProjectFlag
-  commentId: T:StansAssets.IOS.XCode.XCodeProjectFlag
-  name: XCodeProjectFlag
-  nameWithType: XCodeProjectFlag
-  fullName: StansAssets.IOS.XCode.XCodeProjectFlag
-- uid: StansAssets.IOS.XCode.XCodeAsset
-  commentId: T:StansAssets.IOS.XCode.XCodeAsset
-  parent: StansAssets.IOS.XCode
-  name: XCodeAsset
-  nameWithType: XCodeAsset
-  fullName: StansAssets.IOS.XCode.XCodeAsset
-- uid: StansAssets.IOS.XCode.XCodeEmbedFramework
-  commentId: T:StansAssets.IOS.XCode.XCodeEmbedFramework
-  name: XCodeEmbedFramework
-  nameWithType: XCodeEmbedFramework
-  fullName: StansAssets.IOS.XCode.XCodeEmbedFramework
-- uid: StansAssets.IOS.XCode.PlistKeyId
-  commentId: T:StansAssets.IOS.XCode.PlistKeyId
-  name: PlistKeyId
-  nameWithType: PlistKeyId
-  fullName: StansAssets.IOS.XCode.PlistKeyId
 - uid: StansAssets.IOS.XCode.XCodeFramework
   commentId: T:StansAssets.IOS.XCode.XCodeFramework
   parent: StansAssets.IOS.XCode
   name: XCodeFramework
   nameWithType: XCodeFramework
   fullName: StansAssets.IOS.XCode.XCodeFramework
-- uid: StansAssets.IOS.XCode.XCodeShellScript
-  commentId: T:StansAssets.IOS.XCode.XCodeShellScript
-  name: XCodeShellScript
-  nameWithType: XCodeShellScript
-  fullName: StansAssets.IOS.XCode.XCodeShellScript
 - uid: StansAssets.IOS.XCode.XCodeLibrary
   commentId: T:StansAssets.IOS.XCode.XCodeLibrary
   parent: StansAssets.IOS.XCode
   name: XCodeLibrary
   nameWithType: XCodeLibrary
   fullName: StansAssets.IOS.XCode.XCodeLibrary
-- uid: StansAssets.IOS.XCode.XCodeProject
-  commentId: T:StansAssets.IOS.XCode.XCodeProject
-  name: XCodeProject
-  nameWithType: XCodeProject
-  fullName: StansAssets.IOS.XCode.XCodeProject
-- uid: StansAssets.IOS.XCode.LibraryHandler
-  commentId: T:StansAssets.IOS.XCode.LibraryHandler
-  name: LibraryHandler
-  nameWithType: LibraryHandler
-  fullName: StansAssets.IOS.XCode.LibraryHandler
-- uid: StansAssets.IOS.XCode.FrameworkHandler
-  commentId: T:StansAssets.IOS.XCode.FrameworkHandler
-  name: FrameworkHandler
-  nameWithType: FrameworkHandler
-  fullName: StansAssets.IOS.XCode.FrameworkHandler
+- uid: StansAssets.IOS.XCode.XCodeEmbedFramework
+  commentId: T:StansAssets.IOS.XCode.XCodeEmbedFramework
+  name: XCodeEmbedFramework
+  nameWithType: XCodeEmbedFramework
+  fullName: StansAssets.IOS.XCode.XCodeEmbedFramework
 - uid: StansAssets.IOS.XCode.XCodeFlagType
   commentId: T:StansAssets.IOS.XCode.XCodeFlagType
   parent: StansAssets.IOS.XCode
   name: XCodeFlagType
   nameWithType: XCodeFlagType
   fullName: StansAssets.IOS.XCode.XCodeFlagType
-- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
-  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
-  parent: StansAssets.IOS.XCode
-  name: EntitlementsGenerationMode
-  nameWithType: EntitlementsGenerationMode
-  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
 - uid: StansAssets.IOS.XCode.InfoPlistKeyType
   commentId: T:StansAssets.IOS.XCode.InfoPlistKeyType
   parent: StansAssets.IOS.XCode
   name: InfoPlistKeyType
   nameWithType: InfoPlistKeyType
   fullName: StansAssets.IOS.XCode.InfoPlistKeyType
+- uid: StansAssets.IOS.XCode.EntitlementsGenerationMode
+  commentId: T:StansAssets.IOS.XCode.EntitlementsGenerationMode
+  parent: StansAssets.IOS.XCode
+  name: EntitlementsGenerationMode
+  nameWithType: EntitlementsGenerationMode
+  fullName: StansAssets.IOS.XCode.EntitlementsGenerationMode
 - uid: StansAssets.IOS.XCode.XCodeFrameworkName
   commentId: T:StansAssets.IOS.XCode.XCodeFrameworkName
   parent: StansAssets.IOS.XCode

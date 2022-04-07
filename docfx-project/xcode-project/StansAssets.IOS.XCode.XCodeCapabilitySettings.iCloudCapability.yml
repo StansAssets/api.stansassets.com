@@ -18,7 +18,7 @@ items:
   source:
     id: iCloudCapability
     path: ''
-    startLine: 228
+    startLine: 1168
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -59,7 +59,7 @@ items:
   source:
     id: KeyValueStorage
     path: ''
-    startLine: 232
+    startLine: 1172
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -86,7 +86,7 @@ items:
   source:
     id: iCloudDocument
     path: ''
-    startLine: 234
+    startLine: 1174
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -113,7 +113,7 @@ items:
   source:
     id: CustomContainers
     path: ''
-    startLine: 235
+    startLine: 1175
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

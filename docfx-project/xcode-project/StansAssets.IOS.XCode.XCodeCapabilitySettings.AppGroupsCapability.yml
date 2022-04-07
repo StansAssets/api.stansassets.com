@@ -16,7 +16,7 @@ items:
   source:
     id: AppGroupsCapability
     path: ''
-    startLine: 317
+    startLine: 1257
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Groups
     path: ''
-    startLine: 320
+    startLine: 1260
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
