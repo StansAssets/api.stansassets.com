@@ -16,7 +16,7 @@ items:
   source:
     id: PushNotificationsCapability
     path: ''
-    startLine: 1178
+    startLine: 2483
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Development
     path: ''
-    startLine: 1181
+    startLine: 2486
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

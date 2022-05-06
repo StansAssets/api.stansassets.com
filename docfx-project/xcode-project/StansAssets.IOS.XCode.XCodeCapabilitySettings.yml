@@ -34,7 +34,7 @@ items:
   source:
     id: XCodeCapabilitySettings
     path: ''
-    startLine: 1159
+    startLine: 2464
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -73,7 +73,7 @@ items:
   source:
     id: iCloud
     path: ''
-    startLine: 1264
+    startLine: 2569
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -100,7 +100,7 @@ items:
   source:
     id: PushNotifications
     path: ''
-    startLine: 1265
+    startLine: 2570
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -127,7 +127,7 @@ items:
   source:
     id: GameCenter
     path: ''
-    startLine: 1266
+    startLine: 2571
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -154,7 +154,7 @@ items:
   source:
     id: SignInWithApple
     path: ''
-    startLine: 1267
+    startLine: 2572
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -181,7 +181,7 @@ items:
   source:
     id: Wallet
     path: ''
-    startLine: 1268
+    startLine: 2573
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -208,7 +208,7 @@ items:
   source:
     id: Siri
     path: ''
-    startLine: 1269
+    startLine: 2574
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -235,7 +235,7 @@ items:
   source:
     id: ApplePay
     path: ''
-    startLine: 1270
+    startLine: 2575
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -262,7 +262,7 @@ items:
   source:
     id: InAppPurchase
     path: ''
-    startLine: 1271
+    startLine: 2576
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -289,7 +289,7 @@ items:
   source:
     id: Maps
     path: ''
-    startLine: 1272
+    startLine: 2577
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -316,7 +316,7 @@ items:
   source:
     id: PersonalVPN
     path: ''
-    startLine: 1273
+    startLine: 2578
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -343,7 +343,7 @@ items:
   source:
     id: BackgroundModes
     path: ''
-    startLine: 1274
+    startLine: 2579
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -370,7 +370,7 @@ items:
   source:
     id: InterAppAudio
     path: ''
-    startLine: 1275
+    startLine: 2580
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -397,7 +397,7 @@ items:
   source:
     id: KeychainSharing
     path: ''
-    startLine: 1276
+    startLine: 2581
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -424,7 +424,7 @@ items:
   source:
     id: AssociatedDomains
     path: ''
-    startLine: 1277
+    startLine: 2582
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -451,7 +451,7 @@ items:
   source:
     id: AppGroups
     path: ''
-    startLine: 1278
+    startLine: 2583
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -478,7 +478,7 @@ items:
   source:
     id: DataProtection
     path: ''
-    startLine: 1279
+    startLine: 2584
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -505,7 +505,7 @@ items:
   source:
     id: HomeKit
     path: ''
-    startLine: 1280
+    startLine: 2585
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -532,7 +532,7 @@ items:
   source:
     id: HealthKit
     path: ''
-    startLine: 1281
+    startLine: 2586
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -559,7 +559,7 @@ items:
   source:
     id: WirelessAccessoryConfiguration
     path: ''
-    startLine: 1282
+    startLine: 2587
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
