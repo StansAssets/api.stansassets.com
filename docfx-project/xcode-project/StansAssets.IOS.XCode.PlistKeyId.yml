@@ -17,7 +17,7 @@ items:
   source:
     id: PlistKeyId
     path: ''
-    startLine: 1460
+    startLine: 2089
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -64,7 +64,7 @@ items:
   source:
     id: VariableValue
     path: ''
-    startLine: 1463
+    startLine: 2092
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -91,7 +91,7 @@ items:
   source:
     id: uniqueIdKey
     path: ''
-    startLine: 1464
+    startLine: 2093
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

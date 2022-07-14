@@ -36,7 +36,7 @@ items:
   source:
     id: XCodeProjectSettings
     path: ''
-    startLine: 49
+    startLine: 3044
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -69,7 +69,7 @@ items:
   source:
     id: PackageName
     path: ''
-    startLine: 54
+    startLine: 3049
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -104,7 +104,7 @@ items:
   source:
     id: IsEditorOnly
     path: ''
-    startLine: 55
+    startLine: 3050
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -137,7 +137,7 @@ items:
   source:
     id: DefaultEntitlementsFileName
     path: ''
-    startLine: 56
+    startLine: 3051
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -166,7 +166,7 @@ items:
   source:
     id: CfLocalizationsPlistKey
     path: ''
-    startLine: 57
+    startLine: 3052
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -195,7 +195,7 @@ items:
   source:
     id: Frameworks
     path: ''
-    startLine: 63
+    startLine: 3058
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -224,7 +224,7 @@ items:
   source:
     id: EmbededFrameworks
     path: ''
-    startLine: 67
+    startLine: 3062
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -253,7 +253,7 @@ items:
   source:
     id: Libraries
     path: ''
-    startLine: 71
+    startLine: 3066
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -282,7 +282,7 @@ items:
   source:
     id: Flags
     path: ''
-    startLine: 75
+    startLine: 3070
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -311,7 +311,7 @@ items:
   source:
     id: PlistVariables
     path: ''
-    startLine: 79
+    startLine: 3074
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -340,7 +340,7 @@ items:
   source:
     id: VariableDictionary
     path: ''
-    startLine: 83
+    startLine: 3078
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -369,7 +369,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 87
+    startLine: 3082
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -398,7 +398,7 @@ items:
   source:
     id: ShellScripts
     path: ''
-    startLine: 91
+    startLine: 3086
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -427,7 +427,7 @@ items:
   source:
     id: PostProcessEnabled
     path: ''
-    startLine: 99
+    startLine: 3094
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -462,7 +462,7 @@ items:
   source:
     id: Capability
     path: ''
-    startLine: 113
+    startLine: 3108
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -491,7 +491,7 @@ items:
   source:
     id: Files
     path: ''
-    startLine: 117
+    startLine: 3112
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -520,7 +520,7 @@ items:
   source:
     id: EntitlementsMode
     path: ''
-    startLine: 118
+    startLine: 3113
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -547,7 +547,7 @@ items:
   source:
     id: EntitlementsFile
     path: ''
-    startLine: 119
+    startLine: 3114
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -574,7 +574,7 @@ items:
   source:
     id: AddVariableToDictionary
     path: ''
-    startLine: 130
+    startLine: 3125
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -609,7 +609,7 @@ items:
   source:
     id: RemoveVariable
     path: ''
-    startLine: 143
+    startLine: 3138
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -644,7 +644,7 @@ items:
   source:
     id: GetVariableById
     path: ''
-    startLine: 198
+    startLine: 3193
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -679,7 +679,7 @@ items:
   source:
     id: BuildProperties
     path: ''
-    startLine: 213
+    startLine: 3208
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

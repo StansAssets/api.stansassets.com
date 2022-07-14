@@ -17,7 +17,7 @@ items:
   source:
     id: XCodeFlagType
     path: ''
-    startLine: 2777
+    startLine: 2467
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -46,7 +46,7 @@ items:
   source:
     id: CompilerFlag
     path: ''
-    startLine: 2782
+    startLine: 2472
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -76,7 +76,7 @@ items:
   source:
     id: LinkerFlag
     path: ''
-    startLine: 2787
+    startLine: 2477
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

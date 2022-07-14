@@ -28,7 +28,7 @@ items:
   source:
     id: MapsOptions
     path: ''
-    startLine: 283
+    startLine: 2927
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -55,7 +55,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 287
+    startLine: 2931
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -83,7 +83,7 @@ items:
   source:
     id: Airplane
     path: ''
-    startLine: 288
+    startLine: 2932
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -111,7 +111,7 @@ items:
   source:
     id: Bike
     path: ''
-    startLine: 289
+    startLine: 2933
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -139,7 +139,7 @@ items:
   source:
     id: Bus
     path: ''
-    startLine: 290
+    startLine: 2934
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -167,7 +167,7 @@ items:
   source:
     id: Car
     path: ''
-    startLine: 291
+    startLine: 2935
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -195,7 +195,7 @@ items:
   source:
     id: Ferry
     path: ''
-    startLine: 292
+    startLine: 2936
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -223,7 +223,7 @@ items:
   source:
     id: Pedestrian
     path: ''
-    startLine: 293
+    startLine: 2937
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -251,7 +251,7 @@ items:
   source:
     id: RideSharing
     path: ''
-    startLine: 294
+    startLine: 2938
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -279,7 +279,7 @@ items:
   source:
     id: StreetCar
     path: ''
-    startLine: 295
+    startLine: 2939
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -307,7 +307,7 @@ items:
   source:
     id: Subway
     path: ''
-    startLine: 296
+    startLine: 2940
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -335,7 +335,7 @@ items:
   source:
     id: Taxi
     path: ''
-    startLine: 297
+    startLine: 2941
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -363,7 +363,7 @@ items:
   source:
     id: Train
     path: ''
-    startLine: 298
+    startLine: 2942
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -391,7 +391,7 @@ items:
   source:
     id: Other
     path: ''
-    startLine: 299
+    startLine: 2943
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

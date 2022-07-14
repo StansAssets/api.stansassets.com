@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class CoroutineUtility
    ">
-    <meta name="generator" content="docfx 2.59.2.0">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -114,7 +114,7 @@
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_Start_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Start_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)">Start(IEnumerator)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Start_System_Collections_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.IEnumerator)">Start(IEnumerator)</h4>
   <div class="markdown level1 summary"><p>Starts a Coroutine.
 An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StartCoroutine.html">MonoBehaviour.StartCoroutine</a></p>
 <p>The execution of a coroutine can be paused at any point using the yield statement.
@@ -125,7 +125,7 @@ The StartCoroutine method returns upon the first yield return, however you can y
 which waits until the coroutine has finished execution.
 There is no guarantee coroutines end in the same order they started, even if they finish in the same frame.</p>
 <p>Yielding of any type, including null, results in the execution coming back on a later frame, unless the coroutine is stopped or has completed.</p>
-<p><strong>Note:</strong> You can stop a coroutine using <a class="xref" href="StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_">Stop(IEnumerator)</a></p>
+<p><strong>Note:</strong> You can stop a coroutine using <a class="xref" href="StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_IEnumerator_">Stop(IEnumerator)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -143,9 +143,9 @@ There is no guarantee coroutines end in the same order they started, even if the
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span></td>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
         <td><span class="parametername">routine</span></td>
-        <td><p>The <see cref="!:IEnumerator"></see> routine you would like to start.</p>
+        <td><p>The <span class="xref">System.Collections.IEnumerator</span> routine you would like to start.</p>
 </td>
       </tr>
     </tbody>
@@ -199,7 +199,7 @@ An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviou
   
   
   <a id="StansAssets_Foundation_Async_CoroutineUtility_Stop_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop*"></a>
-  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)">Stop(IEnumerator)</h4>
+  <h4 id="StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_IEnumerator_" data-uid="StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.IEnumerator)">Stop(IEnumerator)</h4>
   <div class="markdown level1 summary"><p>Stops the coroutine.
 An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.StopCoroutine.html">MonoBehaviour.StopCoroutine</a></p>
 </div>
@@ -219,9 +219,9 @@ An equivalent for <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviou
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span></td>
+        <td><span class="xref">System.Collections.IEnumerator</span></td>
         <td><span class="parametername">routine</span></td>
-        <td><p>The <see cref="!:IEnumerator"></see> routine you would like to stop.</p>
+        <td><p>The <span class="xref">System.Collections.IEnumerator</span> routine you would like to stop.</p>
 </td>
       </tr>
     </tbody>

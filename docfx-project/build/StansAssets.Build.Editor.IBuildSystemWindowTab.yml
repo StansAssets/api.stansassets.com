@@ -17,7 +17,7 @@ items:
   source:
     id: IBuildSystemWindowTab
     path: ''
-    startLine: 72
+    startLine: 88
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -44,7 +44,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 74
+    startLine: 90
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
@@ -73,7 +73,7 @@ items:
   source:
     id: Tab
     path: ''
-    startLine: 75
+    startLine: 91
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Build.Editor
