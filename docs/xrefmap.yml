@@ -32427,11 +32427,11 @@ references:
   commentId: T:StansAssets.Foundation.Async.CoroutineUtility
   fullName: StansAssets.Foundation.Async.CoroutineUtility
   nameWithType: CoroutineUtility
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
   name: Start(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_System_Collections_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(System.Collections.IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Start_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Start(IEnumerator)
   nameWithType: CoroutineUtility.Start(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Start*
   name: Start
@@ -32446,11 +32446,11 @@ references:
   commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(Coroutine)
   fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(Coroutine)
   nameWithType: CoroutineUtility.Stop(Coroutine)
-- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.IEnumerator)
+- uid: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
   name: Stop(IEnumerator)
-  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_System_Collections_IEnumerator_
-  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.IEnumerator)
-  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(System.Collections.IEnumerator)
+  href: foundation/StansAssets.Foundation.Async.CoroutineUtility.html#StansAssets_Foundation_Async_CoroutineUtility_Stop_IEnumerator_
+  commentId: M:StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
+  fullName: StansAssets.Foundation.Async.CoroutineUtility.Stop(IEnumerator)
   nameWithType: CoroutineUtility.Stop(IEnumerator)
 - uid: StansAssets.Foundation.Async.CoroutineUtility.Stop*
   name: Stop
@@ -32763,6 +32763,95 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Async.YieldPool.WaitWhile
   nameWithType: YieldPool.WaitWhile
+- uid: StansAssets.Foundation.Audio
+  name: StansAssets.Foundation.Audio
+  href: foundation/StansAssets.Foundation.Audio.html
+  commentId: N:StansAssets.Foundation.Audio
+  fullName: StansAssets.Foundation.Audio
+  nameWithType: StansAssets.Foundation.Audio
+- uid: StansAssets.Foundation.Audio.AudioCenter
+  name: AudioCenter
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html
+  commentId: T:StansAssets.Foundation.Audio.AudioCenter
+  fullName: StansAssets.Foundation.Audio.AudioCenter
+  nameWithType: AudioCenter
+- uid: StansAssets.Foundation.Audio.AudioCenter.#ctor(System.String)
+  name: AudioCenter(String)
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter__ctor_System_String_
+  commentId: M:StansAssets.Foundation.Audio.AudioCenter.#ctor(System.String)
+  fullName: StansAssets.Foundation.Audio.AudioCenter.AudioCenter(System.String)
+  nameWithType: AudioCenter.AudioCenter(String)
+- uid: StansAssets.Foundation.Audio.AudioCenter.#ctor(System.String,AudioListener)
+  name: AudioCenter(String, AudioListener)
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter__ctor_System_String_AudioListener_
+  commentId: M:StansAssets.Foundation.Audio.AudioCenter.#ctor(System.String,AudioListener)
+  fullName: StansAssets.Foundation.Audio.AudioCenter.AudioCenter(System.String, AudioListener)
+  nameWithType: AudioCenter.AudioCenter(String, AudioListener)
+- uid: StansAssets.Foundation.Audio.AudioCenter.#ctor*
+  name: AudioCenter
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter__ctor_
+  commentId: Overload:StansAssets.Foundation.Audio.AudioCenter.#ctor
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Audio.AudioCenter.AudioCenter
+  nameWithType: AudioCenter.AudioCenter
+- uid: StansAssets.Foundation.Audio.AudioCenter.GetAudioSource
+  name: GetAudioSource()
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter_GetAudioSource
+  commentId: M:StansAssets.Foundation.Audio.AudioCenter.GetAudioSource
+  fullName: StansAssets.Foundation.Audio.AudioCenter.GetAudioSource()
+  nameWithType: AudioCenter.GetAudioSource()
+- uid: StansAssets.Foundation.Audio.AudioCenter.GetAudioSource*
+  name: GetAudioSource
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter_GetAudioSource_
+  commentId: Overload:StansAssets.Foundation.Audio.AudioCenter.GetAudioSource
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Audio.AudioCenter.GetAudioSource
+  nameWithType: AudioCenter.GetAudioSource
+- uid: StansAssets.Foundation.Audio.AudioCenter.PlayOneShot(AudioClip)
+  name: PlayOneShot(AudioClip)
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter_PlayOneShot_AudioClip_
+  commentId: M:StansAssets.Foundation.Audio.AudioCenter.PlayOneShot(AudioClip)
+  fullName: StansAssets.Foundation.Audio.AudioCenter.PlayOneShot(AudioClip)
+  nameWithType: AudioCenter.PlayOneShot(AudioClip)
+- uid: StansAssets.Foundation.Audio.AudioCenter.PlayOneShot*
+  name: PlayOneShot
+  href: foundation/StansAssets.Foundation.Audio.AudioCenter.html#StansAssets_Foundation_Audio_AudioCenter_PlayOneShot_
+  commentId: Overload:StansAssets.Foundation.Audio.AudioCenter.PlayOneShot
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Audio.AudioCenter.PlayOneShot
+  nameWithType: AudioCenter.PlayOneShot
+- uid: StansAssets.Foundation.Audio.PooledAudioSource
+  name: PooledAudioSource
+  href: foundation/StansAssets.Foundation.Audio.PooledAudioSource.html
+  commentId: T:StansAssets.Foundation.Audio.PooledAudioSource
+  fullName: StansAssets.Foundation.Audio.PooledAudioSource
+  nameWithType: PooledAudioSource
+- uid: StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot(AudioClip)
+  name: PlayOneShot(AudioClip)
+  href: foundation/StansAssets.Foundation.Audio.PooledAudioSource.html#StansAssets_Foundation_Audio_PooledAudioSource_PlayOneShot_AudioClip_
+  commentId: M:StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot(AudioClip)
+  fullName: StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot(AudioClip)
+  nameWithType: PooledAudioSource.PlayOneShot(AudioClip)
+- uid: StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot*
+  name: PlayOneShot
+  href: foundation/StansAssets.Foundation.Audio.PooledAudioSource.html#StansAssets_Foundation_Audio_PooledAudioSource_PlayOneShot_
+  commentId: Overload:StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Audio.PooledAudioSource.PlayOneShot
+  nameWithType: PooledAudioSource.PlayOneShot
+- uid: StansAssets.Foundation.Audio.PooledAudioSource.Release
+  name: Release()
+  href: foundation/StansAssets.Foundation.Audio.PooledAudioSource.html#StansAssets_Foundation_Audio_PooledAudioSource_Release
+  commentId: M:StansAssets.Foundation.Audio.PooledAudioSource.Release
+  fullName: StansAssets.Foundation.Audio.PooledAudioSource.Release()
+  nameWithType: PooledAudioSource.Release()
+- uid: StansAssets.Foundation.Audio.PooledAudioSource.Release*
+  name: Release
+  href: foundation/StansAssets.Foundation.Audio.PooledAudioSource.html#StansAssets_Foundation_Audio_PooledAudioSource_Release_
+  commentId: Overload:StansAssets.Foundation.Audio.PooledAudioSource.Release
+  isSpec: "True"
+  fullName: StansAssets.Foundation.Audio.PooledAudioSource.Release
+  nameWithType: PooledAudioSource.Release
 - uid: StansAssets.Foundation.CachedWebRequest
   name: CachedWebRequest
   href: foundation/StansAssets.Foundation.CachedWebRequest.html
@@ -33321,13 +33410,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Editor.Manifest.Manifest
   nameWithType: Manifest.Manifest
-- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
   name: AddScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.Manifest.html#StansAssets_Foundation_Editor_Manifest_AddScopeRegistry_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String,System.String,IEnumerable{System.String})
   name.vb: AddScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
   nameWithType: Manifest.AddScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: Manifest.AddScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.Manifest.AddScopeRegistry*
@@ -33581,22 +33670,22 @@ references:
   commentId: T:StansAssets.Foundation.Editor.ScopeRegistry
   fullName: StansAssets.Foundation.Editor.ScopeRegistry
   nameWithType: ScopeRegistry
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
   name: ScopeRegistry(Dictionary<String, Object>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_Collections_Generic_Dictionary_System_String_System_Object__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.Collections.Generic.Dictionary{System.String,System.Object})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_Dictionary_System_String_System_Object__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(Dictionary{System.String,System.Object})
   name.vb: ScopeRegistry(Dictionary(Of String, Object))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary<System.String, System.Object>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.Collections.Generic.Dictionary(Of System.String, System.Object))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary<System.String, System.Object>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(Dictionary(Of System.String, System.Object))
   nameWithType: ScopeRegistry.ScopeRegistry(Dictionary<String, Object>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(Dictionary(Of String, Object))
-- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+- uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
   name: ScopeRegistry(String, String, IEnumerable<String>)
-  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
+  href: foundation/StansAssets.Foundation.Editor.ScopeRegistry.html#StansAssets_Foundation_Editor_ScopeRegistry__ctor_System_String_System_String_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.Editor.ScopeRegistry.#ctor(System.String,System.String,IEnumerable{System.String})
   name.vb: ScopeRegistry(String, String, IEnumerable(Of String))
-  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  fullName: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.Editor.ScopeRegistry.ScopeRegistry(System.String, System.String, IEnumerable(Of System.String))
   nameWithType: ScopeRegistry.ScopeRegistry(String, String, IEnumerable<String>)
   nameWithType.vb: ScopeRegistry.ScopeRegistry(String, String, IEnumerable(Of String))
 - uid: StansAssets.Foundation.Editor.ScopeRegistry.#ctor*
@@ -34183,13 +34272,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone
   nameWithType: ListExtensions.Clone
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
   name: Clone<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_System_Collections_Generic_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(System.Collections.Generic.List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Clone__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Clone``1(List{``0})
   name.vb: Clone(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(System.Collections.Generic.List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(System.Collections.Generic.List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Clone<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Clone(Of T)(List(Of T))
   nameWithType: ListExtensions.Clone<T>(List<T>)
   nameWithType.vb: ListExtensions.Clone(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap*
@@ -34199,31 +34288,31 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap
   nameWithType: ListExtensions.RemoveBySwap
-- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},``0)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},``0)
   name: RemoveBySwap<T>(List<T>, T)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_System_Collections_Generic_List___0____0_
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},``0)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0____0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},``0)
   name.vb: RemoveBySwap(Of T)(List(Of T), T)
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(System.Collections.Generic.List<T>, T)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(System.Collections.Generic.List(Of T), T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), T)
   nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, T)
   nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), T)
-- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},System.Int32)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Int32)
   name: RemoveBySwap<T>(List<T>, Int32)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_System_Collections_Generic_List___0__System_Int32_
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},System.Int32)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0__System_Int32_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Int32)
   name.vb: RemoveBySwap(Of T)(List(Of T), Int32)
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(System.Collections.Generic.List<T>, System.Int32)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(System.Collections.Generic.List(Of T), System.Int32)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, System.Int32)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), System.Int32)
   nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, Int32)
   nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), Int32)
-- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},System.Predicate{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Predicate{``0})
   name: RemoveBySwap<T>(List<T>, Predicate<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_System_Collections_Generic_List___0__System_Predicate___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(System.Collections.Generic.List{``0},System.Predicate{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_RemoveBySwap__1_List___0__System_Predicate___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap``1(List{``0},System.Predicate{``0})
   name.vb: RemoveBySwap(Of T)(List(Of T), Predicate(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(System.Collections.Generic.List<T>, System.Predicate<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(System.Collections.Generic.List(Of T), System.Predicate(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap<T>(List<T>, System.Predicate<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.RemoveBySwap(Of T)(List(Of T), System.Predicate(Of T))
   nameWithType: ListExtensions.RemoveBySwap<T>(List<T>, Predicate<T>)
   nameWithType.vb: ListExtensions.RemoveBySwap(Of T)(List(Of T), Predicate(Of T))
 - uid: StansAssets.Foundation.Extensions.ListExtensions.Resize*
@@ -34233,13 +34322,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize
   nameWithType: ListExtensions.Resize
-- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
+- uid: StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
   name: Resize<T>(List<T>, Int32, T)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_System_Collections_Generic_List___0__System_Int32___0_
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(System.Collections.Generic.List{``0},System.Int32,``0)
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_Resize__1_List___0__System_Int32___0_
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.Resize``1(List{``0},System.Int32,``0)
   name.vb: Resize(Of T)(List(Of T), Int32, T)
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(System.Collections.Generic.List<T>, System.Int32, T)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(System.Collections.Generic.List(Of T), System.Int32, T)
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.Resize<T>(List<T>, System.Int32, T)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.Resize(Of T)(List(Of T), System.Int32, T)
   nameWithType: ListExtensions.Resize<T>(List<T>, Int32, T)
   nameWithType.vb: ListExtensions.Resize(Of T)(List(Of T), Int32, T)
 - uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy*
@@ -34249,13 +34338,13 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy
   nameWithType: ListExtensions.ShallowCopy
-- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
+- uid: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
   name: ShallowCopy<T>(List<T>)
-  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_System_Collections_Generic_List___0__
-  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(System.Collections.Generic.List{``0})
+  href: foundation/StansAssets.Foundation.Extensions.ListExtensions.html#StansAssets_Foundation_Extensions_ListExtensions_ShallowCopy__1_List___0__
+  commentId: M:StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy``1(List{``0})
   name.vb: ShallowCopy(Of T)(List(Of T))
-  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(System.Collections.Generic.List<T>)
-  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(System.Collections.Generic.List(Of T))
+  fullName: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy<T>(List<T>)
+  fullName.vb: StansAssets.Foundation.Extensions.ListExtensions.ShallowCopy(Of T)(List(Of T))
   nameWithType: ListExtensions.ShallowCopy<T>(List<T>)
   nameWithType.vb: ListExtensions.ShallowCopy(Of T)(List(Of T))
 - uid: StansAssets.Foundation.Extensions.MaterialExtensions

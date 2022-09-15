@@ -22,7 +22,7 @@ items:
   source:
     id: XCodeFramework
     path: ''
-    startLine: 1950
+    startLine: 2143
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -71,7 +71,7 @@ items:
   source:
     id: FrameworkName
     path: ''
-    startLine: 1956
+    startLine: 2149
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -98,7 +98,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1961
+    startLine: 2154
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -131,7 +131,7 @@ items:
   source:
     id: IsOptional
     path: ''
-    startLine: 1970
+    startLine: 2163
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -164,7 +164,7 @@ items:
   source:
     id: IsEmbeded
     path: ''
-    startLine: 1979
+    startLine: 2172
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -197,7 +197,7 @@ items:
   source:
     id: FullName
     path: ''
-    startLine: 1988
+    startLine: 2181
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -230,7 +230,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1995
+    startLine: 2188
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -265,7 +265,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2006
+    startLine: 2199
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

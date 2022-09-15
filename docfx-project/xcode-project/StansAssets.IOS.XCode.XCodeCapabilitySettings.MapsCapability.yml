@@ -16,7 +16,7 @@ items:
   source:
     id: MapsCapability
     path: ''
-    startLine: 2924
+    startLine: 1791
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: Options
     path: ''
-    startLine: 2946
+    startLine: 1813
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

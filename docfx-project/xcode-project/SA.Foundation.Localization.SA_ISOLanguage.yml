@@ -18,7 +18,7 @@ items:
   source:
     id: SA_ISOLanguage
     path: ''
-    startLine: 203
+    startLine: 2089
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization
@@ -65,7 +65,7 @@ items:
   source:
     id: Code
     path: ''
-    startLine: 216
+    startLine: 2102
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization
@@ -98,7 +98,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 221
+    startLine: 2107
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization
@@ -131,7 +131,7 @@ items:
   source:
     id: NativeName
     path: ''
-    startLine: 226
+    startLine: 2112
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization

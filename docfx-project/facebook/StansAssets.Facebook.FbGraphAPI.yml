@@ -16,7 +16,7 @@ items:
   source:
     id: FbGraphAPI
     path: ''
-    startLine: 392
+    startLine: 1456
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook
@@ -53,7 +53,7 @@ items:
   source:
     id: GetFriends
     path: ''
-    startLine: 404
+    startLine: 1468
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.Facebook

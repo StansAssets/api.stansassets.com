@@ -19,7 +19,7 @@ items:
   source:
     id: LibraryHandler
     path: ''
-    startLine: 76
+    startLine: 1962
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -50,7 +50,7 @@ items:
   source:
     id: AvailableLibraries
     path: ''
-    startLine: 78
+    startLine: 1964
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -83,7 +83,7 @@ items:
   source:
     id: BaseLibrariesArray
     path: ''
-    startLine: 95
+    startLine: 1981
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -113,7 +113,7 @@ items:
   source:
     id: StringValueOf
     path: ''
-    startLine: 102
+    startLine: 1988
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -146,7 +146,7 @@ items:
   source:
     id: EnumValueOf
     path: ''
-    startLine: 117
+    startLine: 2003
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

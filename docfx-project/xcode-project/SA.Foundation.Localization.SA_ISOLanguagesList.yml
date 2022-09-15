@@ -17,7 +17,7 @@ items:
   source:
     id: SA_ISOLanguagesList
     path: ''
-    startLine: 136
+    startLine: 2051
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization
@@ -64,7 +64,7 @@ items:
   source:
     id: Languages
     path: ''
-    startLine: 147
+    startLine: 2062
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization
@@ -97,7 +97,7 @@ items:
   source:
     id: Names
     path: ''
-    startLine: 152
+    startLine: 2067
   assemblies:
   - cs.temp.dll
   namespace: SA.Foundation.Localization

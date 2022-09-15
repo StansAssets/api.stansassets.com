@@ -15,7 +15,7 @@ items:
   source:
     id: XCodeEmbedFramework
     path: ''
-    startLine: 1939
+    startLine: 2262
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

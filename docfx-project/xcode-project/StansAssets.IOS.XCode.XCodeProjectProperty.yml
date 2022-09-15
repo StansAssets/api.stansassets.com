@@ -19,7 +19,7 @@ items:
   source:
     id: XCodeProjectProperty
     path: ''
-    startLine: 2104
+    startLine: 2359
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -68,7 +68,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2119
+    startLine: 2374
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -103,7 +103,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2128
+    startLine: 2383
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -136,7 +136,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 2133
+    startLine: 2388
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -169,7 +169,7 @@ items:
   source:
     id: Options
     path: ''
-    startLine: 2149
+    startLine: 2404
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
