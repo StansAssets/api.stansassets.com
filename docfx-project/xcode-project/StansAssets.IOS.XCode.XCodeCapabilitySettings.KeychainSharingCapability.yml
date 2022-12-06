@@ -16,7 +16,7 @@ items:
   source:
     id: KeychainSharingCapability
     path: ''
-    startLine: 1840
+    startLine: 99
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode
@@ -57,7 +57,7 @@ items:
   source:
     id: AccessGroups
     path: ''
-    startLine: 1843
+    startLine: 102
   assemblies:
   - cs.temp.dll
   namespace: StansAssets.IOS.XCode

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface UM_iNonRewardedAds
+    <title>Class UM_DatePickerResult
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface UM_iNonRewardedAds
+    <meta name="title" content="Class UM_DatePickerResult
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -66,60 +66,50 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds">
+            <article class="content wrap" id="_content" data-uid="SA.CrossPlatform.UI.UM_DatePickerResult">
   
   
-  <h1 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds" class="text-break">Interface UM_iNonRewardedAds
+  <h1 id="SA_CrossPlatform_UI_UM_DatePickerResult" data-uid="SA.CrossPlatform.UI.UM_DatePickerResult" class="text-break">Class UM_DatePickerResult
   </h1>
-  <div class="markdown level0 summary"><p>A client to interact with the non-rewarded advertisement.</p>
+  <div class="markdown level0 summary"><p>Object that contains a picked dated result from <a class="xref" href="SA.CrossPlatform.UI.UM_DatePickerDialog.html">UM_DatePickerDialog</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_IsReady">UM_IAdvertisement.IsReady</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_Action_SA_Result__">UM_IAdvertisement.Load(Action&lt;SA_Result&gt;)</a>
-    </div>
-    <div>
-      <a class="xref" href="SA.CrossPlatform.Advertisement.UM_IAdvertisement.html#SA_CrossPlatform_Advertisement_UM_IAdvertisement_Load_System_String_System_Action_SA_Result__">UM_IAdvertisement.Load(String, Action&lt;SA_Result&gt;)</a>
-    </div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UM_DatePickerResult</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.Advertisement.html">SA.CrossPlatform.Advertisement</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SA.CrossPlatform.UI.html">SA.CrossPlatform.UI</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_syntax">Syntax</h5>
+  <h5 id="SA_CrossPlatform_UI_UM_DatePickerResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface UM_iNonRewardedAds : UM_IAdvertisement</code></pre>
+    <pre><code class="lang-csharp hljs">public class UM_DatePickerResult : SA_Result</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="properties">Properties
   </h3>
   
   
-  <a id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show*"></a>
-  <h4 id="SA_CrossPlatform_Advertisement_UM_iNonRewardedAds_Show_System_Action_" data-uid="SA.CrossPlatform.Advertisement.UM_iNonRewardedAds.Show(System.Action)">Show(Action)</h4>
-  <div class="markdown level1 summary"><p>Show non-rewarded ads.</p>
+  <a id="SA_CrossPlatform_UI_UM_DatePickerResult_Date_" data-uid="SA.CrossPlatform.UI.UM_DatePickerResult.Date*"></a>
+  <h4 id="SA_CrossPlatform_UI_UM_DatePickerResult_Date" data-uid="SA.CrossPlatform.UI.UM_DatePickerResult.Date">Date</h4>
+  <div class="markdown level1 summary"><p>User picked date.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Show(Action callback)</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime Date { get; }</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">callback</span></td>
-        <td><p>Callback is called when ad is closed.</p>
-</td>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
