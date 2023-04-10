@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
 
@@ -80,8 +80,8 @@ jobs:
     
     - name: Get docfx
       run: |
-        curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
-        unzip -d .docfx docfx.zip
+        curl -L https://github.com/dotnet/docfx/releases/download/2.65.1/docfx-linux-x64-2.65.1.zip -o docfx-linux-x64-2.65.1.zip
+        unzip -d .docfx docfx-linux-x64-2.65.1.zip
     
     # Build docs
     - name: Build docs
