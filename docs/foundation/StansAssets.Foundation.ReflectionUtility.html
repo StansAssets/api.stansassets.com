@@ -115,9 +115,7 @@
   
   <a id="StansAssets_Foundation_ReflectionUtility_CreateInstance_" data-uid="StansAssets.Foundation.ReflectionUtility.CreateInstance*"></a>
   <h4 id="StansAssets_Foundation_ReflectionUtility_CreateInstance_System_String_" data-uid="StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)">CreateInstance(String)</h4>
-  <div class="markdown level1 summary"><p>Methods will iterate all the project Assemblies.
-If typeFullName will match new object instance of that type will be created
-and returned as the result.</p>
+  <div class="markdown level1 summary"><p>Creates an instance of the specified <span class="xref">System.Type</span> using that type&apos;s parameterless constructor.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -137,7 +135,7 @@ and returned as the result.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">typeFullName</span></td>
-        <td><p>Full type name.</p>
+        <td><p>Full type name of the instance to create.</p>
 </td>
       </tr>
     </tbody>
@@ -153,7 +151,7 @@ and returned as the result.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>New type instance.</p>
+        <td><p>New <span class="xref">System.Object</span> instance of the specified type.</p>
 </td>
       </tr>
     </tbody>
@@ -161,13 +159,13 @@ and returned as the result.</p>
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_System_Type_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(System.Type)">FindImplementationsOf(Type)</h4>
-  <div class="markdown level1 summary"><p>Find all types that implement <code>baseType</code>.</p>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,System.Boolean)">FindImplementationsOf(Type, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Searched for the implementations of the <span class="xref">System.Type</span> specified with <code data-dev-comment-type="paramref" class="paramref">baseType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf(Type baseType)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf(Type baseType, bool ignoreBuiltIn = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,9 +178,15 @@ and returned as the result.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
+        <td><span class="xref">Type</span></td>
         <td><span class="parametername">baseType</span></td>
-        <td><p>Base type.</p>
+        <td><p>Specifies the <span class="xref">System.Type</span> whose implementations to search for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreBuiltIn</span></td>
+        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
 </td>
       </tr>
     </tbody>
@@ -197,8 +201,8 @@ and returned as the result.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
-        <td><p>Returns all types that are implement provided base type.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><p>A collection of <span class="xref">System.Type</span> objects that are implementations of <code data-dev-comment-type="paramref" class="paramref">baseType</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -206,14 +210,32 @@ and returned as the result.</p>
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1">FindImplementationsOf&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"><p>Find all types that implement <code>T</code>.</p>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(System.Boolean)">FindImplementationsOf&lt;T&gt;(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Searched for the implementations of the <span class="xref">System.Type</span> specified with <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf&lt;T&gt;()</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf&lt;T&gt;(bool ignoreBuiltIn = false)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreBuiltIn</span></td>
+        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -224,8 +246,8 @@ and returned as the result.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
-        <td><p>Returns all types that are implement provided base type.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><p>A collection of <span class="xref">System.Type</span> objects that are implementations of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -241,7 +263,81 @@ and returned as the result.</p>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>Base type.</p>
+        <td><p>Specifies the <span class="xref">System.Type</span> whose implementations to search for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes_" data-uid="StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes*"></a>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes__1_BindingFlags_System_Boolean_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,System.Boolean)">FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Searches for the methods with custom attribute of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MethodInfo&gt; FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags methodBindingFlags = null, bool inherit = true, bool ignoreBuiltIn = false)
+    where T : Attribute</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">BindingFlags</span></td>
+        <td><span class="parametername">methodBindingFlags</span></td>
+        <td><p>A bitwise combination of the enumeration values that specify how the search is conducted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inherit</span></td>
+        <td><p><code>true</code> to search this member&apos;s inheritance chain to find the attributes; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreBuiltIn</span></td>
+        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">MethodInfo</span>&gt;</td>
+        <td><p>A collection of <span class="xref">System.Reflection.MethodInfo</span> objects representing all methods defined for the current <span class="xref">System.Type</span> that match the specified binding constraints and attributes type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Specifies the <span class="xref">System.Type</span> of the custom attribute to search for.</p>
 </td>
       </tr>
     </tbody>
@@ -250,7 +346,7 @@ and returned as the result.</p>
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindType_" data-uid="StansAssets.Foundation.ReflectionUtility.FindType*"></a>
   <h4 id="StansAssets_Foundation_ReflectionUtility_FindType_System_String_" data-uid="StansAssets.Foundation.ReflectionUtility.FindType(System.String)">FindType(String)</h4>
-  <div class="markdown level1 summary"><p>Methods will iterate all the project to find a type that matches sissified full type name.</p>
+  <div class="markdown level1 summary"><p>Searches for the specified <span class="xref">System.Type</span> in all assemblies of the current application domain.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -270,7 +366,7 @@ and returned as the result.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">typeFullName</span></td>
-        <td><p>Full type name.</p>
+        <td><p>Full type&apos;s name to search for.</p>
 </td>
       </tr>
     </tbody>
@@ -285,8 +381,53 @@ and returned as the result.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><p>Type object.</p>
+        <td><span class="xref">Type</span></td>
+        <td><p><span class="xref">System.Type</span> object found via specified <code data-dev-comment-type="paramref" class="paramref">typeFullName</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_ReflectionUtility_GetAssemblies_" data-uid="StansAssets.Foundation.ReflectionUtility.GetAssemblies*"></a>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_GetAssemblies_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.GetAssemblies(System.Boolean)">GetAssemblies(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Gets the assemblies that have been loaded into the execution context of this application domain.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Assembly&gt; GetAssemblies(bool ignoreBuiltIn = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreBuiltIn</span></td>
+        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Assembly</span>&gt;</td>
+        <td><p>A collection of assemblies in this application domain.</p>
 </td>
       </tr>
     </tbody>
@@ -295,7 +436,7 @@ and returned as the result.</p>
   
   <a id="StansAssets_Foundation_ReflectionUtility_GetPropertyValue_" data-uid="StansAssets.Foundation.ReflectionUtility.GetPropertyValue*"></a>
   <h4 id="StansAssets_Foundation_ReflectionUtility_GetPropertyValue_System_Object_System_String_BindingFlags_" data-uid="StansAssets.Foundation.ReflectionUtility.GetPropertyValue(System.Object,System.String,BindingFlags)">GetPropertyValue(Object, String, BindingFlags)</h4>
-  <div class="markdown level1 summary"><p>Get property value from an object by it&apos;s name.</p>
+  <div class="markdown level1 summary"><p>Returns the property value of a specified object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -315,19 +456,19 @@ and returned as the result.</p>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">src</span></td>
-        <td><p>Source object.</p>
+        <td><p>The object whose property value will be returned.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">propName</span></td>
-        <td><p>Property name.</p>
+        <td><p>The string containing the name of the public property to get.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">BindingFlags</span></td>
         <td><span class="parametername">bindingAttr</span></td>
-        <td><p>Property binding Attributes. <code>BindingFlags.Instance | BindingFlags.Public</code> by default.</p>
+        <td><p>A bitwise combination of the enumeration values that specify how the search is conducted.</p>
 </td>
       </tr>
     </tbody>
@@ -343,7 +484,7 @@ and returned as the result.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><p>Property value.</p>
+        <td><p>The property value of the specified object.</p>
 </td>
       </tr>
     </tbody>
@@ -352,7 +493,7 @@ and returned as the result.</p>
   
   <a id="StansAssets_Foundation_ReflectionUtility_SetPropertyValue_" data-uid="StansAssets.Foundation.ReflectionUtility.SetPropertyValue*"></a>
   <h4 id="StansAssets_Foundation_ReflectionUtility_SetPropertyValue__1_System_Object_System_String___0_BindingFlags_" data-uid="StansAssets.Foundation.ReflectionUtility.SetPropertyValue``1(System.Object,System.String,``0,BindingFlags)">SetPropertyValue&lt;T&gt;(Object, String, T, BindingFlags)</h4>
-  <div class="markdown level1 summary"><p>Get property value from an object by it&apos;s name.</p>
+  <div class="markdown level1 summary"><p>Sets the property value of a specified object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -372,25 +513,25 @@ and returned as the result.</p>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">src</span></td>
-        <td><p>Source object.</p>
+        <td><p>The object whose property value will be set.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">propName</span></td>
-        <td><p>Property name.</p>
+        <td><p>The string containing the name of the property to get.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">propValue</span></td>
-        <td><p>New property value.</p>
+        <td><p>The new property value.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">BindingFlags</span></td>
         <td><span class="parametername">bindingAttr</span></td>
-        <td><p>Property binding Attributes. <code>BindingFlags.Instance | BindingFlags.Public</code> by default.</p>
+        <td><p>A bitwise combination of the enumeration values that specify how the search is conducted.</p>
 </td>
       </tr>
     </tbody>
@@ -406,7 +547,8 @@ and returned as the result.</p>
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td></td>
+        <td><p>Specifies the <span class="xref">System.Type</span> of property value to set.</p>
+</td>
       </tr>
     </tbody>
   </table>

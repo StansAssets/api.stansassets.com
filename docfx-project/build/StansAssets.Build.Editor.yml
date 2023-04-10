@@ -16,13 +16,13 @@ items:
   assemblies:
   - cs.temp.dll
 references:
-- uid: StansAssets.Build.Editor.BuildSystemPackage
-  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
-  name: BuildSystemPackage
-  nameWithType: BuildSystemPackage
-  fullName: StansAssets.Build.Editor.BuildSystemPackage
 - uid: StansAssets.Build.Editor.IBuildSystemWindowTab
   commentId: T:StansAssets.Build.Editor.IBuildSystemWindowTab
   name: IBuildSystemWindowTab
   nameWithType: IBuildSystemWindowTab
   fullName: StansAssets.Build.Editor.IBuildSystemWindowTab
+- uid: StansAssets.Build.Editor.BuildSystemPackage
+  commentId: T:StansAssets.Build.Editor.BuildSystemPackage
+  name: BuildSystemPackage
+  nameWithType: BuildSystemPackage
+  fullName: StansAssets.Build.Editor.BuildSystemPackage

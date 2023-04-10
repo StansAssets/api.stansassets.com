@@ -489,6 +489,64 @@ already contains <a class="xref" href="StansAssets.Foundation.Editor.ScopeRegist
   </table>
   
   
+  <a id="StansAssets_Foundation_Editor_Manifest_RemoveDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.RemoveDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_RemoveDependency_StansAssets_Foundation_Editor_Dependency_" data-uid="StansAssets.Foundation.Editor.Manifest.RemoveDependency(StansAssets.Foundation.Editor.Dependency)">RemoveDependency(Dependency)</h4>
+  <div class="markdown level1 summary"><p>Removes the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> from current manifest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDependency(Dependency dependency)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
+        <td><span class="parametername">dependency</span></td>
+        <td><p>The <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Manifest_RemoveDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.RemoveDependency*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Manifest_RemoveDependency_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.RemoveDependency(System.String)">RemoveDependency(String)</h4>
+  <div class="markdown level1 summary"><p>Removes the <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with the specified name from current manifest.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveDependency(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StansAssets_Foundation_Editor_Manifest_SetDependency_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency*"></a>
   <h4 id="StansAssets_Foundation_Editor_Manifest_SetDependency_System_String_" data-uid="StansAssets.Foundation.Editor.Manifest.SetDependency(System.String)">SetDependency(String)</h4>
   <div class="markdown level1 summary"><p>Sets <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> by given full name. If manifest already contains <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name,
@@ -596,22 +654,6 @@ will be placed into the <a class="xref" href="StansAssets.Foundation.Editor.Mani
       <tr>
         <td><a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a></td>
         <td><p>New or existing <a class="xref" href="StansAssets.Foundation.Editor.Dependency.html">Dependency</a> with given name.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArgumentException</span></td>
-        <td><p>Thrown when dependency fullName has wrong format</p>
 </td>
       </tr>
     </tbody>

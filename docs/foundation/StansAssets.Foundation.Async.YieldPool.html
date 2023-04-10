@@ -71,7 +71,8 @@
   
   <h1 id="StansAssets_Foundation_Async_YieldPool" data-uid="StansAssets.Foundation.Async.YieldPool" class="text-break">Class YieldPool
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Stores a pool of coroutines.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -112,8 +113,96 @@
   </h3>
   
   
+  <a id="StansAssets_Foundation_Async_YieldPool_WaitForSeconds_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitForSeconds*"></a>
+  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitForSeconds_System_Single_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitForSeconds(System.Single)">WaitForSeconds(Single)</h4>
+  <div class="markdown level1 summary"><p>Wait for a given number of seconds using scaled time.
+<param name="seconds">Delay execution by the amount of time in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WaitForSecondsPooled WaitForSeconds(float seconds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">seconds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Async.WaitForSecondsPooled.html">WaitForSecondsPooled</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Async_YieldPool_WaitForSecondsRealtime_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitForSecondsRealtime*"></a>
+  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitForSecondsRealtime_System_Single_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitForSecondsRealtime(System.Single)">WaitForSecondsRealtime(Single)</h4>
+  <div class="markdown level1 summary"><p>Wait for a given number of seconds using realtime.
+<param name="seconds">Delay execution by the amount of time in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WaitForSecondsRealtimePooled WaitForSecondsRealtime(float seconds)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">seconds</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="StansAssets.Foundation.Async.WaitForSecondsRealtimePooled.html">WaitForSecondsRealtimePooled</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="StansAssets_Foundation_Async_YieldPool_WaitUntil_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitUntil*"></a>
-  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitUntil_System_Func_System_Boolean__" data-uid="StansAssets.Foundation.Async.YieldPool.WaitUntil(System.Func{System.Boolean})">WaitUntil(Func&lt;Boolean&gt;)</h4>
+  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitUntil_Func_System_Boolean__" data-uid="StansAssets.Foundation.Async.YieldPool.WaitUntil(Func{System.Boolean})">WaitUntil(Func&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Suspends the coroutine execution until the supplied delegate evaluates to false.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -132,7 +221,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td></td>
       </tr>
@@ -156,7 +245,7 @@
   
   
   <a id="StansAssets_Foundation_Async_YieldPool_WaitWhile_" data-uid="StansAssets.Foundation.Async.YieldPool.WaitWhile*"></a>
-  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitWhile_System_Func_System_Boolean__" data-uid="StansAssets.Foundation.Async.YieldPool.WaitWhile(System.Func{System.Boolean})">WaitWhile(Func&lt;Boolean&gt;)</h4>
+  <h4 id="StansAssets_Foundation_Async_YieldPool_WaitWhile_Func_System_Boolean__" data-uid="StansAssets.Foundation.Async.YieldPool.WaitWhile(Func{System.Boolean})">WaitWhile(Func&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Suspends the coroutine execution until the supplied delegate evaluates to true.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -175,7 +264,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td></td>
       </tr>

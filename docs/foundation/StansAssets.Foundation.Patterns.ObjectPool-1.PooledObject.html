@@ -83,8 +83,8 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <div class="markdown level0 conceptual"></div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><span class="xref">System.IDisposable</span></div>
-    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool.PooledObject</a>&lt;&gt;&gt;</div>
+    <div><span class="xref">IDisposable</span></div>
+    <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html">ObjectPool.PooledObject</a>&lt;&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,7 +105,7 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly struct PooledObject : IDisposable, IEquatable&lt;ObjectPool&lt;T&gt;.PooledObject&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly struct PooledObject</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -257,24 +257,12 @@ using(myPool.Get(out myInstance)) // When leaving the scope myInstance will be r
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">System.ValueType.GetHashCode()</span></div>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_PooledObject_System_IDisposable_Dispose" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.PooledObject.System#IDisposable#Dispose">IDisposable.Dispose()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">readonly void IDisposable.Dispose()</code></pre>
-  </div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">System.IDisposable</span>
+      <span class="xref">IDisposable</span>
   </div>
   <div>
-      <span class="xref">System.IEquatable&lt;T&gt;</span>
+      <span class="xref">IEquatable&lt;&gt;</span>
   </div>
 </article>
           </div>

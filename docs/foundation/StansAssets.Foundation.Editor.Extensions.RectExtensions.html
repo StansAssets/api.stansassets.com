@@ -1,0 +1,939 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RectExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RectExtensions
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" src="../images/logo_rect_blue.png" height="46" width="46" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions">
+  
+  
+  <h1 id="StansAssets_Foundation_Editor_Extensions_RectExtensions" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions" class="text-break">Class RectExtensions
+  </h1>
+  <div class="markdown level0 summary"><p><see cref="!:UnityEngine.Rect"></see> extension methods.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">RectExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="StansAssets.Foundation.Editor.Extensions.html">StansAssets.Foundation.Editor.Extensions</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class RectExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Above_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Above*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Above_Rect_Rect_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Above(Rect,Rect)">Above(Rect, Rect)</h4>
+  <div class="markdown level1 summary"><p>Positions the <see cref="!:UnityEngine.Rect"></see> vertically above the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Above(this Rect this, Rect other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><see cref="!:UnityEngine.Rect"></see> which will be used as a relative for positioning.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with updated position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddHeight_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddHeight*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddHeight_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddHeight(Rect,System.Single)">AddHeight(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Extends <see cref="!:UnityEngine.Rect"></see> height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect AddHeight(this Rect this, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>Additional height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with extended height.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddSize_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddSize*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddSize_Rect_Vector2_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddSize(Rect,Vector2)">AddSize(Rect, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Extends <see cref="!:UnityEngine.Rect"></see> size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect AddSize(this Rect this, Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Additional size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with extended size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddWidth_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddWidth*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_AddWidth_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.AddWidth(Rect,System.Single)">AddWidth(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Extends <see cref="!:UnityEngine.Rect"></see> width.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect AddWidth(this Rect this, float width)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Additional width.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with extended width.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Below_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Below*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Below_Rect_Rect_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Below(Rect,Rect)">Below(Rect, Rect)</h4>
+  <div class="markdown level1 summary"><p>Positions the <see cref="!:UnityEngine.Rect"></see> vertically below the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Below(this Rect this, Rect other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><see cref="!:UnityEngine.Rect"></see> which will be used as a relative for positioning.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with updated position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_LeftOf_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.LeftOf*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_LeftOf_Rect_Rect_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.LeftOf(Rect,Rect)">LeftOf(Rect, Rect)</h4>
+  <div class="markdown level1 summary"><p>Positions the <see cref="!:UnityEngine.Rect"></see> horizontally on the left side of the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect LeftOf(this Rect this, Rect other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><see cref="!:UnityEngine.Rect"></see> which will be used as a relative for positioning.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with updated position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Pad_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Pad*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Pad_Rect_System_Single_System_Single_System_Single_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Pad(Rect,System.Single,System.Single,System.Single,System.Single)">Pad(Rect, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Applies padding to the <see cref="!:UnityEngine.Rect"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Pad(this Rect this, float left, float top, float right, float bottom)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>Left-side padding.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">top</span></td>
+        <td><p>Top-side padding.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>Right-side padding.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottom</span></td>
+        <td><p>Bottom-side padding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with applied padding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_PadSides_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.PadSides*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_PadSides_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.PadSides(Rect,System.Single)">PadSides(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Applies unified padding from each side to the <see cref="!:UnityEngine.Rect"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect PadSides(this Rect this, float padding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">padding</span></td>
+        <td><p>Unified padding value (will be applied to left, top, right, bottom sides accordingly).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with applied padding.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_RightOf_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.RightOf*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_RightOf_Rect_Rect_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.RightOf(Rect,Rect)">RightOf(Rect, Rect)</h4>
+  <div class="markdown level1 summary"><p>Positions the <see cref="!:UnityEngine.Rect"></see> horizontally on the right side of the <code data-dev-comment-type="paramref" class="paramref">other</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect RightOf(this Rect this, Rect other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">other</span></td>
+        <td><p><see cref="!:UnityEngine.Rect"></see> which will be used as a relative for positioning.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with updated position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_ShiftHorizontally_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.ShiftHorizontally*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_ShiftHorizontally_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.ShiftHorizontally(Rect,System.Single)">ShiftHorizontally(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Shifts <see cref="!:UnityEngine.Rect"></see> horizontally (alongside X axis).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect ShiftHorizontally(this Rect this, float offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Horizontal offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with the given horizontal <code data-dev-comment-type="paramref" class="paramref">offset</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_ShiftVertically_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.ShiftVertically*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_ShiftVertically_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.ShiftVertically(Rect,System.Single)">ShiftVertically(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Shifts <see cref="!:UnityEngine.Rect"></see> vertically (alongside Y axis).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect ShiftVertically(this Rect this, float offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Vertical offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with the given vertical <code data-dev-comment-type="paramref" class="paramref">offset</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Translate_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Translate*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_Translate_Rect_System_Single_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.Translate(Rect,System.Single,System.Single)">Translate(Rect, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Moves the <see cref="!:UnityEngine.Rect"></see> by <code data-dev-comment-type="paramref" class="paramref">x</code> along the X axis, <code data-dev-comment-type="paramref" class="paramref">y</code> along the Y axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect Translate(this Rect this, float x, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>X-axis movement distance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td><p>Y-axis movement distance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with applied translation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithHeight_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithHeight*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithHeight_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithHeight(Rect,System.Single)">WithHeight(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets <see cref="!:UnityEngine.Rect"></see> height.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect WithHeight(this Rect this, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td><p>New height of the <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with the given <code data-dev-comment-type="paramref" class="paramref">height</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithSize_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithSize*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithSize_Rect_Vector2_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithSize(Rect,Vector2)">WithSize(Rect, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Sets <see cref="!:UnityEngine.Rect"></see> size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect WithSize(this Rect this, Vector2 size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>New size of the <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with the given <code data-dev-comment-type="paramref" class="paramref">size</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithWidth_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithWidth*"></a>
+  <h4 id="StansAssets_Foundation_Editor_Extensions_RectExtensions_WithWidth_Rect_System_Single_" data-uid="StansAssets.Foundation.Editor.Extensions.RectExtensions.WithWidth(Rect,System.Single)">WithWidth(Rect, Single)</h4>
+  <div class="markdown level1 summary"><p>Sets <see cref="!:UnityEngine.Rect"></see> width.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect WithWidth(this Rect this, float width)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><span class="parametername">this</span></td>
+        <td><p>The source <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>New width of the <see cref="!:UnityEngine.Rect"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Rect</span></td>
+        <td><p>New <see cref="!:UnityEngine.Rect"></see> instance with the given <code data-dev-comment-type="paramref" class="paramref">width</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -114,13 +114,13 @@
   
   
   <a id="SA_Android_App_AN_TimePickerDialog__ctor_" data-uid="SA.Android.App.AN_TimePickerDialog.#ctor*"></a>
-  <h4 id="SA_Android_App_AN_TimePickerDialog__ctor_System_Int32_System_Int32_" data-uid="SA.Android.App.AN_TimePickerDialog.#ctor(System.Int32,System.Int32)">AN_TimePickerDialog(Int32, Int32)</h4>
+  <h4 id="SA_Android_App_AN_TimePickerDialog__ctor_System_Int32_System_Int32_System_Boolean_" data-uid="SA.Android.App.AN_TimePickerDialog.#ctor(System.Int32,System.Int32,System.Boolean)">AN_TimePickerDialog(Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Creates a new time picker dialog for the specified time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AN_TimePickerDialog(int hour, int minute)</code></pre>
+    <pre><code class="lang-csharp hljs">public AN_TimePickerDialog(int hour, int minute, bool wheelMode = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -135,13 +135,19 @@
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">hour</span></td>
-        <td><p>the initially selected hour 0-23.</p>
+        <td><p>the initially selected hour.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">minute</span></td>
-        <td><p>the initially selected minute 0-59.</p>
+        <td><p>the initially selected minute</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">wheelMode</span></td>
+        <td><p>(optional) change the view of the widget</p>
 </td>
       </tr>
     </tbody>
