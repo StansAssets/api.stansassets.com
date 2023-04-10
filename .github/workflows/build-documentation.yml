@@ -85,7 +85,7 @@ jobs:
     
     # Build docs
     - name: Build docs
-      run:  mono .docfx/docfx.exe api.stansassets.com/docfx-project/docfx.json
+      run:  mono .docfx/docfx api.stansassets.com/docfx-project/docfx.json
     
      # Commit and push
     - name: Commit and push
