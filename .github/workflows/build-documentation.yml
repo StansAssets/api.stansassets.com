@@ -80,12 +80,12 @@ jobs:
     
     - name: Get docfx
       run: |
-        curl -L https://github.com/dotnet/docfx/releases/download/2.65.1/docfx-linux-x64-2.65.1.zip -o docfx-linux-x64-2.65.1.zip
-        unzip -d .docfx docfx-linux-x64-2.65.1.zip
+        curl -L https://github.com/dotnet/docfx/releases/download/2.65.1/docfx-win-x64-2.65.1.zip -o docfx-win-x64-2.65.1.zip
+        unzip -d .docfx docfx-win-x64-2.65.1.zip
     
     # Build docs
     - name: Build docs
-      run:  mono .docfx/docfx api.stansassets.com/docfx-project/docfx.json
+      run:  mono .docfx/docfx.exe api.stansassets.com/docfx-project/docfx.json
     
      # Commit and push
     - name: Commit and push
