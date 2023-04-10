@@ -72,11 +72,11 @@ jobs:
         mv api.stansassets.com/CNAME api.stansassets.com/docs/
     
     # Setup mono software
-    #- name: Get mono
-    #  run: |
-    #    echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
-    #    sudo apt-get update
-    #    sudo apt-get install mono-complete --yes
+    - name: Get mono
+      run: |
+        echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+        sudo apt-get update
+        sudo apt-get install mono-complete --yes
     
     #- name: Get docfx
     #  run: |
