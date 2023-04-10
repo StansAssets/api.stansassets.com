@@ -72,20 +72,28 @@ jobs:
         mv api.stansassets.com/CNAME api.stansassets.com/docs/
     
     # Setup mono software
-    - name: Get mono
-      run: |
-        echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
-        sudo apt-get update
-        sudo apt-get install mono-complete --yes
+    #- name: Get mono
+    #  run: |
+    #    echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+    #    sudo apt-get update
+    #    sudo apt-get install mono-complete --yes
     
-    - name: Get docfx
-      run: |
-        curl -L https://github.com/dotnet/docfx/releases/download/2.65.1/docfx-win-x64-2.65.1.zip -o docfx-win-x64-2.65.1.zip
-        unzip -d .docfx docfx-win-x64-2.65.1.zip
+    #- name: Get docfx
+    #  run: |
+    #    curl -L https://github.com/dotnet/docfx/releases/download/2.65.1/docfx-win-x64-2.65.1.zip -o docfx-win-x64-2.65.1.zip
+    #    unzip -d .docfx docfx-win-x64-2.65.1.zip
     
     # Build docs
-    - name: Build docs
-      run:  mono .docfx/docfx.exe api.stansassets.com/docfx-project/docfx.json
+    #- name: Build docs
+    #  run:  mono .docfx/docfx.exe api.stansassets.com/docfx-project/docfx.json
+    
+    - name: Dotnet Setup
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 7.x
+
+    - run: dotnet tool update -g docfx
+    - run: docfx api.stansassets.com/docfx-project/docfx.json
     
      # Commit and push
     - name: Commit and push
