@@ -109,6 +109,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ReflectionUtility</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="StansAssets_Foundation_ReflectionUtility_BuiltInAssemblyPrefixes" data-uid="StansAssets.Foundation.ReflectionUtility.BuiltInAssemblyPrefixes">BuiltInAssemblyPrefixes</h4>
+  <div class="markdown level1 summary"><p>Collection of predefined built-in assembly prefixes. <code>Mono.</code>, <code>UnityEditor.</code>, <code>Unity.</code>, <code>UnityEngine</code>, <code>System</code> and <code>mscorlib</code> prefixes included.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly string[] BuiltInAssemblyPrefixes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -159,13 +186,13 @@
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,System.Boolean)">FindImplementationsOf(Type, Boolean)</h4>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,IEnumerable{System.String})">FindImplementationsOf(Type, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Searched for the implementations of the <span class="xref">System.Type</span> specified with <code data-dev-comment-type="paramref" class="paramref">baseType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf(Type baseType, bool ignoreBuiltIn = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf(Type baseType, IEnumerable&lt;string&gt; ignoreAssemblyPrefixes = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,9 +211,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreBuiltIn</span></td>
-        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">ignoreAssemblyPrefixes</span></td>
+        <td><p>Collection of assembly prefixes to skip. The <span class="xref">System.Reflection.Assembly</span> will be ignored if its name <em><strong>starts with</strong></em> one of these prefixes.</p>
 </td>
       </tr>
     </tbody>
@@ -210,13 +237,13 @@
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(System.Boolean)">FindImplementationsOf&lt;T&gt;(Boolean)</h4>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(IEnumerable{System.String})">FindImplementationsOf&lt;T&gt;(IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Searched for the implementations of the <span class="xref">System.Type</span> specified with <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf&lt;T&gt;(bool ignoreBuiltIn = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Type&gt; FindImplementationsOf&lt;T&gt;(IEnumerable&lt;string&gt; ignoreAssemblyPrefixes = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -229,9 +256,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreBuiltIn</span></td>
-        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">ignoreAssemblyPrefixes</span></td>
+        <td><p>Collection of assembly prefixes to skip. The <span class="xref">System.Reflection.Assembly</span> will be ignored if its name <em><strong>starts with</strong></em> one of these prefixes.</p>
 </td>
       </tr>
     </tbody>
@@ -271,13 +298,13 @@
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes_" data-uid="StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes__1_BindingFlags_System_Boolean_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,System.Boolean)">FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags, Boolean, Boolean)</h4>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes__1_BindingFlags_System_Boolean_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,IEnumerable{System.String})">FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags, Boolean, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Searches for the methods with custom attribute of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MethodInfo&gt; FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags methodBindingFlags = null, bool inherit = true, bool ignoreBuiltIn = false)
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;MethodInfo&gt; FindMethodsWithCustomAttributes&lt;T&gt;(BindingFlags methodBindingFlags = null, bool inherit = true, IEnumerable&lt;string&gt; ignoreAssemblyPrefixes = null)
     where T : Attribute</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -303,9 +330,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreBuiltIn</span></td>
-        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">ignoreAssemblyPrefixes</span></td>
+        <td><p>Collection of assembly prefixes to skip. The <span class="xref">System.Reflection.Assembly</span> will be ignored if its name <em><strong>starts with</strong></em> one of these prefixes.</p>
 </td>
       </tr>
     </tbody>
@@ -390,13 +417,13 @@
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_GetAssemblies_" data-uid="StansAssets.Foundation.ReflectionUtility.GetAssemblies*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_GetAssemblies_System_Boolean_" data-uid="StansAssets.Foundation.ReflectionUtility.GetAssemblies(System.Boolean)">GetAssemblies(Boolean)</h4>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_GetAssemblies_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.GetAssemblies(IEnumerable{System.String})">GetAssemblies(IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets the assemblies that have been loaded into the execution context of this application domain.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Assembly&gt; GetAssemblies(bool ignoreBuiltIn = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;Assembly&gt; GetAssemblies(IEnumerable&lt;string&gt; ignoreAssemblyPrefixes = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -409,9 +436,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">ignoreBuiltIn</span></td>
-        <td><p><code>true</code> if the built-in assemblies have to be skipped. If set to <code>false</code>, no assemblies will be skipped.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">ignoreAssemblyPrefixes</span></td>
+        <td><p>Collection of assembly prefixes to skip. The <span class="xref">System.Reflection.Assembly</span> will be ignored if its name <em><strong>starts with</strong></em> one of these prefixes.</p>
 </td>
       </tr>
     </tbody>

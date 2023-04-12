@@ -37002,6 +37002,12 @@ references:
   commentId: T:StansAssets.Foundation.ReflectionUtility
   fullName: StansAssets.Foundation.ReflectionUtility
   nameWithType: ReflectionUtility
+- uid: StansAssets.Foundation.ReflectionUtility.BuiltInAssemblyPrefixes
+  name: BuiltInAssemblyPrefixes
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_BuiltInAssemblyPrefixes
+  commentId: F:StansAssets.Foundation.ReflectionUtility.BuiltInAssemblyPrefixes
+  fullName: StansAssets.Foundation.ReflectionUtility.BuiltInAssemblyPrefixes
+  nameWithType: ReflectionUtility.BuiltInAssemblyPrefixes
 - uid: StansAssets.Foundation.ReflectionUtility.CreateInstance(System.String)
   name: CreateInstance(String)
   href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_CreateInstance_System_String_
@@ -37015,12 +37021,15 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.CreateInstance
   nameWithType: ReflectionUtility.CreateInstance
-- uid: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,System.Boolean)
-  name: FindImplementationsOf(Type, Boolean)
-  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_System_Boolean_
-  commentId: M:StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,System.Boolean)
-  fullName: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type, System.Boolean)
-  nameWithType: ReflectionUtility.FindImplementationsOf(Type, Boolean)
+- uid: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,IEnumerable{System.String})
+  name: FindImplementationsOf(Type, IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,IEnumerable{System.String})
+  name.vb: FindImplementationsOf(Type, IEnumerable(Of String))
+  fullName: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type, IEnumerable(Of System.String))
+  nameWithType: ReflectionUtility.FindImplementationsOf(Type, IEnumerable<String>)
+  nameWithType.vb: ReflectionUtility.FindImplementationsOf(Type, IEnumerable(Of String))
 - uid: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*
   name: FindImplementationsOf
   href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_
@@ -37028,15 +37037,15 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf
   nameWithType: ReflectionUtility.FindImplementationsOf
-- uid: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(System.Boolean)
-  name: FindImplementationsOf<T>(Boolean)
-  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1_System_Boolean_
-  commentId: M:StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(System.Boolean)
-  name.vb: FindImplementationsOf(Of T)(Boolean)
-  fullName: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf<T>(System.Boolean)
-  fullName.vb: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Of T)(System.Boolean)
-  nameWithType: ReflectionUtility.FindImplementationsOf<T>(Boolean)
-  nameWithType.vb: ReflectionUtility.FindImplementationsOf(Of T)(Boolean)
+- uid: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(IEnumerable{System.String})
+  name: FindImplementationsOf<T>(IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindImplementationsOf__1_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.ReflectionUtility.FindImplementationsOf``1(IEnumerable{System.String})
+  name.vb: FindImplementationsOf(Of T)(IEnumerable(Of String))
+  fullName: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf<T>(IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Of T)(IEnumerable(Of System.String))
+  nameWithType: ReflectionUtility.FindImplementationsOf<T>(IEnumerable<String>)
+  nameWithType.vb: ReflectionUtility.FindImplementationsOf(Of T)(IEnumerable(Of String))
 - uid: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes*
   name: FindMethodsWithCustomAttributes
   href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes_
@@ -37044,15 +37053,15 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes
   nameWithType: ReflectionUtility.FindMethodsWithCustomAttributes
-- uid: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,System.Boolean)
-  name: FindMethodsWithCustomAttributes<T>(BindingFlags, Boolean, Boolean)
-  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes__1_BindingFlags_System_Boolean_System_Boolean_
-  commentId: M:StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,System.Boolean)
-  name.vb: FindMethodsWithCustomAttributes(Of T)(BindingFlags, Boolean, Boolean)
-  fullName: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes<T>(BindingFlags, System.Boolean, System.Boolean)
-  fullName.vb: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes(Of T)(BindingFlags, System.Boolean, System.Boolean)
-  nameWithType: ReflectionUtility.FindMethodsWithCustomAttributes<T>(BindingFlags, Boolean, Boolean)
-  nameWithType.vb: ReflectionUtility.FindMethodsWithCustomAttributes(Of T)(BindingFlags, Boolean, Boolean)
+- uid: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,IEnumerable{System.String})
+  name: FindMethodsWithCustomAttributes<T>(BindingFlags, Boolean, IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindMethodsWithCustomAttributes__1_BindingFlags_System_Boolean_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes``1(BindingFlags,System.Boolean,IEnumerable{System.String})
+  name.vb: FindMethodsWithCustomAttributes(Of T)(BindingFlags, Boolean, IEnumerable(Of String))
+  fullName: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes<T>(BindingFlags, System.Boolean, IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.ReflectionUtility.FindMethodsWithCustomAttributes(Of T)(BindingFlags, System.Boolean, IEnumerable(Of System.String))
+  nameWithType: ReflectionUtility.FindMethodsWithCustomAttributes<T>(BindingFlags, Boolean, IEnumerable<String>)
+  nameWithType.vb: ReflectionUtility.FindMethodsWithCustomAttributes(Of T)(BindingFlags, Boolean, IEnumerable(Of String))
 - uid: StansAssets.Foundation.ReflectionUtility.FindType(System.String)
   name: FindType(String)
   href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_FindType_System_String_
@@ -37066,12 +37075,15 @@ references:
   isSpec: "True"
   fullName: StansAssets.Foundation.ReflectionUtility.FindType
   nameWithType: ReflectionUtility.FindType
-- uid: StansAssets.Foundation.ReflectionUtility.GetAssemblies(System.Boolean)
-  name: GetAssemblies(Boolean)
-  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_GetAssemblies_System_Boolean_
-  commentId: M:StansAssets.Foundation.ReflectionUtility.GetAssemblies(System.Boolean)
-  fullName: StansAssets.Foundation.ReflectionUtility.GetAssemblies(System.Boolean)
-  nameWithType: ReflectionUtility.GetAssemblies(Boolean)
+- uid: StansAssets.Foundation.ReflectionUtility.GetAssemblies(IEnumerable{System.String})
+  name: GetAssemblies(IEnumerable<String>)
+  href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_GetAssemblies_IEnumerable_System_String__
+  commentId: M:StansAssets.Foundation.ReflectionUtility.GetAssemblies(IEnumerable{System.String})
+  name.vb: GetAssemblies(IEnumerable(Of String))
+  fullName: StansAssets.Foundation.ReflectionUtility.GetAssemblies(IEnumerable<System.String>)
+  fullName.vb: StansAssets.Foundation.ReflectionUtility.GetAssemblies(IEnumerable(Of System.String))
+  nameWithType: ReflectionUtility.GetAssemblies(IEnumerable<String>)
+  nameWithType.vb: ReflectionUtility.GetAssemblies(IEnumerable(Of String))
 - uid: StansAssets.Foundation.ReflectionUtility.GetAssemblies*
   name: GetAssemblies
   href: foundation/StansAssets.Foundation.ReflectionUtility.html#StansAssets_Foundation_ReflectionUtility_GetAssemblies_
