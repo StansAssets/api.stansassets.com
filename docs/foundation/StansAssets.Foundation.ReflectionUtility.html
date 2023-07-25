@@ -183,10 +183,31 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">typeFullName</code> parameter is <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p><span class="xref">System.Type</span> specified with <code data-dev-comment-type="paramref" class="paramref">typeFullName</code> doesn&apos;t have default parameterless constructor.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf*"></a>
-  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_Type_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(Type,IEnumerable{System.String})">FindImplementationsOf(Type, IEnumerable&lt;String&gt;)</h4>
+  <h4 id="StansAssets_Foundation_ReflectionUtility_FindImplementationsOf_System_Type_IEnumerable_System_String__" data-uid="StansAssets.Foundation.ReflectionUtility.FindImplementationsOf(System.Type,IEnumerable{System.String})">FindImplementationsOf(Type, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Searched for the implementations of the <span class="xref">System.Type</span> specified with <code data-dev-comment-type="paramref" class="paramref">baseType</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -205,7 +226,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">baseType</span></td>
         <td><p>Specifies the <span class="xref">System.Type</span> whose implementations to search for.</p>
 </td>
@@ -228,8 +249,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
         <td><p>A collection of <span class="xref">System.Type</span> objects that are implementations of <code data-dev-comment-type="paramref" class="paramref">baseType</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseType</code> parameter is <code>null</code>.</p>
 </td>
       </tr>
     </tbody>
@@ -273,7 +310,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">Type</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.Type</span>&gt;</td>
         <td><p>A collection of <span class="xref">System.Type</span> objects that are implementations of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
 </td>
       </tr>
@@ -408,8 +445,29 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><p><span class="xref">System.Type</span> object found via specified <code data-dev-comment-type="paramref" class="paramref">typeFullName</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">typeFullName</code> parameter is <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>No types matching <code data-dev-comment-type="paramref" class="paramref">typeFullName</code> found in current application domain.</p>
 </td>
       </tr>
     </tbody>
@@ -516,6 +574,27 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">propName</code> parameter is <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Property specified with the <code data-dev-comment-type="paramref" class="paramref">propName</code> not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="StansAssets_Foundation_ReflectionUtility_SetPropertyValue_" data-uid="StansAssets.Foundation.ReflectionUtility.SetPropertyValue*"></a>
@@ -575,6 +654,27 @@
       <tr>
         <td><span class="parametername">T</span></td>
         <td><p>Specifies the <span class="xref">System.Type</span> of property value to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">propName</code> parameter is <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Property specified with the <code data-dev-comment-type="paramref" class="paramref">propName</code> not found.</p>
 </td>
       </tr>
     </tbody>

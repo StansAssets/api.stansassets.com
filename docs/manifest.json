@@ -3236,7 +3236,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.CoroutineUtility.html",
-          "hash": "IDWxk+MEUs1BJvRZ7PqKjNBuqcTNJ63PVFqJGm6ENV8="
+          "hash": "jW8ia7+vgpC5tgmt3G6VcEdMWw5QM01nG9n11HZXDgQ="
         }
       },
       "is_incremental": false,
@@ -3248,7 +3248,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.MainThreadDispatcher.html",
-          "hash": "cBgEKcpLb9jRWhbwTPNBzk0rhYYALssP7cSD+JsBlA0="
+          "hash": "BAWk3aWkSj+iGWA6PeHULjAEVgCKtuPLRAXsLkaHZDg="
         }
       },
       "is_incremental": false,
@@ -3260,7 +3260,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.MonoBehaviourCallback.html",
-          "hash": "DSvjTGsS5VrHzAhYNu4wFCrv2nJfQC3W+JMHAS5w78Q="
+          "hash": "+ziCnOpALRC/FfVyJPyDsK1gMvCJNwnRZCEVgCvflSE="
         }
       },
       "is_incremental": false,
@@ -3332,7 +3332,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.WaitUntilPooled.html",
-          "hash": "SjmihbMAEbORLTlJxVRtv4KQyTgES1uasDKeuFmZITk="
+          "hash": "Vc6JKuCmIMjHeyeH6qPZ3YEr5IessU8Uqe5St/Wb4mg="
         }
       },
       "is_incremental": false,
@@ -3344,7 +3344,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.WaitWhilePooled.html",
-          "hash": "yEPbzm6K4oYqHD429RlBMCPMo92cglllY843c8RlXtY="
+          "hash": "6Mhr3ghZUkef7LcYuEZEoui8WR7x6STGfR5Z5U1VRvY="
         }
       },
       "is_incremental": false,
@@ -3356,7 +3356,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Async.YieldPool.html",
-          "hash": "5VYFfkbWrOlZiUEhYcbWqzkWQClyrlTA3O243bx92v0="
+          "hash": "K4Mxa9kAhMGg47rYOGzMCr6/jhKSEzT3IS1fifuvzMU="
         }
       },
       "is_incremental": false,
@@ -3380,7 +3380,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Audio.AudioCenter.html",
-          "hash": "3M7cgsVu7dQwOFWs1Znx3aBBqEH/DMq6egfAWw+uVvs="
+          "hash": "6nHmGaYGj+gTm2vLsVdvla69oukuAqw7YEHEZd7vR4w="
         }
       },
       "is_incremental": false,
@@ -3416,7 +3416,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.CachedWebRequest.html",
-          "hash": "GI4sKqng1mxCoXMm83hZURlnGkt0by3CayH+ExilwRQ="
+          "hash": "/kPB9Vm1z6V5eU0EvDziKbhVgRR0t0+jFXTlc5wyGJU="
         }
       },
       "is_incremental": false,
@@ -3440,7 +3440,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.AssetDatabaseUtility.html",
-          "hash": "t6ANIxJkzYWTKBczX1NzYfKltdDo0lBSSO0XOGYqbek="
+          "hash": "qLtKrQC58vHMRg1QOr8ZC4Y6cUugkwbmUFcQZoNFxUc="
         }
       },
       "is_incremental": false,
@@ -3512,7 +3512,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.EditorWebRequest.html",
-          "hash": "FeHdqKXgL4Ss/EdSLHVZ8k6GJp8KbmHOYi/6v9zMA0w="
+          "hash": "2V3fu4KWeRi9gWQUHFU6z7qGvX1yot4Skds+6no1fqU="
         }
       },
       "is_incremental": false,
@@ -3572,7 +3572,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.Manifest.html",
-          "hash": "zmaTeLkuIHpDe6TNW/SyZHFGsykfrFGwGSPm98KUAVM="
+          "hash": "cjdtpfbqib1pIDl20k/lg4GKmrg/uOM02fhMnUDzw+Y="
         }
       },
       "is_incremental": false,
@@ -3608,7 +3608,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Editor.SemanticVersion.html",
-          "hash": "iKJd5GnNZnN7VnrOUeKPWlD1Ia0cHbCjoF64529YMwQ="
+          "hash": "9XmcwbGi2UnCzqIfdBEKmh+otrnAByP8PQVXmlB7fv0="
         }
       },
       "is_incremental": false,
@@ -3692,7 +3692,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.DateTimeExtensions.html",
-          "hash": "8QhJtrm/LqVRu600MF/hUrumIHz+zp72dxqx7kqmgVI="
+          "hash": "HzefTkdEEnWAs5L5zodnimjwRY5TAfoPeAE/PkrPNiA="
         }
       },
       "is_incremental": false,
@@ -3716,7 +3716,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.ListExtensions.html",
-          "hash": "jdTvn3V+Znp5CLLvUmrGDG92Uu7BwA1ocW/q5nX1vJE="
+          "hash": "SW264lpgLu7ZLSF64rWyrJ/i4vJLRTc/IGMW8Qf83wE="
         }
       },
       "is_incremental": false,
@@ -3740,7 +3740,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.ObjectExtensions.html",
-          "hash": "clu1PaJOByrO/VbTolALM096ZcLVsdATlhYgddtYF8k="
+          "hash": "03SVimIcfNQAQT8COd+SvMPCgLosdL04YHyuIvVxSJo="
         }
       },
       "is_incremental": false,
@@ -3788,7 +3788,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.StringExtensions.html",
-          "hash": "V5I41NI9rhLQ+XHOs9sWSkUVhknnR7YLWAsIyWzeeaA="
+          "hash": "rbn0gqzwoqUYBJhB5oYKKAik1SG2VCttfcih6t+/ncg="
         }
       },
       "is_incremental": false,
@@ -3836,7 +3836,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.TypeExtensions.html",
-          "hash": "n72Qea7ZJUTow0qd3RMrJxZBbh80WkNcHcywmet2DsQ="
+          "hash": "GUTKyxv1hnAKU9U/DmWaQIpEkkz8303Na7Xjvgf5vYA="
         }
       },
       "is_incremental": false,
@@ -3872,7 +3872,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Extensions.html",
-          "hash": "uX8sTnsV6NyKpwm/IjslYFO25JtuT5OouseczDj8hxI="
+          "hash": "78b9z/yZ48HonshiB4UZxPSigE98c5ujYpMPFcEOC94="
         }
       },
       "is_incremental": false,
@@ -3932,7 +3932,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Models.Error.html",
-          "hash": "gVfZ8Wk7oiBoEcwcht8/NIbBz1ok1ECaT07tmwL/8AE="
+          "hash": "XwqaHXOBjvBtJA5L/f2mipOtbrpTlDWGajkoSWuvXUQ="
         }
       },
       "is_incremental": false,
@@ -3968,7 +3968,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Models.Result.html",
-          "hash": "gsoqq6V+8/kSUEXPNn5GsGQQgaScW+PwE3aoJTk1TyE="
+          "hash": "OkjGsvvD8jXiWTrfdqILOFWQfJuuRlS42leY7ba/y8E="
         }
       },
       "is_incremental": false,
@@ -4028,7 +4028,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ComponentPool-1.html",
-          "hash": "O4T+UiW1AiQaRUgtBmRbXR3bp3a8fM1URMN7tlcSfTU="
+          "hash": "H9QkH1TyuoyROj33Okz3lonJ7uBd+lYyNG1cVbMbfeI="
         }
       },
       "is_incremental": false,
@@ -4040,7 +4040,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.DefaultPool-1.html",
-          "hash": "ZiUKRDadJ829CdowkBuKZghZBSt2LmXeVjkFe5CpcjQ="
+          "hash": "kLQkT3eDMG6XvDWhH0SCVBCo6v9ZPcNTYZqRODdyt2U="
         }
       },
       "is_incremental": false,
@@ -4064,7 +4064,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.EventBus.html",
-          "hash": "9WlCY2xnUD3LfE/NDyBdW/FdppDVsVnuTchTLb6+pfA="
+          "hash": "btwogtdNTyjMGRWr5D6xNV/p3B3NpwEyo3jikTAAlds="
         }
       },
       "is_incremental": false,
@@ -4088,7 +4088,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.IEventBus.html",
-          "hash": "TSop3VqHhVDVrzyON+oXOZDOdfn954jXfAymr0SL2PE="
+          "hash": "+Ru0ZV51YV+eXP52wbVoKQRV3z3C8ujSVV78q8xdK0E="
         }
       },
       "is_incremental": false,
@@ -4100,7 +4100,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyEventBus.html",
-          "hash": "LewDuWDmEfy2EhGsMCnSc4iw1P2aKAYxneuK47b2HFE="
+          "hash": "qdsrzrqe6//ftiRAu/gdFpuvAbXkbINxLahM813ltmY="
         }
       },
       "is_incremental": false,
@@ -4112,7 +4112,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.IReadOnlyServiceLocator.html",
-          "hash": "9ssDrCWa37dyIxj5/69Od1PSsYwppl9DBndq4Zp7UNo="
+          "hash": "ZBTV4xsEu9H5UfK2aqTQeg8hjEbFrMfqlbLtwOWgLAc="
         }
       },
       "is_incremental": false,
@@ -4124,7 +4124,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.IServiceLocator.html",
-          "hash": "/m2oHw7jXF1tbMFN4OPQ3HX4qH+4ExTX/Vlur83eE0k="
+          "hash": "nSRxs6Fm1/5TvkusKpz7yqc2d2kS1lKc/qyUri9TLf0="
         }
       },
       "is_incremental": false,
@@ -4148,7 +4148,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.MonoSingleton-1.html",
-          "hash": "Wi+Y6FQMVJ+6PH3Fqa6IupE5hAm2IzEQofxniZ42XBg="
+          "hash": "VaJgMzOB5JnTreW1RUgM3GWAedIsIdunsiKU1lr5KNE="
         }
       },
       "is_incremental": false,
@@ -4160,7 +4160,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ObjectPool-1.PooledObject.html",
-          "hash": "08BhLaUr4lt2REwG2GBYEuhJNPrsp5QNs/4oJ+RWK/Y="
+          "hash": "9MnB6X1O1AQnEriwhsLU2C//s2gyHq0uV7UR1EMYSHE="
         }
       },
       "is_incremental": false,
@@ -4172,7 +4172,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ObjectPool-1.html",
-          "hash": "kQZ4FjA6D0H7XBnkrHTjmmfVPHA1C5eW/bS3EIdFLn4="
+          "hash": "tj42GyjgAYdodJN0ys/0/2M9HCwL6NQrJYq93RZsGe4="
         }
       },
       "is_incremental": false,
@@ -4184,7 +4184,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.PrefabPool.html",
-          "hash": "1YlvJx0tMwCsEdGzEJxIMm02hNFf5nc6cDJuCI1XcWM="
+          "hash": "l2zP9thwSjNXRXChQ7Oan0EVx6Rmgwga3U6QUhsc524="
         }
       },
       "is_incremental": false,
@@ -4196,7 +4196,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.ServiceLocator.html",
-          "hash": "SR74zPLEqRBaqsY7SrVWuek5jZu3X6p69+8bRz0VVwM="
+          "hash": "E2wJ+rUQdVFfPSVKHFgwZNRxEU05D0taM3Ftxll/+ZU="
         }
       },
       "is_incremental": false,
@@ -4220,7 +4220,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Patterns.StaticBus-1.html",
-          "hash": "CQr95yiunwd+Gl0bKn7Ijj1Renc3MYNMEQE3liW10ms="
+          "hash": "QBZOfljr/lS22/FiHCzINPaJVY05vwBdD+sPWwC6NSI="
         }
       },
       "is_incremental": false,
@@ -4256,7 +4256,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.ReflectionUtility.html",
-          "hash": "CF31lfsN50sV3BZvDDvOuxLpvq3TVwhOQZB2gwyJcBM="
+          "hash": "i0QnljpsLk+rk6eSyCULEVng42EpVpwqVtd8nWFct7k="
         }
       },
       "is_incremental": false,
@@ -4280,7 +4280,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.Texture2DUtility.html",
-          "hash": "Ct0/hdxBDSGBQio1vfHejcHr0qQVQWQ3KhtjVh3d9Vs="
+          "hash": "9BFZyMjyJGlIj6VHorQTmrbjdJdQaGXqmBiIMHJZwdA="
         }
       },
       "is_incremental": false,
@@ -4292,7 +4292,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.TimeUtility.html",
-          "hash": "opEu75B8pXJ6hKSh+yhBPWBXU4ilr3E/6qwfRDCNjGc="
+          "hash": "/oJG12kUKoKHI64uQjGM22S3R0ML/Qiaknm8t4o3JhQ="
         }
       },
       "is_incremental": false,
@@ -4304,7 +4304,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.TypeConversion.html",
-          "hash": "kekJtQrSMFhFwcPItm8A1cginIODpmsCmP1AKdw+b/8="
+          "hash": "lGJv+g7wvMRwhoQRACkKhK4aELB4h+Y10gx7JYZb4u0="
         }
       },
       "is_incremental": false,
@@ -4316,7 +4316,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.TypeConversionInstance.html",
-          "hash": "8kVHXecVXTrmaJ47RwZ1uJtZVCvQaF6jyaj5X4Zpsak="
+          "hash": "kF19tY6FT/gFSNl9qi0vUIXfL54hRBRZ/4uepOyfRuw="
         }
       },
       "is_incremental": false,
@@ -4328,7 +4328,7 @@
       "output": {
         ".html": {
           "relative_path": "foundation/StansAssets.Foundation.UIElements.PseudoStates.html",
-          "hash": "PhEQHQjHJvMRt0I3evku+99kaAY1F8KN6MGdIjJ3u5U="
+          "hash": "iQYwliPNgW/Noy+2PfNPgIgohIRmzQ2b8nwcquB1Bbc="
         }
       },
       "is_incremental": false,

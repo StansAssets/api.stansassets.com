@@ -134,7 +134,7 @@
   
   
   <a id="StansAssets_Foundation_Patterns_ObjectPool_1__ctor_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.#ctor*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1__ctor_Func__0__Action__0__Action__0__System_Boolean_System_Boolean_System_Int32_System_UInt32_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(Func{`0},Action{`0},Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)">ObjectPool(Func&lt;T&gt;, Action&lt;T&gt;, Action&lt;T&gt;, Boolean, Boolean, Int32, UInt32)</h4>
+  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1__ctor_System_Func__0__System_Action__0__System_Action__0__System_Boolean_System_Boolean_System_Int32_System_UInt32_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.#ctor(System.Func{`0},System.Action{`0},System.Action{`0},System.Boolean,System.Boolean,System.Int32,System.UInt32)">ObjectPool(Func&lt;T&gt;, Action&lt;T&gt;, Action&lt;T&gt;, Boolean, Boolean, Int32, UInt32)</h4>
   <div class="markdown level1 summary"><p>Creates a new ObjectPool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -153,19 +153,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;T&gt;</td>
         <td><span class="parametername">actionCreate</span></td>
         <td><p>Use to create a new instance when the pool is empty. In most cases this will just be <pre><code>() => new T()</code></pre></p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">actionOnGet</span></td>
         <td><p>Called when the instance is being taken from the pool.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
         <td><span class="parametername">actionOnRelease</span></td>
         <td><p>Called when the instance is being returned to the pool. This could be used to clean up or disable the instance.</p>
 </td>
@@ -421,7 +421,7 @@
   
   
   <a id="StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.TryGet*"></a>
-  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_Predicate__0___0__" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(Predicate{`0},`0@)">TryGet(Predicate&lt;T&gt;, out T)</h4>
+  <h4 id="StansAssets_Foundation_Patterns_ObjectPool_1_TryGet_System_Predicate__0___0__" data-uid="StansAssets.Foundation.Patterns.ObjectPool`1.TryGet(System.Predicate{`0},`0@)">TryGet(Predicate&lt;T&gt;, out T)</h4>
   <div class="markdown level1 summary"><p>Try to get an object in the pool.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -440,7 +440,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Predicate</span>&lt;T&gt;</td>
+        <td><span class="xref">System.Predicate</span>&lt;T&gt;</td>
         <td><span class="parametername">pred</span></td>
         <td><p>Search predicate.</p>
 </td>
